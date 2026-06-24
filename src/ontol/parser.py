@@ -97,7 +97,12 @@ class Parser(BaseParser):
         self.__ontology: Ontology = Ontology()
         self.__warnings: list[str] = []
 
-    def parse(self, file_content: str, file_path: str) -> tuple[Ontology, list[str]]:
+    def parse(
+        self,
+        file_content: str,
+        file_path: str,
+        import_stack: Optional[list[str]] = None,
+    ) -> tuple[Ontology, list[str]]:
         self.__warnings.clear()
 
         # FIX: fix EOF issue
@@ -106,6 +111,11 @@ class Parser(BaseParser):
         self.__lines: list[str] = file_content.splitlines()
         self.__file_path: str = file_path
         self.__ontology: Ontology = Ontology()
+
+        # Ordered chain of files currently being imported (for cycle detection).
+        # Includes the file being parsed right now as the last element.
+        self.__import_stack: list[str] = list(import_stack) if import_stack else []
+        self.__import_stack.append(self._import_key(file_path))
 
         lexer: Lexer = Lexer()
         tokens: list = lexer.tokenize(file_content)
@@ -241,6 +251,15 @@ class Parser(BaseParser):
         except AttributeError:
             return False
 
+    def _import_key(self, src: str) -> str:
+        """Canonical key for an import source (used for cycle detection).
+
+        URLs are kept as-is; local paths are normalised to an absolute path.
+        """
+        if self._validate_src(src):
+            return src
+        return os.path.normcase(os.path.abspath(src))
+
     def _add_definition_if_does_not_exist(
         self, definition: Term | Function | Relationship
     ) -> None:
@@ -314,8 +333,22 @@ class Parser(BaseParser):
                     )
                 )
 
+        import_key: str = self._import_key(file_path)
+        if import_key in self.__import_stack:
+            chain: str = ' -> '.join(
+                src if self._validate_src(src) else os.path.basename(src)
+                for src in self.__import_stack + [import_key]
+            )
+            raise ValueError(
+                self._get_exception_message(
+                    src_token,
+                    f'Circular import detected: {chain}',
+                    'error',
+                )
+            )
+
         parser: Parser = Parser()
-        ontology, warnings = parser.parse(content, file_path)
+        ontology, warnings = parser.parse(content, file_path, self.__import_stack)
         self.__warnings.extend(warnings)
 
         if import_tokens is not None:
@@ -367,6 +400,11 @@ class Parser(BaseParser):
                 self.__ontology.find_definition_by_name(definition.name)
             )
             if existing_definition is not None:
+                # Diamond import: the same definition reaching us through two
+                # different paths is harmless, so skip the duplicate. Only a
+                # genuinely different definition sharing the name is a conflict.
+                if existing_definition == definition:
+                    continue
                 raise ValueError(
                     self._get_exception_message(
                         exception_token,

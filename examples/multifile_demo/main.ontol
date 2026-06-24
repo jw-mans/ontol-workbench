@@ -1,0 +1,13 @@
+version: '1.0'
+title: 'Subsets'
+author: ''
+description: 'Demonstrates cross-file imports inside one project'
+
+import { set, element } from 'base.ontol'
+
+types:
+subset: 'Subset', '', { color: '#E6B8B7' }
+
+hierarchy:
+subset inheritance set
+element aggregation set, { leftChar: '*' }
