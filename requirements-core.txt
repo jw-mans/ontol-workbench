@@ -1,6 +1,9 @@
 # Core dependencies — parsing, visualization, CLI, web (Streamlit) and tests.
 # These do NOT include the optional AI (--gen-hierarchy) stack.
 # For the AI feature install requirements-ai.txt on top of these.
+# Базовые зависимости — парсинг, визуализация, CLI, веб (Streamlit) и тесты.
+# Опциональный AI-стек (--gen-hierarchy) сюда НЕ входит.
+# Для AI-фичи установите поверх этих зависимости из requirements-ai.txt.
 watchdog==3.0.0
 plantuml==0.3.0
 pytest==8.3.4

@@ -7,6 +7,16 @@ directory makes cross-file imports work for free — we only need to render the
 chosen entry file.
 
 This module is UI-agnostic: the Streamlit app (Этап 3) builds on top of it.
+
+Слой проектов для веб-ЛК Ontol.
+
+*Проект* — это каталог с несколькими ``.ontol``-файлами, которые могут импортировать
+друг друга. Поскольку парсер разрешает ``import ... from 'other.ontol'`` относительно
+каталога импортирующего файла на диске, хранение всех файлов проекта в одном реальном
+каталоге делает межфайловые импорты бесплатными — нам достаточно отрендерить выбранную
+точку входа.
+
+Модуль не зависит от UI: Streamlit-приложение (Этап 3) строится поверх него.
 """
 
 import os
@@ -22,7 +32,10 @@ ONTOL_EXT = '.ontol'
 
 
 def _check_flat_name(name: str, kind: str) -> None:
-    """Reject empty names and any path separators / traversal."""
+    """Reject empty names and any path separators / traversal.
+
+    Отклоняет пустые имена и любые разделители путей / выход за пределы каталога.
+    """
     if not name or name in ('.', '..') or name != os.path.basename(name):
         raise ValueError(f'Invalid {kind} name: {name!r}')
 
@@ -38,7 +51,10 @@ class RenderResult:
 
 
 class Project:
-    """A directory of ``.ontol`` files that may import one another."""
+    """A directory of ``.ontol`` files that may import one another.
+
+    Каталог из ``.ontol``-файлов, которые могут импортировать друг друга.
+    """
 
     def __init__(self, root: str) -> None:
         self.root: str = os.path.abspath(root)
@@ -83,6 +99,12 @@ def render_project(
     Imports referenced by *entry* are resolved against the project directory,
     so all sibling files must already be written to disk. Produces JSON, a
     PlantUML source and (best-effort, needs network) a PNG.
+
+    Рендерит точку входа *project* в каталог ``output_dir``.
+
+    Импорты, на которые ссылается *entry*, разрешаются относительно каталога
+    проекта, поэтому все соседние файлы уже должны быть записаны на диск. Создаёт
+    JSON, исходник PlantUML и (по возможности, нужна сеть) PNG.
     """
     entry_path = project.file_path(entry)
     base = os.path.splitext(entry)[0]
@@ -108,6 +130,7 @@ def render_project(
         plantuml.processes_puml_to_png(puml_path)
     except Exception as error:  # noqa: BLE001
         # PNG needs the PlantUML server; keep JSON/puml usable without it.
+        # PNG требует сервера PlantUML; JSON/puml оставляем рабочими без него.
         warnings.append(f'PNG rendering failed: {error}')
         png_path = None
 
@@ -121,7 +144,10 @@ def render_project(
 
 
 class ProjectStore:
-    """Manages projects as subdirectories of a single base directory."""
+    """Manages projects as subdirectories of a single base directory.
+
+    Управляет проектами как поддиректориями одного базового каталога.
+    """
 
     def __init__(self, base_dir: str) -> None:
         self.base_dir: str = os.path.abspath(base_dir)

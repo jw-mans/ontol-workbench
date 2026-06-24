@@ -67,6 +67,7 @@ def test_project_file_operations(tmp_path):
     assert 'subset' in project.read_file('main.ontol')
 
     # extension is added automatically
+    # расширение добавляется автоматически
     project.write_file('extra', 'types:\n')
     assert 'extra.ontol' in project.list_files()
 
@@ -85,7 +86,10 @@ def test_path_traversal_is_rejected(tmp_path):
 
 
 def test_cross_file_import_resolves(tmp_path):
-    """Imports between project files resolve against the project directory."""
+    """Imports between project files resolve against the project directory.
+
+    Импорты между файлами проекта разрешаются относительно каталога проекта.
+    """
     project = _make_project(tmp_path)
     content = project.read_file('main.ontol')
     ontology, _warnings = Parser().parse(content, project.file_path('main.ontol'))
@@ -108,6 +112,7 @@ def test_render_project_produces_json_and_puml(tmp_path):
     assert os.path.isfile(result.json_path)
     assert os.path.isfile(result.puml_path)
     # JSON reflects the imported term
+    # JSON отражает импортированный терм
     with open(result.json_path, encoding='utf-8') as f:
         assert 'subset' in f.read()
 
@@ -121,7 +126,10 @@ def test_render_reports_error_for_bad_file(tmp_path):
 
 
 def test_direct_circular_import_is_detected(tmp_path):
-    """a -> b -> a must raise a clear error, not RecursionError."""
+    """a -> b -> a must raise a clear error, not RecursionError.
+
+    a -> b -> a должно вызывать понятную ошибку, а не RecursionError.
+    """
     project = ProjectStore(str(tmp_path / 'projects')).create('cycle')
     project.write_file('a.ontol', "import * from 'b.ontol'\n\ntypes:\nx: 'X', ''\n")
     project.write_file('b.ontol', "import * from 'a.ontol'\n\ntypes:\ny: 'Y', ''\n")
@@ -155,6 +163,11 @@ def test_diamond_import_is_allowed(tmp_path):
 
     d is parsed via two distinct paths but is not part of a single import
     chain, so it must not be flagged as a circular import.
+
+    a импортирует b и c, оба импортируют (разные термы из) d.
+
+    d разбирается по двум разным путям, но не входит в одну цепочку импортов,
+    поэтому не должен помечаться как циклический импорт.
     """
     project = ProjectStore(str(tmp_path / 'projects')).create('diamond')
     project.write_file('d.ontol', "types:\nfoo: 'Foo', ''\nbar: 'Bar', ''\n")
@@ -173,7 +186,11 @@ def test_diamond_import_is_allowed(tmp_path):
 
 def test_diamond_import_same_term_is_deduplicated(tmp_path):
     """The *same* term reaching a file through two paths must be deduplicated,
-    not rejected as 'already declared'."""
+    not rejected as 'already declared'.
+
+    Один и тот же терм, пришедший в файл по двум путям, должен дедуплицироваться,
+    а не отвергаться как 'already declared'.
+    """
     project = ProjectStore(str(tmp_path / 'projects')).create('diamond_same')
     project.write_file('base.ontol', "types:\nset: 'Set', ''\n")
     project.write_file('b.ontol', "import { set } from 'base.ontol'\n")
@@ -190,7 +207,10 @@ def test_diamond_import_same_term_is_deduplicated(tmp_path):
 
 
 def test_conflicting_definitions_still_error(tmp_path):
-    """Two *different* definitions sharing a name remain a hard error."""
+    """Two *different* definitions sharing a name remain a hard error.
+
+    Два *разных* определения с одинаковым именем остаются жёсткой ошибкой.
+    """
     project = ProjectStore(str(tmp_path / 'projects')).create('conflict')
     project.write_file('one.ontol', "types:\nset: 'Set', ''\n")
     project.write_file('two.ontol', "types:\nset: 'OTHER', 'different'\n")

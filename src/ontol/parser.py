@@ -46,9 +46,11 @@ class Lexer(BaseLexer):
     }
 
     # String containing ignored characters (spaces and tabs)
+    # Строка с игнорируемыми символами (пробелы и табуляции)
     ignore: str = ' \t'
 
     # Regular expression rules for tokens
+    # Правила-регулярные выражения для токенов
     TYPES_BLOCK: str = r'\btypes\b'
     FUNCTIONS_BLOCK: str = r'\bfunctions\b'
     HIERARCHY_BLOCK: str = r'\bhierarchy\b'
@@ -74,12 +76,14 @@ class Lexer(BaseLexer):
     ignore_comment: str = r'\#.*'
 
     # Newline handling
+    # Обработка перевода строки
     @_(r'\n+')
     def NEWLINE(self, t):
         self.lineno += t.value.count('\n')
         return t
 
     # Strings handling
+    # Обработка строк
     def STRING(self, t):
         t.value = t.value[1:-1]  # Remove quotes
         return t
@@ -106,6 +110,7 @@ class Parser(BaseParser):
         self.__warnings.clear()
 
         # FIX: fix EOF issue
+        # FIX: исправление проблемы с EOF
         file_content += '\n'
 
         self.__lines: list[str] = file_content.splitlines()
@@ -114,6 +119,8 @@ class Parser(BaseParser):
 
         # Ordered chain of files currently being imported (for cycle detection).
         # Includes the file being parsed right now as the last element.
+        # Упорядоченная цепочка файлов, импортируемых в данный момент (для
+        # обнаружения циклов). Последним элементом — файл, разбираемый сейчас.
         self.__import_stack: list[str] = list(import_stack) if import_stack else []
         self.__import_stack.append(self._import_key(file_path))
 
@@ -255,6 +262,10 @@ class Parser(BaseParser):
         """Canonical key for an import source (used for cycle detection).
 
         URLs are kept as-is; local paths are normalised to an absolute path.
+
+        Канонический ключ источника импорта (используется для обнаружения циклов).
+
+        URL остаются как есть; локальные пути нормализуются к абсолютному пути.
         """
         if self._validate_src(src):
             return src
@@ -403,6 +414,9 @@ class Parser(BaseParser):
                 # Diamond import: the same definition reaching us through two
                 # different paths is harmless, so skip the duplicate. Only a
                 # genuinely different definition sharing the name is a conflict.
+                # Diamond-импорт: одно и то же определение, пришедшее по двум
+                # разным путям, безвредно — пропускаем дубль. Конфликтом считается
+                # только действительно другое определение с тем же именем.
                 if existing_definition == definition:
                     continue
                 raise ValueError(

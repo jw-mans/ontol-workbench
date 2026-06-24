@@ -18,7 +18,10 @@ warnings.filterwarnings('ignore')
 
 
 def _build_json_extractor():
-    """Lazily build the JsonExtractor Runnable (needs langchain at call time)."""
+    """Lazily build the JsonExtractor Runnable (needs langchain at call time).
+
+    Лениво создаёт Runnable JsonExtractor (langchain нужен в момент вызова).
+    """
     from langchain_core.runnables import Runnable, RunnableConfig
     from langchain_core.runnables.utils import Input
 
@@ -143,6 +146,8 @@ class AI:
     ) -> tuple[list[Relationship], list[str]]:
         # langchain is an optional, heavy dependency: import it only when the
         # AI-powered hierarchy generation is actually used.
+        # langchain — опциональная тяжёлая зависимость: импортируем её только
+        # когда реально используется AI-генерация иерархии.
         from langchain_community.llms import Ollama
         from langchain_core.output_parsers import PydanticOutputParser
         from langchain_core.prompts import PromptTemplate
