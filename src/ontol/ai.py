@@ -4,14 +4,6 @@ from typing import Literal, Optional, Any
 
 from pydantic import BaseModel, Field
 
-from langchain_community.llms import Ollama
-from langchain_core.runnables import Runnable, RunnableConfig
-from langchain_core.runnables.utils import Input
-from langchain_core.output_parsers import PydanticOutputParser
-from langchain.output_parsers import RetryOutputParser
-from langchain_core.prompts import PromptTemplate
-from langchain_core.runnables import RunnableLambda, RunnableParallel
-
 from ontol import (
     Ontology,
     Relationship,
@@ -25,18 +17,25 @@ from ontol import (
 warnings.filterwarnings('ignore')
 
 
-class JsonExtractor(Runnable):
-    json_pattern = r'\{.*\}'
+def _build_json_extractor():
+    """Lazily build the JsonExtractor Runnable (needs langchain at call time)."""
+    from langchain_core.runnables import Runnable, RunnableConfig
+    from langchain_core.runnables.utils import Input
 
-    def invoke(
-        self, input: Input, config: Optional[RunnableConfig] = None, **kwargs: Any
-    ) -> str:
-        matches = re.findall(JsonExtractor.json_pattern, input, re.DOTALL)
+    class JsonExtractor(Runnable):
+        json_pattern = r'\{.*\}'
 
-        if matches:
-            return matches[-1].strip().replace('\\\\', '\\')
+        def invoke(
+            self, input: Input, config: Optional[RunnableConfig] = None, **kwargs: Any
+        ) -> str:
+            matches = re.findall(JsonExtractor.json_pattern, input, re.DOTALL)
 
-        return input
+            if matches:
+                return matches[-1].strip().replace('\\\\', '\\')
+
+            return input
+
+    return JsonExtractor()
 
 
 class RelationshipSchema(BaseModel):
@@ -61,8 +60,6 @@ class HierarchyGenerationSchema(BaseModel):
         description='Given the UML classes names, labels and functions where they are used, provide possible class diagram relationships. Also provide short comment why chose this relationship.'
     )
 
-
-parser = PydanticOutputParser(pydantic_object=HierarchyGenerationSchema)
 
 template = """
 ### Instructions
@@ -100,13 +97,6 @@ Format Instructions:
 
 Your final output should be a JSON object listing all identified relationships. Return only this JSON object and nothing else.
 """
-
-prompt = PromptTemplate(
-    template=template,
-    input_variables=['classes', 'functions'],
-    partial_variables={'format_instructions': parser.get_format_instructions()},
-)
-
 
 class AI:
     def _format_string(self, string: str) -> str:
@@ -151,8 +141,23 @@ class AI:
     def generate_hierarchy(
         self, ontology: Ontology, model: str, temperature: float = 0.0
     ) -> tuple[list[Relationship], list[str]]:
+        # langchain is an optional, heavy dependency: import it only when the
+        # AI-powered hierarchy generation is actually used.
+        from langchain_community.llms import Ollama
+        from langchain_core.output_parsers import PydanticOutputParser
+        from langchain_core.prompts import PromptTemplate
+
+        parser = PydanticOutputParser(pydantic_object=HierarchyGenerationSchema)
+        prompt = PromptTemplate(
+            template=template,
+            input_variables=['classes', 'functions'],
+            partial_variables={
+                'format_instructions': parser.get_format_instructions()
+            },
+        )
+
         llm = Ollama(model=model, temperature=temperature)
-        chain = prompt | llm | JsonExtractor() | parser
+        chain = prompt | llm | _build_json_extractor() | parser
 
         relationships: list[Relationship] = []
         comments: list[str] = []

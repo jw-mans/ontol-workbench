@@ -1,0 +1,11 @@
+# Core dependencies — parsing, visualization, CLI, web (Streamlit) and tests.
+# These do NOT include the optional AI (--gen-hierarchy) stack.
+# For the AI feature install requirements-ai.txt on top of these.
+watchdog==3.0.0
+plantuml==0.3.0
+pytest==8.3.4
+six==1.17.0
+pytest-cov==6.0.0
+requests==2.32.3
+sly==0.5
+unidecode==1.3.8
