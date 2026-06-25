@@ -6,6 +6,7 @@ from typing import Optional
 
 from ontol import (
     Function,
+    FunctionArgument,
     Ontology,
     Relationship,
     Term,
@@ -225,22 +226,45 @@ class PlantUML:
     def _generate_type(self, term: Term) -> str:
         return f'class {term.name} {{\n  {term.description}\n}}'
 
-    # TODO: add comments to input and output types and add color for block
-    def _generate_function(self, function: Function) -> str:
-        inputs: str = ', '.join(map(lambda t: t.term.name, function.input_types))
-        outputs: str = function.output_type.term.name
+    @staticmethod
+    def _format_argument(argument: FunctionArgument) -> str:
+        """Render a function argument as ``name`` or ``name: label`` (the label
+        being the inline comment for that input/output type)."""
         return (
-            f'class {function.name} <<Function>> {{\n'
+            f'{argument.term.name}: {argument.label}'
+            if argument.label
+            else str(argument.term.name)
+        )
+
+    def _generate_function(self, function: Function) -> str:
+        inputs: str = ', '.join(map(self._format_argument, function.input_types))
+        outputs: str = self._format_argument(function.output_type)
+        color: str = (
+            f' {function.attributes.color}' if function.attributes.color else ''
+        )
+        return (
+            f'class {function.name} <<Function>>{color} {{\n'
             f'  +{function.name}({inputs}) : ({outputs})\n'
             f'  {function.label}\n}}'
         )
 
-    # TODO: check type of relationship
+    # UML class-diagram connector for each relationship type (forward direction).
+    _CLASS_DIAGRAM_ARROWS: dict = {
+        RelationshipType.DEPENDENCE: '..>',
+        RelationshipType.ASSOCIATION: '--',
+        RelationshipType.DIRECT_ASSOCIATION: '-->',
+        RelationshipType.INHERITANCE: '--|>',
+        RelationshipType.IMPLEMENTATION: '..|>',
+        RelationshipType.AGGREGATION: '--o',
+        RelationshipType.COMPOSITION: '--*',
+    }
+
     def _generate_relationship(self, relationship: Relationship) -> str:
-        return (
-            f'note "{relationship.parent.name} {relationship.relationship.value} {list(map(lambda t: t.name, relationship.children))}" '
-            f'as N{hash(relationship.parent.name) % 10000}'
+        arrow: str = self._CLASS_DIAGRAM_ARROWS.get(
+            relationship.relationship, '-->'
         )
+        children: str = ', '.join(child.name for child in relationship.children)
+        return f'{relationship.parent.name} {arrow} {children}'
 
     def processes_puml_to_png(self, puml_file):
         outfile = os.path.splitext(puml_file)[0] + '.png'

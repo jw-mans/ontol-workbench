@@ -186,10 +186,12 @@ def render_auth() -> None:
                     st.success('Аккаунт создан.')
                     st.rerun()
 
-
-# --------------------------------------------------------------------------- #
+"""
+###################################################################
 # Auth gate — всё ниже доступно только авторизованному пользователю
-# --------------------------------------------------------------------------- #
+###################################################################
+"""
+
 if 'user' not in st.session_state:
     render_auth()
     st.stop()
@@ -200,9 +202,12 @@ user: str = st.session_state['user']
 store = ProjectStore(os.path.join(PROJECTS_DIR, user))
 
 
-# --------------------------------------------------------------------------- #
-# Sidebar — управление проектами
-# --------------------------------------------------------------------------- #
+"""
+##############################
+Sidebar — управление проектами
+##############################
+"""
+
 st.sidebar.caption(f'👤 {user}')
 if st.sidebar.button('Выйти', use_container_width=True):
     st.session_state.clear()
@@ -270,10 +275,12 @@ if selected:
         if st.button('🗑 Удалить проект', use_container_width=True, disabled=not confirm):
             store.delete(selected)
             st.rerun()
+"""
+#############################
+Main — файлы проекта и сборка
+#############################
+"""
 
-# --------------------------------------------------------------------------- #
-# Main — файлы проекта и сборка
-# --------------------------------------------------------------------------- #
 st.title('Ontol — личный кабинет')
 
 if not selected:
@@ -288,7 +295,10 @@ files = project.list_files()
 
 st.subheader(f'Проект: {selected}')
 
-# --- добавление файла ---
+"""
+добавление файла 
+"""
+
 add_col, entry_col = st.columns([2, 2])
 with add_col:
     with st.form('add_file', clear_on_submit=True):
@@ -318,8 +328,10 @@ with entry_col:
         options=files,
         index=files.index(default_entry),
     )
+"""
+редакторы по файлам (вкладки) 
+"""
 
-# --- редакторы по файлам (вкладки) ---
 tabs = st.tabs(files)
 for tab, fname in zip(tabs, files):
     with tab:
@@ -329,7 +341,10 @@ for tab, fname in zip(tabs, files):
             st.session_state.pop(editor_key(selected, fname), None)
             st.rerun()
 
-# --- действия ---
+"""
+действия
+"""
+
 st.caption(
     '💾 Изменения сохраняются автоматически.'
     if _HAS_ACE
@@ -338,7 +353,10 @@ st.caption(
 )
 build = st.button('🛠 Собрать', use_container_width=True, type='primary')
 
-# --- сборка ---
+"""
+сборка
+"""
+
 if build:
     save_all(project, files)
     out_dir = tempfile.mkdtemp(prefix='ontol_build_')

@@ -117,14 +117,29 @@ def test_generate_function(generator: PlantUML):
         label='test label',
         input_types=[FunctionArgument(Term('int'), 'test')],
         output_type=FunctionArgument(Term('bool'), 'test'),
-        attributes={'color': '#E6B8B7'},
+        attributes=FunctionAttributes(color='#E6B8B7'),
     )
     result = generator._generate_function(func)
     assert 'MyFunction' in result
-    assert 'class MyFunction <<Function>> {' in result
-    assert '+MyFunction(int) : (bool)' in result
+    # block carries the function colour
+    assert 'class MyFunction <<Function>> #E6B8B7 {' in result
+    # input/output types include their inline comments (labels)
+    assert '+MyFunction(int: test) : (bool: test)' in result
     assert 'test label' in result
     assert '}' in result
+
+
+def test_generate_function_without_color_or_labels(generator: PlantUML):
+    func = Function(
+        name='MyFunction',
+        label='test label',
+        input_types=[FunctionArgument(Term('int'))],
+        output_type=FunctionArgument(Term('bool')),
+        attributes=FunctionAttributes(),
+    )
+    result = generator._generate_function(func)
+    assert 'class MyFunction <<Function>> {' in result  # no colour appended
+    assert '+MyFunction(int) : (bool)' in result  # no labels appended
 
 
 def test_generate_relationship(generator: PlantUML):
@@ -134,7 +149,14 @@ def test_generate_relationship(generator: PlantUML):
         children=[Term('MyTypeChild')],
     )
     result = generator._generate_relationship(relation)
-    assert 'MyTypeParent' in result
-    assert 'aggregation' in result
-    assert 'MyTypeChild' in result
-    assert 'as' in result
+    # connector reflects the relationship type (aggregation -> --o)
+    assert result == 'MyTypeParent --o MyTypeChild'
+
+
+def test_generate_relationship_inheritance(generator: PlantUML):
+    relation = Relationship(
+        parent=Term('Child'),
+        relationship=RelationshipType.from_str('inheritance'),
+        children=[Term('Parent')],
+    )
+    assert generator._generate_relationship(relation) == 'Child --|> Parent'
