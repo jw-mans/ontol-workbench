@@ -1,0 +1,15 @@
+version: '1.0'
+title: 'Set relations'
+author: ''
+description: 'Отношения подмножеств; переиспользует базовые термы из base.ontol'
+
+import { set, element } from 'base.ontol'
+
+types:
+subset: 'Subset', '', { color: '#E6B8B7' }
+powerset: 'Power set', 'Множество всех подмножеств', { color: '#FCD5B4' }
+
+hierarchy:
+subset inheritance set
+powerset aggregation subset, { leftChar: '*' }
+element aggregation set, { leftChar: '*' }

@@ -221,3 +221,117 @@ def test_conflicting_definitions_still_error(tmp_path):
     with pytest.raises(ValueError) as excinfo:
         Parser().parse(project.read_file('a.ontol'), project.file_path('a.ontol'))
     assert 'already been declared' in str(excinfo.value)
+
+
+# --- `with relationships` import -------------------------------------------- #
+
+BASE_WITH_HIERARCHY = """version: '1.0'
+title: 'Base'
+
+types:
+set: 'Set', ''
+element: 'Element', ''
+subset: 'Subset', ''
+
+hierarchy:
+subset inheritance set
+element aggregation set, { leftChar: '*' }
+"""
+
+
+def _rels(ontology):
+    return [
+        (r.parent.name, r.relationship.value, r.children[0].name)
+        for r in ontology.hierarchy
+    ]
+
+
+def _parse_entry(project, entry):
+    return Parser().parse(project.read_file(entry), project.file_path(entry))[0]
+
+
+def test_import_without_with_relationships_skips_hierarchy(tmp_path):
+    """Default import brings types/functions but NOT the source hierarchy.
+
+    Дефолтный импорт тянет типы/функции, но НЕ иерархию исходного модуля.
+    """
+    project = ProjectStore(str(tmp_path / 'projects')).create('wr')
+    project.write_file('base.ontol', BASE_WITH_HIERARCHY)
+    project.write_file('main.ontol', "import * from 'base.ontol'\n")
+
+    ontology = _parse_entry(project, 'main.ontol')
+    assert {t.name for t in ontology.types} == {'set', 'element', 'subset'}
+    assert _rels(ontology) == []
+
+
+def test_import_star_with_relationships(tmp_path):
+    """`import * ... with relationships` re-exports the whole hierarchy."""
+    project = ProjectStore(str(tmp_path / 'projects')).create('wr')
+    project.write_file('base.ontol', BASE_WITH_HIERARCHY)
+    project.write_file(
+        'main.ontol', "import * from 'base.ontol' with relationships\n"
+    )
+
+    ontology = _parse_entry(project, 'main.ontol')
+    rels = _rels(ontology)
+    assert ('subset', 'inheritance', 'set') in rels
+    assert ('element', 'aggregation', 'set') in rels
+
+
+def test_selective_with_relationships_filters_by_endpoints(tmp_path):
+    """Only relationships whose endpoints are all imported are pulled in."""
+    project = ProjectStore(str(tmp_path / 'projects')).create('wr')
+    project.write_file('base.ontol', BASE_WITH_HIERARCHY)
+    project.write_file(
+        'main.ontol',
+        "import { set, element } from 'base.ontol' with relationships\n",
+    )
+
+    ontology = _parse_entry(project, 'main.ontol')
+    # subset is not imported, so subset->set must be skipped
+    assert _rels(ontology) == [('element', 'aggregation', 'set')]
+
+
+def test_with_relationships_renames_aliased_endpoint(tmp_path):
+    """An aliased endpoint is reflected in the imported relationship."""
+    project = ProjectStore(str(tmp_path / 'projects')).create('wr')
+    project.write_file('base.ontol', BASE_WITH_HIERARCHY)
+    project.write_file(
+        'main.ontol',
+        "import { set as collection, subset } from 'base.ontol' "
+        "with relationships\n",
+    )
+
+    ontology = _parse_entry(project, 'main.ontol')
+    assert _rels(ontology) == [('subset', 'inheritance', 'collection')]
+
+
+def test_with_relationships_deduplicates_diamond(tmp_path):
+    """The same relationship reaching an entry via two paths is deduplicated."""
+    project = ProjectStore(str(tmp_path / 'projects')).create('wr')
+    project.write_file('base.ontol', BASE_WITH_HIERARCHY)
+    project.write_file(
+        'b.ontol', "import * from 'base.ontol' with relationships\n"
+    )
+    project.write_file(
+        'c.ontol', "import * from 'base.ontol' with relationships\n"
+    )
+    project.write_file(
+        'a.ontol',
+        "import * from 'b.ontol' with relationships\n"
+        "import * from 'c.ontol' with relationships\n",
+    )
+
+    ontology = _parse_entry(project, 'a.ontol')
+    rels = _rels(ontology)
+    assert rels.count(('subset', 'inheritance', 'set')) == 1
+    assert rels.count(('element', 'aggregation', 'set')) == 1
+
+
+def test_with_relationships_keeps_with_as_identifier(tmp_path):
+    """`with` / `relationships` stay valid identifiers on their own."""
+    project = ProjectStore(str(tmp_path / 'projects')).create('wr')
+    project.write_file('main.ontol', "types:\nwith: 'With', ''\n")
+
+    ontology = _parse_entry(project, 'main.ontol')
+    assert [t.name for t in ontology.types] == ['with']

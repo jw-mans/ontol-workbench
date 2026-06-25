@@ -1,0 +1,9 @@
+version: '1.0'
+title: 'Full set theory (with relationships)'
+author: ''
+description: 'Объединяет operations и relations. Иерархия из relations доезжает
+сюда благодаря "with relationships"; Set приходит двумя путями и дедуплицируется.'
+
+# Точка входа для сборки: типы + функции + иерархия в одной диаграмме.
+import * from 'operations.ontol' with relationships
+import * from 'relations.ontol' with relationships

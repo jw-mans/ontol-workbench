@@ -1,0 +1,11 @@
+version: '1.0'
+title: 'Set operations'
+author: ''
+description: 'Операции над множествами; переиспользует Set из base.ontol'
+
+import { set } from 'base.ontol'
+
+functions:
+union: 'Union' (set: '', set: '') -> set: '', { color: '#D0FFD0' }
+intersection: 'Intersection' (set: '', set: '') -> set: '', { color: '#D0FFD0' }
+difference: 'Difference' (set: '', set: '') -> set: '', { color: '#D0FFD0' }
