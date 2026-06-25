@@ -32,6 +32,7 @@ class Lexer(BaseLexer):
         IMPORT_KEYWORD,
         FROM_KEYWORD,
         AS_KEYWORD,
+        WITH_RELATIONSHIPS,
         STRING,
         IDENTIFIER,
         LBRACE,
@@ -59,6 +60,11 @@ class Lexer(BaseLexer):
     IMPORT_KEYWORD: str = r'\bimport\b'
     FROM_KEYWORD: str = r'\bfrom\b'
     AS_KEYWORD: str = r'\bas\b'
+    # Single token for the `with relationships` import suffix, so that `with`
+    # and `relationships` on their own stay valid identifiers.
+    # Единый токен для хвоста импорта `with relationships`, чтобы `with` и
+    # `relationships` по отдельности оставались допустимыми идентификаторами.
+    WITH_RELATIONSHIPS: str = r'\bwith\s+relationships\b'
 
     STRING: str = r'\'[^\']*\'|\"[^\"]*\"'
     IDENTIFIER: str = r'[a-zA-Z_][a-zA-Z0-9_]*'
@@ -293,6 +299,7 @@ class Parser(BaseParser):
         src_token,
         import_tokens: Optional[list[tuple[Any, Any]]] = None,
         asterisk_token=None,
+        with_relationships: bool = False,
     ) -> None:
         content: str = ''
         file_path = src_token.value
@@ -376,6 +383,12 @@ class Parser(BaseParser):
                         )
                     )
 
+        # Final names of the entities (terms/functions) actually selected by this
+        # import — used to decide which relationships qualify for `with relationships`.
+        # Итоговые имена сущностей (термов/функций), выбранных этим импортом, —
+        # по ним решаем, какие связи годятся для `with relationships`.
+        imported_names: set[str] = set()
+
         definitions: list[Term | Function | Relationship] = (
             ontology.types + ontology.functions + ontology.hierarchy
         )
@@ -398,6 +411,9 @@ class Parser(BaseParser):
 
             if alias_token is not None:
                 definition.name = alias_token.value
+
+            if isinstance(definition, (Term, Function)):
+                imported_names.add(definition.name)
 
             exception_token: Any = None
             if alias_token is not None:
@@ -439,13 +455,53 @@ class Parser(BaseParser):
                 self._add_definition_if_does_not_exist(definition.parent)
                 self._add_definition_if_does_not_exist(definition.children[0])
 
+        if with_relationships:
+            self._import_relationships(ontology, imported_names)
+
+    def _import_relationships(
+        self, source_ontology: Ontology, imported_names: set[str]
+    ) -> None:
+        """Import unnamed relationships from *source_ontology* whose endpoints
+        (parent and all children) are all among *imported_names*.
+
+        Импортирует безымянные связи из *source_ontology*, у которых все концы
+        (parent и все children) входят в *imported_names*.
+
+        Endpoint terms are shared objects, so aliases applied during the merge
+        above are already reflected here. Duplicates (e.g. diamond imports) are
+        skipped by value comparison, mirroring term deduplication.
+        """
+        for relationship in source_ontology.hierarchy:
+            endpoint_names: list[str] = [relationship.parent.name] + [
+                child.name for child in relationship.children
+            ]
+            if not all(name in imported_names for name in endpoint_names):
+                continue
+            if any(
+                existing == relationship for existing in self.__ontology.hierarchy
+            ):
+                continue
+            self.__ontology.add_relationship(relationship)
+
     @_('IMPORT_KEYWORD imported_identifiers FROM_KEYWORD STRING')
     def statement(self, p) -> None:
         self._import_ontology(p._slice[3], p.imported_identifiers)
 
+    @_('IMPORT_KEYWORD imported_identifiers FROM_KEYWORD STRING WITH_RELATIONSHIPS')
+    def statement(self, p) -> None:
+        self._import_ontology(
+            p._slice[3], p.imported_identifiers, with_relationships=True
+        )
+
     @_('IMPORT_KEYWORD ASTERISK FROM_KEYWORD STRING')
     def statement(self, p) -> None:
         self._import_ontology(p._slice[3], None, p._slice[1])
+
+    @_('IMPORT_KEYWORD ASTERISK FROM_KEYWORD STRING WITH_RELATIONSHIPS')
+    def statement(self, p) -> None:
+        self._import_ontology(
+            p._slice[3], None, p._slice[1], with_relationships=True
+        )
 
     @_('TYPES_BLOCK COLON NEWLINE type_list')
     def statement(self, p) -> None:
