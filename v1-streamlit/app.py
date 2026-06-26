@@ -7,32 +7,23 @@ Streamlit-приложение поверх слоя проектов (`ontol.pr
   (`import { ... } from 'other.ontol'`);
 - рендер выполняется in-process через `render_project` (JSON + PlantUML + PNG).
 
-Запуск:
-    streamlit run deploy/app.py
+Запуск (ядро ontol ставится из корня репозитория: `pip install -e .`):
+    streamlit run v1-streamlit/app.py
 
 Каталог проектов берётся из переменной окружения ONTOL_PROJECTS_DIR
-(по умолчанию — deploy/projects рядом с этим файлом).
+(по умолчанию — v1-streamlit/projects рядом с этим файлом).
 """
 
 import os
-import sys
 import shutil
 import tempfile
 from zipfile import ZipFile
 
 import streamlit as st
 
-# Allow running straight from the repo (src layout) without installing the package.
-# Позволяет запускать прямо из репозитория (src-layout) без установки пакета.
-_SRC = os.path.abspath(
-    os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', 'src')
-)
-if _SRC not in sys.path:
-    sys.path.insert(0, _SRC)
-
-from ontol import ProjectStore, UserStore, render_project  # noqa: E402
-from ontol.project import ONTOL_EXT  # noqa: E402
-from ontol.auth import validate_username, validate_password  # noqa: E402
+from ontol import ProjectStore, UserStore, render_project
+from ontol.project import ONTOL_EXT
+from ontol.auth import validate_username, validate_password
 
 # streamlit-ace gives the editor syntax highlighting + line numbers. It is an
 # optional component: fall back to a plain text area if it is not installed.

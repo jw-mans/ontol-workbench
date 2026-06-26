@@ -1,0 +1,50 @@
+# V2 backend-стек: Postgres + PlantUML + FastAPI backend.
+# Запуск из каталога v2-service:  docker compose up --build
+# Контекст сборки backend — корень репозитория (..), чтобы поставить ядро ontol.
+# Фронтенд (Vite) пока запускается отдельно — см. примечание ниже.
+
+services:
+  db:
+    image: postgres:16
+    environment:
+      POSTGRES_USER: ontol
+      POSTGRES_PASSWORD: ontol
+      POSTGRES_DB: ontol
+    ports:
+      - '5432:5432'
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ['CMD-SHELL', 'pg_isready -U ontol']
+      interval: 5s
+      timeout: 3s
+      retries: 10
+
+  plantuml:
+    image: plantuml/plantuml-server:jetty
+    ports:
+      - '8080:8080'
+
+  api:
+    build:
+      context: ..
+      dockerfile: v2-service/backend/Dockerfile
+    environment:
+      DATABASE_URL: postgresql+asyncpg://ontol:ontol@db:5432/ontol
+      PLANTUML_URL: http://plantuml:8080/png/
+      SECRET: change-me-in-production
+      CORS_ORIGINS: '["http://localhost:5173"]'
+    depends_on:
+      db:
+        condition: service_healthy
+      plantuml:
+        condition: service_started
+    ports:
+      - '8000:8000'
+
+# Фронтенд (v2-service/frontend) на этом этапе запускается отдельно:
+#   cd v2-service/frontend && npm install && npm run dev   (http://localhost:5173)
+# Сервис web добавим в compose, когда у фронта появится Dockerfile.
+
+volumes:
+  pgdata:

@@ -126,11 +126,17 @@ See [examples/multifile_demo/](examples/multifile_demo/) for a minimal cross-fil
 
 ## Web personal workspace (личный кабинет)
 
-A Streamlit app where each user signs in and manages their own projects (a project is a directory of `.ontol` files that may import one another).
+Two web apps live side by side on top of the shared `ontol` core:
+
+- **V1 — [v1-streamlit/](v1-streamlit/)** — the current Streamlit workspace (prototype).
+- **V2 — [v2-service/](v2-service/)** — the full multi-user service (FastAPI + React), in progress; see [docs/V2_PLAN.md](docs/V2_PLAN.md).
+
+Run V1 (the core is installed editable from the repo root):
 
 ```bash
-pip install -r deploy/requirements.txt
-streamlit run deploy/app.py
+pip install -e .
+pip install -r v1-streamlit/requirements.txt
+streamlit run v1-streamlit/app.py
 ```
 
 - User accounts (registration / login); projects are private per user.
@@ -139,7 +145,7 @@ streamlit run deploy/app.py
 
 Configuration via environment variables:
 
-- `ONTOL_PROJECTS_DIR` — where projects are stored (default: `deploy/projects`).
+- `ONTOL_PROJECTS_DIR` — where projects are stored (default: `v1-streamlit/projects`).
 - `ONTOL_USERS_FILE` — path to the user database (default: `<projects_dir>/users.json`).
 
 ## Documentation
@@ -147,6 +153,7 @@ Configuration via environment variables:
 - [docs/GRAMMAR.md](docs/GRAMMAR.md) — the Ontol DSL grammar (EBNF).
 - [docs/SETUP.md](docs/SETUP.md) — build / run instructions.
 - [docs/REPORT.md](docs/REPORT.md) — design notes for the V1 personal workspace.
+- [docs/V2_PLAN.md](docs/V2_PLAN.md) — implementation plan for the V2 multi-user service.
 
 ## Output
 
