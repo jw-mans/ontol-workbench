@@ -23,6 +23,7 @@ authors = [
     { name = "Markov Mikhail" },
     { name = "Khamidullin Ilsaf" },
     { name = "Afanasyev Andrew" },
+    { name = "Andreev Daniil" }
 ]
 license = { file = "LICENSE" }
 dependencies = [

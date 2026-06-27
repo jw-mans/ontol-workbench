@@ -1,5 +1,11 @@
-"""ORM-модели (User, Project, File) — Фаза 2.
+"""ORM-модели.
 
-При появлении моделей импортировать их здесь, чтобы они регистрировались на
-``Base.metadata`` и попадали в автогенерацию миграций Alembic.
+Импортируем модели здесь, чтобы они регистрировались на ``Base.metadata`` и
+попадали в автогенерацию миграций Alembic.
 """
+
+from app.models.file import File
+from app.models.project import Project
+from app.models.user import User
+
+__all__ = ['User', 'Project', 'File']

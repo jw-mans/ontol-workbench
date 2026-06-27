@@ -15,6 +15,8 @@ __pycache__/
 # Virtual Enviroment
 venv
 .venv
+.venv_v1
+.venv_v2
 
 # Dist
 dist/
@@ -34,3 +36,12 @@ docs/V2_PLAN.md
 v2-service/README.md
 v2-service/backend/README.md
 v2-service/frontend/README.md
+
+# Data storage
+*.db
+
+# Environment variables
+.env
+
+# Alembic migrations
+alembic/versions/

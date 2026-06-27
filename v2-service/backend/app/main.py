@@ -1,7 +1,8 @@
-"""Точка входа FastAPI (Фаза 0 — скелет).
+"""Точка входа FastAPI.
 
-Поднимает приложение с CORS и healthcheck. Роутеры auth/projects/files/build
-подключаются в следующих фазах (см. ../../docs/V2_PLAN.md).
+Поднимает приложение с CORS и healthcheck. Подключает роутеры auth (Фаза 1) и
+projects/files CRUD (Фаза 2). Роутер build добавится в Фазе 3
+(см. ../../docs/V2_PLAN.md).
 
 Запуск:
     uvicorn app.main:app --reload
@@ -11,8 +12,11 @@ from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from sqlalchemy import text
 
+from app.api import files, projects
+from app.auth.backend import auth_backend, fastapi_users
 from app.config import settings
 from app.db import engine
+from app.schemas.user import UserCreate, UserRead, UserUpdate
 
 app = FastAPI(title=settings.app_name)
 
@@ -23,6 +27,28 @@ app.add_middleware(
     allow_methods=['*'],
     allow_headers=['*'],
 )
+
+# --- Авторизация (fastapi-users) ------------------------------------------- #
+# POST /auth/cookie/login · POST /auth/cookie/logout
+app.include_router(
+    fastapi_users.get_auth_router(auth_backend), prefix='/auth/cookie', tags=['auth']
+)
+# POST /auth/register
+app.include_router(
+    fastapi_users.get_register_router(UserRead, UserCreate),
+    prefix='/auth',
+    tags=['auth'],
+)
+# GET/PATCH /users/me · GET/PATCH/DELETE /users/{id}
+app.include_router(
+    fastapi_users.get_users_router(UserRead, UserUpdate),
+    prefix='/users',
+    tags=['users'],
+)
+
+# --- CRUD проектов и файлов (Фаза 2) --------------------------------------- #
+app.include_router(projects.router)
+app.include_router(files.router)
 
 
 @app.get('/')

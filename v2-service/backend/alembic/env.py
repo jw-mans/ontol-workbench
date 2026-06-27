@@ -20,8 +20,7 @@ sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 from app.config import settings  # noqa: E402
 from app.db import Base  # noqa: E402
-
-# import app.models  # noqa: E402,F401  — раскомментировать в Фазе 2
+import app.models  # noqa: E402,F401  — регистрирует модели на Base.metadata
 
 config = context.config
 config.set_main_option('sqlalchemy.url', settings.database_url)
