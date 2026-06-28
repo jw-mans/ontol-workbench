@@ -18,7 +18,7 @@ async def get_owned_project(
 ) -> Project:
     """Вернуть проект по id, только если он принадлежит текущему пользователю.
 
-    Чужой/несуществующий проект → 404 (не раскрываем факт существования).
+    Чужой/несуществующий проект -> 404 (не раскрываем факт существования).
     """
     project = await session.get(Project, project_id)
     if project is None or project.owner_id != user.id:

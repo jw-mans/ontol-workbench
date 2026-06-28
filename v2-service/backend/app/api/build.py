@@ -1,46 +1,47 @@
-"""Сборка проекта в диаграмму. Доступ — только владельцу проекта."""
+"""Сборка проекта в диаграмму. Доступ — только владельцу проекта.
 
-from dataclasses import asdict
+Сама сборка выполняется фоновым воркером (arq): эндпоинт ставит задачу в очередь
+и дожидается результата (await — событийный цикл не блокируется). Тяжёлый рендер
+и стек ontol живут в воркере, не в процессе API.
+"""
 
-from fastapi import APIRouter, Depends, HTTPException, status
-from fastapi.concurrency import run_in_threadpool
-from sqlalchemy import select
-from sqlalchemy.ext.asyncio import AsyncSession
+import asyncio
+
+from fastapi import APIRouter, Depends, HTTPException, Request, status
 
 from app.api.deps import get_owned_project
 from app.config import settings
-from app.db import get_async_session
-from app.models.file import File
 from app.models.project import Project
+from app.queue import RENDER_BUILD
 from app.schemas.build import BuildRequest
-from app.services.render import build_project
 
 router = APIRouter(prefix='/projects', tags=['build'])
-
-DEFAULT_ENTRY = 'main.ontol'
 
 
 @router.post('/{project_id}/build')
 async def build(
     data: BuildRequest,
+    request: Request,
     project: Project = Depends(get_owned_project),
-    session: AsyncSession = Depends(get_async_session),
 ) -> dict:
-    """Собрать проект: вернуть JSON, PlantUML и PNG (data-URL) точки входа.
+    """Собрать проект и вернуть JSON, PlantUML и PNG (data-URL) точки входа.
 
-    Ошибки парсинга/импорта возвращаются в поле ``error`` со статусом 200 —
-    редактору удобнее показать их, чем ловить HTTP-ошибку.
+    Ошибки парсинга/импорта и пустой проект приходят в поле ``error`` со
+    статусом 200 — редактору удобнее показать их, чем ловить HTTP-ошибку.
     """
-    result = await session.execute(
-        select(File).where(File.project_id == project.id)
-    )
-    files = {f.name: f.content for f in result.scalars().all()}
-    if not files:
-        raise HTTPException(status.HTTP_400_BAD_REQUEST, 'Project has no files')
-
-    entry = data.entry or (DEFAULT_ENTRY if DEFAULT_ENTRY in files else sorted(files)[0])
-
-    build_result = await run_in_threadpool(
-        build_project, files, entry, settings.plantuml_url
-    )
-    return asdict(build_result)
+    redis = request.app.state.redis
+    job = await redis.enqueue_job(RENDER_BUILD, str(project.id), data.entry)
+    if job is None:  # такой job_id уже выполняется — крайне маловероятно
+        raise HTTPException(status.HTTP_409_CONFLICT, 'Build already in progress')
+    try:
+        return await job.result(
+            timeout=settings.build_timeout_seconds, poll_delay=0.2
+        )
+    except asyncio.TimeoutError:
+        raise HTTPException(
+            status.HTTP_504_GATEWAY_TIMEOUT, 'Build timed out'
+        )
+    except Exception as error:  # noqa: BLE001 — задача упала в воркере
+        raise HTTPException(
+            status.HTTP_500_INTERNAL_SERVER_ERROR, f'Build failed: {error}'
+        )

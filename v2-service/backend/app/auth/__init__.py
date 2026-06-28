@@ -1,1 +1,1 @@
-"""Авторизация на fastapi-users (cookie-сессии) — Фаза 1."""
+"""Авторизация на fastapi-users (cookie-сессии)."""

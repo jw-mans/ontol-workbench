@@ -1,9 +1,5 @@
 """Конфигурация сервиса (pydantic-settings).
 
-Значения читаются из (по приоритету): переменных окружения → файла `.env` →
-дефолтов ниже. Имена переменных совпадают с именами полей в верхнем регистре,
-напр. поле ``database_url`` ← ``DATABASE_URL``.
-
 Файл `.env` ищется рядом с пакетом backend (а не в текущей директории запуска),
 поэтому конфиг грузится одинаково из-под uvicorn, alembic и тестов.
 """
@@ -12,7 +8,6 @@ from pathlib import Path
 
 from pydantic_settings import BaseSettings, SettingsConfigDict
 
-# .../v2-service/backend/app/config.py → .../v2-service/backend/.env
 _ENV_FILE = Path(__file__).resolve().parent.parent / '.env'
 
 
@@ -30,6 +25,12 @@ class Settings(BaseSettings):
 
     # База URL своего PlantUML-сервера (PNG-эндпоинт), для рендера диаграмм.
     plantuml_url: str = 'http://localhost:8080/png/'
+
+    # Redis для очереди фоновых задач (arq).
+    redis_url: str = 'redis://localhost:6379/0'
+
+    # Сколько ждать результат сборки от воркера, прежде чем отдать 504.
+    build_timeout_seconds: int = 60
 
     # Секрет для подписи cookie-сессий и токенов (fastapi-users).
     # В проде ОБЯЗАТЕЛЬНО переопределить; ≥32 байт (для HMAC-SHA256).

@@ -1,5 +1,3 @@
-// Типы, отражающие Pydantic-схемы бэкенда (v2-service/backend/app/schemas).
-
 export interface User {
   id: string
   email: string

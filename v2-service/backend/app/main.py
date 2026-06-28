@@ -1,12 +1,12 @@
 """Точка входа FastAPI.
 
-Поднимает приложение с CORS и healthcheck. Подключает роутеры auth (Фаза 1) и
-projects/files CRUD (Фаза 2). Роутер build добавится в Фазе 3
-(см. ../../docs/V2_PLAN.md).
+Поднимает приложение с CORS и healthcheck.
 
 Запуск:
     uvicorn app.main:app --reload
 """
+
+from contextlib import asynccontextmanager
 
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
@@ -16,9 +16,21 @@ from app.api import build, files, projects
 from app.auth.backend import auth_backend, fastapi_users
 from app.config import settings
 from app.db import engine
+from app.queue import create_redis_pool
 from app.schemas.user import UserCreate, UserRead, UserUpdate
 
-app = FastAPI(title=settings.app_name)
+
+@asynccontextmanager
+async def lifespan(app: FastAPI):
+    # Пул Redis для постановки задач в очередь (arq). Один на процесс.
+    app.state.redis = await create_redis_pool()
+    yield
+    # aclose() в redis-py>=5, close() — в более старых.
+    closer = getattr(app.state.redis, 'aclose', app.state.redis.close)
+    await closer()
+
+
+app = FastAPI(title=settings.app_name, lifespan=lifespan)
 
 app.add_middleware(
     CORSMiddleware,

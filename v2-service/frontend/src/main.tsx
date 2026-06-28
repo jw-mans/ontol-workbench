@@ -5,6 +5,7 @@ import { BrowserRouter } from 'react-router-dom'
 
 import './index.css'
 import './App.css'
+import './ontol-lang/monaco-setup.ts'
 import App from './App.tsx'
 import { AuthProvider } from './auth/AuthContext.tsx'
 

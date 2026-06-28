@@ -28,7 +28,6 @@ export async function getFile(
   return data
 }
 
-/** Сохранить контент файла (PUT — автосейв из редактора). */
 export async function updateFile(
   projectId: string,
   fileId: string,

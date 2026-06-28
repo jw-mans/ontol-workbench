@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 import { Link, useParams } from 'react-router-dom'
 import { useMutation, useQuery, useQueryClient } from '@tanstack/react-query'
 
@@ -8,6 +8,9 @@ import * as buildApi from '../api/build'
 import type { BuildResult } from '../api/build'
 import { errorMessage } from '../api/errors'
 import { downloadDataUrl, downloadText } from '../utils/download'
+import OntolEditor from '../components/OntolEditor'
+
+const AUTOSAVE_DEBOUNCE_MS = 800
 
 export default function ProjectPage() {
   const { projectId = '' } = useParams()
@@ -51,7 +54,8 @@ export default function ProjectPage() {
   }
 
   const saveMutation = useMutation({
-    mutationFn: () => filesApi.updateFile(projectId, activeId as string, draft),
+    mutationFn: (content: string) =>
+      filesApi.updateFile(projectId, activeId as string, content),
     onSuccess: (updated) => {
       setError(null)
       queryClient.setQueryData(['file', projectId, activeId], updated)
@@ -59,6 +63,7 @@ export default function ProjectPage() {
     },
     onError: (err) => setError(errorMessage(err)),
   })
+  const { mutate: saveFile, mutateAsync: saveFileAsync } = saveMutation
 
   const createMutation = useMutation({
     mutationFn: (name: string) => filesApi.createFile(projectId, name),
@@ -89,6 +94,28 @@ export default function ProjectPage() {
     onError: (err) => setError(errorMessage(err)),
   })
 
+  // Debounced-автосейв: PUT контента через паузу после остановки ввода.
+  // Это синхронизация внешней системы (сервера) с состоянием — корректный
+  // случай useEffect; setTimeout снимается при каждом изменении.
+  useEffect(() => {
+    if (!activeId || fileQuery.data === undefined) return
+    if (draft === fileQuery.data.content) return
+    const timer = setTimeout(() => saveFile(draft), AUTOSAVE_DEBOUNCE_MS)
+    return () => clearTimeout(timer)
+  }, [draft, activeId, fileQuery.data, saveFile])
+
+  async function onBuild() {
+    // Собираем сохранённую версию — сначала дожимаем pending-черновик.
+    if (activeId && fileQuery.data && draft !== fileQuery.data.content) {
+      try {
+        await saveFileAsync(draft)
+      } catch {
+        return
+      }
+    }
+    buildMutation.mutate()
+  }
+
   function onCreateFile() {
     const name = window.prompt('Имя файла (расширение .ontol добавится само)')
     if (name && name.trim()) createMutation.mutate(name.trim())
@@ -112,6 +139,13 @@ export default function ProjectPage() {
   }
 
   const dirty = fileQuery.data !== undefined && draft !== fileQuery.data.content
+  const saveStatus = saveMutation.isPending
+    ? 'Сохранение…'
+    : dirty
+      ? 'Изменения не сохранены'
+      : fileQuery.data
+        ? 'Сохранено'
+        : ''
 
   return (
     <div className="page project-page">
@@ -155,34 +189,19 @@ export default function ProjectPage() {
 
       {activeId && (
         <div className="editor-pane">
-          <textarea
-            className="editor"
-            value={draft}
-            spellCheck={false}
-            onChange={(e) => setDraft(e.target.value)}
-            placeholder="// .ontol"
-          />
+          <div className="editor-host">
+            <OntolEditor value={draft} onChange={setDraft} />
+          </div>
           <div className="row editor-actions">
             <button
               type="button"
               className="btn btn-primary"
-              disabled={!dirty || saveMutation.isPending}
-              onClick={() => saveMutation.mutate()}
-            >
-              {saveMutation.isPending ? 'Сохраняем…' : 'Сохранить'}
-            </button>
-            <button
-              type="button"
-              className="btn"
               disabled={buildMutation.isPending}
-              onClick={() => buildMutation.mutate()}
-              title={dirty ? 'Собирается сохранённая версия' : undefined}
+              onClick={onBuild}
             >
               {buildMutation.isPending ? 'Собираем…' : 'Собрать'}
             </button>
-            {dirty && (
-              <span className="muted">есть несохранённые изменения</span>
-            )}
+            <span className="muted save-status">{saveStatus}</span>
           </div>
         </div>
       )}

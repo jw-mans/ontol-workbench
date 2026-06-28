@@ -35,6 +35,9 @@ Dependencies are split so the heavy AI stack stays optional:
 - `requirements-core.txt` — parsing, visualization, CLI, web UI and tests.
 - `requirements-ai.txt` — optional LLM stack (`--gen-hierarchy`), installed on top of core.
 
+The same split is exposed via the package itself: `pip install -e .` installs the
+core only; `pip install -e .[ai]` adds the optional AI stack.
+
 ## Installation
 
 Install from PyPi:

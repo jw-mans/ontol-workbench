@@ -23,7 +23,7 @@ export function AuthProvider({ children }: { children: ReactNode }) {
     queryKey: ['me'],
     queryFn: authApi.getMe,
     retry: (count, error) => {
-      // 401 — это «не залогинен», повторять бессмысленно.
+      // 401 — это "не залогинен", повторять бессмысленно.
       if (error instanceof AxiosError && error.response?.status === 401) {
         return false
       }

@@ -1,1 +1,1 @@
-"""HTTP-роутеры: projects, files, build — Фазы 2-3."""
+"""HTTP-роутеры: projects, files, build."""

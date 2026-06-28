@@ -1,9 +1,4 @@
-"""Асинхронный слой БД (SQLAlchemy 2.0).
-
-``create_async_engine`` не открывает соединение на импорте — реальное
-подключение происходит лениво при первом запросе, поэтому приложение
-поднимается и без живого Postgres (healthcheck доступен).
-"""
+"""Асинхронный слой БД (SQLAlchemy 2.0)."""
 
 from collections.abc import AsyncGenerator
 

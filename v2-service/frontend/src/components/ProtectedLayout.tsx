@@ -2,10 +2,6 @@ import { Navigate, Outlet, Link, useNavigate } from 'react-router-dom'
 
 import { useAuth } from '../auth/AuthContext'
 
-/**
- * Обёртка приватных страниц: пока проверяется сессия — спиннер; нет юзера —
- * редирект на /login; иначе — шапка с именем/выходом и вложенный роут.
- */
 export default function ProtectedLayout() {
   const { user, loading, logout } = useAuth()
   const navigate = useNavigate()

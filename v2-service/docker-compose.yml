@@ -1,21 +1,34 @@
-# V2 backend-стек: Postgres + PlantUML + FastAPI backend.
-# Запуск из каталога v2-service:  docker compose up --build
-# Контекст сборки backend — корень репозитория (..), чтобы поставить ядро ontol.
-# Фронтенд (Vite) пока запускается отдельно — см. примечание ниже.
+# Общее окружение backend-сервисов (api и worker используют один образ и конфиг).
+# Значения берутся из переменных окружения / файла v2-service/.env (compose читает
+# его автоматически). SECRET — без дефолта, его ОБЯЗАТЕЛЬНО задать в .env.
+x-backend-env: &backend-env
+  DATABASE_URL: postgresql+asyncpg://${POSTGRES_USER:-ontol}:${POSTGRES_PASSWORD:-ontol}@db:5432/${POSTGRES_DB:-ontol}
+  PLANTUML_URL: http://plantuml:8080/png/
+  REDIS_URL: redis://redis:6379/0
+  SECRET: ${SECRET:?set SECRET in v2-service/.env}
+  CORS_ORIGINS: ${CORS_ORIGINS:-["http://localhost:5173"]}
 
 services:
   db:
     image: postgres:16
     environment:
-      POSTGRES_USER: ontol
-      POSTGRES_PASSWORD: ontol
-      POSTGRES_DB: ontol
+      POSTGRES_USER: ${POSTGRES_USER:-ontol}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-ontol}
+      POSTGRES_DB: ${POSTGRES_DB:-ontol}
     ports:
-      - '5432:5432'
+      - '5433:5432'
     volumes:
       - pgdata:/var/lib/postgresql/data
     healthcheck:
-      test: ['CMD-SHELL', 'pg_isready -U ontol']
+      test: ['CMD-SHELL', 'pg_isready -U ${POSTGRES_USER:-ontol}']
+      interval: 5s
+      timeout: 3s
+      retries: 10
+
+  redis:
+    image: redis:7-alpine
+    healthcheck:
+      test: ['CMD', 'redis-cli', 'ping']
       interval: 5s
       timeout: 3s
       retries: 10
@@ -26,25 +39,49 @@ services:
       - '8080:8080'
 
   api:
+    image: ontol-api
     build:
       context: ..
       dockerfile: v2-service/backend/Dockerfile
     environment:
-      DATABASE_URL: postgresql+asyncpg://ontol:ontol@db:5432/ontol
-      PLANTUML_URL: http://plantuml:8080/png/
-      SECRET: change-me-in-production
-      CORS_ORIGINS: '["http://localhost:5173"]'
+      <<: *backend-env
+      WEB_CONCURRENCY: ${WEB_CONCURRENCY:-2}
     depends_on:
       db:
         condition: service_healthy
+      redis:
+        condition: service_started
       plantuml:
         condition: service_started
     ports:
       - '8000:8000'
 
-# Фронтенд (v2-service/frontend) на этом этапе запускается отдельно:
-#   cd v2-service/frontend && npm install && npm run dev   (http://localhost:5173)
-# Сервис web добавим в compose, когда у фронта появится Dockerfile.
+  worker:
+    # Тот же образ, что api (одинаковый build → compose собирает один раз), но
+    # команда — arq-воркер рендера: миграции/сервер не запускаются.
+    image: ontol-api
+    build:
+      context: ..
+      dockerfile: v2-service/backend/Dockerfile
+    command: ['arq', 'app.worker.WorkerSettings']
+    environment:
+      <<: *backend-env
+    depends_on:
+      db:
+        condition: service_healthy
+      redis:
+        condition: service_started
+      plantuml:
+        condition: service_started
+
+  web:
+    build:
+      context: frontend
+      dockerfile: Dockerfile
+    depends_on:
+      - api
+    ports:
+      - '5173:80'
 
 volumes:
   pgdata:

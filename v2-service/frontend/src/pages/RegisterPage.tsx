@@ -1,4 +1,4 @@
-import { useState, type FormEvent } from 'react'
+import { useState, type SyntheticEvent } from 'react'
 import { Link, Navigate, useNavigate } from 'react-router-dom'
 
 import { useAuth } from '../auth/AuthContext'
@@ -15,7 +15,7 @@ export default function RegisterPage() {
 
   if (user) return <Navigate to="/projects" replace />
 
-  async function onSubmit(e: FormEvent) {
+  async function onSubmit(e: SyntheticEvent) {
     e.preventDefault()
     setError(null)
     setBusy(true)

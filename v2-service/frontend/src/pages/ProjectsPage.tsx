@@ -1,4 +1,4 @@
-import { useState, type FormEvent } from 'react'
+import { useState, type SyntheticEvent } from 'react'
 import { Link } from 'react-router-dom'
 import { useMutation, useQuery, useQueryClient } from '@tanstack/react-query'
 
@@ -42,7 +42,7 @@ export default function ProjectsPage() {
     onError: (err) => setError(errorMessage(err)),
   })
 
-  function onCreate(e: FormEvent) {
+  function onCreate(e: SyntheticEvent) {
     e.preventDefault()
     const trimmed = name.trim()
     if (trimmed) createMutation.mutate(trimmed)
