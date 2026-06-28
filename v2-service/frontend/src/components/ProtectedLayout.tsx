@@ -1,0 +1,38 @@
+import { Navigate, Outlet, Link, useNavigate } from 'react-router-dom'
+
+import { useAuth } from '../auth/AuthContext'
+
+/**
+ * Обёртка приватных страниц: пока проверяется сессия — спиннер; нет юзера —
+ * редирект на /login; иначе — шапка с именем/выходом и вложенный роут.
+ */
+export default function ProtectedLayout() {
+  const { user, loading, logout } = useAuth()
+  const navigate = useNavigate()
+
+  if (loading) return <div className="center-screen muted">Загрузка…</div>
+  if (!user) return <Navigate to="/login" replace />
+
+  async function onLogout() {
+    await logout()
+    navigate('/login', { replace: true })
+  }
+
+  return (
+    <div className="app-shell">
+      <header className="app-header">
+        <Link to="/projects" className="brand">
+          Ontol
+        </Link>
+        <div className="spacer" />
+        <span className="muted">{user.display_name || user.email}</span>
+        <button type="button" className="btn" onClick={onLogout}>
+          Выйти
+        </button>
+      </header>
+      <main className="app-main">
+        <Outlet />
+      </main>
+    </div>
+  )
+}

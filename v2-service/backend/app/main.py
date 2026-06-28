@@ -12,7 +12,7 @@ from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from sqlalchemy import text
 
-from app.api import files, projects
+from app.api import build, files, projects
 from app.auth.backend import auth_backend, fastapi_users
 from app.config import settings
 from app.db import engine
@@ -49,6 +49,9 @@ app.include_router(
 # --- CRUD проектов и файлов (Фаза 2) --------------------------------------- #
 app.include_router(projects.router)
 app.include_router(files.router)
+
+# --- Сборка проекта в диаграмму (Фаза 3) ----------------------------------- #
+app.include_router(build.router)
 
 
 @app.get('/')
