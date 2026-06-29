@@ -32,6 +32,17 @@ class Settings(BaseSettings):
     # Сколько ждать результат сборки от воркера, прежде чем отдать 504.
     build_timeout_seconds: int = 60
 
+    # --- Опциональная AI-генерация связей (Ollama + langchain) -------------- #
+    # Выключена по умолчанию. Включается AI_ENABLED=true; требует образ с экстрой
+    # [ai] и доступный Ollama (см. docker-compose.ai.yml).
+    ai_enabled: bool = False
+    # База URL Ollama-сервера (LLM).
+    ollama_url: str = 'http://ollama:11434'
+    # Модель Ollama по умолчанию (должна быть заранее `ollama pull`-нута).
+    ai_model: str = 'llama3'
+    # AI-запрос к LLM дольше сборки — отдельный таймаут ожидания результата.
+    ai_timeout_seconds: int = 120
+
     # Секрет для подписи cookie-сессий и токенов (fastapi-users).
     # В проде ОБЯЗАТЕЛЬНО переопределить; ≥32 байт (для HMAC-SHA256).
     secret: str = 'dev-secret-change-me-in-production-0000'

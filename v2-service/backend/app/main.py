@@ -12,7 +12,7 @@ from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from sqlalchemy import text
 
-from app.api import build, files, projects
+from app.api import ai, build, files, projects
 from app.auth.backend import auth_backend, fastapi_users
 from app.config import settings
 from app.db import engine
@@ -65,10 +65,19 @@ app.include_router(files.router)
 # --- Сборка проекта в диаграмму -------------------------------------------- #
 app.include_router(build.router)
 
+# --- Опциональная AI-генерация связей -------------------------------------- #
+app.include_router(ai.router)
+
 
 @app.get('/')
 async def root() -> dict:
     return {'service': settings.app_name, 'docs': '/docs'}
+
+
+@app.get('/config')
+async def config() -> dict:
+    """Публичные флаги для фронтенда (какие фичи включены)."""
+    return {'ai_enabled': settings.ai_enabled}
 
 
 @app.get('/health')

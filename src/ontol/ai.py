@@ -142,7 +142,11 @@ class AI:
         return False
 
     def generate_hierarchy(
-        self, ontology: Ontology, model: str, temperature: float = 0.0
+        self,
+        ontology: Ontology,
+        model: str,
+        temperature: float = 0.0,
+        base_url: Optional[str] = None,
     ) -> tuple[list[Relationship], list[str]]:
         # langchain is an optional, heavy dependency: import it only when the
         # AI-powered hierarchy generation is actually used.
@@ -161,7 +165,12 @@ class AI:
             },
         )
 
-        llm = Ollama(model=model, temperature=temperature)
+        # base_url не задан → дефолт Ollama (http://localhost:11434); сервис
+        # передаёт адрес своего Ollama-контейнера.
+        llm_kwargs = {'model': model, 'temperature': temperature}
+        if base_url:
+            llm_kwargs['base_url'] = base_url
+        llm = Ollama(**llm_kwargs)
         chain = prompt | llm | _build_json_extractor() | parser
 
         relationships: list[Relationship] = []

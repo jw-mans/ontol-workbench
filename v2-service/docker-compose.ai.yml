@@ -1,0 +1,43 @@
+# Опциональный AI-оверлей: включает AI-генерацию связей (раздел hierarchy).
+#
+# Запуск со всем стеком + AI:
+#   docker compose -f docker-compose.yml -f docker-compose.ai.yml up --build
+#
+# Один раз скачать модель в Ollama (вес — гигабайты):
+#   docker compose -f docker-compose.yml -f docker-compose.ai.yml exec ollama ollama pull llama3
+#
+# Что делает оверлей: собирает образ с экстрой [ai] (INSTALL_AI=true), включает
+# фичу флагом AI_ENABLED и указывает адрес Ollama (OLLAMA_URL), поднимает Ollama.
+
+services:
+  api:
+    build:
+      args:
+        INSTALL_AI: 'true'
+    environment:
+      AI_ENABLED: 'true'
+      OLLAMA_URL: http://ollama:11434
+    depends_on:
+      ollama:
+        condition: service_started
+
+  worker:
+    build:
+      args:
+        INSTALL_AI: 'true'
+    environment:
+      AI_ENABLED: 'true'
+      OLLAMA_URL: http://ollama:11434
+    depends_on:
+      ollama:
+        condition: service_started
+
+  ollama:
+    image: ollama/ollama
+    volumes:
+      - ollama:/root/.ollama
+    ports:
+      - '11434:11434'
+
+volumes:
+  ollama:

@@ -78,3 +78,35 @@ async def other_client(session_maker):
     async with AsyncClient(transport=transport, base_url='http://test') as c:
         await _register_and_login(c)
         yield c
+
+
+# --- Фейковый Redis/очередь для тестов эндпоинтов сборки и AI --------------- #
+class FakeJob:
+    def __init__(self, result):
+        self._result = result
+
+    async def result(self, timeout=None, poll_delay=None):
+        return self._result
+
+
+class FakeRedis:
+    """Подмена arq-пула: фиксирует enqueue и возвращает заданный результат."""
+
+    def __init__(self):
+        self.result: dict = {}
+        self.calls: list[tuple] = []
+
+    async def enqueue_job(self, name, *args):
+        self.calls.append((name, args))
+        return FakeJob(self.result)
+
+
+@pytest.fixture
+def fake_redis():
+    fake = FakeRedis()
+    app.state.redis = fake
+    yield fake
+    try:
+        del app.state.redis
+    except AttributeError:
+        pass

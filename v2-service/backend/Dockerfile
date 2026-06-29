@@ -4,11 +4,17 @@ ENV PYTHONUNBUFFERED=1 \
     PYTHONDONTWRITEBYTECODE=1
 
 WORKDIR /app
-# Ставим ядро ontol БЕЗ AI-экстры: тяжёлый langchain вынесен в optional-extra
-# `[ai]` (pyproject), а сервису он не нужен. Кому нужен AI — `pip install -e .[ai]`.
+# По умолчанию ядро ontol ставится БЕЗ AI-экстры (тяжёлый langchain вынесен в
+# optional-extra `[ai]`). Опциональная AI-фича включается build-arg INSTALL_AI=true
+# (см. docker-compose.ai.yml) — тогда ставим `.[ai]`.
+ARG INSTALL_AI=false
 COPY pyproject.toml README.md LICENSE ./
 COPY src ./src
-RUN pip install --no-cache-dir -e .
+RUN if [ "$INSTALL_AI" = "true" ]; then \
+        pip install --no-cache-dir -e ".[ai]"; \
+    else \
+        pip install --no-cache-dir -e .; \
+    fi
 
 COPY v2-service/backend/requirements.txt ./backend-requirements.txt
 RUN pip install --no-cache-dir -r backend-requirements.txt

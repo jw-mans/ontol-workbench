@@ -11,6 +11,8 @@ from arq.connections import ArqRedis, RedisSettings
 from app.config import settings
 
 RENDER_BUILD = 'render_build'
+# Опциональная AI-генерация связей (включается settings.ai_enabled).
+AI_HIERARCHY = 'ai_hierarchy'
 
 
 def redis_settings() -> RedisSettings:

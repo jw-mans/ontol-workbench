@@ -6,6 +6,8 @@ import * as projectsApi from '../api/projects'
 import * as filesApi from '../api/files'
 import * as buildApi from '../api/build'
 import type { BuildResult } from '../api/build'
+import * as aiApi from '../api/ai'
+import type { AIHierarchyResult } from '../api/ai'
 import { errorMessage } from '../api/errors'
 import { downloadDataUrl, downloadText } from '../utils/download'
 import OntolEditor from '../components/OntolEditor'
@@ -18,6 +20,14 @@ export default function ProjectPage() {
   const [selectedId, setSelectedId] = useState<string | null>(null)
   const [error, setError] = useState<string | null>(null)
   const [build, setBuild] = useState<BuildResult | null>(null)
+  const [ai, setAi] = useState<AIHierarchyResult | null>(null)
+
+  // Какие опциональные фичи включены на бэкенде (напр. AI-генерация связей).
+  const configQuery = useQuery({
+    queryKey: ['config'],
+    queryFn: aiApi.getConfig,
+    staleTime: Infinity,
+  })
 
   const projectQuery = useQuery({
     queryKey: ['project', projectId],
@@ -90,6 +100,16 @@ export default function ProjectPage() {
     onSuccess: (res) => {
       setError(null)
       setBuild(res)
+    },
+    onError: (err) => setError(errorMessage(err)),
+  })
+
+  const aiMutation = useMutation({
+    mutationFn: () =>
+      aiApi.generateHierarchy(projectId, activeName ?? undefined),
+    onSuccess: (res) => {
+      setError(null)
+      setAi(res)
     },
     onError: (err) => setError(errorMessage(err)),
   })
@@ -201,6 +221,17 @@ export default function ProjectPage() {
             >
               {buildMutation.isPending ? 'Собираем…' : 'Собрать'}
             </button>
+            {configQuery.data?.ai_enabled && (
+              <button
+                type="button"
+                className="btn"
+                disabled={aiMutation.isPending}
+                onClick={() => aiMutation.mutate()}
+                title="Предложить связи между терминами через LLM"
+              >
+                {aiMutation.isPending ? 'Генерация…' : 'Связи (AI)'}
+              </button>
+            )}
             <span className="muted save-status">{saveStatus}</span>
           </div>
         </div>
@@ -213,7 +244,71 @@ export default function ProjectPage() {
           onClose={() => setBuild(null)}
         />
       )}
+
+      {ai && (
+        <AIPanel
+          ai={ai}
+          baseName={(activeName ?? 'hierarchy').replace(/\.ontol$/, '')}
+          onClose={() => setAi(null)}
+        />
+      )}
     </div>
+  )
+}
+
+function AIPanel({
+  ai,
+  baseName,
+  onClose,
+}: {
+  ai: AIHierarchyResult
+  baseName: string
+  onClose: () => void
+}) {
+  return (
+    <section className="build-panel card">
+      <div className="row build-head">
+        <h2>Предложенные связи (AI)</h2>
+        <div className="spacer" />
+        <button type="button" className="btn" onClick={onClose}>
+          Скрыть
+        </button>
+      </div>
+
+      {ai.error && <p className="error">{ai.error}</p>}
+
+      {ai.ok && ai.relationships.length === 0 && (
+        <p className="muted">LLM не предложил новых связей.</p>
+      )}
+
+      {ai.snippet && (
+        <>
+          <p className="muted">
+            Скопируйте фрагмент в свой `.ontol` (раздел hierarchy) — файл не
+            изменён автоматически.
+          </p>
+          <pre className="code-block">{ai.snippet}</pre>
+          <div className="row">
+            <button
+              type="button"
+              className="btn"
+              onClick={() => navigator.clipboard?.writeText(ai.snippet ?? '')}
+            >
+              Копировать
+            </button>
+            <button
+              type="button"
+              className="btn"
+              onClick={() =>
+                downloadText(`${baseName}.hierarchy.ontol`, ai.snippet ?? '')
+              }
+            >
+              Скачать
+            </button>
+          </div>
+        </>
+      )}
+    </section>
   )
 }
 
