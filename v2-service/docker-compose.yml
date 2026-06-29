@@ -1,6 +1,3 @@
-# Общее окружение backend-сервисов (api и worker используют один образ и конфиг).
-# Значения берутся из переменных окружения / файла v2-service/.env (compose читает
-# его автоматически). SECRET — без дефолта, его ОБЯЗАТЕЛЬНО задать в .env.
 x-backend-env: &backend-env
   DATABASE_URL: postgresql+asyncpg://${POSTGRES_USER:-ontol}:${POSTGRES_PASSWORD:-ontol}@db:5432/${POSTGRES_DB:-ontol}
   PLANTUML_URL: http://plantuml:8080/png/
@@ -57,8 +54,6 @@ services:
       - '8000:8000'
 
   worker:
-    # Тот же образ, что api (одинаковый build → compose собирает один раз), но
-    # команда — arq-воркер рендера: миграции/сервер не запускаются.
     image: ontol-api
     build:
       context: ..
@@ -66,6 +61,13 @@ services:
     command: ['arq', 'app.worker.WorkerSettings']
     environment:
       <<: *backend-env
+    healthcheck:
+      # arq --check читает health-check ключ воркера в Redis (см. WorkerSettings).
+      test: ['CMD', 'arq', 'app.worker.WorkerSettings', '--check']
+      interval: 30s
+      timeout: 10s
+      retries: 5
+      start_period: 20s
     depends_on:
       db:
         condition: service_healthy

@@ -1,0 +1,35 @@
+# Применяется к сборкам с контекстом = корень репозитория, т.е. к backend-образу
+# (см. v2-service/backend/Dockerfile, context: ..). У фронтенда свой
+# v2-service/frontend/.dockerignore. Здесь НЕ исключаем то, что копирует
+# Dockerfile: pyproject.toml, README.md, LICENSE, src/, v2-service/backend.
+
+# VCS / IDE / dev-окружения
+.git
+.github
+.devcontainer
+venv
+.venv
+.venv_v1
+.venv_v2
+
+# Python-кэши и артефакты
+**/__pycache__
+**/*.py[cod]
+.pytest_cache
+.mypy_cache
+.coverage
+src/ontol.egg-info
+dist
+
+# Не нужно в backend-образе
+tests
+v1-streamlit
+v2-service/frontend
+examples
+images
+docs
+build.sh
+
+# Локальные данные/секреты
+*.db
+v2-service/.env

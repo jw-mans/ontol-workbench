@@ -1,0 +1,4 @@
+# Зависимости для тестов backend. Ставить поверх requirements.txt:
+#   pip install -r requirements.txt -r requirements-dev.txt
+pytest-asyncio>=0.24
+aiosqlite>=0.20        # in-memory БД для тестов (внешний Postgres не нужен)

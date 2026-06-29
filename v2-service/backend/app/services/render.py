@@ -3,13 +3,6 @@
 Файлы проекта хранятся в БД. Чтобы межфайловые импорты ``ontol`` (которые
 резолвятся по файловой системе) работали без изменений ядра, материализуем все
 файлы во временный каталог и рендерим оттуда.
-
-Ядро ``ontol`` не модифицируем: повторяем шаги ``ontol.render_project`` (parse →
-JSON → PlantUML), но создаём ``PlantUML(url=...)`` со своим сервером вместо
-публичного plantuml.com — это единственная причина, по которой не зовём
-``render_project`` напрямую (он хардкодит ``PlantUML()``).
-
-Блокирующая функция: вызывать из async-кода через ``run_in_threadpool``.
 """
 
 import base64
@@ -21,8 +14,6 @@ from dataclasses import dataclass, field
 
 from ontol import JSONSerializer, Parser, PlantUML, Project
 
-# Ядро форматирует предупреждения для терминала (ANSI-цвета). В вебе они мусор —
-# вырезаем escape-последовательности, текст оставляем как есть.
 _ANSI_RE = re.compile(r'\x1b\[[0-9;]*m')
 
 
@@ -35,7 +26,6 @@ class BuildResult:
     ok: bool
     json: str | None = None
     puml: str | None = None
-    # PNG отдаём как data-URL (data:image/png;base64,...) — годится прямо в <img>.
     png_url: str | None = None
     warnings: list[str] = field(default_factory=list)
     error: str | None = None
@@ -67,7 +57,7 @@ def _render(project: Project, entry: str, plantuml_url: str) -> BuildResult:
     try:
         content = project.read_file(entry)
         ontology, warnings = Parser().parse(content, entry_path)
-    except Exception as error:  # noqa: BLE001 — отдаём любую ошибку парсинга/импорта
+    except Exception as error:  # noqa: BLE001
         return BuildResult(ok=False, error=str(error))
 
     json_text = JSONSerializer().serialize(ontology)
@@ -85,7 +75,6 @@ def _render(project: Project, entry: str, plantuml_url: str) -> BuildResult:
             encoded = base64.b64encode(f.read()).decode('ascii')
         png_url = f'data:image/png;base64,{encoded}'
     except Exception as error:  # noqa: BLE001
-        # PNG требует PlantUML-сервера; JSON/puml остаются рабочими без него.
         warnings.append(f'PNG rendering failed: {error}')
 
     return BuildResult(

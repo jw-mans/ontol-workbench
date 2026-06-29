@@ -52,3 +52,6 @@ assert render_build.__name__ == RENDER_BUILD
 class WorkerSettings:
     functions = [render_build]
     redis_settings = redis_settings()
+    # Раз в N секунд воркер пишет в Redis health-check ключ; его читает
+    # `arq app.worker.WorkerSettings --check` (healthcheck контейнера).
+    health_check_interval = 30

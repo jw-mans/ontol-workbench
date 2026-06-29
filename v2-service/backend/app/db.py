@@ -16,7 +16,7 @@ async_session_maker = async_sessionmaker(engine, expire_on_commit=False)
 
 
 class Base(DeclarativeBase):
-    """Базовый класс для всех ORM-моделей (модели появятся в Фазе 2)."""
+    """Базовый класс для всех ORM-моделей."""
 
 
 async def get_async_session() -> AsyncGenerator[AsyncSession, None]:
