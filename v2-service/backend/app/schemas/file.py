@@ -29,6 +29,15 @@ class FileUpdate(BaseModel):
     content: str
 
 
+class FileRename(BaseModel):
+    name: str = Field(min_length=1, max_length=255)
+
+    @field_validator('name')
+    @classmethod
+    def _flat(cls, v: str) -> str:
+        return _validate_flat_name(v)
+
+
 class FileRead(BaseModel):
     model_config = ConfigDict(from_attributes=True)
 

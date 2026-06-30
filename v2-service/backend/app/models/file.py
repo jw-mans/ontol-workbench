@@ -39,6 +39,6 @@ class File(Base):
         nullable=False,
     )
 
-    project: Mapped['Project'] = relationship(  # noqa: F821 — forward ref
+    project: Mapped['Project'] = relationship(  # noqa: F821
         back_populates='files'
     )

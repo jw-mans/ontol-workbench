@@ -40,6 +40,18 @@ export async function updateFile(
   return data
 }
 
+export async function renameFile(
+  projectId: string,
+  fileId: string,
+  name: string,
+): Promise<FileDetail> {
+  const { data } = await api.patch<FileDetail>(
+    `/projects/${projectId}/files/${fileId}`,
+    { name },
+  )
+  return data
+}
+
 export async function deleteFile(
   projectId: string,
   fileId: string,

@@ -11,11 +11,21 @@ from app.api.deps import get_owned_project
 from app.db import get_async_session
 from app.models.file import File
 from app.models.project import Project
-from app.schemas.file import FileCreate, FileListItem, FileRead, FileUpdate
+from app.schemas.file import (
+    FileCreate,
+    FileListItem,
+    FileRead,
+    FileRename,
+    FileUpdate,
+)
 
 ONTOL_EXT = '.ontol'
 
 router = APIRouter(prefix='/projects/{project_id}/files', tags=['files'])
+
+
+def _with_ext(name: str) -> str:
+    return name if name.endswith(ONTOL_EXT) else name + ONTOL_EXT
 
 
 async def _get_file(
@@ -44,8 +54,9 @@ async def create_file(
     project: Project = Depends(get_owned_project),
     session: AsyncSession = Depends(get_async_session),
 ) -> File:
-    name = data.name if data.name.endswith(ONTOL_EXT) else data.name + ONTOL_EXT
-    file = File(project_id=project.id, name=name, content=data.content)
+    file = File(
+        project_id=project.id, name=_with_ext(data.name), content=data.content
+    )
     session.add(file)
     try:
         await session.commit()
@@ -78,6 +89,27 @@ async def update_file(
     file = await _get_file(file_id, project, session)
     file.content = data.content
     await session.commit()
+    await session.refresh(file)
+    return file
+
+
+@router.patch('/{file_id}', response_model=FileRead)
+async def rename_file(
+    file_id: uuid.UUID,
+    data: FileRename,
+    project: Project = Depends(get_owned_project),
+    session: AsyncSession = Depends(get_async_session),
+) -> File:
+    """Переименовать файл (имя обязано быть уникальным в проекте)."""
+    file = await _get_file(file_id, project, session)
+    file.name = _with_ext(data.name)
+    try:
+        await session.commit()
+    except IntegrityError:
+        await session.rollback()
+        raise HTTPException(
+            status.HTTP_409_CONFLICT, 'File with this name already exists'
+        )
     await session.refresh(file)
     return file
 

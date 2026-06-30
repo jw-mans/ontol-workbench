@@ -44,6 +44,25 @@ async def test_files_crud(auth_client, project_id):
     assert (await auth_client.get(base)).json() == []
 
 
+async def test_files_rename(auth_client, project_id):
+    base = f'/projects/{project_id}/files'
+    fid = (await auth_client.post(base, json={'name': 'main'})).json()['id']
+    await auth_client.post(base, json={'name': 'other'})
+
+    # переименование: расширение .ontol добавляется само
+    r = await auth_client.patch(f'{base}/{fid}', json={'name': 'renamed'})
+    assert r.status_code == 200, r.text
+    assert r.json()['name'] == 'renamed.ontol'
+
+    # конфликт с существующим именем
+    r = await auth_client.patch(f'{base}/{fid}', json={'name': 'other.ontol'})
+    assert r.status_code == 409
+
+    # невалидное имя (traversal)
+    r = await auth_client.patch(f'{base}/{fid}', json={'name': '../evil'})
+    assert r.status_code == 422
+
+
 async def test_files_cross_user(auth_client, other_client, project_id):
     fid = (
         await auth_client.post(

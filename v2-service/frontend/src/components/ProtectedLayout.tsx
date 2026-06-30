@@ -1,17 +1,20 @@
-import { Navigate, Outlet, Link, useNavigate } from 'react-router-dom'
+import { Navigate, Outlet, Link } from 'react-router-dom'
 
 import { useAuth } from '../auth/AuthContext'
 
 export default function ProtectedLayout() {
   const { user, loading, logout } = useAuth()
-  const navigate = useNavigate()
 
   if (loading) return <div className="center-screen muted">Загрузка…</div>
   if (!user) return <Navigate to="/login" replace />
 
   async function onLogout() {
-    await logout()
-    navigate('/login', { replace: true })
+    try {
+      await logout()
+    } catch {
+      // сессия уже недействительна — всё равно уходим на вход
+    }
+    window.location.assign('/login')
   }
 
   return (

@@ -40,8 +40,11 @@ app.add_middleware(
     allow_headers=['*'],
 )
 
-# --- Авторизация (fastapi-users) ------------------------------------------- #
-# POST /auth/cookie/login · POST /auth/cookie/logout
+"""
+Авторизация (fastapi-users)
+"""
+
+# POST /auth/cookie/login : POST /auth/cookie/logout
 app.include_router(
     fastapi_users.get_auth_router(auth_backend), prefix='/auth/cookie', tags=['auth']
 )
@@ -51,21 +54,31 @@ app.include_router(
     prefix='/auth',
     tags=['auth'],
 )
-# GET/PATCH /users/me · GET/PATCH/DELETE /users/{id}
+# GET/PATCH /users/me : GET/PATCH/DELETE /users/{id}
 app.include_router(
     fastapi_users.get_users_router(UserRead, UserUpdate),
     prefix='/users',
     tags=['users'],
 )
 
-# --- CRUD проектов и файлов ------------------------------------------------ #
+"""
+CRUD проектов и файлов
+"""
+
 app.include_router(projects.router)
 app.include_router(files.router)
 
-# --- Сборка проекта в диаграмму -------------------------------------------- #
+
+"""
+Сборка проекта в диаграмму
+"""
+
 app.include_router(build.router)
 
-# --- Опциональная AI-генерация связей -------------------------------------- #
+"""
+Опциональная AI-генерация связей
+"""
+
 app.include_router(ai.router)
 
 
@@ -93,5 +106,5 @@ async def health_db() -> dict:
         async with engine.connect() as conn:
             await conn.execute(text('SELECT 1'))
         return {'database': 'ok'}
-    except Exception as error:  # noqa: BLE001 — вернуть статус, а не падать
+    except Exception as error:  # noqa: BLE001
         return {'database': 'error', 'detail': str(error)}

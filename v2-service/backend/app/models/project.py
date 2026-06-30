@@ -31,6 +31,6 @@ class Project(Base):
         nullable=False,
     )
 
-    files: Mapped[list['File']] = relationship(  # noqa: F821 — forward ref
+    files: Mapped[list['File']] = relationship(  # noqa: F821
         back_populates='project', cascade='all, delete-orphan'
     )

@@ -19,18 +19,24 @@ const AuthContext = createContext<AuthContextValue | null>(null)
 export function AuthProvider({ children }: { children: ReactNode }) {
   const queryClient = useQueryClient()
 
-  const { data, isLoading } = useQuery({
+  const { data, isLoading, isError, error } = useQuery({
     queryKey: ['me'],
     queryFn: authApi.getMe,
-    retry: (count, error) => {
+    retry: (count, err) => {
       // 401 — это "не залогинен", повторять бессмысленно.
-      if (error instanceof AxiosError && error.response?.status === 401) {
+      if (err instanceof AxiosError && err.response?.status === 401) {
         return false
       }
       return count < 2
     },
     staleTime: Infinity,
   })
+
+  // Если последний запрос me завершился 401 — сессии нет, даже если в кэше
+  // остались прежние данные (RQ сохраняет data при ошибке рефетча).
+  const unauthorized =
+    isError && error instanceof AxiosError && error.response?.status === 401
+  const user = unauthorized ? null : (data ?? null)
 
   async function login(email: string, password: string) {
     await authApi.login(email, password)
@@ -44,12 +50,17 @@ export function AuthProvider({ children }: { children: ReactNode }) {
   }
 
   async function logout() {
-    await authApi.logout()
-    queryClient.clear()
+    try {
+      await authApi.logout()
+    } finally {
+      // Чистим кэш и обнуляем сессию (ProtectedLayout довершает жёстким переходом).
+      queryClient.clear()
+      queryClient.setQueryData(['me'], null)
+    }
   }
 
   const value: AuthContextValue = {
-    user: data ?? null,
+    user,
     loading: isLoading,
     login,
     register,

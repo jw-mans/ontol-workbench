@@ -44,7 +44,7 @@ async def ai_hierarchy(
         raise HTTPException(
             status.HTTP_504_GATEWAY_TIMEOUT, 'AI generation timed out'
         )
-    except Exception as error:  # noqa: BLE001 — задача упала в воркере
+    except Exception as error:  # noqa: BLE001
         raise HTTPException(
             status.HTTP_500_INTERNAL_SERVER_ERROR, f'AI generation failed: {error}'
         )

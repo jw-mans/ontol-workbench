@@ -8,19 +8,35 @@ import * as buildApi from '../api/build'
 import type { BuildResult } from '../api/build'
 import * as aiApi from '../api/ai'
 import type { AIHierarchyResult } from '../api/ai'
+import type { FileListItem } from '../api/types'
 import { errorMessage } from '../api/errors'
 import { downloadDataUrl, downloadText } from '../utils/download'
 import OntolEditor from '../components/OntolEditor'
+import { ConfirmDialog, PromptDialog } from '../components/Modal'
+import { ContextMenu } from '../components/ContextMenu'
 
 const AUTOSAVE_DEBOUNCE_MS = 800
 
 export default function ProjectPage() {
   const { projectId = '' } = useParams()
   const queryClient = useQueryClient()
-  const [selectedId, setSelectedId] = useState<string | null>(null)
   const [error, setError] = useState<string | null>(null)
   const [build, setBuild] = useState<BuildResult | null>(null)
   const [ai, setAi] = useState<AIHierarchyResult | null>(null)
+  
+  const [openIds, setOpenIds] = useState<string[]>([])
+  const [activeId, setActiveId] = useState<string | null>(null)
+  const [creatingFile, setCreatingFile] = useState(false)
+  const [renamingFile, setRenamingFile] = useState<FileListItem | null>(null)
+  const [deletingFile, setDeletingFile] = useState<{
+    id: string
+    name: string
+  } | null>(null)
+  const [menu, setMenu] = useState<{
+    x: number
+    y: number
+    file: FileListItem
+  } | null>(null)
 
   // Какие опциональные фичи включены на бэкенде (напр. AI-генерация связей).
   const configQuery = useQuery({
@@ -39,14 +55,36 @@ export default function ProjectPage() {
     queryFn: () => filesApi.listFiles(projectId),
   })
 
-  // Активный файл выводим из списка: выбранный, если он ещё существует, иначе
-  // первый. Так не нужен useEffect для авто-выбора.
   const files = filesQuery.data
-  const activeId =
-    selectedId && files?.some((f) => f.id === selectedId)
-      ? selectedId
-      : files?.[0]?.id ?? null
   const activeName = files?.find((f) => f.id === activeId)?.name ?? null
+
+  if (files) {
+    const ids = new Set(files.map((f) => f.id))
+    const pruned = openIds.filter((id) => ids.has(id))
+    if (pruned.length !== openIds.length) {
+      setOpenIds(pruned)
+    } else if (openIds.length === 0 && files.length > 0) {
+      setOpenIds([files[0].id])
+    }
+  }
+  
+  if (activeId !== null && !openIds.includes(activeId)) {
+    setActiveId(openIds.length > 0 ? openIds[openIds.length - 1] : null)
+  } else if (activeId === null && openIds.length > 0) {
+    setActiveId(openIds[openIds.length - 1])
+  }
+
+  function openFile(id: string) {
+    setOpenIds((prev) => (prev.includes(id) ? prev : [...prev, id]))
+    setActiveId(id)
+  }
+
+  function closeTab(id: string) {
+    const idx = openIds.indexOf(id)
+    const next = openIds.filter((x) => x !== id)
+    setOpenIds(next)
+    if (activeId === id) setActiveId(next[idx] ?? next[idx - 1] ?? null)
+  }
 
   const fileQuery = useQuery({
     queryKey: ['file', projectId, activeId],
@@ -54,8 +92,6 @@ export default function ProjectPage() {
     enabled: !!activeId,
   })
 
-  // Сброс черновика при смене активного файла — корректировка состояния прямо
-  // в рендере (паттерн react.dev/you-might-not-need-an-effect), а не в эффекте.
   const [draft, setDraft] = useState('')
   const [syncedId, setSyncedId] = useState<string | null>(null)
   if (fileQuery.data && fileQuery.data.id !== syncedId) {
@@ -80,7 +116,17 @@ export default function ProjectPage() {
     onSuccess: (created) => {
       setError(null)
       queryClient.invalidateQueries({ queryKey: ['files', projectId] })
-      setSelectedId(created.id)
+      openFile(created.id)
+    },
+    onError: (err) => setError(errorMessage(err)),
+  })
+
+  const renameMutation = useMutation({
+    mutationFn: ({ id, name }: { id: string; name: string }) =>
+      filesApi.renameFile(projectId, id, name),
+    onSuccess: () => {
+      setError(null)
+      queryClient.invalidateQueries({ queryKey: ['files', projectId] })
     },
     onError: (err) => setError(errorMessage(err)),
   })
@@ -137,14 +183,7 @@ export default function ProjectPage() {
   }
 
   function onCreateFile() {
-    const name = window.prompt('Имя файла (расширение .ontol добавится само)')
-    if (name && name.trim()) createMutation.mutate(name.trim())
-  }
-
-  function onDeleteFile(id: string, name: string) {
-    if (window.confirm(`Удалить файл «${name}»?`)) {
-      deleteMutation.mutate(id)
-    }
+    setCreatingFile(true)
   }
 
   if (projectQuery.isError) {
@@ -178,64 +217,116 @@ export default function ProjectPage() {
 
       {error && <p className="error">{error}</p>}
 
-      <div className="tabs">
-        {filesQuery.data?.map((f) => (
-          <div key={f.id} className={`tab ${f.id === activeId ? 'active' : ''}`}>
-            <button
-              type="button"
-              className="tab-name"
-              onClick={() => setSelectedId(f.id)}
-            >
-              {f.name}
-            </button>
-            <button
-              type="button"
-              className="tab-close"
-              title="Удалить файл"
-              onClick={() => onDeleteFile(f.id, f.name)}
-            >
-              ×
+      <div className="workspace">
+        <aside className="file-explorer">
+          <div className="explorer-head">
+            <span className="explorer-title">Файлы</span>
+            <button type="button" className="btn tab-add" onClick={onCreateFile}>
+              + файл
             </button>
           </div>
-        ))}
-        <button type="button" className="btn tab-add" onClick={onCreateFile}>
-          + файл
-        </button>
-      </div>
+          {files && files.length === 0 ? (
+            <p className="muted empty-explorer">Файлов пока нет</p>
+          ) : (
+            <ul className="file-list-nav">
+              {files?.map((f) => (
+                <li
+                  key={f.id}
+                  className={`file-row ${f.id === activeId ? 'active' : ''}`}
+                  onClick={() => openFile(f.id)}
+                  onContextMenu={(e) => {
+                    e.preventDefault()
+                    setMenu({ x: e.clientX, y: e.clientY, file: f })
+                  }}
+                >
+                  <span className="file-row-name">{f.name}</span>
+                  <button
+                    type="button"
+                    className="file-row-menu"
+                    title="Действия"
+                    onClick={(e) => {
+                      e.stopPropagation()
+                      const r = e.currentTarget.getBoundingClientRect()
+                      setMenu({ x: r.left, y: r.bottom, file: f })
+                    }}
+                  >
+                    ⋮
+                  </button>
+                </li>
+              ))}
+            </ul>
+          )}
+        </aside>
 
-      {filesQuery.data && filesQuery.data.length === 0 && (
-        <p className="muted empty">В проекте пока нет файлов. Создайте первый.</p>
-      )}
+        <div className="editor-area">
+          {openIds.length > 0 && (
+            <div className="tabs">
+              {openIds.map((id) => {
+                const f = files?.find((x) => x.id === id)
+                if (!f) return null
+                return (
+                  <div
+                    key={id}
+                    className={`tab ${id === activeId ? 'active' : ''}`}
+                  >
+                    <button
+                      type="button"
+                      className="tab-name"
+                      onClick={() => setActiveId(id)}
+                    >
+                      {f.name}
+                    </button>
+                    <button
+                      type="button"
+                      className="tab-close"
+                      title="Закрыть вкладку"
+                      onClick={() => closeTab(id)}
+                    >
+                      ×
+                    </button>
+                  </div>
+                )
+              })}
+            </div>
+          )}
 
-      {activeId && (
-        <div className="editor-pane">
-          <div className="editor-host">
-            <OntolEditor value={draft} onChange={setDraft} />
-          </div>
-          <div className="row editor-actions">
-            <button
-              type="button"
-              className="btn btn-primary"
-              disabled={buildMutation.isPending}
-              onClick={onBuild}
-            >
-              {buildMutation.isPending ? 'Собираем…' : 'Собрать'}
-            </button>
-            {configQuery.data?.ai_enabled && (
-              <button
-                type="button"
-                className="btn"
-                disabled={aiMutation.isPending}
-                onClick={() => aiMutation.mutate()}
-                title="Предложить связи между терминами через LLM"
-              >
-                {aiMutation.isPending ? 'Генерация…' : 'Связи (AI)'}
-              </button>
-            )}
-            <span className="muted save-status">{saveStatus}</span>
-          </div>
+          {activeId ? (
+            <div className="editor-pane">
+              <div className="editor-host">
+                <OntolEditor value={draft} onChange={setDraft} />
+              </div>
+              <div className="row editor-actions">
+                <button
+                  type="button"
+                  className="btn btn-primary"
+                  disabled={buildMutation.isPending}
+                  onClick={onBuild}
+                >
+                  {buildMutation.isPending ? 'Собираем…' : 'Собрать'}
+                </button>
+                {configQuery.data?.ai_enabled && (
+                  <button
+                    type="button"
+                    className="btn"
+                    disabled={aiMutation.isPending}
+                    onClick={() => aiMutation.mutate()}
+                    title="Предложить связи между терминами через LLM"
+                  >
+                    {aiMutation.isPending ? 'Генерация…' : 'Связи (AI)'}
+                  </button>
+                )}
+                <span className="muted save-status">{saveStatus}</span>
+              </div>
+            </div>
+          ) : (
+            <p className="muted empty">
+              {files && files.length === 0
+                ? 'В проекте пока нет файлов. Создайте первый.'
+                : 'Выберите файл слева, чтобы открыть.'}
+            </p>
+          )}
         </div>
-      )}
+      </div>
 
       {build && (
         <BuildPanel
@@ -250,6 +341,67 @@ export default function ProjectPage() {
           ai={ai}
           baseName={(activeName ?? 'hierarchy').replace(/\.ontol$/, '')}
           onClose={() => setAi(null)}
+        />
+      )}
+
+      {creatingFile && (
+        <PromptDialog
+          title="Новый файл"
+          label="Имя файла (расширение .ontol добавится само)"
+          placeholder="например, main"
+          confirmLabel="Создать"
+          onCancel={() => setCreatingFile(false)}
+          onSubmit={(name) => {
+            createMutation.mutate(name)
+            setCreatingFile(false)
+          }}
+        />
+      )}
+
+      {renamingFile && (
+        <PromptDialog
+          title="Переименовать файл"
+          initialValue={renamingFile.name}
+          confirmLabel="Сохранить"
+          onCancel={() => setRenamingFile(null)}
+          onSubmit={(name) => {
+            if (name !== renamingFile.name) {
+              renameMutation.mutate({ id: renamingFile.id, name })
+            }
+            setRenamingFile(null)
+          }}
+        />
+      )}
+
+      {deletingFile && (
+        <ConfirmDialog
+          title="Удалить файл?"
+          message={`Файл «${deletingFile.name}» будет удалён.`}
+          onCancel={() => setDeletingFile(null)}
+          onConfirm={() => {
+            deleteMutation.mutate(deletingFile.id)
+            setDeletingFile(null)
+          }}
+        />
+      )}
+
+      {menu && (
+        <ContextMenu
+          x={menu.x}
+          y={menu.y}
+          onClose={() => setMenu(null)}
+          items={[
+            {
+              label: 'Переименовать',
+              onClick: () => setRenamingFile(menu.file),
+            },
+            {
+              label: 'Удалить',
+              danger: true,
+              onClick: () =>
+                setDeletingFile({ id: menu.file.id, name: menu.file.name }),
+            },
+          ]}
         />
       )}
     </div>

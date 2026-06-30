@@ -5,11 +5,14 @@ import { useMutation, useQuery, useQueryClient } from '@tanstack/react-query'
 import * as projectsApi from '../api/projects'
 import { errorMessage } from '../api/errors'
 import type { Project } from '../api/types'
+import { ConfirmDialog, PromptDialog } from '../components/Modal'
 
 export default function ProjectsPage() {
   const queryClient = useQueryClient()
   const [name, setName] = useState('')
   const [error, setError] = useState<string | null>(null)
+  const [renaming, setRenaming] = useState<Project | null>(null)
+  const [deleting, setDeleting] = useState<Project | null>(null)
 
   const projectsQuery = useQuery({
     queryKey: ['projects'],
@@ -49,16 +52,11 @@ export default function ProjectsPage() {
   }
 
   function onRename(p: Project) {
-    const next = window.prompt('Новое имя проекта', p.name)
-    if (next && next.trim() && next.trim() !== p.name) {
-      renameMutation.mutate({ id: p.id, n: next.trim() })
-    }
+    setRenaming(p)
   }
 
   function onDelete(p: Project) {
-    if (window.confirm(`Удалить проект «${p.name}» со всеми файлами?`)) {
-      deleteMutation.mutate(p.id)
-    }
+    setDeleting(p)
   }
 
   return (
@@ -115,6 +113,33 @@ export default function ProjectsPage() {
           </li>
         ))}
       </ul>
+
+      {renaming && (
+        <PromptDialog
+          title="Переименовать проект"
+          initialValue={renaming.name}
+          confirmLabel="Сохранить"
+          onCancel={() => setRenaming(null)}
+          onSubmit={(next) => {
+            if (next !== renaming.name) {
+              renameMutation.mutate({ id: renaming.id, n: next })
+            }
+            setRenaming(null)
+          }}
+        />
+      )}
+
+      {deleting && (
+        <ConfirmDialog
+          title="Удалить проект?"
+          message={`Проект «${deleting.name}» будет удалён со всеми файлами. Действие необратимо.`}
+          onCancel={() => setDeleting(null)}
+          onConfirm={() => {
+            deleteMutation.mutate(deleting.id)
+            setDeleting(null)
+          }}
+        />
+      )}
     </div>
   )
 }

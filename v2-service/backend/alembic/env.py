@@ -15,12 +15,11 @@ from sqlalchemy.ext.asyncio import async_engine_from_config
 
 from alembic import context
 
-# Сделать пакет `app` импортируемым (env.py лежит в alembic/, app — на уровень выше).
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 from app.config import settings  # noqa: E402
 from app.db import Base  # noqa: E402
-import app.models  # noqa: E402,F401  — регистрирует модели на Base.metadata
+import app.models  # noqa: E402,F401 
 
 config = context.config
 config.set_main_option('sqlalchemy.url', settings.database_url)

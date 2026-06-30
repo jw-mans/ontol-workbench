@@ -47,8 +47,9 @@ class Settings(BaseSettings):
     # В проде ОБЯЗАТЕЛЬНО переопределить; ≥32 байт (для HMAC-SHA256).
     secret: str = 'dev-secret-change-me-in-production-0000'
 
-    # Время жизни токена/cookie авторизации, секунды.
-    access_token_lifetime_seconds: int = 3600
+    # Время жизни токена/cookie авторизации, секунды (по умолчанию 7 дней —
+    # рефреша нет, час слишком мал и заставляет часто перелогиниваться).
+    access_token_lifetime_seconds: int = 604800
 
     # Ставить ли флаг Secure у cookie (True — только по HTTPS; для прода).
     cookie_secure: bool = False

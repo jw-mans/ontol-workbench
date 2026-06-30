@@ -1,8 +1,3 @@
-# Применяется к сборкам с контекстом = корень репозитория, т.е. к backend-образу
-# (см. v2-service/backend/Dockerfile, context: ..). У фронтенда свой
-# v2-service/frontend/.dockerignore. Здесь НЕ исключаем то, что копирует
-# Dockerfile: pyproject.toml, README.md, LICENSE, src/, v2-service/backend.
-
 # VCS / IDE / dev-окружения
 .git
 .github

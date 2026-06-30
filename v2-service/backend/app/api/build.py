@@ -31,7 +31,7 @@ async def build(
     """
     redis = request.app.state.redis
     job = await redis.enqueue_job(RENDER_BUILD, str(project.id), data.entry)
-    if job is None:  # такой job_id уже выполняется — крайне маловероятно
+    if job is None:
         raise HTTPException(status.HTTP_409_CONFLICT, 'Build already in progress')
     try:
         return await job.result(
@@ -41,7 +41,7 @@ async def build(
         raise HTTPException(
             status.HTTP_504_GATEWAY_TIMEOUT, 'Build timed out'
         )
-    except Exception as error:  # noqa: BLE001 — задача упала в воркере
+    except Exception as error:  # noqa: BLE001
         raise HTTPException(
             status.HTTP_500_INTERNAL_SERVER_ERROR, f'Build failed: {error}'
         )
