@@ -6,11 +6,13 @@
 
 Зависимости разведены на две части:
 
+Пакет v1 (`ontol`) переехал в `src/ontol-v1/` (свой `pyproject.toml`).
+
 | Файл | Назначение |
 |---|---|
-| `requirements-core.txt` | ядро: парсинг, визуализация, CLI, веб (Streamlit), тесты. Без langchain. |
-| `requirements-ai.txt` | опциональный AI-стек (`--gen-hierarchy`, LLM через Ollama/langchain). |
-| `requirements.txt` | полный набор (ядро + AI), для обратной совместимости. |
+| `src/ontol-v1/requirements-core.txt` | ядро: парсинг, визуализация, CLI, веб (Streamlit), тесты. Без langchain. |
+| `src/ontol-v1/requirements-ai.txt` | опциональный AI-стек (`--gen-hierarchy`, LLM через Ollama/langchain). |
+| `src/ontol-v1/requirements.txt` | полный набор (ядро + AI), для обратной совместимости. |
 
 Раньше пакет **не импортировался без langchain** — модуль `ai.py` тянул его на уровне модуля.
 Теперь импорт langchain ленивый (внутри `AI.generate_hierarchy`), поэтому ядро, веб и тесты
@@ -19,10 +21,9 @@
 ## Установка (ядро)
 
 ```bash
-cd repos/v1
 python -m venv .venv
-.venv/Scripts/pip install -r requirements-core.txt   # Windows
-# source .venv/bin/activate && pip install -r requirements-core.txt  # *nix
+.venv/Scripts/pip install -e src/ontol-v1        # Windows (ядро)
+# source .venv/bin/activate && pip install -e src/ontol-v1  # *nix
 ```
 
 ## Windows: кодировка консоли
@@ -38,11 +39,11 @@ export PYTHONUTF8=1       # git-bash
 
 ## Запуск CLI
 
-Пакет лежит в `src/`, поэтому нужен `PYTHONPATH=src` (или `pip install -e .`):
+После `pip install -e src/ontol-v1` доступна CLI-команда `ontol`:
 
 ```bash
-PYTHONPATH=src python -m ontol.cli examples/set_theory.ontol
-# → examples/set_theory.json + .puml + .png
+ontol src/ontol-v1/examples/set_theory.ontol
+# → src/ontol-v1/examples/set_theory.json + .puml + .png
 ```
 
 Полезные флаги: `--watch`, `--debug`, `--output-dir <dir>`, `--split-funcs-rels`.
@@ -50,8 +51,7 @@ PYTHONPATH=src python -m ontol.cli examples/set_theory.ontol
 ## Тесты
 
 ```bash
-PYTHONPATH=src python -m pytest tests -q
-# 53 passed
+python -m pytest src/ontol-v1/tests -q
 ```
 
 ## Веб — личный кабинет (ЛК)
@@ -73,6 +73,6 @@ streamlit run deploy/app.py
 ## AI-фича (опционально)
 
 ```bash
-pip install -r requirements-ai.txt   # + установленный Ollama с нужной моделью
-PYTHONPATH=src python -m ontol.cli examples/set_theory.ontol --gen-hierarchy -m llama3.1
+pip install -e src/ontol-v1[ai]   # + установленный Ollama с нужной моделью
+ontol src/ontol-v1/examples/set_theory.ontol --gen-hierarchy -m llama3.1
 ```

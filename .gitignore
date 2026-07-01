@@ -20,13 +20,13 @@ venv
 
 # Dist
 dist/
-src/ontol.egg-info/
+*.egg-info/
 
-# Compiled examples
-examples/**/*.json
-examples/**/*.puml
-examples/**/*.png
-examples/**/*_retr.ontol
+# Compiled examples (v1 examples переехали под src/ontol-v1/)
+src/ontol-v1/examples/**/*.json
+src/ontol-v1/examples/**/*.puml
+src/ontol-v1/examples/**/*.png
+src/ontol-v1/examples/**/*_retr.ontol
 
 # Projects
 projects/

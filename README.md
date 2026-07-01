@@ -32,11 +32,11 @@ Ontol DSL Parser is a tool for parsing and visualizing ontology files written in
 
 Dependencies are split so the heavy AI stack stays optional:
 
-- `requirements-core.txt` — parsing, visualization, CLI, web UI and tests.
-- `requirements-ai.txt` — optional LLM stack (`--gen-hierarchy`), installed on top of core.
+- `src/ontol-v1/requirements-core.txt` — parsing, visualization, CLI, web UI and tests.
+- `src/ontol-v1/requirements-ai.txt` — optional LLM stack (`--gen-hierarchy`), on top of core.
 
-The same split is exposed via the package itself: `pip install -e .` installs the
-core only; `pip install -e .[ai]` adds the optional AI stack.
+The same split is exposed via the package itself: `pip install -e src/ontol-v1`
+installs the core only; `pip install -e src/ontol-v1[ai]` adds the optional AI stack.
 
 ## Installation
 
@@ -46,12 +46,12 @@ Install from PyPi:
 pip install ontol
 ```
 
-Or, to run from a clone (src layout):
+Or, to run from a clone (v1 lives in `src/ontol-v1`):
 
 ```bash
-pip install -r requirements-core.txt
+pip install -e src/ontol-v1
 # optional, only for --gen-hierarchy:
-pip install -r requirements-ai.txt
+pip install -e src/ontol-v1[ai]
 ```
 
 ## Usage
@@ -98,7 +98,7 @@ ontol --help
 
 ### Generate hierarchy with AI (optional)
 
-To let an LLM suggest relationships between terms (requires `requirements-ai.txt` and a running [Ollama](https://ollama.com) model):
+To let an LLM suggest relationships between terms (requires `src/ontol-v1/requirements-ai.txt` and a running [Ollama](https://ollama.com) model):
 
 ```bash
 ontol path/to/yourfile.ontol --gen-hierarchy --model llama3 --temperature 0.0
@@ -125,7 +125,7 @@ import * from 'base.ontol'                           (* everything *)
 - **Circular imports** (`a -> b -> a`) raise a clear error instead of crashing.
 - **Diamond imports** (the same definition reached via two paths) are deduplicated; only genuinely different definitions sharing a name are reported as a conflict.
 
-See [examples/multifile_demo/](examples/multifile_demo/) for a minimal cross-file example.
+See [src/ontol-v1/examples/multifile_demo/](src/ontol-v1/examples/multifile_demo/) for a minimal cross-file example.
 
 ## Web personal workspace (личный кабинет)
 

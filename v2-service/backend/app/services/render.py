@@ -27,6 +27,7 @@ class BuildResult:
     json: str | None = None
     puml: str | None = None
     png_url: str | None = None
+    svg: str | None = None  # для ontol-v3 (TDL → Graphviz)
     warnings: list[str] = field(default_factory=list)
     error: str | None = None
 
@@ -41,6 +42,16 @@ def build_project(
     """
     if entry not in files:
         return BuildResult(ok=False, error=f'Entry file {entry!r} not found')
+
+    # Движок выбирается по расширению точки входа: .tdl → ontol-v3 (Graphviz/SVG),
+    # иначе — v1 (PlantUML/PNG).
+    if entry.endswith('.tdl'):
+        from app.services.render_v3 import build_tdl_svg
+
+        svg, error = build_tdl_svg(files[entry])
+        if error:
+            return BuildResult(ok=False, error=error)
+        return BuildResult(ok=True, svg=svg)
 
     tmp_dir = tempfile.mkdtemp(prefix='ontol_build_')
     try:

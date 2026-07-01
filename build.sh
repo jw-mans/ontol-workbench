@@ -3,8 +3,8 @@
 # Ensure PyInstaller is installed
 pip install pyinstaller
 
-# Define the script to be packaged
-SCRIPT="src/cli.py"
+# Define the script to be packaged (движок v1 переехал в src/ontol-v1)
+SCRIPT="src/ontol-v1/ontol/cli.py"
 
 # Define the output directory
 OUTPUT_DIR="dist"

@@ -4,17 +4,24 @@ ENV PYTHONUNBUFFERED=1 \
     PYTHONDONTWRITEBYTECODE=1
 
 WORKDIR /app
-# По умолчанию ядро ontol ставится БЕЗ AI-экстры (тяжёлый langchain вынесен в
-# optional-extra `[ai]`). Опциональная AI-фича включается build-arg INSTALL_AI=true
-# (см. docker-compose.ai.yml) — тогда ставим `.[ai]`.
+
+# Graphviz (бинарь `dot`) нужен движку ontol-v3 (TDL → SVG). Ставим всегда.
+RUN apt-get update \
+    && apt-get install -y --no-install-recommends graphviz \
+    && rm -rf /var/lib/apt/lists/*
+
+# Два независимых движка, каждый со своим pyproject: v1 (`ontol`) в src/ontol-v1,
+# v3 (`uml_dsl`) в src/ontol-v3. Ставим как editable-пакеты. AI-стек (тяжёлый
+# langchain) — опциональная экстра `[ai]` у v1, включается build-arg INSTALL_AI=true
+# (см. docker-compose.ai.yml).
 ARG INSTALL_AI=false
-COPY pyproject.toml README.md LICENSE ./
 COPY src ./src
 RUN if [ "$INSTALL_AI" = "true" ]; then \
-        pip install --no-cache-dir -e ".[ai]"; \
+        pip install --no-cache-dir -e "./src/ontol-v1[ai]"; \
     else \
-        pip install --no-cache-dir -e .; \
-    fi
+        pip install --no-cache-dir -e ./src/ontol-v1; \
+    fi \
+    && pip install --no-cache-dir -e ./src/ontol-v3
 
 COPY v2-service/backend/requirements.txt ./backend-requirements.txt
 RUN pip install --no-cache-dir -r backend-requirements.txt

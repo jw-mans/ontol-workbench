@@ -197,13 +197,16 @@ textarea:focus {
   display: flex;
   align-items: center;
   gap: 4px;
-  flex-wrap: wrap;
+  /* Один ряд с горизонтальной прокруткой (как в VSCode), а не перенос. */
+  flex-wrap: nowrap;
+  overflow-x: auto;
   border-bottom: 1px solid var(--border);
   padding-bottom: 0;
 }
 .tab {
   display: flex;
   align-items: center;
+  flex: 0 0 auto;
   border: 1px solid var(--border);
   border-bottom: none;
   border-radius: 6px 6px 0 0;
@@ -219,6 +222,10 @@ textarea:focus {
   color: var(--text-h);
   font-size: 14px;
   padding: 7px 10px;
+  max-width: 180px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 .tab-close {
   border: none;
@@ -293,6 +300,19 @@ textarea:focus {
   border-radius: 8px;
   background: #fff;
 }
+/* Инлайн-SVG (ontol-v3): адаптивный размер, белый фон как у PNG. */
+.svg-diagram {
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  background: #fff;
+  padding: 8px;
+  overflow: auto;
+}
+.svg-diagram svg {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
 .build-panel details summary {
   cursor: pointer;
   font-size: 15px;
@@ -351,6 +371,13 @@ textarea:focus {
 .modal-actions {
   gap: 10px;
 }
+/* Сегментированный выбор расширения в диалоге создания файла. */
+.seg-control {
+  gap: 8px;
+}
+.seg-control .btn {
+  flex: 1;
+}
 
 /* Рабочая область: список всех файлов слева + редактор справа */
 .workspace {
@@ -367,6 +394,10 @@ textarea:focus {
   border-radius: 8px;
   padding: 10px;
   background: var(--code-bg);
+  /* Прилипает к верху и не выше экрана — список внутри скроллится сам. */
+  position: sticky;
+  top: 16px;
+  max-height: calc(100vh - 32px);
 }
 .explorer-head {
   display: flex;
@@ -391,6 +422,9 @@ textarea:focus {
   display: flex;
   flex-direction: column;
   gap: 2px;
+  /* Длинный список прокручивается внутри панели, а не растягивает страницу. */
+  overflow-y: auto;
+  min-height: 0;
 }
 .file-row {
   display: flex;

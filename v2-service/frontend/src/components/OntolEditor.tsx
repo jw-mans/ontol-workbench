@@ -7,6 +7,7 @@ import {
   ONTOL_THEME_LIGHT,
   registerOntol,
 } from '../ontol-lang/ontol-language'
+import { TDL_LANG_ID, registerTdl } from '../ontol-lang/tdl-language'
 
 function prefersDark(): boolean {
   return (
@@ -18,10 +19,16 @@ function prefersDark(): boolean {
 interface Props {
   value: string
   onChange: (value: string) => void
+  /** Язык подсветки: 'ontol' (v1) или 'tdl' (v3). По умолчанию ontol. */
+  language?: 'ontol' | 'tdl'
 }
 
-/** Редактор Ontol на Monaco: подсветка языка + тема по системной схеме. */
-export default function OntolEditor({ value, onChange }: Props) {
+/** Редактор Ontol/TDL на Monaco: подсветка языка + тема по системной схеме. */
+export default function OntolEditor({
+  value,
+  onChange,
+  language = 'ontol',
+}: Props) {
   const [dark, setDark] = useState(prefersDark)
 
   useEffect(() => {
@@ -34,12 +41,13 @@ export default function OntolEditor({ value, onChange }: Props) {
 
   function beforeMount(monaco: Monaco) {
     registerOntol(monaco)
+    registerTdl(monaco)
   }
 
   return (
     <Editor
       className="ontol-editor"
-      language={ONTOL_LANG_ID}
+      language={language === 'tdl' ? TDL_LANG_ID : ONTOL_LANG_ID}
       theme={dark ? ONTOL_THEME_DARK : ONTOL_THEME_LIGHT}
       value={value}
       onChange={(v) => onChange(v ?? '')}

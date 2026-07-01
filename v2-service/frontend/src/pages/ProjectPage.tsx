@@ -13,6 +13,7 @@ import { errorMessage } from '../api/errors'
 import { downloadDataUrl, downloadText } from '../utils/download'
 import OntolEditor from '../components/OntolEditor'
 import { ConfirmDialog, PromptDialog } from '../components/Modal'
+import { CreateFileDialog } from '../components/CreateFileDialog'
 import { ContextMenu } from '../components/ContextMenu'
 
 const AUTOSAVE_DEBOUNCE_MS = 800
@@ -57,6 +58,8 @@ export default function ProjectPage() {
 
   const files = filesQuery.data
   const activeName = files?.find((f) => f.id === activeId)?.name ?? null
+  // Движок активного файла: .tdl → v3 (Graphviz/SVG), иначе v1 (Ontol/PlantUML).
+  const activeIsTdl = activeName?.endsWith('.tdl') ?? false
 
   if (files) {
     const ids = new Set(files.map((f) => f.id))
@@ -293,7 +296,11 @@ export default function ProjectPage() {
           {activeId ? (
             <div className="editor-pane">
               <div className="editor-host">
-                <OntolEditor value={draft} onChange={setDraft} />
+                <OntolEditor
+                  value={draft}
+                  onChange={setDraft}
+                  language={activeIsTdl ? 'tdl' : 'ontol'}
+                />
               </div>
               <div className="row editor-actions">
                 <button
@@ -304,7 +311,7 @@ export default function ProjectPage() {
                 >
                   {buildMutation.isPending ? 'Собираем…' : 'Собрать'}
                 </button>
-                {configQuery.data?.ai_enabled && (
+                {configQuery.data?.ai_enabled && !activeIsTdl && (
                   <button
                     type="button"
                     className="btn"
@@ -331,7 +338,7 @@ export default function ProjectPage() {
       {build && (
         <BuildPanel
           build={build}
-          baseName={(activeName ?? 'diagram').replace(/\.ontol$/, '')}
+          baseName={(activeName ?? 'diagram').replace(/\.(ontol|tdl)$/, '')}
           onClose={() => setBuild(null)}
         />
       )}
@@ -345,11 +352,7 @@ export default function ProjectPage() {
       )}
 
       {creatingFile && (
-        <PromptDialog
-          title="Новый файл"
-          label="Имя файла (расширение .ontol добавится само)"
-          placeholder="например, main"
-          confirmLabel="Создать"
+        <CreateFileDialog
           onCancel={() => setCreatingFile(false)}
           onSubmit={(name) => {
             createMutation.mutate(name)
@@ -495,6 +498,28 @@ function BuildPanel({
         </ul>
       )}
 
+      {/* ontol-v3: SVG-диаграмма (Graphviz). Рендерим инлайн — SVG отдаёт наш
+          backend из dot, без скриптов. */}
+      {build.svg && (
+        <div className="diagram">
+          <div
+            className="svg-diagram"
+            dangerouslySetInnerHTML={{ __html: build.svg }}
+          />
+          <div className="row">
+            <button
+              type="button"
+              className="btn"
+              onClick={() =>
+                downloadText(`${baseName}.svg`, build.svg!, 'image/svg+xml')
+              }
+            >
+              Скачать SVG
+            </button>
+          </div>
+        </div>
+      )}
+
       {build.png_url ? (
         <div className="diagram">
           <img src={build.png_url} alt="Диаграмма" />
@@ -509,7 +534,8 @@ function BuildPanel({
           </div>
         </div>
       ) : (
-        !build.error && (
+        !build.error &&
+        !build.svg && (
           <p className="muted">
             PNG недоступен (нужен PlantUML-сервер) — JSON и PlantUML ниже.
           </p>

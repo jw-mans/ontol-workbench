@@ -20,12 +20,15 @@ from app.schemas.file import (
 )
 
 ONTOL_EXT = '.ontol'
+# Расширения известных движков: .ontol → v1 (PlantUML), .tdl → v3 (Graphviz).
+KNOWN_EXTS = (ONTOL_EXT, '.tdl')
 
 router = APIRouter(prefix='/projects/{project_id}/files', tags=['files'])
 
 
 def _with_ext(name: str) -> str:
-    return name if name.endswith(ONTOL_EXT) else name + ONTOL_EXT
+    """Гарантировать расширение движка: .tdl оставляем, иначе по умолчанию .ontol."""
+    return name if name.endswith(KNOWN_EXTS) else name + ONTOL_EXT
 
 
 async def _get_file(

@@ -1,9 +1,0 @@
-# Optional AI stack — only needed for `ontol ... --gen-hierarchy`
-# (LLM-based relationship generation via Ollama / langchain).
-# Install on top of requirements-core.txt.
-# Опциональный AI-стек — нужен только для `ontol ... --gen-hierarchy`
-# (генерация связей на LLM через Ollama / langchain).
-# Устанавливается поверх requirements-core.txt.
-langchain==0.3.9
-langchain-core==0.3.21
-langchain-community==0.3.9

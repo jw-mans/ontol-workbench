@@ -1,0 +1,540 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1400" height="900">
+<style type="text/css">
+<![CDATA[
+.uml-class { cursor: grab; }
+.uml-class:active { cursor: grabbing; }
+.uml-edge polyline, .uml-edge line { cursor: pointer; }
+.uml-edge:hover polyline, .uml-edge:hover line { stroke-width: 2.5; }
+.toolbar-button {
+  cursor: pointer;
+  user-select: none;
+}
+.toolbar-button:hover rect { fill: #4a5568; }
+.toolbar-button:active rect { fill: #2d3748; }
+.toolbar-text { 
+  pointer-events: none;
+  font-family: Arial, sans-serif;
+  font-size: 11px;
+  fill: white;
+}
+.status-text {
+  font-family: Arial, sans-serif;
+  font-size: 10px;
+  fill: #666;
+}
+]]>
+</style>
+<defs>
+  <linearGradient x1="0" x2="1" id="Gradient" gradientUnits="userSpaceOnUse">
+    <stop offset="0" stop-color="#f0c955"/>
+    <stop offset=".5" stop-color="#ffebc2"/>
+    <stop offset="1" stop-color="#f0c955"/>
+  </linearGradient>
+  <linearGradient id="Obj_Gradient" xlink:href="#Gradient"
+    gradientTransform="rotate(90) scale(36)" />
+  <linearGradient id="Obj_Gradient_2" xlink:href="#Gradient"
+    gradientTransform="translate(0,36) rotate(90) scale(72)" />
+  <linearGradient id="Obj_Gradient_3" xlink:href="#Gradient"
+    gradientTransform="translate(0,108) rotate(90) scale(56)" />
+
+  <!-- Маркер: открытая стрелка навигации -->
+  <marker id="arrow-nav" viewBox="0 0 10 10" refX="10" refY="5"
+    markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+    <path d="M0,0 L10,5 L0,10" fill="none" stroke="black" stroke-width="1.5"/>
+  </marker>
+
+    <!-- Маркер: треугольник обобщения (пустой) - указывает на general -->
+  <marker id="arrow-gen" viewBox="0 0 14 14" refX="8" refY="7"
+    markerWidth="12" markerHeight="12" orient="auto-start-reverse">
+    <path d="M14,0 L0,7 L14,14 Z" fill="white" stroke="black" stroke-width="1.5"/>
+  </marker>
+
+    <!-- Маркер: треугольник реализации (пустой, пунктирная линия) - указывает на general -->
+  <marker id="arrow-real" viewBox="0 0 14 14" refX="1" refY="7"
+    markerWidth="12" markerHeight="12" orient="auto-start-reverse">
+    <path d="M14,0 L0,7 L14,14 Z" fill="white" stroke="black" stroke-width="1.5"/>
+  </marker>
+
+  <!-- Маркер: стрелка зависимости (StickArrow - точная копия из оригинала) -->
+  <marker id="arrow-dep" orient="auto" overflow="visible" markerUnits="strokeWidth"
+    viewBox="-11 -5 12 10" markerWidth="12" markerHeight="10">
+    <path d="M -9.6000004 0 L 0 0 M 0 3.6000001 L -9.6000004 0 L 0 -3.6000001"
+      fill="none" stroke="currentColor" stroke-width="1"/>
+  </marker>
+
+  <!-- Ромб агрегации (пустой) -->
+  <marker id="diamond-agg" viewBox="0 0 16 10" refX="0" refY="5"
+    markerWidth="14" markerHeight="10" orient="auto-start-reverse">
+    <path d="M0,5 L8,0 L16,5 L8,10 Z" fill="white" stroke="black" stroke-width="1.2"/>
+  </marker>
+
+  <!-- Ромб композиции (закрашенный) -->
+  <marker id="diamond-comp" viewBox="0 0 16 10" refX="0" refY="5"
+    markerWidth="14" markerHeight="10" orient="auto-start-reverse">
+    <path d="M0,5 L8,0 L16,5 L8,10 Z" fill="black" stroke="black" stroke-width="1.2"/>
+  </marker>
+
+  <!-- X (крестик) — не навигируем -->
+  <marker id="cross-x" viewBox="0 0 10 10" refX="5" refY="5"
+    markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+    <line x1="2" y1="2" x2="8" y2="8" stroke="black" stroke-width="1.5"/>
+    <line x1="8" y1="2" x2="2" y2="8" stroke="black" stroke-width="1.5"/>
+  </marker>
+</defs>
+<g class="uml-edge" data-src="B" data-tgt="A" data-type="generalization" data-substitutable="true"><polyline points="206.0,188.0 237.0,188.0" fill="none" stroke="black" stroke-width="1.5" marker-end="url(#arrow-gen)"/></g>
+<g class="uml-edge" data-src="C" data-tgt="B" data-type="generalization" data-substitutable="true"><polyline points="357.0,188.0 387.0,188.0" fill="none" stroke="black" stroke-width="1.5" marker-end="url(#arrow-gen)"/></g>
+<g class="uml-edge" data-src=": A" data-tgt="A" data-type="dependency" data-stereotype="instanceOf">
+<polyline points="146.0,116.0 146.0,104.0 146.0,158.0 146.0,146.0" fill="none" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" stroke-dasharray="8,5" marker-end="url(#arrow-dep)" class="uml-dep"/>
+<text x="146.0" y="131.0" fill="black" font-family="Arial" font-size="11" font-weight="500" text-anchor="middle" dominant-baseline="middle" class="uml-dep-label">«instance Of»</text>
+</g>
+<g class="uml-edge" data-src=": B" data-tgt="B" data-type="dependency" data-stereotype="instanceOf">
+<polyline points="297.0,116.0 297.0,104.0 297.0,158.0 297.0,146.0" fill="none" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" stroke-dasharray="8,5" marker-end="url(#arrow-dep)" class="uml-dep"/>
+<text x="297.0" y="131.0" fill="black" font-family="Arial" font-size="11" font-weight="500" text-anchor="middle" dominant-baseline="middle" class="uml-dep-label">«instance Of»</text>
+</g>
+<g class="uml-edge" data-src=": C" data-tgt="C" data-type="dependency" data-stereotype="instanceOf">
+<polyline points="447.0,116.0 447.0,104.0 447.0,158.0 447.0,146.0" fill="none" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" stroke-dasharray="8,5" marker-end="url(#arrow-dep)" class="uml-dep"/>
+<text x="447.0" y="131.0" fill="black" font-family="Arial" font-size="11" font-weight="500" text-anchor="middle" dominant-baseline="middle" class="uml-dep-label">«instance Of»</text>
+</g>
+<g transform="translate(86,158)" class="uml-class" data-id="A" data-name="A" data-type="class" data-stereotype="" data-abstract="false" data-attributes-count="0" data-operations-count="0">
+<rect x="0" y="0" width="120" height="32" fill="url(#Obj_Gradient)"/>
+<rect x="0" y="0" width="120" height="32" stroke="#d7a43c" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+<text x="60.0" y="20" text-anchor="middle" fill="black" font-family="Arial" font-size="12" font-weight="500">A</text>
+<rect class="uml-bbox" x="0" y="0" width="120" height="32" fill="none" stroke="none" pointer-events="all"/>
+</g>
+<g transform="translate(237,158)" class="uml-class" data-id="B" data-name="B" data-type="class" data-stereotype="" data-abstract="false" data-attributes-count="0" data-operations-count="0">
+<rect x="0" y="0" width="120" height="32" fill="url(#Obj_Gradient)"/>
+<rect x="0" y="0" width="120" height="32" stroke="#d7a43c" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+<text x="60.0" y="20" text-anchor="middle" fill="black" font-family="Arial" font-size="12" font-weight="500">B</text>
+<rect class="uml-bbox" x="0" y="0" width="120" height="32" fill="none" stroke="none" pointer-events="all"/>
+</g>
+<g transform="translate(387,158)" class="uml-class" data-id="C" data-name="C" data-type="class" data-stereotype="" data-abstract="false" data-attributes-count="0" data-operations-count="0">
+<rect x="0" y="0" width="120" height="32" fill="url(#Obj_Gradient)"/>
+<rect x="0" y="0" width="120" height="32" stroke="#d7a43c" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+<text x="60.0" y="20" text-anchor="middle" fill="black" font-family="Arial" font-size="12" font-weight="500">C</text>
+<rect class="uml-bbox" x="0" y="0" width="120" height="32" fill="none" stroke="none" pointer-events="all"/>
+</g>
+<g transform="translate(86,44)" class="uml-class" data-id=": A" data-name=": A" data-type="class" data-stereotype="" data-abstract="false" data-attributes-count="0" data-operations-count="0">
+<rect x="0" y="0" width="120" height="32" fill="url(#Obj_Gradient)"/>
+<rect x="0" y="0" width="120" height="32" stroke="#d7a43c" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+<text x="60.0" y="20" text-anchor="middle" text-decoration="underline" fill="black" font-family="Arial" font-size="12" font-weight="500">: A</text>
+<rect class="uml-bbox" x="0" y="0" width="120" height="32" fill="none" stroke="none" pointer-events="all"/>
+</g>
+<g transform="translate(237,44)" class="uml-class" data-id=": B" data-name=": B" data-type="class" data-stereotype="" data-abstract="false" data-attributes-count="0" data-operations-count="0">
+<rect x="0" y="0" width="120" height="32" fill="url(#Obj_Gradient)"/>
+<rect x="0" y="0" width="120" height="32" stroke="#d7a43c" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+<text x="60.0" y="20" text-anchor="middle" text-decoration="underline" fill="black" font-family="Arial" font-size="12" font-weight="500">: B</text>
+<rect class="uml-bbox" x="0" y="0" width="120" height="32" fill="none" stroke="none" pointer-events="all"/>
+</g>
+<g transform="translate(387,44)" class="uml-class" data-id=": C" data-name=": C" data-type="class" data-stereotype="" data-abstract="false" data-attributes-count="0" data-operations-count="0">
+<rect x="0" y="0" width="120" height="32" fill="url(#Obj_Gradient)"/>
+<rect x="0" y="0" width="120" height="32" stroke="#d7a43c" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+<text x="60.0" y="20" text-anchor="middle" text-decoration="underline" fill="black" font-family="Arial" font-size="12" font-weight="500">: C</text>
+<rect class="uml-bbox" x="0" y="0" width="120" height="32" fill="none" stroke="none" pointer-events="all"/>
+</g>
+<g id="toolbar">
+  <rect x="0" y="0" width="1400" height="32" fill="#2d3748" opacity="0.95"/>
+  
+  <!-- Кнопка: Экспорт SVG -->
+  <g class="toolbar-button" id="btn-export" transform="translate(10,6)">
+    <rect x="0" y="0" width="100" height="20" rx="3" fill="#374151"/>
+    <text class="toolbar-text" x="50" y="14" text-anchor="middle">💾 Экспорт SVG</text>
+  </g>
+  
+  <!-- Кнопка: Копировать -->
+  <g class="toolbar-button" id="btn-copy" transform="translate(120,6)">
+    <rect x="0" y="0" width="110" height="20" rx="3" fill="#374151"/>
+    <text class="toolbar-text" x="55" y="14" text-anchor="middle">📋 Копировать</text>
+  </g>
+  
+  <!-- Кнопка: Сброс -->
+  <g class="toolbar-button" id="btn-reset" transform="translate(240,6)">
+    <rect x="0" y="0" width="80" height="20" rx="3" fill="#374151"/>
+    <text class="toolbar-text" x="40" y="14" text-anchor="middle">↺ Сброс</text>
+  </g>
+  
+  <!-- Статус -->
+  <text id="status-text" class="status-text" x="1390" y="20" text-anchor="end"></text>
+</g>
+<script type="text/javascript">
+<![CDATA[
+(function(){
+"use strict";
+
+const svg = document.querySelector("svg");
+if (!svg) return;
+
+// ─── Утилиты ────────────────────────────────────────────────────────────
+
+function getTranslate(el){
+  const t = el.getAttribute("transform")||"";
+  const m = /translate\(\s*([^,\s]+)[,\s]+([^)]+)\)/.exec(t);
+  return m ? [parseFloat(m[1]),parseFloat(m[2])] : [0,0];
+}
+function setTranslate(el,x,y){
+  el.setAttribute("transform",`translate(${x},${y})`);
+}
+function getBBox(el){
+  const bb = el.querySelector(".uml-bbox");
+  if(bb) return {
+    x: parseFloat(bb.getAttribute("x")),
+    y: parseFloat(bb.getAttribute("y")),
+    width: parseFloat(bb.getAttribute("width")),
+    height: parseFloat(bb.getAttribute("height"))
+  };
+  return el.getBBox();
+}
+function getClassRect(id){
+  const g = svg.querySelector(`.uml-class[data-id="${id}"]`);
+  if(!g) return null;
+  const [tx,ty] = getTranslate(g);
+  const bb = getBBox(g);
+  return {x:tx+bb.x, y:ty+bb.y, width:bb.width, height:bb.height};
+}
+
+// ─── Ортогональная маршрутизация ────────────────────────────────────────
+
+function orthoRoute(sr, tr){
+  const scx=sr.x+sr.width/2, scy=sr.y+sr.height/2;
+  const tcx=tr.x+tr.width/2, tcy=tr.y+tr.height/2;
+  const dx=tcx-scx, dy=tcy-scy;
+  // Самоассоциация
+  if(Math.abs(sr.x-tr.x)<1 && Math.abs(sr.y-tr.y)<1
+     && Math.abs(sr.width-tr.width)<1 && Math.abs(sr.height-tr.height)<1){
+    const off=30;
+    return [
+      {x:sr.x+sr.width, y:scy-10},{x:sr.x+sr.width+off, y:scy-10},
+      {x:sr.x+sr.width+off, y:sr.y-off},{x:scx+10, y:sr.y-off},
+      {x:scx+10, y:sr.y}
+    ];
+  }
+  if(Math.abs(dx)>=Math.abs(dy)){
+    let ex,en;
+    if(dx>=0){ex=sr.x+sr.width;en=tr.x}else{ex=sr.x;en=tr.x+tr.width}
+    let mx=(ex+en)/2;
+    if((dx>=0&&ex>=en)||(dx<0&&ex<=en)) mx=ex+(dx>=0?25:-25);
+    return [{x:ex,y:scy},{x:mx,y:scy},{x:mx,y:tcy},{x:en,y:tcy}];
+  } else {
+    let ey,ee;
+    if(dy>=0){ey=sr.y+sr.height;ee=tr.y}else{ey=sr.y;ee=tr.y+tr.height}
+    let my=(ey+ee)/2;
+    if((dy>=0&&ey>=ee)||(dy<0&&ey<=ee)) my=ey+(dy>=0?25:-25);
+    return [{x:scx,y:ey},{x:scx,y:my},{x:tcx,y:my},{x:tcx,y:ee}];
+  }
+}
+
+// ─── Перемещение классов (drag) ─────────────────────────────────────────
+
+let dragTarget=null, dragStart={x:0,y:0}, dragOrig=[0,0];
+
+svg.addEventListener('pointerdown', e => {
+    if(e.button !== 0) return;
+    const g = e.target.closest && e.target.closest('.uml-class');
+    if(!g) return;
+    e.stopPropagation();
+    e.preventDefault();
+    dragTarget = g;
+    dragStart = { x: e.clientX, y: e.clientY };
+    dragOrig = getTranslate(g);
+    g.style.cursor = 'grabbing';
+});
+
+svg.addEventListener('pointermove', e => {
+    if(!dragTarget) return;
+    const dx = e.clientX - dragStart.x;
+    const dy = e.clientY - dragStart.y;
+    setTranslate(dragTarget, dragOrig[0] + dx, dragOrig[1] + dy);
+    updateAllEdges();
+});
+
+svg.addEventListener('pointerup', e => {
+    if(dragTarget){
+        dragTarget.style.cursor = 'grab';
+        dragTarget = null;
+    }
+});
+
+svg.addEventListener('pointercancel', e => {
+    if(dragTarget){ dragTarget = null; }
+});
+
+// ─── Оптимальное соединение рёбер (как в Python) ─────────────────────
+
+function getEdgeMidpoints(r){
+  const cx=r.x+r.width/2, cy=r.y+r.height/2;
+  return {
+    top:    {x:cx, y:r.y},
+    bottom: {x:cx, y:r.y+r.height},
+    left:   {x:r.x, y:cy},
+    right:  {x:r.x+r.width, y:cy}
+  };
+}
+
+function lineCrossesRectInterior(x1,y1,x2,y2,r){
+  function inside(px,py){ return px>r.x && px<r.x+r.width && py>r.y && py<r.y+r.height; }
+  if(inside(x1,y1)||inside(x2,y2)) return true;
+  const mx=(x1+x2)/2, my=(y1+y2)/2;
+  return inside(mx,my);
+}
+
+function findBestEdgeConnection(r1,r2){
+  const e1=getEdgeMidpoints(r1), e2=getEdgeMidpoints(r2);
+  const sides=['top','bottom','left','right'];
+  let best=null, minD=Infinity;
+  for(const s1 of sides){
+    for(const s2 of sides){
+      const p1=e1[s1], p2=e2[s2];
+      if(lineCrossesRectInterior(p1.x,p1.y,p2.x,p2.y,r1)) continue;
+      if(lineCrossesRectInterior(p1.x,p1.y,p2.x,p2.y,r2)) continue;
+      const d=(p1.x-p2.x)**2+(p1.y-p2.y)**2;
+      if(d<minD){ minD=d; best={p1,p2,side1:s1,side2:s2}; }
+    }
+  }
+  if(!best){
+    const c1x=r1.x+r1.width/2, c1y=r1.y+r1.height/2;
+    const c2x=r2.x+r2.width/2, c2y=r2.y+r2.height/2;
+    best={p1:{x:c1x,y:c1y}, p2:{x:c2x,y:c2y}, side1:'center', side2:'center'};
+  }
+  return best;
+}
+
+function buildOrthogonalPath(p1,side1,p2,side2,startOffset=0,endOffset=0){
+  // Для правильной ориентации маркера добавляем короткие перпендикулярные сегменты
+  let startSegment=null;
+  let endSegment=null;
+  
+  if(startOffset>0){
+    // Добавляем сегмент наружу от первой точки
+    if(side1==='left'){
+      startSegment={x:p1.x-startOffset, y:p1.y};
+    }else if(side1==='right'){
+      startSegment={x:p1.x+startOffset, y:p1.y};
+    }else if(side1==='top'){
+      startSegment={x:p1.x, y:p1.y-startOffset};
+    }else if(side1==='bottom'){
+      startSegment={x:p1.x, y:p1.y+startOffset};
+    }
+  }
+  
+  if(endOffset>0){
+    // Добавляем сегмент наружу от второй точки
+    if(side2==='left'){
+      endSegment={x:p2.x-endOffset, y:p2.y};
+    }else if(side2==='right'){
+      endSegment={x:p2.x+endOffset, y:p2.y};
+    }else if(side2==='top'){
+      endSegment={x:p2.x, y:p2.y-endOffset};
+    }else if(side2==='bottom'){
+      endSegment={x:p2.x, y:p2.y+endOffset};
+    }
+  }
+  
+  // Строим основной путь между исходными точками
+  const tolerance=5;
+  const isVertical=Math.abs(p1.x-p2.x)<tolerance;
+  const isHorizontal=Math.abs(p1.y-p2.y)<tolerance;
+  
+  let path;
+  
+  // Прямая линия если выровнены (0 изгибов)
+  if(isVertical||isHorizontal){
+    path=[p1,p2];
+  } else {
+    // Определяем ориентацию сторон
+    const s1Vert=(side1==='left'||side1==='right');
+    const s2Vert=(side2==='left'||side2==='right');
+    
+    // L-образный путь (1 изгиб) - предпочтительнее
+    if(s1Vert && !s2Vert){
+      path=[p1, {x:p1.x,y:p2.y}, p2];
+    } else if(!s1Vert && s2Vert){
+      path=[p1, {x:p2.x,y:p1.y}, p2];
+    } 
+    // Z-образный путь (2 изгиба)
+    else if(s1Vert && s2Vert){
+      const midX=(p1.x+p2.x)/2;
+      path=[p1, {x:midX,y:p1.y}, {x:midX,y:p2.y}, p2];
+    } else {
+      const midY=(p1.y+p2.y)/2;
+      path=[p1, {x:p1.x,y:midY}, {x:p2.x,y:midY}, p2];
+    }
+  }
+  
+  // Добавляем перпендикулярные сегменты
+  if(startSegment){
+    path=[startSegment].concat(path);
+  }
+  if(endSegment){
+    // Для marker-end: путь идет от p2 к endSegment, маркер на endSegment ориентирован НАРУЖУ
+    // Путь: ... -> p2 (на ребре) -> endSegment (снаружи, маркер здесь)
+    path=path.concat([endSegment]);
+  }
+  
+  return path;
+}
+
+// ─── Данные рёбер ─────────────────────────────────────────────────────
+
+const edges = [];
+
+function initEdges(){
+  svg.querySelectorAll(".uml-edge[data-src][data-tgt]").forEach(g=>{
+    const pl = g.querySelector("polyline, line");
+    if(!pl) return;
+    edges.push({
+      group: g,
+      polyline: pl,
+      srcId: g.dataset.src,
+      tgtId: g.dataset.tgt,
+    });
+  });
+}
+
+function updateAllEdges(){
+  edges.forEach(edge=>{
+    const sr = getClassRect(edge.srcId);
+    const tr = getClassRect(edge.tgtId);
+    if(!sr||!tr) return;
+
+    const conn=findBestEdgeConnection(sr,tr);
+    
+    // Определяем offset для маркеров
+    const markerStart=edge.polyline.getAttribute('marker-start');
+    const markerEnd=edge.polyline.getAttribute('marker-end');
+    const isDependency=edge.polyline.classList.contains('uml-dep');
+    
+    let startOffset=0;
+    let endOffset=0;
+    
+    if(markerStart || markerEnd){
+      endOffset=12;
+      // Для dependency добавляем отступ и в начале
+      if(isDependency){
+        startOffset=12;
+      }
+    }
+    
+    const pts = buildOrthogonalPath(conn.p1, conn.side1, conn.p2, conn.side2, startOffset, endOffset);
+    const mid_x = (pts[0].x + pts[pts.length-1].x) / 2;
+    const mid_y = (pts[0].y + pts[pts.length-1].y) / 2;
+    
+    edge.polyline.setAttribute("points", pts.map(p=>`${p.x},${p.y}`).join(" "));
+    updateLabels(edge, mid_x, mid_y);
+  });
+}
+
+function updateLabels(edge, mid_x, mid_y){
+  edge.group.querySelectorAll("[data-near], text.uml-dep-label").forEach(el=>{
+    if(el.tagName.toLowerCase()==='text'){
+      el.setAttribute("x", mid_x.toFixed(1));
+      el.setAttribute("y", mid_y.toFixed(1));
+    } else if(el.tagName.toLowerCase()==='foreignObject' && el.hasAttribute('data-near')){
+      const base_x = mid_x;
+      const base_y = mid_y;
+      const ox = Math.max(0, parseFloat(el.dataset.offx||"8"));
+      const oy = Math.min(0, parseFloat(el.dataset.offy||"-8"));
+      const w = parseFloat(el.getAttribute('width') || '120');
+      const h = parseFloat(el.getAttribute('height') || '24');
+      const x = base_x + ox;
+      const y = base_y + oy - h;
+      el.setAttribute('x', x.toFixed(1));
+      el.setAttribute('y', y.toFixed(1));
+    }
+  });
+}
+
+// ─── Экспорт и сохранение ─────────────────────────────────────────────
+
+const originalTransforms = new Map();
+svg.querySelectorAll('.uml-class').forEach(g => {
+    originalTransforms.set(g.dataset.id, g.getAttribute('transform') || 'translate(0,0)');
+});
+
+function exportSVG() {
+    const clone = svg.cloneNode(true);
+    
+    // Удаляем toolbar и скрипты
+    const toolbar = clone.querySelector('#toolbar');
+    if(toolbar) toolbar.remove();
+    const scripts = clone.querySelectorAll('script');
+    scripts.forEach(s => s.remove());
+    const styles = clone.querySelectorAll('style');
+    styles.forEach(s => s.remove());
+    
+    // Обновляем transform с округлением
+    clone.querySelectorAll('.uml-class').forEach((g, idx) => {
+        const original = svg.querySelectorAll('.uml-class')[idx];
+        const [x, y] = getTranslate(original);
+        g.setAttribute('transform', `translate(${Math.round(x)},${Math.round(y)})`);
+    });
+    
+    // Удаляем служебные атрибуты
+    clone.querySelectorAll('.uml-edge').forEach(edge => {
+        edge.removeAttribute('data-src');
+        edge.removeAttribute('data-tgt');
+    });
+    
+    const serializer = new XMLSerializer();
+    let svgString = serializer.serializeToString(clone);
+    
+    if (!svgString.startsWith('<?xml')) {
+        svgString = '<?xml version="1.0" encoding="UTF-8"?>\n' + svgString;
+    }
+    
+    return svgString;
+}
+
+function downloadSVG() {
+    const svgData = exportSVG();
+    const blob = new Blob([svgData], { type: 'image/svg+xml;charset=utf-8' });
+    const url = URL.createObjectURL(blob);
+    const a = document.createElementNS('http://www.w3.org/1999/xhtml', 'a');
+    a.href = url;
+    a.download = 'diagram_updated.svg';
+    document.body.appendChild(a);
+    a.click();
+    document.body.removeChild(a);
+    URL.revokeObjectURL(url);
+    showStatus('✓ SVG скачан');
+}
+
+function copySVG() {
+    const svgData = exportSVG();
+    navigator.clipboard.writeText(svgData).then(() => {
+        showStatus('✓ SVG скопирован');
+    }).catch(err => {
+        showStatus('✗ Ошибка: ' + err.message);
+    });
+}
+
+function resetPositions() {
+    svg.querySelectorAll('.uml-class').forEach(g => {
+        const id = g.dataset.id;
+        const orig = originalTransforms.get(id);
+        if (orig) g.setAttribute('transform', orig);
+    });
+    updateAllEdges();
+    showStatus('✓ Сброшено');
+}
+
+function showStatus(msg) {
+    const status = svg.querySelector('#status-text');
+    if(!status) return;
+    status.textContent = msg;
+    setTimeout(() => { status.textContent = ''; }, 3000);
+}
+
+// ─── Привязка кнопок ──────────────────────────────────────────────────
+
+svg.querySelector('#btn-export')?.addEventListener('click', downloadSVG);
+svg.querySelector('#btn-copy')?.addEventListener('click', copySVG);
+svg.querySelector('#btn-reset')?.addEventListener('click', resetPositions);
+
+// ─── Инициализация ─────────────────────────────────────────────────────
+
+initEdges();
+updateAllEdges();
+
+})();
+]]>
+</script>
+</svg>

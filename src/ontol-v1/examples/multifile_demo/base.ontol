@@ -1,0 +1,8 @@
+version: '1.0'
+title: 'Base set theory'
+author: ''
+description: 'Reusable base terms imported by other modules of the project'
+
+types:
+set: 'Set', '', { color: '#E6B8B7' }
+element: 'Element', '', { color: '#E6B8B7' }

@@ -1,0 +1,45 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ontol"
+version = "2.5.6"
+description = "ontol-v1: parsing and visualizing ontology files written in the Ontol DSL"
+requires-python = ">=3.9"
+authors = [
+    { name = "Skvortsov Vladimir" },
+    { name = "Aptukov Mikhail" },
+    { name = "Markov Mikhail" },
+    { name = "Khamidullin Ilsaf" },
+    { name = "Afanasyev Andrew" },
+    { name = "Andreev Daniil" },
+]
+dependencies = [
+    "requests==2.32.3",
+    "watchdog==3.0.0",
+    "plantuml==0.3.0",
+    "pytest==8.3.4",
+    "six==1.17.0",
+    "pytest-cov==6.0.0",
+    "sly==0.5",
+    "unidecode==1.3.8",
+]
+
+# Опциональный AI-стек (только для `ontol ... --gen-hierarchy`, LLM через
+# Ollama/langchain). Ставится явно: `pip install -e .[ai]`.
+[project.optional-dependencies]
+ai = [
+    "langchain==0.3.9",
+    "langchain-core==0.3.21",
+    "langchain-community==0.3.9",
+]
+
+[project.urls]
+Repository = "https://github.com/vladimir-skvortsov/ontol"
+
+[project.scripts]
+ontol = "ontol.cli:main"
+
+[tool.setuptools]
+packages = ["ontol"]

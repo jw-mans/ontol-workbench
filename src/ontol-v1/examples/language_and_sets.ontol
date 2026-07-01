@@ -1,0 +1,34 @@
+# Пример файла онтологии
+version: '1.0' # Можно использовать двойные или одинарные кавычки
+title: 'Множества - зависимости определений'
+author: 'Иван Иванов'
+description: 'Описание онтологии'
+
+types:
+order: 'Упорядоченность', '', { color: '#E6B8B7' }
+sequence: 'Последовательность', '', { color: '#F2E6D9' }
+multiset: 'Мультимножество', '', { color: '#F2E6D9' }
+set: 'Множество', '', { color: '#F2E6D9' }
+finiteSet: 'Конечное множество', 'Мощность: Натуральное число', { color: '#F2E6D9' }
+natural: 'Натуральное число', '', { color: '#FFFFFF' }
+alphabet: 'Алфавит', '', { color: '#FFFFFF' }
+language: 'Язык', '', { color: '#F2E6D9' }
+word: 'Слово', '', { color: '#FFFFFF' }
+letter: 'Буква', '', { color: '#FFFFFF' }
+
+# Определение функции
+functions:
+
+# Иерархическое выражение
+hierarchy:
+sequence dependence multiset
+sequence dependence order
+multiset dependence set
+multiset dependence natural
+finiteSet dependence set
+alphabet dependence finiteSet
+alphabet dependence letter
+language dependence set
+language dependence word
+word dependence letter
+word dependence sequence
