@@ -294,6 +294,36 @@ textarea:focus {
   flex-direction: column;
   gap: 10px;
 }
+/* Баннер непланарного графа: сообщение + «Продолжить рисование». */
+.planarity-banner {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 10px 12px;
+  border: 1px solid #e5484d;
+  border-radius: 8px;
+  background: rgba(229, 72, 77, 0.08);
+  font-size: 14px;
+}
+.planarity-banner span {
+  flex: 1;
+}
+.planarity-body {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+.planarity-list {
+  margin: 0;
+  padding-left: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+.planarity-list li strong {
+  color: #e5484d;
+}
 .diagram img {
   max-width: 100%;
   border: 1px solid var(--border);

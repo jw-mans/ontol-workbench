@@ -29,7 +29,9 @@ def _visibility(s: Optional[str]):
 
 
 def _parse_multiplicity(s: Optional[str]) -> Optional[MultiplicityRange]:
-    if not s or s == "*":
+    if not s:
+        return None  # не указана — подразумевается по умолчанию, не рисуем
+    if s == "*":
         return MultiplicityRange(lower=0, upper=None)
     if ".." in s:
         parts = s.split("..")

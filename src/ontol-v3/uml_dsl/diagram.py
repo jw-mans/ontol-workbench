@@ -91,6 +91,10 @@ class ClassDiagram(BaseModel):
         description="Позиции классификаторов на холсте.",
     )
 
+    # True → рендер берёт positions как есть (пиксели, top-left = SVG-координаты)
+    # и не раскладывает graphviz'ом. Используется для планарной раскладки.
+    manual_layout: bool = Field(default=False)
+
     # ──── Удобные методы добавления ────────────────────────────────────
 
     def add_classifier(self, c: Classifier) -> "ClassDiagram":

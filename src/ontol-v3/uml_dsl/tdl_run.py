@@ -29,6 +29,42 @@ def tdl_to_svg(tdl_text: str, width: int = 900, height: int = 500) -> str:
     return diagram_to_graphviz_svg(diagram)
 
 
+def tdl_to_svg_analyzed(tdl_text: str) -> tuple[str, list[str], dict | None]:
+    """TDL → (SVG, warnings, planarity) с проверкой планарности.
+
+    Планарен → раскладываем без пересечений рёбер (планарное вложение), planarity
+    = None. Не планарен → рендерим как есть (graphviz) и возвращаем
+    ``planarity = {kind, labels, message, subgraphs, count}``: ``kind`` — тип
+    основного подграфа, ``labels`` — объединение классов всех подграфов-нарушителей
+    (для красной подсветки), ``subgraphs`` — разбивка по каждому подграфу
+    (``{kind, labels}``), ``count`` — их число.
+    """
+    from uml_dsl.planarity import analyze
+
+    tokens = lex(tdl_text)
+    doc = parse_tdl(tokens)
+    diagram = build_diagram(doc)
+    diagram.validate_all()
+
+    result = analyze(diagram)
+    planarity: dict | None = None
+    if result.is_planar and result.positions:
+        diagram.positions = result.positions
+        diagram.manual_layout = True
+    elif not result.is_planar:
+        planarity = {
+            'kind': result.kind,
+            'labels': result.labels,
+            'message': result.warning(),
+            'subgraphs': [
+                {'kind': o.kind, 'labels': o.labels} for o in result.obstructions
+            ],
+            'count': len(result.obstructions),
+        }
+
+    return diagram_to_graphviz_svg(diagram), [], planarity
+
+
 def main() -> int:
     if len(sys.argv) < 2:
         print("Использование: python -m uml_dsl.tdl_run <файл.tdl> [выход.svg|выход.png]", file=sys.stderr)

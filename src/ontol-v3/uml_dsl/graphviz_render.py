@@ -210,9 +210,6 @@ def render_association_svg(
     mult1 = str(e1.multiplicity) if e1.multiplicity else ""
     mult2 = str(e2.multiplicity) if e2.multiplicity else ""
 
-    show_src_mult = e1.aggregation == AggregationKind.NONE
-    show_tgt_mult = e2.aggregation == AggregationKind.NONE
-
     src_mult_x, src_mult_y = _multiplicity_label_pos(points[0], points[1], mult1)
     tgt_mult_x, tgt_mult_y = _multiplicity_label_pos(points[-1], points[-2], mult2)
 
@@ -235,8 +232,8 @@ def render_association_svg(
             fill="none"
             stroke="black"
             stroke-width="1.5"{marker_start}{marker_end}/>
-  {_render_label(mult1 if show_src_mult else "", src_mult_x, src_mult_y, "uml-multiplicity", background=True)}
-  {_render_label(mult2 if show_tgt_mult else "", tgt_mult_x, tgt_mult_y, "uml-multiplicity", background=True)}
+  {_render_label(mult1, src_mult_x, src_mult_y, "uml-multiplicity", background=True)}
+  {_render_label(mult2, tgt_mult_x, tgt_mult_y, "uml-multiplicity", background=True)}
 </g>
 """
 
@@ -628,30 +625,41 @@ def parse_plain_layout(
     return positions, edge_routes
 
 def diagram_to_graphviz_svg(diagram: ClassDiagram) -> str:
-    dot_text, node_map = diagram_to_layout_dot(diagram)
-    visible_dot_text = _make_edges_visible(dot_text)
-    graphviz_svg = _run_dot_to_svg(visible_dot_text)
-    graphviz_paths, graphviz_transform, graphviz_width, graphviz_height = (
-        _extract_graphviz_svg_paths(graphviz_svg)
-    )
-    plain_text = _run_dot_to_plain(visible_dot_text)
-
-    positions, edge_routes = _shift_layout_to_svg_viewbox(
-        plain_text,
-        diagram,
-        node_map,
-        graphviz_transform,
-    )
-
     edge_route_map: dict[tuple[str, str], list[list[tuple[float, float]]]] = {}
 
-    for src, tgt, points in edge_routes:
-        edge_route_map.setdefault((src, tgt), []).append(points)
+    if diagram.manual_layout:
+        # Готовые позиции (напр. планарная раскладка): берём как есть — это уже
+        # пиксели, top-left = SVG-координаты. Graphviz не раскладываем; связи
+        # чертим прямыми от рамки к рамке (для планарного вложения — без
+        # пересечений по теореме Фари).
+        positions = diagram.positions
+        graphviz_paths: list[str] = []
+        graphviz_transform = ""
+        width = max((p.x + p.width for p in positions.values()), default=0) + MARGIN
+        height = max((p.y + p.height for p in positions.values()), default=0) + MARGIN
+    else:
+        dot_text, node_map = diagram_to_layout_dot(diagram)
+        visible_dot_text = _make_edges_visible(dot_text)
+        graphviz_svg = _run_dot_to_svg(visible_dot_text)
+        graphviz_paths, graphviz_transform, graphviz_width, graphviz_height = (
+            _extract_graphviz_svg_paths(graphviz_svg)
+        )
+        plain_text = _run_dot_to_plain(visible_dot_text)
 
-    diagram.positions = positions
+        positions, edge_routes = _shift_layout_to_svg_viewbox(
+            plain_text,
+            diagram,
+            node_map,
+            graphviz_transform,
+        )
 
-    width = graphviz_width or max((p.x + p.width for p in positions.values()), default=0) + MARGIN
-    height = graphviz_height or max((p.y + p.height for p in positions.values()), default=0) + MARGIN
+        for src, tgt, points in edge_routes:
+            edge_route_map.setdefault((src, tgt), []).append(points)
+
+        diagram.positions = positions
+
+        width = graphviz_width or max((p.x + p.width for p in positions.values()), default=0) + MARGIN
+        height = graphviz_height or max((p.y + p.height for p in positions.values()), default=0) + MARGIN
 
     SVG_DEFS = """
     <defs>

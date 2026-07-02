@@ -120,3 +120,142 @@ def test_dispatch_ontol_uses_v1_not_v3():
 def test_entry_not_found():
     res = build_project({'a.tdl': VALID_TDL}, 'missing.tdl', 'http://unused')
     assert res.ok is False and res.error
+
+
+# --- Планарность --------------------------------------------------------- #
+
+# Планарный граф (цепочка обобщений) — раскладывается без пересечений (ручная
+# ветка рендера, dot не нужен).
+PLANAR_TDL = """КЛАСС A
+КОНЕЦ КЛАСС
+КЛАСС B
+КОНЕЦ КЛАСС
+КЛАСС C
+КОНЕЦ КЛАСС
+ОБОБЩЕНИЕ B -> A
+ОБОБЩЕНИЕ C -> B
+"""
+
+
+def _complete_graph_tdl(names: str) -> str:
+    import itertools
+
+    body = ''.join(f'КЛАСС {n}\nКОНЕЦ КЛАСС\n' for n in names)
+    edges = ''.join(
+        f'АССОЦИАЦИЯ {a} -- {b}\n' for a, b in itertools.combinations(names, 2)
+    )
+    return body + edges
+
+
+K5_TDL = _complete_graph_tdl('ABCDE')  # полный граф на 5 вершинах — не планарен
+
+# Два непересекающихся K5 (ABCDE и FGHIJ) — граф содержит ДВА подграфа-нарушителя.
+TWO_K5_TDL = _complete_graph_tdl('ABCDE') + _complete_graph_tdl('FGHIJ')
+
+# K3,3: двудольный на 6 вершинах (ABC ↔ DEF).
+K33_TDL = ''.join(f'КЛАСС {n}\nКОНЕЦ КЛАСС\n' for n in 'ABCDEF') + ''.join(
+    f'АССОЦИАЦИЯ {a} -- {b}\n' for a in 'ABC' for b in 'DEF'
+)
+
+
+@needs_uml
+def test_planar_gets_layout_no_warning():
+    from app.services.render_v3 import build_tdl
+
+    res = build_tdl({'p.tdl': PLANAR_TDL}, 'p.tdl')
+    assert res.ok and res.svg
+    assert 'translate(' in res.svg  # нарисован по планарным позициям
+    assert res.planarity is None
+
+
+@needs_uml
+def test_non_planar_k5_detected():
+    from uml_dsl.planarity import analyze
+    from uml_dsl.tdl_build import build_diagram
+    from uml_dsl.tdl_lexer import lex
+    from uml_dsl.tdl_parser import parse_tdl
+
+    result = analyze(build_diagram(parse_tdl(lex(K5_TDL))))
+    assert result.is_planar is False
+    assert result.kind == 'K5'
+    assert set('ABCDE') <= set(result.labels)
+    assert 'K5' in (result.warning() or '')
+
+
+@needs_uml
+def test_non_planar_k33_detected():
+    from uml_dsl.planarity import analyze
+    from uml_dsl.tdl_build import build_diagram
+    from uml_dsl.tdl_lexer import lex
+    from uml_dsl.tdl_parser import parse_tdl
+
+    result = analyze(build_diagram(parse_tdl(lex(K33_TDL))))
+    assert result.is_planar is False
+    assert result.kind == 'K3,3'
+    assert set('ABCDEF') <= set(result.labels)
+
+
+@needs_uml
+def test_multiple_obstructions_detected():
+    # Два непересекающихся K5 → два отдельных подграфа-нарушителя.
+    from uml_dsl.planarity import analyze
+    from uml_dsl.tdl_build import build_diagram
+    from uml_dsl.tdl_lexer import lex
+    from uml_dsl.tdl_parser import parse_tdl
+
+    result = analyze(build_diagram(parse_tdl(lex(TWO_K5_TDL))))
+    assert result.is_planar is False
+    assert len(result.obstructions) == 2
+    assert all(o.kind == 'K5' for o in result.obstructions)
+    # labels — объединение обоих подграфов (все 10 классов подсвечиваются).
+    assert set('ABCDEFGHIJ') <= set(result.labels)
+    # каждый подграф локализован в своей пятёрке
+    branch_sets = {frozenset(o.labels) for o in result.obstructions}
+    assert frozenset('ABCDE') in branch_sets
+    assert frozenset('FGHIJ') in branch_sets
+
+
+# Два K5 (ABCDE и DEFGH) с общим ребром D–E — пересекаются и по вершинам, и по
+# ребру, но остаются двумя разными подграфами-нарушителями.
+SHARED_EDGE_TDL = _complete_graph_tdl('ABCDE') + _complete_graph_tdl('DEFGH')
+
+
+@needs_uml
+def test_obstructions_sharing_an_edge_both_detected():
+    from uml_dsl.planarity import analyze
+    from uml_dsl.tdl_build import build_diagram
+    from uml_dsl.tdl_lexer import lex
+    from uml_dsl.tdl_parser import parse_tdl
+
+    result = analyze(build_diagram(parse_tdl(lex(SHARED_EDGE_TDL))))
+    assert result.is_planar is False
+    assert len(result.obstructions) == 2
+    assert all(o.kind == 'K5' for o in result.obstructions)
+    branch_sets = {frozenset(o.labels) for o in result.obstructions}
+    assert frozenset('ABCDE') in branch_sets
+    assert frozenset('DEFGH') in branch_sets
+    # общие вершины D, E входят в оба подграфа (и подсвечиваются как часть обоих)
+    assert {'D', 'E'} <= (frozenset('ABCDE') & frozenset('DEFGH'))
+
+
+@needs_render
+def test_non_planar_build_reports_planarity():
+    from app.services.render_v3 import build_tdl
+
+    res = build_tdl({'k.tdl': K5_TDL}, 'k.tdl')
+    assert res.ok and res.svg  # рисуем «как есть»
+    assert res.planarity and res.planarity['kind'] == 'K5'
+    assert set('ABCDE') <= set(res.planarity['labels'])
+    assert res.planarity['count'] == 1
+    assert res.planarity['subgraphs'][0]['kind'] == 'K5'
+
+
+@needs_render
+def test_two_k5_build_reports_two_subgraphs():
+    from app.services.render_v3 import build_tdl
+
+    res = build_tdl({'k.tdl': TWO_K5_TDL}, 'k.tdl')
+    assert res.ok and res.svg
+    assert res.planarity and res.planarity['count'] == 2
+    assert set('ABCDEFGHIJ') <= set(res.planarity['labels'])
+    assert {s['kind'] for s in res.planarity['subgraphs']} == {'K5'}

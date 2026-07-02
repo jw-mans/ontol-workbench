@@ -467,6 +467,15 @@ function AIPanel({
   )
 }
 
+/** CSS: красная рамка вокруг классов-нарушителей планарности (по data-name). */
+function planarityHighlightCss(labels: string[]): string {
+  if (labels.length === 0) return ''
+  const selectors = labels
+    .map((n) => `.svg-diagram .uml-class[data-name="${n.replace(/"/g, '\\"')}"] rect`)
+    .join(',\n')
+  return `${selectors} { stroke: #e5484d !important; stroke-width: 3 !important; }`
+}
+
 function BuildPanel({
   build,
   baseName,
@@ -476,6 +485,17 @@ function BuildPanel({
   baseName: string
   onClose: () => void
 }) {
+  // Подсветка непланарных классов: показываем красную рамку + «Продолжить
+  // рисование», пока пользователь не подтвердит. Сброс при новой сборке —
+  // корректировкой состояния в рендере (не в эффекте), сверяясь с прошлым build.
+  const [ackPlanarity, setAckPlanarity] = useState(false)
+  const [ackedBuild, setAckedBuild] = useState<BuildResult | null>(null)
+  if (ackedBuild !== build) {
+    setAckedBuild(build)
+    setAckPlanarity(false)
+  }
+  const highlight = build.planarity && !ackPlanarity
+
   return (
     <section className="build-panel card">
       <div className="row build-head">
@@ -502,6 +522,40 @@ function BuildPanel({
           backend из dot, без скриптов. */}
       {build.svg && (
         <div className="diagram">
+          {build.planarity && !ackPlanarity && (
+            <div className="planarity-banner">
+              <div className="planarity-body">
+                {build.planarity.subgraphs.length > 1 ? (
+                  <>
+                    <span>
+                      ⚠ Граф не планарен: найдено подграфов-нарушителей —{' '}
+                      {build.planarity.count}
+                    </span>
+                    <ul className="planarity-list">
+                      {build.planarity.subgraphs.map((s, i) => (
+                        <li key={i}>
+                          <strong>{s.kind ?? 'подграф Куратовского'}</strong>:{' '}
+                          {s.labels.join(', ')}
+                        </li>
+                      ))}
+                    </ul>
+                  </>
+                ) : (
+                  <span>⚠ {build.planarity.message}</span>
+                )}
+              </div>
+              <button
+                type="button"
+                className="btn"
+                onClick={() => setAckPlanarity(true)}
+              >
+                Продолжить рисование
+              </button>
+            </div>
+          )}
+          {highlight && build.planarity && (
+            <style>{planarityHighlightCss(build.planarity.labels)}</style>
+          )}
           <div
             className="svg-diagram"
             dangerouslySetInnerHTML={{ __html: build.svg }}

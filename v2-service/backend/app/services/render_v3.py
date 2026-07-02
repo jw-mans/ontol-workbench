@@ -8,31 +8,50 @@ TDL нет, поэтому материализация каталога не н
 
 from __future__ import annotations
 
+from app.services.render import BuildResult
 
-def build_tdl_svg(text: str) -> tuple[str | None, str | None]:
-    """Отрендерить TDL-текст в SVG.
 
-    Возвращает ``(svg, error)``: при успехе — SVG-строка и ``None``; при ошибке —
-    ``None`` и человекочитаемое сообщение. Ошибки лексера/парсера/модели и
-    семантическая валидация (циклы наследования, конфликты композиции) приходят
-    как ``ValueError`` из ``tdl_to_svg`` → в ``error``.
-    """
+def _render(
+    text: str, *, analyzed: bool
+) -> tuple[str | None, list[str], dict | None, str | None]:
+    """Отрендерить TDL -> ``(svg, warnings, planarity, error)``."""
     try:
         from uml_dsl.tdl_lexer import LexerError
         from uml_dsl.tdl_parser import ParseError
-        from uml_dsl.tdl_run import tdl_to_svg
+
+        if analyzed:
+            from uml_dsl.tdl_run import tdl_to_svg_analyzed
+        else:
+            from uml_dsl.tdl_run import tdl_to_svg
     except ImportError as error:  # пакет uml_dsl не установлен в образе
-        return None, f'Движок ontol-v3 (uml_dsl) недоступен: {error}'
+        return None, [], None, f'Движок ontol-v3 (uml_dsl) недоступен: {error}'
 
     try:
-        svg = tdl_to_svg(text)
+        if analyzed:
+            svg, warnings, planarity = tdl_to_svg_analyzed(text)
+        else:
+            svg, warnings, planarity = tdl_to_svg(text), [], None
     except LexerError as error:
-        return None, f'Ошибка лексера: {error}'
+        return None, [], None, f'Ошибка лексера: {error}'
     except ParseError as error:
-        return None, f'Ошибка парсера: {error}'
+        return None, [], None, f'Ошибка парсера: {error}'
     except ValueError as error:  # ошибка модели / семантической валидации
-        return None, f'Ошибка модели: {error}'
+        return None, [], None, f'Ошибка модели: {error}'
     except RuntimeError as error:  # graphviz dot не найден / упал
-        return None, str(error)
+        return None, [], None, str(error)
 
-    return svg, None
+    return svg, warnings, planarity, None
+
+
+def build_tdl(files: dict[str, str], entry: str) -> BuildResult:
+    """Собрать ``.tdl``-файл в ``BuildResult`` (симметрично v1 ``build_ontol``)."""
+    svg, warnings, planarity, error = _render(files[entry], analyzed=True)
+    if error:
+        return BuildResult(ok=False, error=error)
+    return BuildResult(ok=True, svg=svg, warnings=warnings, planarity=planarity)
+
+
+def build_tdl_svg(text: str) -> tuple[str | None, str | None]:
+    """Отрендерить TDL-текст в SVG (без анализа планарности). Для юнит-тестов."""
+    svg, _warnings, _planarity, error = _render(text, analyzed=False)
+    return svg, error

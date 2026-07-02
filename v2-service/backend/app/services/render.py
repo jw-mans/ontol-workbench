@@ -1,33 +1,25 @@
-"""Сборка проекта.
+"""Диспетчер сборки проекта.
 
-Файлы проекта хранятся в БД. Чтобы межфайловые импорты ``ontol`` (которые
-резолвятся по файловой системе) работали без изменений ядра, материализуем все
-файлы во временный каталог и рендерим оттуда.
+Движок выбирается по расширению точки входа: ``.tdl`` → ontol-v3
+(Graphviz/SVG), иначе — ontol-v1 (PlantUML/JSON/PNG). Сама реализация каждого
+движка живёт в отдельном модуле (``render_v1`` / ``render_v3``), импортируется
+лениво — чтобы ядро одного движка не тянулось, когда собирают другим.
 """
 
-import base64
-import os
-import re
-import shutil
-import tempfile
 from dataclasses import dataclass, field
-
-from ontol import JSONSerializer, Parser, PlantUML, Project
-
-_ANSI_RE = re.compile(r'\x1b\[[0-9;]*m')
-
-
-def _clean(warnings: list[str]) -> list[str]:
-    return [_ANSI_RE.sub('', w) for w in warnings]
 
 
 @dataclass
 class BuildResult:
+    """Единый результат сборки для обоих движков."""
+
     ok: bool
-    json: str | None = None
-    puml: str | None = None
-    png_url: str | None = None
-    svg: str | None = None  # для ontol-v3 (TDL → Graphviz)
+    json: str | None = None  # v1
+    puml: str | None = None  # v1
+    png_url: str | None = None  # v1
+    svg: str | None = None  # v3 (TDL → Graphviz)
+    # v3: непланарный граф → {kind, labels, message} для подсветки; иначе None.
+    planarity: dict | None = None
     warnings: list[str] = field(default_factory=list)
     error: str | None = None
 
@@ -35,63 +27,15 @@ class BuildResult:
 def build_project(
     files: dict[str, str], entry: str, plantuml_url: str
 ) -> BuildResult:
-    """Собрать ``entry`` из набора файлов ``{имя: контент}``.
-
-    JSON и PlantUML формируются всегда (при успешном парсинге); PNG — по
-    возможности (нужен живой PlantUML-сервер), иначе уходит в warnings.
-    """
+    """Собрать ``entry`` из набора файлов ``{имя: контент}`` нужным движком."""
     if entry not in files:
         return BuildResult(ok=False, error=f'Entry file {entry!r} not found')
 
-    # Движок выбирается по расширению точки входа: .tdl → ontol-v3 (Graphviz/SVG),
-    # иначе — v1 (PlantUML/PNG).
     if entry.endswith('.tdl'):
-        from app.services.render_v3 import build_tdl_svg
+        from app.services.render_v3 import build_tdl
 
-        svg, error = build_tdl_svg(files[entry])
-        if error:
-            return BuildResult(ok=False, error=error)
-        return BuildResult(ok=True, svg=svg)
+        return build_tdl(files, entry)
 
-    tmp_dir = tempfile.mkdtemp(prefix='ontol_build_')
-    try:
-        project = Project(tmp_dir)
-        for name, content in files.items():
-            project.write_file(name, content)
-        return _render(project, entry, plantuml_url)
-    finally:
-        shutil.rmtree(tmp_dir, ignore_errors=True)
+    from app.services.render_v1 import build_ontol
 
-
-def _render(project: Project, entry: str, plantuml_url: str) -> BuildResult:
-    entry_path = project.file_path(entry)
-    try:
-        content = project.read_file(entry)
-        ontology, warnings = Parser().parse(content, entry_path)
-    except Exception as error:  # noqa: BLE001
-        return BuildResult(ok=False, error=str(error))
-
-    json_text = JSONSerializer().serialize(ontology)
-    plantuml = PlantUML(url=plantuml_url)
-    puml_text = plantuml.generate(ontology)
-
-    png_url: str | None = None
-    puml_path = os.path.join(project.root, '_build.puml')
-    with open(puml_path, 'w', encoding='utf-8') as f:
-        f.write(puml_text)
-    try:
-        plantuml.processes_puml_to_png(puml_path)
-        png_path = os.path.splitext(puml_path)[0] + '.png'
-        with open(png_path, 'rb') as f:
-            encoded = base64.b64encode(f.read()).decode('ascii')
-        png_url = f'data:image/png;base64,{encoded}'
-    except Exception as error:  # noqa: BLE001
-        warnings.append(f'PNG rendering failed: {error}')
-
-    return BuildResult(
-        ok=True,
-        json=json_text,
-        puml=puml_text,
-        png_url=png_url,
-        warnings=_clean(warnings),
-    )
+    return build_ontol(files, entry, plantuml_url)
