@@ -57,6 +57,7 @@ ONTOL V1 — DSL и инструмент для описания онтолог�
 ```ontol
 import { set, element as elem } from 'base.ontol'   (* выборочно, с алиасами *)
 import * from 'base.ontol'                           (* всё *)
+import * from 'base.ontol' with relationships        (* плюс связи *)
 ```
 
 - путь резолвится относительно папки импортирующего файла; поддерживается URL;
@@ -69,6 +70,11 @@ import * from 'base.ontol'                           (* всё *)
   двум путям, повтор молча отбрасывается (сравнение по значению); ошибка
   `already declared` остаётся только при реальном конфликте — разных определениях
   с одинаковым именем.
+- **импорт связей (`with relationships`):** по умолчанию `hierarchy:` исходного
+  модуля не переносится (связи безымянны). С хвостом `with relationships`
+  переносятся связи, у которых оба конца входят в число импортируемых сущностей
+  (с учётом алиасов и дедупликацией по содержимому). Подробности —
+  [IMPORT_WITH_RELATIONSHIPS.md](IMPORT_WITH_RELATIONSHIPS.md).
 
 ## 5. Личный кабинет (доработка недели)
 
@@ -113,10 +119,18 @@ import * from 'base.ontol'                           (* всё *)
 
 ## 6. Тестирование и доказательство работоспособности
 
+<<<<<<< HEAD
 - Юнит-тесты: `tests/` — **77 passed** (53 исходных, 13 по слою проектов,
   циклам импорта и diamond-дедупликации [tests/test_project.py](../src/ontol-v1/tests/test_project.py),
   и 11 по авторизации [tests/test_auth.py](../src/ontol-v1/tests/test_auth.py)).
 - Демо-проект [examples/multifile_demo/](../src/ontol-v1/examples/multifile_demo/): `main.ontol`
+=======
+- Юнит-тесты: `tests/` — **85 passed** (исходные + слой проектов, циклы импорта,
+  diamond-дедупликация и `with relationships`
+  [tests/test_project.py](../tests/test_project.py), авторизация
+  [tests/test_auth.py](../tests/test_auth.py)).
+- Демо-проект [examples/multifile_demo/](../examples/multifile_demo/): `main.ontol`
+>>>>>>> (feat) reexport of module hierarchy
   импортирует `set`, `element` из `base.ontol` и строит корректную диаграмму
   (Subset ▷ Set, Element ◇* Set).
 - Веб-ЛК проверен через `streamlit.testing.AppTest`: сценарий «холодный старт →
@@ -134,10 +148,16 @@ import * from 'base.ontol'                           (* всё *)
    добавлены подсветка синтаксиса (Ace) и автосохранение файлов.
 5. Добавлена авторизация пользователей (`UserStore`) и привязка проектов к
    пользователям (персональный `ProjectStore` на каждого), с тестами.
-6. Подготовлены артефакты: грамматика в РБНФ ([GRAMMAR.md](GRAMMAR.md)) и данный отчёт.
+6. Реализован опциональный импорт связей `import ... with relationships`:
+   переносит связи исходного модуля, у которых оба конца входят в число
+   импортируемых сущностей (с учётом алиасов и дедупликации по содержимому).
+   Без ключевого слова поведение прежнее. Дизайн — в
+   [IMPORT_WITH_RELATIONSHIPS.md](IMPORT_WITH_RELATIONSHIPS.md).
+7. Подготовлены артефакты: грамматика в РБНФ ([GRAMMAR.md](GRAMMAR.md)) и данный отчёт.
 
 ## 8. Известные ограничения и дальнейшие шаги
 
+<<<<<<< HEAD
 - **Связи (`hierarchy:`) не реэкспортируются при импорте.** При слиянии импортов
   парсер пропускает безымянные определения ([parser.py](../src/ontol-v1/ontol/parser.py),
   `if definition.name is None: continue`), а `Relationship` по умолчанию безымянны.
@@ -145,6 +165,8 @@ import * from 'base.ontol'                           (* всё *)
   из `mod.ontol`. Обходной путь: объявлять `hierarchy:` в самом entry-файле (типы
   туда уже импортированы). Возможное решение — тянуть и безымянные связи с
   дедупликацией по содержимому (как сделано для термов при diamond-импорте).
+=======
+>>>>>>> (feat) reexport of module hierarchy
 - Полноценная подсветка именно Ontol-DSL (сейчас используется близкий режим YAML);
   при необходимости — собственный режим Ace или серверная подсветка (Pygments).
 - Усиление авторизации для продакшна: ограничение попыток входа, сброс пароля,
