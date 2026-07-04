@@ -22,6 +22,7 @@ from .enums import (
 )
 from .models import (
     Class,
+    DataType,
     Interface,
     Attribute,
     Operation,
@@ -320,6 +321,8 @@ def parse_svg_to_diagram(svg_content: str, *, validate: bool = True) -> ParseRes
                 cls = Template(**class_kwargs, template_parameters=template_parameters)
             elif class_kind == "interface" or stereotype == Stereotype.INTERFACE:
                 cls = Interface(**class_kwargs)
+            elif class_kind == "dataType" or stereotype == Stereotype.DATA_TYPE:
+                cls = DataType(**class_kwargs)
             else:
                 cls = Class(**class_kwargs)
 

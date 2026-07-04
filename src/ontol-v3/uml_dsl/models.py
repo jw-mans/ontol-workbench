@@ -691,8 +691,15 @@ class Class(Classifier):
             tpl_w = self._measure_text_width(tpl_text) + p * 2
             tpl_h = lh + p
 
-        class_kind = "interface" if self.stereotype == Stereotype.INTERFACE else ("template" if tpl_params else "class")
-        badge_kind = "I" if class_kind == "interface" else "C"
+        if self.stereotype == Stereotype.INTERFACE:
+            class_kind = "interface"
+            badge_kind = "I"
+        elif self.stereotype == Stereotype.DATA_TYPE:
+            class_kind = "dataType"
+            badge_kind = "D"
+        else:
+            class_kind = "template" if tpl_params else "class"
+            badge_kind = "C"
 
         title_text_w = max((self._measure_text_width(l) for l in title_lines), default=0)
         body_text_w = max((self._measure_text_width(self._feature_display_text(l)) for l in attr_lines + op_lines), default=0)
@@ -856,6 +863,9 @@ class Class(Classifier):
         elif kind == "I":
             fill = "#c9d7ff"
             stroke = "#4a61a8"
+        elif kind == "D":
+            fill = "#d9c7f2"
+            stroke = "#6f4aa8"
         else:
             fill = "#b8d9bf"
             stroke = "#3e7d4a"
@@ -1016,6 +1026,47 @@ class Interface(Class):
             elif isinstance(operation, dict):
                 patched = dict(operation)
                 patched["is_abstract"] = True
+                operations.append(patched)
+            else:
+                operations.append(operation)
+        data["operations"] = operations
+        return data
+
+
+# ──────────────────────────────────────────────────────────────────────────
+# DataType — тип данных UML (§3.2.4)
+# ──────────────────────────────────────────────────────────────────────────
+
+
+class DataType(Class):
+    """DataType — классификатор значений без объектной идентичности.
+
+    В отличие от класса, тип данных описывает множество значений и операции
+    над ними. В текущей модели он хранится как `Class` со стереотипом
+    `dataType`, но имеет отдельный Python-тип для TDL и SVG roundtrip.
+    """
+    stereotype: Stereotype = Field(
+        default=Stereotype.DATA_TYPE,
+        description="Фиксированный стереотип типа данных.",
+    )
+
+    @model_validator(mode="before")
+    @classmethod
+    def _force_data_type_data(cls, data):
+        if not isinstance(data, dict):
+            return data
+
+        data = dict(data)
+        data["stereotype"] = Stereotype.DATA_TYPE
+
+        operations = []
+        for operation in data.get("operations") or []:
+            updates = {"is_query": True, "scope": Scope.CLASSIFIER}
+            if isinstance(operation, Operation):
+                operations.append(operation.model_copy(update=updates))
+            elif isinstance(operation, dict):
+                patched = dict(operation)
+                patched.update(updates)
                 operations.append(patched)
             else:
                 operations.append(operation)

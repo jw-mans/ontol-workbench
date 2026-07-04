@@ -10,6 +10,7 @@ from .tdl_ast import (
     AttributeLine,
     BindCmd,
     ClassDecl,
+    DataTypeDecl,
     DependencyDecl,
     DistributeCmd,
     Document,
@@ -256,6 +257,14 @@ class Parser:
         self.expect(TokenKind.ИНТЕРФЕЙС)
         return InterfaceDecl(name=name, attributes=attrs, operations=ops)
 
+    def _parse_data_type(self) -> DataTypeDecl:
+        self.expect(TokenKind.ТИП_ДАННЫХ)
+        name = self.expect_ident()
+        attrs, ops = self._parse_class_members()
+        self.expect(TokenKind.КОНЕЦ)
+        self.expect(TokenKind.ТИП_ДАННЫХ)
+        return DataTypeDecl(name=name, attributes=attrs, operations=ops)
+
     def _parse_generalization(self) -> GeneralizationDecl:
         self.expect(TokenKind.ОБОБЩЕНИЕ)
         specific = self.expect_ident()
@@ -428,6 +437,8 @@ class Parser:
                 doc.declarations.append(self._parse_class())
             elif self.at(TokenKind.ИНТЕРФЕЙС):
                 doc.declarations.append(self._parse_interface())
+            elif self.at(TokenKind.ТИП_ДАННЫХ):
+                doc.declarations.append(self._parse_data_type())
             elif self.at(TokenKind.ПЕРЕЧИСЛЕНИЕ):
                 doc.declarations.append(self._parse_enum())
             elif self.at(TokenKind.ОБОБЩЕНИЕ):

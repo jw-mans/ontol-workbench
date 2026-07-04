@@ -2,8 +2,8 @@ from __future__ import annotations
 
 import pytest
 
-from uml_dsl.enums import AggregationKind, Changeability, DependencyStereotype, Stereotype, Visibility
-from uml_dsl.models import Interface
+from uml_dsl.enums import AggregationKind, Changeability, DependencyStereotype, Scope, Stereotype, Visibility
+from uml_dsl.models import DataType, Interface
 from uml_dsl.tdl_lexer import LexerError, TokenKind, lex
 from uml_dsl.tdl_parser import ParseError, parse_tdl
 
@@ -12,6 +12,7 @@ from tests.helpers import (
     ATTRS,
     CLASS,
     COMPOSITION,
+    DATA_TYPE,
     DEPENDENCY,
     END,
     GENERALIZATION,
@@ -21,17 +22,24 @@ from tests.helpers import (
     REALIZATION,
     class_block,
     build,
+    data_type_block,
     enum_block,
     interface_block,
 )
 
 
 def test_lexer_recognizes_tdl_keywords_and_relation_tokens():
-    tokens = lex(f"{CLASS} Store\n{END} {CLASS}\n{INTERFACE} Readable\n{END} {INTERFACE}\n{ASSOCIATION} Store -- Item\n")
+    tokens = lex(
+        f"{CLASS} Store\n{END} {CLASS}\n"
+        f"{INTERFACE} Readable\n{END} {INTERFACE}\n"
+        f"{DATA_TYPE} Money\n{END} {DATA_TYPE}\n"
+        f"{ASSOCIATION} Store -- Item\n"
+    )
     kinds = [token.kind for token in tokens]
 
     assert TokenKind(CLASS) in kinds
     assert TokenKind(INTERFACE) in kinds
+    assert TokenKind(DATA_TYPE) in kinds
     assert TokenKind(END) in kinds
     assert TokenKind(ASSOCIATION) in kinds
     assert TokenKind.DASH in kinds
@@ -134,6 +142,32 @@ def test_realization_requires_interface_target():
 
     with pytest.raises(ValueError, match="интерфейс"):
         build(tdl)
+
+
+def test_builds_data_type_and_allows_references_to_it():
+    tdl = (
+        data_type_block(
+            "Money",
+            f"""
+{ATTRS}
+  + amount : Float
+  + currency : String
+{OPS}
+  + add(other : Money) : Money
+""",
+        )
+        + class_block("Invoice", f"{ATTRS}\n  + total : Money")
+    )
+
+    diagram = build(tdl)
+    diagram.validate_all()
+
+    money = diagram.classifiers["Money"]
+    assert isinstance(money, DataType)
+    assert money.stereotype == Stereotype.DATA_TYPE
+    assert money.operations[0].is_query is True
+    assert money.operations[0].scope == Scope.CLASSIFIER
+    assert diagram.classifiers["Invoice"].attributes[0].type_ == "Money"
 
 
 def test_validation_rejects_inheritance_cycles():

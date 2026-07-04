@@ -4,14 +4,15 @@ from __future__ import annotations
 from typing import Optional
 
 from .diagram import ClassDiagram, ClassPosition
-from .enums import Changeability, DependencyStereotype, Visibility, Stereotype, AggregationKind
-from .models import Attribute, Class, Interface, MultiplicityRange, Operation, Parameter
+from .enums import Changeability, DependencyStereotype, Scope, Visibility, Stereotype, AggregationKind
+from .models import Attribute, Class, DataType, Interface, MultiplicityRange, Operation, Parameter
 from .relationships import Association, AssociationEnd, Dependency, Generalization, Realization
 from .tdl_ast import (
     AlignCmd,
     AssociationDecl,
     BindCmd,
     ClassDecl,
+    DataTypeDecl,
     EnumDecl,
     DependencyDecl,
     DistributeCmd,
@@ -89,7 +90,13 @@ def _build_attributes(decl_attrs):
     return attrs
 
 
-def _build_operations(decl_ops, *, force_abstract: bool = False):
+def _build_operations(
+    decl_ops,
+    *,
+    force_abstract: bool = False,
+    force_query: bool = False,
+    force_classifier_scope: bool = False,
+):
     ops = []
     for o in decl_ops:
         params = [
@@ -107,8 +114,9 @@ def _build_operations(decl_ops, *, force_abstract: bool = False):
                 parameters=params,
                 return_type=_map_type(o.return_type),
                 is_abstract=force_abstract or o.is_abstract,
-                is_query=o.is_query,
+                is_query=force_query or o.is_query,
                 is_leaf=o.is_leaf,
+                scope=Scope.CLASSIFIER if force_classifier_scope else Scope.INSTANCE,
             )
         )
     return ops
@@ -147,6 +155,17 @@ def build_diagram(doc: Document, title: str = "Диаграмма TDL") -> Class
                 operations=_build_operations(decl.operations, force_abstract=True),
             )
             diagram.add_classifier(interface)
+        if isinstance(decl, DataTypeDecl):
+            data_type = DataType(
+                name=decl.name,
+                attributes=_build_attributes(decl.attributes),
+                operations=_build_operations(
+                    decl.operations,
+                    force_query=True,
+                    force_classifier_scope=True,
+                ),
+            )
+            diagram.add_classifier(data_type)
 
     # 2) Отношения
     for decl in doc.declarations:

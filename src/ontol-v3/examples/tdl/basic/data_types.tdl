@@ -1,0 +1,20 @@
+ТИП_ДАННЫХ Money
+АТРИБУТЫ
+  + amount : Float
+  + currency : String
+ОПЕРАЦИИ
+  + add(other : Money) : Money
+КОНЕЦ ТИП_ДАННЫХ
+
+КЛАСС Invoice
+АТРИБУТЫ
+  + number : String
+  + total : Money
+КОНЕЦ КЛАСС
+
+КЛАСС Payment
+АТРИБУТЫ
+  + paidAmount : Money
+КОНЕЦ КЛАСС
+
+АССОЦИАЦИЯ Invoice [1] : invoice -- Payment [0..*] : payments ИМЯ "paid by"

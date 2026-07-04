@@ -9,6 +9,7 @@ from uml_dsl import (
     Attribute,
     Class,
     ClassDiagram,
+    DataType,
     Interface,
     Multiplicity,
     MultiplicityRange,
@@ -33,6 +34,7 @@ from tests.helpers import (
     OPS,
     REALIZATION,
     class_block,
+    data_type_block,
     enum_block,
     interface_block,
 )
@@ -161,6 +163,37 @@ def test_rendered_svg_roundtrip_preserves_class_features_and_validation(require_
     assert association.ends[1].role == "items"
     assert str(association.ends[1].multiplicity) == "0..*"
 
+    result.diagram.validate_all()
+
+
+def test_rendered_svg_roundtrip_preserves_data_type(require_dot):
+    tdl = (
+        data_type_block(
+            "Money",
+            f"""
+{ATTRS}
+  + amount : Float
+  + currency : String
+{OPS}
+  + add(other : Money) : Money
+""",
+        )
+        + class_block("Invoice", f"{ATTRS}\n  + total : Money")
+    )
+
+    svg = tdl_to_svg(tdl)
+    result = parse_svg_to_diagram(svg)
+
+    assert 'data-class-kind="dataType"' in svg
+    assert 'data-stereotype="dataType"' in svg
+    assert 'uml-kind-badge-d' in svg
+    assert result.success, result.errors
+    assert result.diagram is not None
+
+    money = result.diagram.classifiers["Money"]
+    assert isinstance(money, DataType)
+    assert money.operations[0].is_query is True
+    assert result.diagram.classifiers["Invoice"].attributes[0].type_ == "Money"
     result.diagram.validate_all()
 
 
