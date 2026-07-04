@@ -1,0 +1,289 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="427" height="605" viewBox="0 0 427 605" class="uml-diagram" data-theme="yellow">
+
+    <defs>
+      <linearGradient id="uml-yellow-title-gradient" x1="0%" y1="0%" x2="0%" y2="100%">
+        <stop offset="0%" stop-color="#f0c955"/>
+        <stop offset="50%" stop-color="#ffebc2"/>
+        <stop offset="100%" stop-color="#f0c955"/>
+      </linearGradient>
+
+      <linearGradient id="uml-yellow-section-gradient" x1="0%" y1="0%" x2="0%" y2="100%">
+        <stop offset="0%" stop-color="#f5d56b"/>
+        <stop offset="50%" stop-color="#fff1cf"/>
+        <stop offset="100%" stop-color="#f0c955"/>
+      </linearGradient>
+
+      <marker id="diamond-empty" markerWidth="12" markerHeight="8" viewBox="0 0 12 8" refX="0" refY="4" orient="auto" markerUnits="userSpaceOnUse">
+        <path class="uml-marker uml-marker-hollow" d="M 0 4 L 6 0 L 12 4 L 6 8 Z" fill="white" stroke="#181818" stroke-width="1"/>
+      </marker>
+
+      <marker id="diamond-filled" markerWidth="12" markerHeight="8" viewBox="0 0 12 8" refX="0" refY="4" orient="auto" markerUnits="userSpaceOnUse">
+        <path class="uml-marker uml-marker-filled" d="M 0 4 L 6 0 L 12 4 L 6 8 Z" fill="#181818" stroke="#181818" stroke-width="1"/>
+      </marker>
+
+      <marker id="diamond-empty-end" markerWidth="12" markerHeight="8" viewBox="0 0 12 8" refX="12" refY="4" orient="auto" markerUnits="userSpaceOnUse">
+        <path class="uml-marker uml-marker-hollow" d="M 0 4 L 6 0 L 12 4 L 6 8 Z" fill="white" stroke="#181818" stroke-width="1"/>
+      </marker>
+
+      <marker id="diamond-filled-end" markerWidth="12" markerHeight="8" viewBox="0 0 12 8" refX="12" refY="4" orient="auto" markerUnits="userSpaceOnUse">
+        <path class="uml-marker uml-marker-filled" d="M 0 4 L 6 0 L 12 4 L 6 8 Z" fill="#181818" stroke="#181818" stroke-width="1"/>
+      </marker>
+
+      <marker id="arrow-filled" markerWidth="9" markerHeight="8" viewBox="0 0 9 8" refX="9" refY="4" orient="auto" markerUnits="userSpaceOnUse">
+        <path class="uml-marker uml-marker-filled" d="M 9 4 L 0 0 L 4 4 L 0 8 Z" fill="#181818" stroke="#181818" stroke-width="1"/>
+      </marker>
+
+      <marker id="triangle-empty" markerWidth="18" markerHeight="12" viewBox="0 0 18 12" refX="18" refY="6" orient="auto" markerUnits="userSpaceOnUse">
+        <path class="uml-marker uml-marker-hollow" d="M 18 6 L 0 0 L 0 12 Z" fill="white" stroke="#181818" stroke-width="1"/>
+      </marker>
+    </defs>
+
+<style id="uml-theme-yellow" type="text/css"><![CDATA[
+svg.uml-diagram {
+  background: #ffffff;
+}
+
+.uml-class-title {
+  fill: url(#uml-yellow-title-gradient);
+}
+
+.uml-class-section,
+.uml-enum-body {
+  fill: url(#uml-yellow-section-gradient);
+}
+
+.uml-class-outline,
+.uml-class-title,
+.uml-class-section,
+.uml-enum-body,
+.uml-enum-title,
+.uml-template-box {
+  stroke: #d7a43c;
+  stroke-width: 2;
+}
+
+.uml-class-title-text,
+.uml-feature-text,
+.uml-template-text,
+.uml-edge-label,
+.uml-multiplicity {
+  fill: #000000;
+}
+
+.uml-kind-badge-c {
+  fill: #f0c955;
+  stroke: #9b6b18;
+}
+
+.uml-kind-badge-e {
+  fill: #f29b86;
+  stroke: #9d3f2f;
+}
+
+.uml-kind-badge-text {
+  fill: #000000;
+}
+
+.uml-attribute-bullet {
+  fill: #ffffff;
+  stroke: #3aa76d;
+}
+
+.uml-operation-bullet {
+  fill: #3aa76d;
+  stroke: #2a7d50;
+}
+
+.uml-edge-line {
+  stroke: #000000;
+  stroke-width: 1;
+}
+
+.uml-marker-filled {
+  fill: #000000;
+  stroke: #000000;
+}
+
+.uml-marker-hollow {
+  fill: #ffffff;
+  stroke: #000000;
+}
+
+]]></style>
+
+<g class="uml-edge"
+   data-type="association"
+   data-name="occupies"
+   data-derived="false"
+   data-end1-class="Person"
+   data-end1-multiplicity="0..*"
+   data-end1-role="employee"
+   data-end1-navigable="true"
+   data-end1-aggregation="none"
+   data-end2-class="Position"
+   data-end2-multiplicity="0..*"
+   data-end2-role="position"
+   data-end2-navigable="true"
+   data-end2-aggregation="none">
+  <path class="uml-edge-line" d="M203.4,375.1 C186.7,396.1 168.9,418.7 152.6,439.3" fill="none" stroke="#181818" stroke-width="1.0"/>
+  <text class="uml-multiplicity" x="165.8" y="392.1" font-family="sans-serif" font-size="13" fill="black">0..*</text>
+  <text class="uml-multiplicity" x="134.9" y="431.2" font-family="sans-serif" font-size="13" fill="black">0..*</text>
+</g>
+
+
+<g class="uml-edge"
+   data-type="association"
+   data-name=""
+   data-derived="false"
+   data-end1-class="Department"
+   data-end1-multiplicity="1"
+   data-end1-role=""
+   data-end1-navigable=""
+   data-end1-aggregation="composition"
+   data-end2-class="Position"
+   data-end2-multiplicity="1..*"
+   data-end2-role=""
+   data-end2-navigable=""
+   data-end2-aggregation="none">
+  <path class="uml-edge-line" d="M168.2,150.1 C164.1,170.7 159.4,193.6 155.2,214.6 C139.8,291.3 122.3,379.2 110.4,439.1" fill="none" stroke="#181818" stroke-width="1.0" marker-start="url(#diamond-filled)"/>
+
+  <text class="uml-multiplicity" x="89.7" y="427.9" font-family="sans-serif" font-size="13" fill="black">1..*</text>
+</g>
+
+
+<g class="uml-edge"
+   data-type="association"
+   data-name="employs"
+   data-derived="false"
+   data-end1-class="Department"
+   data-end1-multiplicity="1"
+   data-end1-role=""
+   data-end1-navigable=""
+   data-end1-aggregation="aggregation"
+   data-end2-class="Person"
+   data-end2-multiplicity="0..*"
+   data-end2-role=""
+   data-end2-navigable=""
+   data-end2-aggregation="none">
+  <path class="uml-edge-line" d="M207.2,149.8 C215.5,170.2 224.9,193.0 233.6,214.3" fill="none" stroke="#181818" stroke-width="1.0" marker-start="url(#diamond-empty)"/>
+
+  <text class="uml-multiplicity" x="201.6" y="204.0" font-family="sans-serif" font-size="13" fill="black">0..*</text>
+</g>
+
+
+<g class="uml-edge"
+   data-type="association"
+   data-name="supervises"
+   data-derived="false"
+   data-end1-class="Position"
+   data-end1-multiplicity="0..1"
+   data-end1-role="supervisor"
+   data-end1-navigable=""
+   data-end1-aggregation="none"
+   data-end2-class="Position"
+   data-end2-multiplicity="0..*"
+   data-end2-role="subordinate"
+   data-end2-navigable=""
+   data-end2-aggregation="none">
+  <path class="uml-edge-line" d="M171.2,471.3 C202.3,468.5 228.8,481.9 228.8,511.6 C228.8,541.3 202.3,554.7 171.2,551.9" fill="none" stroke="#181818" stroke-width="1.0"/>
+  <text class="uml-multiplicity" x="179.2" y="487.3" font-family="sans-serif" font-size="13" fill="black">0..1</text>
+  <text class="uml-multiplicity" x="179.2" y="567.9" font-family="sans-serif" font-size="13" fill="black">0..*</text>
+</g>
+
+
+<g class="uml-edge"
+   data-type="association"
+   data-name=""
+   data-derived="false"
+   data-end1-class="Person"
+   data-end1-multiplicity="1"
+   data-end1-role=""
+   data-end1-navigable=""
+   data-end1-aggregation="none"
+   data-end2-class="PositionHistory"
+   data-end2-multiplicity="0..*"
+   data-end2-role=""
+   data-end2-navigable=""
+   data-end2-aggregation="none">
+  <path class="uml-edge-line" d="M288.4,375.1 C297.5,407.8 307.7,444.3 315.2,471.2" fill="none" stroke="#181818" stroke-width="1.0"/>
+  <text class="uml-multiplicity" x="280.8" y="395.0" font-family="sans-serif" font-size="13" fill="black">1</text>
+  <text class="uml-multiplicity" x="286.0" y="460.3" font-family="sans-serif" font-size="13" fill="black">0..*</text>
+</g>
+
+<g transform="translate(184,214)" class="uml-class" data-id="Person" data-name="Person" data-type="class" data-stereotype="" data-abstract="false" data-attributes-count="3" data-operations-count="3">
+<rect class="uml-class-title" x="0" y="0" width="163.6" height="32" fill="#e5e5e5"/>
+<rect class="uml-class-outline uml-class-title-outline" x="0" y="0" width="163.6" height="32" stroke="#999999" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+<circle class="uml-kind-badge uml-kind-badge-c" cx="19" cy="16.0" r="11" fill="#b8d9bf" stroke="#3e7d4a" stroke-width="1.5"/><text class="uml-kind-badge-text" x="19" y="20.0" text-anchor="middle" font-family="Arial" font-size="12" font-weight="700" fill="black">C</text>
+<text class="uml-class-title-text" x="38" y="20" text-anchor="start" fill="black" font-family="Arial" font-size="12" font-weight="500">Person</text>
+<rect class="uml-class-section uml-class-attributes-section" x="0" y="32" width="163.6" height="64" fill="#eeeeee"/>
+<rect class="uml-class-outline uml-class-section-outline" x="0" y="32" width="163.6" height="64" stroke="#999999" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+<circle class="uml-feature-bullet uml-attribute-bullet" cx="12" cy="48" r="3" fill="white" stroke="#3aa76d" stroke-width="1.3"/>
+<text class="uml-feature-text uml-attribute-text" x="22" y="52" fill="black" font-family="Arial" font-size="12" font-weight="500">name</text>
+<circle class="uml-feature-bullet uml-attribute-bullet" cx="12" cy="64" r="3" fill="white" stroke="#3aa76d" stroke-width="1.3"/>
+<text class="uml-feature-text uml-attribute-text" x="22" y="68" fill="black" font-family="Arial" font-size="12" font-weight="500">birthDate</text>
+<circle class="uml-feature-bullet uml-attribute-bullet" cx="12" cy="80" r="3" fill="white" stroke="#3aa76d" stroke-width="1.3"/>
+<text class="uml-feature-text uml-attribute-text" x="22" y="84" fill="black" font-family="Arial" font-size="12" font-weight="500">address</text>
+<rect class="uml-class-section uml-class-operations-section" x="0" y="96" width="163.6" height="64" fill="#eeeeee"/>
+<rect class="uml-class-outline uml-class-section-outline" x="0" y="96" width="163.6" height="64" stroke="#999999" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+<circle class="uml-feature-bullet uml-operation-bullet" cx="12" cy="112" r="3" fill="#3aa76d" stroke="#2a7d50" stroke-width="1"/>
+<text class="uml-feature-text uml-operation-text" x="22" y="116" fill="black" font-family="Arial" font-size="12" font-weight="500">hire(pos)</text>
+<circle class="uml-feature-bullet uml-operation-bullet" cx="12" cy="128" r="3" fill="#3aa76d" stroke="#2a7d50" stroke-width="1"/>
+<text class="uml-feature-text uml-operation-text" x="22" y="132" fill="black" font-family="Arial" font-size="12" font-weight="500">fire()</text>
+<circle class="uml-feature-bullet uml-operation-bullet" cx="12" cy="144" r="3" fill="#3aa76d" stroke="#2a7d50" stroke-width="1"/>
+<text class="uml-feature-text uml-operation-text" x="22" y="148" fill="black" font-family="Arial" font-size="12" font-weight="500">transfer(from, to)</text>
+<rect class="uml-bbox" x="0" y="0" width="163.6" height="160" fill="none" stroke="none" pointer-events="all"/>
+</g>
+<g transform="translate(120,21)" class="uml-class" data-id="Department" data-name="Department" data-type="class" data-stereotype="" data-abstract="false" data-attributes-count="2" data-operations-count="2">
+<rect class="uml-class-title" x="0" y="0" width="122.0" height="32" fill="#e5e5e5"/>
+<rect class="uml-class-outline uml-class-title-outline" x="0" y="0" width="122.0" height="32" stroke="#999999" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+<circle class="uml-kind-badge uml-kind-badge-c" cx="19" cy="16.0" r="11" fill="#b8d9bf" stroke="#3e7d4a" stroke-width="1.5"/><text class="uml-kind-badge-text" x="19" y="20.0" text-anchor="middle" font-family="Arial" font-size="12" font-weight="700" fill="black">C</text>
+<text class="uml-class-title-text" x="38" y="20" text-anchor="start" fill="black" font-family="Arial" font-size="12" font-weight="500">Department</text>
+<rect class="uml-class-section uml-class-attributes-section" x="0" y="32" width="122.0" height="48" fill="#eeeeee"/>
+<rect class="uml-class-outline uml-class-section-outline" x="0" y="32" width="122.0" height="48" stroke="#999999" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+<circle class="uml-feature-bullet uml-attribute-bullet" cx="12" cy="48" r="3" fill="white" stroke="#3aa76d" stroke-width="1.3"/>
+<text class="uml-feature-text uml-attribute-text" x="22" y="52" fill="black" font-family="Arial" font-size="12" font-weight="500">name</text>
+<circle class="uml-feature-bullet uml-attribute-bullet" cx="12" cy="64" r="3" fill="white" stroke="#3aa76d" stroke-width="1.3"/>
+<text class="uml-feature-text uml-attribute-text" x="22" y="68" fill="black" font-family="Arial" font-size="12" font-weight="500">code</text>
+<rect class="uml-class-section uml-class-operations-section" x="0" y="80" width="122.0" height="48" fill="#eeeeee"/>
+<rect class="uml-class-outline uml-class-section-outline" x="0" y="80" width="122.0" height="48" stroke="#999999" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+<circle class="uml-feature-bullet uml-operation-bullet" cx="12" cy="96" r="3" fill="#3aa76d" stroke="#2a7d50" stroke-width="1"/>
+<text class="uml-feature-text uml-operation-text" x="22" y="100" fill="black" font-family="Arial" font-size="12" font-weight="500">create()</text>
+<circle class="uml-feature-bullet uml-operation-bullet" cx="12" cy="112" r="3" fill="#3aa76d" stroke="#2a7d50" stroke-width="1"/>
+<text class="uml-feature-text uml-operation-text" x="22" y="116" fill="black" font-family="Arial" font-size="12" font-weight="500">eliminate()</text>
+<rect class="uml-bbox" x="0" y="0" width="122.0" height="128" fill="none" stroke="none" pointer-events="all"/>
+</g>
+<g transform="translate(21,439)" class="uml-class" data-id="Position" data-name="Position" data-type="class" data-stereotype="" data-abstract="false" data-attributes-count="3" data-operations-count="2">
+<rect class="uml-class-title" x="0" y="0" width="149.2" height="32" fill="#e5e5e5"/>
+<rect class="uml-class-outline uml-class-title-outline" x="0" y="0" width="149.2" height="32" stroke="#999999" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+<circle class="uml-kind-badge uml-kind-badge-c" cx="19" cy="16.0" r="11" fill="#b8d9bf" stroke="#3e7d4a" stroke-width="1.5"/><text class="uml-kind-badge-text" x="19" y="20.0" text-anchor="middle" font-family="Arial" font-size="12" font-weight="700" fill="black">C</text>
+<text class="uml-class-title-text" x="38" y="20" text-anchor="start" fill="black" font-family="Arial" font-size="12" font-weight="500">Position</text>
+<rect class="uml-class-section uml-class-attributes-section" x="0" y="32" width="149.2" height="64" fill="#eeeeee"/>
+<rect class="uml-class-outline uml-class-section-outline" x="0" y="32" width="149.2" height="64" stroke="#999999" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+<circle class="uml-feature-bullet uml-attribute-bullet" cx="12" cy="48" r="3" fill="white" stroke="#3aa76d" stroke-width="1.3"/>
+<text class="uml-feature-text uml-attribute-text" x="22" y="52" fill="black" font-family="Arial" font-size="12" font-weight="500">title</text>
+<circle class="uml-feature-bullet uml-attribute-bullet" cx="12" cy="64" r="3" fill="white" stroke="#3aa76d" stroke-width="1.3"/>
+<text class="uml-feature-text uml-attribute-text" x="22" y="68" fill="black" font-family="Arial" font-size="12" font-weight="500">salary</text>
+<circle class="uml-feature-bullet uml-attribute-bullet" cx="12" cy="80" r="3" fill="white" stroke="#3aa76d" stroke-width="1.3"/>
+<text class="uml-feature-text uml-attribute-text" x="22" y="84" fill="black" font-family="Arial" font-size="12" font-weight="500">isVacant</text>
+<rect class="uml-class-section uml-class-operations-section" x="0" y="96" width="149.2" height="48" fill="#eeeeee"/>
+<rect class="uml-class-outline uml-class-section-outline" x="0" y="96" width="149.2" height="48" stroke="#999999" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+<circle class="uml-feature-bullet uml-operation-bullet" cx="12" cy="112" r="3" fill="#3aa76d" stroke="#2a7d50" stroke-width="1"/>
+<text class="uml-feature-text uml-operation-text" x="22" y="116" fill="black" font-family="Arial" font-size="12" font-weight="500">createVacancy()</text>
+<circle class="uml-feature-bullet uml-operation-bullet" cx="12" cy="128" r="3" fill="#3aa76d" stroke="#2a7d50" stroke-width="1"/>
+<text class="uml-feature-text uml-operation-text" x="22" y="132" fill="black" font-family="Arial" font-size="12" font-weight="500">reducePosition()</text>
+<rect class="uml-bbox" x="0" y="0" width="149.2" height="144" fill="none" stroke="none" pointer-events="all"/>
+</g>
+<g transform="translate(247,471)" class="uml-class" data-id="PositionHistory" data-name="PositionHistory" data-type="class" data-stereotype="" data-abstract="false" data-attributes-count="2" data-operations-count="0">
+<rect class="uml-class-title" x="0" y="0" width="158.0" height="32" fill="#e5e5e5"/>
+<rect class="uml-class-outline uml-class-title-outline" x="0" y="0" width="158.0" height="32" stroke="#999999" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+<circle class="uml-kind-badge uml-kind-badge-c" cx="19" cy="16.0" r="11" fill="#b8d9bf" stroke="#3e7d4a" stroke-width="1.5"/><text class="uml-kind-badge-text" x="19" y="20.0" text-anchor="middle" font-family="Arial" font-size="12" font-weight="700" fill="black">C</text>
+<text class="uml-class-title-text" x="38" y="20" text-anchor="start" fill="black" font-family="Arial" font-size="12" font-weight="500">PositionHistory</text>
+<rect class="uml-class-section uml-class-attributes-section" x="0" y="32" width="158.0" height="48" fill="#eeeeee"/>
+<rect class="uml-class-outline uml-class-section-outline" x="0" y="32" width="158.0" height="48" stroke="#999999" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+<circle class="uml-feature-bullet uml-attribute-bullet" cx="12" cy="48" r="3" fill="white" stroke="#3aa76d" stroke-width="1.3"/>
+<text class="uml-feature-text uml-attribute-text" x="22" y="52" fill="black" font-family="Arial" font-size="12" font-weight="500">startDate</text>
+<circle class="uml-feature-bullet uml-attribute-bullet" cx="12" cy="64" r="3" fill="white" stroke="#3aa76d" stroke-width="1.3"/>
+<text class="uml-feature-text uml-attribute-text" x="22" y="68" fill="black" font-family="Arial" font-size="12" font-weight="500">endDate</text>
+<rect class="uml-bbox" x="0" y="0" width="158.0" height="80" fill="none" stroke="none" pointer-events="all"/>
+</g>
+</svg>

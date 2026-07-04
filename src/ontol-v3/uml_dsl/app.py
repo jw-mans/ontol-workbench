@@ -14,6 +14,7 @@ import streamlit as st
 from uml_dsl.svg_parser import parse_svg_to_diagram, ParseResult
 from uml_dsl.diagram import ClassDiagram
 from uml_dsl.export import svg_to_png, svg_to_jpg, export_available
+from uml_dsl.graphviz_render import available_svg_themes
 from uml_dsl.tdl_run import tdl_to_svg
 from uml_dsl.tdl_lexer import lex, LexerError
 from uml_dsl.tdl_parser import parse_tdl, ParseError
@@ -29,6 +30,19 @@ st.set_page_config(
 st.title("UML: Валидатор и рендер TDL")
 tab_val, tab_tdl = st.tabs(["Валидатор SVG", "Рендер TDL"])
 
+
+def svg_preview_html(svg_content: str) -> str:
+    return f"""
+    <style>
+      html, body {{
+        margin: 0;
+        padding: 0;
+        background: transparent;
+      }}
+    </style>
+    {svg_content}
+    """
+
 # ═══════════════════════════════════════════════════════════════════════════
 # Вкладка: Рендер TDL
 # ═══════════════════════════════════════════════════════════════════════════
@@ -36,7 +50,7 @@ with tab_tdl:
     st.subheader("TDL → SVG")
     st.markdown("Введите текст на TDL или загрузите файл `.tdl` — получите SVG-диаграмму.")
 
-    example_tdl_path = PROJECT_ROOT / "examples" / "example.tdl"
+    example_tdl_path = PROJECT_ROOT / "examples" / "app" / "render_tdl" / "example.tdl"
     default_tdl = ""
     if example_tdl_path.exists():
         default_tdl = example_tdl_path.read_text(encoding="utf-8")
@@ -53,7 +67,16 @@ with tab_tdl:
                 height=320,
                 placeholder="КЛАСС Имя ... КОНЕЦ КЛАСС",
                 key="tdl_text",
-            )
+        )
+        svg_themes = available_svg_themes()
+        default_theme_idx = svg_themes.index("light") if "light" in svg_themes else 0
+        svg_theme = st.selectbox(
+            "Тема SVG",
+            svg_themes,
+            index=default_theme_idx,
+            help="CSS-файл из uml_dsl/styles, который будет встроен в итоговый SVG.",
+            key="tdl_svg_theme",
+        )
         if st.button("Сгенерировать SVG", type="primary", key="tdl_render"):
             st.session_state["tdl_do_render"] = True
 
@@ -62,10 +85,10 @@ with tab_tdl:
             st.session_state["tdl_do_render"] = False
             with st.spinner("Парсинг TDL и рендер..."):
                 try:
-                    svg_tdl = tdl_to_svg(tdl_content.strip())
+                    svg_tdl = tdl_to_svg(tdl_content.strip(), theme=svg_theme)
                     st.session_state["current_svg"] = svg_tdl
                     st.success("Диаграмма построена")
-                    st.components.v1.html(svg_tdl, height=400)
+                    st.components.v1.html(svg_preview_html(svg_tdl), height=400)
                     st.download_button(
                         "Скачать SVG",
                         data=svg_tdl,
@@ -107,17 +130,17 @@ with tab_val:
         col_ex1, col_ex2 = st.columns(2)
         with col_ex1:
             if st.button("📄 Пример 1 (корректный)", use_container_width=True):
-                example_path = PROJECT_ROOT / "examples" / "09_02" / "imported_svg" / "imported_svg_01.svg"
+                example_path = PROJECT_ROOT / "examples" / "app" / "validate_svg" / "imported_svg_01.svg"
                 if example_path.exists():
                     with open(example_path, 'rb') as f:
                         uploaded_file = f.read()
                     st.session_state['uploaded_file'] = uploaded_file
                     st.session_state['run_validation'] = True
                 else:
-                    st.error("Файл примера не найден. Сначала запустите imported_examples.py")
+                    st.error("Файл примера не найден. Сначала запустите tests/scripts/generate_svg_parser_examples.py")
         with col_ex2:
             if st.button("📄 Пример 2 (метамодель)", use_container_width=True):
-                example_path = PROJECT_ROOT / "examples" / "09_02" / "imported_svg" / "imported_svg_02_metamodel.svg"
+                example_path = PROJECT_ROOT / "examples" / "app" / "validate_svg" / "tdl_example.svg"
                 if example_path.exists():
                     with open(example_path, 'rb') as f:
                         uploaded_file = f.read()
@@ -140,7 +163,7 @@ with tab_val:
                         svg_content = uploaded_file.decode('utf-8') if isinstance(uploaded_file, bytes) else uploaded_file
                     st.session_state["current_svg"] = svg_content
                     with st.expander("📊 Превью SVG", expanded=False):
-                        st.components.v1.html(svg_content, height=300)
+                        st.components.v1.html(svg_preview_html(svg_content), height=300)
                     with st.spinner("Парсинг и валидация..."):
                         try:
                             # Первый уровень: парсинг SVG
@@ -242,9 +265,9 @@ with st.sidebar:
     if st.button("🔄 Сгенерировать примеры", use_container_width=True):
         with st.spinner("Генерация..."):
             try:
-                sys.path.insert(0, str(PROJECT_ROOT / "examples"))
-                import imported_examples
-                imported_examples.main()
-                st.success("Примеры сгенерированы в examples/09_02/imported_svg/")
+                sys.path.insert(0, str(PROJECT_ROOT / "tests" / "scripts"))
+                import generate_svg_parser_examples
+                generate_svg_parser_examples.main()
+                st.success("Примеры сгенерированы в tests/fixtures/svg_parser/")
             except Exception as e:
                 st.error(f"Ошибка: {e}")

@@ -2,8 +2,8 @@
 """
 TDL → SVG: чтение файла .tdl, разбор, сборка модели, рендер в SVG.
 Запуск: python -m uml_dsl.tdl_run <файл.tdl> [выход.svg|выход.png]
-       или из корня: python -m uml_dsl.tdl_run examples/example.tdl
-       для PNG: python -m uml_dsl.tdl_run examples/example.tdl out.png
+       или из корня: python -m uml_dsl.tdl_run examples/tdl/basic/example.tdl
+       для PNG: python -m uml_dsl.tdl_run examples/tdl/basic/example.tdl out.png
 """
 from __future__ import annotations
 
@@ -21,12 +21,17 @@ from uml_dsl.tdl_build import build_diagram
 from uml_dsl.graphviz_render import diagram_to_graphviz_svg
 
 
-def tdl_to_svg(tdl_text: str, width: int = 900, height: int = 500) -> str:
+def tdl_to_svg(
+    tdl_text: str,
+    width: int = 900,
+    height: int = 500,
+    theme: str = "light",
+) -> str:
     tokens = lex(tdl_text)
     doc = parse_tdl(tokens)
     diagram = build_diagram(doc)
     diagram.validate_all()
-    return diagram_to_graphviz_svg(diagram)
+    return diagram_to_graphviz_svg(diagram, theme=theme)
 
 
 def tdl_to_svg_analyzed(tdl_text: str) -> tuple[str, list[str], dict | None]:
