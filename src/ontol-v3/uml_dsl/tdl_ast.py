@@ -104,6 +104,13 @@ class AssociationDecl:
     aggregation: Optional[str] = None
 
 @dataclass
+class AssociationClassDecl:
+    name: str
+    association: AssociationDecl
+    attributes: List[AttributeLine] = field(default_factory=list)
+    operations: List[OperationLine] = field(default_factory=list)
+
+@dataclass
 class AlignCmd:
     where: str
     elements: List[str]
@@ -149,6 +156,7 @@ Declaration = Union[
     DependencyDecl,
     RealizationDecl,
     AssociationDecl,
+    AssociationClassDecl,
 ]
 
 

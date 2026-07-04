@@ -4,12 +4,13 @@ import pytest
 
 from uml_dsl.enums import AggregationKind, Changeability, DependencyStereotype, Scope, Stereotype, Visibility
 from uml_dsl.models import DataType, Interface, Template
-from uml_dsl.relationships import TemplateBinding
+from uml_dsl.relationships import AssociationClass, TemplateBinding
 from uml_dsl.tdl_lexer import LexerError, TokenKind, lex
 from uml_dsl.tdl_parser import ParseError, parse_tdl
 
 from tests.helpers import (
     ASSOCIATION,
+    ASSOCIATION_CLASS,
     ATTRS,
     CLASS,
     COMPOSITION,
@@ -24,6 +25,7 @@ from tests.helpers import (
     REALIZATION,
     TEMPLATE,
     TEMPLATE_BINDING,
+    association_class_block,
     class_block,
     build,
     data_type_block,
@@ -40,6 +42,7 @@ def test_lexer_recognizes_tdl_keywords_and_relation_tokens():
         f"{DATA_TYPE} Money\n{END} {DATA_TYPE}\n"
         f"{TEMPLATE} Box\n{PARAMETERS}\nT\n{END} {TEMPLATE}\n"
         f"{TEMPLATE_BINDING} StringBox -> Box {{ T = String }}\n"
+        f"{ASSOCIATION_CLASS} Enrollment\n{ASSOCIATION} Student -- Course\n{END} {ASSOCIATION_CLASS}\n"
         f"{ASSOCIATION} Store -- Item\n"
     )
     kinds = [token.kind for token in tokens]
@@ -50,6 +53,7 @@ def test_lexer_recognizes_tdl_keywords_and_relation_tokens():
     assert TokenKind(TEMPLATE) in kinds
     assert TokenKind(PARAMETERS) in kinds
     assert TokenKind(TEMPLATE_BINDING) in kinds
+    assert TokenKind(ASSOCIATION_CLASS) in kinds
     assert TokenKind(END) in kinds
     assert TokenKind(ASSOCIATION) in kinds
     assert TokenKind.DASH in kinds
@@ -214,6 +218,39 @@ def test_builds_template_and_allows_parameter_type_references():
     assert binding.bound_element.name == "UserBox"
     assert binding.template.name == "Box"
     assert binding.substitutions == {"T": "User"}
+
+
+def test_builds_association_class_as_relationship_and_classifier():
+    tdl = (
+        class_block("Student")
+        + class_block("Course")
+        + association_class_block(
+            "Enrollment",
+            f"""
+{ASSOCIATION} Student [0..*] : student -- Course [0..*] : course {NAME} "enrolls"
+{ATTRS}
+  + enrolledAt : String
+  + grade : String
+{OPS}
+  + confirm() : Boolean
+""",
+        )
+    )
+
+    diagram = build(tdl)
+    diagram.validate_all()
+
+    assert "Enrollment" in diagram.classifiers
+    assert len(diagram.associations) == 0
+    assert len(diagram.association_classes) == 1
+
+    assoc_class = diagram.association_classes[0]
+    assert isinstance(assoc_class, AssociationClass)
+    assert assoc_class.name == "enrolls"
+    assert assoc_class.associated_classifier.name == "Enrollment"
+    assert assoc_class.associated_classifier.attributes[0].name == "enrolledAt"
+    assert assoc_class.ends[0].participant.name == "Student"
+    assert assoc_class.ends[1].role == "course"
 
 
 def test_validation_rejects_inheritance_cycles():

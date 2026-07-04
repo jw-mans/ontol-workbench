@@ -18,6 +18,7 @@ from .models import (
 )
 from .relationships import (
     Association,
+    AssociationClass,
     AssociationEnd,
     Dependency,
     Generalization,
@@ -26,6 +27,7 @@ from .relationships import (
 )
 from .tdl_ast import (
     AlignCmd,
+    AssociationClassDecl,
     AssociationDecl,
     BindCmd,
     ClassDecl,
@@ -155,6 +157,39 @@ def _build_template_parameters(decl_params):
     ]
 
 
+def _build_association(diagram: ClassDiagram, decl: AssociationDecl) -> Association:
+    c1 = diagram.classifiers.get(decl.end1.participant)
+    c2 = diagram.classifiers.get(decl.end2.participant)
+    if c1 is None or c2 is None:
+        raise ValueError(
+            f"Участник ассоциации не найден: {decl.end1.participant} или {decl.end2.participant}"
+        )
+
+    agg1 = AggregationKind.NONE
+    if decl.aggregation == "composition":
+        agg1 = AggregationKind.COMPOSITION
+    elif decl.aggregation == "aggregation":
+        agg1 = AggregationKind.AGGREGATION
+
+    e1 = AssociationEnd(
+        participant=c1,
+        multiplicity=_parse_multiplicity(decl.end1.multiplicity),
+        role=decl.end1.role,
+        navigable=True,
+        aggregation=agg1,
+    )
+
+    e2 = AssociationEnd(
+        participant=c2,
+        multiplicity=_parse_multiplicity(decl.end2.multiplicity),
+        role=decl.end2.role,
+        navigable=False,
+        aggregation=AggregationKind.NONE,
+    )
+
+    return Association(ends=[e1, e2], name=decl.name, is_derived=decl.is_derived)
+
+
 def build_diagram(doc: Document, title: str = "Диаграмма TDL") -> ClassDiagram:
     diagram = ClassDiagram(title=title)
     # 1) Классы
@@ -207,6 +242,13 @@ def build_diagram(doc: Document, title: str = "Диаграмма TDL") -> Class
                 operations=_build_operations(decl.operations),
             )
             diagram.add_classifier(template)
+        if isinstance(decl, AssociationClassDecl):
+            assoc_cls = Class(
+                name=decl.name,
+                attributes=_build_attributes(decl.attributes),
+                operations=_build_operations(decl.operations),
+            )
+            diagram.add_classifier(assoc_cls)
 
     # 2) Отношения
     for decl in doc.declarations:
@@ -239,38 +281,23 @@ def build_diagram(doc: Document, title: str = "Диаграмма TDL") -> Class
             )
         elif isinstance(decl, RealizationDecl):
             diagram.add_realization(implementing=decl.implementer, interface=decl.interface)
+        elif isinstance(decl, AssociationClassDecl):
+            assoc = _build_association(diagram, decl.association)
+            associated_classifier = diagram.classifiers.get(decl.name)
+            if not isinstance(associated_classifier, Class):
+                raise ValueError(
+                    f"Класс ассоциации '{decl.name}' не найден как классификатор"
+                )
+            diagram.add_association_class(
+                AssociationClass(
+                    ends=assoc.ends,
+                    name=assoc.name,
+                    is_derived=assoc.is_derived,
+                    associated_classifier=associated_classifier,
+                )
+            )
         elif isinstance(decl, AssociationDecl):
-            c1 = diagram.classifiers.get(decl.end1.participant)
-            c2 = diagram.classifiers.get(decl.end2.participant)
-            if c1 is None or c2 is None:
-                raise ValueError(f"Участник ассоциации не найден: {decl.end1.participant} или {decl.end2.participant}")
-            mult1 = _parse_multiplicity(decl.end1.multiplicity)
-            mult2 = _parse_multiplicity(decl.end2.multiplicity)
-
-            agg1 = AggregationKind.NONE
-
-            if decl.aggregation == "composition":
-                agg1 = AggregationKind.COMPOSITION
-            elif decl.aggregation == "aggregation":
-                agg1 = AggregationKind.AGGREGATION
-
-            e1 = AssociationEnd(
-                participant=c1,
-                multiplicity=mult1,
-                role=decl.end1.role,
-                navigable=True,
-                aggregation=agg1,
-            )
-
-            e2 = AssociationEnd(
-                participant=c2,
-                multiplicity=mult2,
-                role=decl.end2.role,
-                navigable=False,
-                aggregation=AggregationKind.NONE,
-            )
-            
-            diagram.add_association(Association(ends=[e1, e2], name=decl.name, is_derived=decl.is_derived))
+            diagram.add_association(_build_association(diagram, decl))
 
     # 3) Размещение
     if doc.layout and doc.layout.commands:

@@ -1,0 +1,610 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="970" height="703" viewBox="0 0 970 703" class="uml-diagram" data-theme="light" data-title="Диаграмма TDL">
+
+    <defs>
+      <linearGradient id="uml-yellow-title-gradient" x1="0%" y1="0%" x2="0%" y2="100%">
+        <stop offset="0%" stop-color="#f0c955"/>
+        <stop offset="50%" stop-color="#ffebc2"/>
+        <stop offset="100%" stop-color="#f0c955"/>
+      </linearGradient>
+
+      <linearGradient id="uml-yellow-section-gradient" x1="0%" y1="0%" x2="0%" y2="100%">
+        <stop offset="0%" stop-color="#f5d56b"/>
+        <stop offset="50%" stop-color="#fff1cf"/>
+        <stop offset="100%" stop-color="#f0c955"/>
+      </linearGradient>
+
+      <marker id="diamond-empty" markerWidth="12" markerHeight="8" viewBox="0 0 12 8" refX="0" refY="4" orient="auto" markerUnits="userSpaceOnUse">
+        <path class="uml-marker uml-marker-hollow" d="M 0 4 L 6 0 L 12 4 L 6 8 Z" fill="white" stroke="#181818" stroke-width="1"/>
+      </marker>
+
+      <marker id="diamond-filled" markerWidth="12" markerHeight="8" viewBox="0 0 12 8" refX="0" refY="4" orient="auto" markerUnits="userSpaceOnUse">
+        <path class="uml-marker uml-marker-filled" d="M 0 4 L 6 0 L 12 4 L 6 8 Z" fill="#181818" stroke="#181818" stroke-width="1"/>
+      </marker>
+
+      <marker id="diamond-empty-end" markerWidth="12" markerHeight="8" viewBox="0 0 12 8" refX="12" refY="4" orient="auto" markerUnits="userSpaceOnUse">
+        <path class="uml-marker uml-marker-hollow" d="M 0 4 L 6 0 L 12 4 L 6 8 Z" fill="white" stroke="#181818" stroke-width="1"/>
+      </marker>
+
+      <marker id="diamond-filled-end" markerWidth="12" markerHeight="8" viewBox="0 0 12 8" refX="12" refY="4" orient="auto" markerUnits="userSpaceOnUse">
+        <path class="uml-marker uml-marker-filled" d="M 0 4 L 6 0 L 12 4 L 6 8 Z" fill="#181818" stroke="#181818" stroke-width="1"/>
+      </marker>
+
+      <marker id="arrow-filled" markerWidth="9" markerHeight="8" viewBox="0 0 9 8" refX="9" refY="4" orient="auto" markerUnits="userSpaceOnUse">
+        <path class="uml-marker uml-marker-filled" d="M 9 4 L 0 0 L 4 4 L 0 8 Z" fill="#181818" stroke="#181818" stroke-width="1"/>
+      </marker>
+
+      <marker id="triangle-empty" markerWidth="18" markerHeight="12" viewBox="0 0 18 12" refX="18" refY="6" orient="auto" markerUnits="userSpaceOnUse">
+        <path class="uml-marker uml-marker-hollow" d="M 18 6 L 0 0 L 0 12 Z" fill="white" stroke="#181818" stroke-width="1"/>
+      </marker>
+    </defs>
+    
+<style id="uml-theme-light" type="text/css"><![CDATA[
+svg.uml-diagram {
+  background: #ffffff;
+}
+
+.uml-class-title {
+  fill: #e5e5e5;
+}
+
+.uml-class-section,
+.uml-enum-body {
+  fill: #eeeeee;
+}
+
+.uml-class-outline,
+.uml-class-title,
+.uml-class-section,
+.uml-enum-body,
+.uml-enum-title,
+.uml-template-box {
+  stroke: #999999;
+  stroke-width: 1;
+}
+
+.uml-class-title-text,
+.uml-feature-text,
+.uml-template-text,
+.uml-edge-label,
+.uml-multiplicity {
+  fill: #000000;
+}
+
+.uml-kind-badge-c {
+  fill: #b8d9bf;
+  stroke: #3e7d4a;
+}
+
+.uml-kind-badge-e {
+  fill: #f29b86;
+  stroke: #9d3f2f;
+}
+
+.uml-kind-badge-i {
+  fill: #c9d7ff;
+  stroke: #4a61a8;
+}
+
+.uml-kind-badge-d {
+  fill: #d9c7f2;
+  stroke: #6f4aa8;
+}
+
+.uml-kind-badge-text {
+  fill: #000000;
+}
+
+.uml-attribute-bullet {
+  fill: #ffffff;
+  stroke: #3aa76d;
+}
+
+.uml-operation-bullet {
+  fill: #3aa76d;
+  stroke: #2a7d50;
+}
+
+.uml-edge-line {
+  stroke: #181818;
+  stroke-width: 1;
+}
+
+.uml-marker-filled {
+  fill: #181818;
+  stroke: #181818;
+}
+
+.uml-marker-hollow {
+  fill: #ffffff;
+  stroke: #181818;
+}
+
+]]></style>
+
+<g class="uml-edge"
+   data-type="association"
+   data-name="offers"
+   data-derived="false"
+   
+   data-end1-class="Department"
+   data-end1-multiplicity="1"
+   data-end1-role="department"
+   data-end1-navigable="true"
+   data-end1-aggregation="aggregation"
+   data-end1-role-visibility=""
+   data-end1-collection-kind="set"
+   data-end1-changeability=""
+   data-end1-derived="false"
+   data-end1-union="false"
+   data-end1-redefines=""
+   data-end1-role-type=""
+   data-end1-subsets-role=""
+   data-end1-subsets-participant=""
+   data-end2-class="Course"
+   data-end2-multiplicity="0..*"
+   data-end2-role="courses"
+   data-end2-navigable="false"
+   data-end2-aggregation="none"
+   data-end2-role-visibility=""
+   data-end2-collection-kind="set"
+   data-end2-changeability=""
+   data-end2-derived="false"
+   data-end2-union="false"
+   data-end2-redefines=""
+   data-end2-role-type=""
+   data-end2-subsets-role=""
+   data-end2-subsets-participant="">
+  <path class="uml-edge-line" d="M405.0,86.0 C419.3,167.1 457.6,383.2 473.4,472.4" fill="none" stroke="#181818" stroke-width="1.0" marker-start="url(#diamond-empty)"/>
+  
+  
+  
+  <text class="uml-multiplicity" x="446.6" y="461.1" font-family="sans-serif" font-size="13" fill="black">0..*</text>
+  
+</g>
+
+
+<g class="uml-edge"
+   data-type="association"
+   data-name="employs"
+   data-derived="false"
+   
+   data-end1-class="Department"
+   data-end1-multiplicity="1"
+   data-end1-role="department"
+   data-end1-navigable="true"
+   data-end1-aggregation="none"
+   data-end1-role-visibility=""
+   data-end1-collection-kind="set"
+   data-end1-changeability=""
+   data-end1-derived="false"
+   data-end1-union="false"
+   data-end1-redefines=""
+   data-end1-role-type=""
+   data-end1-subsets-role=""
+   data-end1-subsets-participant=""
+   data-end2-class="Professor"
+   data-end2-multiplicity="0..*"
+   data-end2-role="professors"
+   data-end2-navigable="false"
+   data-end2-aggregation="none"
+   data-end2-role-visibility=""
+   data-end2-collection-kind="set"
+   data-end2-changeability=""
+   data-end2-derived="false"
+   data-end2-union="false"
+   data-end2-redefines=""
+   data-end2-role-type=""
+   data-end2-subsets-role=""
+   data-end2-subsets-participant="">
+  <path class="uml-edge-line" d="M384.4,86.0 C371.1,113.9 351.7,154.4 338.4,182.3" fill="none" stroke="#181818" stroke-width="1.0"/>
+  
+  
+  <text class="uml-multiplicity" x="364.9" y="104.9" font-family="sans-serif" font-size="13" fill="black">1</text>
+  <text class="uml-multiplicity" x="319.7" y="172.4" font-family="sans-serif" font-size="13" fill="black">0..*</text>
+  
+</g>
+
+
+<g class="uml-edge"
+   data-type="association"
+   data-name="opens"
+   data-derived="false"
+   
+   data-end1-class="Semester"
+   data-end1-multiplicity="1"
+   data-end1-role="semester"
+   data-end1-navigable="true"
+   data-end1-aggregation="none"
+   data-end1-role-visibility=""
+   data-end1-collection-kind="set"
+   data-end1-changeability=""
+   data-end1-derived="false"
+   data-end1-union="false"
+   data-end1-redefines=""
+   data-end1-role-type=""
+   data-end1-subsets-role=""
+   data-end1-subsets-participant=""
+   data-end2-class="Course"
+   data-end2-multiplicity="0..*"
+   data-end2-role="courses"
+   data-end2-navigable="false"
+   data-end2-aggregation="none"
+   data-end2-role-visibility=""
+   data-end2-collection-kind="set"
+   data-end2-changeability=""
+   data-end2-derived="false"
+   data-end2-union="false"
+   data-end2-redefines=""
+   data-end2-role-type=""
+   data-end2-subsets-role=""
+   data-end2-subsets-participant="">
+  <path class="uml-edge-line" d="M597.1,407.9 C575.6,427.1 547.8,451.8 524.7,472.3" fill="none" stroke="#181818" stroke-width="1.0"/>
+  
+  
+  <text class="uml-multiplicity" x="568.4" y="423.1" font-family="sans-serif" font-size="13" fill="black">1</text>
+  <text class="uml-multiplicity" x="506.8" y="466.2" font-family="sans-serif" font-size="13" fill="black">0..*</text>
+  
+</g>
+
+
+<g class="uml-edge"
+   data-type="association"
+   data-name="scheduledIn"
+   data-derived="false"
+   
+   data-end1-class="Course"
+   data-end1-multiplicity="1"
+   data-end1-role="course"
+   data-end1-navigable="true"
+   data-end1-aggregation="none"
+   data-end1-role-visibility=""
+   data-end1-collection-kind="set"
+   data-end1-changeability=""
+   data-end1-derived="false"
+   data-end1-union="false"
+   data-end1-redefines=""
+   data-end1-role-type=""
+   data-end1-subsets-role=""
+   data-end1-subsets-participant=""
+   data-end2-class="Room"
+   data-end2-multiplicity="0..1"
+   data-end2-role="room"
+   data-end2-navigable="false"
+   data-end2-aggregation="none"
+   data-end2-role-visibility=""
+   data-end2-collection-kind="set"
+   data-end2-changeability=""
+   data-end2-derived="false"
+   data-end2-union="false"
+   data-end2-redefines=""
+   data-end2-role-type=""
+   data-end2-subsets-role=""
+   data-end2-subsets-participant="">
+  <path class="uml-edge-line" d="M437.5,553.0 C415.1,573.6 388.1,598.4 367.2,617.5" fill="none" stroke="#181818" stroke-width="1.0"/>
+  
+  
+  <text class="uml-multiplicity" x="409.1" y="568.3" font-family="sans-serif" font-size="13" fill="black">1</text>
+  <text class="uml-multiplicity" x="349.4" y="611.2" font-family="sans-serif" font-size="13" fill="black">0..1</text>
+  
+</g>
+
+
+<g class="uml-edge"
+   data-type="association"
+   data-name="uses"
+   data-derived="false"
+   
+   data-end1-class="Schedule"
+   data-end1-multiplicity="1"
+   data-end1-role="schedule"
+   data-end1-navigable="true"
+   data-end1-aggregation="none"
+   data-end1-role-visibility=""
+   data-end1-collection-kind="set"
+   data-end1-changeability=""
+   data-end1-derived="false"
+   data-end1-union="false"
+   data-end1-redefines=""
+   data-end1-role-type=""
+   data-end1-subsets-role=""
+   data-end1-subsets-participant=""
+   data-end2-class="Room"
+   data-end2-multiplicity="1"
+   data-end2-role="room"
+   data-end2-navigable="false"
+   data-end2-aggregation="none"
+   data-end2-role-visibility=""
+   data-end2-collection-kind="set"
+   data-end2-changeability=""
+   data-end2-derived="false"
+   data-end2-union="false"
+   data-end2-redefines=""
+   data-end2-role-type=""
+   data-end2-subsets-role=""
+   data-end2-subsets-participant="">
+  <path class="uml-edge-line" d="M254.3,544.9 C270.9,566.8 293.0,595.7 309.6,617.5" fill="none" stroke="#181818" stroke-width="1.0"/>
+  
+  
+  <text class="uml-multiplicity" x="248.0" y="562.1" font-family="sans-serif" font-size="13" fill="black">1</text>
+  <text class="uml-multiplicity" x="283.9" y="609.3" font-family="sans-serif" font-size="13" fill="black">1</text>
+  
+</g>
+
+
+<g class="uml-edge uml-association-class"
+   data-type="association-class"
+   data-name="enrolls"
+   data-derived="false"
+   data-associated-classifier="Enrollment"
+   data-end1-class="Student"
+   data-end1-multiplicity="0..*"
+   data-end1-role="student"
+   data-end1-navigable="true"
+   data-end1-aggregation="none"
+   data-end1-role-visibility=""
+   data-end1-collection-kind="set"
+   data-end1-changeability=""
+   data-end1-derived="false"
+   data-end1-union="false"
+   data-end1-redefines=""
+   data-end1-role-type=""
+   data-end1-subsets-role=""
+   data-end1-subsets-participant=""
+   data-end2-class="Course"
+   data-end2-multiplicity="0..*"
+   data-end2-role="course"
+   data-end2-navigable="false"
+   data-end2-aggregation="none"
+   data-end2-role-visibility=""
+   data-end2-collection-kind="set"
+   data-end2-changeability=""
+   data-end2-derived="false"
+   data-end2-union="false"
+   data-end2-redefines=""
+   data-end2-role-type=""
+   data-end2-subsets-role=""
+   data-end2-subsets-participant="">
+  <path class="uml-edge-line" d="M853.8,254.9 C845.6,298.0 826.4,366.5 783.4,407.6 C722.0,466.2 626.3,491.9 558.8,503.1" fill="none" stroke="#181818" stroke-width="1.0"/>
+  
+  
+  <text class="uml-multiplicity" x="826.5" y="275.1" font-family="sans-serif" font-size="13" fill="black">0..*</text>
+  <text class="uml-multiplicity" x="566.8" y="519.1" font-family="sans-serif" font-size="13" fill="black">0..*</text>
+  <path class="uml-edge-line uml-association-class-link" d="M690.6,278.9 C719.2,321.9 752.2,371.4 785.0,406.0" fill="none" stroke="#181818" stroke-width="1.0" stroke-dasharray="7,7"/>
+  <circle class="uml-association-class-anchor" cx="785.0" cy="406.0" r="3.2" fill="#181818" stroke="#181818" stroke-width="1.0"/>
+</g>
+
+
+<g class="uml-edge uml-association-class"
+   data-type="association-class"
+   data-name="teaches"
+   data-derived="false"
+   data-associated-classifier="TeachingAssignment"
+   data-end1-class="Professor"
+   data-end1-multiplicity="0..*"
+   data-end1-role="teacher"
+   data-end1-navigable="true"
+   data-end1-aggregation="none"
+   data-end1-role-visibility=""
+   data-end1-collection-kind="set"
+   data-end1-changeability=""
+   data-end1-derived="false"
+   data-end1-union="false"
+   data-end1-redefines=""
+   data-end1-role-type=""
+   data-end1-subsets-role=""
+   data-end1-subsets-participant=""
+   data-end2-class="Course"
+   data-end2-multiplicity="0..*"
+   data-end2-role="course"
+   data-end2-navigable="false"
+   data-end2-aggregation="none"
+   data-end2-role-visibility=""
+   data-end2-collection-kind="set"
+   data-end2-changeability=""
+   data-end2-derived="false"
+   data-end2-union="false"
+   data-end2-redefines=""
+   data-end2-role-type=""
+   data-end2-subsets-role=""
+   data-end2-subsets-participant="">
+  <path class="uml-edge-line" d="M340.0,247.0 C368.8,301.3 427.9,412.7 459.4,472.1" fill="none" stroke="#181818" stroke-width="1.0"/>
+  
+  
+  <text class="uml-multiplicity" x="320.5" y="265.6" font-family="sans-serif" font-size="13" fill="black">0..*</text>
+  <text class="uml-multiplicity" x="424.9" y="462.5" font-family="sans-serif" font-size="13" fill="black">0..*</text>
+  <path class="uml-edge-line uml-association-class-link" d="M167.9,270.8 C214.3,316.0 272.5,372.8 378.8,320.2" fill="none" stroke="#181818" stroke-width="1.0" stroke-dasharray="7,7"/>
+  <circle class="uml-association-class-anchor" cx="378.8" cy="320.2" r="3.2" fill="#181818" stroke="#181818" stroke-width="1.0"/>
+</g>
+
+
+<g class="uml-edge"
+   data-type="generalization"
+   data-src="GraduateStudent"
+   data-tgt="Student"
+   data-substitutable="true">
+  <path class="uml-edge-line" d="M859.4,86.0 C859.4,111.4 859.4,147.1 859.4,174.4" fill="none" stroke="#181818" stroke-width="1.0" marker-end="url(#triangle-empty)"/>
+</g>
+
+
+<g class="uml-edge"
+   data-type="dependency"
+   data-src="Enrollment"
+   data-tgt="Semester"
+   data-stereotype="use">
+  <path class="uml-edge-line" d="M642.0,278.9 C639.8,301.1 637.4,325.0 635.5,343.4" fill="none" stroke="#181818" stroke-width="1.0" stroke-dasharray="7,7" marker-end="url(#arrow-filled)"/>
+  <text class="uml-edge-label" x="654.8" y="301.2" font-family="sans-serif" font-size="13" fill="black">«use»</text>
+</g>
+
+
+<g class="uml-edge"
+   data-type="dependency"
+   data-src="TeachingAssignment"
+   data-tgt="Schedule"
+   data-stereotype="use">
+  <path class="uml-edge-line" d="M133.6,270.9 C158.4,332.7 197.8,430.4 217.8,480.2" fill="none" stroke="#181818" stroke-width="1.0" stroke-dasharray="7,7" marker-end="url(#arrow-filled)"/>
+  <text class="uml-edge-label" x="191.7" y="365.6" font-family="sans-serif" font-size="13" fill="black">«use»</text>
+</g>
+
+<g transform="translate(791,174)" class="uml-class" data-id="Student" data-name="Student" data-type="class" data-class-kind="class" data-visibility="" data-stereotype="" data-abstract="false" data-multiplicity="" data-attributes-count="2" data-operations-count="0" data-tagged-values-count="0" data-template-parameters-count="0">
+<rect class="uml-class-title" x="0" y="0" width="134.8" height="32" fill="#e5e5e5"/>
+<rect class="uml-class-outline uml-class-title-outline" x="0" y="0" width="134.8" height="32" stroke="#999999" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+<circle class="uml-kind-badge uml-kind-badge-c" cx="19" cy="16.0" r="11" fill="#b8d9bf" stroke="#3e7d4a" stroke-width="1.5"/><text class="uml-kind-badge-text" x="19" y="20.0" text-anchor="middle" font-family="Arial" font-size="12" font-weight="700" fill="black">C</text>
+<text class="uml-class-title-text" x="38" y="20" text-anchor="start" fill="black" font-family="Arial" font-size="12" font-weight="500">Student</text>
+<rect class="uml-class-section uml-class-attributes-section" x="0" y="32" width="134.8" height="48" fill="#eeeeee"/>
+<rect class="uml-class-outline uml-class-section-outline" x="0" y="32" width="134.8" height="48" stroke="#999999" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+<g class="uml-feature uml-attribute" data-type="attribute" data-index="0" data-name="name" data-visibility="+" data-scope="instance" data-value-type="String" data-multiplicity="" data-has-initial-value="false" data-initial-value-kind="none" data-initial-value="" data-changeability="" data-redefines="">
+<circle class="uml-feature-bullet uml-attribute-bullet" cx="12" cy="48" r="3" fill="white" stroke="#3aa76d" stroke-width="1.3"/>
+<text class="uml-feature-text uml-attribute-text" x="22" y="52" fill="black" font-family="Arial" font-size="12" font-weight="500">name : String</text>
+</g>
+<g class="uml-feature uml-attribute" data-type="attribute" data-index="1" data-name="email" data-visibility="+" data-scope="instance" data-value-type="String" data-multiplicity="" data-has-initial-value="false" data-initial-value-kind="none" data-initial-value="" data-changeability="" data-redefines="">
+<circle class="uml-feature-bullet uml-attribute-bullet" cx="12" cy="64" r="3" fill="white" stroke="#3aa76d" stroke-width="1.3"/>
+<text class="uml-feature-text uml-attribute-text" x="22" y="68" fill="black" font-family="Arial" font-size="12" font-weight="500">email : String</text>
+</g>
+<rect class="uml-bbox" x="0" y="0" width="134.8" height="80" fill="none" stroke="none" pointer-events="all"/>
+</g>
+<g transform="translate(770,21)" class="uml-class" data-id="GraduateStudent" data-name="GraduateStudent" data-type="class" data-class-kind="class" data-visibility="" data-stereotype="" data-abstract="false" data-multiplicity="" data-attributes-count="1" data-operations-count="0" data-tagged-values-count="0" data-template-parameters-count="0">
+<rect class="uml-class-title" x="0" y="0" width="178.0" height="32" fill="#e5e5e5"/>
+<rect class="uml-class-outline uml-class-title-outline" x="0" y="0" width="178.0" height="32" stroke="#999999" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+<circle class="uml-kind-badge uml-kind-badge-c" cx="19" cy="16.0" r="11" fill="#b8d9bf" stroke="#3e7d4a" stroke-width="1.5"/><text class="uml-kind-badge-text" x="19" y="20.0" text-anchor="middle" font-family="Arial" font-size="12" font-weight="700" fill="black">C</text>
+<text class="uml-class-title-text" x="38" y="20" text-anchor="start" fill="black" font-family="Arial" font-size="12" font-weight="500">GraduateStudent</text>
+<rect class="uml-class-section uml-class-attributes-section" x="0" y="32" width="178.0" height="32" fill="#eeeeee"/>
+<rect class="uml-class-outline uml-class-section-outline" x="0" y="32" width="178.0" height="32" stroke="#999999" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+<g class="uml-feature uml-attribute" data-type="attribute" data-index="0" data-name="thesisTitle" data-visibility="+" data-scope="instance" data-value-type="String" data-multiplicity="" data-has-initial-value="false" data-initial-value-kind="none" data-initial-value="" data-changeability="" data-redefines="">
+<circle class="uml-feature-bullet uml-attribute-bullet" cx="12" cy="48" r="3" fill="white" stroke="#3aa76d" stroke-width="1.3"/>
+<text class="uml-feature-text uml-attribute-text" x="22" y="52" fill="black" font-family="Arial" font-size="12" font-weight="500">thesisTitle : String</text>
+</g>
+<rect class="uml-bbox" x="0" y="0" width="178.0" height="64" fill="none" stroke="none" pointer-events="all"/>
+</g>
+<g transform="translate(402,472)" class="uml-class" data-id="Course" data-name="Course" data-type="class" data-class-kind="class" data-visibility="" data-stereotype="" data-abstract="false" data-multiplicity="" data-attributes-count="2" data-operations-count="0" data-tagged-values-count="0" data-template-parameters-count="0">
+<rect class="uml-class-title" x="0" y="0" width="156.4" height="32" fill="#e5e5e5"/>
+<rect class="uml-class-outline uml-class-title-outline" x="0" y="0" width="156.4" height="32" stroke="#999999" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+<circle class="uml-kind-badge uml-kind-badge-c" cx="19" cy="16.0" r="11" fill="#b8d9bf" stroke="#3e7d4a" stroke-width="1.5"/><text class="uml-kind-badge-text" x="19" y="20.0" text-anchor="middle" font-family="Arial" font-size="12" font-weight="700" fill="black">C</text>
+<text class="uml-class-title-text" x="38" y="20" text-anchor="start" fill="black" font-family="Arial" font-size="12" font-weight="500">Course</text>
+<rect class="uml-class-section uml-class-attributes-section" x="0" y="32" width="156.4" height="48" fill="#eeeeee"/>
+<rect class="uml-class-outline uml-class-section-outline" x="0" y="32" width="156.4" height="48" stroke="#999999" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+<g class="uml-feature uml-attribute" data-type="attribute" data-index="0" data-name="title" data-visibility="+" data-scope="instance" data-value-type="String" data-multiplicity="" data-has-initial-value="false" data-initial-value-kind="none" data-initial-value="" data-changeability="" data-redefines="">
+<circle class="uml-feature-bullet uml-attribute-bullet" cx="12" cy="48" r="3" fill="white" stroke="#3aa76d" stroke-width="1.3"/>
+<text class="uml-feature-text uml-attribute-text" x="22" y="52" fill="black" font-family="Arial" font-size="12" font-weight="500">title : String</text>
+</g>
+<g class="uml-feature uml-attribute" data-type="attribute" data-index="1" data-name="credits" data-visibility="+" data-scope="instance" data-value-type="Integer" data-multiplicity="" data-has-initial-value="false" data-initial-value-kind="none" data-initial-value="" data-changeability="" data-redefines="">
+<circle class="uml-feature-bullet uml-attribute-bullet" cx="12" cy="64" r="3" fill="white" stroke="#3aa76d" stroke-width="1.3"/>
+<text class="uml-feature-text uml-attribute-text" x="22" y="68" fill="black" font-family="Arial" font-size="12" font-weight="500">credits : Integer</text>
+</g>
+<rect class="uml-bbox" x="0" y="0" width="156.4" height="80" fill="none" stroke="none" pointer-events="all"/>
+</g>
+<g transform="translate(259,182)" class="uml-class" data-id="Professor" data-name="Professor" data-type="class" data-class-kind="class" data-visibility="" data-stereotype="" data-abstract="false" data-multiplicity="" data-attributes-count="1" data-operations-count="0" data-tagged-values-count="0" data-template-parameters-count="0">
+<rect class="uml-class-title" x="0" y="0" width="127.60000000000001" height="32" fill="#e5e5e5"/>
+<rect class="uml-class-outline uml-class-title-outline" x="0" y="0" width="127.60000000000001" height="32" stroke="#999999" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+<circle class="uml-kind-badge uml-kind-badge-c" cx="19" cy="16.0" r="11" fill="#b8d9bf" stroke="#3e7d4a" stroke-width="1.5"/><text class="uml-kind-badge-text" x="19" y="20.0" text-anchor="middle" font-family="Arial" font-size="12" font-weight="700" fill="black">C</text>
+<text class="uml-class-title-text" x="38" y="20" text-anchor="start" fill="black" font-family="Arial" font-size="12" font-weight="500">Professor</text>
+<rect class="uml-class-section uml-class-attributes-section" x="0" y="32" width="127.60000000000001" height="32" fill="#eeeeee"/>
+<rect class="uml-class-outline uml-class-section-outline" x="0" y="32" width="127.60000000000001" height="32" stroke="#999999" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+<g class="uml-feature uml-attribute" data-type="attribute" data-index="0" data-name="name" data-visibility="+" data-scope="instance" data-value-type="String" data-multiplicity="" data-has-initial-value="false" data-initial-value-kind="none" data-initial-value="" data-changeability="" data-redefines="">
+<circle class="uml-feature-bullet uml-attribute-bullet" cx="12" cy="48" r="3" fill="white" stroke="#3aa76d" stroke-width="1.3"/>
+<text class="uml-feature-text uml-attribute-text" x="22" y="52" fill="black" font-family="Arial" font-size="12" font-weight="500">name : String</text>
+</g>
+<rect class="uml-bbox" x="0" y="0" width="127.60000000000001" height="64" fill="none" stroke="none" pointer-events="all"/>
+</g>
+<g transform="translate(331,21)" class="uml-class" data-id="Department" data-name="Department" data-type="class" data-class-kind="class" data-visibility="" data-stereotype="" data-abstract="false" data-multiplicity="" data-attributes-count="1" data-operations-count="0" data-tagged-values-count="0" data-template-parameters-count="0">
+<rect class="uml-class-title" x="0" y="0" width="134.8" height="32" fill="#e5e5e5"/>
+<rect class="uml-class-outline uml-class-title-outline" x="0" y="0" width="134.8" height="32" stroke="#999999" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+<circle class="uml-kind-badge uml-kind-badge-c" cx="19" cy="16.0" r="11" fill="#b8d9bf" stroke="#3e7d4a" stroke-width="1.5"/><text class="uml-kind-badge-text" x="19" y="20.0" text-anchor="middle" font-family="Arial" font-size="12" font-weight="700" fill="black">C</text>
+<text class="uml-class-title-text" x="38" y="20" text-anchor="start" fill="black" font-family="Arial" font-size="12" font-weight="500">Department</text>
+<rect class="uml-class-section uml-class-attributes-section" x="0" y="32" width="134.8" height="32" fill="#eeeeee"/>
+<rect class="uml-class-outline uml-class-section-outline" x="0" y="32" width="134.8" height="32" stroke="#999999" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+<g class="uml-feature uml-attribute" data-type="attribute" data-index="0" data-name="title" data-visibility="+" data-scope="instance" data-value-type="String" data-multiplicity="" data-has-initial-value="false" data-initial-value-kind="none" data-initial-value="" data-changeability="" data-redefines="">
+<circle class="uml-feature-bullet uml-attribute-bullet" cx="12" cy="48" r="3" fill="white" stroke="#3aa76d" stroke-width="1.3"/>
+<text class="uml-feature-text uml-attribute-text" x="22" y="52" fill="black" font-family="Arial" font-size="12" font-weight="500">title : String</text>
+</g>
+<rect class="uml-bbox" x="0" y="0" width="134.8" height="64" fill="none" stroke="none" pointer-events="all"/>
+</g>
+<g transform="translate(568,343)" class="uml-class" data-id="Semester" data-name="Semester" data-type="class" data-class-kind="class" data-visibility="" data-stereotype="" data-abstract="false" data-multiplicity="" data-attributes-count="1" data-operations-count="0" data-tagged-values-count="0" data-template-parameters-count="0">
+<rect class="uml-class-title" x="0" y="0" width="127.60000000000001" height="32" fill="#e5e5e5"/>
+<rect class="uml-class-outline uml-class-title-outline" x="0" y="0" width="127.60000000000001" height="32" stroke="#999999" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+<circle class="uml-kind-badge uml-kind-badge-c" cx="19" cy="16.0" r="11" fill="#b8d9bf" stroke="#3e7d4a" stroke-width="1.5"/><text class="uml-kind-badge-text" x="19" y="20.0" text-anchor="middle" font-family="Arial" font-size="12" font-weight="700" fill="black">C</text>
+<text class="uml-class-title-text" x="38" y="20" text-anchor="start" fill="black" font-family="Arial" font-size="12" font-weight="500">Semester</text>
+<rect class="uml-class-section uml-class-attributes-section" x="0" y="32" width="127.60000000000001" height="32" fill="#eeeeee"/>
+<rect class="uml-class-outline uml-class-section-outline" x="0" y="32" width="127.60000000000001" height="32" stroke="#999999" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+<g class="uml-feature uml-attribute" data-type="attribute" data-index="0" data-name="code" data-visibility="+" data-scope="instance" data-value-type="String" data-multiplicity="" data-has-initial-value="false" data-initial-value-kind="none" data-initial-value="" data-changeability="" data-redefines="">
+<circle class="uml-feature-bullet uml-attribute-bullet" cx="12" cy="48" r="3" fill="white" stroke="#3aa76d" stroke-width="1.3"/>
+<text class="uml-feature-text uml-attribute-text" x="22" y="52" fill="black" font-family="Arial" font-size="12" font-weight="500">code : String</text>
+</g>
+<rect class="uml-bbox" x="0" y="0" width="127.60000000000001" height="64" fill="none" stroke="none" pointer-events="all"/>
+</g>
+<g transform="translate(262,617)" class="uml-class" data-id="Room" data-name="Room" data-type="class" data-class-kind="class" data-visibility="" data-stereotype="" data-abstract="false" data-multiplicity="" data-attributes-count="1" data-operations-count="0" data-tagged-values-count="0" data-template-parameters-count="0">
+<rect class="uml-class-title" x="0" y="0" width="142.0" height="32" fill="#e5e5e5"/>
+<rect class="uml-class-outline uml-class-title-outline" x="0" y="0" width="142.0" height="32" stroke="#999999" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+<circle class="uml-kind-badge uml-kind-badge-c" cx="19" cy="16.0" r="11" fill="#b8d9bf" stroke="#3e7d4a" stroke-width="1.5"/><text class="uml-kind-badge-text" x="19" y="20.0" text-anchor="middle" font-family="Arial" font-size="12" font-weight="700" fill="black">C</text>
+<text class="uml-class-title-text" x="38" y="20" text-anchor="start" fill="black" font-family="Arial" font-size="12" font-weight="500">Room</text>
+<rect class="uml-class-section uml-class-attributes-section" x="0" y="32" width="142.0" height="32" fill="#eeeeee"/>
+<rect class="uml-class-outline uml-class-section-outline" x="0" y="32" width="142.0" height="32" stroke="#999999" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+<g class="uml-feature uml-attribute" data-type="attribute" data-index="0" data-name="number" data-visibility="+" data-scope="instance" data-value-type="String" data-multiplicity="" data-has-initial-value="false" data-initial-value-kind="none" data-initial-value="" data-changeability="" data-redefines="">
+<circle class="uml-feature-bullet uml-attribute-bullet" cx="12" cy="48" r="3" fill="white" stroke="#3aa76d" stroke-width="1.3"/>
+<text class="uml-feature-text uml-attribute-text" x="22" y="52" fill="black" font-family="Arial" font-size="12" font-weight="500">number : String</text>
+</g>
+<rect class="uml-bbox" x="0" y="0" width="142.0" height="64" fill="none" stroke="none" pointer-events="all"/>
+</g>
+<g transform="translate(159,480)" class="uml-class" data-id="Schedule" data-name="Schedule" data-type="class" data-class-kind="class" data-visibility="" data-stereotype="" data-abstract="false" data-multiplicity="" data-attributes-count="1" data-operations-count="0" data-tagged-values-count="0" data-template-parameters-count="0">
+<rect class="uml-class-title" x="0" y="0" width="142.0" height="32" fill="#e5e5e5"/>
+<rect class="uml-class-outline uml-class-title-outline" x="0" y="0" width="142.0" height="32" stroke="#999999" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+<circle class="uml-kind-badge uml-kind-badge-c" cx="19" cy="16.0" r="11" fill="#b8d9bf" stroke="#3e7d4a" stroke-width="1.5"/><text class="uml-kind-badge-text" x="19" y="20.0" text-anchor="middle" font-family="Arial" font-size="12" font-weight="700" fill="black">C</text>
+<text class="uml-class-title-text" x="38" y="20" text-anchor="start" fill="black" font-family="Arial" font-size="12" font-weight="500">Schedule</text>
+<rect class="uml-class-section uml-class-attributes-section" x="0" y="32" width="142.0" height="32" fill="#eeeeee"/>
+<rect class="uml-class-outline uml-class-section-outline" x="0" y="32" width="142.0" height="32" stroke="#999999" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+<g class="uml-feature uml-attribute" data-type="attribute" data-index="0" data-name="hours" data-visibility="+" data-scope="instance" data-value-type="Integer" data-multiplicity="" data-has-initial-value="false" data-initial-value-kind="none" data-initial-value="" data-changeability="" data-redefines="">
+<circle class="uml-feature-bullet uml-attribute-bullet" cx="12" cy="48" r="3" fill="white" stroke="#3aa76d" stroke-width="1.3"/>
+<text class="uml-feature-text uml-attribute-text" x="22" y="52" fill="black" font-family="Arial" font-size="12" font-weight="500">hours : Integer</text>
+</g>
+<rect class="uml-bbox" x="0" y="0" width="142.0" height="64" fill="none" stroke="none" pointer-events="all"/>
+</g>
+<g transform="translate(562,150)" class="uml-class" data-id="Enrollment" data-name="Enrollment" data-type="class" data-class-kind="class" data-visibility="" data-stereotype="" data-abstract="false" data-multiplicity="" data-attributes-count="3" data-operations-count="1" data-tagged-values-count="0" data-template-parameters-count="0">
+<rect class="uml-class-title" x="0" y="0" width="170.8" height="32" fill="#e5e5e5"/>
+<rect class="uml-class-outline uml-class-title-outline" x="0" y="0" width="170.8" height="32" stroke="#999999" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+<circle class="uml-kind-badge uml-kind-badge-c" cx="19" cy="16.0" r="11" fill="#b8d9bf" stroke="#3e7d4a" stroke-width="1.5"/><text class="uml-kind-badge-text" x="19" y="20.0" text-anchor="middle" font-family="Arial" font-size="12" font-weight="700" fill="black">C</text>
+<text class="uml-class-title-text" x="38" y="20" text-anchor="start" fill="black" font-family="Arial" font-size="12" font-weight="500">Enrollment</text>
+<rect class="uml-class-section uml-class-attributes-section" x="0" y="32" width="170.8" height="64" fill="#eeeeee"/>
+<rect class="uml-class-outline uml-class-section-outline" x="0" y="32" width="170.8" height="64" stroke="#999999" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+<g class="uml-feature uml-attribute" data-type="attribute" data-index="0" data-name="enrolledAt" data-visibility="+" data-scope="instance" data-value-type="String" data-multiplicity="" data-has-initial-value="false" data-initial-value-kind="none" data-initial-value="" data-changeability="" data-redefines="">
+<circle class="uml-feature-bullet uml-attribute-bullet" cx="12" cy="48" r="3" fill="white" stroke="#3aa76d" stroke-width="1.3"/>
+<text class="uml-feature-text uml-attribute-text" x="22" y="52" fill="black" font-family="Arial" font-size="12" font-weight="500">enrolledAt : String</text>
+</g>
+<g class="uml-feature uml-attribute" data-type="attribute" data-index="1" data-name="grade" data-visibility="+" data-scope="instance" data-value-type="String" data-multiplicity="" data-has-initial-value="false" data-initial-value-kind="none" data-initial-value="" data-changeability="" data-redefines="">
+<circle class="uml-feature-bullet uml-attribute-bullet" cx="12" cy="64" r="3" fill="white" stroke="#3aa76d" stroke-width="1.3"/>
+<text class="uml-feature-text uml-attribute-text" x="22" y="68" fill="black" font-family="Arial" font-size="12" font-weight="500">grade : String</text>
+</g>
+<g class="uml-feature uml-attribute" data-type="attribute" data-index="2" data-name="attempt" data-visibility="+" data-scope="instance" data-value-type="Integer" data-multiplicity="" data-has-initial-value="false" data-initial-value-kind="none" data-initial-value="" data-changeability="" data-redefines="">
+<circle class="uml-feature-bullet uml-attribute-bullet" cx="12" cy="80" r="3" fill="white" stroke="#3aa76d" stroke-width="1.3"/>
+<text class="uml-feature-text uml-attribute-text" x="22" y="84" fill="black" font-family="Arial" font-size="12" font-weight="500">attempt : Integer</text>
+</g>
+<rect class="uml-class-section uml-class-operations-section" x="0" y="96" width="170.8" height="32" fill="#eeeeee"/>
+<rect class="uml-class-outline uml-class-section-outline" x="0" y="96" width="170.8" height="32" stroke="#999999" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+<g class="uml-feature uml-operation" data-type="operation" data-index="0" data-name="confirm" data-visibility="+" data-scope="instance" data-return-type="Boolean" data-abstract="false" data-query="false" data-leaf="false" data-concurrency="sequential" data-redefines="" data-parameters-count="0">
+<circle class="uml-feature-bullet uml-operation-bullet" cx="12" cy="112" r="3" fill="#3aa76d" stroke="#2a7d50" stroke-width="1"/>
+<text class="uml-feature-text uml-operation-text" x="22" y="116" fill="black" font-family="Arial" font-size="12" font-weight="500">confirm() : Boolean</text>
+</g>
+<rect class="uml-bbox" x="0" y="0" width="170.8" height="128" fill="none" stroke="none" pointer-events="all"/>
+</g>
+<g transform="translate(21,158)" class="uml-class" data-id="TeachingAssignment" data-name="TeachingAssignment" data-type="class" data-class-kind="class" data-visibility="" data-stereotype="" data-abstract="false" data-multiplicity="" data-attributes-count="2" data-operations-count="1" data-tagged-values-count="0" data-template-parameters-count="0">
+<rect class="uml-class-title" x="0" y="0" width="179.6" height="32" fill="#e5e5e5"/>
+<rect class="uml-class-outline uml-class-title-outline" x="0" y="0" width="179.6" height="32" stroke="#999999" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+<circle class="uml-kind-badge uml-kind-badge-c" cx="19" cy="16.0" r="11" fill="#b8d9bf" stroke="#3e7d4a" stroke-width="1.5"/><text class="uml-kind-badge-text" x="19" y="20.0" text-anchor="middle" font-family="Arial" font-size="12" font-weight="700" fill="black">C</text>
+<text class="uml-class-title-text" x="38" y="20" text-anchor="start" fill="black" font-family="Arial" font-size="12" font-weight="500">TeachingAssignment</text>
+<rect class="uml-class-section uml-class-attributes-section" x="0" y="32" width="179.6" height="48" fill="#eeeeee"/>
+<rect class="uml-class-outline uml-class-section-outline" x="0" y="32" width="179.6" height="48" stroke="#999999" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+<g class="uml-feature uml-attribute" data-type="attribute" data-index="0" data-name="loadHours" data-visibility="+" data-scope="instance" data-value-type="Integer" data-multiplicity="" data-has-initial-value="false" data-initial-value-kind="none" data-initial-value="" data-changeability="" data-redefines="">
+<circle class="uml-feature-bullet uml-attribute-bullet" cx="12" cy="48" r="3" fill="white" stroke="#3aa76d" stroke-width="1.3"/>
+<text class="uml-feature-text uml-attribute-text" x="22" y="52" fill="black" font-family="Arial" font-size="12" font-weight="500">loadHours : Integer</text>
+</g>
+<g class="uml-feature uml-attribute" data-type="attribute" data-index="1" data-name="role" data-visibility="+" data-scope="instance" data-value-type="String" data-multiplicity="" data-has-initial-value="false" data-initial-value-kind="none" data-initial-value="" data-changeability="" data-redefines="">
+<circle class="uml-feature-bullet uml-attribute-bullet" cx="12" cy="64" r="3" fill="white" stroke="#3aa76d" stroke-width="1.3"/>
+<text class="uml-feature-text uml-attribute-text" x="22" y="68" fill="black" font-family="Arial" font-size="12" font-weight="500">role : String</text>
+</g>
+<rect class="uml-class-section uml-class-operations-section" x="0" y="80" width="179.6" height="32" fill="#eeeeee"/>
+<rect class="uml-class-outline uml-class-section-outline" x="0" y="80" width="179.6" height="32" stroke="#999999" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+<g class="uml-feature uml-operation" data-type="operation" data-index="0" data-name="approve" data-visibility="+" data-scope="instance" data-return-type="Boolean" data-abstract="false" data-query="false" data-leaf="false" data-concurrency="sequential" data-redefines="" data-parameters-count="0">
+<circle class="uml-feature-bullet uml-operation-bullet" cx="12" cy="96" r="3" fill="#3aa76d" stroke="#2a7d50" stroke-width="1"/>
+<text class="uml-feature-text uml-operation-text" x="22" y="100" fill="black" font-family="Arial" font-size="12" font-weight="500">approve() : Boolean</text>
+</g>
+<rect class="uml-bbox" x="0" y="0" width="179.6" height="112" fill="none" stroke="none" pointer-events="all"/>
+</g>
+</svg>

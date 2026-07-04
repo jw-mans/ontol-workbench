@@ -5,6 +5,7 @@ from typing import List, Optional
 
 from .tdl_ast import (
     AlignCmd,
+    AssociationClassDecl,
     AssocEnd,
     AssociationDecl,
     AttributeLine,
@@ -404,6 +405,24 @@ class Parser:
         self.expect(TokenKind.АГРЕГАЦИЯ)
         return self._parse_association_like(aggregation="aggregation")
 
+    def _parse_association_class(self) -> AssociationClassDecl:
+        self.expect(TokenKind.КЛАСС_АССОЦИАЦИИ)
+        name = self.expect_ident()
+
+        if not self.at(TokenKind.АССОЦИАЦИЯ):
+            raise ParseError("Ожидалась АССОЦИАЦИЯ внутри КЛАСС_АССОЦИАЦИИ", self.peek())
+
+        association = self._parse_association()
+        attrs, ops = self._parse_class_members()
+        self.expect(TokenKind.КОНЕЦ)
+        self.expect(TokenKind.КЛАСС_АССОЦИАЦИИ)
+        return AssociationClassDecl(
+            name=name,
+            association=association,
+            attributes=attrs,
+            operations=ops,
+        )
+
     def _parse_enum(self) -> EnumDecl:
         self.expect(TokenKind.ПЕРЕЧИСЛЕНИЕ)
         name = self.expect_ident()
@@ -513,6 +532,8 @@ class Parser:
                 doc.declarations.append(self._parse_composition())
             elif self.at(TokenKind.АГРЕГАЦИЯ):
                 doc.declarations.append(self._parse_aggregation())
+            elif self.at(TokenKind.КЛАСС_АССОЦИАЦИИ):
+                doc.declarations.append(self._parse_association_class())
             elif self.at(TokenKind.EOF):
                 break
             else:

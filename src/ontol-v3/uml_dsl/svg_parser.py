@@ -34,7 +34,7 @@ from .models import (
     TemplateParameter,
 )
 from .relationships import (
-    Association, AssociationEnd, Dependency,
+    Association, AssociationClass, AssociationEnd, Dependency,
     Generalization, Realization, TemplateBinding,
 )
 from .diagram import ClassDiagram, ClassPosition
@@ -354,25 +354,26 @@ def parse_svg_to_diagram(svg_content: str, *, validate: bool = True) -> ParseRes
     diagram.positions.update(class_positions)
     diagram.manual_layout = True
     
-    # 2. Парсим отношения (ассоциации)
-    for elem in root.findall('.//*[@data-type="association"]'):
+    def parse_association_element(elem: ET.Element, label: str) -> Optional[Association]:
         src = _data_attr(elem, 'data-end1-class', 'data-src')
         tgt = _data_attr(elem, 'data-end2-class', 'data-tgt')
-        
+
         if not src or not tgt:
-            warnings.append("Association without data-end1-class/data-end2-class or legacy data-src/data-tgt ignored")
-            continue
-            
+            warnings.append(
+                f"{label} without data-end1-class/data-end2-class or legacy data-src/data-tgt ignored"
+            )
+            return None
+
         src_cls = diagram.classifiers.get(src)
         tgt_cls = diagram.classifiers.get(tgt)
-        
+
         if not src_cls:
-            errors.append(f"Ассоциация: класс-источник '{src}' не найден")
-            continue
+            errors.append(f"{label}: класс-источник '{src}' не найден")
+            return None
         if not tgt_cls:
-            errors.append(f"Ассоциация: класс-целевой '{tgt}' не найден")
-            continue
-        
+            errors.append(f"{label}: класс-целевой '{tgt}' не найден")
+            return None
+
         try:
             def qualifier_elements(end_index: int) -> List[ET.Element]:
                 return [
@@ -402,11 +403,11 @@ def parse_svg_to_diagram(svg_content: str, *, validate: bool = True) -> ParseRes
                 ) or AggregationKind.NONE,
                 role=_data_attr(elem, 'data-end1-role', 'data-src-role'),
                 navigable=_parse_optional_bool(_data_attr(elem, 'data-end1-navigable', 'data-src-navigable')),
-                role_visibility=_enum_value(Visibility, _data_attr(elem, 'data-end1-role-visibility'), f"Association '{src}->{tgt}' end1 role_visibility"),
-                collection_kind=_enum_value(CollectionKind, _data_attr(elem, 'data-end1-collection-kind'), f"Association '{src}->{tgt}' end1 collection_kind") or CollectionKind.SET,
-                changeability=_enum_value(Changeability, _data_attr(elem, 'data-end1-changeability'), f"Association '{src}->{tgt}' end1 changeability"),
+                role_visibility=_enum_value(Visibility, _data_attr(elem, 'data-end1-role-visibility'), f"{label} '{src}->{tgt}' end1 role_visibility"),
+                collection_kind=_enum_value(CollectionKind, _data_attr(elem, 'data-end1-collection-kind'), f"{label} '{src}->{tgt}' end1 collection_kind") or CollectionKind.SET,
+                changeability=_enum_value(Changeability, _data_attr(elem, 'data-end1-changeability'), f"{label} '{src}->{tgt}' end1 changeability"),
                 qualifiers=[
-                    _parse_attribute_element(qualifier, f"Association '{src}->{tgt}' end1 qualifier")
+                    _parse_attribute_element(qualifier, f"{label} '{src}->{tgt}' end1 qualifier")
                     for qualifier in _indexed(qualifier_elements(1))
                 ],
                 is_derived=_parse_bool(_data_attr(elem, 'data-end1-derived')),
@@ -425,11 +426,11 @@ def parse_svg_to_diagram(svg_content: str, *, validate: bool = True) -> ParseRes
                 ) or AggregationKind.NONE,
                 role=_data_attr(elem, 'data-end2-role', 'data-tgt-role'),
                 navigable=_parse_optional_bool(_data_attr(elem, 'data-end2-navigable', 'data-tgt-navigable')),
-                role_visibility=_enum_value(Visibility, _data_attr(elem, 'data-end2-role-visibility'), f"Association '{src}->{tgt}' end2 role_visibility"),
-                collection_kind=_enum_value(CollectionKind, _data_attr(elem, 'data-end2-collection-kind'), f"Association '{src}->{tgt}' end2 collection_kind") or CollectionKind.SET,
-                changeability=_enum_value(Changeability, _data_attr(elem, 'data-end2-changeability'), f"Association '{src}->{tgt}' end2 changeability"),
+                role_visibility=_enum_value(Visibility, _data_attr(elem, 'data-end2-role-visibility'), f"{label} '{src}->{tgt}' end2 role_visibility"),
+                collection_kind=_enum_value(CollectionKind, _data_attr(elem, 'data-end2-collection-kind'), f"{label} '{src}->{tgt}' end2 collection_kind") or CollectionKind.SET,
+                changeability=_enum_value(Changeability, _data_attr(elem, 'data-end2-changeability'), f"{label} '{src}->{tgt}' end2 changeability"),
                 qualifiers=[
-                    _parse_attribute_element(qualifier, f"Association '{src}->{tgt}' end2 qualifier")
+                    _parse_attribute_element(qualifier, f"{label} '{src}->{tgt}' end2 qualifier")
                     for qualifier in _indexed(qualifier_elements(2))
                 ],
                 is_derived=_parse_bool(_data_attr(elem, 'data-end2-derived')),
@@ -462,10 +463,59 @@ def parse_svg_to_diagram(svg_content: str, *, validate: bool = True) -> ParseRes
                 ends=[end1, end2]
             )
         except (ValueError, IndexError, ValidationError) as e:
-            errors.append(f"Association '{src}->{tgt}' is invalid: {e}")
+            errors.append(f"{label} '{src}->{tgt}' is invalid: {e}")
+            return None
+
+        return assoc
+
+    # 2. Парсим отношения (ассоциации)
+    for elem in root.findall('.//*[@data-type="association"]'):
+        assoc = parse_association_element(elem, "Association")
+        if assoc is None:
             continue
 
         diagram.add_association(assoc)
+
+    # 2.1. Парсим классы ассоциаций
+    for elem in root.findall('.//*[@data-type="association-class"]'):
+        assoc = parse_association_element(elem, "Association class")
+        if assoc is None:
+            continue
+
+        associated_name = _data_attr(
+            elem,
+            'data-associated-classifier',
+            'data-association-classifier',
+        )
+        if not associated_name:
+            errors.append("Association class without data-associated-classifier")
+            continue
+
+        associated_classifier = diagram.classifiers.get(associated_name)
+        if not associated_classifier:
+            errors.append(
+                f"Association class: связанный классификатор '{associated_name}' не найден"
+            )
+            continue
+        if not isinstance(associated_classifier, Class):
+            errors.append(
+                f"Association class: связанный классификатор '{associated_name}' не является Class"
+            )
+            continue
+
+        try:
+            diagram.add_association_class(
+                AssociationClass(
+                    name=assoc.name,
+                    is_derived=assoc.is_derived,
+                    ends=assoc.ends,
+                    associated_classifier=associated_classifier,
+                )
+            )
+        except (ValueError, IndexError, ValidationError) as e:
+            errors.append(
+                f"Association class '{associated_name}' is invalid: {e}"
+            )
     
     # 3. Парсим подстановки шаблонов
     for elem in root.findall('.//*[@data-type="template-binding"]'):

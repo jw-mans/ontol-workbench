@@ -114,6 +114,12 @@ class ClassDiagram(BaseModel):
         self.template_bindings.append(binding)
         return self
 
+    def add_association_class(self, a: AssociationClass) -> "ClassDiagram":
+        self.association_classes.append(a)
+        if a.associated_classifier.name not in self.classifiers:
+            self.add_classifier(a.associated_classifier)
+        return self
+
     def add_aggregation(
         self,
         whole: Any,
@@ -259,7 +265,7 @@ class ClassDiagram(BaseModel):
         различных композициях.
         """
         parts_count: Dict[str, int] = {}
-        for assoc in self.associations:
+        for assoc in self.associations + self.association_classes:
             comp_ends = [
                 e for e in assoc.ends
                 if getattr(e, "aggregation", AggregationKind.NONE) == AggregationKind.COMPOSITION
@@ -313,13 +319,20 @@ class ClassDiagram(BaseModel):
         """Проверяем, что все полюса ассоциаций ссылаются на известные
         классификаторы."""
         known = set(self.classifiers.keys())
-        for assoc in self.associations:
+        for assoc in self.associations + self.association_classes:
             for end in assoc.ends:
                 if end.participant.name not in known:
                     raise ValueError(
                         f"Полюс ассоциации ссылается на неизвестный "
                         f"классификатор '{end.participant.name}'"
                     )
+
+        for assoc_class in self.association_classes:
+            if assoc_class.associated_classifier.name not in known:
+                raise ValueError(
+                    f"Класс ассоциации ссылается на неизвестный "
+                    f"связанный классификатор '{assoc_class.associated_classifier.name}'"
+                )
 
     def validate_all(self) -> None:
         """Выполнить все глобальные проверки."""

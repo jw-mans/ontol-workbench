@@ -1,0 +1,18 @@
+КЛАСС Student
+АТРИБУТЫ
+  + name : String
+КОНЕЦ КЛАСС
+
+КЛАСС Course
+АТРИБУТЫ
+  + title : String
+КОНЕЦ КЛАСС
+
+КЛАСС_АССОЦИАЦИИ Enrollment
+АССОЦИАЦИЯ Student [0..*] : student -- Course [0..*] : course ИМЯ "enrolls"
+АТРИБУТЫ
+  + enrolledAt : String
+  + grade : String
+ОПЕРАЦИИ
+  + confirm() : Boolean
+КОНЕЦ КЛАСС_АССОЦИАЦИИ

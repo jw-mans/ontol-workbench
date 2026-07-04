@@ -1,0 +1,69 @@
+КЛАСС Student
+АТРИБУТЫ
+  + name : String
+  + email : String
+КОНЕЦ КЛАСС
+
+КЛАСС GraduateStudent
+АТРИБУТЫ
+  + thesisTitle : String
+КОНЕЦ КЛАСС
+
+КЛАСС Course
+АТРИБУТЫ
+  + title : String
+  + credits : Integer
+КОНЕЦ КЛАСС
+
+КЛАСС Professor
+АТРИБУТЫ
+  + name : String
+КОНЕЦ КЛАСС
+
+КЛАСС Department
+АТРИБУТЫ
+  + title : String
+КОНЕЦ КЛАСС
+
+КЛАСС Semester
+АТРИБУТЫ
+  + code : String
+КОНЕЦ КЛАСС
+
+КЛАСС Room
+АТРИБУТЫ
+  + number : String
+КОНЕЦ КЛАСС
+
+КЛАСС Schedule
+АТРИБУТЫ
+  + hours : Integer
+КОНЕЦ КЛАСС
+
+КЛАСС_АССОЦИАЦИИ Enrollment
+АССОЦИАЦИЯ Student [0..*] : student -- Course [0..*] : course ИМЯ "enrolls"
+АТРИБУТЫ
+  + enrolledAt : String
+  + grade : String
+  + attempt : Integer
+ОПЕРАЦИИ
+  + confirm() : Boolean
+КОНЕЦ КЛАСС_АССОЦИАЦИИ
+
+КЛАСС_АССОЦИАЦИИ TeachingAssignment
+АССОЦИАЦИЯ Professor [0..*] : teacher -- Course [0..*] : course ИМЯ "teaches"
+АТРИБУТЫ
+  + loadHours : Integer
+  + role : String
+ОПЕРАЦИИ
+  + approve() : Boolean
+КОНЕЦ КЛАСС_АССОЦИАЦИИ
+
+ОБОБЩЕНИЕ GraduateStudent -> Student
+АГРЕГАЦИЯ Department [1] : department -- Course [0..*] : courses ИМЯ "offers"
+АССОЦИАЦИЯ Department [1] : department -- Professor [0..*] : professors ИМЯ "employs"
+АССОЦИАЦИЯ Semester [1] : semester -- Course [0..*] : courses ИМЯ "opens"
+АССОЦИАЦИЯ Course [1] : course -- Room [0..1] : room ИМЯ "scheduledIn"
+АССОЦИАЦИЯ Schedule [1] : schedule -- Room [1] : room ИМЯ "uses"
+ЗАВИСИМОСТЬ Enrollment -> Semester use
+ЗАВИСИМОСТЬ TeachingAssignment -> Schedule use
