@@ -500,6 +500,7 @@ class ClassDiagram(BaseModel):
         width: int = 1400,
         height: int = 900,
         interactive: bool = False,
+        theme: str = "light",
     ) -> str:
         """Render the diagram through the Graphviz-based SVG pipeline.
 
@@ -508,4 +509,4 @@ class ClassDiagram(BaseModel):
         """
         from .graphviz_render import diagram_to_graphviz_svg
 
-        return diagram_to_graphviz_svg(self)
+        return diagram_to_graphviz_svg(self, theme=theme)

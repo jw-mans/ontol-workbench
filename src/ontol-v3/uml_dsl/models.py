@@ -695,8 +695,8 @@ class Class(Classifier):
 
         parts.append(f'<g transform="translate({gx},{gy})" class="uml-class" {" ".join(data_attrs)}>')
 
-        parts.append(f'<rect x="0" y="0" width="{width}" height="{title_h}" fill="{SVG_FILL_TITLE}"/>')
-        parts.append(f'<rect x="0" y="0" width="{width}" height="{title_h}" stroke="{SVG_STROKE}" stroke-width="{SVG_STROKE_WIDTH}" stroke-linecap="round" stroke-linejoin="round" fill="none"/>')
+        parts.append(f'<rect class="uml-class-title" x="0" y="0" width="{width}" height="{title_h}" fill="{SVG_FILL_TITLE}"/>')
+        parts.append(f'<rect class="uml-class-outline uml-class-title-outline" x="0" y="0" width="{width}" height="{title_h}" stroke="{SVG_STROKE}" stroke-width="{SVG_STROKE_WIDTH}" stroke-linecap="round" stroke-linejoin="round" fill="none"/>')
 
         badge_x = p + SVG_BADGE_RADIUS
         badge_y = title_h / 2
@@ -708,38 +708,38 @@ class Class(Classifier):
             font_style = ' font-style="italic"' if self.is_abstract and line == self.name else ""
             # Add underline for instance names (clients in INSTANCE_OF dependencies)
             text_decor = ' text-decoration="underline"' if is_instance and line == self.name else ""
-            parts.append(f'<text x="{title_text_x}" y="{ty}" text-anchor="start"{font_style}{text_decor} fill="black" font-family="{SVG_FONT_FAMILY}" font-size="{fs}" font-weight="{SVG_FONT_WEIGHT}">{esc(line)}</text>')
+            parts.append(f'<text class="uml-class-title-text" x="{title_text_x}" y="{ty}" text-anchor="start"{font_style}{text_decor} fill="black" font-family="{SVG_FONT_FAMILY}" font-size="{fs}" font-weight="{SVG_FONT_WEIGHT}">{esc(line)}</text>')
 
         if attr_lines:
             ay = title_h
-            parts.append(f'<rect x="0" y="{ay}" width="{width}" height="{attrs_h}" fill="{SVG_FILL_ATTRS}"/>')
-            parts.append(f'<rect x="0" y="{ay}" width="{width}" height="{attrs_h}" stroke="{SVG_STROKE}" stroke-width="{SVG_STROKE_WIDTH}" stroke-linecap="round" stroke-linejoin="round" fill="none"/>')
+            parts.append(f'<rect class="uml-class-section uml-class-attributes-section" x="0" y="{ay}" width="{width}" height="{attrs_h}" fill="{SVG_FILL_ATTRS}"/>')
+            parts.append(f'<rect class="uml-class-outline uml-class-section-outline" x="0" y="{ay}" width="{width}" height="{attrs_h}" stroke="{SVG_STROKE}" stroke-width="{SVG_STROKE_WIDTH}" stroke-linecap="round" stroke-linejoin="round" fill="none"/>')
             for i, line in enumerate(attr_lines):
                 ty = ay + p + fs + i * lh
                 decor = ''
                 attr = self.attributes[i]
                 if attr.scope == Scope.CLASSIFIER:
                     decor = ' text-decoration="underline"'
-                parts.append(f'<circle cx="{p + 4}" cy="{ty - 4}" r="3" fill="white" stroke="#3aa76d" stroke-width="1.3"/>')
-                parts.append(f'<text x="{p + 14}" y="{ty}" fill="black"{decor} font-family="{SVG_FONT_FAMILY}" font-size="{fs}" font-weight="{SVG_FONT_WEIGHT}">{esc(self._feature_display_text(line))}</text>')
+                parts.append(f'<circle class="uml-feature-bullet uml-attribute-bullet" cx="{p + 4}" cy="{ty - 4}" r="3" fill="white" stroke="#3aa76d" stroke-width="1.3"/>')
+                parts.append(f'<text class="uml-feature-text uml-attribute-text" x="{p + 14}" y="{ty}" fill="black"{decor} font-family="{SVG_FONT_FAMILY}" font-size="{fs}" font-weight="{SVG_FONT_WEIGHT}">{esc(self._feature_display_text(line))}</text>')
 
         if op_lines:
             oy = title_h + attrs_h
-            parts.append(f'<rect x="0" y="{oy}" width="{width}" height="{ops_h}" fill="{SVG_FILL_OPS}"/>')
-            parts.append(f'<rect x="0" y="{oy}" width="{width}" height="{ops_h}" stroke="{SVG_STROKE}" stroke-width="{SVG_STROKE_WIDTH}" stroke-linecap="round" stroke-linejoin="round" fill="none"/>')
+            parts.append(f'<rect class="uml-class-section uml-class-operations-section" x="0" y="{oy}" width="{width}" height="{ops_h}" fill="{SVG_FILL_OPS}"/>')
+            parts.append(f'<rect class="uml-class-outline uml-class-section-outline" x="0" y="{oy}" width="{width}" height="{ops_h}" stroke="{SVG_STROKE}" stroke-width="{SVG_STROKE_WIDTH}" stroke-linecap="round" stroke-linejoin="round" fill="none"/>')
             for i, line in enumerate(op_lines):
                 ty = oy + p + fs + i * lh
                 op = self.operations[i]
                 font_style = ' font-style="italic"' if op.is_abstract else ''
                 decor = ' text-decoration="underline"' if op.scope == Scope.CLASSIFIER else ''
-                parts.append(f'<circle cx="{p + 4}" cy="{ty - 4}" r="3" fill="#3aa76d" stroke="#2a7d50" stroke-width="1"/>')
-                parts.append(f'<text x="{p + 14}" y="{ty}" fill="black"{font_style}{decor} font-family="{SVG_FONT_FAMILY}" font-size="{fs}" font-weight="{SVG_FONT_WEIGHT}">{esc(self._feature_display_text(line))}</text>')
+                parts.append(f'<circle class="uml-feature-bullet uml-operation-bullet" cx="{p + 4}" cy="{ty - 4}" r="3" fill="#3aa76d" stroke="#2a7d50" stroke-width="1"/>')
+                parts.append(f'<text class="uml-feature-text uml-operation-text" x="{p + 14}" y="{ty}" fill="black"{font_style}{decor} font-family="{SVG_FONT_FAMILY}" font-size="{fs}" font-weight="{SVG_FONT_WEIGHT}">{esc(self._feature_display_text(line))}</text>')
 
         if tpl_params:
             tx = width - tpl_w / 2
             _ty = -tpl_h / 2
-            parts.append(f'<rect x="{tx}" y="{_ty}" width="{tpl_w}" height="{tpl_h}" fill="white" stroke="{SVG_STROKE}" stroke-dasharray="4,3" stroke-width="1"/>')
-            parts.append(f'<text x="{tx + p}" y="{_ty + fs + 2}" fill="black" font-family="{SVG_FONT_FAMILY}" font-size="{fs}" font-weight="{SVG_FONT_WEIGHT}">{esc(tpl_text)}</text>')
+            parts.append(f'<rect class="uml-template-box" x="{tx}" y="{_ty}" width="{tpl_w}" height="{tpl_h}" fill="white" stroke="{SVG_STROKE}" stroke-dasharray="4,3" stroke-width="1"/>')
+            parts.append(f'<text class="uml-template-text" x="{tx + p}" y="{_ty + fs + 2}" fill="black" font-family="{SVG_FONT_FAMILY}" font-size="{fs}" font-weight="{SVG_FONT_WEIGHT}">{esc(tpl_text)}</text>')
 
         parts.append(f'<rect class="uml-bbox" x="0" y="0" width="{width}" height="{total_h}" fill="none" stroke="none" pointer-events="all"/>')
         parts.append("</g>")
@@ -754,8 +754,8 @@ class Class(Classifier):
             stroke = "#3e7d4a"
 
         return (
-            f'<circle cx="{x}" cy="{y}" r="{SVG_BADGE_RADIUS}" fill="{fill}" stroke="{stroke}" stroke-width="1.5"/>'
-            f'<text x="{x}" y="{y + 4}" text-anchor="middle" '
+            f'<circle class="uml-kind-badge uml-kind-badge-{kind.lower()}" cx="{x}" cy="{y}" r="{SVG_BADGE_RADIUS}" fill="{fill}" stroke="{stroke}" stroke-width="1.5"/>'
+            f'<text class="uml-kind-badge-text" x="{x}" y="{y + 4}" text-anchor="middle" '
             f'font-family="{SVG_FONT_FAMILY}" font-size="12" '
             f'font-weight="700" fill="black">{kind}</text>'
         )
@@ -819,16 +819,16 @@ class Class(Classifier):
         )
 
         parts.append(
-            f'<rect x="0" y="0" width="{width}" height="{total_h}" fill="#eeeeee" stroke="#999999" stroke-width="1"/>')
+            f'<rect class="uml-class-section uml-enum-body" x="0" y="0" width="{width}" height="{total_h}" fill="#eeeeee" stroke="#999999" stroke-width="1"/>')
         parts.append(
-            f'<rect x="0" y="0" width="{width}" height="{title_h}" fill="#e5e5e5" stroke="#999999" stroke-width="1"/>')
+            f'<rect class="uml-class-title uml-enum-title" x="0" y="0" width="{width}" height="{title_h}" fill="#e5e5e5" stroke="#999999" stroke-width="1"/>')
 
         badge_x = p + SVG_BADGE_RADIUS
         badge_y = title_h / 2
         parts.append(self._render_kind_badge(badge_x, badge_y, "E"))
 
         parts.append(
-            f'<text x="{badge_x + 18}" y="{p + fs}" '
+            f'<text class="uml-class-title-text uml-enum-title-text" x="{badge_x + 18}" y="{p + fs}" '
             f'font-family="{SVG_FONT_FAMILY}" font-size="{fs}" '
             f'font-weight="700" fill="black">{esc(title_text)}</text>'
         )
@@ -837,7 +837,7 @@ class Class(Classifier):
         for i, value in enumerate(value_lines):
             ty = value_y + i * lh
             parts.append(
-                f'<text x="{p}" y="{ty}" '
+                f'<text class="uml-feature-text uml-enum-value-text" x="{p}" y="{ty}" '
                 f'font-family="{SVG_FONT_FAMILY}" font-size="{fs}" '
                 f'fill="black">{esc(value)}</text>'
             )
