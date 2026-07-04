@@ -17,6 +17,7 @@ from uml_dsl import (
     Parameter,
     TaggedValue,
     Template,
+    TemplateBinding,
     TemplateParameter,
 )
 from uml_dsl.graphviz_render import available_svg_themes
@@ -32,11 +33,15 @@ from tests.helpers import (
     GENERALIZATION,
     NAME,
     OPS,
+    PARAMETERS,
     REALIZATION,
+    TEMPLATE,
+    TEMPLATE_BINDING,
     class_block,
     data_type_block,
     enum_block,
     interface_block,
+    template_block,
 )
 
 
@@ -194,6 +199,50 @@ def test_rendered_svg_roundtrip_preserves_data_type(require_dot):
     assert isinstance(money, DataType)
     assert money.operations[0].is_query is True
     assert result.diagram.classifiers["Invoice"].attributes[0].type_ == "Money"
+    result.diagram.validate_all()
+
+
+def test_rendered_svg_roundtrip_preserves_template(require_dot):
+    tdl = (
+        template_block(
+            "Box",
+            f"""
+{PARAMETERS}
+  T
+{ATTRS}
+  + value : T
+{OPS}
+  + get() : T
+""",
+        )
+        + class_block("User", f"{ATTRS}\n  + name : String")
+        + class_block("UserBox", f"{ATTRS}\n  + value : User")
+        + f"{TEMPLATE_BINDING} UserBox -> Box {{ T = User }}\n"
+    )
+
+    svg = tdl_to_svg(tdl)
+    result = parse_svg_to_diagram(svg)
+
+    assert 'data-class-kind="template"' in svg
+    assert 'data-type="template-parameter"' in svg
+    assert 'data-type="template-binding"' in svg
+    assert 'data-formal="T"' in svg
+    assert 'data-actual="User"' in svg
+    assert 'data-template-parameters-count="1"' in svg
+    assert result.success, result.errors
+    assert result.diagram is not None
+
+    box = result.diagram.classifiers["Box"]
+    assert isinstance(box, Template)
+    assert box.template_parameters[0].name == "T"
+    assert box.attributes[0].type_ == "T"
+    assert box.operations[0].return_type == "T"
+    assert len(result.diagram.template_bindings) == 1
+    binding = result.diagram.template_bindings[0]
+    assert isinstance(binding, TemplateBinding)
+    assert binding.bound_element.name == "UserBox"
+    assert binding.template.name == "Box"
+    assert binding.substitutions == {"T": "User"}
     result.diagram.validate_all()
 
 

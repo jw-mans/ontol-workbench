@@ -20,7 +20,10 @@ from .tdl_ast import (
     InterfaceDecl,
     LayoutBlock,
     OperationLine,
-    RealizationDecl, ParameterLine,
+    ParameterLine,
+    RealizationDecl,
+    TemplateBindingDecl,
+    TemplateDecl,
 )
 from .tdl_lexer import Token, TokenKind
 
@@ -265,6 +268,59 @@ class Parser:
         self.expect(TokenKind.ТИП_ДАННЫХ)
         return DataTypeDecl(name=name, attributes=attrs, operations=ops)
 
+    def _parse_template(self) -> TemplateDecl:
+        self.expect(TokenKind.ШАБЛОН)
+        name = self.expect_ident()
+        template_parameters: List[ParameterLine] = []
+
+        if self.at(TokenKind.ПАРАМЕТРЫ):
+            self.advance()
+            while self.peek().kind in (
+                TokenKind.IDENT,
+                TokenKind.ИМЯ,
+                TokenKind.В,
+                TokenKind.КАК,
+            ):
+                template_parameters.append(self._parse_parameter_line())
+
+        attrs, ops = self._parse_class_members()
+        self.expect(TokenKind.КОНЕЦ)
+        self.expect(TokenKind.ШАБЛОН)
+        return TemplateDecl(
+            name=name,
+            template_parameters=template_parameters,
+            attributes=attrs,
+            operations=ops,
+        )
+
+    def _parse_template_binding(self) -> TemplateBindingDecl:
+        self.expect(TokenKind.ПОДСТАНОВКА)
+        bound_element = self.expect_ident()
+        self.expect(TokenKind.ARROW)
+        template = self.expect_ident()
+        substitutions: List[ParameterLine] = []
+
+        self.expect(TokenKind.LBRACE)
+        while not self.at(TokenKind.RBRACE):
+            if self.at(TokenKind.EOF):
+                raise ParseError("Ожидалась } в ПОДСТАНОВКА", self.peek())
+
+            substitution = self._parse_parameter_line()
+            if substitution.default is None:
+                raise ParseError("Ожидалась подстановка вида T = Actual", self.peek())
+            substitutions.append(substitution)
+
+            if not self.at(TokenKind.COMMA):
+                break
+            self.advance()
+        self.expect(TokenKind.RBRACE)
+
+        return TemplateBindingDecl(
+            bound_element=bound_element,
+            template=template,
+            substitutions=substitutions,
+        )
+
     def _parse_generalization(self) -> GeneralizationDecl:
         self.expect(TokenKind.ОБОБЩЕНИЕ)
         specific = self.expect_ident()
@@ -439,6 +495,10 @@ class Parser:
                 doc.declarations.append(self._parse_interface())
             elif self.at(TokenKind.ТИП_ДАННЫХ):
                 doc.declarations.append(self._parse_data_type())
+            elif self.at(TokenKind.ШАБЛОН):
+                doc.declarations.append(self._parse_template())
+            elif self.at(TokenKind.ПОДСТАНОВКА):
+                doc.declarations.append(self._parse_template_binding())
             elif self.at(TokenKind.ПЕРЕЧИСЛЕНИЕ):
                 doc.declarations.append(self._parse_enum())
             elif self.at(TokenKind.ОБОБЩЕНИЕ):

@@ -25,6 +25,7 @@ from .relationships import (
     Generalization,
     GeneralizationSet,
     Realization,
+    TemplateBinding,
 )
 
 
@@ -84,6 +85,10 @@ class ClassDiagram(BaseModel):
         default_factory=list,
         description="Реализации.",
     )
+    template_bindings: List[TemplateBinding] = Field(
+        default_factory=list,
+        description="Подстановки параметров шаблонов (§3.2.5).",
+    )
 
     # Позиции (заполняются при layout или пользовательском позиционировании)
     positions: Dict[str, ClassPosition] = Field(
@@ -103,6 +108,10 @@ class ClassDiagram(BaseModel):
 
     def add_association(self, a: Association) -> "ClassDiagram":
         self.associations.append(a)
+        return self
+
+    def add_template_binding(self, binding: TemplateBinding) -> "ClassDiagram":
+        self.template_bindings.append(binding)
         return self
 
     def add_aggregation(
@@ -321,6 +330,7 @@ class ClassDiagram(BaseModel):
         self.validate_attribute_type_references()
         self.validate_parameter_type_references()
         self.validate_template_parameter_type_references()
+        self.validate_template_binding_references()
         self.validate_all_ends_reference_known_classifiers()
 
     def validate_redefines_references(self) -> None:
@@ -385,11 +395,16 @@ class ClassDiagram(BaseModel):
         known = set(self.classifiers.keys())
         prim_names = set(PRIMITIVE_TYPE_MAP.keys())
         for cls_name, cls in self.classifiers.items():
+            template_type_names = {
+                tp.name for tp in (getattr(cls, "template_parameters", None) or [])
+            }
             for op in cls.operations:
                 for p in op.parameters:
                     if not p.type_:
                         continue
                     if p.type_ in prim_names:
+                        continue
+                    if p.type_ in template_type_names:
                         continue
                     if p.type_ not in known:
                         raise ValueError(
@@ -403,6 +418,8 @@ class ClassDiagram(BaseModel):
                 # return type
                 if op.return_type:
                     if op.return_type in prim_names:
+                        continue
+                    if op.return_type in template_type_names:
                         continue
                     if op.return_type not in known:
                         raise ValueError(
@@ -452,6 +469,42 @@ class ClassDiagram(BaseModel):
                                 f"Параметр шаблона '{tp.name}' класса '{cls_name}' имеет значение по умолчанию типа '{tp.default_value}', который не является Class"
                             )
 
+    def validate_template_binding_references(self) -> None:
+        known = set(self.classifiers.keys())
+        prim_names = set(PRIMITIVE_TYPE_MAP.keys())
+        for binding in self.template_bindings:
+            bound_name = binding.bound_element.name
+            template_name = binding.template.name
+            if bound_name not in known:
+                raise ValueError(
+                    f"Подстановка шаблона ссылается на неизвестный bound element '{bound_name}'"
+                )
+            if template_name not in known:
+                raise ValueError(
+                    f"Подстановка шаблона ссылается на неизвестный шаблон '{template_name}'"
+                )
+
+            template = self.classifiers[template_name]
+            template_params = {
+                tp.name for tp in (getattr(template, "template_parameters", None) or [])
+            }
+            if template_params:
+                for formal in binding.substitutions:
+                    if formal not in template_params:
+                        raise ValueError(
+                            f"Подстановка шаблона '{bound_name}->{template_name}' "
+                            f"указывает неизвестный параметр '{formal}'"
+                        )
+
+            for actual in binding.substitutions.values():
+                if actual in prim_names:
+                    continue
+                if actual not in known:
+                    raise ValueError(
+                        f"Подстановка шаблона '{bound_name}->{template_name}' "
+                        f"ссылается на неизвестный actual type '{actual}'"
+                    )
+
     def validate_attribute_type_references(self) -> None:
         """Проверяем, что для каждого атрибута ссылаемый тип либо примитив, либо
         известный классификатор на диаграмме.
@@ -459,10 +512,15 @@ class ClassDiagram(BaseModel):
         known = set(self.classifiers.keys())
         prim_names = set(PRIMITIVE_TYPE_MAP.keys())
         for cls_name, cls in self.classifiers.items():
+            template_type_names = {
+                tp.name for tp in (getattr(cls, "template_parameters", None) or [])
+            }
             for attr in cls.attributes:
                 if not attr.type_:
                     continue
                 if attr.type_ in prim_names:
+                    continue
+                if attr.type_ in template_type_names:
                     continue
                 if attr.type_ not in known:
                     raise ValueError(

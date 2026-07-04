@@ -36,6 +36,7 @@ from .relationships import (
     Generalization,
     GeneralizationSet,
     Realization,
+    TemplateBinding,
     
 )
 from .diagram import ClassDiagram, ClassPosition
@@ -81,6 +82,7 @@ __all__ = [
     "Generalization",
     "GeneralizationSet",
     "Realization",
+    "TemplateBinding",
     
     # Diagram
     "ClassDiagram",

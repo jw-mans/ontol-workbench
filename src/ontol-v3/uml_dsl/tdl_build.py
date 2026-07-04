@@ -5,8 +5,25 @@ from typing import Optional
 
 from .diagram import ClassDiagram, ClassPosition
 from .enums import Changeability, DependencyStereotype, Scope, Visibility, Stereotype, AggregationKind
-from .models import Attribute, Class, DataType, Interface, MultiplicityRange, Operation, Parameter
-from .relationships import Association, AssociationEnd, Dependency, Generalization, Realization
+from .models import (
+    Attribute,
+    Class,
+    DataType,
+    Interface,
+    MultiplicityRange,
+    Operation,
+    Parameter,
+    Template,
+    TemplateParameter,
+)
+from .relationships import (
+    Association,
+    AssociationEnd,
+    Dependency,
+    Generalization,
+    Realization,
+    TemplateBinding,
+)
 from .tdl_ast import (
     AlignCmd,
     AssociationDecl,
@@ -21,6 +38,8 @@ from .tdl_ast import (
     GeneralizationDecl,
     InterfaceDecl,
     RealizationDecl,
+    TemplateBindingDecl,
+    TemplateDecl,
 )
 
 
@@ -56,6 +75,9 @@ def _dep_stereotype(s: Optional[str]):
     if not s:
         return None
     m = {
+        "bind": DependencyStereotype.BIND,
+        "связывание": DependencyStereotype.BIND,
+        "подстановка": DependencyStereotype.BIND,
         "use": DependencyStereotype.USE,
         "использование": DependencyStereotype.USE,
         "call": DependencyStereotype.CALL,
@@ -122,6 +144,17 @@ def _build_operations(
     return ops
 
 
+def _build_template_parameters(decl_params):
+    return [
+        TemplateParameter(
+            name=param.name,
+            type_=_map_type(param.type_),
+            default_value=_map_type(param.default),
+        )
+        for param in decl_params
+    ]
+
+
 def build_diagram(doc: Document, title: str = "Диаграмма TDL") -> ClassDiagram:
     diagram = ClassDiagram(title=title)
     # 1) Классы
@@ -166,6 +199,14 @@ def build_diagram(doc: Document, title: str = "Диаграмма TDL") -> Class
                 ),
             )
             diagram.add_classifier(data_type)
+        if isinstance(decl, TemplateDecl):
+            template = Template(
+                name=decl.name,
+                template_parameters=_build_template_parameters(decl.template_parameters),
+                attributes=_build_attributes(decl.attributes),
+                operations=_build_operations(decl.operations),
+            )
+            diagram.add_classifier(template)
 
     # 2) Отношения
     for decl in doc.declarations:
@@ -176,6 +217,25 @@ def build_diagram(doc: Document, title: str = "Диаграмма TDL") -> Class
                 client=decl.client,
                 supplier=decl.supplier,
                 stereotype=_dep_stereotype(decl.stereotype),
+            )
+        elif isinstance(decl, TemplateBindingDecl):
+            bound_element = diagram.classifiers.get(decl.bound_element)
+            template = diagram.classifiers.get(decl.template)
+            if not isinstance(bound_element, Class):
+                raise ValueError(
+                    f"Bound element шаблона не найден: {decl.bound_element}"
+                )
+            if not isinstance(template, Class):
+                raise ValueError(f"Шаблон не найден: {decl.template}")
+            diagram.add_template_binding(
+                TemplateBinding(
+                    bound_element=bound_element,
+                    template=template,
+                    substitutions={
+                        item.name: _map_type(item.default) or ""
+                        for item in decl.substitutions
+                    },
+                )
             )
         elif isinstance(decl, RealizationDecl):
             diagram.add_realization(implementing=decl.implementer, interface=decl.interface)

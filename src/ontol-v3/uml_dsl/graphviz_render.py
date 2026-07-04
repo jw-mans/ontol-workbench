@@ -881,6 +881,98 @@ def render_dependency_svg(
 </g>
 """
 
+
+def render_template_binding_svg(
+    binding,
+    positions: dict[str, ClassPosition],
+    route: list[tuple[float, float]] | None = None,
+    path_d: str | None = None,
+    substitution_routes: list[tuple[str, str, list[tuple[float, float]] | None, str | None]] | None = None,
+) -> str:
+    src = binding.bound_element.name
+    tgt = binding.template.name
+
+    p1 = positions.get(src)
+    p2 = positions.get(tgt)
+    if p1 is None or p2 is None:
+        return ""
+
+    points = _edge_route(p1, p2, route)
+    if path_d:
+        mid_x, mid_y = _path_label_pos(path_d)
+    else:
+        mid_idx = len(points) // 2
+        mid_x = (points[mid_idx - 1][0] + points[mid_idx][0]) / 2
+        mid_y = (points[mid_idx - 1][1] + points[mid_idx][1]) / 2
+
+    edge_shape = _edge_shape_svg(
+        points,
+        path_d,
+        (
+            f' fill="none" stroke="{EDGE_COLOR}" stroke-width="{EDGE_STROKE_WIDTH:.1f}" '
+            f'stroke-dasharray="{EDGE_DASH_ARRAY}" marker-end="url(#arrow-filled)"'
+        ),
+    )
+
+    substitution_metadata = []
+    for index, (formal, actual) in enumerate(binding.substitutions.items()):
+        substitution_metadata.append(
+            '<metadata '
+            'data-type="template-substitution" '
+            f'data-index="{index}" '
+            f'data-formal="{_esc(formal)}" '
+            f'data-actual="{_esc(actual)}"/>'
+        )
+
+    substitution_edges: list[str] = []
+    for formal, actual, actual_route, actual_path_d in substitution_routes or []:
+        actual_pos = positions.get(actual)
+        if actual_pos is None:
+            continue
+
+        actual_points = _edge_route(p1, actual_pos, actual_route)
+        if actual_path_d:
+            label_x, label_y = _path_label_pos(actual_path_d)
+        else:
+            mid_idx = len(actual_points) // 2
+            label_x = (actual_points[mid_idx - 1][0] + actual_points[mid_idx][0]) / 2
+            label_y = (actual_points[mid_idx - 1][1] + actual_points[mid_idx][1]) / 2
+
+        substitution_edges.append(
+            f"""
+  <g class="uml-edge uml-template-substitution"
+     data-type="template-binding-substitution"
+     data-bound-element="{_esc(src)}"
+     data-template="{_esc(tgt)}"
+     data-formal="{_esc(formal)}"
+     data-actual="{_esc(actual)}">
+    {_edge_shape_svg(
+        actual_points,
+        actual_path_d,
+        (
+            f' fill="none" stroke="{EDGE_COLOR}" stroke-width="{EDGE_STROKE_WIDTH:.1f}" '
+            f'stroke-dasharray="{EDGE_DASH_ARRAY}" marker-end="url(#arrow-filled)"'
+        ),
+    )}
+    {_render_label(f"{formal} = {actual}", label_x + 6, label_y - 6, "uml-edge-label", background=True)}
+  </g>
+"""
+        )
+
+    return f"""
+<g class="uml-edge uml-template-binding"
+   data-type="template-binding"
+   data-bound-element="{_esc(src)}"
+   data-template="{_esc(tgt)}"
+   data-substitutions-count="{len(binding.substitutions)}">
+  {edge_shape}
+  {"".join(substitution_metadata)}
+  {_render_label("«bind»", mid_x + 6, mid_y - 6, "uml-edge-label", background=True)}
+</g>
+{''.join(substitution_edges)}
+"""
+
+
 def render_realization_svg(
     real,
     positions: dict[str, ClassPosition],
@@ -983,6 +1075,17 @@ def diagram_to_layout_dot(diagram: ClassDiagram):
 
         if src in name_to_node and tgt in name_to_node:
             lines.append(f"  {name_to_node[src]} -> {name_to_node[tgt]};")
+
+    for binding in diagram.template_bindings:
+        src = binding.bound_element.name
+        tgt = binding.template.name
+
+        if src in name_to_node and tgt in name_to_node:
+            lines.append(f"  {name_to_node[src]} -> {name_to_node[tgt]};")
+
+        for actual in binding.substitutions.values():
+            if src in name_to_node and actual in name_to_node:
+                lines.append(f"  {name_to_node[src]} -> {name_to_node[actual]};")
 
     for real in diagram.realizations:
         src = real.implementer.name
@@ -1315,6 +1418,31 @@ def diagram_to_graphviz_svg(diagram: ClassDiagram, theme: str = DEFAULT_SVG_THEM
         path_d = paths.pop(0) if paths else None
 
         edge_svg = render_dependency_svg(dep, positions, route, path_d)
+        edge_parts.append(edge_svg)
+
+    for binding in diagram.template_bindings:
+        src = binding.bound_element.name
+        tgt = binding.template.name
+        routes = edge_route_map.get((src, tgt), [])
+        route = routes.pop(0) if routes else None
+        paths = graphviz_path_map.get((src, tgt), [])
+        path_d = paths.pop(0) if paths else None
+
+        substitution_routes = []
+        for formal, actual in binding.substitutions.items():
+            actual_routes = edge_route_map.get((src, actual), [])
+            actual_route = actual_routes.pop(0) if actual_routes else None
+            actual_paths = graphviz_path_map.get((src, actual), [])
+            actual_path_d = actual_paths.pop(0) if actual_paths else None
+            substitution_routes.append((formal, actual, actual_route, actual_path_d))
+
+        edge_svg = render_template_binding_svg(
+            binding,
+            positions,
+            route,
+            path_d,
+            substitution_routes=substitution_routes,
+        )
         edge_parts.append(edge_svg)
 
     for real in diagram.realizations:

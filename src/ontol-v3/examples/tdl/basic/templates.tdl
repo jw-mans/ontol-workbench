@@ -1,0 +1,20 @@
+ШАБЛОН Repository
+ПАРАМЕТРЫ
+  T
+ОПЕРАЦИИ
+  + find(id : String) : T
+  + save(entity : T)
+КОНЕЦ ШАБЛОН
+
+КЛАСС UserRepository
+ОПЕРАЦИИ
+  + find(id : String) : User
+  + save(entity : User)
+КОНЕЦ КЛАСС
+
+КЛАСС User
+АТРИБУТЫ
+  + name : String
+КОНЕЦ КЛАСС
+
+ПОДСТАНОВКА UserRepository -> Repository { T = User }

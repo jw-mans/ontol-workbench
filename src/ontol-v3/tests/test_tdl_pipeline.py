@@ -3,7 +3,8 @@ from __future__ import annotations
 import pytest
 
 from uml_dsl.enums import AggregationKind, Changeability, DependencyStereotype, Scope, Stereotype, Visibility
-from uml_dsl.models import DataType, Interface
+from uml_dsl.models import DataType, Interface, Template
+from uml_dsl.relationships import TemplateBinding
 from uml_dsl.tdl_lexer import LexerError, TokenKind, lex
 from uml_dsl.tdl_parser import ParseError, parse_tdl
 
@@ -19,12 +20,16 @@ from tests.helpers import (
     INTERFACE,
     NAME,
     OPS,
+    PARAMETERS,
     REALIZATION,
+    TEMPLATE,
+    TEMPLATE_BINDING,
     class_block,
     build,
     data_type_block,
     enum_block,
     interface_block,
+    template_block,
 )
 
 
@@ -33,6 +38,8 @@ def test_lexer_recognizes_tdl_keywords_and_relation_tokens():
         f"{CLASS} Store\n{END} {CLASS}\n"
         f"{INTERFACE} Readable\n{END} {INTERFACE}\n"
         f"{DATA_TYPE} Money\n{END} {DATA_TYPE}\n"
+        f"{TEMPLATE} Box\n{PARAMETERS}\nT\n{END} {TEMPLATE}\n"
+        f"{TEMPLATE_BINDING} StringBox -> Box {{ T = String }}\n"
         f"{ASSOCIATION} Store -- Item\n"
     )
     kinds = [token.kind for token in tokens]
@@ -40,6 +47,9 @@ def test_lexer_recognizes_tdl_keywords_and_relation_tokens():
     assert TokenKind(CLASS) in kinds
     assert TokenKind(INTERFACE) in kinds
     assert TokenKind(DATA_TYPE) in kinds
+    assert TokenKind(TEMPLATE) in kinds
+    assert TokenKind(PARAMETERS) in kinds
+    assert TokenKind(TEMPLATE_BINDING) in kinds
     assert TokenKind(END) in kinds
     assert TokenKind(ASSOCIATION) in kinds
     assert TokenKind.DASH in kinds
@@ -168,6 +178,42 @@ def test_builds_data_type_and_allows_references_to_it():
     assert money.operations[0].is_query is True
     assert money.operations[0].scope == Scope.CLASSIFIER
     assert diagram.classifiers["Invoice"].attributes[0].type_ == "Money"
+
+
+def test_builds_template_and_allows_parameter_type_references():
+    tdl = (
+        template_block(
+            "Box",
+            f"""
+{PARAMETERS}
+  T
+{ATTRS}
+  + value : T
+{OPS}
+  + get() : T
+  + replace(value : T) : T
+""",
+        )
+        + class_block("User", f"{ATTRS}\n  + name : String")
+        + class_block("UserBox", f"{ATTRS}\n  + value : User")
+        + f"{TEMPLATE_BINDING} UserBox -> Box {{ T = User }}\n"
+    )
+
+    diagram = build(tdl)
+    diagram.validate_all()
+
+    box = diagram.classifiers["Box"]
+    assert isinstance(box, Template)
+    assert box.template_parameters[0].name == "T"
+    assert box.attributes[0].type_ == "T"
+    assert box.operations[0].return_type == "T"
+    assert box.operations[1].parameters[0].type_ == "T"
+    assert len(diagram.template_bindings) == 1
+    binding = diagram.template_bindings[0]
+    assert isinstance(binding, TemplateBinding)
+    assert binding.bound_element.name == "UserBox"
+    assert binding.template.name == "Box"
+    assert binding.substitutions == {"T": "User"}
 
 
 def test_validation_rejects_inheritance_cycles():

@@ -471,3 +471,23 @@ class AssociationClass(Association):
         ...,
         description="Ссылка на связанный класс (содержит атрибуты/операции).",
     )
+
+
+class TemplateBinding(BaseModel):
+    """Подстановка параметров шаблона.
+
+    Связывает конкретный bound element с шаблоном и хранит фактические
+    значения параметров, например `T = User`.
+    """
+    bound_element: Class = Field(..., description="Классификатор, использующий шаблон.")
+    template: Class = Field(..., description="Шаблонный классификатор.")
+    substitutions: Dict[str, str] = Field(
+        default_factory=dict,
+        description="Подстановки формальных параметров шаблона.",
+    )
+
+    @model_validator(mode="after")
+    def _must_have_substitutions(self) -> "TemplateBinding":
+        if not self.substitutions:
+            raise ValueError("Подстановка шаблона должна содержать хотя бы один параметр")
+        return self

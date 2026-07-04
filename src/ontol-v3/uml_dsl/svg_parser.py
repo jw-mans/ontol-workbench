@@ -34,8 +34,8 @@ from .models import (
     TemplateParameter,
 )
 from .relationships import (
-    Association, AssociationEnd, Dependency, 
-    Generalization, Realization,
+    Association, AssociationEnd, Dependency,
+    Generalization, Realization, TemplateBinding,
 )
 from .diagram import ClassDiagram, ClassPosition
 
@@ -467,7 +467,47 @@ def parse_svg_to_diagram(svg_content: str, *, validate: bool = True) -> ParseRes
 
         diagram.add_association(assoc)
     
-    # 3. Парсим зависимости
+    # 3. Парсим подстановки шаблонов
+    for elem in root.findall('.//*[@data-type="template-binding"]'):
+        bound_name = elem.get('data-bound-element')
+        template_name = elem.get('data-template')
+
+        if not bound_name or not template_name:
+            warnings.append("Template binding without data-bound-element/data-template ignored")
+            continue
+
+        bound_element = diagram.classifiers.get(bound_name)
+        template = diagram.classifiers.get(template_name)
+
+        if not isinstance(bound_element, Class):
+            errors.append(f"Template binding: bound element '{bound_name}' не найден")
+            continue
+        if not isinstance(template, Class):
+            errors.append(f"Template binding: template '{template_name}' не найден")
+            continue
+
+        substitutions = {
+            sub.get("data-formal") or "": sub.get("data-actual") or ""
+            for sub in _indexed(elem.findall('./*[@data-type="template-substitution"]'))
+        }
+        substitutions = {
+            formal: actual
+            for formal, actual in substitutions.items()
+            if formal and actual
+        }
+
+        try:
+            diagram.add_template_binding(
+                TemplateBinding(
+                    bound_element=bound_element,
+                    template=template,
+                    substitutions=substitutions,
+                )
+            )
+        except (ValueError, IndexError, ValidationError) as e:
+            errors.append(f"Template binding '{bound_name}->{template_name}' is invalid: {e}")
+
+    # 4. Парсим зависимости
     for elem in root.findall('.//*[@data-type="dependency"]'):
         src = elem.get('data-src')
         tgt = elem.get('data-tgt')
