@@ -24,6 +24,11 @@ examples
 images
 docs
 build.sh
+# Демо/артефакты движков
+src/ontol-v3/examples
+src/ontol-v3/output
+src/ontol-v3/tests
+**/node_modules
 
 # Локальные данные/секреты
 *.db

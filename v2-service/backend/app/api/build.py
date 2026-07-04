@@ -30,18 +30,31 @@ async def build(
     статусом 200 — редактору удобнее показать их, чем ловить HTTP-ошибку.
     """
     redis = request.app.state.redis
-    job = await redis.enqueue_job(RENDER_BUILD, str(project.id), data.entry)
-    if job is None:
+
+    # Один активный билд на проект: 
+    # 1. короткий Redis-лок (SET NX EX) схлопывает спам-клики и 
+    #   параллельные сборки одного проекта; 
+    # 2. Лок самоочищается по TTL, если API упадёт посреди билда; 
+    # 3. каждая сборка — свежая (уникальный job id), без риска 
+    #   отдать устаревший кэш результата.
+    
+    lock_key = f'build:lock:{project.id}'
+    if not await redis.set(
+        lock_key, '1', ex=settings.build_timeout_seconds + 10, nx=True
+    ):
         raise HTTPException(status.HTTP_409_CONFLICT, 'Build already in progress')
     try:
+        job = await redis.enqueue_job(RENDER_BUILD, str(project.id), data.entry)
         return await job.result(
             timeout=settings.build_timeout_seconds, poll_delay=0.2
         )
     except asyncio.TimeoutError:
-        raise HTTPException(
-            status.HTTP_504_GATEWAY_TIMEOUT, 'Build timed out'
-        )
+        raise HTTPException(status.HTTP_504_GATEWAY_TIMEOUT, 'Build timed out')
+    except HTTPException:
+        raise
     except Exception as error:  # noqa: BLE001
         raise HTTPException(
             status.HTTP_500_INTERNAL_SERVER_ERROR, f'Build failed: {error}'
         )
+    finally:
+        await redis.delete(lock_key)

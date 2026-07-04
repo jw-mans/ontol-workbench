@@ -1,6 +1,6 @@
 """Общие фикстуры тестов backend.
 
-БД — in-memory SQLite (StaticPool, одно соединение → данные живут в рамках теста);
+БД — in-memory SQLite (StaticPool, одно соединение -> данные живут в рамках теста);
 внешний Postgres не нужен. Модели ontol используют кроссбазовый GUID, поэтому
 схема создаётся и на SQLite. Запросы к API идут in-process через ASGITransport.
 """
@@ -80,7 +80,7 @@ async def other_client(session_maker):
         yield c
 
 
-# --- Фейковый Redis/очередь для тестов эндпоинтов сборки и AI --------------- #
+# Фейковый Redis&очередь для тестов эндпоинтов сборки и AI
 class FakeJob:
     def __init__(self, result):
         self._result = result
@@ -95,10 +95,22 @@ class FakeRedis:
     def __init__(self):
         self.result: dict = {}
         self.calls: list[tuple] = []
+        self._store: dict = {}  # для лока сборки (SET NX / DELETE)
 
     async def enqueue_job(self, name, *args):
         self.calls.append((name, args))
         return FakeJob(self.result)
+
+    async def set(self, key, value, ex=None, nx=False):
+        if nx and key in self._store:
+            return None
+        self._store[key] = value
+        return True
+
+    async def delete(self, *keys):
+        for k in keys:
+            self._store.pop(k, None)
+        return len(keys)
 
 
 @pytest.fixture

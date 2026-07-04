@@ -10,6 +10,12 @@ RUN apt-get update \
     && apt-get install -y --no-install-recommends graphviz \
     && rm -rf /var/lib/apt/lists/*
 
+# Backend-зависимости меняются редко — ставим их ПЕРВЫМИ (до кода движков и
+# бэкенда), чтобы правки в src/ не инвалидировали этот тяжёлый слой. Порядок
+# COPY→RUN важен для кэша слоёв Docker (быстрые пересборки на слабом интернете).
+COPY v2-service/backend/requirements.txt ./backend-requirements.txt
+RUN pip install --no-cache-dir -r backend-requirements.txt
+
 # Два независимых движка, каждый со своим pyproject: v1 (`ontol`) в src/ontol-v1,
 # v3 (`uml_dsl`) в src/ontol-v3. Ставим как editable-пакеты. AI-стек (тяжёлый
 # langchain) — опциональная экстра `[ai]` у v1, включается build-arg INSTALL_AI=true
@@ -22,9 +28,6 @@ RUN if [ "$INSTALL_AI" = "true" ]; then \
         pip install --no-cache-dir -e ./src/ontol-v1; \
     fi \
     && pip install --no-cache-dir -e ./src/ontol-v3
-
-COPY v2-service/backend/requirements.txt ./backend-requirements.txt
-RUN pip install --no-cache-dir -r backend-requirements.txt
 
 COPY v2-service/backend ./backend
 WORKDIR /app/backend

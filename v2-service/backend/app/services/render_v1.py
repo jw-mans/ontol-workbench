@@ -13,6 +13,7 @@ import tempfile
 
 from ontol import JSONSerializer, Parser, PlantUML, Project
 
+from app.config import settings
 from app.services.render import BuildResult
 
 _ANSI_RE = re.compile(r'\x1b\[[0-9;]*m')
@@ -45,7 +46,9 @@ def _render(project: Project, entry: str, plantuml_url: str) -> BuildResult:
         return BuildResult(ok=False, error=str(error))
 
     json_text = JSONSerializer().serialize(ontology)
-    plantuml = PlantUML(url=plantuml_url)
+    plantuml = PlantUML(
+        url=plantuml_url, timeout=settings.plantuml_timeout_seconds
+    )
     puml_text = plantuml.generate(ontology)
 
     png_url: str | None = None

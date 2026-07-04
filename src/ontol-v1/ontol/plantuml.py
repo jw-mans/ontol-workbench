@@ -19,8 +19,9 @@ from ontol import (
 class PlantUML:
     SERVER_URL: str = 'http://www.plantuml.com/plantuml/png/'
 
-    def __init__(self, url=SERVER_URL):
+    def __init__(self, url=SERVER_URL, timeout: float | None = None):
         self.url = url
+        self.timeout = timeout
 
     def generate(self, ontology: Ontology) -> str:
         return self._generate_base(ontology)
@@ -246,7 +247,6 @@ class PlantUML:
             f'  {function.label}\n}}'
         )
 
-    # UML class-diagram connector for each relationship type (forward direction).
     _CLASS_DIAGRAM_ARROWS: dict = {
         RelationshipType.DEPENDENCE: '..>',
         RelationshipType.ASSOCIATION: '--',
@@ -281,7 +281,7 @@ class PlantUML:
                 encoded_text += self.__encode3bytes(data[i], data[i + 1], data[i + 2])
 
         url = f'{self.url}{encoded_text}'
-        response = requests.get(url)
+        response = requests.get(url, timeout=self.timeout)
         response.raise_for_status()
 
         if response.status_code == 200:

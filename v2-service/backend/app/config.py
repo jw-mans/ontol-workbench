@@ -25,6 +25,9 @@ class Settings(BaseSettings):
 
     # База URL своего PlantUML-сервера (PNG-эндпоинт), для рендера диаграмм.
     plantuml_url: str = 'http://localhost:8080/png/'
+    # Таймаут HTTP-запроса к PlantUML: падаем быстро, а не съедаем весь build_timeout,
+    # если сервер завис/недоступен.
+    plantuml_timeout_seconds: int = 20
 
     # Redis для очереди фоновых задач (arq).
     redis_url: str = 'redis://localhost:6379/0'

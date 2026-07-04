@@ -80,6 +80,13 @@ assert ai_hierarchy.__name__ == AI_HIERARCHY
 class WorkerSettings:
     functions = [render_build, ai_hierarchy]
     redis_settings = redis_settings()
-    # Раз в N секунд воркер пишет в Redis health-check ключ; его читает
-    # `arq app.worker.WorkerSettings --check` (healthcheck контейнера).
+    # Раз в N секунд воркер пишет в Redis health-check ключ; 
+    # его читает `arq app.worker.WorkerSettings --check` (healthcheck контейнера).
     health_check_interval = 30
+    # Результат билда (инлайн-SVG / base64-PNG) тяжёлый — API забирает его сразу,
+    # поэтому храним в Redis недолго, чтобы очередь не пухла.
+    keep_result = 60
+    # Рендер CPU-bound: много одновременных задач в одном процессе лишь толкаются
+    # об GIL. Держим на процесс немного, а пропускную способность растим репликами
+    # воркера (WORKER_REPLICAS в docker-compose).
+    max_jobs = 4
