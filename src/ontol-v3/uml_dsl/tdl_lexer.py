@@ -8,6 +8,7 @@ from typing import Dict, List, Optional
 
 class TokenKind(Enum):
     КЛАСС = "КЛАСС"
+    ИНТЕРФЕЙС = "ИНТЕРФЕЙС"
     ПЕРЕЧИСЛЕНИЕ = "ПЕРЕЧИСЛЕНИЕ"
     КОНЕЦ = "КОНЕЦ"
     АБСТРАКТНЫЙ = "АБСТРАКТНЫЙ"
@@ -73,6 +74,7 @@ class TokenKind(Enum):
 
 KEYWORDS: Dict[str, TokenKind] = {
     "класс": TokenKind.КЛАСС,
+    "интерфейс": TokenKind.ИНТЕРФЕЙС,
     "перечисление": TokenKind.ПЕРЕЧИСЛЕНИЕ,
     "конец": TokenKind.КОНЕЦ,
     "абстрактный": TokenKind.АБСТРАКТНЫЙ,

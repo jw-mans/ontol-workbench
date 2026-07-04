@@ -16,6 +16,7 @@ from .tdl_ast import (
     EnumDecl,
     FixCmd,
     GeneralizationDecl,
+    InterfaceDecl,
     LayoutBlock,
     OperationLine,
     RealizationDecl, ParameterLine,
@@ -222,13 +223,7 @@ class Parser:
             is_leaf=is_leaf,
         )
 
-    def _parse_class(self) -> ClassDecl:
-        self.expect(TokenKind.КЛАСС)
-        name = self.expect_ident()
-        is_abstract = False
-        if self.at(TokenKind.АБСТРАКТНЫЙ):
-            self.advance()
-            is_abstract = True
+    def _parse_class_members(self) -> tuple[List[AttributeLine], List[OperationLine]]:
         attrs: List[AttributeLine] = []
         ops: List[OperationLine] = []
         if self.at(TokenKind.АТРИБУТЫ):
@@ -239,9 +234,27 @@ class Parser:
             self.advance()
             while self.at(TokenKind.PLUS) or self.at(TokenKind.MINUS) or self.at(TokenKind.HASH) or self.at(TokenKind.TILDE) or self.at(TokenKind.IDENT):
                 ops.append(self._parse_operation_line())
+        return attrs, ops
+
+    def _parse_class(self) -> ClassDecl:
+        self.expect(TokenKind.КЛАСС)
+        name = self.expect_ident()
+        is_abstract = False
+        if self.at(TokenKind.АБСТРАКТНЫЙ):
+            self.advance()
+            is_abstract = True
+        attrs, ops = self._parse_class_members()
         self.expect(TokenKind.КОНЕЦ)
         self.expect(TokenKind.КЛАСС)
         return ClassDecl(name=name, is_abstract=is_abstract, attributes=attrs, operations=ops)
+
+    def _parse_interface(self) -> InterfaceDecl:
+        self.expect(TokenKind.ИНТЕРФЕЙС)
+        name = self.expect_ident()
+        attrs, ops = self._parse_class_members()
+        self.expect(TokenKind.КОНЕЦ)
+        self.expect(TokenKind.ИНТЕРФЕЙС)
+        return InterfaceDecl(name=name, attributes=attrs, operations=ops)
 
     def _parse_generalization(self) -> GeneralizationDecl:
         self.expect(TokenKind.ОБОБЩЕНИЕ)
@@ -413,6 +426,8 @@ class Parser:
                 break
             if self.at(TokenKind.КЛАСС):
                 doc.declarations.append(self._parse_class())
+            elif self.at(TokenKind.ИНТЕРФЕЙС):
+                doc.declarations.append(self._parse_interface())
             elif self.at(TokenKind.ПЕРЕЧИСЛЕНИЕ):
                 doc.declarations.append(self._parse_enum())
             elif self.at(TokenKind.ОБОБЩЕНИЕ):

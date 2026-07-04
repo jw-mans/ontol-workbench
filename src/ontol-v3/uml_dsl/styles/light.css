@@ -39,6 +39,11 @@ svg.uml-diagram {
   stroke: #9d3f2f;
 }
 
+.uml-kind-badge-i {
+  fill: #c9d7ff;
+  stroke: #4a61a8;
+}
+
 .uml-kind-badge-text {
   fill: #000000;
 }

@@ -691,6 +691,9 @@ class Class(Classifier):
             tpl_w = self._measure_text_width(tpl_text) + p * 2
             tpl_h = lh + p
 
+        class_kind = "interface" if self.stereotype == Stereotype.INTERFACE else ("template" if tpl_params else "class")
+        badge_kind = "I" if class_kind == "interface" else "C"
+
         title_text_w = max((self._measure_text_width(l) for l in title_lines), default=0)
         body_text_w = max((self._measure_text_width(self._feature_display_text(l)) for l in attr_lines + op_lines), default=0)
         width = max(
@@ -713,7 +716,7 @@ class Class(Classifier):
             _svg_data("data-id", cid),
             _svg_data("data-name", self.name),
             f'data-type="class"',
-            _svg_data("data-class-kind", "template" if tpl_params else "class"),
+            _svg_data("data-class-kind", class_kind),
             _svg_data("data-visibility", self.visibility.value if self.visibility else ""),
             _svg_data("data-stereotype", self.stereotype.value if self.stereotype else ""),
             _svg_data("data-abstract", _svg_bool(self.is_abstract)),
@@ -756,7 +759,7 @@ class Class(Classifier):
 
         badge_x = p + SVG_BADGE_RADIUS
         badge_y = title_h / 2
-        parts.append(self._render_kind_badge(badge_x, badge_y, "C"))
+        parts.append(self._render_kind_badge(badge_x, badge_y, badge_kind))
         title_text_x = badge_x + SVG_BADGE_RADIUS + SVG_BADGE_GAP
 
         for i, line in enumerate(title_lines):
@@ -850,6 +853,9 @@ class Class(Classifier):
         if kind == "E":
             fill = "#f29b86"
             stroke = "#9d3f2f"
+        elif kind == "I":
+            fill = "#c9d7ff"
+            stroke = "#4a61a8"
         else:
             fill = "#b8d9bf"
             stroke = "#3e7d4a"
@@ -970,6 +976,52 @@ class Class(Classifier):
         parts.append("</g>")
 
         return "\n".join(parts)
+
+# ──────────────────────────────────────────────────────────────────────────
+# Interface — интерфейс UML (§3.2.4)
+# ──────────────────────────────────────────────────────────────────────────
+
+
+class Interface(Class):
+    """Interface — специальный классификатор с контрактом операций и атрибутов.
+
+    В учебнике интерфейс описан как абстрактный класс, у которого все
+    составляющие являются абстрактными. Поэтому объект хранится как `Class`
+    со стереотипом `interface`, но имеет отдельный Python-тип для TDL и
+    обратной ретрансляции SVG в модель.
+    """
+    stereotype: Stereotype = Field(
+        default=Stereotype.INTERFACE,
+        description="Фиксированный стереотип интерфейса.",
+    )
+    is_abstract: bool = Field(
+        default=True,
+        description="Интерфейс не имеет непосредственных экземпляров.",
+    )
+
+    @model_validator(mode="before")
+    @classmethod
+    def _force_interface_data(cls, data):
+        if not isinstance(data, dict):
+            return data
+
+        data = dict(data)
+        data["stereotype"] = Stereotype.INTERFACE
+        data["is_abstract"] = True
+
+        operations = []
+        for operation in data.get("operations") or []:
+            if isinstance(operation, Operation):
+                operations.append(operation.model_copy(update={"is_abstract": True}))
+            elif isinstance(operation, dict):
+                patched = dict(operation)
+                patched["is_abstract"] = True
+                operations.append(patched)
+            else:
+                operations.append(operation)
+        data["operations"] = operations
+        return data
+
 
 # ──────────────────────────────────────────────────────────────────────────
 # Template — параметризованный класс (шаблон)

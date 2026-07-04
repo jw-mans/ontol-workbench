@@ -5,7 +5,7 @@ from typing import Optional
 
 from .diagram import ClassDiagram, ClassPosition
 from .enums import Changeability, DependencyStereotype, Visibility, Stereotype, AggregationKind
-from .models import Attribute, Class, MultiplicityRange, Operation, Parameter
+from .models import Attribute, Class, Interface, MultiplicityRange, Operation, Parameter
 from .relationships import Association, AssociationEnd, Dependency, Generalization, Realization
 from .tdl_ast import (
     AlignCmd,
@@ -18,6 +18,7 @@ from .tdl_ast import (
     Document,
     FixCmd,
     GeneralizationDecl,
+    InterfaceDecl,
     RealizationDecl,
 )
 
@@ -64,6 +65,55 @@ def _dep_stereotype(s: Optional[str]):
     return m.get(s.lower())
 
 
+def _build_attributes(decl_attrs):
+    attrs = []
+    for a in decl_attrs:
+        mult = _parse_multiplicity(a.multiplicity)
+        change = Changeability.READ_ONLY if a.only_read else None
+        initial = a.default
+        if initial and a.type_ and a.type_.lower() in ("цел", "int", "integer"):
+            try:
+                initial = int(initial)
+            except ValueError:
+                pass
+        attrs.append(
+            Attribute(
+                name=a.name,
+                visibility=_visibility(a.visibility),
+                type_=_map_type(a.type_),
+                multiplicity=mult,
+                initial_value=initial,
+                changeability=change,
+            )
+        )
+    return attrs
+
+
+def _build_operations(decl_ops, *, force_abstract: bool = False):
+    ops = []
+    for o in decl_ops:
+        params = [
+            Parameter(
+                name=p.name,
+                type_=_map_type(p.type_),
+                default=p.default,
+            )
+            for p in o.params
+        ]
+        ops.append(
+            Operation(
+                name=o.name,
+                visibility=_visibility(o.visibility),
+                parameters=params,
+                return_type=_map_type(o.return_type),
+                is_abstract=force_abstract or o.is_abstract,
+                is_query=o.is_query,
+                is_leaf=o.is_leaf,
+            )
+        )
+    return ops
+
+
 def build_diagram(doc: Document, title: str = "Диаграмма TDL") -> ClassDiagram:
     diagram = ClassDiagram(title=title)
     # 1) Классы
@@ -83,54 +133,20 @@ def build_diagram(doc: Document, title: str = "Диаграмма TDL") -> Class
 
             diagram.add_classifier(enum_cls)
         if isinstance(decl, ClassDecl):
-            attrs = []
-            for a in decl.attributes:
-                mult = _parse_multiplicity(a.multiplicity)
-                change = Changeability.READ_ONLY if a.only_read else None
-                initial = a.default
-                if initial and a.type_ and a.type_.lower() in ("цел", "int", "integer"):
-                    try:
-                        initial = int(initial)
-                    except ValueError:
-                        pass
-                attrs.append(
-                    Attribute(
-                        name=a.name,
-                        visibility=_visibility(a.visibility),
-                        type_=_map_type(a.type_),
-                        multiplicity=mult,
-                        initial_value=initial,
-                        changeability=change,
-                    )
-                )
-            ops = []
-            for o in decl.operations:
-                params = [
-                    Parameter(
-                        name=p.name,
-                        type_=_map_type(p.type_),
-                        default=p.default,
-                    )
-                    for p in o.params
-                ]
-                ops.append(
-                    Operation(
-                        name=o.name,
-                        visibility=_visibility(o.visibility),
-                        parameters=params,
-                        return_type=_map_type(o.return_type),
-                        is_abstract=o.is_abstract,
-                        is_query=o.is_query,
-                        is_leaf=o.is_leaf,
-                    )
-                )
             cls = Class(
                 name=decl.name,
                 is_abstract=decl.is_abstract,
-                attributes=attrs,
-                operations=ops,
+                attributes=_build_attributes(decl.attributes),
+                operations=_build_operations(decl.operations),
             )
             diagram.add_classifier(cls)
+        if isinstance(decl, InterfaceDecl):
+            interface = Interface(
+                name=decl.name,
+                attributes=_build_attributes(decl.attributes),
+                operations=_build_operations(decl.operations, force_abstract=True),
+            )
+            diagram.add_classifier(interface)
 
     # 2) Отношения
     for decl in doc.declarations:

@@ -9,6 +9,7 @@ from uml_dsl import (
     Attribute,
     Class,
     ClassDiagram,
+    Interface,
     Multiplicity,
     MultiplicityRange,
     Operation,
@@ -33,6 +34,7 @@ from tests.helpers import (
     REALIZATION,
     class_block,
     enum_block,
+    interface_block,
 )
 
 
@@ -41,7 +43,7 @@ def relation_rich_tdl() -> str:
         class_block("A")
         + class_block("B")
         + class_block("C")
-        + class_block("I")
+        + interface_block("I")
         + f"{ASSOCIATION} A [1] : owner -- B [0..*] : items {NAME} \"owns\"\n"
         + f"{AGGREGATION} A -- C\n"
         + f"{DEPENDENCY} B -> C use\n"
@@ -65,6 +67,8 @@ def test_render_embeds_theme_edges_markers_and_multiplicities(require_dot):
     assert 'data-name="owns"' in svg
     assert 'data-end1-multiplicity="1"' in svg
     assert 'data-end2-multiplicity="0..*"' in svg
+    assert 'data-class-kind="interface"' in svg
+    assert 'uml-kind-badge-i' in svg
     assert 'marker-end="url(#triangle-empty)"' in svg
     assert 'marker-end="url(#arrow-filled)"' in svg
     assert 'marker-start="url(#diamond-empty)"' in svg
@@ -87,6 +91,7 @@ def test_rendered_svg_can_be_parsed_back_to_diagram(require_dot):
     assert result.success, result.errors
     assert result.diagram is not None
     assert {"A", "B", "C", "I"} <= set(result.diagram.classifiers)
+    assert isinstance(result.diagram.classifiers["I"], Interface)
     assert len(result.diagram.associations) == 2
     assert len(result.diagram.dependencies) == 1
     assert len(result.diagram.generalizations) == 1

@@ -39,6 +39,12 @@ class ClassDecl:
     operations: List[OperationLine] = field(default_factory=list)
 
 @dataclass
+class InterfaceDecl:
+    name: str
+    attributes: List[AttributeLine] = field(default_factory=list)
+    operations: List[OperationLine] = field(default_factory=list)
+
+@dataclass
 class EnumDecl:
     name: str
     literals: List[str] = field(default_factory=list)
@@ -115,6 +121,7 @@ class LayoutBlock:
 
 Declaration = Union[
     ClassDecl,
+    InterfaceDecl,
     EnumDecl,
     GeneralizationDecl,
     DependencyDecl,

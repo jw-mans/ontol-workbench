@@ -3,6 +3,7 @@ from __future__ import annotations
 import pytest
 
 from uml_dsl.enums import AggregationKind, Changeability, DependencyStereotype, Stereotype, Visibility
+from uml_dsl.models import Interface
 from uml_dsl.tdl_lexer import LexerError, TokenKind, lex
 from uml_dsl.tdl_parser import ParseError, parse_tdl
 
@@ -14,19 +15,23 @@ from tests.helpers import (
     DEPENDENCY,
     END,
     GENERALIZATION,
+    INTERFACE,
     NAME,
     OPS,
+    REALIZATION,
     class_block,
     build,
     enum_block,
+    interface_block,
 )
 
 
 def test_lexer_recognizes_tdl_keywords_and_relation_tokens():
-    tokens = lex(f"{CLASS} Store\n{END} {CLASS}\n{ASSOCIATION} Store -- Item\n")
+    tokens = lex(f"{CLASS} Store\n{END} {CLASS}\n{INTERFACE} Readable\n{END} {INTERFACE}\n{ASSOCIATION} Store -- Item\n")
     kinds = [token.kind for token in tokens]
 
     assert TokenKind(CLASS) in kinds
+    assert TokenKind(INTERFACE) in kinds
     assert TokenKind(END) in kinds
     assert TokenKind(ASSOCIATION) in kinds
     assert TokenKind.DASH in kinds
@@ -98,6 +103,37 @@ def test_builds_classes_enum_features_and_relationships():
     composition = diagram.associations[1]
     assert composition.ends[0].aggregation == AggregationKind.COMPOSITION
     assert diagram.dependencies[0].stereotype == DependencyStereotype.USE
+
+
+def test_builds_interface_and_realization():
+    tdl = (
+        class_block("Repository")
+        + interface_block(
+            "Readable",
+            f"""
+{OPS}
+  + get(id: int): String
+""",
+        )
+        + f"{REALIZATION} Repository -> Readable\n"
+    )
+
+    diagram = build(tdl)
+    diagram.validate_all()
+
+    readable = diagram.classifiers["Readable"]
+    assert isinstance(readable, Interface)
+    assert readable.stereotype == Stereotype.INTERFACE
+    assert readable.is_abstract is True
+    assert readable.operations[0].is_abstract is True
+    assert diagram.realizations[0].interface_.name == "Readable"
+
+
+def test_realization_requires_interface_target():
+    tdl = class_block("Repository") + class_block("Readable") + f"{REALIZATION} Repository -> Readable\n"
+
+    with pytest.raises(ValueError, match="интерфейс"):
+        build(tdl)
 
 
 def test_validation_rejects_inheritance_cycles():
