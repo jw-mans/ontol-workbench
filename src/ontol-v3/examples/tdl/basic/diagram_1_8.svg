@@ -1,0 +1,468 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1778" height="463" viewBox="0 0 1778 463" class="uml-diagram" data-theme="yellow">
+
+    <defs>
+      <linearGradient id="uml-yellow-title-gradient" x1="0%" y1="0%" x2="0%" y2="100%">
+        <stop offset="0%" stop-color="#f0c955"/>
+        <stop offset="50%" stop-color="#ffebc2"/>
+        <stop offset="100%" stop-color="#f0c955"/>
+      </linearGradient>
+
+      <linearGradient id="uml-yellow-section-gradient" x1="0%" y1="0%" x2="0%" y2="100%">
+        <stop offset="0%" stop-color="#f5d56b"/>
+        <stop offset="50%" stop-color="#fff1cf"/>
+        <stop offset="100%" stop-color="#f0c955"/>
+      </linearGradient>
+
+      <marker id="diamond-empty" markerWidth="12" markerHeight="8" viewBox="0 0 12 8" refX="0" refY="4" orient="auto" markerUnits="userSpaceOnUse">
+        <path class="uml-marker uml-marker-hollow" d="M 0 4 L 6 0 L 12 4 L 6 8 Z" fill="white" stroke="#181818" stroke-width="1"/>
+      </marker>
+
+      <marker id="diamond-filled" markerWidth="12" markerHeight="8" viewBox="0 0 12 8" refX="0" refY="4" orient="auto" markerUnits="userSpaceOnUse">
+        <path class="uml-marker uml-marker-filled" d="M 0 4 L 6 0 L 12 4 L 6 8 Z" fill="#181818" stroke="#181818" stroke-width="1"/>
+      </marker>
+
+      <marker id="diamond-empty-end" markerWidth="12" markerHeight="8" viewBox="0 0 12 8" refX="12" refY="4" orient="auto" markerUnits="userSpaceOnUse">
+        <path class="uml-marker uml-marker-hollow" d="M 0 4 L 6 0 L 12 4 L 6 8 Z" fill="white" stroke="#181818" stroke-width="1"/>
+      </marker>
+
+      <marker id="diamond-filled-end" markerWidth="12" markerHeight="8" viewBox="0 0 12 8" refX="12" refY="4" orient="auto" markerUnits="userSpaceOnUse">
+        <path class="uml-marker uml-marker-filled" d="M 0 4 L 6 0 L 12 4 L 6 8 Z" fill="#181818" stroke="#181818" stroke-width="1"/>
+      </marker>
+
+      <marker id="arrow-filled" markerWidth="9" markerHeight="8" viewBox="0 0 9 8" refX="9" refY="4" orient="auto" markerUnits="userSpaceOnUse">
+        <path class="uml-marker uml-marker-filled" d="M 9 4 L 0 0 L 4 4 L 0 8 Z" fill="#181818" stroke="#181818" stroke-width="1"/>
+      </marker>
+
+      <marker id="triangle-empty" markerWidth="18" markerHeight="12" viewBox="0 0 18 12" refX="18" refY="6" orient="auto" markerUnits="userSpaceOnUse">
+        <path class="uml-marker uml-marker-hollow" d="M 18 6 L 0 0 L 0 12 Z" fill="white" stroke="#181818" stroke-width="1"/>
+      </marker>
+    </defs>
+
+<style id="uml-theme-yellow" type="text/css"><![CDATA[
+svg.uml-diagram {
+  background: #ffffff;
+}
+
+.uml-class-title {
+  fill: url(#uml-yellow-title-gradient);
+}
+
+.uml-class-section,
+.uml-enum-body {
+  fill: url(#uml-yellow-section-gradient);
+}
+
+.uml-class-outline,
+.uml-class-title,
+.uml-class-section,
+.uml-enum-body,
+.uml-enum-title,
+.uml-template-box {
+  stroke: #d7a43c;
+  stroke-width: 2;
+}
+
+.uml-class-title-text,
+.uml-feature-text,
+.uml-template-text,
+.uml-edge-label,
+.uml-multiplicity {
+  fill: #000000;
+}
+
+.uml-kind-badge-c {
+  fill: #f0c955;
+  stroke: #9b6b18;
+}
+
+.uml-kind-badge-e {
+  fill: #f29b86;
+  stroke: #9d3f2f;
+}
+
+.uml-kind-badge-text {
+  fill: #000000;
+}
+
+.uml-attribute-bullet {
+  fill: #ffffff;
+  stroke: #3aa76d;
+}
+
+.uml-operation-bullet {
+  fill: #3aa76d;
+  stroke: #2a7d50;
+}
+
+.uml-edge-line {
+  stroke: #000000;
+  stroke-width: 1;
+}
+
+.uml-marker-filled {
+  fill: #000000;
+  stroke: #000000;
+}
+
+.uml-marker-hollow {
+  fill: #ffffff;
+  stroke: #000000;
+}
+
+]]></style>
+
+<g class="uml-edge"
+   data-type="generalization"
+   data-src="Монотонная"
+   data-tgt="Функция"
+   data-substitutable="true">
+  <path class="uml-edge-line" d="M498.8,248.0 C565.1,265.6 673.1,294.4 739.5,312.0" fill="none" stroke="#181818" stroke-width="1.0" marker-end="url(#triangle-empty)"/>
+</g>
+
+
+<g class="uml-edge"
+   data-type="generalization"
+   data-src="СтрМонВозр"
+   data-tgt="Монотонная"
+   data-substitutable="true">
+  <path class="uml-edge-line" d="M289.9,151.0 C323.4,168.7 377.8,197.4 411.3,215.1" fill="none" stroke="#181818" stroke-width="1.0" marker-end="url(#triangle-empty)"/>
+</g>
+
+
+<g class="uml-edge"
+   data-type="generalization"
+   data-src="СтрМонУбыв"
+   data-tgt="Монотонная"
+   data-substitutable="true">
+  <path class="uml-edge-line" d="M440.6,150.8 C440.6,168.5 440.6,197.6 440.6,215.3" fill="none" stroke="#181818" stroke-width="1.0" marker-end="url(#triangle-empty)"/>
+</g>
+
+
+<g class="uml-edge"
+   data-type="generalization"
+   data-src="МонВозр"
+   data-tgt="Монотонная"
+   data-substitutable="true">
+  <path class="uml-edge-line" d="M590.5,151.0 C557.2,168.7 503.0,197.4 469.8,215.1" fill="none" stroke="#181818" stroke-width="1.0" marker-end="url(#triangle-empty)"/>
+</g>
+
+
+<g class="uml-edge"
+   data-type="generalization"
+   data-src="МонУбыв"
+   data-tgt="Монотонная"
+   data-substitutable="true">
+  <path class="uml-edge-line" d="M140.1,151.0 C206.8,168.7 315.4,197.4 382.2,215.1" fill="none" stroke="#181818" stroke-width="1.0" marker-end="url(#triangle-empty)"/>
+</g>
+
+
+<g class="uml-edge"
+   data-type="generalization"
+   data-src="Минимальный"
+   data-tgt="Элемент"
+   data-substitutable="true">
+  <path class="uml-edge-line" d="M980.6,247.8 C980.6,265.5 980.6,294.6 980.6,312.3" fill="none" stroke="#181818" stroke-width="1.0" marker-end="url(#triangle-empty)"/>
+</g>
+
+
+<g class="uml-edge"
+   data-type="generalization"
+   data-src="Наименьший"
+   data-tgt="Минимальный"
+   data-substitutable="true">
+  <path class="uml-edge-line" d="M979.8,150.8 C980.0,168.5 980.3,197.6 980.5,215.3" fill="none" stroke="#181818" stroke-width="1.0" marker-end="url(#triangle-empty)"/>
+</g>
+
+
+<g class="uml-edge"
+   data-type="generalization"
+   data-src="Максимальный"
+   data-tgt="Элемент"
+   data-substitutable="true">
+  <path class="uml-edge-line" d="M1210.0,248.0 C1159.0,265.6 1076.2,294.4 1025.2,312.0" fill="none" stroke="#181818" stroke-width="1.0" marker-end="url(#triangle-empty)"/>
+</g>
+
+
+<g class="uml-edge"
+   data-type="generalization"
+   data-src="Наибольший"
+   data-tgt="Максимальный"
+   data-substitutable="true">
+  <path class="uml-edge-line" d="M1324.3,150.8 C1308.8,168.5 1283.4,197.6 1267.9,215.3" fill="none" stroke="#181818" stroke-width="1.0" marker-end="url(#triangle-empty)"/>
+</g>
+
+
+<g class="uml-edge"
+   data-type="dependency"
+   data-src="ОтнПорядка"
+   data-tgt="Множество"
+   data-stereotype="">
+  <path class="uml-edge-line" d="M798.5,150.8 C798.3,168.5 798.0,197.6 797.8,215.3" fill="none" stroke="#181818" stroke-width="1.0" stroke-dasharray="7,7" marker-end="url(#arrow-filled)"/>
+
+</g>
+
+
+<g class="uml-edge"
+   data-type="dependency"
+   data-src="Множество"
+   data-tgt="Функция"
+   data-stereotype="">
+  <path class="uml-edge-line" d="M781.1,247.8 C774.1,265.5 774.1,294.6 781.1,312.3" fill="none" stroke="#181818" stroke-width="1.0" stroke-dasharray="7,7" marker-end="url(#arrow-filled)"/>
+
+</g>
+
+
+<g class="uml-edge"
+   data-type="dependency"
+   data-src="Функция"
+   data-tgt="Множество"
+   data-stereotype="">
+  <path class="uml-edge-line" d="M814.1,312.3 C821.1,294.6 821.1,265.5 814.1,247.8" fill="none" stroke="#181818" stroke-width="1.0" stroke-dasharray="7,7" marker-end="url(#arrow-filled)"/>
+
+</g>
+
+
+<g class="uml-edge"
+   data-type="dependency"
+   data-src="Монотонная"
+   data-tgt="Непрерывная"
+   data-stereotype="">
+  <path class="uml-edge-line" d="M440.6,247.8 C440.6,265.5 440.6,294.6 440.6,312.3" fill="none" stroke="#181818" stroke-width="1.0" stroke-dasharray="7,7" marker-end="url(#arrow-filled)"/>
+
+</g>
+
+
+<g class="uml-edge"
+   data-type="dependency"
+   data-src="Множество"
+   data-tgt="Элемент"
+   data-stereotype="">
+  <path class="uml-edge-line" d="M827.4,248.0 C861.5,265.6 916.8,294.4 950.8,312.0" fill="none" stroke="#181818" stroke-width="1.0" stroke-dasharray="7,7" marker-end="url(#arrow-filled)"/>
+
+</g>
+
+
+<g class="uml-edge"
+   data-type="dependency"
+   data-src="Элемент"
+   data-tgt="Супремум"
+   data-stereotype="">
+  <path class="uml-edge-line" d="M951.6,345.0 C918.5,362.6 864.7,391.3 831.6,409.0" fill="none" stroke="#181818" stroke-width="1.0" stroke-dasharray="7,7" marker-end="url(#arrow-filled)"/>
+
+</g>
+
+
+<g class="uml-edge"
+   data-type="dependency"
+   data-src="Элемент"
+   data-tgt="Инфимум"
+   data-stereotype="">
+  <path class="uml-edge-line" d="M980.6,344.8 C980.6,362.5 980.6,391.5 980.6,409.2" fill="none" stroke="#181818" stroke-width="1.0" stroke-dasharray="7,7" marker-end="url(#arrow-filled)"/>
+
+</g>
+
+
+<g class="uml-edge"
+   data-type="dependency"
+   data-src="Элемент"
+   data-tgt="НеподвТочка"
+   data-stereotype="">
+  <path class="uml-edge-line" d="M1010.4,345.0 C1044.5,362.6 1099.8,391.3 1133.8,409.0" fill="none" stroke="#181818" stroke-width="1.0" stroke-dasharray="7,7" marker-end="url(#arrow-filled)"/>
+
+</g>
+
+
+<g class="uml-edge"
+   data-type="dependency"
+   data-src="Линейное"
+   data-tgt="Частичное"
+   data-stereotype="">
+  <path class="uml-edge-line" d="M1591.3,53.8 C1574.7,71.6 1547.5,100.6 1530.9,118.3" fill="none" stroke="#181818" stroke-width="1.0" stroke-dasharray="7,7" marker-end="url(#arrow-filled)"/>
+
+</g>
+
+
+<g class="uml-edge"
+   data-type="dependency"
+   data-src="Линейное"
+   data-tgt="АлгТопСорт"
+   data-stereotype="">
+  <path class="uml-edge-line" d="M1620.1,53.8 C1636.9,71.6 1664.4,100.6 1681.2,118.3" fill="none" stroke="#181818" stroke-width="1.0" stroke-dasharray="7,7" marker-end="url(#arrow-filled)"/>
+
+</g>
+
+
+<g class="uml-edge"
+   data-type="dependency"
+   data-src="ВполнеУпорМнож"
+   data-tgt="Индукция"
+   data-stereotype="">
+  <path class="uml-edge-line" d="M1083.9,53.8 C1100.5,71.6 1127.8,100.6 1144.3,118.3" fill="none" stroke="#181818" stroke-width="1.0" stroke-dasharray="7,7" marker-end="url(#arrow-filled)"/>
+
+</g>
+
+
+<g class="uml-edge"
+   data-type="dependency"
+   data-src="ВполнеУпорМнож"
+   data-tgt="Наименьший"
+   data-stereotype="">
+  <path class="uml-edge-line" d="M1055.1,53.8 C1038.4,71.6 1010.8,100.6 994.0,118.3" fill="none" stroke="#181818" stroke-width="1.0" stroke-dasharray="7,7" marker-end="url(#arrow-filled)"/>
+
+</g>
+
+<g transform="translate(737,118)" class="uml-class" data-id="ОтнПорядка" data-name="ОтнПорядка" data-type="class" data-stereotype="" data-abstract="false" data-attributes-count="0" data-operations-count="0">
+<rect class="uml-class-title" x="0" y="0" width="122.0" height="32" fill="#e5e5e5"/>
+<rect class="uml-class-outline uml-class-title-outline" x="0" y="0" width="122.0" height="32" stroke="#999999" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+<circle class="uml-kind-badge uml-kind-badge-c" cx="19" cy="16.0" r="11" fill="#b8d9bf" stroke="#3e7d4a" stroke-width="1.5"/><text class="uml-kind-badge-text" x="19" y="20.0" text-anchor="middle" font-family="Arial" font-size="12" font-weight="700" fill="black">C</text>
+<text class="uml-class-title-text" x="38" y="20" text-anchor="start" fill="black" font-family="Arial" font-size="12" font-weight="500">ОтнПорядка</text>
+<rect class="uml-bbox" x="0" y="0" width="122.0" height="32" fill="none" stroke="none" pointer-events="all"/>
+</g>
+<g transform="translate(737,215)" class="uml-class" data-id="Множество" data-name="Множество" data-type="class" data-stereotype="" data-abstract="false" data-attributes-count="0" data-operations-count="0">
+<rect class="uml-class-title" x="0" y="0" width="120" height="32" fill="#e5e5e5"/>
+<rect class="uml-class-outline uml-class-title-outline" x="0" y="0" width="120" height="32" stroke="#999999" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+<circle class="uml-kind-badge uml-kind-badge-c" cx="19" cy="16.0" r="11" fill="#b8d9bf" stroke="#3e7d4a" stroke-width="1.5"/><text class="uml-kind-badge-text" x="19" y="20.0" text-anchor="middle" font-family="Arial" font-size="12" font-weight="700" fill="black">C</text>
+<text class="uml-class-title-text" x="38" y="20" text-anchor="start" fill="black" font-family="Arial" font-size="12" font-weight="500">Множество</text>
+<rect class="uml-bbox" x="0" y="0" width="120" height="32" fill="none" stroke="none" pointer-events="all"/>
+</g>
+<g transform="translate(737,312)" class="uml-class" data-id="Функция" data-name="Функция" data-type="class" data-stereotype="" data-abstract="false" data-attributes-count="0" data-operations-count="0">
+<rect class="uml-class-title" x="0" y="0" width="120" height="32" fill="#e5e5e5"/>
+<rect class="uml-class-outline uml-class-title-outline" x="0" y="0" width="120" height="32" stroke="#999999" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+<circle class="uml-kind-badge uml-kind-badge-c" cx="19" cy="16.0" r="11" fill="#b8d9bf" stroke="#3e7d4a" stroke-width="1.5"/><text class="uml-kind-badge-text" x="19" y="20.0" text-anchor="middle" font-family="Arial" font-size="12" font-weight="700" fill="black">C</text>
+<text class="uml-class-title-text" x="38" y="20" text-anchor="start" fill="black" font-family="Arial" font-size="12" font-weight="500">Функция</text>
+<rect class="uml-bbox" x="0" y="0" width="120" height="32" fill="none" stroke="none" pointer-events="all"/>
+</g>
+<g transform="translate(379,215)" class="uml-class" data-id="Монотонная" data-name="Монотонная" data-type="class" data-stereotype="" data-abstract="false" data-attributes-count="0" data-operations-count="0">
+<rect class="uml-class-title" x="0" y="0" width="122.0" height="32" fill="#e5e5e5"/>
+<rect class="uml-class-outline uml-class-title-outline" x="0" y="0" width="122.0" height="32" stroke="#999999" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+<circle class="uml-kind-badge uml-kind-badge-c" cx="19" cy="16.0" r="11" fill="#b8d9bf" stroke="#3e7d4a" stroke-width="1.5"/><text class="uml-kind-badge-text" x="19" y="20.0" text-anchor="middle" font-family="Arial" font-size="12" font-weight="700" fill="black">C</text>
+<text class="uml-class-title-text" x="38" y="20" text-anchor="start" fill="black" font-family="Arial" font-size="12" font-weight="500">Монотонная</text>
+<rect class="uml-bbox" x="0" y="0" width="122.0" height="32" fill="none" stroke="none" pointer-events="all"/>
+</g>
+<g transform="translate(376,312)" class="uml-class" data-id="Непрерывная" data-name="Непрерывная" data-type="class" data-stereotype="" data-abstract="false" data-attributes-count="0" data-operations-count="0">
+<rect class="uml-class-title" x="0" y="0" width="129.2" height="32" fill="#e5e5e5"/>
+<rect class="uml-class-outline uml-class-title-outline" x="0" y="0" width="129.2" height="32" stroke="#999999" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+<circle class="uml-kind-badge uml-kind-badge-c" cx="19" cy="16.0" r="11" fill="#b8d9bf" stroke="#3e7d4a" stroke-width="1.5"/><text class="uml-kind-badge-text" x="19" y="20.0" text-anchor="middle" font-family="Arial" font-size="12" font-weight="700" fill="black">C</text>
+<text class="uml-class-title-text" x="38" y="20" text-anchor="start" fill="black" font-family="Arial" font-size="12" font-weight="500">Непрерывная</text>
+<rect class="uml-bbox" x="0" y="0" width="129.2" height="32" fill="none" stroke="none" pointer-events="all"/>
+</g>
+<g transform="translate(199,118)" class="uml-class" data-id="СтрМонВозр" data-name="СтрМонВозр" data-type="class" data-stereotype="" data-abstract="false" data-attributes-count="0" data-operations-count="0">
+<rect class="uml-class-title" x="0" y="0" width="122.0" height="32" fill="#e5e5e5"/>
+<rect class="uml-class-outline uml-class-title-outline" x="0" y="0" width="122.0" height="32" stroke="#999999" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+<circle class="uml-kind-badge uml-kind-badge-c" cx="19" cy="16.0" r="11" fill="#b8d9bf" stroke="#3e7d4a" stroke-width="1.5"/><text class="uml-kind-badge-text" x="19" y="20.0" text-anchor="middle" font-family="Arial" font-size="12" font-weight="700" fill="black">C</text>
+<text class="uml-class-title-text" x="38" y="20" text-anchor="start" fill="black" font-family="Arial" font-size="12" font-weight="500">СтрМонВозр</text>
+<rect class="uml-bbox" x="0" y="0" width="122.0" height="32" fill="none" stroke="none" pointer-events="all"/>
+</g>
+<g transform="translate(379,118)" class="uml-class" data-id="СтрМонУбыв" data-name="СтрМонУбыв" data-type="class" data-stereotype="" data-abstract="false" data-attributes-count="0" data-operations-count="0">
+<rect class="uml-class-title" x="0" y="0" width="122.0" height="32" fill="#e5e5e5"/>
+<rect class="uml-class-outline uml-class-title-outline" x="0" y="0" width="122.0" height="32" stroke="#999999" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+<circle class="uml-kind-badge uml-kind-badge-c" cx="19" cy="16.0" r="11" fill="#b8d9bf" stroke="#3e7d4a" stroke-width="1.5"/><text class="uml-kind-badge-text" x="19" y="20.0" text-anchor="middle" font-family="Arial" font-size="12" font-weight="700" fill="black">C</text>
+<text class="uml-class-title-text" x="38" y="20" text-anchor="start" fill="black" font-family="Arial" font-size="12" font-weight="500">СтрМонУбыв</text>
+<rect class="uml-bbox" x="0" y="0" width="122.0" height="32" fill="none" stroke="none" pointer-events="all"/>
+</g>
+<g transform="translate(559,118)" class="uml-class" data-id="МонВозр" data-name="МонВозр" data-type="class" data-stereotype="" data-abstract="false" data-attributes-count="0" data-operations-count="0">
+<rect class="uml-class-title" x="0" y="0" width="120" height="32" fill="#e5e5e5"/>
+<rect class="uml-class-outline uml-class-title-outline" x="0" y="0" width="120" height="32" stroke="#999999" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+<circle class="uml-kind-badge uml-kind-badge-c" cx="19" cy="16.0" r="11" fill="#b8d9bf" stroke="#3e7d4a" stroke-width="1.5"/><text class="uml-kind-badge-text" x="19" y="20.0" text-anchor="middle" font-family="Arial" font-size="12" font-weight="700" fill="black">C</text>
+<text class="uml-class-title-text" x="38" y="20" text-anchor="start" fill="black" font-family="Arial" font-size="12" font-weight="500">МонВозр</text>
+<rect class="uml-bbox" x="0" y="0" width="120" height="32" fill="none" stroke="none" pointer-events="all"/>
+</g>
+<g transform="translate(21,118)" class="uml-class" data-id="МонУбыв" data-name="МонУбыв" data-type="class" data-stereotype="" data-abstract="false" data-attributes-count="0" data-operations-count="0">
+<rect class="uml-class-title" x="0" y="0" width="120" height="32" fill="#e5e5e5"/>
+<rect class="uml-class-outline uml-class-title-outline" x="0" y="0" width="120" height="32" stroke="#999999" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+<circle class="uml-kind-badge uml-kind-badge-c" cx="19" cy="16.0" r="11" fill="#b8d9bf" stroke="#3e7d4a" stroke-width="1.5"/><text class="uml-kind-badge-text" x="19" y="20.0" text-anchor="middle" font-family="Arial" font-size="12" font-weight="700" fill="black">C</text>
+<text class="uml-class-title-text" x="38" y="20" text-anchor="start" fill="black" font-family="Arial" font-size="12" font-weight="500">МонУбыв</text>
+<rect class="uml-bbox" x="0" y="0" width="120" height="32" fill="none" stroke="none" pointer-events="all"/>
+</g>
+<g transform="translate(920,312)" class="uml-class" data-id="Элемент" data-name="Элемент" data-type="class" data-stereotype="" data-abstract="false" data-attributes-count="0" data-operations-count="0">
+<rect class="uml-class-title" x="0" y="0" width="120" height="32" fill="#e5e5e5"/>
+<rect class="uml-class-outline uml-class-title-outline" x="0" y="0" width="120" height="32" stroke="#999999" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+<circle class="uml-kind-badge uml-kind-badge-c" cx="19" cy="16.0" r="11" fill="#b8d9bf" stroke="#3e7d4a" stroke-width="1.5"/><text class="uml-kind-badge-text" x="19" y="20.0" text-anchor="middle" font-family="Arial" font-size="12" font-weight="700" fill="black">C</text>
+<text class="uml-class-title-text" x="38" y="20" text-anchor="start" fill="black" font-family="Arial" font-size="12" font-weight="500">Элемент</text>
+<rect class="uml-bbox" x="0" y="0" width="120" height="32" fill="none" stroke="none" pointer-events="all"/>
+</g>
+<g transform="translate(916,215)" class="uml-class" data-id="Минимальный" data-name="Минимальный" data-type="class" data-stereotype="" data-abstract="false" data-attributes-count="0" data-operations-count="0">
+<rect class="uml-class-title" x="0" y="0" width="129.2" height="32" fill="#e5e5e5"/>
+<rect class="uml-class-outline uml-class-title-outline" x="0" y="0" width="129.2" height="32" stroke="#999999" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+<circle class="uml-kind-badge uml-kind-badge-c" cx="19" cy="16.0" r="11" fill="#b8d9bf" stroke="#3e7d4a" stroke-width="1.5"/><text class="uml-kind-badge-text" x="19" y="20.0" text-anchor="middle" font-family="Arial" font-size="12" font-weight="700" fill="black">C</text>
+<text class="uml-class-title-text" x="38" y="20" text-anchor="start" fill="black" font-family="Arial" font-size="12" font-weight="500">Минимальный</text>
+<rect class="uml-bbox" x="0" y="0" width="129.2" height="32" fill="none" stroke="none" pointer-events="all"/>
+</g>
+<g transform="translate(918,118)" class="uml-class" data-id="Наименьший" data-name="Наименьший" data-type="class" data-stereotype="" data-abstract="false" data-attributes-count="0" data-operations-count="0">
+<rect class="uml-class-title" x="0" y="0" width="122.0" height="32" fill="#e5e5e5"/>
+<rect class="uml-class-outline uml-class-title-outline" x="0" y="0" width="122.0" height="32" stroke="#999999" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+<circle class="uml-kind-badge uml-kind-badge-c" cx="19" cy="16.0" r="11" fill="#b8d9bf" stroke="#3e7d4a" stroke-width="1.5"/><text class="uml-kind-badge-text" x="19" y="20.0" text-anchor="middle" font-family="Arial" font-size="12" font-weight="700" fill="black">C</text>
+<text class="uml-class-title-text" x="38" y="20" text-anchor="start" fill="black" font-family="Arial" font-size="12" font-weight="500">Наименьший</text>
+<rect class="uml-bbox" x="0" y="0" width="122.0" height="32" fill="none" stroke="none" pointer-events="all"/>
+</g>
+<g transform="translate(1186,215)" class="uml-class" data-id="Максимальный" data-name="Максимальный" data-type="class" data-stereotype="" data-abstract="false" data-attributes-count="0" data-operations-count="0">
+<rect class="uml-class-title" x="0" y="0" width="136.4" height="32" fill="#e5e5e5"/>
+<rect class="uml-class-outline uml-class-title-outline" x="0" y="0" width="136.4" height="32" stroke="#999999" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+<circle class="uml-kind-badge uml-kind-badge-c" cx="19" cy="16.0" r="11" fill="#b8d9bf" stroke="#3e7d4a" stroke-width="1.5"/><text class="uml-kind-badge-text" x="19" y="20.0" text-anchor="middle" font-family="Arial" font-size="12" font-weight="700" fill="black">C</text>
+<text class="uml-class-title-text" x="38" y="20" text-anchor="start" fill="black" font-family="Arial" font-size="12" font-weight="500">Максимальный</text>
+<rect class="uml-bbox" x="0" y="0" width="136.4" height="32" fill="none" stroke="none" pointer-events="all"/>
+</g>
+<g transform="translate(1276,118)" class="uml-class" data-id="Наибольший" data-name="Наибольший" data-type="class" data-stereotype="" data-abstract="false" data-attributes-count="0" data-operations-count="0">
+<rect class="uml-class-title" x="0" y="0" width="122.0" height="32" fill="#e5e5e5"/>
+<rect class="uml-class-outline uml-class-title-outline" x="0" y="0" width="122.0" height="32" stroke="#999999" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+<circle class="uml-kind-badge uml-kind-badge-c" cx="19" cy="16.0" r="11" fill="#b8d9bf" stroke="#3e7d4a" stroke-width="1.5"/><text class="uml-kind-badge-text" x="19" y="20.0" text-anchor="middle" font-family="Arial" font-size="12" font-weight="700" fill="black">C</text>
+<text class="uml-class-title-text" x="38" y="20" text-anchor="start" fill="black" font-family="Arial" font-size="12" font-weight="500">Наибольший</text>
+<rect class="uml-bbox" x="0" y="0" width="122.0" height="32" fill="none" stroke="none" pointer-events="all"/>
+</g>
+<g transform="translate(742,409)" class="uml-class" data-id="Супремум" data-name="Супремум" data-type="class" data-stereotype="" data-abstract="false" data-attributes-count="0" data-operations-count="0">
+<rect class="uml-class-title" x="0" y="0" width="120" height="32" fill="#e5e5e5"/>
+<rect class="uml-class-outline uml-class-title-outline" x="0" y="0" width="120" height="32" stroke="#999999" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+<circle class="uml-kind-badge uml-kind-badge-c" cx="19" cy="16.0" r="11" fill="#b8d9bf" stroke="#3e7d4a" stroke-width="1.5"/><text class="uml-kind-badge-text" x="19" y="20.0" text-anchor="middle" font-family="Arial" font-size="12" font-weight="700" fill="black">C</text>
+<text class="uml-class-title-text" x="38" y="20" text-anchor="start" fill="black" font-family="Arial" font-size="12" font-weight="500">Супремум</text>
+<rect class="uml-bbox" x="0" y="0" width="120" height="32" fill="none" stroke="none" pointer-events="all"/>
+</g>
+<g transform="translate(920,409)" class="uml-class" data-id="Инфимум" data-name="Инфимум" data-type="class" data-stereotype="" data-abstract="false" data-attributes-count="0" data-operations-count="0">
+<rect class="uml-class-title" x="0" y="0" width="120" height="32" fill="#e5e5e5"/>
+<rect class="uml-class-outline uml-class-title-outline" x="0" y="0" width="120" height="32" stroke="#999999" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+<circle class="uml-kind-badge uml-kind-badge-c" cx="19" cy="16.0" r="11" fill="#b8d9bf" stroke="#3e7d4a" stroke-width="1.5"/><text class="uml-kind-badge-text" x="19" y="20.0" text-anchor="middle" font-family="Arial" font-size="12" font-weight="700" fill="black">C</text>
+<text class="uml-class-title-text" x="38" y="20" text-anchor="start" fill="black" font-family="Arial" font-size="12" font-weight="500">Инфимум</text>
+<rect class="uml-bbox" x="0" y="0" width="120" height="32" fill="none" stroke="none" pointer-events="all"/>
+</g>
+<g transform="translate(1098,409)" class="uml-class" data-id="НеподвТочка" data-name="НеподвТочка" data-type="class" data-stereotype="" data-abstract="false" data-attributes-count="0" data-operations-count="0">
+<rect class="uml-class-title" x="0" y="0" width="129.2" height="32" fill="#e5e5e5"/>
+<rect class="uml-class-outline uml-class-title-outline" x="0" y="0" width="129.2" height="32" stroke="#999999" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+<circle class="uml-kind-badge uml-kind-badge-c" cx="19" cy="16.0" r="11" fill="#b8d9bf" stroke="#3e7d4a" stroke-width="1.5"/><text class="uml-kind-badge-text" x="19" y="20.0" text-anchor="middle" font-family="Arial" font-size="12" font-weight="700" fill="black">C</text>
+<text class="uml-class-title-text" x="38" y="20" text-anchor="start" fill="black" font-family="Arial" font-size="12" font-weight="500">НеподвТочка</text>
+<rect class="uml-bbox" x="0" y="0" width="129.2" height="32" fill="none" stroke="none" pointer-events="all"/>
+</g>
+<g transform="translate(1545,21)" class="uml-class" data-id="Линейное" data-name="Линейное" data-type="class" data-stereotype="" data-abstract="false" data-attributes-count="0" data-operations-count="0">
+<rect class="uml-class-title" x="0" y="0" width="120" height="32" fill="#e5e5e5"/>
+<rect class="uml-class-outline uml-class-title-outline" x="0" y="0" width="120" height="32" stroke="#999999" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+<circle class="uml-kind-badge uml-kind-badge-c" cx="19" cy="16.0" r="11" fill="#b8d9bf" stroke="#3e7d4a" stroke-width="1.5"/><text class="uml-kind-badge-text" x="19" y="20.0" text-anchor="middle" font-family="Arial" font-size="12" font-weight="700" fill="black">C</text>
+<text class="uml-class-title-text" x="38" y="20" text-anchor="start" fill="black" font-family="Arial" font-size="12" font-weight="500">Линейное</text>
+<rect class="uml-bbox" x="0" y="0" width="120" height="32" fill="none" stroke="none" pointer-events="all"/>
+</g>
+<g transform="translate(1456,118)" class="uml-class" data-id="Частичное" data-name="Частичное" data-type="class" data-stereotype="" data-abstract="false" data-attributes-count="0" data-operations-count="0">
+<rect class="uml-class-title" x="0" y="0" width="120" height="32" fill="#e5e5e5"/>
+<rect class="uml-class-outline uml-class-title-outline" x="0" y="0" width="120" height="32" stroke="#999999" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+<circle class="uml-kind-badge uml-kind-badge-c" cx="19" cy="16.0" r="11" fill="#b8d9bf" stroke="#3e7d4a" stroke-width="1.5"/><text class="uml-kind-badge-text" x="19" y="20.0" text-anchor="middle" font-family="Arial" font-size="12" font-weight="700" fill="black">C</text>
+<text class="uml-class-title-text" x="38" y="20" text-anchor="start" fill="black" font-family="Arial" font-size="12" font-weight="500">Частичное</text>
+<rect class="uml-bbox" x="0" y="0" width="120" height="32" fill="none" stroke="none" pointer-events="all"/>
+</g>
+<g transform="translate(994,21)" class="uml-class" data-id="ВполнеУпорМнож" data-name="ВполнеУпорМнож" data-type="class" data-stereotype="" data-abstract="false" data-attributes-count="0" data-operations-count="0">
+<rect class="uml-class-title" x="0" y="0" width="150.8" height="32" fill="#e5e5e5"/>
+<rect class="uml-class-outline uml-class-title-outline" x="0" y="0" width="150.8" height="32" stroke="#999999" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+<circle class="uml-kind-badge uml-kind-badge-c" cx="19" cy="16.0" r="11" fill="#b8d9bf" stroke="#3e7d4a" stroke-width="1.5"/><text class="uml-kind-badge-text" x="19" y="20.0" text-anchor="middle" font-family="Arial" font-size="12" font-weight="700" fill="black">C</text>
+<text class="uml-class-title-text" x="38" y="20" text-anchor="start" fill="black" font-family="Arial" font-size="12" font-weight="500">ВполнеУпорМнож</text>
+<rect class="uml-bbox" x="0" y="0" width="150.8" height="32" fill="none" stroke="none" pointer-events="all"/>
+</g>
+<g transform="translate(1634,118)" class="uml-class" data-id="АлгТопСорт" data-name="АлгТопСорт" data-type="class" data-stereotype="" data-abstract="false" data-attributes-count="0" data-operations-count="0">
+<rect class="uml-class-title" x="0" y="0" width="122.0" height="32" fill="#e5e5e5"/>
+<rect class="uml-class-outline uml-class-title-outline" x="0" y="0" width="122.0" height="32" stroke="#999999" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+<circle class="uml-kind-badge uml-kind-badge-c" cx="19" cy="16.0" r="11" fill="#b8d9bf" stroke="#3e7d4a" stroke-width="1.5"/><text class="uml-kind-badge-text" x="19" y="20.0" text-anchor="middle" font-family="Arial" font-size="12" font-weight="700" fill="black">C</text>
+<text class="uml-class-title-text" x="38" y="20" text-anchor="start" fill="black" font-family="Arial" font-size="12" font-weight="500">АлгТопСорт</text>
+<rect class="uml-bbox" x="0" y="0" width="122.0" height="32" fill="none" stroke="none" pointer-events="all"/>
+</g>
+<g transform="translate(1098,118)" class="uml-class" data-id="Индукция" data-name="Индукция" data-type="class" data-stereotype="" data-abstract="false" data-attributes-count="0" data-operations-count="0">
+<rect class="uml-class-title" x="0" y="0" width="120" height="32" fill="#e5e5e5"/>
+<rect class="uml-class-outline uml-class-title-outline" x="0" y="0" width="120" height="32" stroke="#999999" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+<circle class="uml-kind-badge uml-kind-badge-c" cx="19" cy="16.0" r="11" fill="#b8d9bf" stroke="#3e7d4a" stroke-width="1.5"/><text class="uml-kind-badge-text" x="19" y="20.0" text-anchor="middle" font-family="Arial" font-size="12" font-weight="700" fill="black">C</text>
+<text class="uml-class-title-text" x="38" y="20" text-anchor="start" fill="black" font-family="Arial" font-size="12" font-weight="500">Индукция</text>
+<rect class="uml-bbox" x="0" y="0" width="120" height="32" fill="none" stroke="none" pointer-events="all"/>
+</g>
+</svg>

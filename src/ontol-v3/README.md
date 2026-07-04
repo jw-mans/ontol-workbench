@@ -20,7 +20,7 @@
 pip install -r requirements.txt
 
 # Генерация SVG из TDL
-python -m uml_dsl.tdl_run examples/example.tdl
+python -m uml_dsl.tdl_run examples/tdl/basic/example.tdl
 
 # Запуск веб-интерфейса
 streamlit run uml_dsl/app.py
@@ -40,13 +40,14 @@ streamlit run uml_dsl/app.py
 ## Тестирование
 
 ```bash
-# Генерация тестовых данных
-cd examples
-python -m imported_examples
+# Генерация тестовых SVG для обратного парсинга
+python tests/scripts/generate_svg_parser_examples.py
 
 # Тестирование парсера
-python -m test_parser
+python tests/scripts/test_svg_parser.py
 ```
+
+Примеры, которые использует веб-интерфейс, лежат в `examples/app/`.
 
 ---
 
@@ -91,7 +92,7 @@ python -m test_parser
 - Восстанавливает позиции классов из transform
 
 ## Шаг 4: Тестирование парсера
-**Новый файл:** `test_parser.py`
+**Новый файл:** `tests/scripts/test_svg_parser.py`
 **Функции:**
 - `test_parser()` — проверка парсинга всех SVG в папке
 - `test_roundtrip()` — проверка полного цикла: Pydantic → SVG → Pydantic → SVG
@@ -113,4 +114,4 @@ python -m test_parser
 
 ## Итог
 Создан работающий прототип с полным циклом:
-JSON (через imported_examples.py) → Pydantic → SVG (с тегами) → Parser → Pydantic → Валидация → Интерфейс
+Python-модели (через generate_svg_parser_examples.py) → SVG (с тегами) → Parser → Pydantic → Валидация → Интерфейс

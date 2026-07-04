@@ -255,11 +255,13 @@ tdl_build.py
 ## Тестовые файлы и примеры
 
 ### examples/
-- **`example.tdl`** — основной пример диаграммы
-- **`error_*.tdl`** — файлы с ошибками для тестирования валидации
-- **`09_02/imported_svg/`** — сгенерированные SVG для тестирования парсера
-- **`test_parser.py`** — скрипт тестирования обратного парсинга
-- **`imported_examples.py`** — генерация тестовых SVG
+- **`app/render_tdl/example.tdl`** — TDL-пример по умолчанию для вкладки рендера в приложении
+- **`app/validate_svg/*.svg`** — SVG-примеры для вкладки валидатора в приложении
+- **`tdl/basic/example.tdl`** — основной пример диаграммы
+- **`tdl/errors/error_*.tdl`** — файлы с ошибками для тестирования валидации
+- **`tests/fixtures/svg_parser/`** — сгенерированные SVG для тестирования парсера
+- **`tests/scripts/test_svg_parser.py`** — скрипт тестирования обратного парсинга
+- **`tests/scripts/generate_svg_parser_examples.py`** — генерация тестовых SVG
 
 ### Ключевые тесты
 
@@ -379,15 +381,14 @@ tdl_build.py
 
 ```bash
 # 1. Генерация SVG из TDL
-python -m uml_dsl.tdl_run examples/example.tdl
+python -m uml_dsl.tdl_run examples/tdl/basic/example.tdl
 
 # 2. Запуск веб-интерфейса
 streamlit run uml_dsl/app.py
 
 # 3. Тестирование парсера
-cd examples
-python -m imported_examples  # генерация тестов
-python -m test_parser        # тестирование
+python tests/scripts/generate_svg_parser_examples.py  # генерация тестов
+python tests/scripts/test_svg_parser.py               # тестирование
 ```
 
 ### Структура проекта
@@ -395,7 +396,6 @@ python -m test_parser        # тестирование
 ontol_v3_students/
 ├── uml_dsl/           # Основной код
 ├── examples/          # Тестовые файлы
-├── output/            # Результаты
 ├── docs/              # Документация
 ├── requirements.txt   # Зависимости
 └── README.md          # Краткая справка
