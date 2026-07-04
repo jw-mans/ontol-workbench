@@ -1,6 +1,6 @@
 """Диспетчер сборки проекта.
 
-Движок выбирается по расширению точки входа: ``.tdl`` → ontol-v3
+Движок выбирается по расширению точки входа: ``.tdl`` -> ontol-v3
 (Graphviz/SVG), иначе — ontol-v1 (PlantUML/JSON/PNG). Сама реализация каждого
 движка живёт в отдельном модуле (``render_v1`` / ``render_v3``), импортируется
 лениво — чтобы ядро одного движка не тянулось, когда собирают другим.
@@ -17,8 +17,7 @@ class BuildResult:
     json: str | None = None  # v1
     puml: str | None = None  # v1
     png_url: str | None = None  # v1
-    svg: str | None = None  # v3 (TDL → Graphviz)
-    # v3: непланарный граф → {kind, labels, message} для подсветки; иначе None.
+    svg: str | None = None  # v3 (TDL => Graphviz)
     planarity: dict | None = None
     warnings: list[str] = field(default_factory=list)
     error: str | None = None
