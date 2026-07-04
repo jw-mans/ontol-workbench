@@ -51,6 +51,32 @@ SVG_FILL_OPS = "#eeeeee"
 
 PrimitiveType = Union[str, int, float, bool]
 
+
+def _svg_data(name: str, value: Any) -> str:
+    return f'{name}="{html_mod.escape("" if value is None else str(value), quote=True)}"'
+
+
+def _svg_bool(value: bool) -> str:
+    return "true" if value else "false"
+
+
+def _svg_optional_bool(value: Optional[bool]) -> str:
+    if value is None:
+        return ""
+    return _svg_bool(value)
+
+
+def _primitive_kind(value: Any) -> str:
+    if value is None:
+        return "none"
+    if isinstance(value, bool):
+        return "bool"
+    if isinstance(value, int):
+        return "int"
+    if isinstance(value, float):
+        return "float"
+    return "str"
+
 # Map textual primitive type names to Python types for validation/normalization
 PRIMITIVE_TYPE_MAP: Dict[str, type] = {
     "String": str,
@@ -684,16 +710,46 @@ class Class(Classifier):
         parts: list[str] = []
         # Формируем data-атрибуты для обратного парсинга
         data_attrs = [
-            f'data-id="{esc(cid)}"',
-            f'data-name="{esc(self.name)}"',
+            _svg_data("data-id", cid),
+            _svg_data("data-name", self.name),
             f'data-type="class"',
-            f'data-stereotype="{self.stereotype.value if self.stereotype else ""}"',
-            f'data-abstract="{str(self.is_abstract).lower()}"',
-            f'data-attributes-count="{len(self.attributes)}"',
-            f'data-operations-count="{len(self.operations)}"',
+            _svg_data("data-class-kind", "template" if tpl_params else "class"),
+            _svg_data("data-visibility", self.visibility.value if self.visibility else ""),
+            _svg_data("data-stereotype", self.stereotype.value if self.stereotype else ""),
+            _svg_data("data-abstract", _svg_bool(self.is_abstract)),
+            _svg_data("data-multiplicity", str(self.multiplicity) if self.multiplicity else ""),
+            _svg_data("data-attributes-count", len(self.attributes)),
+            _svg_data("data-operations-count", len(self.operations)),
+            _svg_data("data-tagged-values-count", len(self.tagged_values)),
+            _svg_data("data-template-parameters-count", len(tpl_params)),
         ]
 
         parts.append(f'<g transform="translate({gx},{gy})" class="uml-class" {" ".join(data_attrs)}>')
+
+        for i, tagged_value in enumerate(self.tagged_values):
+            value = tagged_value.value
+            parts.append(
+                '<metadata '
+                'data-type="tagged-value" '
+                f'{_svg_data("data-index", i)} '
+                f'{_svg_data("data-name", tagged_value.name)} '
+                f'{_svg_data("data-has-value", _svg_bool(value is not None))} '
+                f'{_svg_data("data-value-kind", _primitive_kind(value))} '
+                f'{_svg_data("data-value", "" if value is None else value)}'
+                '/>'
+            )
+
+        for i, template_parameter in enumerate(tpl_params):
+            parts.append(
+                '<metadata '
+                'data-type="template-parameter" '
+                f'{_svg_data("data-index", i)} '
+                f'{_svg_data("data-name", template_parameter.name)} '
+                f'{_svg_data("data-parameter-type", template_parameter.type_ or "")} '
+                f'{_svg_data("data-has-default-value", _svg_bool(template_parameter.default_value is not None))} '
+                f'{_svg_data("data-default-value", template_parameter.default_value or "")}'
+                '/>'
+            )
 
         parts.append(f'<rect class="uml-class-title" x="0" y="0" width="{width}" height="{title_h}" fill="{SVG_FILL_TITLE}"/>')
         parts.append(f'<rect class="uml-class-outline uml-class-title-outline" x="0" y="0" width="{width}" height="{title_h}" stroke="{SVG_STROKE}" stroke-width="{SVG_STROKE_WIDTH}" stroke-linecap="round" stroke-linejoin="round" fill="none"/>')
@@ -720,8 +776,24 @@ class Class(Classifier):
                 attr = self.attributes[i]
                 if attr.scope == Scope.CLASSIFIER:
                     decor = ' text-decoration="underline"'
+                attr_data = [
+                    'data-type="attribute"',
+                    _svg_data("data-index", i),
+                    _svg_data("data-name", attr.name),
+                    _svg_data("data-visibility", attr.visibility.value if attr.visibility else ""),
+                    _svg_data("data-scope", attr.scope.value),
+                    _svg_data("data-value-type", attr.type_ or ""),
+                    _svg_data("data-multiplicity", str(attr.multiplicity) if attr.multiplicity else ""),
+                    _svg_data("data-has-initial-value", _svg_bool(attr.initial_value is not None)),
+                    _svg_data("data-initial-value-kind", _primitive_kind(attr.initial_value)),
+                    _svg_data("data-initial-value", "" if attr.initial_value is None else attr.initial_value),
+                    _svg_data("data-changeability", attr.changeability.value if attr.changeability else ""),
+                    _svg_data("data-redefines", attr.redefines or ""),
+                ]
+                parts.append(f'<g class="uml-feature uml-attribute" {" ".join(attr_data)}>')
                 parts.append(f'<circle class="uml-feature-bullet uml-attribute-bullet" cx="{p + 4}" cy="{ty - 4}" r="3" fill="white" stroke="#3aa76d" stroke-width="1.3"/>')
                 parts.append(f'<text class="uml-feature-text uml-attribute-text" x="{p + 14}" y="{ty}" fill="black"{decor} font-family="{SVG_FONT_FAMILY}" font-size="{fs}" font-weight="{SVG_FONT_WEIGHT}">{esc(self._feature_display_text(line))}</text>')
+                parts.append('</g>')
 
         if op_lines:
             oy = title_h + attrs_h
@@ -732,8 +804,37 @@ class Class(Classifier):
                 op = self.operations[i]
                 font_style = ' font-style="italic"' if op.is_abstract else ''
                 decor = ' text-decoration="underline"' if op.scope == Scope.CLASSIFIER else ''
+                op_data = [
+                    'data-type="operation"',
+                    _svg_data("data-index", i),
+                    _svg_data("data-name", op.name),
+                    _svg_data("data-visibility", op.visibility.value if op.visibility else ""),
+                    _svg_data("data-scope", op.scope.value),
+                    _svg_data("data-return-type", op.return_type or ""),
+                    _svg_data("data-abstract", _svg_bool(op.is_abstract)),
+                    _svg_data("data-query", _svg_bool(op.is_query)),
+                    _svg_data("data-leaf", _svg_bool(op.is_leaf)),
+                    _svg_data("data-concurrency", op.concurrency.value),
+                    _svg_data("data-redefines", op.redefines or ""),
+                    _svg_data("data-parameters-count", len(op.parameters)),
+                ]
+                parts.append(f'<g class="uml-feature uml-operation" {" ".join(op_data)}>')
+                for param_index, param in enumerate(op.parameters):
+                    parts.append(
+                        '<metadata '
+                        'data-type="operation-parameter" '
+                        f'{_svg_data("data-index", param_index)} '
+                        f'{_svg_data("data-name", param.name)} '
+                        f'{_svg_data("data-parameter-type", param.type_ or "")} '
+                        f'{_svg_data("data-direction", param.direction.value)} '
+                        f'{_svg_data("data-has-default", _svg_bool(param.default is not None))} '
+                        f'{_svg_data("data-default-kind", _primitive_kind(param.default))} '
+                        f'{_svg_data("data-default", "" if param.default is None else param.default)}'
+                        '/>'
+                    )
                 parts.append(f'<circle class="uml-feature-bullet uml-operation-bullet" cx="{p + 4}" cy="{ty - 4}" r="3" fill="#3aa76d" stroke="#2a7d50" stroke-width="1"/>')
                 parts.append(f'<text class="uml-feature-text uml-operation-text" x="{p + 14}" y="{ty}" fill="black"{font_style}{decor} font-family="{SVG_FONT_FAMILY}" font-size="{fs}" font-weight="{SVG_FONT_WEIGHT}">{esc(self._feature_display_text(line))}</text>')
+                parts.append('</g>')
 
         if tpl_params:
             tx = width - tpl_w / 2
@@ -809,14 +910,32 @@ class Class(Classifier):
         parts: list[str] = []
         parts.append(
             f'<g transform="translate({gx},{gy})" class="uml-class" '
-            f'data-id="{esc(cid)}" '
-            f'data-name="{esc(self.name)}" '
+            f'{_svg_data("data-id", cid)} '
+            f'{_svg_data("data-name", self.name)} '
             f'data-type="class" '
+            f'data-class-kind="class" '
+            f'{_svg_data("data-visibility", self.visibility.value if self.visibility else "")} '
             f'data-stereotype="enumeration" '
             f'data-abstract="false" '
-            f'data-attributes-count="{len(self.attributes)}" '
-            f'data-operations-count="0">'
+            f'{_svg_data("data-multiplicity", str(self.multiplicity) if self.multiplicity else "")} '
+            f'{_svg_data("data-attributes-count", len(self.attributes))} '
+            f'data-operations-count="0" '
+            f'{_svg_data("data-tagged-values-count", len(self.tagged_values))} '
+            f'data-template-parameters-count="0">'
         )
+
+        for i, tagged_value in enumerate(self.tagged_values):
+            value = tagged_value.value
+            parts.append(
+                '<metadata '
+                'data-type="tagged-value" '
+                f'{_svg_data("data-index", i)} '
+                f'{_svg_data("data-name", tagged_value.name)} '
+                f'{_svg_data("data-has-value", _svg_bool(value is not None))} '
+                f'{_svg_data("data-value-kind", _primitive_kind(value))} '
+                f'{_svg_data("data-value", "" if value is None else value)}'
+                '/>'
+            )
 
         parts.append(
             f'<rect class="uml-class-section uml-enum-body" x="0" y="0" width="{width}" height="{total_h}" fill="#eeeeee" stroke="#999999" stroke-width="1"/>')
@@ -837,7 +956,11 @@ class Class(Classifier):
         for i, value in enumerate(value_lines):
             ty = value_y + i * lh
             parts.append(
-                f'<text class="uml-feature-text uml-enum-value-text" x="{p}" y="{ty}" '
+                f'<text class="uml-feature-text uml-enum-value-text" '
+                f'data-type="enum-literal" '
+                f'{_svg_data("data-index", i)} '
+                f'{_svg_data("data-name", value)} '
+                f'x="{p}" y="{ty}" '
                 f'font-family="{SVG_FONT_FAMILY}" font-size="{fs}" '
                 f'fill="black">{esc(value)}</text>'
             )

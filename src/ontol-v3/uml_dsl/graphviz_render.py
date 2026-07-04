@@ -621,6 +621,44 @@ def _edge_label_pos(points: list[tuple[float, float]]) -> tuple[float, float]:
     return x + 6, y - 6
 
 
+def _primitive_kind(value: object) -> str:
+    if value is None:
+        return "none"
+    if isinstance(value, bool):
+        return "bool"
+    if isinstance(value, int):
+        return "int"
+    if isinstance(value, float):
+        return "float"
+    return "str"
+
+
+def _render_qualifier_metadata(end, end_index: int) -> str:
+    parts: list[str] = []
+
+    for idx, qualifier in enumerate(getattr(end, "qualifiers", []) or []):
+        value = qualifier.initial_value
+        parts.append(
+            '<metadata '
+            'data-type="association-end-qualifier" '
+            f'data-end="{end_index}" '
+            f'data-index="{idx}" '
+            f'data-name="{_esc(qualifier.name)}" '
+            f'data-visibility="{_esc(qualifier.visibility.value if qualifier.visibility else "")}" '
+            f'data-scope="{_esc(qualifier.scope.value)}" '
+            f'data-value-type="{_esc(qualifier.type_ or "")}" '
+            f'data-multiplicity="{_esc(str(qualifier.multiplicity) if qualifier.multiplicity else "")}" '
+            f'data-has-initial-value="{str(value is not None).lower()}" '
+            f'data-initial-value-kind="{_esc(_primitive_kind(value))}" '
+            f'data-initial-value="{_esc("" if value is None else value)}" '
+            f'data-changeability="{_esc(qualifier.changeability.value if qualifier.changeability else "")}" '
+            f'data-redefines="{_esc(qualifier.redefines or "")}"'
+            '/>'
+        )
+
+    return "\n  ".join(parts)
+
+
 def _edge_shape_svg(
     points: list[tuple[float, float]],
     path_d: str | None,
@@ -704,12 +742,32 @@ def render_association_svg(
    data-end1-role="{_esc(e1.role or '')}"
    data-end1-navigable="{str(e1.navigable).lower() if e1.navigable is not None else ''}"
    data-end1-aggregation="{_esc(e1.aggregation.value)}"
+   data-end1-role-visibility="{_esc(e1.role_visibility.value if e1.role_visibility else '')}"
+   data-end1-collection-kind="{_esc(e1.collection_kind.value)}"
+   data-end1-changeability="{_esc(e1.changeability.value if e1.changeability else '')}"
+   data-end1-derived="{str(e1.is_derived).lower()}"
+   data-end1-union="{str(e1.is_union).lower()}"
+   data-end1-redefines="{_esc(e1.redefines or '')}"
+   data-end1-role-type="{_esc(e1.role_type.name if e1.role_type else '')}"
+   data-end1-subsets-role="{_esc(e1.subsets.role if e1.subsets and e1.subsets.role else '')}"
+   data-end1-subsets-participant="{_esc(e1.subsets.participant.name if e1.subsets else '')}"
    data-end2-class="{_esc(end2_name)}"
    data-end2-multiplicity="{_esc(mult2)}"
    data-end2-role="{_esc(e2.role or '')}"
    data-end2-navigable="{str(e2.navigable).lower() if e2.navigable is not None else ''}"
-   data-end2-aggregation="{_esc(e2.aggregation.value)}">
+   data-end2-aggregation="{_esc(e2.aggregation.value)}"
+   data-end2-role-visibility="{_esc(e2.role_visibility.value if e2.role_visibility else '')}"
+   data-end2-collection-kind="{_esc(e2.collection_kind.value)}"
+   data-end2-changeability="{_esc(e2.changeability.value if e2.changeability else '')}"
+   data-end2-derived="{str(e2.is_derived).lower()}"
+   data-end2-union="{str(e2.is_union).lower()}"
+   data-end2-redefines="{_esc(e2.redefines or '')}"
+   data-end2-role-type="{_esc(e2.role_type.name if e2.role_type else '')}"
+   data-end2-subsets-role="{_esc(e2.subsets.role if e2.subsets and e2.subsets.role else '')}"
+   data-end2-subsets-participant="{_esc(e2.subsets.participant.name if e2.subsets else '')}">
   {edge_shape}
+  {_render_qualifier_metadata(e1, 1)}
+  {_render_qualifier_metadata(e2, 2)}
   {_render_label(mult1 if show_src_mult else "", src_mult_x, src_mult_y, "uml-multiplicity")}
   {_render_label(mult2 if show_tgt_mult else "", tgt_mult_x, tgt_mult_y, "uml-multiplicity")}
 </g>
@@ -1216,7 +1274,7 @@ def diagram_to_graphviz_svg(diagram: ClassDiagram, theme: str = DEFAULT_SVG_THEM
     parts = [
         f'<svg xmlns="http://www.w3.org/2000/svg" '
         f'width="{width:.0f}" height="{height:.0f}" viewBox="0 0 {width:.0f} {height:.0f}" '
-        f'class="uml-diagram" data-theme="{_esc(resolved_theme)}">',
+        f'class="uml-diagram" data-theme="{_esc(resolved_theme)}" data-title="{_esc(diagram.title)}">',
         SVG_DEFS,
         svg_style,
     ]
