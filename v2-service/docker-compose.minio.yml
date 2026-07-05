@@ -1,0 +1,73 @@
+# Локальная симуляция MinIO для разработки/тестов.
+#
+# В ПРОДЕ MinIO удалённый — адрес и ключи задаются через S3_* в v2-service/.env,
+# и этот оверлей НЕ нужен. Локально он поднимает MinIO, создаёт приватный бакет
+# артефактов и указывает api/worker на локальный адрес.
+#
+# Запуск со всем стеком + локальный MinIO:
+#   docker compose -f docker-compose.yml -f docker-compose.minio.yml up --build
+#
+# Веб-консоль MinIO: http://localhost:9001
+#   логин/пароль — S3_ACCESS_KEY / S3_SECRET_KEY (по умолчанию minioadmin/minioadmin).
+
+services:
+  minio:
+    image: minio/minio
+    command: server /data --console-address ":9001"
+    environment:
+      MINIO_ROOT_USER: ${S3_ACCESS_KEY:-minioadmin}
+      MINIO_ROOT_PASSWORD: ${S3_SECRET_KEY:-minioadmin}
+      # Браузер читает fetch(svg_url) кросс-origin (фронт :5173 → MinIO :9000).
+      # Разрешаем CORS (для локали — любой origin; в проде сузить до домена фронта).
+      MINIO_API_CORS_ALLOW_ORIGIN: ${S3_CORS_ORIGIN:-*}
+    ports:
+      - '9000:9000' # S3 API
+      - '9001:9001' # веб-консоль
+    volumes:
+      - minio_data:/data
+
+  # Одноразовый init: ждёт MinIO и создаёт приватный бакет артефактов.
+  createbuckets:
+    image: minio/mc
+    depends_on:
+      - minio
+    environment:
+      MINIO_ROOT_USER: ${S3_ACCESS_KEY:-minioadmin}
+      MINIO_ROOT_PASSWORD: ${S3_SECRET_KEY:-minioadmin}
+      S3_BUCKET: ${S3_BUCKET:-ontol-artifacts}
+      # Срок жизни артефактов/кэша (дни). Правило на весь бакет → meta (cache/) и
+      # артефакт (artifacts/) истекают синхронно (см. caveat в docs/S3_INTEGRATION.md).
+      S3_ARTIFACT_TTL_DAYS: ${S3_ARTIFACT_TTL_DAYS:-30}
+    entrypoint:
+      - /bin/sh
+      - -c
+      - >
+        until mc alias set local http://minio:9000 "$$MINIO_ROOT_USER" "$$MINIO_ROOT_PASSWORD"; do
+          echo 'ждём MinIO...'; sleep 2;
+        done;
+        mc mb --ignore-existing "local/$$S3_BUCKET";
+        mc anonymous set none "local/$$S3_BUCKET";
+        mc ilm rule add --expire-days "$$S3_ARTIFACT_TTL_DAYS" "local/$$S3_BUCKET" || echo 'ilm rule skip';
+        echo "бакет $$S3_BUCKET готов";
+
+  # Локальный адрес хранилища + старт только после создания бакета.
+  api:
+    environment:
+      S3_ENDPOINT_URL: http://minio:9000
+      # Браузер ходит в MinIO по опубликованному порту localhost:9000.
+      S3_PUBLIC_ENDPOINT_URL: http://localhost:9000
+    depends_on:
+      createbuckets:
+        condition: service_completed_successfully
+
+  worker:
+    environment:
+      S3_ENDPOINT_URL: http://minio:9000
+      # Браузер ходит в MinIO по опубликованному порту localhost:9000.
+      S3_PUBLIC_ENDPOINT_URL: http://localhost:9000
+    depends_on:
+      createbuckets:
+        condition: service_completed_successfully
+
+volumes:
+  minio_data:

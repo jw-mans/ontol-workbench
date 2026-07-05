@@ -6,9 +6,15 @@ export function downloadText(filename: string, text: string, mime = 'text/plain'
   URL.revokeObjectURL(url)
 }
 
-/** Скачать data-URL (PNG-диаграмма). */
-export function downloadDataUrl(filename: string, dataUrl: string) {
-  triggerDownload(filename, dataUrl)
+/** Скачать файл по URL (в т.ч. presigned-ссылка MinIO, кросс-origin): тянем как
+ * blob и сохраняем с именем. Атрибут `download` для кросс-origin игнорируется,
+ * поэтому нужен именно blob (требует CORS у хранилища — включён, см. шаг 5). */
+export async function downloadFromUrl(filename: string, url: string) {
+  const res = await fetch(url)
+  if (!res.ok) throw new Error(`HTTP ${res.status}`)
+  const objectUrl = URL.createObjectURL(await res.blob())
+  triggerDownload(filename, objectUrl)
+  URL.revokeObjectURL(objectUrl)
 }
 
 function triggerDownload(filename: string, href: string) {

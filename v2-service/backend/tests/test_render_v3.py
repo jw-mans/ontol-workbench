@@ -23,6 +23,16 @@ needs_render = pytest.mark.skipif(
     not (HAS_UML and HAS_DOT), reason='нужны uml_dsl и graphviz dot'
 )
 
+
+@pytest.fixture(autouse=True)
+def _stub_storage(monkeypatch):
+    """Заглушка MinIO: build_tdl заливает SVG, но в тестах S3/boto3 нет —
+    подменяем заливку no-op'ом, presigned — фиктивной ссылкой."""
+    from app.services import storage
+
+    monkeypatch.setattr(storage, 'put_bytes', lambda *a, **k: None)
+    monkeypatch.setattr(storage, 'presigned_get', lambda key: f'https://s3.test/{key}')
+
 VALID_TDL = """КЛАСС Животное АБСТРАКТНЫЙ
   АТРИБУТЫ
     + имя : Строка
@@ -96,9 +106,10 @@ def test_tdl_valid_renders_svg():
 def test_dispatch_tdl_returns_svg_only():
     res = build_project({'d.tdl': VALID_TDL}, 'd.tdl', 'http://unused')
     assert res.ok
-    assert res.svg and res.svg.lstrip().startswith('<svg')
-    # у v3 нет JSON/PlantUML/PNG
+    assert res.svg_url and res.svg_url.startswith('https://s3.test/')
+    # у v3 нет JSON/PlantUML/PNG; SVG ушёл в S3 (не инлайн)
     assert res.json is None and res.puml is None and res.png_url is None
+    assert res.svg is None
 
 
 @needs_uml
@@ -163,9 +174,18 @@ def test_planar_gets_layout_no_warning():
     from app.services.render_v3 import build_tdl
 
     res = build_tdl({'p.tdl': PLANAR_TDL}, 'p.tdl')
-    assert res.ok and res.svg
-    assert 'translate(' in res.svg  # нарисован по планарным позициям
+    assert res.ok and res.svg_url  # SVG ушёл в S3 → ссылка
     assert res.planarity is None
+
+
+@needs_uml
+def test_planar_layout_positions_applied():
+    # Планарная раскладка применяется к SVG (ручные позиции → translate()).
+    from uml_dsl.tdl_run import tdl_to_svg_analyzed
+
+    svg, _warnings, planarity = tdl_to_svg_analyzed(PLANAR_TDL)
+    assert planarity is None
+    assert 'translate(' in svg
 
 
 @needs_uml
@@ -243,7 +263,7 @@ def test_non_planar_build_reports_planarity():
     from app.services.render_v3 import build_tdl
 
     res = build_tdl({'k.tdl': K5_TDL}, 'k.tdl')
-    assert res.ok and res.svg  # рисуем «как есть»
+    assert res.ok and res.svg_url  # рисуем «как есть», SVG в S3
     assert res.planarity and res.planarity['kind'] == 'K5'
     assert set('ABCDE') <= set(res.planarity['labels'])
     assert res.planarity['count'] == 1
@@ -255,7 +275,7 @@ def test_two_k5_build_reports_two_subgraphs():
     from app.services.render_v3 import build_tdl
 
     res = build_tdl({'k.tdl': TWO_K5_TDL}, 'k.tdl')
-    assert res.ok and res.svg
+    assert res.ok and res.svg_url
     assert res.planarity and res.planarity['count'] == 2
     assert set('ABCDEFGHIJ') <= set(res.planarity['labels'])
     assert {s['kind'] for s in res.planarity['subgraphs']} == {'K5'}

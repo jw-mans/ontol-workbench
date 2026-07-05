@@ -8,3 +8,4 @@ fastapi-users[sqlalchemy]>=13
 httpx>=0.27
 arq>=0.26
 gunicorn>=22
+boto3>=1.34  # S3/MinIO — заливка артефактов рендера + presigned-ссылки

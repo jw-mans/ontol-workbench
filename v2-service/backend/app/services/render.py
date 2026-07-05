@@ -6,7 +6,27 @@
 лениво — чтобы ядро одного движка не тянулось, когда собирают другим.
 """
 
+import hashlib
 from dataclasses import dataclass, field
+
+
+def content_digest(engine: str, entry: str, files: dict[str, str]) -> str:
+    """Стабильный хеш идентичности сборки: движок + точка входа + контент файлов.
+
+    Одинаковый набор файлов и точка входа → один и тот же ключ артефакта. Основа
+    для content-addressed ключей в MinIO и кэша сборок (шаг 4). Порядок файлов не
+    влияет (сортируем по имени); разделители — чтобы склейки не давали коллизий.
+    """
+    h = hashlib.sha256()
+    h.update(engine.encode())
+    h.update(b'\x00')
+    h.update(entry.encode())
+    for name in sorted(files):
+        h.update(b'\x00')
+        h.update(name.encode())
+        h.update(b'\x00')
+        h.update(files[name].encode())
+    return h.hexdigest()
 
 
 @dataclass
@@ -16,8 +36,10 @@ class BuildResult:
     ok: bool
     json: str | None = None  # v1
     puml: str | None = None  # v1
-    png_url: str | None = None  # v1
-    svg: str | None = None  # v3 (TDL => Graphviz)
+    png_url: str | None = None  # v1: presigned-ссылка на PNG в MinIO
+    svg_url: str | None = None  # v3: presigned-ссылка на SVG в MinIO
+    # v3-фолбэк: инлайн-SVG, если заливка в MinIO не удалась (S3 недоступен).
+    svg: str | None = None
     planarity: dict | None = None
     warnings: list[str] = field(default_factory=list)
     error: str | None = None

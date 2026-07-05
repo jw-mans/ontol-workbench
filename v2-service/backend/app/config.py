@@ -60,5 +60,22 @@ class Settings(BaseSettings):
     # Источники, которым разрешён CORS (фронтенд на Vite).
     cors_origins: list[str] = ['http://localhost:5173']
 
+    # --- Объектное хранилище (S3/MinIO) для артефактов рендера -------------- #
+    # В проде — удалённый MinIO (переопределить endpoint/ключи через env S3_*).
+    # Локально поднимается docker-compose.minio.yml с этими же дефолтами.
+    s3_endpoint_url: str = 'http://localhost:9000'
+    # Публичный адрес MinIO для presigned-ссылок (доступный из браузера). Пусто —
+    # берём s3_endpoint_url. Локально: http://localhost:9000; в проде — домен MinIO
+    # или nginx-прокси /s3/ (см. docs/S3_INTEGRATION.md, шаг 5).
+    s3_public_endpoint_url: str = ''
+    s3_access_key: str = 'minioadmin'
+    s3_secret_key: str = 'minioadmin'
+    s3_bucket: str = 'ontol-artifacts'
+    s3_region: str = 'us-east-1'
+    # True — ходить по https и проверять TLS (для прод-MinIO за доменом).
+    s3_secure: bool = False
+    # Срок жизни presigned-ссылки на артефакт, секунды.
+    s3_presign_expire_seconds: int = 3600
+
 
 settings = Settings()

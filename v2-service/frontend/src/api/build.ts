@@ -18,7 +18,8 @@ export interface BuildResult {
   json: string | null
   puml: string | null
   png_url: string | null
-  svg: string | null // ontol-v3 (TDL → Graphviz)
+  svg_url: string | null // ontol-v3: presigned-ссылка на SVG в MinIO
+  svg: string | null // фолбэк: инлайн-SVG, если заливка в S3 не удалась
   planarity: PlanarityInfo | null // непланарный граф v3 (иначе null)
   warnings: string[]
   error: string | null

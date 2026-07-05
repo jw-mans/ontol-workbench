@@ -5,7 +5,6 @@
 файлы во временный каталог и рендерим оттуда.
 """
 
-import base64
 import os
 import re
 import shutil
@@ -14,7 +13,8 @@ import tempfile
 from ontol import JSONSerializer, Parser, PlantUML, Project
 
 from app.config import settings
-from app.services.render import BuildResult
+from app.services import storage
+from app.services.render import BuildResult, content_digest
 
 _ANSI_RE = re.compile(r'\x1b\[[0-9;]*m')
 
@@ -32,12 +32,14 @@ def build_ontol(
         project = Project(tmp_dir)
         for name, content in files.items():
             project.write_file(name, content)
-        return _render(project, entry, plantuml_url)
+        return _render(project, entry, plantuml_url, files)
     finally:
         shutil.rmtree(tmp_dir, ignore_errors=True)
 
 
-def _render(project: Project, entry: str, plantuml_url: str) -> BuildResult:
+def _render(
+    project: Project, entry: str, plantuml_url: str, files: dict[str, str]
+) -> BuildResult:
     entry_path = project.file_path(entry)
     try:
         content = project.read_file(entry)
@@ -59,10 +61,14 @@ def _render(project: Project, entry: str, plantuml_url: str) -> BuildResult:
         plantuml.processes_puml_to_png(puml_path)
         png_path = os.path.splitext(puml_path)[0] + '.png'
         with open(png_path, 'rb') as f:
-            encoded = base64.b64encode(f.read()).decode('ascii')
-        png_url = f'data:image/png;base64,{encoded}'
+            png_bytes = f.read()
+        # PNG → MinIO (content-addressed), в ответ — presigned-ссылка вместо
+        # тяжёлого base64 в JSON/Redis.
+        key = storage.artifact_key(content_digest('v1', entry, files), 'png')
+        storage.put_bytes(key, png_bytes, 'image/png')
+        png_url = storage.presigned_get(key)
     except Exception as error:  # noqa: BLE001
-        warnings.append(f'PNG rendering failed: {error}')
+        warnings.append(f'PNG rendering/upload failed: {error}')
 
     return BuildResult(
         ok=True,

@@ -10,7 +10,7 @@ import * as aiApi from '../api/ai'
 import type { AIHierarchyResult } from '../api/ai'
 import type { FileListItem } from '../api/types'
 import { errorMessage } from '../api/errors'
-import { downloadDataUrl, downloadText } from '../utils/download'
+import { downloadFromUrl, downloadText } from '../utils/download'
 import OntolEditor from '../components/OntolEditor'
 import { ConfirmDialog, PromptDialog } from '../components/Modal'
 import { CreateFileDialog } from '../components/CreateFileDialog'
@@ -489,12 +489,40 @@ function BuildPanel({
   // рисование», пока пользователь не подтвердит. Сброс при новой сборке —
   // корректировкой состояния в рендере (не в эффекте), сверяясь с прошлым build.
   const [ackPlanarity, setAckPlanarity] = useState(false)
+  // Текст SVG, подтянутый из MinIO по svg_url (для инлайна — нужен планарной
+  // подсветке по data-name). build.svg — фолбэк, если заливка в S3 не удалась.
+  const [fetchedSvg, setFetchedSvg] = useState<string | null>(null)
+  const [svgError, setSvgError] = useState<string | null>(null)
   const [ackedBuild, setAckedBuild] = useState<BuildResult | null>(null)
   if (ackedBuild !== build) {
+    // Сброс per-build состояния в рендере (не в эффекте), сверяясь с прошлым build.
     setAckedBuild(build)
     setAckPlanarity(false)
+    setFetchedSvg(null)
+    setSvgError(null)
   }
   const highlight = build.planarity && !ackPlanarity
+
+  // Фетч SVG из MinIO. Только асинхронный setState в колбэках (синхронный сброс —
+  // выше, в рендере), чтобы не ловить react-hooks/set-state-in-effect.
+  useEffect(() => {
+    if (build.svg || !build.svg_url) return // инлайн-фолбэк или нет SVG — фетч не нужен
+    let cancelled = false
+    fetch(build.svg_url)
+      .then((r) => {
+        if (!r.ok) throw new Error(`HTTP ${r.status}`)
+        return r.text()
+      })
+      .then((text) => !cancelled && setFetchedSvg(text))
+      .catch((e) => !cancelled && setSvgError(String(e)))
+    return () => {
+      cancelled = true
+    }
+  }, [build.svg, build.svg_url])
+
+  const svgMarkup = build.svg ?? fetchedSvg
+  const svgLoading =
+    !!build.svg_url && !build.svg && fetchedSvg === null && svgError === null
 
   return (
     <section className="build-panel card">
@@ -518,9 +546,10 @@ function BuildPanel({
         </ul>
       )}
 
-      {/* ontol-v3: SVG-диаграмма (Graphviz). Рендерим инлайн — SVG отдаёт наш
-          backend из dot, без скриптов. */}
-      {build.svg && (
+      {/* ontol-v3: SVG-диаграмма (Graphviz). Текст берём из MinIO по svg_url
+          (или инлайн-фолбэк) и вставляем в DOM — инлайн нужен для планарной
+          подсветки по data-name. SVG наш, без скриптов. */}
+      {(build.svg_url || build.svg) && (
         <div className="diagram">
           {build.planarity && !ackPlanarity && (
             <div className="planarity-banner">
@@ -556,21 +585,29 @@ function BuildPanel({
           {highlight && build.planarity && (
             <style>{planarityHighlightCss(build.planarity.labels)}</style>
           )}
-          <div
-            className="svg-diagram"
-            dangerouslySetInnerHTML={{ __html: build.svg }}
-          />
-          <div className="row">
-            <button
-              type="button"
-              className="btn"
-              onClick={() =>
-                downloadText(`${baseName}.svg`, build.svg!, 'image/svg+xml')
-              }
-            >
-              Скачать SVG
-            </button>
-          </div>
+          {svgLoading && <p className="muted">Загрузка диаграммы…</p>}
+          {svgError && (
+            <p className="error">Не удалось загрузить SVG: {svgError}</p>
+          )}
+          {svgMarkup && (
+            <div
+              className="svg-diagram"
+              dangerouslySetInnerHTML={{ __html: svgMarkup }}
+            />
+          )}
+          {svgMarkup && (
+            <div className="row">
+              <button
+                type="button"
+                className="btn"
+                onClick={() =>
+                  downloadText(`${baseName}.svg`, svgMarkup, 'image/svg+xml')
+                }
+              >
+                Скачать SVG
+              </button>
+            </div>
+          )}
         </div>
       )}
 
@@ -581,7 +618,11 @@ function BuildPanel({
             <button
               type="button"
               className="btn"
-              onClick={() => downloadDataUrl(`${baseName}.png`, build.png_url!)}
+              onClick={() => {
+                void downloadFromUrl(`${baseName}.png`, build.png_url!).catch(
+                  () => {},
+                )
+              }}
             >
               Скачать PNG
             </button>
@@ -589,7 +630,8 @@ function BuildPanel({
         </div>
       ) : (
         !build.error &&
-        !build.svg && (
+        !build.svg &&
+        !build.svg_url && (
           <p className="muted">
             PNG недоступен (нужен PlantUML-сервер) — JSON и PlantUML ниже.
           </p>

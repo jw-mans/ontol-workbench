@@ -8,7 +8,8 @@ TDL нет, поэтому материализация каталога не н
 
 from __future__ import annotations
 
-from app.services.render import BuildResult
+from app.services import storage
+from app.services.render import BuildResult, content_digest
 
 
 def _render(
@@ -44,11 +45,31 @@ def _render(
 
 
 def build_tdl(files: dict[str, str], entry: str) -> BuildResult:
-    """Собрать ``.tdl``-файл в ``BuildResult`` (симметрично v1 ``build_ontol``)."""
+    """Собрать ``.tdl``-файл в ``BuildResult`` (симметрично v1 ``build_ontol``).
+
+    SVG заливается в MinIO (content-addressed), в ответ — presigned-ссылка
+    ``svg_url``. Если S3 недоступен — деградируем на инлайн-``svg`` + warning,
+    чтобы диаграмма всё равно отрисовалась.
+    """
     svg, warnings, planarity, error = _render(files[entry], analyzed=True)
     if error:
         return BuildResult(ok=False, error=error)
-    return BuildResult(ok=True, svg=svg, warnings=warnings, planarity=planarity)
+    try:
+        key = storage.artifact_key(content_digest('v3', entry, files), 'svg')
+        storage.put_bytes(key, svg.encode('utf-8'), 'image/svg+xml')
+        return BuildResult(
+            ok=True,
+            svg_url=storage.presigned_get(key),
+            warnings=warnings,
+            planarity=planarity,
+        )
+    except Exception as err:  # noqa: BLE001 — S3 недоступен: инлайн-фолбэк
+        return BuildResult(
+            ok=True,
+            svg=svg,
+            warnings=[*warnings, f'SVG upload failed: {err}'],
+            planarity=planarity,
+        )
 
 
 def build_tdl_svg(text: str) -> tuple[str | None, str | None]:

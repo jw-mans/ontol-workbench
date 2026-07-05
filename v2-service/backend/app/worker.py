@@ -20,6 +20,7 @@ from app.config import settings
 from app.db import async_session_maker
 from app.models.file import File
 from app.queue import AI_HIERARCHY, RENDER_BUILD, redis_settings
+from app.services import build_cache
 from app.services.ai import AIHierarchyResult, generate_hierarchy
 from app.services.render import BuildResult, build_project
 
@@ -49,10 +50,19 @@ async def render_build(ctx: dict, project_id: str, entry: str | None) -> dict:
         return asdict(BuildResult(ok=False, error='Project has no files'))
 
     chosen = _choose_entry(entry, files)
+
+    # Кэш по контенту: неизменный проект не рендерим заново (CPU + HTTP к PlantUML),
+    # отдаём готовый ответ со свежей presigned-ссылкой. Все обращения к S3 мягкие —
+    # промах/недоступность MinIO просто ведёт к обычному рендеру.
+    cached = await asyncio.to_thread(build_cache.load, chosen, files)
+    if cached is not None:
+        return cached
+
     # build_project блокирующий — в отдельный поток.
     build_result = await asyncio.to_thread(
         build_project, files, chosen, settings.plantuml_url
     )
+    await asyncio.to_thread(build_cache.store, chosen, files, build_result)
     return asdict(build_result)
 
 

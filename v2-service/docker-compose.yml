@@ -4,6 +4,17 @@ x-backend-env: &backend-env
   REDIS_URL: redis://redis:6379/0
   SECRET: ${SECRET:?set SECRET in v2-service/.env}
   CORS_ORIGINS: ${CORS_ORIGINS:-["http://localhost:5173"]}
+  # Объектное хранилище (S3/MinIO) для артефактов рендера. В проде — удалённый
+  # MinIO: задать S3_ENDPOINT_URL и ключи в v2-service/.env. Локально проще поднять
+  # оверлей docker-compose.minio.yml (дефолты ниже как раз под него).
+  S3_ENDPOINT_URL: ${S3_ENDPOINT_URL:-http://minio:9000}
+  # Публичный адрес для presigned-ссылок (доступный из браузера); пусто — = внутренний.
+  S3_PUBLIC_ENDPOINT_URL: ${S3_PUBLIC_ENDPOINT_URL:-}
+  S3_ACCESS_KEY: ${S3_ACCESS_KEY:-minioadmin}
+  S3_SECRET_KEY: ${S3_SECRET_KEY:-minioadmin}
+  S3_BUCKET: ${S3_BUCKET:-ontol-artifacts}
+  S3_REGION: ${S3_REGION:-us-east-1}
+  S3_SECURE: ${S3_SECURE:-false}
 
 services:
   db:
