@@ -2,31 +2,58 @@ from __future__ import annotations
 
 import pytest
 
-from uml_dsl.enums import AggregationKind, Changeability, DependencyStereotype, Stereotype, Visibility
+from uml_dsl.enums import AggregationKind, Changeability, DependencyStereotype, Scope, Stereotype, Visibility
+from uml_dsl.models import DataType, Interface, Template
+from uml_dsl.relationships import AssociationClass, TemplateBinding
 from uml_dsl.tdl_lexer import LexerError, TokenKind, lex
 from uml_dsl.tdl_parser import ParseError, parse_tdl
 
 from tests.helpers import (
     ASSOCIATION,
+    ASSOCIATION_CLASS,
     ATTRS,
     CLASS,
     COMPOSITION,
+    DATA_TYPE,
     DEPENDENCY,
     END,
     GENERALIZATION,
+    INTERFACE,
     NAME,
     OPS,
+    PARAMETERS,
+    REALIZATION,
+    TEMPLATE,
+    TEMPLATE_BINDING,
+    association_class_block,
     class_block,
     build,
+    data_type_block,
     enum_block,
+    interface_block,
+    template_block,
 )
 
 
 def test_lexer_recognizes_tdl_keywords_and_relation_tokens():
-    tokens = lex(f"{CLASS} Store\n{END} {CLASS}\n{ASSOCIATION} Store -- Item\n")
+    tokens = lex(
+        f"{CLASS} Store\n{END} {CLASS}\n"
+        f"{INTERFACE} Readable\n{END} {INTERFACE}\n"
+        f"{DATA_TYPE} Money\n{END} {DATA_TYPE}\n"
+        f"{TEMPLATE} Box\n{PARAMETERS}\nT\n{END} {TEMPLATE}\n"
+        f"{TEMPLATE_BINDING} StringBox -> Box {{ T = String }}\n"
+        f"{ASSOCIATION_CLASS} Enrollment\n{ASSOCIATION} Student -- Course\n{END} {ASSOCIATION_CLASS}\n"
+        f"{ASSOCIATION} Store -- Item\n"
+    )
     kinds = [token.kind for token in tokens]
 
     assert TokenKind(CLASS) in kinds
+    assert TokenKind(INTERFACE) in kinds
+    assert TokenKind(DATA_TYPE) in kinds
+    assert TokenKind(TEMPLATE) in kinds
+    assert TokenKind(PARAMETERS) in kinds
+    assert TokenKind(TEMPLATE_BINDING) in kinds
+    assert TokenKind(ASSOCIATION_CLASS) in kinds
     assert TokenKind(END) in kinds
     assert TokenKind(ASSOCIATION) in kinds
     assert TokenKind.DASH in kinds
@@ -98,6 +125,132 @@ def test_builds_classes_enum_features_and_relationships():
     composition = diagram.associations[1]
     assert composition.ends[0].aggregation == AggregationKind.COMPOSITION
     assert diagram.dependencies[0].stereotype == DependencyStereotype.USE
+
+
+def test_builds_interface_and_realization():
+    tdl = (
+        class_block("Repository")
+        + interface_block(
+            "Readable",
+            f"""
+{OPS}
+  + get(id: int): String
+""",
+        )
+        + f"{REALIZATION} Repository -> Readable\n"
+    )
+
+    diagram = build(tdl)
+    diagram.validate_all()
+
+    readable = diagram.classifiers["Readable"]
+    assert isinstance(readable, Interface)
+    assert readable.stereotype == Stereotype.INTERFACE
+    assert readable.is_abstract is True
+    assert readable.operations[0].is_abstract is True
+    assert diagram.realizations[0].interface_.name == "Readable"
+
+
+def test_realization_requires_interface_target():
+    tdl = class_block("Repository") + class_block("Readable") + f"{REALIZATION} Repository -> Readable\n"
+
+    with pytest.raises(ValueError, match="интерфейс"):
+        build(tdl)
+
+
+def test_builds_data_type_and_allows_references_to_it():
+    tdl = (
+        data_type_block(
+            "Money",
+            f"""
+{ATTRS}
+  + amount : Float
+  + currency : String
+{OPS}
+  + add(other : Money) : Money
+""",
+        )
+        + class_block("Invoice", f"{ATTRS}\n  + total : Money")
+    )
+
+    diagram = build(tdl)
+    diagram.validate_all()
+
+    money = diagram.classifiers["Money"]
+    assert isinstance(money, DataType)
+    assert money.stereotype == Stereotype.DATA_TYPE
+    assert money.operations[0].is_query is True
+    assert money.operations[0].scope == Scope.CLASSIFIER
+    assert diagram.classifiers["Invoice"].attributes[0].type_ == "Money"
+
+
+def test_builds_template_and_allows_parameter_type_references():
+    tdl = (
+        template_block(
+            "Box",
+            f"""
+{PARAMETERS}
+  T
+{ATTRS}
+  + value : T
+{OPS}
+  + get() : T
+  + replace(value : T) : T
+""",
+        )
+        + class_block("User", f"{ATTRS}\n  + name : String")
+        + class_block("UserBox", f"{ATTRS}\n  + value : User")
+        + f"{TEMPLATE_BINDING} UserBox -> Box {{ T = User }}\n"
+    )
+
+    diagram = build(tdl)
+    diagram.validate_all()
+
+    box = diagram.classifiers["Box"]
+    assert isinstance(box, Template)
+    assert box.template_parameters[0].name == "T"
+    assert box.attributes[0].type_ == "T"
+    assert box.operations[0].return_type == "T"
+    assert box.operations[1].parameters[0].type_ == "T"
+    assert len(diagram.template_bindings) == 1
+    binding = diagram.template_bindings[0]
+    assert isinstance(binding, TemplateBinding)
+    assert binding.bound_element.name == "UserBox"
+    assert binding.template.name == "Box"
+    assert binding.substitutions == {"T": "User"}
+
+
+def test_builds_association_class_as_relationship_and_classifier():
+    tdl = (
+        class_block("Student")
+        + class_block("Course")
+        + association_class_block(
+            "Enrollment",
+            f"""
+{ASSOCIATION} Student [0..*] : student -- Course [0..*] : course {NAME} "enrolls"
+{ATTRS}
+  + enrolledAt : String
+  + grade : String
+{OPS}
+  + confirm() : Boolean
+""",
+        )
+    )
+
+    diagram = build(tdl)
+    diagram.validate_all()
+
+    assert "Enrollment" in diagram.classifiers
+    assert len(diagram.associations) == 0
+    assert len(diagram.association_classes) == 1
+
+    assoc_class = diagram.association_classes[0]
+    assert isinstance(assoc_class, AssociationClass)
+    assert assoc_class.name == "enrolls"
+    assert assoc_class.associated_classifier.name == "Enrollment"
+    assert assoc_class.associated_classifier.attributes[0].name == "enrolledAt"
+    assert assoc_class.ends[0].participant.name == "Student"
+    assert assoc_class.ends[1].role == "course"
 
 
 def test_validation_rejects_inheritance_cycles():

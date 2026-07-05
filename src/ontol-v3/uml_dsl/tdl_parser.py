@@ -5,20 +5,26 @@ from typing import List, Optional
 
 from .tdl_ast import (
     AlignCmd,
+    AssociationClassDecl,
     AssocEnd,
     AssociationDecl,
     AttributeLine,
     BindCmd,
     ClassDecl,
+    DataTypeDecl,
     DependencyDecl,
     DistributeCmd,
     Document,
     EnumDecl,
     FixCmd,
     GeneralizationDecl,
+    InterfaceDecl,
     LayoutBlock,
     OperationLine,
-    RealizationDecl, ParameterLine,
+    ParameterLine,
+    RealizationDecl,
+    TemplateBindingDecl,
+    TemplateDecl,
 )
 from .tdl_lexer import Token, TokenKind
 
@@ -222,13 +228,7 @@ class Parser:
             is_leaf=is_leaf,
         )
 
-    def _parse_class(self) -> ClassDecl:
-        self.expect(TokenKind.КЛАСС)
-        name = self.expect_ident()
-        is_abstract = False
-        if self.at(TokenKind.АБСТРАКТНЫЙ):
-            self.advance()
-            is_abstract = True
+    def _parse_class_members(self) -> tuple[List[AttributeLine], List[OperationLine]]:
         attrs: List[AttributeLine] = []
         ops: List[OperationLine] = []
         if self.at(TokenKind.АТРИБУТЫ):
@@ -239,9 +239,88 @@ class Parser:
             self.advance()
             while self.at(TokenKind.PLUS) or self.at(TokenKind.MINUS) or self.at(TokenKind.HASH) or self.at(TokenKind.TILDE) or self.at(TokenKind.IDENT):
                 ops.append(self._parse_operation_line())
+        return attrs, ops
+
+    def _parse_class(self) -> ClassDecl:
+        self.expect(TokenKind.КЛАСС)
+        name = self.expect_ident()
+        is_abstract = False
+        if self.at(TokenKind.АБСТРАКТНЫЙ):
+            self.advance()
+            is_abstract = True
+        attrs, ops = self._parse_class_members()
         self.expect(TokenKind.КОНЕЦ)
         self.expect(TokenKind.КЛАСС)
         return ClassDecl(name=name, is_abstract=is_abstract, attributes=attrs, operations=ops)
+
+    def _parse_interface(self) -> InterfaceDecl:
+        self.expect(TokenKind.ИНТЕРФЕЙС)
+        name = self.expect_ident()
+        attrs, ops = self._parse_class_members()
+        self.expect(TokenKind.КОНЕЦ)
+        self.expect(TokenKind.ИНТЕРФЕЙС)
+        return InterfaceDecl(name=name, attributes=attrs, operations=ops)
+
+    def _parse_data_type(self) -> DataTypeDecl:
+        self.expect(TokenKind.ТИП_ДАННЫХ)
+        name = self.expect_ident()
+        attrs, ops = self._parse_class_members()
+        self.expect(TokenKind.КОНЕЦ)
+        self.expect(TokenKind.ТИП_ДАННЫХ)
+        return DataTypeDecl(name=name, attributes=attrs, operations=ops)
+
+    def _parse_template(self) -> TemplateDecl:
+        self.expect(TokenKind.ШАБЛОН)
+        name = self.expect_ident()
+        template_parameters: List[ParameterLine] = []
+
+        if self.at(TokenKind.ПАРАМЕТРЫ):
+            self.advance()
+            while self.peek().kind in (
+                TokenKind.IDENT,
+                TokenKind.ИМЯ,
+                TokenKind.В,
+                TokenKind.КАК,
+            ):
+                template_parameters.append(self._parse_parameter_line())
+
+        attrs, ops = self._parse_class_members()
+        self.expect(TokenKind.КОНЕЦ)
+        self.expect(TokenKind.ШАБЛОН)
+        return TemplateDecl(
+            name=name,
+            template_parameters=template_parameters,
+            attributes=attrs,
+            operations=ops,
+        )
+
+    def _parse_template_binding(self) -> TemplateBindingDecl:
+        self.expect(TokenKind.ПОДСТАНОВКА)
+        bound_element = self.expect_ident()
+        self.expect(TokenKind.ARROW)
+        template = self.expect_ident()
+        substitutions: List[ParameterLine] = []
+
+        self.expect(TokenKind.LBRACE)
+        while not self.at(TokenKind.RBRACE):
+            if self.at(TokenKind.EOF):
+                raise ParseError("Ожидалась } в ПОДСТАНОВКА", self.peek())
+
+            substitution = self._parse_parameter_line()
+            if substitution.default is None:
+                raise ParseError("Ожидалась подстановка вида T = Actual", self.peek())
+            substitutions.append(substitution)
+
+            if not self.at(TokenKind.COMMA):
+                break
+            self.advance()
+        self.expect(TokenKind.RBRACE)
+
+        return TemplateBindingDecl(
+            bound_element=bound_element,
+            template=template,
+            substitutions=substitutions,
+        )
 
     def _parse_generalization(self) -> GeneralizationDecl:
         self.expect(TokenKind.ОБОБЩЕНИЕ)
@@ -325,6 +404,24 @@ class Parser:
     def _parse_aggregation(self) -> AssociationDecl:
         self.expect(TokenKind.АГРЕГАЦИЯ)
         return self._parse_association_like(aggregation="aggregation")
+
+    def _parse_association_class(self) -> AssociationClassDecl:
+        self.expect(TokenKind.КЛАСС_АССОЦИАЦИИ)
+        name = self.expect_ident()
+
+        if not self.at(TokenKind.АССОЦИАЦИЯ):
+            raise ParseError("Ожидалась АССОЦИАЦИЯ внутри КЛАСС_АССОЦИАЦИИ", self.peek())
+
+        association = self._parse_association()
+        attrs, ops = self._parse_class_members()
+        self.expect(TokenKind.КОНЕЦ)
+        self.expect(TokenKind.КЛАСС_АССОЦИАЦИИ)
+        return AssociationClassDecl(
+            name=name,
+            association=association,
+            attributes=attrs,
+            operations=ops,
+        )
 
     def _parse_enum(self) -> EnumDecl:
         self.expect(TokenKind.ПЕРЕЧИСЛЕНИЕ)
@@ -413,6 +510,14 @@ class Parser:
                 break
             if self.at(TokenKind.КЛАСС):
                 doc.declarations.append(self._parse_class())
+            elif self.at(TokenKind.ИНТЕРФЕЙС):
+                doc.declarations.append(self._parse_interface())
+            elif self.at(TokenKind.ТИП_ДАННЫХ):
+                doc.declarations.append(self._parse_data_type())
+            elif self.at(TokenKind.ШАБЛОН):
+                doc.declarations.append(self._parse_template())
+            elif self.at(TokenKind.ПОДСТАНОВКА):
+                doc.declarations.append(self._parse_template_binding())
             elif self.at(TokenKind.ПЕРЕЧИСЛЕНИЕ):
                 doc.declarations.append(self._parse_enum())
             elif self.at(TokenKind.ОБОБЩЕНИЕ):
@@ -427,6 +532,8 @@ class Parser:
                 doc.declarations.append(self._parse_composition())
             elif self.at(TokenKind.АГРЕГАЦИЯ):
                 doc.declarations.append(self._parse_aggregation())
+            elif self.at(TokenKind.КЛАСС_АССОЦИАЦИИ):
+                doc.declarations.append(self._parse_association_class())
             elif self.at(TokenKind.EOF):
                 break
             else:

@@ -16,6 +16,8 @@ from .models import (
     Attribute,
     Classifier,
     Class,
+    DataType,
+    Interface,
     Template,
     ClassFeature,
     ModelElement,
@@ -34,6 +36,7 @@ from .relationships import (
     Generalization,
     GeneralizationSet,
     Realization,
+    TemplateBinding,
     
 )
 from .diagram import ClassDiagram, ClassPosition
@@ -60,6 +63,8 @@ __all__ = [
     "Attribute",
     "Classifier",
     "Class",
+    "DataType",
+    "Interface",
     "Template",
     "ClassFeature",
     "ModelElement",
@@ -77,6 +82,7 @@ __all__ = [
     "Generalization",
     "GeneralizationSet",
     "Realization",
+    "TemplateBinding",
     
     # Diagram
     "ClassDiagram",

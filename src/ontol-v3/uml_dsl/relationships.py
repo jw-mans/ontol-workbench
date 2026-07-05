@@ -17,6 +17,7 @@ from .enums import (
     Changeability,
     CollectionKind,
     DependencyStereotype,
+    Stereotype,
     Visibility,
 )
 from .models import Attribute, Classifier, Class, MultiplicityRange
@@ -210,6 +211,14 @@ class Realization(BaseModel):
     def _no_self_realization(self) -> "Realization":
         if self.implementer.name == self.interface_.name:
             raise ValueError("Реализация не может ссылаться на саму себя")
+        return self
+
+    @model_validator(mode="after")
+    def _target_must_be_interface(self) -> "Realization":
+        if getattr(self.interface_, "stereotype", None) != Stereotype.INTERFACE:
+            raise ValueError(
+                f"Реализация '{self.implementer.name} -> {self.interface_.name}' должна ссылаться на интерфейс"
+            )
         return self
 
     @property
@@ -462,3 +471,23 @@ class AssociationClass(Association):
         ...,
         description="Ссылка на связанный класс (содержит атрибуты/операции).",
     )
+
+
+class TemplateBinding(BaseModel):
+    """Подстановка параметров шаблона.
+
+    Связывает конкретный bound element с шаблоном и хранит фактические
+    значения параметров, например `T = User`.
+    """
+    bound_element: Class = Field(..., description="Классификатор, использующий шаблон.")
+    template: Class = Field(..., description="Шаблонный классификатор.")
+    substitutions: Dict[str, str] = Field(
+        default_factory=dict,
+        description="Подстановки формальных параметров шаблона.",
+    )
+
+    @model_validator(mode="after")
+    def _must_have_substitutions(self) -> "TemplateBinding":
+        if not self.substitutions:
+            raise ValueError("Подстановка шаблона должна содержать хотя бы один параметр")
+        return self

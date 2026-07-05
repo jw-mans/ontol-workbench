@@ -39,6 +39,31 @@ class ClassDecl:
     operations: List[OperationLine] = field(default_factory=list)
 
 @dataclass
+class InterfaceDecl:
+    name: str
+    attributes: List[AttributeLine] = field(default_factory=list)
+    operations: List[OperationLine] = field(default_factory=list)
+
+@dataclass
+class DataTypeDecl:
+    name: str
+    attributes: List[AttributeLine] = field(default_factory=list)
+    operations: List[OperationLine] = field(default_factory=list)
+
+@dataclass
+class TemplateDecl:
+    name: str
+    template_parameters: List[ParameterLine] = field(default_factory=list)
+    attributes: List[AttributeLine] = field(default_factory=list)
+    operations: List[OperationLine] = field(default_factory=list)
+
+@dataclass
+class TemplateBindingDecl:
+    bound_element: str
+    template: str
+    substitutions: List[ParameterLine] = field(default_factory=list)
+
+@dataclass
 class EnumDecl:
     name: str
     literals: List[str] = field(default_factory=list)
@@ -79,6 +104,13 @@ class AssociationDecl:
     aggregation: Optional[str] = None
 
 @dataclass
+class AssociationClassDecl:
+    name: str
+    association: AssociationDecl
+    attributes: List[AttributeLine] = field(default_factory=list)
+    operations: List[OperationLine] = field(default_factory=list)
+
+@dataclass
 class AlignCmd:
     where: str
     elements: List[str]
@@ -115,11 +147,16 @@ class LayoutBlock:
 
 Declaration = Union[
     ClassDecl,
+    InterfaceDecl,
+    DataTypeDecl,
+    TemplateDecl,
+    TemplateBindingDecl,
     EnumDecl,
     GeneralizationDecl,
     DependencyDecl,
     RealizationDecl,
     AssociationDecl,
+    AssociationClassDecl,
 ]
 
 

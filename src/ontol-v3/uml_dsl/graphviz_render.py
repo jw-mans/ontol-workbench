@@ -337,6 +337,67 @@ def _transform_path_d(path_d: str, transform: str) -> str:
     return " ".join(parts)
 
 
+def _format_path(
+    start: tuple[float, float],
+    segments: list[PathSegment],
+) -> str:
+    parts = [f"M{start[0]:.1f},{start[1]:.1f}"]
+
+    for command, points in segments:
+        if command == "L":
+            _, end = points
+            parts.append(f"L{end[0]:.1f},{end[1]:.1f}")
+        elif command == "C":
+            _, p1, p2, end = points
+            parts.append(
+                f"C{p1[0]:.1f},{p1[1]:.1f} "
+                f"{p2[0]:.1f},{p2[1]:.1f} "
+                f"{end[0]:.1f},{end[1]:.1f}"
+            )
+
+    return " ".join(parts)
+
+
+def _path_with_endpoint(
+    path_d: str | None,
+    point: tuple[float, float],
+    *,
+    at_start: bool,
+) -> str | None:
+    if not path_d:
+        return path_d
+
+    start, segments = _parse_path(path_d)
+    if at_start:
+        return _format_path(point, segments)
+
+    if not segments:
+        return _format_path(point, segments)
+
+    changed_segments = list(segments)
+    command, points = changed_segments[-1]
+    changed_segments[-1] = (command, (*points[:-1], point))
+    return _format_path(start, changed_segments)
+
+
+def _points_with_endpoint(
+    points: list[tuple[float, float]],
+    point: tuple[float, float],
+    *,
+    at_start: bool,
+) -> list[tuple[float, float]]:
+    if not points:
+        return [point]
+
+    changed_points = list(points)
+    if at_start:
+        changed_points[0] = point
+    else:
+        changed_points[-1] = point
+
+    return _dedupe_points(changed_points, eps=0.1)
+
+
 def _cubic_point(
     p0: tuple[float, float],
     p1: tuple[float, float],
@@ -663,11 +724,16 @@ def _edge_shape_svg(
     points: list[tuple[float, float]],
     path_d: str | None,
     attrs: str,
+    extra_class: str = "",
 ) -> str:
-    if path_d:
-        return f'<path class="uml-edge-line" d="{_path_attr(path_d)}"{attrs}/>'
+    class_attr = "uml-edge-line"
+    if extra_class:
+        class_attr += f" {extra_class}"
 
-    return f'<polyline class="uml-edge-line" points="{_points_attr(points)}"{attrs}/>'
+    if path_d:
+        return f'<path class="{class_attr}" d="{_path_attr(path_d)}"{attrs}/>'
+
+    return f'<polyline class="{class_attr}" points="{_points_attr(points)}"{attrs}/>'
 
 
 def _path_label_pos(path_d: str) -> tuple[float, float]:
@@ -685,6 +751,9 @@ def render_association_svg(
     positions: dict[str, ClassPosition],
     route: list[tuple[float, float]] | None = None,
     path_d: str | None = None,
+    data_type: str = "association",
+    extra_data_attrs: str = "",
+    extra_content: str = "",
 ) -> str:
     if not assoc.is_binary():
         return ""
@@ -721,9 +790,12 @@ def render_association_svg(
 
     if path_d:
         src_mult_x, src_mult_y = _multiplicity_label_pos_on_path(path_d, True, mult1)
-        tgt_mult_x, tgt_mult_y = _multiplicity_label_pos_on_path(path_d, False, mult2)
     else:
         src_mult_x, src_mult_y = _multiplicity_label_pos(points, True, mult1)
+
+    if path_d:
+        tgt_mult_x, tgt_mult_y = _multiplicity_label_pos_on_path(path_d, False, mult2)
+    else:
         tgt_mult_x, tgt_mult_y = _multiplicity_label_pos(points, False, mult2)
 
     edge_shape = _edge_shape_svg(
@@ -732,11 +804,16 @@ def render_association_svg(
         f' fill="none" stroke="{EDGE_COLOR}" stroke-width="{EDGE_STROKE_WIDTH:.1f}"{marker_start}{marker_end}',
     )
 
+    edge_class = "uml-edge"
+    if data_type != "association":
+        edge_class += f" uml-{data_type}"
+
     return f"""
-<g class="uml-edge"
-   data-type="association"
+<g class="{edge_class}"
+   data-type="{_esc(data_type)}"
    data-name="{_esc(assoc.name or '')}"
    data-derived="{str(assoc.is_derived).lower()}"
+   {extra_data_attrs}
    data-end1-class="{_esc(end1_name)}"
    data-end1-multiplicity="{_esc(mult1)}"
    data-end1-role="{_esc(e1.role or '')}"
@@ -770,8 +847,370 @@ def render_association_svg(
   {_render_qualifier_metadata(e2, 2)}
   {_render_label(mult1 if show_src_mult else "", src_mult_x, src_mult_y, "uml-multiplicity")}
   {_render_label(mult2 if show_tgt_mult else "", tgt_mult_x, tgt_mult_y, "uml-multiplicity")}
+  {extra_content}
 </g>
 """
+
+
+def _midpoint_on_edge(
+    points: list[tuple[float, float]],
+    path_d: str | None = None,
+) -> tuple[float, float]:
+    if path_d:
+        flattened = _flatten_path(path_d)
+        point, _ = _point_on_path(path_d, True, _polyline_length(flattened) / 2)
+        return point
+
+    if not points:
+        return 0.0, 0.0
+
+    total = _polyline_length(points)
+    if total <= 0:
+        return points[len(points) // 2]
+
+    target = total / 2
+    walked = 0.0
+    for start, end in zip(points, points[1:]):
+        segment = math.hypot(end[0] - start[0], end[1] - start[1])
+        if walked + segment >= target:
+            ratio = (target - walked) / segment if segment else 0.0
+            return (
+                start[0] + (end[0] - start[0]) * ratio,
+                start[1] + (end[1] - start[1]) * ratio,
+            )
+        walked += segment
+
+    return points[-1]
+
+
+def _nearest_point_on_polyline(
+    points: list[tuple[float, float]],
+    target: tuple[float, float],
+) -> tuple[float, float]:
+    if not points:
+        return target
+
+    if len(points) == 1:
+        return points[0]
+
+    best_point = points[0]
+    best_distance = float("inf")
+    tx, ty = target
+
+    for start, end in zip(points, points[1:]):
+        x1, y1 = start
+        x2, y2 = end
+        dx = x2 - x1
+        dy = y2 - y1
+        length_sq = dx * dx + dy * dy
+        if length_sq <= 0:
+            candidate = start
+        else:
+            ratio = ((tx - x1) * dx + (ty - y1) * dy) / length_sq
+            ratio = max(0.0, min(1.0, ratio))
+            candidate = (x1 + dx * ratio, y1 + dy * ratio)
+
+        distance = (candidate[0] - tx) ** 2 + (candidate[1] - ty) ** 2
+        if distance < best_distance:
+            best_distance = distance
+            best_point = candidate
+
+    return best_point
+
+
+def _association_class_attach_point(
+    points: list[tuple[float, float]],
+    path_d: str | None,
+    target: tuple[float, float],
+) -> tuple[float, float]:
+    if path_d:
+        return _nearest_point_on_polyline(_flatten_path(path_d), target)
+
+    return _nearest_point_on_polyline(points, target)
+
+
+def _point_inside_rect(
+    point: tuple[float, float],
+    rect: ClassPosition,
+    margin: float = 3.0,
+) -> bool:
+    x, y = point
+    return (
+        rect.x - margin <= x <= rect.x + rect.width + margin
+        and rect.y - margin <= y <= rect.y + rect.height + margin
+    )
+
+
+def _segment_intersects_rect(
+    start: tuple[float, float],
+    end: tuple[float, float],
+    rect: ClassPosition,
+    margin: float = 3.0,
+) -> bool:
+    if _point_inside_rect(start, rect, margin) or _point_inside_rect(end, rect, margin):
+        return True
+
+    x0, y0 = start
+    x1, y1 = end
+    dx = x1 - x0
+    dy = y1 - y0
+    left = rect.x - margin
+    right = rect.x + rect.width + margin
+    top = rect.y - margin
+    bottom = rect.y + rect.height + margin
+    t0 = 0.0
+    t1 = 1.0
+
+    for p, q in (
+        (-dx, x0 - left),
+        (dx, right - x0),
+        (-dy, y0 - top),
+        (dy, bottom - y0),
+    ):
+        if p == 0:
+            if q < 0:
+                return False
+            continue
+
+        t = q / p
+        if p < 0:
+            if t > t1:
+                return False
+            t0 = max(t0, t)
+        else:
+            if t < t0:
+                return False
+            t1 = min(t1, t)
+
+    return t0 <= t1
+
+
+def _association_class_anchor_candidates(
+    class_pos: ClassPosition,
+    target: tuple[float, float],
+) -> list[tuple[float, float]]:
+    cx, cy = _center(class_pos)
+    x0 = class_pos.x
+    x1 = class_pos.x + class_pos.width
+    y0 = class_pos.y
+    y1 = class_pos.y + class_pos.height
+
+    candidates = []
+    if target[1] >= cy:
+        candidates.extend([(cx, y1), (x1, y1), (x0, y1)])
+    else:
+        candidates.extend([(cx, y0), (x1, y0), (x0, y0)])
+
+    if target[0] >= cx:
+        candidates.extend([(x1, cy), (x1, y1), (x1, y0)])
+    else:
+        candidates.extend([(x0, cy), (x0, y1), (x0, y0)])
+
+    candidates.extend([
+        (cx, y1),
+        (cx, y0),
+        (x1, cy),
+        (x0, cy),
+        _box_boundary_towards(class_pos, target),
+    ])
+
+    result: list[tuple[float, float]] = []
+    seen: set[tuple[float, float]] = set()
+    for candidate in candidates:
+        rounded = (round(candidate[0], 3), round(candidate[1], 3))
+        if rounded in seen:
+            continue
+        seen.add(rounded)
+        result.append(candidate)
+
+    return result
+
+
+def _association_class_anchor(
+    class_pos: ClassPosition,
+    target: tuple[float, float],
+    obstacles: list[ClassPosition],
+) -> tuple[float, float]:
+    for candidate in _association_class_anchor_candidates(class_pos, target):
+        if not any(_segment_intersects_rect(candidate, target, obstacle) for obstacle in obstacles):
+            return candidate
+
+    return _box_boundary_towards(class_pos, target)
+
+
+def _polyline_length_value(points: list[tuple[float, float]]) -> float:
+    return sum(
+        math.hypot(end[0] - start[0], end[1] - start[1])
+        for start, end in zip(points, points[1:])
+    )
+
+
+def _clean_polyline_points(
+    points: list[tuple[float, float]],
+) -> list[tuple[float, float]]:
+    return _dedupe_points(points, eps=0.1)
+
+
+def _polyline_hits_obstacles(
+    points: list[tuple[float, float]],
+    obstacles: list[ClassPosition],
+) -> bool:
+    return any(
+        _segment_intersects_rect(start, end, obstacle)
+        for start, end in zip(points, points[1:])
+        for obstacle in obstacles
+    )
+
+
+def _association_class_connector_points(
+    class_pos: ClassPosition,
+    target: tuple[float, float],
+    obstacles: list[ClassPosition],
+) -> list[tuple[float, float]]:
+    routes: list[list[tuple[float, float]]] = []
+    for anchor in _association_class_anchor_candidates(class_pos, target):
+        routes.extend([
+            _clean_polyline_points([anchor, target]),
+            _clean_polyline_points([anchor, (anchor[0], target[1]), target]),
+            _clean_polyline_points([anchor, (target[0], anchor[1]), target]),
+        ])
+
+    valid_routes = [
+        route
+        for route in routes
+        if len(route) >= 2 and not _polyline_hits_obstacles(route, obstacles)
+    ]
+    if valid_routes:
+        return min(valid_routes, key=_polyline_length_value)
+
+    return routes[0]
+
+
+def _rounded_connector_path(points: list[tuple[float, float]], radius: float = 18.0) -> str:
+    if len(points) < 2:
+        return ""
+
+    def fmt(point: tuple[float, float]) -> str:
+        return f"{point[0]:.1f},{point[1]:.1f}"
+
+    if len(points) == 2:
+        start, end = points
+        dx = end[0] - start[0]
+        dy = end[1] - start[1]
+        if abs(dx) > abs(dy):
+            c1 = (start[0] + dx * 0.45, start[1])
+            c2 = (end[0] - dx * 0.45, end[1])
+        else:
+            c1 = (start[0], start[1] + dy * 0.45)
+            c2 = (end[0], end[1] - dy * 0.45)
+        return f"M{fmt(start)} C{fmt(c1)} {fmt(c2)} {fmt(end)}"
+
+    start, bend, end = points[0], points[1], points[-1]
+    v1 = (bend[0] - start[0], bend[1] - start[1])
+    v2 = (end[0] - bend[0], end[1] - bend[1])
+    len1 = math.hypot(v1[0], v1[1])
+    len2 = math.hypot(v2[0], v2[1])
+    if len1 <= 0 or len2 <= 0:
+        return _rounded_connector_path([start, end], radius=radius)
+
+    r = min(radius, len1 / 2, len2 / 2)
+    before = (bend[0] - v1[0] / len1 * r, bend[1] - v1[1] / len1 * r)
+    after = (bend[0] + v2[0] / len2 * r, bend[1] + v2[1] / len2 * r)
+
+    return f"M{fmt(start)} L{fmt(before)} Q{fmt(bend)} {fmt(after)} L{fmt(end)}"
+
+
+def render_association_class_svg(
+    assoc_class,
+    positions: dict[str, ClassPosition],
+    route: list[tuple[float, float]] | None = None,
+    path_d: str | None = None,
+    anchor_name: str | None = None,
+    connector_route: list[tuple[float, float]] | None = None,
+    connector_path_d: str | None = None,
+) -> str:
+    if not assoc_class.is_binary():
+        return ""
+
+    e1, e2 = assoc_class.ends
+    p1 = positions.get(e1.participant.name)
+    p2 = positions.get(e2.participant.name)
+    class_pos = positions.get(assoc_class.associated_classifier.name)
+
+    if p1 is None or p2 is None or class_pos is None:
+        return ""
+
+    associated_name = assoc_class.associated_classifier.name
+    anchor_pos = positions.get(anchor_name) if anchor_name else None
+    if anchor_pos is not None:
+        anchor_center = _center(anchor_pos)
+        points = _edge_route(p1, p2, route)
+        attach_point = _association_class_attach_point(
+            points,
+            path_d,
+            anchor_center,
+        )
+        connector_points = _points_with_endpoint(
+            _edge_route(class_pos, anchor_pos, connector_route),
+            attach_point,
+            at_start=False,
+        )
+        connector_path_d = _path_with_endpoint(
+            connector_path_d,
+            attach_point,
+            at_start=False,
+        )
+        connector = _edge_shape_svg(
+            connector_points,
+            connector_path_d,
+            (
+                f' fill="none" stroke="{EDGE_COLOR}" '
+                f'stroke-width="{EDGE_STROKE_WIDTH:.1f}" '
+                f'stroke-dasharray="{EDGE_DASH_ARRAY}"'
+            ),
+            extra_class="uml-association-class-link",
+        )
+        anchor_dot = (
+            f'<circle class="uml-association-class-anchor" '
+            f'cx="{attach_point[0]:.1f}" cy="{attach_point[1]:.1f}" r="3.2" '
+            f'fill="{EDGE_COLOR}" stroke="{EDGE_COLOR}" stroke-width="1.0"/>'
+        )
+
+        return render_association_svg(
+            assoc_class,
+            positions,
+            route,
+            path_d,
+            data_type="association-class",
+            extra_data_attrs=f'data-associated-classifier="{_esc(associated_name)}"',
+            extra_content=f"{connector}\n  {anchor_dot}",
+        )
+
+    points = _edge_route(p1, p2, route)
+    mid_x, mid_y = _midpoint_on_edge(points, path_d)
+    connector_points = _association_class_connector_points(
+        class_pos,
+        (mid_x, mid_y),
+        [p1, p2],
+    )
+    connector_path = _rounded_connector_path(connector_points)
+    connector = (
+        f'<path class="uml-edge-line uml-association-class-link" '
+        f'd="{_path_attr(connector_path)}" '
+        f'fill="none" stroke="{EDGE_COLOR}" stroke-width="{EDGE_STROKE_WIDTH:.1f}" '
+        f'stroke-dasharray="{EDGE_DASH_ARRAY}"/>'
+    )
+
+    return render_association_svg(
+        assoc_class,
+        positions,
+        route,
+        path_d,
+        data_type="association-class",
+        extra_data_attrs=f'data-associated-classifier="{_esc(associated_name)}"',
+        extra_content=connector,
+    )
+
 
 def _render_label(
     text: str,
@@ -881,6 +1320,98 @@ def render_dependency_svg(
 </g>
 """
 
+
+def render_template_binding_svg(
+    binding,
+    positions: dict[str, ClassPosition],
+    route: list[tuple[float, float]] | None = None,
+    path_d: str | None = None,
+    substitution_routes: list[tuple[str, str, list[tuple[float, float]] | None, str | None]] | None = None,
+) -> str:
+    src = binding.bound_element.name
+    tgt = binding.template.name
+
+    p1 = positions.get(src)
+    p2 = positions.get(tgt)
+    if p1 is None or p2 is None:
+        return ""
+
+    points = _edge_route(p1, p2, route)
+    if path_d:
+        mid_x, mid_y = _path_label_pos(path_d)
+    else:
+        mid_idx = len(points) // 2
+        mid_x = (points[mid_idx - 1][0] + points[mid_idx][0]) / 2
+        mid_y = (points[mid_idx - 1][1] + points[mid_idx][1]) / 2
+
+    edge_shape = _edge_shape_svg(
+        points,
+        path_d,
+        (
+            f' fill="none" stroke="{EDGE_COLOR}" stroke-width="{EDGE_STROKE_WIDTH:.1f}" '
+            f'stroke-dasharray="{EDGE_DASH_ARRAY}" marker-end="url(#arrow-filled)"'
+        ),
+    )
+
+    substitution_metadata = []
+    for index, (formal, actual) in enumerate(binding.substitutions.items()):
+        substitution_metadata.append(
+            '<metadata '
+            'data-type="template-substitution" '
+            f'data-index="{index}" '
+            f'data-formal="{_esc(formal)}" '
+            f'data-actual="{_esc(actual)}"/>'
+        )
+
+    substitution_edges: list[str] = []
+    for formal, actual, actual_route, actual_path_d in substitution_routes or []:
+        actual_pos = positions.get(actual)
+        if actual_pos is None:
+            continue
+
+        actual_points = _edge_route(p1, actual_pos, actual_route)
+        if actual_path_d:
+            label_x, label_y = _path_label_pos(actual_path_d)
+        else:
+            mid_idx = len(actual_points) // 2
+            label_x = (actual_points[mid_idx - 1][0] + actual_points[mid_idx][0]) / 2
+            label_y = (actual_points[mid_idx - 1][1] + actual_points[mid_idx][1]) / 2
+
+        substitution_edges.append(
+            f"""
+  <g class="uml-edge uml-template-substitution"
+     data-type="template-binding-substitution"
+     data-bound-element="{_esc(src)}"
+     data-template="{_esc(tgt)}"
+     data-formal="{_esc(formal)}"
+     data-actual="{_esc(actual)}">
+    {_edge_shape_svg(
+        actual_points,
+        actual_path_d,
+        (
+            f' fill="none" stroke="{EDGE_COLOR}" stroke-width="{EDGE_STROKE_WIDTH:.1f}" '
+            f'stroke-dasharray="{EDGE_DASH_ARRAY}" marker-end="url(#arrow-filled)"'
+        ),
+    )}
+    {_render_label(f"{formal} = {actual}", label_x + 6, label_y - 6, "uml-edge-label", background=True)}
+  </g>
+"""
+        )
+
+    return f"""
+<g class="uml-edge uml-template-binding"
+   data-type="template-binding"
+   data-bound-element="{_esc(src)}"
+   data-template="{_esc(tgt)}"
+   data-substitutions-count="{len(binding.substitutions)}">
+  {edge_shape}
+  {"".join(substitution_metadata)}
+  {_render_label("«bind»", mid_x + 6, mid_y - 6, "uml-edge-label", background=True)}
+</g>
+{''.join(substitution_edges)}
+"""
+
+
 def render_realization_svg(
     real,
     positions: dict[str, ClassPosition],
@@ -937,9 +1468,16 @@ def _node_label(cls) -> str:
     return f"<{title}<BR/>{attrs}<BR/>{ops}>"
 
 
+def _association_class_anchor_name(index: int) -> str:
+    return f"__ontol_v3_association_class_anchor_{index}"
+
+
 def diagram_to_layout_dot(diagram: ClassDiagram):
     node_map = {}
     name_to_node = {}
+    association_class_anchor_names: list[str | None] = [
+        None for _ in diagram.association_classes
+    ]
 
     lines = [
         "digraph UML {",
@@ -970,6 +1508,36 @@ def diagram_to_layout_dot(diagram: ClassDiagram):
         if src in name_to_node and tgt in name_to_node:
             lines.append(f"  {name_to_node[src]} -> {name_to_node[tgt]};")
 
+    for idx, assoc_class in enumerate(diagram.association_classes):
+        if not assoc_class.is_binary():
+            continue
+
+        associated = assoc_class.associated_classifier.name
+        src = assoc_class.ends[0].participant.name
+        tgt = assoc_class.ends[1].participant.name
+
+        if (
+            associated not in name_to_node
+            or src not in name_to_node
+            or tgt not in name_to_node
+        ):
+            continue
+
+        anchor_id = f"AC{idx}"
+        anchor_name = _association_class_anchor_name(idx)
+        node_map[anchor_id] = anchor_name
+        name_to_node[anchor_name] = anchor_id
+        association_class_anchor_names[idx] = anchor_name
+
+        lines.append(f"  {name_to_node[src]} -> {name_to_node[tgt]} [weight=3];")
+        lines.append(
+            f'  {anchor_id} [shape=point, width="0.01", height="0.01", '
+            'fixedsize=true, label="", style=invis];'
+        )
+        lines.append(f"  {name_to_node[src]} -> {anchor_id} [style=invis, weight=3];")
+        lines.append(f"  {anchor_id} -> {name_to_node[tgt]} [style=invis, weight=3];")
+        lines.append(f"  {name_to_node[associated]} -> {anchor_id} [weight=1];")
+
     for gen in diagram.generalizations:
         src = gen.specific.name
         tgt = gen.general.name
@@ -984,6 +1552,17 @@ def diagram_to_layout_dot(diagram: ClassDiagram):
         if src in name_to_node and tgt in name_to_node:
             lines.append(f"  {name_to_node[src]} -> {name_to_node[tgt]};")
 
+    for binding in diagram.template_bindings:
+        src = binding.bound_element.name
+        tgt = binding.template.name
+
+        if src in name_to_node and tgt in name_to_node:
+            lines.append(f"  {name_to_node[src]} -> {name_to_node[tgt]};")
+
+        for actual in binding.substitutions.values():
+            if src in name_to_node and actual in name_to_node:
+                lines.append(f"  {name_to_node[src]} -> {name_to_node[actual]};")
+
     for real in diagram.realizations:
         src = real.implementer.name
         tgt = real.interface_.name
@@ -992,7 +1571,7 @@ def diagram_to_layout_dot(diagram: ClassDiagram):
             lines.append(f"  {name_to_node[src]} -> {name_to_node[tgt]};")
 
     lines.append("}")
-    return "\n".join(lines), node_map
+    return "\n".join(lines), node_map, association_class_anchor_names
 
 
 def _run_dot_to_plain(dot_text: str) -> str:
@@ -1153,13 +1732,19 @@ def parse_plain_layout(
 
         elif parts[0] == "node":
             node_id = parts[1]
-            class_name = node_map[node_id]
-            cls = diagram.classifiers[class_name]
+            class_name = node_map.get(node_id)
+            if class_name is None:
+                continue
 
             center_x_px = float(parts[2]) * PX_PER_INCH
             center_y_px = float(parts[3]) * PX_PER_INCH
 
-            width_px, height_px = cls.get_box_size()
+            cls = diagram.classifiers.get(class_name)
+            if cls is not None:
+                width_px, height_px = cls.get_box_size()
+            else:
+                width_px = max(float(parts[4]) * PX_PER_INCH, 1.0)
+                height_px = max(float(parts[5]) * PX_PER_INCH, 1.0)
 
             x = MARGIN + center_x_px - width_px / 2
             y = MARGIN + graph_height_px - center_y_px - height_px / 2
@@ -1173,8 +1758,11 @@ def parse_plain_layout(
             )
 
         elif parts[0] == "edge":
-            src_name = node_map[parts[1]]
-            tgt_name = node_map[parts[2]]
+            src_name = node_map.get(parts[1])
+            tgt_name = node_map.get(parts[2])
+
+            if src_name is None or tgt_name is None:
+                continue
 
             point_count = int(parts[3])
             raw_points = parts[4 : 4 + point_count * 2]
@@ -1197,10 +1785,13 @@ def diagram_to_graphviz_svg(diagram: ClassDiagram, theme: str = DEFAULT_SVG_THEM
 
     if getattr(diagram, "manual_layout", False):
         positions = diagram.positions
+        association_class_anchor_names: list[str | None] = [
+            None for _ in diagram.association_classes
+        ]
         width = max((p.x + p.width for p in positions.values()), default=0) + MARGIN
         height = max((p.y + p.height for p in positions.values()), default=0) + MARGIN
     else:
-        dot_text, node_map = diagram_to_layout_dot(diagram)
+        dot_text, node_map, association_class_anchor_names = diagram_to_layout_dot(diagram)
         visible_dot_text = _make_edges_visible(dot_text)
         graphviz_svg = _run_dot_to_svg(visible_dot_text)
         graphviz_edges, graphviz_transform, graphviz_width, graphviz_height = (
@@ -1226,7 +1817,11 @@ def diagram_to_graphviz_svg(diagram: ClassDiagram, theme: str = DEFAULT_SVG_THEM
                     _transform_path_d(path_d, graphviz_transform)
                 )
 
-        diagram.positions = positions
+        diagram.positions = {
+            name: pos
+            for name, pos in positions.items()
+            if name in diagram.classifiers
+        }
 
         width = graphviz_width or max((p.x + p.width for p in positions.values()), default=0) + MARGIN
         height = graphviz_height or max((p.y + p.height for p in positions.values()), default=0) + MARGIN
@@ -1295,6 +1890,46 @@ def diagram_to_graphviz_svg(diagram: ClassDiagram, theme: str = DEFAULT_SVG_THEM
         edge_svg = render_association_svg(assoc, positions, route, path_d)
         edge_parts.append(edge_svg)
 
+    for idx, assoc_class in enumerate(diagram.association_classes):
+        anchor_name = (
+            association_class_anchor_names[idx]
+            if idx < len(association_class_anchor_names)
+            else None
+        )
+        if assoc_class.is_binary():
+            src = assoc_class.ends[0].participant.name
+            tgt = assoc_class.ends[1].participant.name
+            routes = edge_route_map.get((src, tgt), [])
+            route = routes.pop(0) if routes else None
+            paths = graphviz_path_map.get((src, tgt), [])
+            path_d = paths.pop(0) if paths else None
+
+            if anchor_name:
+                associated = assoc_class.associated_classifier.name
+                connector_routes = edge_route_map.get((associated, anchor_name), [])
+                connector_route = connector_routes.pop(0) if connector_routes else None
+                connector_paths = graphviz_path_map.get((associated, anchor_name), [])
+                connector_path_d = connector_paths.pop(0) if connector_paths else None
+            else:
+                connector_route = None
+                connector_path_d = None
+        else:
+            route = None
+            path_d = None
+            connector_route = None
+            connector_path_d = None
+
+        edge_svg = render_association_class_svg(
+            assoc_class,
+            positions,
+            route,
+            path_d,
+            anchor_name=anchor_name,
+            connector_route=connector_route,
+            connector_path_d=connector_path_d,
+        )
+        edge_parts.append(edge_svg)
+
     for gen in diagram.generalizations:
         src = gen.specific.name
         tgt = gen.general.name
@@ -1315,6 +1950,31 @@ def diagram_to_graphviz_svg(diagram: ClassDiagram, theme: str = DEFAULT_SVG_THEM
         path_d = paths.pop(0) if paths else None
 
         edge_svg = render_dependency_svg(dep, positions, route, path_d)
+        edge_parts.append(edge_svg)
+
+    for binding in diagram.template_bindings:
+        src = binding.bound_element.name
+        tgt = binding.template.name
+        routes = edge_route_map.get((src, tgt), [])
+        route = routes.pop(0) if routes else None
+        paths = graphviz_path_map.get((src, tgt), [])
+        path_d = paths.pop(0) if paths else None
+
+        substitution_routes = []
+        for formal, actual in binding.substitutions.items():
+            actual_routes = edge_route_map.get((src, actual), [])
+            actual_route = actual_routes.pop(0) if actual_routes else None
+            actual_paths = graphviz_path_map.get((src, actual), [])
+            actual_path_d = actual_paths.pop(0) if actual_paths else None
+            substitution_routes.append((formal, actual, actual_route, actual_path_d))
+
+        edge_svg = render_template_binding_svg(
+            binding,
+            positions,
+            route,
+            path_d,
+            substitution_routes=substitution_routes,
+        )
         edge_parts.append(edge_svg)
 
     for real in diagram.realizations:

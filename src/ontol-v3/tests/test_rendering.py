@@ -5,16 +5,20 @@ import sys
 
 from uml_dsl import (
     Association,
+    AssociationClass,
     AssociationEnd,
     Attribute,
     Class,
     ClassDiagram,
+    DataType,
+    Interface,
     Multiplicity,
     MultiplicityRange,
     Operation,
     Parameter,
     TaggedValue,
     Template,
+    TemplateBinding,
     TemplateParameter,
 )
 from uml_dsl.graphviz_render import available_svg_themes
@@ -30,9 +34,16 @@ from tests.helpers import (
     GENERALIZATION,
     NAME,
     OPS,
+    PARAMETERS,
     REALIZATION,
+    TEMPLATE,
+    TEMPLATE_BINDING,
+    association_class_block,
     class_block,
+    data_type_block,
     enum_block,
+    interface_block,
+    template_block,
 )
 
 
@@ -41,7 +52,7 @@ def relation_rich_tdl() -> str:
         class_block("A")
         + class_block("B")
         + class_block("C")
-        + class_block("I")
+        + interface_block("I")
         + f"{ASSOCIATION} A [1] : owner -- B [0..*] : items {NAME} \"owns\"\n"
         + f"{AGGREGATION} A -- C\n"
         + f"{DEPENDENCY} B -> C use\n"
@@ -65,6 +76,8 @@ def test_render_embeds_theme_edges_markers_and_multiplicities(require_dot):
     assert 'data-name="owns"' in svg
     assert 'data-end1-multiplicity="1"' in svg
     assert 'data-end2-multiplicity="0..*"' in svg
+    assert 'data-class-kind="interface"' in svg
+    assert 'uml-kind-badge-i' in svg
     assert 'marker-end="url(#triangle-empty)"' in svg
     assert 'marker-end="url(#arrow-filled)"' in svg
     assert 'marker-start="url(#diamond-empty)"' in svg
@@ -87,6 +100,7 @@ def test_rendered_svg_can_be_parsed_back_to_diagram(require_dot):
     assert result.success, result.errors
     assert result.diagram is not None
     assert {"A", "B", "C", "I"} <= set(result.diagram.classifiers)
+    assert isinstance(result.diagram.classifiers["I"], Interface)
     assert len(result.diagram.associations) == 2
     assert len(result.diagram.dependencies) == 1
     assert len(result.diagram.generalizations) == 1
@@ -156,6 +170,123 @@ def test_rendered_svg_roundtrip_preserves_class_features_and_validation(require_
     assert association.ends[1].role == "items"
     assert str(association.ends[1].multiplicity) == "0..*"
 
+    result.diagram.validate_all()
+
+
+def test_rendered_svg_roundtrip_preserves_data_type(require_dot):
+    tdl = (
+        data_type_block(
+            "Money",
+            f"""
+{ATTRS}
+  + amount : Float
+  + currency : String
+{OPS}
+  + add(other : Money) : Money
+""",
+        )
+        + class_block("Invoice", f"{ATTRS}\n  + total : Money")
+    )
+
+    svg = tdl_to_svg(tdl)
+    result = parse_svg_to_diagram(svg)
+
+    assert 'data-class-kind="dataType"' in svg
+    assert 'data-stereotype="dataType"' in svg
+    assert 'uml-kind-badge-d' in svg
+    assert result.success, result.errors
+    assert result.diagram is not None
+
+    money = result.diagram.classifiers["Money"]
+    assert isinstance(money, DataType)
+    assert money.operations[0].is_query is True
+    assert result.diagram.classifiers["Invoice"].attributes[0].type_ == "Money"
+    result.diagram.validate_all()
+
+
+def test_rendered_svg_roundtrip_preserves_template(require_dot):
+    tdl = (
+        template_block(
+            "Box",
+            f"""
+{PARAMETERS}
+  T
+{ATTRS}
+  + value : T
+{OPS}
+  + get() : T
+""",
+        )
+        + class_block("User", f"{ATTRS}\n  + name : String")
+        + class_block("UserBox", f"{ATTRS}\n  + value : User")
+        + f"{TEMPLATE_BINDING} UserBox -> Box {{ T = User }}\n"
+    )
+
+    svg = tdl_to_svg(tdl)
+    result = parse_svg_to_diagram(svg)
+
+    assert 'data-class-kind="template"' in svg
+    assert 'data-type="template-parameter"' in svg
+    assert 'data-type="template-binding"' in svg
+    assert 'data-formal="T"' in svg
+    assert 'data-actual="User"' in svg
+    assert 'data-template-parameters-count="1"' in svg
+    assert result.success, result.errors
+    assert result.diagram is not None
+
+    box = result.diagram.classifiers["Box"]
+    assert isinstance(box, Template)
+    assert box.template_parameters[0].name == "T"
+    assert box.attributes[0].type_ == "T"
+    assert box.operations[0].return_type == "T"
+    assert len(result.diagram.template_bindings) == 1
+    binding = result.diagram.template_bindings[0]
+    assert isinstance(binding, TemplateBinding)
+    assert binding.bound_element.name == "UserBox"
+    assert binding.template.name == "Box"
+    assert binding.substitutions == {"T": "User"}
+    result.diagram.validate_all()
+
+
+def test_rendered_svg_roundtrip_preserves_association_class(require_dot):
+    tdl = (
+        class_block("Student")
+        + class_block("Course")
+        + association_class_block(
+            "Enrollment",
+            f"""
+{ASSOCIATION} Student [0..*] : student -- Course [0..*] : course {NAME} "enrolls"
+{ATTRS}
+  + enrolledAt : String
+  + grade : String
+{OPS}
+  + confirm() : Boolean
+""",
+        )
+    )
+
+    svg = tdl_to_svg(tdl)
+    result = parse_svg_to_diagram(svg)
+
+    assert 'data-type="association-class"' in svg
+    assert 'data-associated-classifier="Enrollment"' in svg
+    assert 'uml-association-class-segment' not in svg
+    assert 'uml-association-class-link' in svg
+    assert 'uml-association-class-anchor' in svg
+    assert '<line class="uml-edge-line uml-association-class-link"' not in svg
+    assert '__ontol_v3_association_class_anchor' not in svg
+    assert result.success, result.errors
+    assert result.diagram is not None
+    assert len(result.diagram.associations) == 0
+    assert len(result.diagram.association_classes) == 1
+
+    assoc_class = result.diagram.association_classes[0]
+    assert isinstance(assoc_class, AssociationClass)
+    assert assoc_class.name == "enrolls"
+    assert assoc_class.associated_classifier.name == "Enrollment"
+    assert assoc_class.associated_classifier.attributes[1].name == "grade"
+    assert assoc_class.ends[0].participant.name == "Student"
+    assert assoc_class.ends[1].role == "course"
     result.diagram.validate_all()
 
 

@@ -6,6 +6,12 @@ from uml_dsl.tdl_parser import parse_tdl
 
 
 CLASS = "\u041a\u041b\u0410\u0421\u0421"
+INTERFACE = "\u0418\u041d\u0422\u0415\u0420\u0424\u0415\u0419\u0421"
+DATA_TYPE = "\u0422\u0418\u041f_\u0414\u0410\u041d\u041d\u042b\u0425"
+TEMPLATE = "ШАБЛОН"
+PARAMETERS = "ПАРАМЕТРЫ"
+TEMPLATE_BINDING = "ПОДСТАНОВКА"
+ASSOCIATION_CLASS = "КЛАСС_АССОЦИАЦИИ"
 ENUM = "\u041f\u0415\u0420\u0415\u0427\u0418\u0421\u041b\u0415\u041d\u0418\u0415"
 END = "\u041a\u041e\u041d\u0415\u0426"
 ABSTRACT = "\u0410\u0411\u0421\u0422\u0420\u0410\u041a\u0422\u041d\u042b\u0419"
@@ -24,6 +30,26 @@ def class_block(name: str, body: str = "", *, abstract: bool = False) -> str:
     suffix = f" {ABSTRACT}" if abstract else ""
     body_text = f"\n{body.rstrip()}" if body.strip() else ""
     return f"{CLASS} {name}{suffix}{body_text}\n{END} {CLASS}\n"
+
+
+def interface_block(name: str, body: str = "") -> str:
+    body_text = f"\n{body.rstrip()}" if body.strip() else ""
+    return f"{INTERFACE} {name}{body_text}\n{END} {INTERFACE}\n"
+
+
+def data_type_block(name: str, body: str = "") -> str:
+    body_text = f"\n{body.rstrip()}" if body.strip() else ""
+    return f"{DATA_TYPE} {name}{body_text}\n{END} {DATA_TYPE}\n"
+
+
+def template_block(name: str, body: str = "") -> str:
+    body_text = f"\n{body.rstrip()}" if body.strip() else ""
+    return f"{TEMPLATE} {name}{body_text}\n{END} {TEMPLATE}\n"
+
+
+def association_class_block(name: str, body: str = "") -> str:
+    body_text = f"\n{body.rstrip()}" if body.strip() else ""
+    return f"{ASSOCIATION_CLASS} {name}{body_text}\n{END} {ASSOCIATION_CLASS}\n"
 
 
 def enum_block(name: str, values: list[str]) -> str:
