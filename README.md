@@ -1,189 +1,462 @@
-# Ontol DSL Parser
+# Ontol Workbench
 
-[![Build Status](https://github.com/vladimir-skvortsov/ontol/actions/workflows/check-tests.yaml/badge.svg)](https://github.com/vladimir-skvortsov/ontol/actions)
-[![PyPi downloads](https://img.shields.io/pypi/dm/ontol.svg?label=Pypi%20downloads)](https://pypi.org/project/ontol)
+Репозиторий с инструментами для описания и визуализации онтологий и UML-диаграмм
+классов. Внутри два независимых движка и веб-сервис (личный кабинет), в котором
+можно работать с проектами из нескольких файлов прямо в браузере.
 
-**Authors:**
-[Skvortsov Vladimir](https://github.com/vladimir-skvortsov),
-[Aptukov Mikhail](https://github.com/LuckyAm20),
-[Markov Mikhail](https://github.com/eagerbeaver04),
-[Khamidullin Ilsaf](https://github.com/Ilsaffff),
-[Afanasyev Andrew](https://github.com/afafos).
+Движки:
 
-Ontol DSL Parser is a tool for parsing and visualizing ontology files written in the Ontol DSL. It generates JSON representations and PlantUML diagrams from `.ontol` files, and ships with a web personal workspace ("личный кабинет") for working with modular, multi-file ontologies in the browser.
+- Ontol v1 — язык Ontol DSL, файлы `.ontol`, на выходе JSON, PlantUML и PNG.
+  Пакет `ontol`, лежит в `src/ontol-v1`.
+- Ontol v3 — язык TDL (Text Diagram Language), файлы `.tdl`, на выходе SVG.
+  Пакет `uml_dsl`, лежит в `src/ontol-v3`.
 
-[Explore Ontol DSL in the Online REPL](https://ontol-repl.streamlit.app)
+Веб-сервис `v2-service` использует оба движка сразу и сам выбирает нужный по
+расширению точки входа: `.tdl` идёт в v3, всё остальное в v1.
 
-## Features
+## Содержание
 
-- Parse `.ontol` files to extract ontology structures.
-- Serialize ontology to JSON format.
-- Generate PlantUML diagrams from ontology.
-- Automatically render PlantUML diagrams to PNG images.
-- Watch files for changes and re-parse them automatically.
-- **Modular ontologies:** split an ontology across several `.ontol` files with `import ... from`, with circular-import detection and diamond-import deduplication.
-- **Web personal workspace (личный кабинет):** Streamlit app with user accounts and per-user projects, a syntax-highlighted editor with autosave, and in-process build to JSON / PlantUML / PNG.
-- **Optional AI:** LLM-based hierarchy generation (`--gen-hierarchy`) via Ollama / langchain — installed separately, see Requirements.
-- Display version and help information.
+- [Структура репозитория](#структура-репозитория)
+- [Веб-сервис v2-service](#веб-сервис-v2-service)
+- [Ontol v1 (Ontol DSL)](#ontol-v1-ontol-dsl)
+- [Ontol v3 (TDL)](#ontol-v3-tdl)
+- [Личный кабинет на Streamlit](#личный-кабинет-на-streamlit)
+- [Тесты](#тесты)
+- [Лицензия](#лицензия)
 
-## Requirements
+## Структура репозитория
 
-- Python 3.9 or higher.
-
-Dependencies are split so the heavy AI stack stays optional:
-
-- `src/ontol-v1/requirements-core.txt` — parsing, visualization, CLI, web UI and tests.
-- `src/ontol-v1/requirements-ai.txt` — optional LLM stack (`--gen-hierarchy`), on top of core.
-
-The same split is exposed via the package itself: `pip install -e src/ontol-v1`
-installs the core only; `pip install -e src/ontol-v1[ai]` adds the optional AI stack.
-
-## Installation
-
-Install from PyPi:
-
-```bash
-pip install ontol
+```
+src/ontol-v1/        движок v1 (пакет ontol), свой pyproject
+  ontol/             лексер+парсер, модель, сериализатор, PlantUML, CLI
+  examples/          примеры .ontol
+  tests/             тесты v1
+src/ontol-v3/        движок v3 (пакет uml_dsl), свой pyproject
+  uml_dsl/           лексер/парсер/AST TDL, UML-модель, graphviz-рендер, планарность
+  examples/          примеры .tdl и сгенерированные .svg
+  tests/             тесты v3
+v1-streamlit/        старый личный кабинет на Streamlit
+v2-service/          многопользовательский сервис (FastAPI + React)
+  backend/           FastAPI + SQLAlchemy + Alembic + arq-воркер
+  frontend/          React + Vite + TypeScript + Monaco
+docs/                грамматика и заметки
 ```
 
-Or, to run from a clone (v1 lives in `src/ontol-v1`):
+Движки сделаны симметрично: каждый — отдельный пакет со своим `pyproject.toml`,
+ставится независимо через `pip install -e`.
 
-```bash
+## Веб-сервис v2-service
+
+Полноценный сервис на несколько пользователей: свои аккаунты, приватные проекты из
+нескольких файлов, редактор с автосохранением и подсветкой, фоновая сборка
+диаграмм через очередь.
+
+Сервисы в docker-compose:
+
+| Сервис | Что делает | Порт на хосте |
+|--------|-----------|---------------|
+| web | статика (сборка Vite) за nginx, проксирует `/api` на backend | 5173 |
+| api | FastAPI: авторизация, CRUD проектов/файлов, постановка сборок в очередь | 8000 |
+| worker | arq-воркер, рендерит диаграммы, читая файлы из БД | — |
+| db | PostgreSQL 16 | 5433 |
+| redis | брокер очереди arq | — |
+| plantuml | сервер PlantUML для PNG (движок v1) | 8080 |
+
+Backend — FastAPI + SQLAlchemy 2.0 (async) + Alembic + PostgreSQL, авторизация на
+fastapi-users (JWT в httpOnly-cookie). Frontend — React + Vite + TypeScript, редактор
+Monaco со своей подсветкой Ontol и TDL. Фронт и API живут на одном origin (`/api`
+проксирует nginx), так что CORS в проде не нужен.
+
+Сборка идёт в фоне: api кладёт задачу в очередь Redis, воркер достаёт файлы проекта
+из БД и рендерит. Тяжёлый код движков крутится в воркере, а не в процессе api.
+
+### Запуск
+
+Из каталога `v2-service`:
+
+```
+cp .env.example .env
+docker compose up --build
+```
+
+Единственная обязательная переменная в `.env` — `SECRET` (подпись cookie/JWT).
+Сгенерировать можно так:
+
+```
+python -c "import secrets; print(secrets.token_hex(32))"
+```
+
+Дальше открыть http://localhost:5173 — регистрация, создать проект, добавить файлы,
+нажать «Собрать». Миграции применяются сами при старте api (`alembic upgrade head`).
+
+Контейнер db публикуется на хостовый порт 5433, а не 5432, чтобы не конфликтовать с
+локально установленным PostgreSQL. Внутри сети compose обращение идёт к `db:5432`.
+
+### Переменные окружения
+
+| Переменная | Назначение | По умолчанию |
+|-----------|-----------|--------------|
+| SECRET | подпись cookie/JWT, обязательна | — |
+| POSTGRES_USER / POSTGRES_PASSWORD / POSTGRES_DB | доступ к Postgres | ontol |
+| CORS_ORIGINS | разрешённые origin, JSON-массив | ["http://localhost:5173"] |
+| WEB_CONCURRENCY | число gunicorn-воркеров у api | 2 |
+| WORKER_REPLICAS | число реплик воркера рендера | 2 |
+
+### Запуск без Docker
+
+Нужны запущенные Postgres и Redis (можно поднять только их:
+`docker compose up -d db redis plantuml`).
+
+Backend, из корня репозитория:
+
+```
 pip install -e src/ontol-v1
-# optional, only for --gen-hierarchy:
-pip install -e src/ontol-v1[ai]
+pip install -e src/ontol-v3        # нужен системный graphviz (dot в PATH)
+pip install -r v2-service/backend/requirements.txt
+
+cd v2-service/backend
+alembic upgrade head
+uvicorn app.main:app --reload      # http://localhost:8000, /docs
+arq app.worker.WorkerSettings      # воркер, отдельным процессом
 ```
 
-## Usage
+Frontend:
 
-### Parse a file
-
-To parse an `.ontol` file and generate JSON and PlantUML files:
-
-```bash
-ontol path/to/yourfile.ontol
+```
+cd v2-service/frontend
+npm install
+npm run dev                        # http://localhost:5173
 ```
 
-### Watch Mode
+Vite проксирует `/api` на `http://localhost:8000`, адрес переопределяется через
+`VITE_API_TARGET`.
 
-To watch a file for changes and automatically re-parse it:
+### Производительность
 
-```bash
-ontol path/to/yourfile.ontol --watch
+Что заложено в сервис, чтобы не проседал под нагрузкой (без Kubernetes):
+
+- gzip в nginx для бандла и ответов `/api`;
+- пул БД с `pool_pre_ping` — отсекает мёртвые соединения после простоя или
+  перезапуска Postgres;
+- лок сборки на проект через Redis (`SET NX EX`) — не даёт спам-кликам и
+  параллельным сборкам одного проекта плодить задачи;
+- таймаут на запрос к PlantUML, чтобы не висеть весь build-timeout, если сервер лёг;
+- healthcheck'и у api и worker; web стартует, только когда api готов;
+- рендер упирается в CPU, поэтому пропускную способность растят репликами воркера,
+  а не потоками: `docker compose up -d --scale worker=3` или `WORKER_REPLICAS=3`.
+
+### Генерация связей через AI (опционально)
+
+Можно подключить генерацию раздела `hierarchy` (связей между терминами) через LLM
+на Ollama. По умолчанию выключено и тяжёлый стек в обычный образ не тянется —
+включается отдельным оверлеем:
+
+```
+docker compose -f docker-compose.yml -f docker-compose.ai.yml up --build
+docker compose -f docker-compose.yml -f docker-compose.ai.yml exec ollama ollama pull llama3
 ```
 
-### Debug mode
+Когда включено, на странице проекта появляется кнопка «Связи (AI)»: она предлагает
+связи и готовый фрагмент `.ontol`, но сам файл не меняет. Переменные: `AI_ENABLED`
+(по умолчанию false), `OLLAMA_URL` (http://ollama:11434), `AI_MODEL` (llama3).
 
-To enable debug mode, which retranslates the output back to the .ontol file:
+## Ontol v1 (Ontol DSL)
 
-```bash
-ontol path/to/yourfile.ontol --debug
+Пакет `ontol` в `src/ontol-v1`. По `.ontol`-файлу строит JSON-представление,
+исходник PlantUML и картинку PNG. Главная фишка — модульность: онтологию можно
+разнести по нескольким файлам, импортирующим друг друга.
+
+Конвейер:
+
+```
+.ontol -> лексер -> парсер -> Ontology (AST) -> JSON
+                                             -> PlantUML -> PNG
+                                             -> обратная трансляция в .ontol (--debug)
 ```
 
-### Display Version
+Основные модули в `src/ontol-v1/ontol/`: `parser.py` (лексер и парсер на sly,
+разрешение импортов), `oast.py` (модель: Ontology, Term, Function, Relationship,
+Figure), `serializer.py` (в JSON), `plantuml.py` (PlantUML и PNG через сервер),
+`retranslator.py` (обратно в `.ontol`, для отладки), `ai.py` (опциональный LLM,
+langchain грузится лениво), `cli.py`, `project.py` и `auth.py` (слой личного
+кабинета).
 
-To display the version of the program:
+### CLI
 
-```bash
+После `pip install -e src/ontol-v1` появляется команда `ontol`:
+
+```
+ontol file.ontol            # рядом появятся .json, .puml, .png
+ontol file.ontol --watch    # перечитывать при изменениях
+ontol file.ontol --debug    # ретрансляция обратно в .ontol
 ontol --version
-```
-
-### Help
-
-To display help information:
-
-```bash
 ontol --help
 ```
 
-### Generate hierarchy with AI (optional)
+Генерация связей через LLM (нужен `src/ontol-v1[ai]` и запущенный Ollama):
 
-To let an LLM suggest relationships between terms (requires `src/ontol-v1/requirements-ai.txt` and a running [Ollama](https://ollama.com) model):
-
-```bash
-ontol path/to/yourfile.ontol --gen-hierarchy --model llama3 --temperature 0.0
+```
+pip install -e src/ontol-v1[ai]
+ontol file.ontol --gen-hierarchy --model llama3 --temperature 0.0
 ```
 
-### Tests
+На Windows префиксы предупреждений содержат эмодзи, и на консоли в cp1251 это может
+дать UnicodeEncodeError. Перед запуском стоит выставить `PYTHONUTF8=1`.
 
-To display run tests:
+### Импорты
 
-```bash
-pytest tests
+```
+import { set, element as elem } from 'base.ontol'
+import * from 'base.ontol'
+import { set } from 'base.ontol' with relationships
 ```
 
-## Modular ontologies (imports)
+Путь в `from` резолвится относительно папки текущего файла, поддерживаются и URL.
+Циклические импорты (a -> b -> a) дают понятную ошибку, а не падение. Ромбовидные
+импорты (одно определение приходит по двум путям) дедуплицируются; конфликтом
+считается только реально разное определение с тем же именем. `with relationships`
+дополнительно тянет из модуля безымянные связи, у которых оба конца попали в число
+импортированных сущностей.
 
-An ontology can be split across several `.ontol` files that import each other:
+Пример на несколько файлов лежит в `src/ontol-v1/examples/multifile_demo/`.
+
+### Грамматика
+
+Нотация РБНФ: `=` определение, `;` конец правила, `|` альтернатива, `[ ]`
+необязательное, `{ }` повторение (ноль и более), `( )` группировка, `"..."`
+терминал, `? ... ?` внешнее лексическое определение.
+
+```rbnf
+программа       = { оператор } ;
+оператор        = мета_тег | импорт | блок_типов | блок_функций
+                | блок_иерархии | фигура | новая_строка ;
+
+мета_тег        = имя_мета, ":", строка, новая_строка ;
+имя_мета        = "version" | "title" | "author" | "description" | "type" | "date" ;
+
+импорт          = "import", ( "*" | список_импорта ), "from", строка,
+                  [ "with relationships" ] ;
+список_импорта  = "{", [ элемент_импорта, { ",", элемент_импорта }, [ "," ] ], "}" ;
+элемент_импорта = идентификатор, [ "as", идентификатор ] ;
+
+блок_типов      = "types", ":", новая_строка, { тип, новая_строка } ;
+тип             = идентификатор, ":", строка, ",", строка, [ атрибуты ] ;
+
+блок_функций    = "functions", ":", новая_строка, { функция, новая_строка } ;
+функция         = идентификатор, ":", строка, параметры, "->",
+                  идентификатор, ":", строка, [ атрибуты ] ;
+параметры       = "(", [ параметр, { ",", параметр }, [ "," ] ], ")" ;
+параметр        = идентификатор, ":", строка ;
+
+блок_иерархии   = "hierarchy", ":", новая_строка, { отношение, новая_строка } ;
+отношение       = [ идентификатор, ":" ],
+                  идентификатор, тип_отношения, идентификатор, [ атрибуты ] ;
+тип_отношения   = "dependence" | "association" | "directAssociation"
+                | "inheritance" | "implementation" | "aggregation" | "composition" ;
+
+фигура          = "figure", строка, ":", новая_строка, { идентификатор, новая_строка } ;
+
+атрибуты        = ",", "{", [ атрибут, { ",", атрибут }, [ "," ] ], "}" ;
+атрибут         = идентификатор, ":", строка ;
+
+идентификатор   = ( буква | "_" ), { буква | цифра | "_" } ;
+строка          = "'", { любой символ кроме "'" }, "'"
+                | '"', { любой символ кроме '"' }, '"' ;
+```
+
+Часть ограничений проверяет парсер, а не сама грамматика:
+
+- в метаданных допустимы только перечисленные имена;
+- у типа отношения только 7 значений выше;
+- ключи атрибутов у типов: color, note;
+- у функций: color, colorArrow, type, inputTitle, outputTitle (type — один из типов отношения);
+- у отношений: color, direction, title, rightChar, leftChar (direction — forward, backward или bidirectional);
+- идентификатор в параметрах, функциях, отношениях и фигурах должен ссылаться на уже определённый терм;
+- повторное определение имени — ошибка;
+- путь импорта относительный или URL, циклы запрещены.
+
+Пробелы и табуляции между лексемами игнорируются, комментарий — от `#` до конца
+строки, строки в одинарных или двойных кавычках (внутри `\n` — перенос в метке).
+
+Пример:
 
 ```ontol
-import { set, element as elem } from 'base.ontol'   (* selective, with aliases *)
-import * from 'base.ontol'                           (* everything *)
+version: '1.0'
+title: 'Subsets'
+
+import { set, element } from 'base.ontol'
+
+types:
+subset: 'Subset', '', { color: '#E6B8B7' }
+
+hierarchy:
+subset inheritance set
+element aggregation set, { leftChar: '*' }
 ```
 
-- Paths are resolved relative to the importing file's directory; URLs are supported.
-- **Circular imports** (`a -> b -> a`) raise a clear error instead of crashing.
-- **Diamond imports** (the same definition reached via two paths) are deduplicated; only genuinely different definitions sharing a name are reported as a conflict.
+## Ontol v3 (TDL)
 
-See [src/ontol-v1/examples/multifile_demo/](src/ontol-v1/examples/multifile_demo/) for a minimal cross-file example.
+Пакет `uml_dsl` в `src/ontol-v3`. Описывает UML-диаграммы классов на языке TDL
+(ключевые слова русские), проверяет модель и рендерит SVG через системный Graphviz
+`dot`. Дополнительно умеет анализ планарности графа, обратный разбор SVG в модель,
+CSS-темы (light, yellow) и опциональный экспорт в PNG/JPG.
 
-## Web personal workspace (личный кабинет)
+Нужен Python 3.9+ и установленный Graphviz (команда `dot` в PATH).
 
-Two web apps live side by side on top of the shared `ontol` core:
+### Установка и запуск
 
-- **V1 — [v1-streamlit/](v1-streamlit/)** — the current Streamlit workspace (prototype).
-- **V2 — [v2-service/](v2-service/)** — the full multi-user service (FastAPI + React), in progress; see [docs/V2_PLAN.md](docs/V2_PLAN.md).
+Из папки `src/ontol-v3`:
 
-Run V1 (the core is installed editable from the repo root):
+```
+pip install -e .              # ядро
+pip install -e ".[app]"       # плюс Streamlit-приложение
+pip install -e ".[export]"    # плюс экспорт в PNG/JPG (cairosvg, Pillow)
 
-```bash
-pip install -e .
+python -m uml_dsl.tdl_run examples/tdl/basic/example.tdl          # SVG рядом с файлом
+python -m uml_dsl.tdl_run examples/tdl/basic/example.tdl out.svg
+python -m uml_dsl.tdl_run examples/tdl/basic/example.tdl out.png  # нужен extra export
+```
+
+Из Python:
+
+```python
+from uml_dsl.tdl_run import tdl_to_svg, tdl_to_svg_analyzed
+
+svg = tdl_to_svg("КЛАСС A\nКОНЕЦ КЛАСС\n", theme="light")
+
+svg, warnings, planarity = tdl_to_svg_analyzed(tdl_text)
+# planarity == None, если граф планарен; иначе тип препятствия, метки классов, сообщение
+```
+
+### Пайплайн
+
+```
+текст TDL
+  -> tdl_lexer.lex             токены
+  -> tdl_parser.parse_tdl      AST (Document)
+  -> tdl_build.build_diagram   UML-модель (ClassDiagram)
+  -> validate_all              семантическая валидация
+  -> анализ планарности
+  -> graphviz_render           SVG
+```
+
+В отличие от v1, PlantUML тут не участвует: раскладку делает Graphviz `dot`, в SVG
+добавляются data-атрибуты для обратного разбора, подключается CSS-тема. Обратно:
+`svg_parser.parse_svg_to_diagram` восстанавливает модель из SVG.
+
+### Планарность
+
+Граф диаграммы (вершины — классификаторы, рёбра — связи; петли выбрасываем, кратные
+рёбра схлопываем) проверяется на планарность через NetworkX (алгоритм
+Хопкрофта — Тарьяна).
+
+Если граф планарен, вершины раскладываются без пересечений рёбер. Если нет, по
+теореме Куратовского в графе есть подграф, гомеоморфный K5 (полный на пяти вершинах)
+или K3,3 (двудольный на шести). Тип определяется по числу узловых вершин со степенью
+не меньше трёх: пять — K5, шесть — K3,3. Большой граф может содержать несколько таких
+подграфов сразу — их извлекаем жадно и возвращаем все, с типом и списком классов. В
+веб-сервисе непланарные классы подсвечиваются красным, с баннером и кнопкой
+«Продолжить рисование».
+
+### Справочник TDL
+
+`.tdl`-файл — это набор классификаторов и связей между ними. Ключевые слова
+регистр не различают (в примерах написаны заглавными), имена элементов написание
+сохраняют. Комментарий — строка, начинающаяся с `--`. Строки — в двойных кавычках.
+
+Видимость перед атрибутами и операциями: `+` public, `-` private, `#` protected,
+`~` package.
+
+Кратность — в квадратных скобках: `[1]`, `[0..1]`, `[0..*]`, `[*]`. Если её не
+указать явно, она не рисуется.
+
+Атрибут: `[видимость] имя [кратность] [: Тип] [= значение] [{ только_чтение }]`.
+
+Операция: `[видимость] имя(параметры) [: ТипВозврата] [{ свойства }]`, параметр —
+`имя [: Тип] [= значение]`, свойства — `абстрактная`, `запрос`, `лист` через запятую.
+
+Классификаторы:
+
+| Конструкция | Что это |
+|-------------|---------|
+| `КЛАСС Имя … КОНЕЦ КЛАСС` | обычный класс, внутри секции `АТРИБУТЫ` и `ОПЕРАЦИИ` |
+| `КЛАСС Имя АБСТРАКТНЫЙ …` | абстрактный класс, имя рисуется курсивом |
+| `ПЕРЕЧИСЛЕНИЕ Имя … КОНЕЦ ПЕРЕЧИСЛЕНИЕ` | перечисление (enum) |
+| `ИНТЕРФЕЙС Имя … КОНЕЦ ИНТЕРФЕЙС` | интерфейс, метка I, операции считаются абстрактными |
+| `ТИП_ДАННЫХ Имя … КОНЕЦ ТИП_ДАННЫХ` | тип-значение (DataType), метка D |
+| `ШАБЛОН Имя ПАРАМЕТРЫ T … КОНЕЦ ШАБЛОН` | параметризованный классификатор |
+| `ПОДСТАНОВКА Элемент -> Шаблон { P = Тип }` | связывание шаблона (bind) |
+| `КЛАСС_АССОЦИАЦИИ Имя АССОЦИАЦИЯ … КОНЕЦ КЛАСС_АССОЦИАЦИИ` | ассоциация со своими атрибутами |
+
+Связи:
+
+| Конструкция | Синтаксис | Как выглядит |
+|-------------|-----------|--------------|
+| Ассоциация | `АССОЦИАЦИЯ A [кр] : роль -- B [кр] : роль [ИМЯ "…"] [ПРОИЗВОДНАЯ]` | сплошная линия |
+| Агрегация | `АГРЕГАЦИЯ Целое -- Часть …` | пустой ромб у целого |
+| Композиция | `КОМПОЗИЦИЯ Целое -- Часть …` | закрашенный ромб у целого |
+| Обобщение | `ОБОБЩЕНИЕ Подкласс -> Суперкласс` | линия с пустым треугольником |
+| Реализация | `РЕАЛИЗАЦИЯ Класс -> Интерфейс` | пунктир с пустым треугольником |
+| Зависимость | `ЗАВИСИМОСТЬ Клиент -> Поставщик [стереотип]` | пунктирная стрелка |
+
+Блок `РАЗМЕЩЕНИЕ … ЗАФИКСИРОВАТЬ Элемент В ( x , y ) … КОНЕЦ РАЗМЕЩЕНИЕ` — устаревший
+способ задать координаты вручную, оставлен для совместимости со старыми примерами. В
+обычном рендере используется автораскладка Graphviz и анализ планарности.
+
+Минимальный пример:
+
+```tdl
+КЛАСС User
+АТРИБУТЫ
+  + id : Integer
+  + name : String
+ОПЕРАЦИИ
+  + rename(newName : String)
+КОНЕЦ КЛАСС
+```
+
+Связь с ролями, кратностями и именем:
+
+```tdl
+АССОЦИАЦИЯ Customer [1] : customer -- Order [0..*] : orders ИМЯ "places"
+```
+
+Готовые примеры, в том числе намеренно ошибочные для проверки диагностики, лежат в
+`src/ontol-v3/examples/tdl/`.
+
+## Личный кабинет на Streamlit
+
+Старый вариант личного кабинета на Streamlit поверх движка v1: проекты из нескольких
+`.ontol`-файлов, авторизация, редактор с автосохранением, сборка в JSON, PlantUML и
+PNG. Рендер выполняется прямо в процессе через пакет `ontol`.
+
+```
+pip install -e src/ontol-v1
 pip install -r v1-streamlit/requirements.txt
 streamlit run v1-streamlit/app.py
 ```
 
-- User accounts (registration / login); projects are private per user.
-- Tabbed, syntax-highlighted editor with **autosave**; add / delete files; pick a build entry point.
-- **Build** renders the chosen entry file in-process to JSON + PlantUML + PNG, with a downloadable zip.
+Каталог проектов задаётся через `ONTOL_PROJECTS_DIR` (по умолчанию
+`v1-streamlit/projects`), файл учёток — через `ONTOL_USERS_FILE`.
 
-Configuration via environment variables:
+Это прототип: сессии в памяти, учётки в JSON, при конкурентной работе возможны
+гонки. Нормальный многопользовательский вариант — это `v2-service`.
 
-- `ONTOL_PROJECTS_DIR` — where projects are stored (default: `v1-streamlit/projects`).
-- `ONTOL_USERS_FILE` — path to the user database (default: `<projects_dir>/users.json`).
+## Тесты
 
-## Documentation
+```
+python -m pytest src/ontol-v1/tests -q                 # движок v1
+cd src/ontol-v3 && python run_tests.py                 # движок v3 (нужны uml_dsl и dot)
+cd v2-service/backend && pytest                         # backend, на in-memory SQLite
+```
 
-- [docs/GRAMMAR.md](docs/GRAMMAR.md) — the Ontol DSL grammar (EBNF).
-- [docs/SETUP.md](docs/SETUP.md) — build / run instructions.
-- [docs/REPORT.md](docs/REPORT.md) — design notes for the V1 personal workspace.
-- [docs/V2_PLAN.md](docs/V2_PLAN.md) — implementation plan for the V2 multi-user service.
+В v3 проверяются лексер, парсер, сборка модели и сообщения об ошибках, валидация
+наследования/типов/композиций, анализ планарности (K5 и K3,3), рендер SVG, темы,
+маркеры связей, кратности, data-атрибуты, обратный разбор SVG, а также валидные и
+ошибочные `.tdl`-примеры и CLI. Backend-тесты проверяют выбор движка по расширению и
+что SVG с данными планарности корректно проходит через границу приложения.
 
-## Output
+## Лицензия
 
-- **JSON File**: A JSON representation of the ontology is saved with the same basename as the `.ontol` file.
-- **PlantUML File**: A `.puml` file is generated for visualization.
-- **PNG Image**: A PNG image is rendered from the PlantUML file.
-
-## Debug mode
-
-When the `--debug` flag is used, the parser retranslates the output back to the .ontol file. This is particularly useful for debugging, as it allows you to verify the accuracy and consistency of the parsing process. The retranslated file is saved with the same name as the original .ontol file, enabling easy comparison between the original and retranslated versions.
-
-## Contributing
-
-Contributions are welcome! If you'd like to contribute, please follow these steps:
-
-1. Fork the repository.
-2. Create a new branch for your feature or bugfix.
-3. Commit your changes.
-4. Ensure all tests pass by running `pytest tests`.
-5. Submit a pull request.
-
-## License
-
-This project is licensed under the Apache-2.0 License. See the LICENSE file for details.
-
-## Acknowledgments
-
-* Thanks to the [PlantUML team](https://github.com/plantuml) for providing an excellent tool for diagram generation.
-* Special thanks to all contributors and users of the Ontol DSL Parser.
-* A heartfelt thank you to [Danil Pestryakov](https://github.com/DanilPestryakov) and [Nikita Motorny](https://github.com/motorny) for their inspiration and support.
+Apache-2.0, см. файл LICENSE. Движок Ontol DSL написан Владимиром Скворцовым,
+Михаилом Аптуковым, Михаилом Марковым, Ильсафом Хамидуллиным и Андреем Афанасьевым.

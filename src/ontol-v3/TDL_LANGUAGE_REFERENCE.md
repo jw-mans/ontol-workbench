@@ -25,14 +25,14 @@ SVG-пример: [example.svg](examples/tdl/basic/example.svg)
 
 В синтаксических шаблонах используются такие обозначения:
 
-| Обозначение | Значение |
-|---|---|
-| `<Имя>` | имя класса, интерфейса, типа, параметра или связи |
-| `<Тип>` | имя типа: примитив, класс, интерфейс, тип данных или параметр шаблона |
-| `<кратность>` | кратность: `[1]`, `[0..1]`, `[0..*]`, `[*]` |
-| `<роль>` | имя конца ассоциации |
-| `<строка>` | строковый литерал в двойных кавычках |
-| `[...]` | необязательная часть синтаксиса |
+| Обозначение   | Значение                                                                                                              |
+| ------------------------ | ----------------------------------------------------------------------------------------------------------------------------- |
+| `<Имя>`             | имя класса, интерфейса, типа, параметра или связи                                     |
+| `<Тип>`             | имя типа: примитив, класс, интерфейс, тип данных или параметр шаблона |
+| `<кратность>` | кратность:`[1]`, `[0..1]`, `[0..*]`, `[*]`                                                                   |
+| `<роль>`           | имя конца ассоциации                                                                                        |
+| `<строка>`       | строковый литерал в двойных кавычках                                                          |
+| `[...]`                | необязательная часть синтаксиса                                                                  |
 
 Ключевые слова в примерах написаны верхним регистром, но язык распознает их как
 ключевые слова независимо от регистра. Имена элементов сохраняют написание.
@@ -62,11 +62,11 @@ SVG-пример: [example.svg](examples/tdl/basic/example.svg)
 Перед атрибутами и операциями можно указывать UML-видимость.
 
 | Символ | Значение |
-|---|---|
-| `+` | public |
-| `-` | private |
-| `#` | protected |
-| `~` | package |
+| ------------ | ---------------- |
+| `+`        | public           |
+| `-`        | private          |
+| `#`        | protected        |
+| `~`        | package          |
 
 ```tdl
 + publicName : String
@@ -615,19 +615,19 @@ SVG-пример: [interfaces.svg](examples/tdl/basic/interfaces.svg)
 
 ## Карта конструкций и примеров
 
-| Конструкция | Что описывает | SVG-пример |
-|---|---|---|
-| `КЛАСС` | UML Class | [example.svg](examples/tdl/basic/example.svg) |
-| `ПЕРЕЧИСЛЕНИЕ` | UML Enumeration | пример в этом справочнике |
-| `ИНТЕРФЕЙС` | UML Interface | [interfaces.svg](examples/tdl/basic/interfaces.svg) |
-| `ТИП_ДАННЫХ` | UML DataType | [data_types.svg](examples/tdl/basic/data_types.svg) |
-| `ШАБЛОН` | Template classifier | [templates.svg](examples/tdl/basic/templates.svg) |
-| `ПОДСТАНОВКА` | Template binding | [templates.svg](examples/tdl/basic/templates.svg) |
-| `КЛАСС_АССОЦИАЦИИ` | Association Class | [association_classes.svg](examples/tdl/basic/association_classes.svg) |
-| `АССОЦИАЦИЯ` | Binary Association | [diagram_1_1.svg](examples/tdl/basic/diagram_1_1.svg) |
-| `АГРЕГАЦИЯ` | Aggregation | [association_classes_rich.svg](examples/tdl/basic/association_classes_rich.svg) |
-| `КОМПОЗИЦИЯ` | Composition | пример в этом справочнике |
-| `ОБОБЩЕНИЕ` | Generalization | [example.svg](examples/tdl/basic/example.svg) |
-| `РЕАЛИЗАЦИЯ` | Realization | [interfaces.svg](examples/tdl/basic/interfaces.svg) |
-| `ЗАВИСИМОСТЬ` | Dependency | [association_classes_rich.svg](examples/tdl/basic/association_classes_rich.svg) |
-| `РАЗМЕЩЕНИЕ` | Устаревшее ручное размещение | [diagram_1_1.svg](examples/tdl/basic/diagram_1_1.svg) |
+| Конструкция              | Что описывает                              | SVG-пример                                                               |
+| ----------------------------------- | ------------------------------------------------------ | ------------------------------------------------------------------------------ |
+| `КЛАСС`                      | UML Class                                              | [example.svg](examples/tdl/basic/example.svg)                                   |
+| `ПЕРЕЧИСЛЕНИЕ`        | UML Enumeration                                        | пример в этом справочнике                                |
+| `ИНТЕРФЕЙС`              | UML Interface                                          | [interfaces.svg](examples/tdl/basic/interfaces.svg)                             |
+| `ТИП_ДАННЫХ`             | UML DataType                                           | [data_types.svg](examples/tdl/basic/data_types.svg)                             |
+| `ШАБЛОН`                    | Template classifier                                    | [templates.svg](examples/tdl/basic/templates.svg)                               |
+| `ПОДСТАНОВКА`          | Template binding                                       | [templates.svg](examples/tdl/basic/templates.svg)                               |
+| `КЛАСС_АССОЦИАЦИИ` | Association Class                                      | [association_classes.svg](examples/tdl/basic/association_classes.svg)           |
+| `АССОЦИАЦИЯ`            | Binary Association                                     | [diagram_1_1.svg](examples/tdl/basic/diagram_1_1.svg)                           |
+| `АГРЕГАЦИЯ`              | Aggregation                                            | [association_classes_rich.svg](examples/tdl/basic/association_classes_rich.svg) |
+| `КОМПОЗИЦИЯ`            | Composition                                            | пример в этом справочнике                                |
+| `ОБОБЩЕНИЕ`              | Generalization                                         | [example.svg](examples/tdl/basic/example.svg)                                   |
+| `РЕАЛИЗАЦИЯ`            | Realization                                            | [interfaces.svg](examples/tdl/basic/interfaces.svg)                             |
+| `ЗАВИСИМОСТЬ`          | Dependency                                             | [association_classes_rich.svg](examples/tdl/basic/association_classes_rich.svg) |
+| `РАЗМЕЩЕНИЕ`            | Устаревшее ручное размещение | [diagram_1_1.svg](examples/tdl/basic/diagram_1_1.svg)                           |
