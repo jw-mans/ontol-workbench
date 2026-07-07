@@ -1,0 +1,47 @@
+format:
+  name: txt
+  reader:
+    kind: plain_text
+    encoding: utf-8
+  root_entity: page
+
+entities:
+  page:
+    contains: paragraph
+    segmenter:
+      kind: passthrough
+
+  paragraph:
+    contains: sentence
+    segmenter:
+      kind: split
+      boundary_pattern: '(?:\r?\n\s*\r?\n)+'
+      trim: true
+      drop_empty: true
+
+  sentence:
+    contains: clause
+    segmenter:
+      kind: match
+      pattern: '.+?(?:[.!?…](?:["»”’'']+)?|$)'
+      trim: true
+      drop_empty: true
+      flags:
+        - MULTILINE
+        - DOTALL
+
+  clause:
+    contains: word
+    segmenter:
+      kind: match
+      pattern: '.+?(?:[,;:—]|$)'
+      trim: true
+      drop_empty: true
+      flags:
+        - MULTILINE
+        - DOTALL
+
+  word:
+    segmenter:
+      kind: match
+      pattern: "[^\\W_]+(?:[-'][^\\W_]+)*"

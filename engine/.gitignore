@@ -1,0 +1,7 @@
+**/__pycache__
+.venv/
+.idea/
+.vs/
+.coverage
+.test_tmp/
+pytest-cache-files*

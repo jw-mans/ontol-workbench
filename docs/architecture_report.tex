@@ -1,0 +1,340 @@
+\documentclass[a4paper,12pt]{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage[russian]{babel}
+\usepackage[left=25mm, right=15mm, top=20mm, bottom=20mm]{geometry}
+\usepackage{array}
+\usepackage{tabularx}
+\usepackage{booktabs}
+\usepackage{indentfirst}
+\usepackage{microtype}
+\usepackage{listings}
+\usepackage{xcolor}
+\usepackage{hyperref}
+
+\setlength{\parindent}{1.25cm}
+\renewcommand{\arraystretch}{1.4}
+
+\lstdefinelanguage{DiGrDSL}{
+  keywords={FIND,CONTEXT,DISTANCE,FOR,TO,WITHIN,WHERE,RETURN,LIMIT_PAIRS,AND,OR,NOT,TRUE,FALSE,NULL},
+  sensitive=true,
+  morestring=[b]",
+  morecomment=[l]{//},
+}
+
+\lstset{
+  basicstyle=\ttfamily\small,
+  keywordstyle=\bfseries,
+  frame=single,
+  breaklines=true,
+  inputencoding=utf8,
+  extendedchars=true,
+  literate={а}{{\cyra}}1 {б}{{\cyrb}}1 {в}{{\cyrv}}1 {г}{{\cyrg}}1
+           {д}{{\cyrd}}1 {е}{{\cyre}}1 {ё}{{\cyryo}}1 {ж}{{\cyrzh}}1
+           {з}{{\cyrz}}1 {и}{{\cyri}}1 {й}{{\cyrshti}}1 {к}{{\cyrk}}1
+           {л}{{\cyrl}}1 {м}{{\cyrm}}1 {н}{{\cyrn}}1 {о}{{\cyro}}1
+           {п}{{\cyrp}}1 {р}{{\cyrr}}1 {с}{{\cyrs}}1 {т}{{\cyrt}}1
+           {у}{{\cyru}}1 {ф}{{\cyrf}}1 {х}{{\cyrh}}1 {ц}{{\cyrc}}1
+           {ч}{{\cyrch}}1 {ш}{{\cyrsh}}1 {щ}{{\cyrshch}}1 {ъ}{{\cyrhrdsn}}1
+           {ы}{{\cyrery}}1 {ь}{{\cyrsftsn}}1 {э}{{\cyrerev}}1 {ю}{{\cyryu}}1
+           {я}{{\cyrya}}1
+}
+
+\begin{document}
+
+\section{Отчет по задаче 2: Описание работы системы DiGr DSL}
+
+\subsection{Назначение системы}
+
+DiGr --- инструмент для поиска фрагментов текстового документа с помощью декларативного языка запросов. Документ предварительно разбирается в иерархическое дерево (AST), над которым затем выполняются запросы трёх типов: выборка узлов (\texttt{FIND}), поиск контекстных окон (\texttt{CONTEXT}) и измерение расстояний между парами узлов (\texttt{DISTANCE}).
+
+Общий поток обработки:
+
+\begin{center}
+\texttt{исходный файл} $\;\rightarrow\;$ \texttt{AstDocument} $\;\rightarrow\;$ \texttt{текст запроса} $\;\rightarrow\;$ \texttt{DslQuery (AST)} $\;\rightarrow\;$ \texttt{результат (JSON)}
+\end{center}
+
+\subsection{Структура исходного кода}
+
+Исходный код расположен в директории \texttt{src/} и разделён на три независимые подсистемы с однонаправленными зависимостями:
+
+\begin{table}[h!]
+\centering
+\small
+\begin{tabularx}{\textwidth}{lX}
+\toprule
+\textbf{Пакет}              & \textbf{Назначение} \\
+\midrule
+\texttt{src/actor/}         & Базовый actor runtime: FSM-акторы, Mailbox, планировщики. Не знает ни про документы, ни про DSL. \\
+\texttt{src/document\_ast/} & Построение \texttt{AstDocument} из исходного файла по YAML-конфигурации формата. Использует \texttt{actor/}. \\
+\texttt{src/dsl/}           & Разбор DSL-запроса и его исполнение по \texttt{AstDocument}. Использует \texttt{actor/} и \texttt{document\_ast/}. \\
+\bottomrule
+\end{tabularx}
+\end{table}
+
+\subsection{Конфигурация форматов документов}
+
+Структура конкретного формата документа задаётся YAML-файлом в \texttt{config/formats/}. Для текстового формата используется \texttt{txt.yaml}, который определяет иерархию сущностей:
+
+\begin{center}
+\texttt{document} $\to$ \texttt{page} $\to$ \texttt{paragraph} $\to$ \texttt{sentence} $\to$ \texttt{clause} $\to$ \texttt{word}
+\end{center}
+
+Каждый уровень описывает: имя сущности, правило сегментации текста (\texttt{passthrough}, \texttt{split} или \texttt{match}) и отношение вложения \texttt{contains}. Загрузку и валидацию конфигурации выполняет \texttt{src/document\_ast/config/config\_loader.py}, проверяющий в том числе наличие циклов в иерархии сущностей. Имена сущностей в DSL-запросах не захардкожены: они берутся из конфигурации конкретного формата. Допустимость имени проверяется на этапе исполнения запроса.
+
+\subsection{Подсистема DSL}
+
+Подсистема реализована в \texttt{src/dsl/} и состоит из шести слоёв.
+
+\begin{table}[h!]
+\centering
+\small
+\begin{tabularx}{\textwidth}{lX}
+\toprule
+\textbf{Директория}         & \textbf{Содержимое} \\
+\midrule
+\texttt{api/}               & Публичные точки входа: \texttt{ActorDslEngine}, \texttt{ActorDslParser}, \texttt{ActorDslExecutor}. \\
+\texttt{model/}             & Типизированный AST запроса (\texttt{query\_ast.py}). \\
+\texttt{parsing/}           & Лексер и синтаксический анализатор. \\
+\texttt{execution/}         & Индексация AST, вычисление предикатов, расстояния, валидация. \\
+\texttt{actors/parsing/}    & Акторы конвейера разбора запроса. \\
+\texttt{actors/execution/}  & Акторы конвейера исполнения запроса. \\
+\bottomrule
+\end{tabularx}
+\end{table}
+
+\subsubsection{Публичный API}
+
+Внешний код работает с тремя классами из \texttt{src/dsl/api/}:
+
+\begin{itemize}
+  \item \texttt{ActorDslParser} (\texttt{query\_parser.py}) --- принимает строку запроса, возвращает \texttt{DslQuery};
+  \item \texttt{ActorDslExecutor} (\texttt{query\_executor.py}) --- принимает \texttt{DslQuery} и \texttt{AstDocument}, возвращает результат;
+  \item \texttt{ActorDslEngine} (\texttt{engine.py}) --- объединяет оба шага, принимает строку запроса и документ напрямую.
+\end{itemize}
+
+\texttt{ActorDslEngine.execute()} реализован в три строки: вызывает парсер, затем исполнитель. Это точка входа для большинства сценариев использования.
+
+\subsubsection{Модель запроса}
+
+Результат разбора хранится в типизированных датаклассах из \\ \texttt{src/dsl/model/query\_ast.py}. Верхний тип:
+
+\begin{center}
+\texttt{DslQuery = ContextQuery | FindQuery | DistanceQuery}
+\end{center}
+
+Выражения в \texttt{WHERE} и предикатах селекторов представлены типом:
+
+\begin{center}
+\texttt{Expression = ComparisonExpression | FunctionExpression | NotExpression | BinaryExpression}
+\end{center}
+
+Вспомогательные узлы: \texttt{Selector}, \texttt{Pattern}, \texttt{SpanSpec}, \texttt{WithinConstraint}, \texttt{FieldRef}, \texttt{CountConstraint}, \texttt{PairLimit}, \texttt{DistanceReturn}. Все классы реализуют метод \texttt{to\_dict()} через базовый класс \texttt{Serializable}.
+
+\subsubsection{Лексический анализ}
+
+Лексер реализован в классе \texttt{DslLexer} (\texttt{src/dsl/parsing/lexer.py}). Метод \texttt{tokenize()} обходит строку посимвольно и делегирует чтение отдельным методам:
+
+\begin{table}[h!]
+\centering
+\small
+\begin{tabularx}{\textwidth}{llX}
+\toprule
+\textbf{Метод}                   & \textbf{Стр.} & \textbf{Что распознаёт} \\
+\midrule
+\texttt{\_read\_identifier()}    & 113           & Идентификаторы и ключевые слова. После сборки лексемы выполняет \texttt{lexeme.upper()} и ищет в словаре \texttt{\_KEYWORDS} --- ключевые слова регистронезависимы. \\
+\texttt{\_read\_integer()}       & 128           & Целые неотрицательные числа. \\
+\texttt{\_read\_string()}        & 138           & Строковые литералы в двойных кавычках. Escape-последовательности обрабатывает \texttt{\_read\_string\_escape()} (стр.~159). \\
+\texttt{\_read\_regex()}         & 181           & Регулярные выражения в слешах. Допустимые флаги: \texttt{i}, \texttt{m}, \texttt{s}, \texttt{u}. \\
+\texttt{\_match\_operator()}     & 220           & Операторы. Перебирает словарь \texttt{\_OPERATORS} в порядке убывания длины, чтобы \texttt{!{\raise0.4ex\hbox{\texttildelow}}=} распознавалось раньше \texttt{!=}. \\
+\bottomrule
+\end{tabularx}
+\end{table}
+
+При лексической ошибке выбрасывается \texttt{DslSyntaxError} (\texttt{parsing/errors.py}) с полями \texttt{offset}, \texttt{line}, \texttt{column}.
+
+\subsubsection{Синтаксический анализ}
+
+Парсер реализован в классе \texttt{DslTokenStreamParser} \\ (\texttt{src/dsl/parsing/recursive\_descent\_parser.py}) методом рекурсивного спуска. Точка входа --- \texttt{parse\_query()} (стр.~76), которая ветвится по первому токену потока.
+
+\begin{table}[h!]
+\centering
+\small
+\begin{tabularx}{\textwidth}{llX}
+\toprule
+\textbf{Правило}                & \textbf{Метод / стр.} & \textbf{Примечания} \\
+\midrule
+\texttt{<Запрос>}               & \texttt{parse\_query()} / 76                 & Ветвление по \texttt{CONTEXT} / \texttt{FIND} / \texttt{DISTANCE}. Точка с запятой необязательна. \\
+\texttt{<Запрос CONTEXT>}       & \texttt{parse\_context\_query()} / 99        & Порядок: \texttt{FOR}, \texttt{WITHIN*}, \texttt{WHERE?}, \texttt{RETURN?}. \\
+\texttt{<Запрос FIND>}          & \texttt{parse\_find\_query()} / 107          & Порядок: \texttt{WHERE?}, \texttt{WITHIN*}, \texttt{RETURN?} --- порядок WHERE и WITHIN обратный по сравнению с CONTEXT. \\
+\texttt{<Запрос DISTANCE>}      & \texttt{parse\_distance\_query()} / 114      & Два селектора через токен \texttt{TO}, затем \texttt{WITHIN*}, \texttt{LIMIT\_PAIRS?}. \\
+\texttt{<Спецификация окна>}    & \texttt{parse\_span\_spec()} / 215           & \texttt{entity[op число]}: квадратные скобки содержат числовое ограничение, не логическое выражение. \\
+\texttt{<Блок LIMIT\_PAIRS>}    & \texttt{parse\_limit\_pairs\_clause()} / 164 & При отсутствии возвращает \texttt{PairLimit(mode="nearest")} по умолчанию. \\
+\texttt{<Блок RETURN>}          & \texttt{parse\_return\_clause()} / 177       & Принимает любой идентификатор; \texttt{distance(entity)} распознаётся отдельно в \texttt{parse\_return\_item()} (стр.~185). \\
+\texttt{<Отрицание>}            & \texttt{parse\_negation()} / 248             & Рекурсивный вызов: допускает \texttt{NOT NOT expr}. \\
+\texttt{<Предикат>}             & \texttt{parse\_predicate()} / 253            & Функция отличается от сравнения двухтокенным lookahead: \texttt{IDENTIFIER + LPAREN}. \\
+\texttt{<Аргумент>}             & \texttt{parse\_argument()} / 283             & Спецификация окна и селектор различаются через \texttt{\_looks\_like\_span\_spec()} (стр.~342): если за \texttt{[} идёт оператор количества --- это SpanSpec. \\
+\bottomrule
+\end{tabularx}
+\end{table}
+
+\subsubsection{Слой исполнения}
+
+Исполнение запроса реализовано в \texttt{src/dsl/execution/}. Перед запуском запроса строится \texttt{DocumentIndex}, который используется всеми компонентами исполнения.
+
+\paragraph{DocumentIndex (\texttt{document\_index.py}).}
+При инициализации обходит дерево \texttt{AstDocument} и строит:
+\begin{itemize}
+  \item список всех узлов, отсортированный по \texttt{(start, end, entity)};
+  \item словарь \texttt{\_nodes\_by\_entity}: имя сущности $\to$ список узлов;
+  \item словарь \texttt{\_parent\_by\_id}: \texttt{id(node)} $\to$ родительский узел.
+\end{itemize}
+Основные методы: \texttt{nodes\_of\_entity()}, \texttt{children()}, \texttt{descendants()}, \texttt{ancestors()}, \\ \texttt{nodes\_within\_span()}, \texttt{container\_nodes\_for\_span()}, \texttt{previous\_node()}, \texttt{next\_node()}.
+
+\paragraph{PredicateEvaluator (\texttt{predicate\_evaluator.py}).}
+Вычисляет логические выражения из \texttt{WHERE} и предикатов селекторов. Метод \texttt{evaluate(node, expression)} рекурсивно обходит AST выражения. Реализованные функции:
+
+\begin{table}[h!]
+\centering
+\small
+\begin{tabularx}{\textwidth}{lX}
+\toprule
+\textbf{Функция}                   & \textbf{Семантика} \\
+\midrule
+\texttt{has\_child(selector)}      & Хотя бы один прямой потомок узла соответствует selector. \\
+\texttt{has\_descendant(selector)} & Хотя бы один потомок на любой глубине соответствует selector. \\
+\texttt{has\_ancestor(selector)}   & Хотя бы один предок соответствует selector. \\
+\texttt{contains(arg)}             & Текст узла содержит строку, соответствует regex или содержит узел по selector. \\
+\texttt{follows(selector)}         & Предыдущий соседний узел того же типа соответствует selector. \\
+\texttt{precedes(selector)}        & Следующий соседний узел того же типа соответствует selector. \\
+\texttt{intersects(selector)}      & Span узла пересекается со span узла из selector. \\
+\texttt{inside(selector)}          & Текущий узел находится внутри контейнера из selector. \\
+\bottomrule
+\end{tabularx}
+\end{table}
+
+Операторы сравнения: \texttt{=}, \texttt{!=}, \texttt{<}, \texttt{<=}, \texttt{>}, \texttt{>=}, \texttt{\textasciitilde=} (regex match), \texttt{!\textasciitilde=} (regex not match). Доступные поля узла: \texttt{entity}, \texttt{text}, \texttt{start}, \texttt{end}, \texttt{metadata.<field>}.
+
+\paragraph{DistanceCalculator (\texttt{distance\_calculator.py}).}
+Вычисляет расстояние между двумя узлами в единицах указанной сущности. Использует \texttt{bisect\_left} по отсортированному списку узлов для подсчёта промежуточных элементов. Также управляет отбором пар согласно режиму \texttt{LIMIT\_PAIRS}: \texttt{nearest}, \texttt{all\_nearest}, \texttt{all} или k ближайших.
+
+\paragraph{QueryValidator (\texttt{query\_validator.py}).}
+Проверяет, что все имена сущностей из запроса присутствуют в \texttt{DocumentIndex}. Выполняется до запуска исполнения; при ошибке возвращает понятное сообщение, а не неопределённое поведение на этапе вычисления предикатов.
+
+\subsubsection{Акторный конвейер}
+
+Разбор и исполнение запроса организованы по одному шаблону: координатор раздаёт задачи воркерам, воркеры отправляют результаты коллектору.
+
+\paragraph{Конвейер разбора (\texttt{actors/parsing/}).}
+
+\begin{table}[h!]
+\centering
+\small
+\begin{tabularx}{\textwidth}{lX}
+\toprule
+\textbf{Актор}                          & \textbf{Роль} \\
+\midrule
+\texttt{DslParserCoordinatorActor}      & Управляет последовательностью: запускает лексер, затем парсер. FSM-состояния: \texttt{IDLE}, \texttt{WAITING\_FOR\_TOKENS}, \texttt{WAITING\_FOR\_QUERY\_AST}, \texttt{COMPLETED}. \\
+\texttt{DslLexerActor}                  & Вызывает \texttt{DslLexer.tokenize()}, отправляет токены координатору. \\
+\texttt{DslQueryParserActor}            & Вызывает \texttt{DslTokenStreamParser.parse\_query()}, строит AST. Фазовые состояния отражают стадию разбора. \\
+\texttt{DslParseResultCollectorActor}   & Сохраняет результат или ошибку. \\
+\bottomrule
+\end{tabularx}
+\end{table}
+
+\paragraph{Конвейер исполнения (\texttt{actors/execution/}).}
+
+\begin{table}[h!]
+\centering
+\small
+\begin{tabularx}{\textwidth}{lX}
+\toprule
+\textbf{Актор}                             & \textbf{Роль} \\
+\midrule
+\texttt{DslExecutionCoordinatorActor}      & Валидирует запрос, раздаёт задачи воркерам, собирает частичные результаты. Состояния: \texttt{IDLE}, \texttt{EVALUATING\_FIND\_CANDIDATES}, \texttt{EVALUATING\_CONTEXT\_WINDOWS}, \texttt{COMPLETED}. \\
+\texttt{DslExecutionWorkerActor}           & Вычисляет соответствие для одного кандидата (\texttt{FIND}) или одного стартового узла (\texttt{CONTEXT}). \\
+\texttt{DslExecutionResultCollectorActor}  & Сохраняет финальный результат или ошибку. \\
+\bottomrule
+\end{tabularx}
+\end{table}
+
+\subsection{Типы запросов}
+
+\subsubsection{FIND}
+
+Выбирает все узлы указанной сущности, удовлетворяющие условию \texttt{WHERE}.
+
+\begin{lstlisting}[language=DiGrDSL]
+FIND sentence
+WHERE has_descendant(word[text ~= /телефон/i])
+RETURN text, count
+\end{lstlisting}
+
+Порядок исполнения:
+\begin{enumerate}
+  \item Из индекса берутся все узлы сущности (\texttt{nodes\_of\_entity()}).
+  \item Каждый узел проверяется предикатом \texttt{WHERE} через \texttt{PredicateEvaluator.evaluate()}.
+  \item Прошедшие фильтр узлы формируют результат \texttt{FindQueryExecutionResult}.
+  \item \texttt{RETURN} определяет поля в выходном JSON, но не меняет состав совпадений.
+\end{enumerate}
+
+\texttt{WITHIN} в \texttt{FIND} дополнительно ограничивает результат по структурным контейнерам: узел сохраняется только если его охватывает ровно столько контейнеров указанного типа, сколько задано ограничением.
+
+\subsubsection{CONTEXT}
+
+Ищет минимальные непрерывные окна из соседних узлов базовой сущности, внутри которых встречаются все перечисленные паттерны.
+
+\begin{lstlisting}[language=DiGrDSL]
+CONTEXT sentence[<=4]
+FOR "дверь", "тишина"
+WITHIN paragraph[=1]
+RETURN text, matches
+\end{lstlisting}
+
+Контекстное окно --- это подряд идущие узлы одного типа без пропусков. Для базовой сущности из $n$ узлов $S_1, \ldots, S_n$ допустимы все окна $S_i, S_i..S_{i+1}, \ldots, S_i..S_{i+k}$, удовлетворяющие ограничению длины.
+
+Порядок исполнения:
+\begin{enumerate}
+  \item Берутся все узлы базовой сущности.
+  \item Перебираются окна допустимой длины.
+  \item Окно проверяется на все паттерны из \texttt{FOR}: строковый литерал --- поиск подстроки в тексте окна; regex --- поиск совпадения; селектор --- наличие узла с предикатом внутри окна.
+  \item Проверяются ограничения \texttt{WITHIN}.
+  \item Если задан \texttt{WHERE} --- вычисляется для найденного окна.
+  \item Из набора прошедших проверку окон оставляются только минимальные: если окно $A$ содержит окно $B$ с теми же совпадениями, $A$ отбрасывается.
+\end{enumerate}
+
+Паттерны в \texttt{FOR} могут иметь алиасы (\texttt{a: word[text = "ключ"]}), которые сохраняются в поле \texttt{matches} результата.
+
+\subsubsection{DISTANCE}
+
+Измеряет расстояние между парами узлов в единицах указанной сущности.
+
+\begin{lstlisting}[language=DiGrDSL]
+DISTANCE definition[metadata.index ~= "Язык"]
+TO definition[metadata.index ~= "Язык"]
+LIMIT_PAIRS all
+RETURN pairs, stats, distance(definition), count
+\end{lstlisting}
+
+Аргумент \texttt{distance(entity)} задаёт единицу измерения: \texttt{distance(symbol)} считает символы, \texttt{distance(sentence)} --- предложения между элементами пары. Расстояние --- количество узлов указанной сущности строго между левым и правым элементами пары.
+
+\texttt{LIMIT\_PAIRS} управляет объёмом результата:
+
+\begin{table}[h!]
+\centering
+\small
+\begin{tabularx}{\textwidth}{lX}
+\toprule
+\textbf{Значение}                & \textbf{Поведение} \\
+\midrule
+отсутствует / \texttt{nearest}   & Одна ближайшая пара. \\
+\texttt{all\_nearest}            & Все пары с минимальным расстоянием. \\
+\texttt{all}                     & Все допустимые пары. \\
+целое число $k$                  & $k$ ближайших пар. \\
+\bottomrule
+\end{tabularx}
+\end{table}
+
+Результат содержит поля \texttt{pairs}, \texttt{stats} (count, mean, variance, min, max), \texttt{count}. Статистика вычисляется по всем парам до применения \texttt{LIMIT\_PAIRS}.
+
+\end{document}

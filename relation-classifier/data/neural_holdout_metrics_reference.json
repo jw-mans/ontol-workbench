@@ -1,0 +1,8 @@
+{
+ "per_window_accuracy": 0.31242460796139926,
+ "per_window_macro_f1": 0.27415355616608283,
+ "per_pair_accuracy": 0.302158273381295,
+ "per_pair_macro_f1": 0.24972102508334393,
+ "n_pairs": 278,
+ "n_windows": 829
+}
