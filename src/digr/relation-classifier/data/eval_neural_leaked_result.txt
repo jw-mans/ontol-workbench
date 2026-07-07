@@ -1,0 +1,16 @@
+Всего пар с истинной и предсказанной меткой: 372 (пропущено: 0)
+Accuracy: 301/372 = 0.8091
+Macro-F1: 0.7392
+
+label            support  precision   recall     f1
+aggregation           24      0.750    0.750  0.750
+association           16      0.875    0.438  0.583
+composition            6      1.000    0.667  0.800
+dependency            38      0.857    0.474  0.610
+generalization       188      0.778    0.931  0.847
+input                 44      0.944    0.773  0.850
+instance               9      1.000    0.778  0.875
+manifest               3      0.400    0.667  0.500
+output                44      0.857    0.818  0.837
+
+Порог из ToR (>50% accuracy): ПРОЙДЕН

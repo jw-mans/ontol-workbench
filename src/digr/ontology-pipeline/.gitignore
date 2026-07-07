@@ -1,0 +1,10 @@
+**/__pycache__
+.venv/
+.venv312/
+.idea/
+.vs/
+.coverage
+.test_tmp/
+pytest-cache-files*
+data/qdrant_db/
+data/ontology_chunks_qdrant.jsonl

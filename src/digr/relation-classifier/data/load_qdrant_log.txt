@@ -1,0 +1,17 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+C:\Dev\SummerPractice\spbu-practice-2026\digr-worktree-task-3-2\digr\task-3-2\.venv312\Lib\site-packages\huggingface_hub\file_download.py:139: UserWarning: `huggingface_hub` cache-system uses symlinks by default to efficiently store duplicated files but your machine does not support them in C:\Users\Danil\.cache\huggingface\hub\models--intfloat--multilingual-e5-base. Caching files will still work but in a degraded version that might require more space on your disk. This warning can be disabled by setting the `HF_HUB_DISABLE_SYMLINKS_WARNING` environment variable. For more details, see https://huggingface.co/docs/huggingface_hub/how-to-cache#limitations.
+To support symlinks on Windows, you either need to activate Developer Mode or to run Python as an administrator. In order to activate developer mode, see this article: https://docs.microsoft.com/en-us/windows/apps/get-started/enable-your-device-for-development
+  warnings.warn(message)
+Загрузка модели эмбеддингов intfloat/multilingual-e5-base ...
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|██████████| 199/199 [00:00<00:00, 9551.49it/s]
+Кусков для загрузки: 372
+Считаю эмбеддинги ...
+Batches:   0%|          | 0/12 [00:00<?, ?it/s]Batches:   8%|▊         | 1/12 [00:05<00:57,  5.23s/it]Batches:  17%|█▋        | 2/12 [00:07<00:37,  3.77s/it]Batches:  25%|██▌       | 3/12 [00:10<00:27,  3.08s/it]Batches:  33%|███▎      | 4/12 [00:12<00:22,  2.83s/it]Batches:  42%|████▏     | 5/12 [00:14<00:17,  2.47s/it]Batches:  50%|█████     | 6/12 [00:16<00:13,  2.25s/it]Batches:  58%|█████▊    | 7/12 [00:17<00:09,  1.94s/it]Batches:  67%|██████▋   | 8/12 [00:19<00:07,  1.82s/it]Batches:  75%|███████▌  | 9/12 [00:20<00:04,  1.62s/it]Batches:  83%|████████▎ | 10/12 [00:21<00:02,  1.44s/it]Batches:  92%|█████████▏| 11/12 [00:22<00:01,  1.27s/it]Batches: 100%|██████████| 12/12 [00:22<00:00,  1.03s/it]Batches: 100%|██████████| 12/12 [00:22<00:00,  1.90s/it]
+
+Загружено точек: 367 в коллекцию 'concept_pairs_templates' (dim=768, cosine).
+Демо-поиск 'из чего состоит слово':
+  0.822  правило вывода -> отношение  [Inheritance]
+  0.814  язык -> слово  [Dependency]
+  0.814  слово -> язык  [Aggregation]
+
+Готово. БД: data/qdrant_db · коллекция: concept_pairs_templates
