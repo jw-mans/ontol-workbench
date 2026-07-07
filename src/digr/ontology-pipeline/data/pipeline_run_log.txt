@@ -1,0 +1,7 @@
+Ищу semantic_block ...
+Ищу odmkey (definition) ...
+  odmkey: 1611, semantic_block: 7133
+  новых кандидатных пар (odmkey, вне дискретки): 2030
+дискретка: найдено 361/402, из них верно 163, mismatch=198, missed=41
+novel=1665
+-> data/ontology_errors.jsonl, data/ontology_final.json (2026 пар)
