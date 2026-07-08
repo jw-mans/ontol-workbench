@@ -16,7 +16,8 @@ async def get_owned_project(
     user: User = Depends(current_active_user),
     session: AsyncSession = Depends(get_async_session),
 ) -> Project:
-    """Вернуть проект по id, только если он принадлежит текущему пользователю.
+    """
+    Вернуть проект по id, только если он принадлежит текущему пользователю.
 
     Чужой/несуществующий проект -> 404 (не раскрываем факт существования).
     """

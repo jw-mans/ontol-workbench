@@ -334,17 +334,44 @@ class ClassDiagram(BaseModel):
                     f"связанный классификатор '{assoc_class.associated_classifier.name}'"
                 )
 
-    def validate_all(self) -> None:
-        """Выполнить все глобальные проверки."""
-        self.validate_no_inheritance_cycles()
-        self.validate_composition_constraint()
-        self.validate_multiple_inheritance_conflicts()
-        self.validate_redefines_references()
-        self.validate_attribute_type_references()
-        self.validate_parameter_type_references()
-        self.validate_template_parameter_type_references()
-        self.validate_template_binding_references()
-        self.validate_all_ends_reference_known_classifiers()
+    _GLOBAL_VALIDATORS = (
+        'validate_no_inheritance_cycles',
+        'validate_composition_constraint',
+        'validate_multiple_inheritance_conflicts',
+        'validate_redefines_references',
+        'validate_attribute_type_references',
+        'validate_parameter_type_references',
+        'validate_template_parameter_type_references',
+        'validate_template_binding_references',
+        'validate_all_ends_reference_known_classifiers',
+        'validate_cfpq_cycles',
+    )
+
+    def validate_all(self, *, strict: bool = True) -> list[str]:
+        """Прогнать все глобальные проверки.
+
+        При strict первое же нарушение бросает ValueError. Иначе проверки не
+        прерывают друг друга, а их сообщения возвращаются списком — тогда
+        диаграмму можно отрисовать как есть, с пометкой о проблемах.
+        """
+        warnings: list[str] = []
+        for name in self._GLOBAL_VALIDATORS:
+            try:
+                getattr(self, name)()
+            except ValueError as error:
+                if strict:
+                    raise
+                warnings.append(str(error))
+        return warnings
+
+    def validate_cfpq_cycles(self) -> None:
+        """Циклы наследования и антипаттерн a+ b+ a+ b+. Импорт ленивый:
+        cfpq_validator сам тянет этот модуль."""
+        from .cfpq_validator import validate_uml_cycles
+
+        errors = validate_uml_cycles(self)
+        if errors:
+            raise ValueError('; '.join(errors))
 
     def validate_redefines_references(self) -> None:
         """Проверяем, что каждое `redefines` ссылается на реально существующее

@@ -18,6 +18,15 @@ from app.db import Base
 
 
 class File(Base):
+    """
+    ORM-модель файла проекта.
+    
+    :param id: UUID файла
+    :param project_id: UUID проекта
+    :param name: имя файла
+    :param content: контент файла (текст)
+    :param updated_at: время последнего обновления
+    """
     __tablename__ = 'file'
     __table_args__ = (
         UniqueConstraint('project_id', 'name', name='uq_file_project_name'),

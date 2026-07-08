@@ -1,4 +1,5 @@
-"""Фоновый воркер (arq).
+"""
+Фоновый воркер (arq).
 
 Запуск:  arq app.worker.WorkerSettings
 

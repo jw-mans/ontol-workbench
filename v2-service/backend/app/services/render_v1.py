@@ -1,4 +1,5 @@
-"""Сборка проекта движком ontol-v1 (Ontol DSL -> JSON / PlantUML / PNG).
+"""
+Сборка проекта движком ontol-v1 (Ontol DSL -> JSON / PlantUML / PNG).
 
 Файлы проекта хранятся в БД. Чтобы межфайловые импорты ``ontol`` (которые
 резолвятся по файловой системе) работали без изменений ядра, материализуем все
@@ -26,7 +27,15 @@ def _clean(warnings: list[str]) -> list[str]:
 def build_ontol(
     files: dict[str, str], entry: str, plantuml_url: str
 ) -> BuildResult:
-    """Собрать ``.ontol``-проект."""
+    """
+    Собрать ``.ontol``-проект.
+    
+    :param files: словарь имя -> текст Ontol DSL
+    :param entry: имя файла, с которого начинать сборку
+    :param plantuml_url: URL сервиса PlantUML (для рендера PNG)
+
+    :return: BuildResult
+    """
     tmp_dir = tempfile.mkdtemp(prefix='ontol_build_')
     try:
         project = Project(tmp_dir)

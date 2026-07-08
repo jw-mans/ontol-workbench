@@ -20,6 +20,13 @@ async def get_user_db(
 
 
 class UserManager(UUIDIDMixin, BaseUserManager[User, uuid.UUID]):
+    """
+    Менеджер пользователей (fastapi-users).
+    
+    :param user_db: объект доступа к пользователям в БД
+    :param reset_password_token_secret: секрет для токена сброса пароля
+    :param verification_token_secret: секрет для токена подтверждения email
+    """
     reset_password_token_secret = settings.secret
     verification_token_secret = settings.secret
 

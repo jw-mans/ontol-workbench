@@ -11,6 +11,17 @@ from app.db import Base
 
 
 class Project(Base):
+    """
+    ORM-модель проекта — каталог `.ontol`-файлов, принадлежащий пользователю.
+
+    :param id: UUID проекта
+    :param owner_id: UUID владельца проекта (пользователя)
+    :param name: имя проекта
+    :param created_at: время создания проекта
+    :param updated_at: время последнего обновления проекта
+    :param files: список файлов проекта
+    """
+
     __tablename__ = 'project'
     __table_args__ = (
         UniqueConstraint('owner_id', 'name', name='uq_project_owner_name'),

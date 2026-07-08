@@ -16,6 +16,12 @@ def _validate_flat_name(value: str) -> str:
 
 
 class FileCreate(BaseModel):
+    """
+    Параметры создания файла.
+    
+    :param name: имя файла (без путей)
+    :param content: текст файла (по умолчанию пустой)
+    """
     name: str = Field(min_length=1, max_length=255)
     content: str = ''
 
@@ -26,10 +32,20 @@ class FileCreate(BaseModel):
 
 
 class FileUpdate(BaseModel):
+    """
+    Параметры обновления файла.
+    
+    :param content: текст файла (по умолчанию пустой)
+    """
     content: str
 
 
 class FileRename(BaseModel):
+    """
+    Параметры переименования файла.
+    
+    :param name: новое имя файла (без путей)
+    """
     name: str = Field(min_length=1, max_length=255)
 
     @field_validator('name')
@@ -39,6 +55,14 @@ class FileRename(BaseModel):
 
 
 class FileRead(BaseModel):
+    """
+    Схема чтения файла (в ответе API).
+
+    :param id: UUID файла
+    :param name: имя файла
+    :param content: текст файла
+    :param updated_at: время последнего обновления
+    """
     model_config = ConfigDict(from_attributes=True)
 
     id: uuid.UUID
@@ -48,7 +72,13 @@ class FileRead(BaseModel):
 
 
 class FileListItem(BaseModel):
-    """Облегчённый элемент списка — без контента."""
+    """
+    Облегчённый элемент списка — без контента.
+    
+    :param id: UUID файла
+    :param name: имя файла
+    :param updated_at: время последнего обновления
+    """
 
     model_config = ConfigDict(from_attributes=True)
 

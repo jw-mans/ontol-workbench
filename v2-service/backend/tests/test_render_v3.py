@@ -101,11 +101,13 @@ def test_dispatch_tdl_returns_svg_only():
     assert res.json is None and res.puml is None and res.png_url is None
 
 
-@needs_uml
-def test_dispatch_tdl_error_no_svg():
+@needs_render
+def test_dispatch_tdl_semantic_issue_warns_not_fails():
+    # цикл наследования не валит сборку — диаграмма есть, а нарушение в warnings
     res = build_project({'d.tdl': CYCLE_TDL}, 'd.tdl', 'http://unused')
-    assert res.ok is False
-    assert res.error and res.svg is None
+    assert res.ok
+    assert res.svg and res.svg.lstrip().startswith('<svg')
+    assert any('цикл' in w.lower() for w in res.warnings)
 
 
 def test_dispatch_ontol_uses_v1_not_v3():

@@ -20,6 +20,16 @@ async def list_projects(
     user: User = Depends(current_active_user),
     session: AsyncSession = Depends(get_async_session),
 ) -> list[Project]:
+    """
+    Вернуть список проектов текущего пользователя (имя + id). Контент не возвращается, чтобы
+    не перегружать API и фронтенд. 
+    Контент запрашивается отдельным эндпоинтом (GET /projects/{project_id}/files).
+
+    :param user: текущий пользователь
+    :param session: асинхронная сессия SQLAlchemy
+
+    :return: список проектов текущего пользователя (имя + id)
+    """
     result = await session.execute(
         select(Project).where(Project.owner_id == user.id).order_by(Project.name)
     )
@@ -32,6 +42,15 @@ async def create_project(
     user: User = Depends(current_active_user),
     session: AsyncSession = Depends(get_async_session),
 ) -> Project:
+    """
+    Создать новый проект. Имя обязано быть уникальным для пользователя.
+
+    :param data: параметры запроса (имя проекта)
+    :param user: текущий пользователь
+    :param session: асинхронная сессия SQLAlchemy
+
+    :return: созданный проект
+    """
     project = Project(owner_id=user.id, name=data.name)
     session.add(project)
     try:
@@ -47,6 +66,13 @@ async def create_project(
 
 @router.get('/{project_id}', response_model=ProjectRead)
 async def get_project(project: Project = Depends(get_owned_project)) -> Project:
+    """
+    Вернуть проект по id, только если он принадлежит текущему пользователю.
+    
+    :param project: проект, к которому принадлежит пользователь
+    
+    :return: проект
+    """
     return project
 
 
@@ -56,6 +82,15 @@ async def rename_project(
     project: Project = Depends(get_owned_project),
     session: AsyncSession = Depends(get_async_session),
 ) -> Project:
+    """
+    Переименовать проект. Имя обязано быть уникальным для пользователя.
+
+    :param data: параметры запроса (новое имя проекта)
+    :param project: проект, к которому принадлежит пользователь
+    :param session: асинхронная сессия SQLAlchemy
+
+    :return: обновленный проект
+    """
     project.name = data.name
     try:
         await session.commit()
@@ -73,5 +108,13 @@ async def delete_project(
     project: Project = Depends(get_owned_project),
     session: AsyncSession = Depends(get_async_session),
 ) -> None:
+    """
+    Удалить проект по id. Контент не возвращается, чтобы фронтенд мог его отобразить.
+
+    :param project: проект, к которому принадлежит пользователь
+    :param session: асинхронная сессия SQLAlchemy
+
+    :return: None
+    """
     await session.delete(project)
     await session.commit()

@@ -1,4 +1,5 @@
-"""Опциональная AI-генерация связей (раздел hierarchy). Доступ — владельцу проекта.
+"""
+Опциональная AI-генерация связей (раздел hierarchy). Доступ — владельцу проекта.
 
 Фича выключена по умолчанию (``settings.ai_enabled``). Когда включена, эндпоинт
 ставит задачу воркеру (как и сборка) и ждёт результат. Возвращается предложение
@@ -24,6 +25,15 @@ async def ai_hierarchy(
     request: Request,
     project: Project = Depends(get_owned_project),
 ) -> dict:
+    """
+    Генерация связей с использованием AI.
+    
+    :param data: параметры запроса (точка входа, модель)
+    :param request: объект запроса FastAPI
+    :param project: проект, к которому принадлежит пользователь
+    
+    :return: словарь с результатом генерации
+    """
     if not settings.ai_enabled:
         raise HTTPException(
             status.HTTP_503_SERVICE_UNAVAILABLE, 'AI feature is disabled'

@@ -18,7 +18,7 @@ export interface BuildResult {
   json: string | null
   puml: string | null
   png_url: string | null
-  svg: string | null // ontol-v3 (TDL → Graphviz)
+  svg: string | null // ontol-v3 (TDL -> Graphviz)
   planarity: PlanarityInfo | null // непланарный граф v3 (иначе null)
   warnings: string[]
   error: string | null

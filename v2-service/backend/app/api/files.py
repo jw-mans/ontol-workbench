@@ -20,7 +20,9 @@ from app.schemas.file import (
 )
 
 ONTOL_EXT = '.ontol'
-# Расширения известных движков: .ontol → v1 (PlantUML), .tdl → v3 (Graphviz).
+# Расширения известных движков: 
+#   .ontol -> v1 (PlantUML), 
+#   .tdl -> v3 (Graphviz).
 KNOWN_EXTS = (ONTOL_EXT, '.tdl')
 
 router = APIRouter(prefix='/projects/{project_id}/files', tags=['files'])
@@ -45,6 +47,16 @@ async def list_files(
     project: Project = Depends(get_owned_project),
     session: AsyncSession = Depends(get_async_session),
 ) -> list[File]:
+    """
+    Вернуть список файлов проекта (имя + id). Контент не возвращается, чтобы
+    не перегружать API и фронтенд. 
+    Контент запрашивается отдельным эндпоинтом (GET /projects/{project_id}/files/{file_id}).
+
+    :param project: проект, к которому принадлежит пользователь
+    :param session: асинхронная сессия SQLAlchemy
+
+    :return: список файлов проекта (имя + id)
+    """
     result = await session.execute(
         select(File).where(File.project_id == project.id).order_by(File.name)
     )
@@ -57,6 +69,15 @@ async def create_file(
     project: Project = Depends(get_owned_project),
     session: AsyncSession = Depends(get_async_session),
 ) -> File:
+    """
+    Создать новый файл в проекте. Имя обязано быть уникальным в проекте.
+
+    :param data: параметры запроса (имя файла, контент)
+    :param project: проект, к которому принадлежит пользователь
+    :param session: асинхронная сессия SQLAlchemy
+    
+    :return: созданный файл
+    """
     file = File(
         project_id=project.id, name=_with_ext(data.name), content=data.content
     )
@@ -78,6 +99,15 @@ async def get_file(
     project: Project = Depends(get_owned_project),
     session: AsyncSession = Depends(get_async_session),
 ) -> File:
+    """
+    Вернуть файл проекта по id. Контент возвращается, чтобы фронтенд мог его отобразить.
+
+    :param file_id: UUID файла
+    :param project: проект, к которому принадлежит пользователь
+    :param session: асинхронная сессия SQLAlchemy
+
+    :return: файл проекта (имя + id + контент)
+    """
     return await _get_file(file_id, project, session)
 
 
@@ -88,7 +118,16 @@ async def update_file(
     project: Project = Depends(get_owned_project),
     session: AsyncSession = Depends(get_async_session),
 ) -> File:
-    """Обновить контент файла (автосейв из редактора)."""
+    """
+    Обновить контент файла (автосейв из редактора).
+
+    :param file_id: UUID файла
+    :param data: параметры запроса (контент)
+    :param project: проект, к которому принадлежит пользователь
+    :param session: асинхронная сессия SQLAlchemy
+
+    :return: обновленный файл
+    """
     file = await _get_file(file_id, project, session)
     file.content = data.content
     await session.commit()
@@ -103,7 +142,16 @@ async def rename_file(
     project: Project = Depends(get_owned_project),
     session: AsyncSession = Depends(get_async_session),
 ) -> File:
-    """Переименовать файл (имя обязано быть уникальным в проекте)."""
+    """
+    Переименовать файл (имя обязано быть уникальным в проекте).
+
+    :param file_id: UUID файла
+    :param data: параметры запроса (новое имя)
+    :param project: проект, к которому принадлежит пользователь
+    :param session: асинхронная сессия SQLAlchemy
+
+    :return: обновленный файл
+    """
     file = await _get_file(file_id, project, session)
     file.name = _with_ext(data.name)
     try:
@@ -123,6 +171,15 @@ async def delete_file(
     project: Project = Depends(get_owned_project),
     session: AsyncSession = Depends(get_async_session),
 ) -> None:
+    """ 
+    Удалить файл проекта по id. Контент не возвращается, чтобы фронтенд мог его отобразить.
+
+    :param file_id: UUID файла
+    :param project: проект, к которому принадлежит пользователь
+    :param session: асинхронная сессия SQLAlchemy
+
+    :return: None
+    """
     file = await _get_file(file_id, project, session)
     await session.delete(file)
     await session.commit()

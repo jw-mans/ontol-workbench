@@ -1,4 +1,5 @@
-"""Бэкенд авторизации: httpOnly-cookie + JWT-стратегия.
+"""
+Бэкенд авторизации: httpOnly-cookie + JWT-стратегия.
 
 Cookie хранит подписанный JWT (stateless). Если позже понадобятся отзываемые
 серверные сессии — заменить ``JWTStrategy`` на ``DatabaseStrategy`` (потребует

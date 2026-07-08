@@ -1,4 +1,5 @@
-"""Опциональная AI-генерация связей (раздел ``hierarchy``) через ontol.AI + Ollama.
+"""
+Опциональная AI-генерация связей (раздел ``hierarchy``) через ontol.AI + Ollama.
 
 Включается флагом ``settings.ai_enabled``. Тяжёлый стек (langchain) и Ollama нужны
 только при включённой фиче, поэтому ``ontol.AI`` и сама генерация вызываются
@@ -19,6 +20,14 @@ from ontol import Parser, Project, RelationshipDirection
 
 @dataclass
 class AIHierarchyResult:
+    """
+    Результат генерации связей (раздел ``hierarchy``) через LLM (Ollama).
+    :param ok: True = успешно, False = ошибка
+    :param relationships: список предложенных связей 
+                          (parent/child/relationship/title/bidirectional/comment)
+    :param snippet: фрагмент Ontol DSL (раздел hierarchy) — можно вставить в файл
+    :param error: текст ошибки (например, нет langchain / недоступен Ollama)
+    """
     ok: bool
     relationships: list[dict] = field(default_factory=list)
     # Фрагмент `.ontol` (раздел hierarchy) — можно вставить в файл.
@@ -33,7 +42,17 @@ def generate_hierarchy(
     base_url: str,
     temperature: float = 0.0,
 ) -> AIHierarchyResult:
-    """Предложить связи для точки входа на основе её терминов и функций."""
+    """
+    Предложить связи для точки входа на основе её терминов и функций.
+
+    :param files: словарь имя -> текст Ontol DSL
+    :param entry: имя файла, с которого начинать сборку
+    :param model: имя модели Ollama (например, "llama2")
+    :param base_url: URL базового сервера Ollama
+    :param temperature: температура генерации
+
+    :return: AIHierarchyResult
+    """
     if entry not in files:
         return AIHierarchyResult(ok=False, error=f'Entry file {entry!r} not found')
 

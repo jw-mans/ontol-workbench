@@ -26,15 +26,18 @@ def tdl_to_svg(
     width: int = 900,
     height: int = 500,
     theme: str = "light",
+    strict: bool = True,
 ) -> str:
     tokens = lex(tdl_text)
     doc = parse_tdl(tokens)
     diagram = build_diagram(doc)
-    diagram.validate_all()
+    diagram.validate_all(strict=strict)
     return diagram_to_graphviz_svg(diagram, theme=theme)
 
 
-def tdl_to_svg_analyzed(tdl_text: str) -> tuple[str, list[str], dict | None]:
+def tdl_to_svg_analyzed(
+    tdl_text: str, strict: bool = True
+) -> tuple[str, list[str], dict | None]:
     """TDL → (SVG, warnings, planarity) с проверкой планарности.
 
     Планарен → раскладываем без пересечений рёбер (планарное вложение), planarity
@@ -49,7 +52,8 @@ def tdl_to_svg_analyzed(tdl_text: str) -> tuple[str, list[str], dict | None]:
     tokens = lex(tdl_text)
     doc = parse_tdl(tokens)
     diagram = build_diagram(doc)
-    diagram.validate_all()
+    # при strict=False нарушения вернутся списком, а не бросят исключение
+    validation_warnings = diagram.validate_all(strict=strict)
 
     result = analyze(diagram)
     planarity: dict | None = None
@@ -67,7 +71,7 @@ def tdl_to_svg_analyzed(tdl_text: str) -> tuple[str, list[str], dict | None]:
             'count': len(result.obstructions),
         }
 
-    return diagram_to_graphviz_svg(diagram), [], planarity
+    return diagram_to_graphviz_svg(diagram), validation_warnings, planarity
 
 
 def main() -> int:

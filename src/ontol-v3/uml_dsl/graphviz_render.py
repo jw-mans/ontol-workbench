@@ -1603,11 +1603,11 @@ def _run_dot_to_svg(dot_text: str) -> str:
         )
     except FileNotFoundError as exc:
         raise RuntimeError(
-            "Graphviz 'dot' РЅРµ РЅР°Р№РґРµРЅ. РЈСЃС‚Р°РЅРѕРІРёС‚Рµ Graphviz Рё РґРѕР±Р°РІСЊС‚Рµ dot РІ PATH."
+            "Graphviz 'dot' не найден. Установите Graphviz и добавьте dot в PATH."
         ) from exc
     except subprocess.CalledProcessError as exc:
         stderr = exc.stderr.decode("utf-8", errors="replace")
-        raise RuntimeError(f"РћС€РёР±РєР° Graphviz dot: {stderr}") from exc
+        raise RuntimeError(f"Ошибка Graphviz dot: {stderr}") from exc
 
     return result.stdout.decode("utf-8", errors="replace")
 

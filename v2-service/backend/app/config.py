@@ -35,7 +35,7 @@ class Settings(BaseSettings):
     # Сколько ждать результат сборки от воркера, прежде чем отдать 504.
     build_timeout_seconds: int = 60
 
-    # --- Опциональная AI-генерация связей (Ollama + langchain) -------------- #
+    # Опциональная AI-генерация связей (Ollama + langchain)
     # Выключена по умолчанию. Включается AI_ENABLED=true; требует образ с экстрой
     # [ai] и доступный Ollama (см. docker-compose.ai.yml).
     ai_enabled: bool = False
