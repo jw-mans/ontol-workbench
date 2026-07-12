@@ -1,0 +1,462 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2000" height="560" viewBox="0 0 2000 560" class="uml-diagram" data-theme="light" data-title="Диаграмма TDL">
+
+    <defs>
+      <linearGradient id="uml-yellow-title-gradient" x1="0%" y1="0%" x2="0%" y2="100%">
+        <stop offset="0%" stop-color="#f0c955"/>
+        <stop offset="50%" stop-color="#ffebc2"/>
+        <stop offset="100%" stop-color="#f0c955"/>
+      </linearGradient>
+
+      <linearGradient id="uml-yellow-section-gradient" x1="0%" y1="0%" x2="0%" y2="100%">
+        <stop offset="0%" stop-color="#f5d56b"/>
+        <stop offset="50%" stop-color="#fff1cf"/>
+        <stop offset="100%" stop-color="#f0c955"/>
+      </linearGradient>
+
+      <marker id="diamond-empty" markerWidth="12" markerHeight="8" viewBox="0 0 12 8" refX="0" refY="4" orient="auto" markerUnits="userSpaceOnUse">
+        <path class="uml-marker uml-marker-hollow" d="M 0 4 L 6 0 L 12 4 L 6 8 Z" fill="white" stroke="#181818" stroke-width="1"/>
+      </marker>
+
+      <marker id="diamond-filled" markerWidth="12" markerHeight="8" viewBox="0 0 12 8" refX="0" refY="4" orient="auto" markerUnits="userSpaceOnUse">
+        <path class="uml-marker uml-marker-filled" d="M 0 4 L 6 0 L 12 4 L 6 8 Z" fill="#181818" stroke="#181818" stroke-width="1"/>
+      </marker>
+
+      <marker id="diamond-empty-end" markerWidth="12" markerHeight="8" viewBox="0 0 12 8" refX="12" refY="4" orient="auto" markerUnits="userSpaceOnUse">
+        <path class="uml-marker uml-marker-hollow" d="M 0 4 L 6 0 L 12 4 L 6 8 Z" fill="white" stroke="#181818" stroke-width="1"/>
+      </marker>
+
+      <marker id="diamond-filled-end" markerWidth="12" markerHeight="8" viewBox="0 0 12 8" refX="12" refY="4" orient="auto" markerUnits="userSpaceOnUse">
+        <path class="uml-marker uml-marker-filled" d="M 0 4 L 6 0 L 12 4 L 6 8 Z" fill="#181818" stroke="#181818" stroke-width="1"/>
+      </marker>
+
+      <marker id="arrow-filled" markerWidth="9" markerHeight="8" viewBox="0 0 9 8" refX="9" refY="4" orient="auto" markerUnits="userSpaceOnUse">
+        <path class="uml-marker uml-marker-filled" d="M 9 4 L 0 0 L 4 4 L 0 8 Z" fill="#181818" stroke="#181818" stroke-width="1"/>
+      </marker>
+
+      <marker id="triangle-empty" markerWidth="18" markerHeight="12" viewBox="0 0 18 12" refX="18" refY="6" orient="auto" markerUnits="userSpaceOnUse">
+        <path class="uml-marker uml-marker-hollow" d="M 18 6 L 0 0 L 0 12 Z" fill="white" stroke="#181818" stroke-width="1"/>
+      </marker>
+    </defs>
+    
+<style id="uml-theme-light" type="text/css"><![CDATA[
+svg.uml-diagram {
+  background: #ffffff;
+}
+
+.uml-class-title {
+  fill: #e5e5e5;
+}
+
+.uml-class-section,
+.uml-enum-body {
+  fill: #eeeeee;
+}
+
+.uml-class-outline,
+.uml-class-title,
+.uml-class-section,
+.uml-enum-body,
+.uml-enum-title,
+.uml-template-box {
+  stroke: #999999;
+  stroke-width: 1;
+}
+
+.uml-class-title-text,
+.uml-feature-text,
+.uml-template-text,
+.uml-edge-label,
+.uml-multiplicity {
+  fill: #000000;
+}
+
+.uml-kind-badge-c {
+  fill: #b8d9bf;
+  stroke: #3e7d4a;
+}
+
+.uml-kind-badge-e {
+  fill: #f29b86;
+  stroke: #9d3f2f;
+}
+
+.uml-kind-badge-i {
+  fill: #c9d7ff;
+  stroke: #4a61a8;
+}
+
+.uml-kind-badge-d {
+  fill: #d9c7f2;
+  stroke: #6f4aa8;
+}
+
+.uml-kind-badge-text {
+  fill: #000000;
+}
+
+.uml-attribute-bullet {
+  fill: #ffffff;
+  stroke: #3aa76d;
+}
+
+.uml-operation-bullet {
+  fill: #3aa76d;
+  stroke: #2a7d50;
+}
+
+.uml-edge-line {
+  stroke: #181818;
+  stroke-width: 1;
+}
+
+.uml-marker-filled {
+  fill: #181818;
+  stroke: #181818;
+}
+
+.uml-marker-hollow {
+  fill: #ffffff;
+  stroke: #181818;
+}
+
+]]></style>
+
+<g class="uml-edge"
+   data-type="generalization"
+   data-src="БазисПространстваКоциклов"
+   data-tgt="БазисПространстваЦиклов"
+   data-substitutable="true">
+  <path class="uml-edge-line" d="M136.6,53.8 C136.6,71.6 136.6,100.6 136.6,118.3" fill="none" stroke="#181818" stroke-width="1.0" marker-end="url(#triangle-empty)"/>
+</g>
+
+
+<g class="uml-edge"
+   data-type="generalization"
+   data-src="Кодерево"
+   data-tgt="РангЦиклический"
+   data-substitutable="true">
+  <path class="uml-edge-line" d="M745.6,53.8 C745.6,71.6 745.6,100.6 745.6,118.3" fill="none" stroke="#181818" stroke-width="1.0" marker-end="url(#triangle-empty)"/>
+</g>
+
+
+<g class="uml-edge"
+   data-type="generalization"
+   data-src="Кодерево"
+   data-tgt="СистемаЦикловФундаментальная"
+   data-substitutable="true">
+  <path class="uml-edge-line" d="M767.5,54.0 C818.6,89.9 945.4,179.1 996.6,215.1" fill="none" stroke="#181818" stroke-width="1.0" marker-end="url(#triangle-empty)"/>
+</g>
+
+
+<g class="uml-edge"
+   data-type="generalization"
+   data-src="Кодерево"
+   data-tgt="Хорда"
+   data-substitutable="true">
+  <path class="uml-edge-line" d="M805.8,43.2 C902.7,54.2 1090.6,91.4 1173.6,215.5 C1216.3,279.4 1092.0,308.6 1012.8,320.5" fill="none" stroke="#181818" stroke-width="1.0" marker-end="url(#triangle-empty)"/>
+</g>
+
+
+<g class="uml-edge"
+   data-type="generalization"
+   data-src="Кодерево"
+   data-tgt="ЦиклФундаментальный"
+   data-substitutable="true">
+  <path class="uml-edge-line" d="M710.1,54.0 C684.8,67.2 652.6,88.7 637.6,118.6 C631.2,131.3 634.6,136.6 637.6,150.5 C660.1,255.5 726.0,368.9 750.9,409.2" fill="none" stroke="#181818" stroke-width="1.0" marker-end="url(#triangle-empty)"/>
+</g>
+
+
+<g class="uml-edge"
+   data-type="generalization"
+   data-src="Кодерево"
+   data-tgt="ЧислоЦикломатическое"
+   data-substitutable="true">
+  <path class="uml-edge-line" d="M685.1,39.9 C570.4,45.9 332.6,76.9 332.6,230.5 C332.6,230.5 332.6,230.5 332.6,329.5 C332.6,473.5 536.9,510.1 663.2,519.0" fill="none" stroke="#181818" stroke-width="1.0" marker-end="url(#triangle-empty)"/>
+</g>
+
+
+<g class="uml-edge"
+   data-type="generalization"
+   data-src="Коцикл"
+   data-tgt="РазрезФундаментальный"
+   data-substitutable="true">
+  <path class="uml-edge-line" d="M1571.6,53.8 C1571.6,71.6 1571.6,100.6 1571.6,118.3" fill="none" stroke="#181818" stroke-width="1.0" marker-end="url(#triangle-empty)"/>
+</g>
+
+
+<g class="uml-edge"
+   data-type="generalization"
+   data-src="Коцикл"
+   data-tgt="РангКоциклический"
+   data-substitutable="true">
+  <path class="uml-edge-line" d="M1607.2,54.0 C1635.5,67.7 1674.8,89.9 1701.6,118.6 C1728.9,147.8 1747.2,192.0 1755.5,215.2" fill="none" stroke="#181818" stroke-width="1.0" marker-end="url(#triangle-empty)"/>
+</g>
+
+
+<g class="uml-edge"
+   data-type="generalization"
+   data-src="Коцикл"
+   data-tgt="СистемаРазрезовФундаментальная"
+   data-substitutable="true">
+  <path class="uml-edge-line" d="M1526.3,54.1 C1480.3,72.6 1418.9,106.6 1441.6,150.5 C1485.0,234.9 1589.5,288.0 1648.0,312.1" fill="none" stroke="#181818" stroke-width="1.0" marker-end="url(#triangle-empty)"/>
+</g>
+
+
+<g class="uml-edge"
+   data-type="generalization"
+   data-src="Разрез"
+   data-tgt="ЦиклПростой"
+   data-substitutable="true">
+  <path class="uml-edge-line" d="M1913.6,53.8 C1913.6,71.6 1913.6,100.6 1913.6,118.3" fill="none" stroke="#181818" stroke-width="1.0" marker-end="url(#triangle-empty)"/>
+</g>
+
+
+<g class="uml-edge"
+   data-type="generalization"
+   data-src="РазрезФундаментальный"
+   data-tgt="РангКоциклический"
+   data-substitutable="true">
+  <path class="uml-edge-line" d="M1602.4,151.0 C1637.5,168.7 1694.7,197.4 1729.8,215.1" fill="none" stroke="#181818" stroke-width="1.0" marker-end="url(#triangle-empty)"/>
+</g>
+
+
+<g class="uml-edge"
+   data-type="generalization"
+   data-src="РазрезФундаментальный"
+   data-tgt="СистемаРазрезовФундаментальная"
+   data-substitutable="true">
+  <path class="uml-edge-line" d="M1581.0,150.9 C1603.1,186.9 1657.9,276.0 1680.1,312.0" fill="none" stroke="#181818" stroke-width="1.0" marker-end="url(#triangle-empty)"/>
+</g>
+
+
+<g class="uml-edge"
+   data-type="generalization"
+   data-src="РазрезФундаментальный"
+   data-tgt="ЧислоКоцикломатическое"
+   data-substitutable="true">
+  <path class="uml-edge-line" d="M1561.3,151.0 C1538.3,187.6 1488.1,280.9 1527.6,344.5 C1548.2,377.6 1587.1,397.5 1621.6,409.1" fill="none" stroke="#181818" stroke-width="1.0" marker-end="url(#triangle-empty)"/>
+</g>
+
+
+<g class="uml-edge"
+   data-type="generalization"
+   data-src="РангКоциклический"
+   data-tgt="СистемаРазрезовФундаментальная"
+   data-substitutable="true">
+  <path class="uml-edge-line" d="M1749.2,247.8 C1735.9,265.5 1714.2,294.6 1701.0,312.3" fill="none" stroke="#181818" stroke-width="1.0" marker-end="url(#triangle-empty)"/>
+</g>
+
+
+<g class="uml-edge"
+   data-type="generalization"
+   data-src="РангКоциклический"
+   data-tgt="ЧислоКоцикломатическое"
+   data-substitutable="true">
+  <path class="uml-edge-line" d="M1789.1,247.9 C1823.7,268.6 1874.7,307.2 1851.6,344.5 C1831.0,377.6 1792.1,397.5 1757.6,409.1" fill="none" stroke="#181818" stroke-width="1.0" marker-end="url(#triangle-empty)"/>
+</g>
+
+
+<g class="uml-edge"
+   data-type="generalization"
+   data-src="РангЦиклический"
+   data-tgt="СистемаЦикловФундаментальная"
+   data-substitutable="true">
+  <path class="uml-edge-line" d="M790.1,151.0 C840.8,168.7 923.4,197.4 974.1,215.1" fill="none" stroke="#181818" stroke-width="1.0" marker-end="url(#triangle-empty)"/>
+</g>
+
+
+<g class="uml-edge"
+   data-type="generalization"
+   data-src="РангЦиклический"
+   data-tgt="Хорда"
+   data-substitutable="true">
+  <path class="uml-edge-line" d="M761.5,150.9 C784.0,172.6 826.6,213.4 863.6,247.5 C888.3,270.3 917.4,296.3 935.4,312.3" fill="none" stroke="#181818" stroke-width="1.0" marker-end="url(#triangle-empty)"/>
+</g>
+
+
+<g class="uml-edge"
+   data-type="generalization"
+   data-src="РангЦиклический"
+   data-tgt="ЦиклФундаментальный"
+   data-substitutable="true">
+  <path class="uml-edge-line" d="M746.4,150.7 C749.0,200.5 757.2,359.0 759.8,409.1" fill="none" stroke="#181818" stroke-width="1.0" marker-end="url(#triangle-empty)"/>
+</g>
+
+
+<g class="uml-edge"
+   data-type="generalization"
+   data-src="РангЦиклический"
+   data-tgt="ЧислоЦикломатическое"
+   data-substitutable="true">
+  <path class="uml-edge-line" d="M731.6,150.9 C691.4,196.9 582.2,337.0 638.6,441.4 C655.3,472.4 689.8,493.3 717.9,506.0" fill="none" stroke="#181818" stroke-width="1.0" marker-end="url(#triangle-empty)"/>
+</g>
+
+
+<g class="uml-edge"
+   data-type="generalization"
+   data-src="СистемаРазрезовФундаментальная"
+   data-tgt="ЧислоКоцикломатическое"
+   data-substitutable="true">
+  <path class="uml-edge-line" d="M1689.6,344.8 C1689.6,362.5 1689.6,391.5 1689.6,409.2" fill="none" stroke="#181818" stroke-width="1.0" marker-end="url(#triangle-empty)"/>
+</g>
+
+
+<g class="uml-edge"
+   data-type="generalization"
+   data-src="СистемаЦикловФундаментальная"
+   data-tgt="Хорда"
+   data-substitutable="true">
+  <path class="uml-edge-line" d="M1008.0,247.8 C995.7,265.5 975.5,294.6 963.2,312.3" fill="none" stroke="#181818" stroke-width="1.0" marker-end="url(#triangle-empty)"/>
+</g>
+
+
+<g class="uml-edge"
+   data-type="generalization"
+   data-src="СистемаЦикловФундаментальная"
+   data-tgt="ЦиклФундаментальный"
+   data-substitutable="true">
+  <path class="uml-edge-line" d="M979.8,248.0 C947.0,262.1 899.8,284.9 863.6,312.5 C825.4,341.7 789.4,385.9 771.9,409.1" fill="none" stroke="#181818" stroke-width="1.0" marker-end="url(#triangle-empty)"/>
+</g>
+
+
+<g class="uml-edge"
+   data-type="generalization"
+   data-src="СистемаЦикловФундаментальная"
+   data-tgt="ЧислоЦикломатическое"
+   data-substitutable="true">
+  <path class="uml-edge-line" d="M1027.4,248.0 C1038.8,270.1 1055.6,311.8 1041.6,344.5 C1002.6,435.3 889.7,483.9 819.5,506.0" fill="none" stroke="#181818" stroke-width="1.0" marker-end="url(#triangle-empty)"/>
+</g>
+
+
+<g class="uml-edge"
+   data-type="generalization"
+   data-src="Хорда"
+   data-tgt="ЦиклФундаментальный"
+   data-substitutable="true">
+  <path class="uml-edge-line" d="M921.3,345.0 C885.6,362.6 827.5,391.3 791.9,409.0" fill="none" stroke="#181818" stroke-width="1.0" marker-end="url(#triangle-empty)"/>
+</g>
+
+
+<g class="uml-edge"
+   data-type="generalization"
+   data-src="Хорда"
+   data-tgt="ЧислоЦикломатическое"
+   data-substitutable="true">
+  <path class="uml-edge-line" d="M945.7,344.7 C934.8,367.6 911.8,411.6 882.6,441.4 C855.8,468.9 818.0,491.8 791.6,506.0" fill="none" stroke="#181818" stroke-width="1.0" marker-end="url(#triangle-empty)"/>
+</g>
+
+
+<g class="uml-edge"
+   data-type="generalization"
+   data-src="ЦиклФундаментальный"
+   data-tgt="ЧислоЦикломатическое"
+   data-substitutable="true">
+  <path class="uml-edge-line" d="M760.6,441.7 C760.6,459.4 760.6,488.5 760.6,506.2" fill="none" stroke="#181818" stroke-width="1.0" marker-end="url(#triangle-empty)"/>
+</g>
+
+<g transform="translate(21,21)" class="uml-class" data-id="БазисПространстваКоциклов" data-name="БазисПространстваКоциклов" data-type="class" data-class-kind="class" data-visibility="" data-stereotype="" data-abstract="false" data-multiplicity="" data-attributes-count="0" data-operations-count="0" data-tagged-values-count="0" data-template-parameters-count="0">
+<rect class="uml-class-title" x="0" y="0" width="230.0" height="32" fill="#e5e5e5"/>
+<rect class="uml-class-outline uml-class-title-outline" x="0" y="0" width="230.0" height="32" stroke="#999999" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+<circle class="uml-kind-badge uml-kind-badge-c" cx="19" cy="16.0" r="11" fill="#b8d9bf" stroke="#3e7d4a" stroke-width="1.5"/><text class="uml-kind-badge-text" x="19" y="20.0" text-anchor="middle" font-family="Arial" font-size="12" font-weight="700" fill="black">C</text>
+<text class="uml-class-title-text" x="38" y="20" text-anchor="start" fill="black" font-family="Arial" font-size="12" font-weight="500">БазисПространстваКоциклов</text>
+<rect class="uml-bbox" x="0" y="0" width="230.0" height="32" fill="none" stroke="none" pointer-events="all"/>
+</g>
+<g transform="translate(28,118)" class="uml-class" data-id="БазисПространстваЦиклов" data-name="БазисПространстваЦиклов" data-type="class" data-class-kind="class" data-visibility="" data-stereotype="" data-abstract="false" data-multiplicity="" data-attributes-count="0" data-operations-count="0" data-tagged-values-count="0" data-template-parameters-count="0">
+<rect class="uml-class-title" x="0" y="0" width="215.6" height="32" fill="#e5e5e5"/>
+<rect class="uml-class-outline uml-class-title-outline" x="0" y="0" width="215.6" height="32" stroke="#999999" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+<circle class="uml-kind-badge uml-kind-badge-c" cx="19" cy="16.0" r="11" fill="#b8d9bf" stroke="#3e7d4a" stroke-width="1.5"/><text class="uml-kind-badge-text" x="19" y="20.0" text-anchor="middle" font-family="Arial" font-size="12" font-weight="700" fill="black">C</text>
+<text class="uml-class-title-text" x="38" y="20" text-anchor="start" fill="black" font-family="Arial" font-size="12" font-weight="500">БазисПространстваЦиклов</text>
+<rect class="uml-bbox" x="0" y="0" width="215.6" height="32" fill="none" stroke="none" pointer-events="all"/>
+</g>
+<g transform="translate(685,21)" class="uml-class" data-id="Кодерево" data-name="Кодерево" data-type="class" data-class-kind="class" data-visibility="" data-stereotype="" data-abstract="false" data-multiplicity="" data-attributes-count="0" data-operations-count="0" data-tagged-values-count="0" data-template-parameters-count="0">
+<rect class="uml-class-title" x="0" y="0" width="120" height="32" fill="#e5e5e5"/>
+<rect class="uml-class-outline uml-class-title-outline" x="0" y="0" width="120" height="32" stroke="#999999" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+<circle class="uml-kind-badge uml-kind-badge-c" cx="19" cy="16.0" r="11" fill="#b8d9bf" stroke="#3e7d4a" stroke-width="1.5"/><text class="uml-kind-badge-text" x="19" y="20.0" text-anchor="middle" font-family="Arial" font-size="12" font-weight="700" fill="black">C</text>
+<text class="uml-class-title-text" x="38" y="20" text-anchor="start" fill="black" font-family="Arial" font-size="12" font-weight="500">Кодерево</text>
+<rect class="uml-bbox" x="0" y="0" width="120" height="32" fill="none" stroke="none" pointer-events="all"/>
+</g>
+<g transform="translate(1511,21)" class="uml-class" data-id="Коцикл" data-name="Коцикл" data-type="class" data-class-kind="class" data-visibility="" data-stereotype="" data-abstract="false" data-multiplicity="" data-attributes-count="0" data-operations-count="0" data-tagged-values-count="0" data-template-parameters-count="0">
+<rect class="uml-class-title" x="0" y="0" width="120" height="32" fill="#e5e5e5"/>
+<rect class="uml-class-outline uml-class-title-outline" x="0" y="0" width="120" height="32" stroke="#999999" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+<circle class="uml-kind-badge uml-kind-badge-c" cx="19" cy="16.0" r="11" fill="#b8d9bf" stroke="#3e7d4a" stroke-width="1.5"/><text class="uml-kind-badge-text" x="19" y="20.0" text-anchor="middle" font-family="Arial" font-size="12" font-weight="700" fill="black">C</text>
+<text class="uml-class-title-text" x="38" y="20" text-anchor="start" fill="black" font-family="Arial" font-size="12" font-weight="500">Коцикл</text>
+<rect class="uml-bbox" x="0" y="0" width="120" height="32" fill="none" stroke="none" pointer-events="all"/>
+</g>
+<g transform="translate(1853,21)" class="uml-class" data-id="Разрез" data-name="Разрез" data-type="class" data-class-kind="class" data-visibility="" data-stereotype="" data-abstract="false" data-multiplicity="" data-attributes-count="0" data-operations-count="0" data-tagged-values-count="0" data-template-parameters-count="0">
+<rect class="uml-class-title" x="0" y="0" width="120" height="32" fill="#e5e5e5"/>
+<rect class="uml-class-outline uml-class-title-outline" x="0" y="0" width="120" height="32" stroke="#999999" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+<circle class="uml-kind-badge uml-kind-badge-c" cx="19" cy="16.0" r="11" fill="#b8d9bf" stroke="#3e7d4a" stroke-width="1.5"/><text class="uml-kind-badge-text" x="19" y="20.0" text-anchor="middle" font-family="Arial" font-size="12" font-weight="700" fill="black">C</text>
+<text class="uml-class-title-text" x="38" y="20" text-anchor="start" fill="black" font-family="Arial" font-size="12" font-weight="500">Разрез</text>
+<rect class="uml-bbox" x="0" y="0" width="120" height="32" fill="none" stroke="none" pointer-events="all"/>
+</g>
+<g transform="translate(1471,118)" class="uml-class" data-id="РазрезФундаментальный" data-name="РазрезФундаментальный" data-type="class" data-class-kind="class" data-visibility="" data-stereotype="" data-abstract="false" data-multiplicity="" data-attributes-count="0" data-operations-count="0" data-tagged-values-count="0" data-template-parameters-count="0">
+<rect class="uml-class-title" x="0" y="0" width="201.20000000000002" height="32" fill="#e5e5e5"/>
+<rect class="uml-class-outline uml-class-title-outline" x="0" y="0" width="201.20000000000002" height="32" stroke="#999999" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+<circle class="uml-kind-badge uml-kind-badge-c" cx="19" cy="16.0" r="11" fill="#b8d9bf" stroke="#3e7d4a" stroke-width="1.5"/><text class="uml-kind-badge-text" x="19" y="20.0" text-anchor="middle" font-family="Arial" font-size="12" font-weight="700" fill="black">C</text>
+<text class="uml-class-title-text" x="38" y="20" text-anchor="start" fill="black" font-family="Arial" font-size="12" font-weight="500">РазрезФундаментальный</text>
+<rect class="uml-bbox" x="0" y="0" width="201.20000000000002" height="32" fill="none" stroke="none" pointer-events="all"/>
+</g>
+<g transform="translate(1674,215)" class="uml-class" data-id="РангКоциклический" data-name="РангКоциклический" data-type="class" data-class-kind="class" data-visibility="" data-stereotype="" data-abstract="false" data-multiplicity="" data-attributes-count="0" data-operations-count="0" data-tagged-values-count="0" data-template-parameters-count="0">
+<rect class="uml-class-title" x="0" y="0" width="172.4" height="32" fill="#e5e5e5"/>
+<rect class="uml-class-outline uml-class-title-outline" x="0" y="0" width="172.4" height="32" stroke="#999999" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+<circle class="uml-kind-badge uml-kind-badge-c" cx="19" cy="16.0" r="11" fill="#b8d9bf" stroke="#3e7d4a" stroke-width="1.5"/><text class="uml-kind-badge-text" x="19" y="20.0" text-anchor="middle" font-family="Arial" font-size="12" font-weight="700" fill="black">C</text>
+<text class="uml-class-title-text" x="38" y="20" text-anchor="start" fill="black" font-family="Arial" font-size="12" font-weight="500">РангКоциклический</text>
+<rect class="uml-bbox" x="0" y="0" width="172.4" height="32" fill="none" stroke="none" pointer-events="all"/>
+</g>
+<g transform="translate(666,118)" class="uml-class" data-id="РангЦиклический" data-name="РангЦиклический" data-type="class" data-class-kind="class" data-visibility="" data-stereotype="" data-abstract="false" data-multiplicity="" data-attributes-count="0" data-operations-count="0" data-tagged-values-count="0" data-template-parameters-count="0">
+<rect class="uml-class-title" x="0" y="0" width="158.0" height="32" fill="#e5e5e5"/>
+<rect class="uml-class-outline uml-class-title-outline" x="0" y="0" width="158.0" height="32" stroke="#999999" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+<circle class="uml-kind-badge uml-kind-badge-c" cx="19" cy="16.0" r="11" fill="#b8d9bf" stroke="#3e7d4a" stroke-width="1.5"/><text class="uml-kind-badge-text" x="19" y="20.0" text-anchor="middle" font-family="Arial" font-size="12" font-weight="700" fill="black">C</text>
+<text class="uml-class-title-text" x="38" y="20" text-anchor="start" fill="black" font-family="Arial" font-size="12" font-weight="500">РангЦиклический</text>
+<rect class="uml-bbox" x="0" y="0" width="158.0" height="32" fill="none" stroke="none" pointer-events="all"/>
+</g>
+<g transform="translate(1556,312)" class="uml-class" data-id="СистемаРазрезовФундаментальная" data-name="СистемаРазрезовФундаментальная" data-type="class" data-class-kind="class" data-visibility="" data-stereotype="" data-abstract="false" data-multiplicity="" data-attributes-count="0" data-operations-count="0" data-tagged-values-count="0" data-template-parameters-count="0">
+<rect class="uml-class-title" x="0" y="0" width="266.0" height="32" fill="#e5e5e5"/>
+<rect class="uml-class-outline uml-class-title-outline" x="0" y="0" width="266.0" height="32" stroke="#999999" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+<circle class="uml-kind-badge uml-kind-badge-c" cx="19" cy="16.0" r="11" fill="#b8d9bf" stroke="#3e7d4a" stroke-width="1.5"/><text class="uml-kind-badge-text" x="19" y="20.0" text-anchor="middle" font-family="Arial" font-size="12" font-weight="700" fill="black">C</text>
+<text class="uml-class-title-text" x="38" y="20" text-anchor="start" fill="black" font-family="Arial" font-size="12" font-weight="500">СистемаРазрезовФундаментальная</text>
+<rect class="uml-bbox" x="0" y="0" width="266.0" height="32" fill="none" stroke="none" pointer-events="all"/>
+</g>
+<g transform="translate(892,215)" class="uml-class" data-id="СистемаЦикловФундаментальная" data-name="СистемаЦикловФундаментальная" data-type="class" data-class-kind="class" data-visibility="" data-stereotype="" data-abstract="false" data-multiplicity="" data-attributes-count="0" data-operations-count="0" data-tagged-values-count="0" data-template-parameters-count="0">
+<rect class="uml-class-title" x="0" y="0" width="251.6" height="32" fill="#e5e5e5"/>
+<rect class="uml-class-outline uml-class-title-outline" x="0" y="0" width="251.6" height="32" stroke="#999999" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+<circle class="uml-kind-badge uml-kind-badge-c" cx="19" cy="16.0" r="11" fill="#b8d9bf" stroke="#3e7d4a" stroke-width="1.5"/><text class="uml-kind-badge-text" x="19" y="20.0" text-anchor="middle" font-family="Arial" font-size="12" font-weight="700" fill="black">C</text>
+<text class="uml-class-title-text" x="38" y="20" text-anchor="start" fill="black" font-family="Arial" font-size="12" font-weight="500">СистемаЦикловФундаментальная</text>
+<rect class="uml-bbox" x="0" y="0" width="251.6" height="32" fill="none" stroke="none" pointer-events="all"/>
+</g>
+<g transform="translate(892,312)" class="uml-class" data-id="Хорда" data-name="Хорда" data-type="class" data-class-kind="class" data-visibility="" data-stereotype="" data-abstract="false" data-multiplicity="" data-attributes-count="0" data-operations-count="0" data-tagged-values-count="0" data-template-parameters-count="0">
+<rect class="uml-class-title" x="0" y="0" width="120" height="32" fill="#e5e5e5"/>
+<rect class="uml-class-outline uml-class-title-outline" x="0" y="0" width="120" height="32" stroke="#999999" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+<circle class="uml-kind-badge uml-kind-badge-c" cx="19" cy="16.0" r="11" fill="#b8d9bf" stroke="#3e7d4a" stroke-width="1.5"/><text class="uml-kind-badge-text" x="19" y="20.0" text-anchor="middle" font-family="Arial" font-size="12" font-weight="700" fill="black">C</text>
+<text class="uml-class-title-text" x="38" y="20" text-anchor="start" fill="black" font-family="Arial" font-size="12" font-weight="500">Хорда</text>
+<rect class="uml-bbox" x="0" y="0" width="120" height="32" fill="none" stroke="none" pointer-events="all"/>
+</g>
+<g transform="translate(1849,118)" class="uml-class" data-id="ЦиклПростой" data-name="ЦиклПростой" data-type="class" data-class-kind="class" data-visibility="" data-stereotype="" data-abstract="false" data-multiplicity="" data-attributes-count="0" data-operations-count="0" data-tagged-values-count="0" data-template-parameters-count="0">
+<rect class="uml-class-title" x="0" y="0" width="129.2" height="32" fill="#e5e5e5"/>
+<rect class="uml-class-outline uml-class-title-outline" x="0" y="0" width="129.2" height="32" stroke="#999999" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+<circle class="uml-kind-badge uml-kind-badge-c" cx="19" cy="16.0" r="11" fill="#b8d9bf" stroke="#3e7d4a" stroke-width="1.5"/><text class="uml-kind-badge-text" x="19" y="20.0" text-anchor="middle" font-family="Arial" font-size="12" font-weight="700" fill="black">C</text>
+<text class="uml-class-title-text" x="38" y="20" text-anchor="start" fill="black" font-family="Arial" font-size="12" font-weight="500">ЦиклПростой</text>
+<rect class="uml-bbox" x="0" y="0" width="129.2" height="32" fill="none" stroke="none" pointer-events="all"/>
+</g>
+<g transform="translate(667,409)" class="uml-class" data-id="ЦиклФундаментальный" data-name="ЦиклФундаментальный" data-type="class" data-class-kind="class" data-visibility="" data-stereotype="" data-abstract="false" data-multiplicity="" data-attributes-count="0" data-operations-count="0" data-tagged-values-count="0" data-template-parameters-count="0">
+<rect class="uml-class-title" x="0" y="0" width="186.8" height="32" fill="#e5e5e5"/>
+<rect class="uml-class-outline uml-class-title-outline" x="0" y="0" width="186.8" height="32" stroke="#999999" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+<circle class="uml-kind-badge uml-kind-badge-c" cx="19" cy="16.0" r="11" fill="#b8d9bf" stroke="#3e7d4a" stroke-width="1.5"/><text class="uml-kind-badge-text" x="19" y="20.0" text-anchor="middle" font-family="Arial" font-size="12" font-weight="700" fill="black">C</text>
+<text class="uml-class-title-text" x="38" y="20" text-anchor="start" fill="black" font-family="Arial" font-size="12" font-weight="500">ЦиклФундаментальный</text>
+<rect class="uml-bbox" x="0" y="0" width="186.8" height="32" fill="none" stroke="none" pointer-events="all"/>
+</g>
+<g transform="translate(1585,409)" class="uml-class" data-id="ЧислоКоцикломатическое" data-name="ЧислоКоцикломатическое" data-type="class" data-class-kind="class" data-visibility="" data-stereotype="" data-abstract="false" data-multiplicity="" data-attributes-count="0" data-operations-count="0" data-tagged-values-count="0" data-template-parameters-count="0">
+<rect class="uml-class-title" x="0" y="0" width="208.4" height="32" fill="#e5e5e5"/>
+<rect class="uml-class-outline uml-class-title-outline" x="0" y="0" width="208.4" height="32" stroke="#999999" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+<circle class="uml-kind-badge uml-kind-badge-c" cx="19" cy="16.0" r="11" fill="#b8d9bf" stroke="#3e7d4a" stroke-width="1.5"/><text class="uml-kind-badge-text" x="19" y="20.0" text-anchor="middle" font-family="Arial" font-size="12" font-weight="700" fill="black">C</text>
+<text class="uml-class-title-text" x="38" y="20" text-anchor="start" fill="black" font-family="Arial" font-size="12" font-weight="500">ЧислоКоцикломатическое</text>
+<rect class="uml-bbox" x="0" y="0" width="208.4" height="32" fill="none" stroke="none" pointer-events="all"/>
+</g>
+<g transform="translate(663,506)" class="uml-class" data-id="ЧислоЦикломатическое" data-name="ЧислоЦикломатическое" data-type="class" data-class-kind="class" data-visibility="" data-stereotype="" data-abstract="false" data-multiplicity="" data-attributes-count="0" data-operations-count="0" data-tagged-values-count="0" data-template-parameters-count="0">
+<rect class="uml-class-title" x="0" y="0" width="194.0" height="32" fill="#e5e5e5"/>
+<rect class="uml-class-outline uml-class-title-outline" x="0" y="0" width="194.0" height="32" stroke="#999999" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+<circle class="uml-kind-badge uml-kind-badge-c" cx="19" cy="16.0" r="11" fill="#b8d9bf" stroke="#3e7d4a" stroke-width="1.5"/><text class="uml-kind-badge-text" x="19" y="20.0" text-anchor="middle" font-family="Arial" font-size="12" font-weight="700" fill="black">C</text>
+<text class="uml-class-title-text" x="38" y="20" text-anchor="start" fill="black" font-family="Arial" font-size="12" font-weight="500">ЧислоЦикломатическое</text>
+<rect class="uml-bbox" x="0" y="0" width="194.0" height="32" fill="none" stroke="none" pointer-events="all"/>
+</g>
+</svg>

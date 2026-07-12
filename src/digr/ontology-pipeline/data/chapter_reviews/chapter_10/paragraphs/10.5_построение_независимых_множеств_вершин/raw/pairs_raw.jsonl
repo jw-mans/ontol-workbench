@@ -1,0 +1,36 @@
+{"paragraph_id": "10.5", "concept_a": "Алгоритм неэффективный", "concept_b": "Алгоритм поиска с возвратами", "has_relation": false}
+{"paragraph_id": "10.5", "concept_a": "Алгоритм неэффективный", "concept_b": "Алгоритм построения максимальных независимых множеств", "has_relation": false}
+{"paragraph_id": "10.5", "concept_a": "Алгоритм неэффективный", "concept_b": "Алгоритм эвристический", "has_relation": false}
+{"paragraph_id": "10.5", "concept_a": "Алгоритм неэффективный", "concept_b": "Алгоритм эффективный", "has_relation": true}
+{"paragraph_id": "10.5", "concept_a": "Алгоритм неэффективный", "concept_b": "Бэктрекинг", "has_relation": false}
+{"paragraph_id": "10.5", "concept_a": "Алгоритм неэффективный", "concept_b": "Задача о восьми ферзях", "has_relation": false}
+{"paragraph_id": "10.5", "concept_a": "Алгоритм неэффективный", "concept_b": "Контекст", "has_relation": false}
+{"paragraph_id": "10.5", "concept_a": "Алгоритм неэффективный", "concept_b": "Улучшение перебора", "has_relation": false}
+{"paragraph_id": "10.5", "concept_a": "Алгоритм поиска с возвратами", "concept_b": "Алгоритм построения максимальных независимых множеств", "has_relation": false}
+{"paragraph_id": "10.5", "concept_a": "Алгоритм поиска с возвратами", "concept_b": "Алгоритм эвристический", "has_relation": false}
+{"paragraph_id": "10.5", "concept_a": "Алгоритм поиска с возвратами", "concept_b": "Алгоритм эффективный", "has_relation": false}
+{"paragraph_id": "10.5", "concept_a": "Алгоритм поиска с возвратами", "concept_b": "Бэктрекинг", "has_relation": true}
+{"paragraph_id": "10.5", "concept_a": "Алгоритм поиска с возвратами", "concept_b": "Задача о восьми ферзях", "has_relation": false}
+{"paragraph_id": "10.5", "concept_a": "Алгоритм поиска с возвратами", "concept_b": "Контекст", "has_relation": false}
+{"paragraph_id": "10.5", "concept_a": "Алгоритм поиска с возвратами", "concept_b": "Улучшение перебора", "has_relation": false}
+{"paragraph_id": "10.5", "concept_a": "Алгоритм построения максимальных независимых множеств", "concept_b": "Алгоритм эвристический", "has_relation": false}
+{"paragraph_id": "10.5", "concept_a": "Алгоритм построения максимальных независимых множеств", "concept_b": "Алгоритм эффективный", "has_relation": false}
+{"paragraph_id": "10.5", "concept_a": "Алгоритм построения максимальных независимых множеств", "concept_b": "Бэктрекинг", "has_relation": false}
+{"paragraph_id": "10.5", "concept_a": "Алгоритм построения максимальных независимых множеств", "concept_b": "Задача о восьми ферзях", "has_relation": false}
+{"paragraph_id": "10.5", "concept_a": "Алгоритм построения максимальных независимых множеств", "concept_b": "Контекст", "has_relation": false}
+{"paragraph_id": "10.5", "concept_a": "Алгоритм построения максимальных независимых множеств", "concept_b": "Улучшение перебора", "has_relation": false}
+{"paragraph_id": "10.5", "concept_a": "Алгоритм эвристический", "concept_b": "Алгоритм эффективный", "has_relation": false}
+{"paragraph_id": "10.5", "concept_a": "Алгоритм эвристический", "concept_b": "Бэктрекинг", "has_relation": false}
+{"paragraph_id": "10.5", "concept_a": "Алгоритм эвристический", "concept_b": "Задача о восьми ферзях", "has_relation": false}
+{"paragraph_id": "10.5", "concept_a": "Алгоритм эвристический", "concept_b": "Контекст", "has_relation": false}
+{"paragraph_id": "10.5", "concept_a": "Алгоритм эвристический", "concept_b": "Улучшение перебора", "has_relation": false}
+{"paragraph_id": "10.5", "concept_a": "Алгоритм эффективный", "concept_b": "Бэктрекинг", "has_relation": false}
+{"paragraph_id": "10.5", "concept_a": "Алгоритм эффективный", "concept_b": "Задача о восьми ферзях", "has_relation": false}
+{"paragraph_id": "10.5", "concept_a": "Алгоритм эффективный", "concept_b": "Контекст", "has_relation": false}
+{"paragraph_id": "10.5", "concept_a": "Алгоритм эффективный", "concept_b": "Улучшение перебора", "has_relation": false}
+{"paragraph_id": "10.5", "concept_a": "Бэктрекинг", "concept_b": "Задача о восьми ферзях", "has_relation": false}
+{"paragraph_id": "10.5", "concept_a": "Бэктрекинг", "concept_b": "Контекст", "has_relation": false}
+{"paragraph_id": "10.5", "concept_a": "Бэктрекинг", "concept_b": "Улучшение перебора", "has_relation": false}
+{"paragraph_id": "10.5", "concept_a": "Задача о восьми ферзях", "concept_b": "Контекст", "has_relation": false}
+{"paragraph_id": "10.5", "concept_a": "Задача о восьми ферзях", "concept_b": "Улучшение перебора", "has_relation": false}
+{"paragraph_id": "10.5", "concept_a": "Контекст", "concept_b": "Улучшение перебора", "has_relation": true}

@@ -1,0 +1,105 @@
+{"paragraph_id": "2.7", "concept_a": "Алгоритм жадный", "concept_b": "Алгоритм линейный", "has_relation": true}
+{"paragraph_id": "2.7", "concept_a": "Алгоритм жадный", "concept_b": "Базис матроида", "has_relation": false}
+{"paragraph_id": "2.7", "concept_a": "Алгоритм жадный", "concept_b": "Матроид", "has_relation": false}
+{"paragraph_id": "2.7", "concept_a": "Алгоритм жадный", "concept_b": "Матроид разбиений", "has_relation": false}
+{"paragraph_id": "2.7", "concept_a": "Алгоритм жадный", "concept_b": "Матроид свободный", "has_relation": false}
+{"paragraph_id": "2.7", "concept_a": "Алгоритм жадный", "concept_b": "Матроид трансверсалей", "has_relation": false}
+{"paragraph_id": "2.7", "concept_a": "Алгоритм жадный", "concept_b": "Множество зависимое", "has_relation": false}
+{"paragraph_id": "2.7", "concept_a": "Алгоритм жадный", "concept_b": "Множество независимое", "has_relation": false}
+{"paragraph_id": "2.7", "concept_a": "Алгоритм жадный", "concept_b": "Множество независимое максимальное", "has_relation": false}
+{"paragraph_id": "2.7", "concept_a": "Алгоритм жадный", "concept_b": "Неравенство полумодулярности", "has_relation": false}
+{"paragraph_id": "2.7", "concept_a": "Алгоритм жадный", "concept_b": "Ранг множества", "has_relation": false}
+{"paragraph_id": "2.7", "concept_a": "Алгоритм жадный", "concept_b": "Трансверсаль частичная", "has_relation": false}
+{"paragraph_id": "2.7", "concept_a": "Алгоритм жадный", "concept_b": "Функция весовая", "has_relation": false}
+{"paragraph_id": "2.7", "concept_a": "Алгоритм жадный", "concept_b": "Цикл матроида", "has_relation": false}
+{"paragraph_id": "2.7", "concept_a": "Алгоритм линейный", "concept_b": "Базис матроида", "has_relation": false}
+{"paragraph_id": "2.7", "concept_a": "Алгоритм линейный", "concept_b": "Матроид", "has_relation": false}
+{"paragraph_id": "2.7", "concept_a": "Алгоритм линейный", "concept_b": "Матроид разбиений", "has_relation": false}
+{"paragraph_id": "2.7", "concept_a": "Алгоритм линейный", "concept_b": "Матроид свободный", "has_relation": false}
+{"paragraph_id": "2.7", "concept_a": "Алгоритм линейный", "concept_b": "Матроид трансверсалей", "has_relation": false}
+{"paragraph_id": "2.7", "concept_a": "Алгоритм линейный", "concept_b": "Множество зависимое", "has_relation": false}
+{"paragraph_id": "2.7", "concept_a": "Алгоритм линейный", "concept_b": "Множество независимое", "has_relation": false}
+{"paragraph_id": "2.7", "concept_a": "Алгоритм линейный", "concept_b": "Множество независимое максимальное", "has_relation": false}
+{"paragraph_id": "2.7", "concept_a": "Алгоритм линейный", "concept_b": "Неравенство полумодулярности", "has_relation": false}
+{"paragraph_id": "2.7", "concept_a": "Алгоритм линейный", "concept_b": "Ранг множества", "has_relation": false}
+{"paragraph_id": "2.7", "concept_a": "Алгоритм линейный", "concept_b": "Трансверсаль частичная", "has_relation": false}
+{"paragraph_id": "2.7", "concept_a": "Алгоритм линейный", "concept_b": "Функция весовая", "has_relation": false}
+{"paragraph_id": "2.7", "concept_a": "Алгоритм линейный", "concept_b": "Цикл матроида", "has_relation": false}
+{"paragraph_id": "2.7", "concept_a": "Базис матроида", "concept_b": "Матроид", "has_relation": false}
+{"paragraph_id": "2.7", "concept_a": "Базис матроида", "concept_b": "Матроид разбиений", "has_relation": false}
+{"paragraph_id": "2.7", "concept_a": "Базис матроида", "concept_b": "Матроид свободный", "has_relation": false}
+{"paragraph_id": "2.7", "concept_a": "Базис матроида", "concept_b": "Матроид трансверсалей", "has_relation": false}
+{"paragraph_id": "2.7", "concept_a": "Базис матроида", "concept_b": "Множество зависимое", "has_relation": false}
+{"paragraph_id": "2.7", "concept_a": "Базис матроида", "concept_b": "Множество независимое", "has_relation": false}
+{"paragraph_id": "2.7", "concept_a": "Базис матроида", "concept_b": "Множество независимое максимальное", "has_relation": false}
+{"paragraph_id": "2.7", "concept_a": "Базис матроида", "concept_b": "Неравенство полумодулярности", "has_relation": false}
+{"paragraph_id": "2.7", "concept_a": "Базис матроида", "concept_b": "Ранг множества", "has_relation": false}
+{"paragraph_id": "2.7", "concept_a": "Базис матроида", "concept_b": "Трансверсаль частичная", "has_relation": false}
+{"paragraph_id": "2.7", "concept_a": "Базис матроида", "concept_b": "Функция весовая", "has_relation": false}
+{"paragraph_id": "2.7", "concept_a": "Базис матроида", "concept_b": "Цикл матроида", "has_relation": false}
+{"paragraph_id": "2.7", "concept_a": "Матроид", "concept_b": "Матроид разбиений", "has_relation": false}
+{"paragraph_id": "2.7", "concept_a": "Матроид", "concept_b": "Матроид свободный", "has_relation": false}
+{"paragraph_id": "2.7", "concept_a": "Матроид", "concept_b": "Матроид трансверсалей", "has_relation": false}
+{"paragraph_id": "2.7", "concept_a": "Матроид", "concept_b": "Множество зависимое", "has_relation": false}
+{"paragraph_id": "2.7", "concept_a": "Матроид", "concept_b": "Множество независимое", "has_relation": false}
+{"paragraph_id": "2.7", "concept_a": "Матроид", "concept_b": "Множество независимое максимальное", "has_relation": false}
+{"paragraph_id": "2.7", "concept_a": "Матроид", "concept_b": "Неравенство полумодулярности", "has_relation": false}
+{"paragraph_id": "2.7", "concept_a": "Матроид", "concept_b": "Ранг множества", "has_relation": false}
+{"paragraph_id": "2.7", "concept_a": "Матроид", "concept_b": "Трансверсаль частичная", "has_relation": false}
+{"paragraph_id": "2.7", "concept_a": "Матроид", "concept_b": "Функция весовая", "has_relation": false}
+{"paragraph_id": "2.7", "concept_a": "Матроид", "concept_b": "Цикл матроида", "has_relation": false}
+{"paragraph_id": "2.7", "concept_a": "Матроид разбиений", "concept_b": "Матроид свободный", "has_relation": true}
+{"paragraph_id": "2.7", "concept_a": "Матроид разбиений", "concept_b": "Матроид трансверсалей", "has_relation": false}
+{"paragraph_id": "2.7", "concept_a": "Матроид разбиений", "concept_b": "Множество зависимое", "has_relation": false}
+{"paragraph_id": "2.7", "concept_a": "Матроид разбиений", "concept_b": "Множество независимое", "has_relation": false}
+{"paragraph_id": "2.7", "concept_a": "Матроид разбиений", "concept_b": "Множество независимое максимальное", "has_relation": false}
+{"paragraph_id": "2.7", "concept_a": "Матроид разбиений", "concept_b": "Неравенство полумодулярности", "has_relation": false}
+{"paragraph_id": "2.7", "concept_a": "Матроид разбиений", "concept_b": "Ранг множества", "has_relation": false}
+{"paragraph_id": "2.7", "concept_a": "Матроид разбиений", "concept_b": "Трансверсаль частичная", "has_relation": false}
+{"paragraph_id": "2.7", "concept_a": "Матроид разбиений", "concept_b": "Функция весовая", "has_relation": false}
+{"paragraph_id": "2.7", "concept_a": "Матроид разбиений", "concept_b": "Цикл матроида", "has_relation": false}
+{"paragraph_id": "2.7", "concept_a": "Матроид свободный", "concept_b": "Матроид трансверсалей", "has_relation": false}
+{"paragraph_id": "2.7", "concept_a": "Матроид свободный", "concept_b": "Множество зависимое", "has_relation": false}
+{"paragraph_id": "2.7", "concept_a": "Матроид свободный", "concept_b": "Множество независимое", "has_relation": false}
+{"paragraph_id": "2.7", "concept_a": "Матроид свободный", "concept_b": "Множество независимое максимальное", "has_relation": false}
+{"paragraph_id": "2.7", "concept_a": "Матроид свободный", "concept_b": "Неравенство полумодулярности", "has_relation": false}
+{"paragraph_id": "2.7", "concept_a": "Матроид свободный", "concept_b": "Ранг множества", "has_relation": false}
+{"paragraph_id": "2.7", "concept_a": "Матроид свободный", "concept_b": "Трансверсаль частичная", "has_relation": false}
+{"paragraph_id": "2.7", "concept_a": "Матроид свободный", "concept_b": "Функция весовая", "has_relation": false}
+{"paragraph_id": "2.7", "concept_a": "Матроид свободный", "concept_b": "Цикл матроида", "has_relation": false}
+{"paragraph_id": "2.7", "concept_a": "Матроид трансверсалей", "concept_b": "Множество зависимое", "has_relation": false}
+{"paragraph_id": "2.7", "concept_a": "Матроид трансверсалей", "concept_b": "Множество независимое", "has_relation": false}
+{"paragraph_id": "2.7", "concept_a": "Матроид трансверсалей", "concept_b": "Множество независимое максимальное", "has_relation": false}
+{"paragraph_id": "2.7", "concept_a": "Матроид трансверсалей", "concept_b": "Неравенство полумодулярности", "has_relation": false}
+{"paragraph_id": "2.7", "concept_a": "Матроид трансверсалей", "concept_b": "Ранг множества", "has_relation": false}
+{"paragraph_id": "2.7", "concept_a": "Матроид трансверсалей", "concept_b": "Трансверсаль частичная", "has_relation": true}
+{"paragraph_id": "2.7", "concept_a": "Матроид трансверсалей", "concept_b": "Функция весовая", "has_relation": false}
+{"paragraph_id": "2.7", "concept_a": "Матроид трансверсалей", "concept_b": "Цикл матроида", "has_relation": false}
+{"paragraph_id": "2.7", "concept_a": "Множество зависимое", "concept_b": "Множество независимое", "has_relation": true}
+{"paragraph_id": "2.7", "concept_a": "Множество зависимое", "concept_b": "Множество независимое максимальное", "has_relation": false}
+{"paragraph_id": "2.7", "concept_a": "Множество зависимое", "concept_b": "Неравенство полумодулярности", "has_relation": false}
+{"paragraph_id": "2.7", "concept_a": "Множество зависимое", "concept_b": "Ранг множества", "has_relation": false}
+{"paragraph_id": "2.7", "concept_a": "Множество зависимое", "concept_b": "Трансверсаль частичная", "has_relation": false}
+{"paragraph_id": "2.7", "concept_a": "Множество зависимое", "concept_b": "Функция весовая", "has_relation": false}
+{"paragraph_id": "2.7", "concept_a": "Множество зависимое", "concept_b": "Цикл матроида", "has_relation": false}
+{"paragraph_id": "2.7", "concept_a": "Множество независимое", "concept_b": "Множество независимое максимальное", "has_relation": false}
+{"paragraph_id": "2.7", "concept_a": "Множество независимое", "concept_b": "Неравенство полумодулярности", "has_relation": false}
+{"paragraph_id": "2.7", "concept_a": "Множество независимое", "concept_b": "Ранг множества", "has_relation": false}
+{"paragraph_id": "2.7", "concept_a": "Множество независимое", "concept_b": "Трансверсаль частичная", "has_relation": false}
+{"paragraph_id": "2.7", "concept_a": "Множество независимое", "concept_b": "Функция весовая", "has_relation": false}
+{"paragraph_id": "2.7", "concept_a": "Множество независимое", "concept_b": "Цикл матроида", "has_relation": false}
+{"paragraph_id": "2.7", "concept_a": "Множество независимое максимальное", "concept_b": "Неравенство полумодулярности", "has_relation": false}
+{"paragraph_id": "2.7", "concept_a": "Множество независимое максимальное", "concept_b": "Ранг множества", "has_relation": false}
+{"paragraph_id": "2.7", "concept_a": "Множество независимое максимальное", "concept_b": "Трансверсаль частичная", "has_relation": false}
+{"paragraph_id": "2.7", "concept_a": "Множество независимое максимальное", "concept_b": "Функция весовая", "has_relation": false}
+{"paragraph_id": "2.7", "concept_a": "Множество независимое максимальное", "concept_b": "Цикл матроида", "has_relation": false}
+{"paragraph_id": "2.7", "concept_a": "Неравенство полумодулярности", "concept_b": "Ранг множества", "has_relation": false}
+{"paragraph_id": "2.7", "concept_a": "Неравенство полумодулярности", "concept_b": "Трансверсаль частичная", "has_relation": false}
+{"paragraph_id": "2.7", "concept_a": "Неравенство полумодулярности", "concept_b": "Функция весовая", "has_relation": false}
+{"paragraph_id": "2.7", "concept_a": "Неравенство полумодулярности", "concept_b": "Цикл матроида", "has_relation": false}
+{"paragraph_id": "2.7", "concept_a": "Ранг множества", "concept_b": "Трансверсаль частичная", "has_relation": false}
+{"paragraph_id": "2.7", "concept_a": "Ранг множества", "concept_b": "Функция весовая", "has_relation": false}
+{"paragraph_id": "2.7", "concept_a": "Ранг множества", "concept_b": "Цикл матроида", "has_relation": false}
+{"paragraph_id": "2.7", "concept_a": "Трансверсаль частичная", "concept_b": "Функция весовая", "has_relation": false}
+{"paragraph_id": "2.7", "concept_a": "Трансверсаль частичная", "concept_b": "Цикл матроида", "has_relation": false}
+{"paragraph_id": "2.7", "concept_a": "Функция весовая", "concept_b": "Цикл матроида", "has_relation": false}

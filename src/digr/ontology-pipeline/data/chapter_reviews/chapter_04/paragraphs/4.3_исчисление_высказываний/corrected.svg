@@ -1,0 +1,448 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1891" height="560" viewBox="0 0 1891 560" class="uml-diagram" data-theme="light" data-title="Диаграмма TDL">
+
+    <defs>
+      <linearGradient id="uml-yellow-title-gradient" x1="0%" y1="0%" x2="0%" y2="100%">
+        <stop offset="0%" stop-color="#f0c955"/>
+        <stop offset="50%" stop-color="#ffebc2"/>
+        <stop offset="100%" stop-color="#f0c955"/>
+      </linearGradient>
+
+      <linearGradient id="uml-yellow-section-gradient" x1="0%" y1="0%" x2="0%" y2="100%">
+        <stop offset="0%" stop-color="#f5d56b"/>
+        <stop offset="50%" stop-color="#fff1cf"/>
+        <stop offset="100%" stop-color="#f0c955"/>
+      </linearGradient>
+
+      <marker id="diamond-empty" markerWidth="12" markerHeight="8" viewBox="0 0 12 8" refX="0" refY="4" orient="auto" markerUnits="userSpaceOnUse">
+        <path class="uml-marker uml-marker-hollow" d="M 0 4 L 6 0 L 12 4 L 6 8 Z" fill="white" stroke="#181818" stroke-width="1"/>
+      </marker>
+
+      <marker id="diamond-filled" markerWidth="12" markerHeight="8" viewBox="0 0 12 8" refX="0" refY="4" orient="auto" markerUnits="userSpaceOnUse">
+        <path class="uml-marker uml-marker-filled" d="M 0 4 L 6 0 L 12 4 L 6 8 Z" fill="#181818" stroke="#181818" stroke-width="1"/>
+      </marker>
+
+      <marker id="diamond-empty-end" markerWidth="12" markerHeight="8" viewBox="0 0 12 8" refX="12" refY="4" orient="auto" markerUnits="userSpaceOnUse">
+        <path class="uml-marker uml-marker-hollow" d="M 0 4 L 6 0 L 12 4 L 6 8 Z" fill="white" stroke="#181818" stroke-width="1"/>
+      </marker>
+
+      <marker id="diamond-filled-end" markerWidth="12" markerHeight="8" viewBox="0 0 12 8" refX="12" refY="4" orient="auto" markerUnits="userSpaceOnUse">
+        <path class="uml-marker uml-marker-filled" d="M 0 4 L 6 0 L 12 4 L 6 8 Z" fill="#181818" stroke="#181818" stroke-width="1"/>
+      </marker>
+
+      <marker id="arrow-filled" markerWidth="9" markerHeight="8" viewBox="0 0 9 8" refX="9" refY="4" orient="auto" markerUnits="userSpaceOnUse">
+        <path class="uml-marker uml-marker-filled" d="M 9 4 L 0 0 L 4 4 L 0 8 Z" fill="#181818" stroke="#181818" stroke-width="1"/>
+      </marker>
+
+      <marker id="triangle-empty" markerWidth="18" markerHeight="12" viewBox="0 0 18 12" refX="18" refY="6" orient="auto" markerUnits="userSpaceOnUse">
+        <path class="uml-marker uml-marker-hollow" d="M 18 6 L 0 0 L 0 12 Z" fill="white" stroke="#181818" stroke-width="1"/>
+      </marker>
+    </defs>
+    
+<style id="uml-theme-light" type="text/css"><![CDATA[
+svg.uml-diagram {
+  background: #ffffff;
+}
+
+.uml-class-title {
+  fill: #e5e5e5;
+}
+
+.uml-class-section,
+.uml-enum-body {
+  fill: #eeeeee;
+}
+
+.uml-class-outline,
+.uml-class-title,
+.uml-class-section,
+.uml-enum-body,
+.uml-enum-title,
+.uml-template-box {
+  stroke: #999999;
+  stroke-width: 1;
+}
+
+.uml-class-title-text,
+.uml-feature-text,
+.uml-template-text,
+.uml-edge-label,
+.uml-multiplicity {
+  fill: #000000;
+}
+
+.uml-kind-badge-c {
+  fill: #b8d9bf;
+  stroke: #3e7d4a;
+}
+
+.uml-kind-badge-e {
+  fill: #f29b86;
+  stroke: #9d3f2f;
+}
+
+.uml-kind-badge-i {
+  fill: #c9d7ff;
+  stroke: #4a61a8;
+}
+
+.uml-kind-badge-d {
+  fill: #d9c7f2;
+  stroke: #6f4aa8;
+}
+
+.uml-kind-badge-text {
+  fill: #000000;
+}
+
+.uml-attribute-bullet {
+  fill: #ffffff;
+  stroke: #3aa76d;
+}
+
+.uml-operation-bullet {
+  fill: #3aa76d;
+  stroke: #2a7d50;
+}
+
+.uml-edge-line {
+  stroke: #181818;
+  stroke-width: 1;
+}
+
+.uml-marker-filled {
+  fill: #181818;
+  stroke: #181818;
+}
+
+.uml-marker-hollow {
+  fill: #ffffff;
+  stroke: #181818;
+}
+
+]]></style>
+
+<g class="uml-edge"
+   data-type="generalization"
+   data-src="ИсчислениеВысказываний"
+   data-tgt="ПеременнаяПропозициональная"
+   data-substitutable="true">
+  <path class="uml-edge-line" d="M237.1,53.8 C256.7,71.6 288.8,100.6 308.4,118.3" fill="none" stroke="#181818" stroke-width="1.0" marker-end="url(#triangle-empty)"/>
+</g>
+
+
+<g class="uml-edge"
+   data-type="generalization"
+   data-src="ИсчислениеВысказываний"
+   data-tgt="СвязкаЛогическая"
+   data-substitutable="true">
+  <path class="uml-edge-line" d="M209.9,53.9 C199.8,69.6 184.3,95.0 174.2,118.6 C160.0,151.9 149.5,193.4 144.5,215.3" fill="none" stroke="#181818" stroke-width="1.0" marker-end="url(#triangle-empty)"/>
+</g>
+
+
+<g class="uml-edge"
+   data-type="generalization"
+   data-src="ИсчислениеВысказываний"
+   data-tgt="СхемаАксиомы"
+   data-substitutable="true">
+  <path class="uml-edge-line" d="M305.6,54.0 C371.8,68.0 455.6,90.5 476.2,118.6 C520.0,178.1 489.1,275.0 474.6,312.2" fill="none" stroke="#181818" stroke-width="1.0" marker-end="url(#triangle-empty)"/>
+</g>
+
+
+<g class="uml-edge"
+   data-type="generalization"
+   data-src="ИсчислениеВысказываний"
+   data-tgt="СхемаПравилаВывода"
+   data-substitutable="true">
+  <path class="uml-edge-line" d="M185.5,54.0 C120.1,85.3 -11.2,160.9 29.2,247.5 C66.3,327.0 158.7,383.5 208.0,409.0" fill="none" stroke="#181818" stroke-width="1.0" marker-end="url(#triangle-empty)"/>
+</g>
+
+
+<g class="uml-edge"
+   data-type="generalization"
+   data-src="ПеременнаяПропозициональная"
+   data-tgt="СвязкаЛогическая"
+   data-substitutable="true">
+  <path class="uml-edge-line" d="M295.3,151.0 C261.1,168.7 205.4,197.4 171.2,215.1" fill="none" stroke="#181818" stroke-width="1.0" marker-end="url(#triangle-empty)"/>
+</g>
+
+
+<g class="uml-edge"
+   data-type="generalization"
+   data-src="ПеременнаяПропозициональная"
+   data-tgt="СхемаАксиомы"
+   data-substitutable="true">
+  <path class="uml-edge-line" d="M336.7,150.9 C363.5,186.9 429.9,276.0 456.7,312.0" fill="none" stroke="#181818" stroke-width="1.0" marker-end="url(#triangle-empty)"/>
+</g>
+
+
+<g class="uml-edge"
+   data-type="generalization"
+   data-src="ПеременнаяПропозициональная"
+   data-tgt="СхемаПравилаВывода"
+   data-substitutable="true">
+  <path class="uml-edge-line" d="M320.8,150.7 C306.1,200.5 259.5,359.0 244.8,409.1" fill="none" stroke="#181818" stroke-width="1.0" marker-end="url(#triangle-empty)"/>
+</g>
+
+
+<g class="uml-edge"
+   data-type="generalization"
+   data-src="СвязкаЛогическая"
+   data-tgt="СхемаАксиомы"
+   data-substitutable="true">
+  <path class="uml-edge-line" d="M194.5,248.0 C255.3,265.6 354.2,294.4 415.0,312.0" fill="none" stroke="#181818" stroke-width="1.0" marker-end="url(#triangle-empty)"/>
+</g>
+
+
+<g class="uml-edge"
+   data-type="generalization"
+   data-src="СвязкаЛогическая"
+   data-tgt="СхемаПравилаВывода"
+   data-substitutable="true">
+  <path class="uml-edge-line" d="M149.2,247.9 C167.7,283.8 213.7,373.0 232.3,409.0" fill="none" stroke="#181818" stroke-width="1.0" marker-end="url(#triangle-empty)"/>
+</g>
+
+
+<g class="uml-edge"
+   data-type="generalization"
+   data-src="СхемаАксиомы"
+   data-tgt="СхемаПравилаВывода"
+   data-substitutable="true">
+  <path class="uml-edge-line" d="M431.1,345.0 C388.7,362.6 319.8,391.3 277.4,409.0" fill="none" stroke="#181818" stroke-width="1.0" marker-end="url(#triangle-empty)"/>
+</g>
+
+
+<g class="uml-edge"
+   data-type="generalization"
+   data-src="Унификатор"
+   data-tgt="УнификаторНаиболееОбщий"
+   data-substitutable="true">
+  <path class="uml-edge-line" d="M1043.2,53.8 C1043.2,71.6 1043.2,100.6 1043.2,118.3" fill="none" stroke="#181818" stroke-width="1.0" marker-end="url(#triangle-empty)"/>
+</g>
+
+
+<g class="uml-edge"
+   data-type="generalization"
+   data-src="Унификатор"
+   data-tgt="УнификаторОбщий"
+   data-substitutable="true">
+  <path class="uml-edge-line" d="M1073.5,53.9 C1102.0,68.9 1145.4,93.2 1180.2,118.6 C1222.9,149.6 1267.7,192.7 1290.3,215.3" fill="none" stroke="#181818" stroke-width="1.0" marker-end="url(#triangle-empty)"/>
+</g>
+
+
+<g class="uml-edge"
+   data-type="generalization"
+   data-src="Унификатор"
+   data-tgt="ФормулаУнифицируемая"
+   data-substitutable="true">
+  <path class="uml-edge-line" d="M1104.4,46.7 C1191.8,62.1 1348.9,104.5 1413.2,215.5 C1435.0,253.2 1385.3,291.5 1351.4,312.1" fill="none" stroke="#181818" stroke-width="1.0" marker-end="url(#triangle-empty)"/>
+</g>
+
+
+<g class="uml-edge"
+   data-type="generalization"
+   data-src="Унификатор"
+   data-tgt="ЧастныйСлучайСовместный"
+   data-substitutable="true">
+  <path class="uml-edge-line" d="M992.1,54.0 C961.3,66.1 924.6,86.6 906.2,118.6 C899.2,130.9 901.7,137.1 906.2,150.5 C944.6,265.4 1052.1,370.7 1094.6,409.1" fill="none" stroke="#181818" stroke-width="1.0" marker-end="url(#triangle-empty)"/>
+</g>
+
+
+<g class="uml-edge"
+   data-type="generalization"
+   data-src="Унификатор"
+   data-tgt="ЧастныйСлучайФормулы"
+   data-substitutable="true">
+  <path class="uml-edge-line" d="M981.8,42.4 C875.0,52.6 666.2,90.6 666.2,230.5 C666.2,230.5 666.2,230.5 666.2,329.5 C666.2,480.2 883.7,514.0 1014.9,520.7" fill="none" stroke="#181818" stroke-width="1.0" marker-end="url(#triangle-empty)"/>
+</g>
+
+
+<g class="uml-edge"
+   data-type="generalization"
+   data-src="УнификаторНаиболееОбщий"
+   data-tgt="УнификаторОбщий"
+   data-substitutable="true">
+  <path class="uml-edge-line" d="M1085.9,151.0 C1134.6,168.7 1213.9,197.4 1262.6,215.1" fill="none" stroke="#181818" stroke-width="1.0" marker-end="url(#triangle-empty)"/>
+</g>
+
+
+<g class="uml-edge"
+   data-type="generalization"
+   data-src="УнификаторНаиболееОбщий"
+   data-tgt="ФормулаУнифицируемая"
+   data-substitutable="true">
+  <path class="uml-edge-line" d="M1063.4,150.8 C1092.5,172.8 1148.3,214.2 1197.2,247.5 C1231.5,270.8 1272.2,296.2 1297.8,312.0" fill="none" stroke="#181818" stroke-width="1.0" marker-end="url(#triangle-empty)"/>
+</g>
+
+
+<g class="uml-edge"
+   data-type="generalization"
+   data-src="УнификаторНаиболееОбщий"
+   data-tgt="ЧастныйСлучайСовместный"
+   data-substitutable="true">
+  <path class="uml-edge-line" d="M1046.9,150.7 C1058.8,200.5 1096.6,359.0 1108.6,409.1" fill="none" stroke="#181818" stroke-width="1.0" marker-end="url(#triangle-empty)"/>
+</g>
+
+
+<g class="uml-edge"
+   data-type="generalization"
+   data-src="УнификаторНаиболееОбщий"
+   data-tgt="ЧастныйСлучайФормулы"
+   data-substitutable="true">
+  <path class="uml-edge-line" d="M1032.6,151.0 C1001.7,198.0 918.0,341.7 975.2,441.4 C993.6,473.4 1030.3,493.9 1061.1,506.0" fill="none" stroke="#181818" stroke-width="1.0" marker-end="url(#triangle-empty)"/>
+</g>
+
+
+<g class="uml-edge"
+   data-type="generalization"
+   data-src="УнификаторОбщий"
+   data-tgt="ФормулаУнифицируемая"
+   data-substitutable="true">
+  <path class="uml-edge-line" d="M1308.1,247.8 C1311.5,265.5 1317.0,294.6 1320.4,312.3" fill="none" stroke="#181818" stroke-width="1.0" marker-end="url(#triangle-empty)"/>
+</g>
+
+
+<g class="uml-edge"
+   data-type="generalization"
+   data-src="УнификаторОбщий"
+   data-tgt="ЧастныйСлучайСовместный"
+   data-substitutable="true">
+  <path class="uml-edge-line" d="M1280.5,247.9 C1257.6,262.8 1223.1,286.9 1197.2,312.5 C1165.8,343.5 1136.3,386.7 1121.8,409.3" fill="none" stroke="#181818" stroke-width="1.0" marker-end="url(#triangle-empty)"/>
+</g>
+
+
+<g class="uml-edge"
+   data-type="generalization"
+   data-src="УнификаторОбщий"
+   data-tgt="ЧастныйСлучайФормулы"
+   data-substitutable="true">
+  <path class="uml-edge-line" d="M1357.6,247.9 C1408.0,265.7 1473.5,298.7 1449.2,344.5 C1398.8,439.6 1276.0,485.4 1193.4,506.0" fill="none" stroke="#181818" stroke-width="1.0" marker-end="url(#triangle-empty)"/>
+</g>
+
+
+<g class="uml-edge"
+   data-type="generalization"
+   data-src="ФормулаУнифицируемая"
+   data-tgt="ЧастныйСлучайСовместный"
+   data-substitutable="true">
+  <path class="uml-edge-line" d="M1288.9,345.0 C1249.6,362.6 1185.8,391.3 1146.6,409.0" fill="none" stroke="#181818" stroke-width="1.0" marker-end="url(#triangle-empty)"/>
+</g>
+
+
+<g class="uml-edge"
+   data-type="generalization"
+   data-src="ФормулаУнифицируемая"
+   data-tgt="ЧастныйСлучайФормулы"
+   data-substitutable="true">
+  <path class="uml-edge-line" d="M1316.0,344.8 C1304.5,368.0 1280.0,412.3 1249.2,441.4 C1219.4,469.6 1177.9,492.1 1148.4,506.0" fill="none" stroke="#181818" stroke-width="1.0" marker-end="url(#triangle-empty)"/>
+</g>
+
+
+<g class="uml-edge"
+   data-type="generalization"
+   data-src="ЧастныйСлучайНабораФормул"
+   data-tgt="ЧастныйСлучайНаборовФормулСовместный"
+   data-substitutable="true">
+  <path class="uml-edge-line" d="M1715.2,53.8 C1715.2,71.6 1715.2,100.6 1715.2,118.3" fill="none" stroke="#181818" stroke-width="1.0" marker-end="url(#triangle-empty)"/>
+</g>
+
+
+<g class="uml-edge"
+   data-type="generalization"
+   data-src="ЧастныйСлучайСовместный"
+   data-tgt="ЧастныйСлучайФормулы"
+   data-substitutable="true">
+  <path class="uml-edge-line" d="M1112.2,441.7 C1112.2,459.4 1112.2,488.5 1112.2,506.2" fill="none" stroke="#181818" stroke-width="1.0" marker-end="url(#triangle-empty)"/>
+</g>
+
+<g transform="translate(116,21)" class="uml-class" data-id="ИсчислениеВысказываний" data-name="ИсчислениеВысказываний" data-type="class" data-class-kind="class" data-visibility="" data-stereotype="" data-abstract="false" data-multiplicity="" data-attributes-count="0" data-operations-count="0" data-tagged-values-count="0" data-template-parameters-count="0">
+<rect class="uml-class-title" x="0" y="0" width="208.4" height="32" fill="#e5e5e5"/>
+<rect class="uml-class-outline uml-class-title-outline" x="0" y="0" width="208.4" height="32" stroke="#999999" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+<circle class="uml-kind-badge uml-kind-badge-c" cx="19" cy="16.0" r="11" fill="#b8d9bf" stroke="#3e7d4a" stroke-width="1.5"/><text class="uml-kind-badge-text" x="19" y="20.0" text-anchor="middle" font-family="Arial" font-size="12" font-weight="700" fill="black">C</text>
+<text class="uml-class-title-text" x="38" y="20" text-anchor="start" fill="black" font-family="Arial" font-size="12" font-weight="500">ИсчислениеВысказываний</text>
+<rect class="uml-bbox" x="0" y="0" width="208.4" height="32" fill="none" stroke="none" pointer-events="all"/>
+</g>
+<g transform="translate(203,118)" class="uml-class" data-id="ПеременнаяПропозициональная" data-name="ПеременнаяПропозициональная" data-type="class" data-class-kind="class" data-visibility="" data-stereotype="" data-abstract="false" data-multiplicity="" data-attributes-count="0" data-operations-count="0" data-tagged-values-count="0" data-template-parameters-count="0">
+<rect class="uml-class-title" x="0" y="0" width="244.4" height="32" fill="#e5e5e5"/>
+<rect class="uml-class-outline uml-class-title-outline" x="0" y="0" width="244.4" height="32" stroke="#999999" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+<circle class="uml-kind-badge uml-kind-badge-c" cx="19" cy="16.0" r="11" fill="#b8d9bf" stroke="#3e7d4a" stroke-width="1.5"/><text class="uml-kind-badge-text" x="19" y="20.0" text-anchor="middle" font-family="Arial" font-size="12" font-weight="700" fill="black">C</text>
+<text class="uml-class-title-text" x="38" y="20" text-anchor="start" fill="black" font-family="Arial" font-size="12" font-weight="500">ПеременнаяПропозициональная</text>
+<rect class="uml-bbox" x="0" y="0" width="244.4" height="32" fill="none" stroke="none" pointer-events="all"/>
+</g>
+<g transform="translate(58,215)" class="uml-class" data-id="СвязкаЛогическая" data-name="СвязкаЛогическая" data-type="class" data-class-kind="class" data-visibility="" data-stereotype="" data-abstract="false" data-multiplicity="" data-attributes-count="0" data-operations-count="0" data-tagged-values-count="0" data-template-parameters-count="0">
+<rect class="uml-class-title" x="0" y="0" width="165.2" height="32" fill="#e5e5e5"/>
+<rect class="uml-class-outline uml-class-title-outline" x="0" y="0" width="165.2" height="32" stroke="#999999" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+<circle class="uml-kind-badge uml-kind-badge-c" cx="19" cy="16.0" r="11" fill="#b8d9bf" stroke="#3e7d4a" stroke-width="1.5"/><text class="uml-kind-badge-text" x="19" y="20.0" text-anchor="middle" font-family="Arial" font-size="12" font-weight="700" fill="black">C</text>
+<text class="uml-class-title-text" x="38" y="20" text-anchor="start" fill="black" font-family="Arial" font-size="12" font-weight="500">СвязкаЛогическая</text>
+<rect class="uml-bbox" x="0" y="0" width="165.2" height="32" fill="none" stroke="none" pointer-events="all"/>
+</g>
+<g transform="translate(400,312)" class="uml-class" data-id="СхемаАксиомы" data-name="СхемаАксиомы" data-type="class" data-class-kind="class" data-visibility="" data-stereotype="" data-abstract="false" data-multiplicity="" data-attributes-count="0" data-operations-count="0" data-tagged-values-count="0" data-template-parameters-count="0">
+<rect class="uml-class-title" x="0" y="0" width="136.4" height="32" fill="#e5e5e5"/>
+<rect class="uml-class-outline uml-class-title-outline" x="0" y="0" width="136.4" height="32" stroke="#999999" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+<circle class="uml-kind-badge uml-kind-badge-c" cx="19" cy="16.0" r="11" fill="#b8d9bf" stroke="#3e7d4a" stroke-width="1.5"/><text class="uml-kind-badge-text" x="19" y="20.0" text-anchor="middle" font-family="Arial" font-size="12" font-weight="700" fill="black">C</text>
+<text class="uml-class-title-text" x="38" y="20" text-anchor="start" fill="black" font-family="Arial" font-size="12" font-weight="500">СхемаАксиомы</text>
+<rect class="uml-bbox" x="0" y="0" width="136.4" height="32" fill="none" stroke="none" pointer-events="all"/>
+</g>
+<g transform="translate(150,409)" class="uml-class" data-id="СхемаПравилаВывода" data-name="СхемаПравилаВывода" data-type="class" data-class-kind="class" data-visibility="" data-stereotype="" data-abstract="false" data-multiplicity="" data-attributes-count="0" data-operations-count="0" data-tagged-values-count="0" data-template-parameters-count="0">
+<rect class="uml-class-title" x="0" y="0" width="179.6" height="32" fill="#e5e5e5"/>
+<rect class="uml-class-outline uml-class-title-outline" x="0" y="0" width="179.6" height="32" stroke="#999999" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+<circle class="uml-kind-badge uml-kind-badge-c" cx="19" cy="16.0" r="11" fill="#b8d9bf" stroke="#3e7d4a" stroke-width="1.5"/><text class="uml-kind-badge-text" x="19" y="20.0" text-anchor="middle" font-family="Arial" font-size="12" font-weight="700" fill="black">C</text>
+<text class="uml-class-title-text" x="38" y="20" text-anchor="start" fill="black" font-family="Arial" font-size="12" font-weight="500">СхемаПравилаВывода</text>
+<rect class="uml-bbox" x="0" y="0" width="179.6" height="32" fill="none" stroke="none" pointer-events="all"/>
+</g>
+<g transform="translate(982,21)" class="uml-class" data-id="Унификатор" data-name="Унификатор" data-type="class" data-class-kind="class" data-visibility="" data-stereotype="" data-abstract="false" data-multiplicity="" data-attributes-count="0" data-operations-count="0" data-tagged-values-count="0" data-template-parameters-count="0">
+<rect class="uml-class-title" x="0" y="0" width="122.0" height="32" fill="#e5e5e5"/>
+<rect class="uml-class-outline uml-class-title-outline" x="0" y="0" width="122.0" height="32" stroke="#999999" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+<circle class="uml-kind-badge uml-kind-badge-c" cx="19" cy="16.0" r="11" fill="#b8d9bf" stroke="#3e7d4a" stroke-width="1.5"/><text class="uml-kind-badge-text" x="19" y="20.0" text-anchor="middle" font-family="Arial" font-size="12" font-weight="700" fill="black">C</text>
+<text class="uml-class-title-text" x="38" y="20" text-anchor="start" fill="black" font-family="Arial" font-size="12" font-weight="500">Унификатор</text>
+<rect class="uml-bbox" x="0" y="0" width="122.0" height="32" fill="none" stroke="none" pointer-events="all"/>
+</g>
+<g transform="translate(935,118)" class="uml-class" data-id="УнификаторНаиболееОбщий" data-name="УнификаторНаиболееОбщий" data-type="class" data-class-kind="class" data-visibility="" data-stereotype="" data-abstract="false" data-multiplicity="" data-attributes-count="0" data-operations-count="0" data-tagged-values-count="0" data-template-parameters-count="0">
+<rect class="uml-class-title" x="0" y="0" width="215.6" height="32" fill="#e5e5e5"/>
+<rect class="uml-class-outline uml-class-title-outline" x="0" y="0" width="215.6" height="32" stroke="#999999" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+<circle class="uml-kind-badge uml-kind-badge-c" cx="19" cy="16.0" r="11" fill="#b8d9bf" stroke="#3e7d4a" stroke-width="1.5"/><text class="uml-kind-badge-text" x="19" y="20.0" text-anchor="middle" font-family="Arial" font-size="12" font-weight="700" fill="black">C</text>
+<text class="uml-class-title-text" x="38" y="20" text-anchor="start" fill="black" font-family="Arial" font-size="12" font-weight="500">УнификаторНаиболееОбщий</text>
+<rect class="uml-bbox" x="0" y="0" width="215.6" height="32" fill="none" stroke="none" pointer-events="all"/>
+</g>
+<g transform="translate(1226,215)" class="uml-class" data-id="УнификаторОбщий" data-name="УнификаторОбщий" data-type="class" data-class-kind="class" data-visibility="" data-stereotype="" data-abstract="false" data-multiplicity="" data-attributes-count="0" data-operations-count="0" data-tagged-values-count="0" data-template-parameters-count="0">
+<rect class="uml-class-title" x="0" y="0" width="158.0" height="32" fill="#e5e5e5"/>
+<rect class="uml-class-outline uml-class-title-outline" x="0" y="0" width="158.0" height="32" stroke="#999999" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+<circle class="uml-kind-badge uml-kind-badge-c" cx="19" cy="16.0" r="11" fill="#b8d9bf" stroke="#3e7d4a" stroke-width="1.5"/><text class="uml-kind-badge-text" x="19" y="20.0" text-anchor="middle" font-family="Arial" font-size="12" font-weight="700" fill="black">C</text>
+<text class="uml-class-title-text" x="38" y="20" text-anchor="start" fill="black" font-family="Arial" font-size="12" font-weight="500">УнификаторОбщий</text>
+<rect class="uml-bbox" x="0" y="0" width="158.0" height="32" fill="none" stroke="none" pointer-events="all"/>
+</g>
+<g transform="translate(1226,312)" class="uml-class" data-id="ФормулаУнифицируемая" data-name="ФормулаУнифицируемая" data-type="class" data-class-kind="class" data-visibility="" data-stereotype="" data-abstract="false" data-multiplicity="" data-attributes-count="0" data-operations-count="0" data-tagged-values-count="0" data-template-parameters-count="0">
+<rect class="uml-class-title" x="0" y="0" width="194.0" height="32" fill="#e5e5e5"/>
+<rect class="uml-class-outline uml-class-title-outline" x="0" y="0" width="194.0" height="32" stroke="#999999" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+<circle class="uml-kind-badge uml-kind-badge-c" cx="19" cy="16.0" r="11" fill="#b8d9bf" stroke="#3e7d4a" stroke-width="1.5"/><text class="uml-kind-badge-text" x="19" y="20.0" text-anchor="middle" font-family="Arial" font-size="12" font-weight="700" fill="black">C</text>
+<text class="uml-class-title-text" x="38" y="20" text-anchor="start" fill="black" font-family="Arial" font-size="12" font-weight="500">ФормулаУнифицируемая</text>
+<rect class="uml-bbox" x="0" y="0" width="194.0" height="32" fill="none" stroke="none" pointer-events="all"/>
+</g>
+<g transform="translate(1600,21)" class="uml-class" data-id="ЧастныйСлучайНабораФормул" data-name="ЧастныйСлучайНабораФормул" data-type="class" data-class-kind="class" data-visibility="" data-stereotype="" data-abstract="false" data-multiplicity="" data-attributes-count="0" data-operations-count="0" data-tagged-values-count="0" data-template-parameters-count="0">
+<rect class="uml-class-title" x="0" y="0" width="230.0" height="32" fill="#e5e5e5"/>
+<rect class="uml-class-outline uml-class-title-outline" x="0" y="0" width="230.0" height="32" stroke="#999999" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+<circle class="uml-kind-badge uml-kind-badge-c" cx="19" cy="16.0" r="11" fill="#b8d9bf" stroke="#3e7d4a" stroke-width="1.5"/><text class="uml-kind-badge-text" x="19" y="20.0" text-anchor="middle" font-family="Arial" font-size="12" font-weight="700" fill="black">C</text>
+<text class="uml-class-title-text" x="38" y="20" text-anchor="start" fill="black" font-family="Arial" font-size="12" font-weight="500">ЧастныйСлучайНабораФормул</text>
+<rect class="uml-bbox" x="0" y="0" width="230.0" height="32" fill="none" stroke="none" pointer-events="all"/>
+</g>
+<g transform="translate(1560,118)" class="uml-class" data-id="ЧастныйСлучайНаборовФормулСовместный" data-name="ЧастныйСлучайНаборовФормулСовместный" data-type="class" data-class-kind="class" data-visibility="" data-stereotype="" data-abstract="false" data-multiplicity="" data-attributes-count="0" data-operations-count="0" data-tagged-values-count="0" data-template-parameters-count="0">
+<rect class="uml-class-title" x="0" y="0" width="309.2" height="32" fill="#e5e5e5"/>
+<rect class="uml-class-outline uml-class-title-outline" x="0" y="0" width="309.2" height="32" stroke="#999999" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+<circle class="uml-kind-badge uml-kind-badge-c" cx="19" cy="16.0" r="11" fill="#b8d9bf" stroke="#3e7d4a" stroke-width="1.5"/><text class="uml-kind-badge-text" x="19" y="20.0" text-anchor="middle" font-family="Arial" font-size="12" font-weight="700" fill="black">C</text>
+<text class="uml-class-title-text" x="38" y="20" text-anchor="start" fill="black" font-family="Arial" font-size="12" font-weight="500">ЧастныйСлучайНаборовФормулСовместный</text>
+<rect class="uml-bbox" x="0" y="0" width="309.2" height="32" fill="none" stroke="none" pointer-events="all"/>
+</g>
+<g transform="translate(1004,409)" class="uml-class" data-id="ЧастныйСлучайСовместный" data-name="ЧастныйСлучайСовместный" data-type="class" data-class-kind="class" data-visibility="" data-stereotype="" data-abstract="false" data-multiplicity="" data-attributes-count="0" data-operations-count="0" data-tagged-values-count="0" data-template-parameters-count="0">
+<rect class="uml-class-title" x="0" y="0" width="215.6" height="32" fill="#e5e5e5"/>
+<rect class="uml-class-outline uml-class-title-outline" x="0" y="0" width="215.6" height="32" stroke="#999999" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+<circle class="uml-kind-badge uml-kind-badge-c" cx="19" cy="16.0" r="11" fill="#b8d9bf" stroke="#3e7d4a" stroke-width="1.5"/><text class="uml-kind-badge-text" x="19" y="20.0" text-anchor="middle" font-family="Arial" font-size="12" font-weight="700" fill="black">C</text>
+<text class="uml-class-title-text" x="38" y="20" text-anchor="start" fill="black" font-family="Arial" font-size="12" font-weight="500">ЧастныйСлучайСовместный</text>
+<rect class="uml-bbox" x="0" y="0" width="215.6" height="32" fill="none" stroke="none" pointer-events="all"/>
+</g>
+<g transform="translate(1015,506)" class="uml-class" data-id="ЧастныйСлучайФормулы" data-name="ЧастныйСлучайФормулы" data-type="class" data-class-kind="class" data-visibility="" data-stereotype="" data-abstract="false" data-multiplicity="" data-attributes-count="0" data-operations-count="0" data-tagged-values-count="0" data-template-parameters-count="0">
+<rect class="uml-class-title" x="0" y="0" width="194.0" height="32" fill="#e5e5e5"/>
+<rect class="uml-class-outline uml-class-title-outline" x="0" y="0" width="194.0" height="32" stroke="#999999" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+<circle class="uml-kind-badge uml-kind-badge-c" cx="19" cy="16.0" r="11" fill="#b8d9bf" stroke="#3e7d4a" stroke-width="1.5"/><text class="uml-kind-badge-text" x="19" y="20.0" text-anchor="middle" font-family="Arial" font-size="12" font-weight="700" fill="black">C</text>
+<text class="uml-class-title-text" x="38" y="20" text-anchor="start" fill="black" font-family="Arial" font-size="12" font-weight="500">ЧастныйСлучайФормулы</text>
+<rect class="uml-bbox" x="0" y="0" width="194.0" height="32" fill="none" stroke="none" pointer-events="all"/>
+</g>
+</svg>

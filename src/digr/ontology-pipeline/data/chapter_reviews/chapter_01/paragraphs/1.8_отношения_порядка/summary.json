@@ -1,0 +1,18 @@
+{
+  "paragraph_id": "1.8",
+  "paragraph_title": "1.8. Отношения порядка",
+  "folder": "1.8_отношения_порядка",
+  "relations_reviewed": 58,
+  "corrected_relations": 41,
+  "category_counts": {
+    "found_on_diagram_correct": 0,
+    "found_on_diagram_wrong_direction": 2,
+    "found_on_diagram_wrong_type": 0,
+    "found_on_diagram_wrong_direction_and_type": 0,
+    "found_not_on_diagram_accepted": 39,
+    "found_not_on_diagram_rejected": 2,
+    "not_found_from_diagram": 15
+  },
+  "rendered": true,
+  "render_error": null
+}

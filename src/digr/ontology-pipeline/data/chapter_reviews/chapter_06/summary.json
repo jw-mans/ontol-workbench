@@ -1,0 +1,128 @@
+{
+  "chapter": "6",
+  "paragraphs": [
+    "6.1",
+    "6.2",
+    "6.3",
+    "6.4",
+    "6.5"
+  ],
+  "ground_truth_source": "src/digr/ontology-pipeline/data/dm_reference_ontologies/chapter_06",
+  "ignored_concepts": [
+    "bool",
+    "Объект",
+    "Парадокс",
+    "Парадокс Рассела",
+    "Структура",
+    "Указатель",
+    "Элементами семейства являются множества"
+  ],
+  "chapter_concepts": 134,
+  "raw_unique_relations": 150,
+  "textbook_relations_in_chapter_scope": 0,
+  "textbook_unique_relation_pairs_in_chapter_scope": 0,
+  "category_counts": {
+    "found_on_diagram_correct": 0,
+    "found_on_diagram_wrong_direction": 0,
+    "found_on_diagram_wrong_type": 0,
+    "found_on_diagram_wrong_direction_and_type": 0,
+    "found_not_on_diagram_accepted": 147,
+    "found_not_on_diagram_rejected": 3,
+    "not_found_from_diagram": 0
+  },
+  "corrected_relations": 147,
+  "rendered": true,
+  "render_error": null,
+  "paragraph_reviews": [
+    {
+      "paragraph_id": "6.1",
+      "paragraph_title": "6.1 Информация и энтропия",
+      "folder": "6.1_информация_и_энтропия",
+      "relations_reviewed": 26,
+      "corrected_relations": 26,
+      "category_counts": {
+        "found_on_diagram_correct": 0,
+        "found_on_diagram_wrong_direction": 0,
+        "found_on_diagram_wrong_type": 0,
+        "found_on_diagram_wrong_direction_and_type": 0,
+        "found_not_on_diagram_accepted": 26,
+        "found_not_on_diagram_rejected": 0,
+        "not_found_from_diagram": 0
+      },
+      "rendered": true,
+      "render_error": null
+    },
+    {
+      "paragraph_id": "6.2",
+      "paragraph_title": "6.2. Алфавитное кодирование",
+      "folder": "6.2_алфавитное_кодирование",
+      "relations_reviewed": 15,
+      "corrected_relations": 15,
+      "category_counts": {
+        "found_on_diagram_correct": 0,
+        "found_on_diagram_wrong_direction": 0,
+        "found_on_diagram_wrong_type": 0,
+        "found_on_diagram_wrong_direction_and_type": 0,
+        "found_not_on_diagram_accepted": 15,
+        "found_not_on_diagram_rejected": 0,
+        "not_found_from_diagram": 0
+      },
+      "rendered": true,
+      "render_error": null
+    },
+    {
+      "paragraph_id": "6.3",
+      "paragraph_title": "6.3. Кодирование с минимальной избыточностью",
+      "folder": "6.3_кодирование_с_минимальной_избыточностью",
+      "relations_reviewed": 4,
+      "corrected_relations": 4,
+      "category_counts": {
+        "found_on_diagram_correct": 0,
+        "found_on_diagram_wrong_direction": 0,
+        "found_on_diagram_wrong_type": 0,
+        "found_on_diagram_wrong_direction_and_type": 0,
+        "found_not_on_diagram_accepted": 4,
+        "found_not_on_diagram_rejected": 0,
+        "not_found_from_diagram": 0
+      },
+      "rendered": true,
+      "render_error": null
+    },
+    {
+      "paragraph_id": "6.4",
+      "paragraph_title": "6.4. Помехоустойчивое кодирование",
+      "folder": "6.4_помехоустойчивое_кодирование",
+      "relations_reviewed": 37,
+      "corrected_relations": 34,
+      "category_counts": {
+        "found_on_diagram_correct": 0,
+        "found_on_diagram_wrong_direction": 0,
+        "found_on_diagram_wrong_type": 0,
+        "found_on_diagram_wrong_direction_and_type": 0,
+        "found_not_on_diagram_accepted": 34,
+        "found_not_on_diagram_rejected": 3,
+        "not_found_from_diagram": 0
+      },
+      "rendered": true,
+      "render_error": null
+    },
+    {
+      "paragraph_id": "6.5",
+      "paragraph_title": "6.5. Сжатие и шифрование данных",
+      "folder": "6.5_сжатие_и_шифрование_данных",
+      "relations_reviewed": 69,
+      "corrected_relations": 69,
+      "category_counts": {
+        "found_on_diagram_correct": 0,
+        "found_on_diagram_wrong_direction": 0,
+        "found_on_diagram_wrong_type": 0,
+        "found_on_diagram_wrong_direction_and_type": 0,
+        "found_not_on_diagram_accepted": 69,
+        "found_not_on_diagram_rejected": 0,
+        "not_found_from_diagram": 0
+      },
+      "rendered": true,
+      "render_error": null
+    }
+  ]
+}

@@ -1,0 +1,147 @@
+{
+  "chapter": "9",
+  "paragraphs": [
+    "9.1",
+    "9.2",
+    "9.3",
+    "9.4",
+    "9.5",
+    "9.6"
+  ],
+  "ground_truth_source": "src/digr/ontology-pipeline/data/dm_reference_ontologies/chapter_09",
+  "ignored_concepts": [
+    "bool",
+    "Объект",
+    "Парадокс",
+    "Парадокс Рассела",
+    "Структура",
+    "Указатель",
+    "Элементами семейства являются множества"
+  ],
+  "chapter_concepts": 90,
+  "raw_unique_relations": 131,
+  "textbook_relations_in_chapter_scope": 19,
+  "textbook_unique_relation_pairs_in_chapter_scope": 19,
+  "category_counts": {
+    "found_on_diagram_correct": 0,
+    "found_on_diagram_wrong_direction": 3,
+    "found_on_diagram_wrong_type": 1,
+    "found_on_diagram_wrong_direction_and_type": 0,
+    "found_not_on_diagram_accepted": 118,
+    "found_not_on_diagram_rejected": 9,
+    "not_found_from_diagram": 15
+  },
+  "corrected_relations": 122,
+  "rendered": true,
+  "render_error": null,
+  "paragraph_reviews": [
+    {
+      "paragraph_id": "9.1",
+      "paragraph_title": "9.1. Свободные деревья",
+      "folder": "9.1_свободные_деревья",
+      "relations_reviewed": 7,
+      "corrected_relations": 7,
+      "category_counts": {
+        "found_on_diagram_correct": 0,
+        "found_on_diagram_wrong_direction": 0,
+        "found_on_diagram_wrong_type": 1,
+        "found_on_diagram_wrong_direction_and_type": 0,
+        "found_not_on_diagram_accepted": 6,
+        "found_not_on_diagram_rejected": 0,
+        "not_found_from_diagram": 0
+      },
+      "rendered": true,
+      "render_error": null
+    },
+    {
+      "paragraph_id": "9.2",
+      "paragraph_title": "9.2. Ориентированные, упорядоченные и~бинарные деревья",
+      "folder": "9.2_ориентированные_упорядоченные_и_бинарные_деревья",
+      "relations_reviewed": 60,
+      "corrected_relations": 60,
+      "category_counts": {
+        "found_on_diagram_correct": 0,
+        "found_on_diagram_wrong_direction": 0,
+        "found_on_diagram_wrong_type": 0,
+        "found_on_diagram_wrong_direction_and_type": 0,
+        "found_not_on_diagram_accepted": 60,
+        "found_not_on_diagram_rejected": 0,
+        "not_found_from_diagram": 0
+      },
+      "rendered": true,
+      "render_error": null
+    },
+    {
+      "paragraph_id": "9.3",
+      "paragraph_title": "9.3. Представление деревьев в программах",
+      "folder": "9.3_представление_деревьев_в_программах",
+      "relations_reviewed": 37,
+      "corrected_relations": 20,
+      "category_counts": {
+        "found_on_diagram_correct": 0,
+        "found_on_diagram_wrong_direction": 3,
+        "found_on_diagram_wrong_type": 0,
+        "found_on_diagram_wrong_direction_and_type": 0,
+        "found_not_on_diagram_accepted": 17,
+        "found_not_on_diagram_rejected": 9,
+        "not_found_from_diagram": 8
+      },
+      "rendered": true,
+      "render_error": null
+    },
+    {
+      "paragraph_id": "9.4",
+      "paragraph_title": "9.4. Деревья сортировки",
+      "folder": "9.4_деревья_сортировки",
+      "relations_reviewed": 24,
+      "corrected_relations": 24,
+      "category_counts": {
+        "found_on_diagram_correct": 0,
+        "found_on_diagram_wrong_direction": 0,
+        "found_on_diagram_wrong_type": 0,
+        "found_on_diagram_wrong_direction_and_type": 0,
+        "found_not_on_diagram_accepted": 24,
+        "found_not_on_diagram_rejected": 0,
+        "not_found_from_diagram": 0
+      },
+      "rendered": true,
+      "render_error": null
+    },
+    {
+      "paragraph_id": "9.5",
+      "paragraph_title": "9.5. Специальные деревья",
+      "folder": "9.5_специальные_деревья",
+      "relations_reviewed": 3,
+      "corrected_relations": 3,
+      "category_counts": {
+        "found_on_diagram_correct": 0,
+        "found_on_diagram_wrong_direction": 0,
+        "found_on_diagram_wrong_type": 0,
+        "found_on_diagram_wrong_direction_and_type": 0,
+        "found_not_on_diagram_accepted": 3,
+        "found_not_on_diagram_rejected": 0,
+        "not_found_from_diagram": 0
+      },
+      "rendered": true,
+      "render_error": null
+    },
+    {
+      "paragraph_id": "9.6",
+      "paragraph_title": "9.6. Кратчайший остов",
+      "folder": "9.6_кратчайший_остов",
+      "relations_reviewed": 8,
+      "corrected_relations": 8,
+      "category_counts": {
+        "found_on_diagram_correct": 0,
+        "found_on_diagram_wrong_direction": 0,
+        "found_on_diagram_wrong_type": 0,
+        "found_on_diagram_wrong_direction_and_type": 0,
+        "found_not_on_diagram_accepted": 8,
+        "found_not_on_diagram_rejected": 0,
+        "not_found_from_diagram": 0
+      },
+      "rendered": true,
+      "render_error": null
+    }
+  ]
+}

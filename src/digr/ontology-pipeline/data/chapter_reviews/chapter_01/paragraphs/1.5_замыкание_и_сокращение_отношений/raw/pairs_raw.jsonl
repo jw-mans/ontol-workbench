@@ -1,0 +1,45 @@
+{"paragraph_id": "1.5", "concept_a": "Алгоритм Уоршалла", "concept_b": "Диаграмма Хассе", "has_relation": false}
+{"paragraph_id": "1.5", "concept_a": "Алгоритм Уоршалла", "concept_b": "Замыкание", "has_relation": false}
+{"paragraph_id": "1.5", "concept_a": "Алгоритм Уоршалла", "concept_b": "Замыкание отношения", "has_relation": false}
+{"paragraph_id": "1.5", "concept_a": "Алгоритм Уоршалла", "concept_b": "Представление отношения минимальное", "has_relation": false}
+{"paragraph_id": "1.5", "concept_a": "Алгоритм Уоршалла", "concept_b": "Редукция отношения", "has_relation": false}
+{"paragraph_id": "1.5", "concept_a": "Алгоритм Уоршалла", "concept_b": "Редукция отношения транзитивная", "has_relation": false}
+{"paragraph_id": "1.5", "concept_a": "Алгоритм Уоршалла", "concept_b": "Сокращение отношения", "has_relation": false}
+{"paragraph_id": "1.5", "concept_a": "Алгоритм Уоршалла", "concept_b": "Сокращение отношения симметричное", "has_relation": false}
+{"paragraph_id": "1.5", "concept_a": "Алгоритм Уоршалла", "concept_b": "Сокращение отношения транзитивное", "has_relation": false}
+{"paragraph_id": "1.5", "concept_a": "Диаграмма Хассе", "concept_b": "Замыкание", "has_relation": false}
+{"paragraph_id": "1.5", "concept_a": "Диаграмма Хассе", "concept_b": "Замыкание отношения", "has_relation": false}
+{"paragraph_id": "1.5", "concept_a": "Диаграмма Хассе", "concept_b": "Представление отношения минимальное", "has_relation": false}
+{"paragraph_id": "1.5", "concept_a": "Диаграмма Хассе", "concept_b": "Редукция отношения", "has_relation": false}
+{"paragraph_id": "1.5", "concept_a": "Диаграмма Хассе", "concept_b": "Редукция отношения транзитивная", "has_relation": false}
+{"paragraph_id": "1.5", "concept_a": "Диаграмма Хассе", "concept_b": "Сокращение отношения", "has_relation": false}
+{"paragraph_id": "1.5", "concept_a": "Диаграмма Хассе", "concept_b": "Сокращение отношения симметричное", "has_relation": false}
+{"paragraph_id": "1.5", "concept_a": "Диаграмма Хассе", "concept_b": "Сокращение отношения транзитивное", "has_relation": false}
+{"paragraph_id": "1.5", "concept_a": "Замыкание", "concept_b": "Замыкание отношения", "has_relation": false}
+{"paragraph_id": "1.5", "concept_a": "Замыкание", "concept_b": "Представление отношения минимальное", "has_relation": false}
+{"paragraph_id": "1.5", "concept_a": "Замыкание", "concept_b": "Редукция отношения", "has_relation": true}
+{"paragraph_id": "1.5", "concept_a": "Замыкание", "concept_b": "Редукция отношения транзитивная", "has_relation": false}
+{"paragraph_id": "1.5", "concept_a": "Замыкание", "concept_b": "Сокращение отношения", "has_relation": true}
+{"paragraph_id": "1.5", "concept_a": "Замыкание", "concept_b": "Сокращение отношения симметричное", "has_relation": false}
+{"paragraph_id": "1.5", "concept_a": "Замыкание", "concept_b": "Сокращение отношения транзитивное", "has_relation": false}
+{"paragraph_id": "1.5", "concept_a": "Замыкание отношения", "concept_b": "Представление отношения минимальное", "has_relation": false}
+{"paragraph_id": "1.5", "concept_a": "Замыкание отношения", "concept_b": "Редукция отношения", "has_relation": false}
+{"paragraph_id": "1.5", "concept_a": "Замыкание отношения", "concept_b": "Редукция отношения транзитивная", "has_relation": false}
+{"paragraph_id": "1.5", "concept_a": "Замыкание отношения", "concept_b": "Сокращение отношения", "has_relation": false}
+{"paragraph_id": "1.5", "concept_a": "Замыкание отношения", "concept_b": "Сокращение отношения симметричное", "has_relation": false}
+{"paragraph_id": "1.5", "concept_a": "Замыкание отношения", "concept_b": "Сокращение отношения транзитивное", "has_relation": false}
+{"paragraph_id": "1.5", "concept_a": "Представление отношения минимальное", "concept_b": "Редукция отношения", "has_relation": false}
+{"paragraph_id": "1.5", "concept_a": "Представление отношения минимальное", "concept_b": "Редукция отношения транзитивная", "has_relation": true}
+{"paragraph_id": "1.5", "concept_a": "Представление отношения минимальное", "concept_b": "Сокращение отношения", "has_relation": false}
+{"paragraph_id": "1.5", "concept_a": "Представление отношения минимальное", "concept_b": "Сокращение отношения симметричное", "has_relation": false}
+{"paragraph_id": "1.5", "concept_a": "Представление отношения минимальное", "concept_b": "Сокращение отношения транзитивное", "has_relation": true}
+{"paragraph_id": "1.5", "concept_a": "Редукция отношения", "concept_b": "Редукция отношения транзитивная", "has_relation": false}
+{"paragraph_id": "1.5", "concept_a": "Редукция отношения", "concept_b": "Сокращение отношения", "has_relation": false}
+{"paragraph_id": "1.5", "concept_a": "Редукция отношения", "concept_b": "Сокращение отношения симметричное", "has_relation": false}
+{"paragraph_id": "1.5", "concept_a": "Редукция отношения", "concept_b": "Сокращение отношения транзитивное", "has_relation": false}
+{"paragraph_id": "1.5", "concept_a": "Редукция отношения транзитивная", "concept_b": "Сокращение отношения", "has_relation": false}
+{"paragraph_id": "1.5", "concept_a": "Редукция отношения транзитивная", "concept_b": "Сокращение отношения симметричное", "has_relation": false}
+{"paragraph_id": "1.5", "concept_a": "Редукция отношения транзитивная", "concept_b": "Сокращение отношения транзитивное", "has_relation": true}
+{"paragraph_id": "1.5", "concept_a": "Сокращение отношения", "concept_b": "Сокращение отношения симметричное", "has_relation": false}
+{"paragraph_id": "1.5", "concept_a": "Сокращение отношения", "concept_b": "Сокращение отношения транзитивное", "has_relation": false}
+{"paragraph_id": "1.5", "concept_a": "Сокращение отношения симметричное", "concept_b": "Сокращение отношения транзитивное", "has_relation": false}

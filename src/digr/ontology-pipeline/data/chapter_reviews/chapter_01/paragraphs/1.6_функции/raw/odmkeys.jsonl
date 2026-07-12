@@ -1,0 +1,37 @@
+{"paragraph_id": "1.6", "paragraph_title": "1.6. Функции", "index": "Отношение однозначное", "surface": "однозначностью", "plain": "отношение однозначное", "start": 229063, "end": 229135, "line": 6809}
+{"paragraph_id": "1.6", "paragraph_title": "1.6. Функции", "index": "Отношение функциональное", "surface": "функциональностью", "plain": "отношение функциональное", "start": 229141, "end": 229217, "line": 6810}
+{"paragraph_id": "1.6", "paragraph_title": "1.6. Функции", "index": "Функция", "surface": "функцией", "plain": "функция", "start": 229247, "end": 229284, "line": 6812}
+{"paragraph_id": "1.6", "paragraph_title": "1.6. Функции", "index": "Запись префиксная", "surface": "префиксная", "plain": "запись префиксная", "start": 229507, "end": 229565, "line": 6824}
+{"paragraph_id": "1.6", "paragraph_title": "1.6. Функции", "index": "Аргумент функции", "surface": "аргументом", "plain": "аргумент функции", "start": 229641, "end": 229703, "line": 6830}
+{"paragraph_id": "1.6", "paragraph_title": "1.6. Функции", "index": "Значение функции", "surface": "значением", "plain": "значение функции", "start": 229715, "end": 229773, "line": 6832}
+{"paragraph_id": "1.6", "paragraph_title": "1.6. Функции", "index": "Область отправления функции", "surface": "областью отправления", "plain": "область отправления функции", "start": 230021, "end": 230108, "line": 6840}
+{"paragraph_id": "1.6", "paragraph_title": "1.6. Функции", "index": "Область прибытия функции", "surface": "областью прибытия", "plain": "область прибытия функции", "start": 230128, "end": 230209, "line": 6842}
+{"paragraph_id": "1.6", "paragraph_title": "1.6. Функции", "index": "Функция многозначная", "surface": "многозначными", "plain": "функция многозначная", "start": 230292, "end": 230363, "line": 6849}
+{"paragraph_id": "1.6", "paragraph_title": "1.6. Функции", "index": "Область определения функции", "surface": "область определения", "plain": "область определения функции", "start": 230472, "end": 230552, "line": 6855}
+{"paragraph_id": "1.6", "paragraph_title": "1.6. Функции", "index": "Область значений функции", "surface": "область значений", "plain": "область значений функции", "start": 230611, "end": 230695, "line": 6858}
+{"paragraph_id": "1.6", "paragraph_title": "1.6. Функции", "index": "Функция тотальная", "surface": "тотальной", "plain": "функция тотальная", "start": 230964, "end": 231020, "line": 6867}
+{"paragraph_id": "1.6", "paragraph_title": "1.6. Функции", "index": "Функция частичная", "surface": "частичной", "plain": "функция частичная", "start": 231047, "end": 231105, "line": 6868}
+{"paragraph_id": "1.6", "paragraph_title": "1.6. Функции", "index": "Сужение функции", "surface": "Сужением", "plain": "сужение функции", "start": 231118, "end": 231178, "line": 6872}
+{"paragraph_id": "1.6", "paragraph_title": "1.6. Функции", "index": "Продолжение функции", "surface": "продолжением", "plain": "продолжение функции", "start": 231363, "end": 231431, "line": 6879}
+{"paragraph_id": "1.6", "paragraph_title": "1.6. Функции", "index": "Преобразование", "surface": "преобразованием", "plain": "преобразование", "start": 231952, "end": 232009, "line": 6903}
+{"paragraph_id": "1.6", "paragraph_title": "1.6. Функции", "index": "Функция $n$-местная", "surface": "$n$ аргументов} {Функция (function)!$n$~аргументов ($n$ arguments)}, или \\odmkey{$n$-мест\\-ной", "plain": "функция $n$-местная", "start": 232621, "end": 232768, "line": 6923}
+{"paragraph_id": "1.6", "paragraph_title": "1.6. Функции", "index": "Функция инъективная", "surface": "инъективной", "plain": "функция инъективная", "start": 233196, "end": 233260, "line": 6941}
+{"paragraph_id": "1.6", "paragraph_title": "1.6. Функции", "index": "Инъекция", "surface": "инъекцией", "plain": "инъекция", "start": 233266, "end": 233306, "line": 6941}
+{"paragraph_id": "1.6", "paragraph_title": "1.6. Функции", "index": "Функция сюръективная", "surface": "сюръективной", "plain": "функция сюръективная", "start": 233362, "end": 233430, "line": 6943}
+{"paragraph_id": "1.6", "paragraph_title": "1.6. Функции", "index": "Сюръекция", "surface": "сюръекцией", "plain": "сюръекция", "start": 233436, "end": 233479, "line": 6943}
+{"paragraph_id": "1.6", "paragraph_title": "1.6. Функции", "index": "Функция биективная", "surface": "биективной", "plain": "функция биективная", "start": 233522, "end": 233584, "line": 6945}
+{"paragraph_id": "1.6", "paragraph_title": "1.6. Функции", "index": "Биекция", "surface": "биекцией", "plain": "биекция", "start": 233590, "end": 233628, "line": 6945}
+{"paragraph_id": "1.6", "paragraph_title": "1.6. Функции", "index": "Функция взаимно-однозначная", "surface": "взаимно однозначной", "plain": "функция взаимно-однозначная", "start": 233717, "end": 233798, "line": 6950}
+{"paragraph_id": "1.6", "paragraph_title": "1.6. Функции", "index": "Функция обратная", "surface": "обратная", "plain": "функция обратная", "start": 234801, "end": 234857, "line": 6986}
+{"paragraph_id": "1.6", "paragraph_title": "1.6. Функции", "index": "Связь", "surface": "связаны", "plain": "связь", "start": 236316, "end": 236346, "line": 7030}
+{"paragraph_id": "1.6", "paragraph_title": "1.6. Функции", "index": "Степень элемента", "surface": "степенью", "plain": "степень элемента", "start": 236547, "end": 236604, "line": 7037}
+{"paragraph_id": "1.6", "paragraph_title": "1.6. Функции", "index": "Образ", "surface": "образом", "plain": "образ", "start": 238643, "end": 238674, "line": 7121}
+{"paragraph_id": "1.6", "paragraph_title": "1.6. Функции", "index": "Прообраз", "surface": "прообразом", "plain": "прообраз", "start": 238793, "end": 238833, "line": 7127}
+{"paragraph_id": "1.6", "paragraph_title": "1.6. Функции", "index": "Функция перехода к образам", "surface": "переход к образам", "plain": "функция перехода к образам", "start": 239562, "end": 239635, "line": 7150}
+{"paragraph_id": "1.6", "paragraph_title": "1.6. Функции", "index": "Функция перехода к прообразам", "surface": "переход к прообразам", "plain": "функция перехода к прообразам", "start": 239675, "end": 239757, "line": 7152}
+{"paragraph_id": "1.6", "paragraph_title": "1.6. Функции", "index": "Суперпозиция", "surface": "суперпозицией", "plain": "суперпозиция", "start": 240855, "end": 240907, "line": 7190}
+{"paragraph_id": "1.6", "paragraph_title": "1.6. Функции", "index": "Степень функции", "surface": "Степенью", "plain": "степень функции", "start": 241928, "end": 241985, "line": 7223}
+{"paragraph_id": "1.6", "paragraph_title": "1.6. Функции", "index": "\\A{i\\ge m", "surface": "заключительно периодической} {Последовательность (sequence)!заключительно периодическая (eventially periodic)}, если $\\E{m, k\\in\\mathbb{N}", "plain": "\\a{i\\ge m", "start": 243684, "end": 243843, "line": 7279}
+{"paragraph_id": "1.6", "paragraph_title": "1.6. Функции", "index": "Период", "surface": "периодом", "plain": "период", "start": 243883, "end": 243917, "line": 7282}
+{"paragraph_id": "1.6", "paragraph_title": "1.6. Функции", "index": "Последовательность периодическая", "surface": "периодической", "plain": "последовательность периодическая", "start": 243977, "end": 244055, "line": 7283}
+{"paragraph_id": "1.6", "paragraph_title": "1.6. Функции", "index": "Оператор возврата", "surface": "оператором возврата", "plain": "оператор возврата", "start": 247441, "end": 247509, "line": 7383}

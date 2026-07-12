@@ -1,0 +1,782 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="3754" height="1045" viewBox="0 0 3754 1045" class="uml-diagram" data-theme="light" data-title="Диаграмма TDL">
+
+    <defs>
+      <linearGradient id="uml-yellow-title-gradient" x1="0%" y1="0%" x2="0%" y2="100%">
+        <stop offset="0%" stop-color="#f0c955"/>
+        <stop offset="50%" stop-color="#ffebc2"/>
+        <stop offset="100%" stop-color="#f0c955"/>
+      </linearGradient>
+
+      <linearGradient id="uml-yellow-section-gradient" x1="0%" y1="0%" x2="0%" y2="100%">
+        <stop offset="0%" stop-color="#f5d56b"/>
+        <stop offset="50%" stop-color="#fff1cf"/>
+        <stop offset="100%" stop-color="#f0c955"/>
+      </linearGradient>
+
+      <marker id="diamond-empty" markerWidth="12" markerHeight="8" viewBox="0 0 12 8" refX="0" refY="4" orient="auto" markerUnits="userSpaceOnUse">
+        <path class="uml-marker uml-marker-hollow" d="M 0 4 L 6 0 L 12 4 L 6 8 Z" fill="white" stroke="#181818" stroke-width="1"/>
+      </marker>
+
+      <marker id="diamond-filled" markerWidth="12" markerHeight="8" viewBox="0 0 12 8" refX="0" refY="4" orient="auto" markerUnits="userSpaceOnUse">
+        <path class="uml-marker uml-marker-filled" d="M 0 4 L 6 0 L 12 4 L 6 8 Z" fill="#181818" stroke="#181818" stroke-width="1"/>
+      </marker>
+
+      <marker id="diamond-empty-end" markerWidth="12" markerHeight="8" viewBox="0 0 12 8" refX="12" refY="4" orient="auto" markerUnits="userSpaceOnUse">
+        <path class="uml-marker uml-marker-hollow" d="M 0 4 L 6 0 L 12 4 L 6 8 Z" fill="white" stroke="#181818" stroke-width="1"/>
+      </marker>
+
+      <marker id="diamond-filled-end" markerWidth="12" markerHeight="8" viewBox="0 0 12 8" refX="12" refY="4" orient="auto" markerUnits="userSpaceOnUse">
+        <path class="uml-marker uml-marker-filled" d="M 0 4 L 6 0 L 12 4 L 6 8 Z" fill="#181818" stroke="#181818" stroke-width="1"/>
+      </marker>
+
+      <marker id="arrow-filled" markerWidth="9" markerHeight="8" viewBox="0 0 9 8" refX="9" refY="4" orient="auto" markerUnits="userSpaceOnUse">
+        <path class="uml-marker uml-marker-filled" d="M 9 4 L 0 0 L 4 4 L 0 8 Z" fill="#181818" stroke="#181818" stroke-width="1"/>
+      </marker>
+
+      <marker id="triangle-empty" markerWidth="18" markerHeight="12" viewBox="0 0 18 12" refX="18" refY="6" orient="auto" markerUnits="userSpaceOnUse">
+        <path class="uml-marker uml-marker-hollow" d="M 18 6 L 0 0 L 0 12 Z" fill="white" stroke="#181818" stroke-width="1"/>
+      </marker>
+    </defs>
+    
+<style id="uml-theme-light" type="text/css"><![CDATA[
+svg.uml-diagram {
+  background: #ffffff;
+}
+
+.uml-class-title {
+  fill: #e5e5e5;
+}
+
+.uml-class-section,
+.uml-enum-body {
+  fill: #eeeeee;
+}
+
+.uml-class-outline,
+.uml-class-title,
+.uml-class-section,
+.uml-enum-body,
+.uml-enum-title,
+.uml-template-box {
+  stroke: #999999;
+  stroke-width: 1;
+}
+
+.uml-class-title-text,
+.uml-feature-text,
+.uml-template-text,
+.uml-edge-label,
+.uml-multiplicity {
+  fill: #000000;
+}
+
+.uml-kind-badge-c {
+  fill: #b8d9bf;
+  stroke: #3e7d4a;
+}
+
+.uml-kind-badge-e {
+  fill: #f29b86;
+  stroke: #9d3f2f;
+}
+
+.uml-kind-badge-i {
+  fill: #c9d7ff;
+  stroke: #4a61a8;
+}
+
+.uml-kind-badge-d {
+  fill: #d9c7f2;
+  stroke: #6f4aa8;
+}
+
+.uml-kind-badge-text {
+  fill: #000000;
+}
+
+.uml-attribute-bullet {
+  fill: #ffffff;
+  stroke: #3aa76d;
+}
+
+.uml-operation-bullet {
+  fill: #3aa76d;
+  stroke: #2a7d50;
+}
+
+.uml-edge-line {
+  stroke: #181818;
+  stroke-width: 1;
+}
+
+.uml-marker-filled {
+  fill: #181818;
+  stroke: #181818;
+}
+
+.uml-marker-hollow {
+  fill: #ffffff;
+  stroke: #181818;
+}
+
+]]></style>
+
+<g class="uml-edge"
+   data-type="generalization"
+   data-src="БратУзла"
+   data-tgt="ВетвьОрдерева"
+   data-substitutable="true">
+  <path class="uml-edge-line" d="M1610.1,54.1 C1567.4,71.7 1497.8,100.4 1455.0,118.1" fill="none" stroke="#181818" stroke-width="1.0" marker-end="url(#triangle-empty)"/>
+</g>
+
+
+<g class="uml-edge"
+   data-type="generalization"
+   data-src="БратУзла"
+   data-tgt="ВысотаДерева"
+   data-substitutable="true">
+  <path class="uml-edge-line" d="M1631.5,53.8 C1607.6,76.0 1561.0,118.2 1518.6,150.5 C1486.9,174.7 1448.3,199.7 1423.6,215.2" fill="none" stroke="#181818" stroke-width="1.0" marker-end="url(#triangle-empty)"/>
+</g>
+
+
+<g class="uml-edge"
+   data-type="generalization"
+   data-src="БратУзла"
+   data-tgt="КронаОрдерева"
+   data-substitutable="true">
+  <path class="uml-edge-line" d="M1650.9,53.7 C1662.0,103.5 1697.1,262.1 1708.2,312.2" fill="none" stroke="#181818" stroke-width="1.0" marker-end="url(#triangle-empty)"/>
+</g>
+
+
+<g class="uml-edge"
+   data-type="generalization"
+   data-src="БратУзла"
+   data-tgt="ЛистОрдерева"
+   data-substitutable="true">
+  <path class="uml-edge-line" d="M1587.1,38.2 C1515.1,40.9 1394.9,55.5 1316.6,118.6 C1224.9,192.5 1232.9,358.0 1237.8,409.1" fill="none" stroke="#181818" stroke-width="1.0" marker-end="url(#triangle-empty)"/>
+</g>
+
+
+<g class="uml-edge"
+   data-type="generalization"
+   data-src="БратУзла"
+   data-tgt="ПотомокУзла"
+   data-substitutable="true">
+  <path class="uml-edge-line" d="M1707.8,38.2 C1913.4,38.3 2575.6,52.6 2575.6,230.5 C2575.6,230.5 2575.6,230.5 2575.6,329.5 C2575.6,446.9 2170.5,499.4 2009.5,515.6" fill="none" stroke="#181818" stroke-width="1.0" marker-end="url(#triangle-empty)"/>
+</g>
+
+
+<g class="uml-edge"
+   data-type="generalization"
+   data-src="БратУзла"
+   data-tgt="ПредокУзла"
+   data-substitutable="true">
+  <path class="uml-edge-line" d="M1707.7,41.2 C1961.2,52.8 2929.6,105.3 2929.6,230.5 C2929.6,230.5 2929.6,230.5 2929.6,426.5 C2929.6,521.5 2217.3,593.4 2001.7,613.1" fill="none" stroke="#181818" stroke-width="1.0" marker-end="url(#triangle-empty)"/>
+</g>
+
+
+<g class="uml-edge"
+   data-type="generalization"
+   data-src="БратУзла"
+   data-tgt="РодительУзла"
+   data-substitutable="true">
+  <path class="uml-edge-line" d="M1708.0,40.8 C1906.8,48.5 2540.0,75.9 2739.6,118.6 C2882.0,149.1 3047.6,84.9 3047.6,230.5 C3047.6,230.5 3047.6,230.5 3047.6,426.5 C3047.6,590.4 2896.2,575.5 2743.6,635.4 C2580.9,699.2 2372.8,712.7 2267.0,715.1" fill="none" stroke="#181818" stroke-width="1.0" marker-end="url(#triangle-empty)"/>
+</g>
+
+
+<g class="uml-edge"
+   data-type="generalization"
+   data-src="БратУзла"
+   data-tgt="СынУзла"
+   data-substitutable="true">
+  <path class="uml-edge-line" d="M1587.4,40.5 C1320.6,49.5 257.6,94.2 257.6,230.5 C257.6,230.5 257.6,230.5 257.6,523.4 C257.6,749.5 1106.8,800.4 1343.2,810.2" fill="none" stroke="#181818" stroke-width="1.0" marker-end="url(#triangle-empty)"/>
+</g>
+
+
+<g class="uml-edge"
+   data-type="generalization"
+   data-src="БратУзла"
+   data-tgt="УровеньУзла"
+   data-substitutable="true">
+  <path class="uml-edge-line" d="M1587.2,39.0 C1371.3,40.9 638.9,52.2 415.6,118.6 C240.1,170.8 139.6,241.4 139.6,424.5 C139.6,424.5 139.6,424.5 139.6,620.4 C139.6,848.5 992.7,897.8 1237.6,907.2" fill="none" stroke="#181818" stroke-width="1.0" marker-end="url(#triangle-empty)"/>
+</g>
+
+
+<g class="uml-edge"
+   data-type="generalization"
+   data-src="БратУзла"
+   data-tgt="ЯрусДерева"
+   data-substitutable="true">
+  <path class="uml-edge-line" d="M1707.8,39.5 C1927.3,43.3 2683.9,60.5 2917.6,118.6 C3035.0,147.7 3165.6,109.6 3165.6,230.5 C3165.6,230.5 3165.6,230.5 3165.6,814.3 C3165.6,944.0 2160.9,993.3 1899.9,1004.0" fill="none" stroke="#181818" stroke-width="1.0" marker-end="url(#triangle-empty)"/>
+</g>
+
+
+<g class="uml-edge"
+   data-type="generalization"
+   data-src="ВетвьОрдерева"
+   data-tgt="ВысотаДерева"
+   data-substitutable="true">
+  <path class="uml-edge-line" d="M1414.5,150.8 C1411.0,168.5 1405.2,197.6 1401.6,215.3" fill="none" stroke="#181818" stroke-width="1.0" marker-end="url(#triangle-empty)"/>
+</g>
+
+
+<g class="uml-edge"
+   data-type="generalization"
+   data-src="ВетвьОрдерева"
+   data-tgt="КронаОрдерева"
+   data-substitutable="true">
+  <path class="uml-edge-line" d="M1441.2,150.9 C1496.2,186.9 1632.8,276.0 1687.9,312.0" fill="none" stroke="#181818" stroke-width="1.0" marker-end="url(#triangle-empty)"/>
+</g>
+
+
+<g class="uml-edge"
+   data-type="generalization"
+   data-src="ВетвьОрдерева"
+   data-tgt="ЛистОрдерева"
+   data-substitutable="true">
+  <path class="uml-edge-line" d="M1383.6,151.0 C1357.6,164.5 1322.6,186.5 1301.6,215.5 C1256.6,277.5 1244.0,372.2 1240.7,409.0" fill="none" stroke="#181818" stroke-width="1.0" marker-end="url(#triangle-empty)"/>
+</g>
+
+
+<g class="uml-edge"
+   data-type="generalization"
+   data-src="ВетвьОрдерева"
+   data-tgt="ПотомокУзла"
+   data-substitutable="true">
+  <path class="uml-edge-line" d="M1480.6,151.0 C1564.5,174.2 1713.8,224.9 1812.6,312.5 C1877.9,370.4 1922.8,468.3 1938.5,506.0" fill="none" stroke="#181818" stroke-width="1.0" marker-end="url(#triangle-empty)"/>
+</g>
+
+
+<g class="uml-edge"
+   data-type="generalization"
+   data-src="ВетвьОрдерева"
+   data-tgt="ПредокУзла"
+   data-substitutable="true">
+  <path class="uml-edge-line" d="M1489.7,140.2 C1717.9,156.7 2414.6,222.1 2504.6,409.5 C2510.8,422.3 2513.0,430.0 2504.6,441.4 C2444.0,524.0 2135.3,585.3 2002.0,608.4" fill="none" stroke="#181818" stroke-width="1.0" marker-end="url(#triangle-empty)"/>
+</g>
+
+
+<g class="uml-edge"
+   data-type="generalization"
+   data-src="ВетвьОрдерева"
+   data-tgt="РодительУзла"
+   data-substitutable="true">
+  <path class="uml-edge-line" d="M1489.6,137.8 C1775.1,147.6 2811.6,192.7 2811.6,327.5 C2811.6,327.5 2811.6,327.5 2811.6,523.4 C2811.6,636.5 2427.1,690.9 2267.1,708.6" fill="none" stroke="#181818" stroke-width="1.0" marker-end="url(#triangle-empty)"/>
+</g>
+
+
+<g class="uml-edge"
+   data-type="generalization"
+   data-src="ВетвьОрдерева"
+   data-tgt="СынУзла"
+   data-substitutable="true">
+  <path class="uml-edge-line" d="M1381.5,151.0 C1350.3,165.2 1304.7,188.3 1269.6,215.5 C1111.3,338.5 1065.3,404.6 1039.6,603.4 C1031.4,666.7 1051.0,694.9 1102.6,732.4 C1174.6,784.5 1278.4,802.7 1343.3,809.0" fill="none" stroke="#181818" stroke-width="1.0" marker-end="url(#triangle-empty)"/>
+</g>
+
+
+<g class="uml-edge"
+   data-type="generalization"
+   data-src="ВетвьОрдерева"
+   data-tgt="УровеньУзла"
+   data-substitutable="true">
+  <path class="uml-edge-line" d="M1345.6,141.2 C1109.7,160.5 375.6,228.7 375.6,327.5 C375.6,327.5 375.6,327.5 375.6,523.4 C375.6,710.5 1027.2,855.1 1237.8,897.0" fill="none" stroke="#181818" stroke-width="1.0" marker-end="url(#triangle-empty)"/>
+</g>
+
+
+<g class="uml-edge"
+   data-type="generalization"
+   data-src="ВетвьОрдерева"
+   data-tgt="ЯрусДерева"
+   data-substitutable="true">
+  <path class="uml-edge-line" d="M1345.5,134.9 C1059.6,134.4 21.6,151.3 21.6,424.5 C21.6,424.5 21.6,424.5 21.6,814.3 C21.6,995.0 1460.5,1006.1 1777.4,1006.4" fill="none" stroke="#181818" stroke-width="1.0" marker-end="url(#triangle-empty)"/>
+</g>
+
+
+<g class="uml-edge"
+   data-type="generalization"
+   data-src="ВысотаДерева"
+   data-tgt="КронаОрдерева"
+   data-substitutable="true">
+  <path class="uml-edge-line" d="M1449.6,248.0 C1507.8,265.6 1602.4,294.4 1660.6,312.0" fill="none" stroke="#181818" stroke-width="1.0" marker-end="url(#triangle-empty)"/>
+</g>
+
+
+<g class="uml-edge"
+   data-type="generalization"
+   data-src="ВысотаДерева"
+   data-tgt="ЛистОрдерева"
+   data-substitutable="true">
+  <path class="uml-edge-line" d="M1385.9,247.9 C1356.1,283.8 1282.2,373.0 1252.4,409.0" fill="none" stroke="#181818" stroke-width="1.0" marker-end="url(#triangle-empty)"/>
+</g>
+
+
+<g class="uml-edge"
+   data-type="generalization"
+   data-src="ВысотаДерева"
+   data-tgt="ПотомокУзла"
+   data-substitutable="true">
+  <path class="uml-edge-line" d="M1427.6,247.9 C1522.0,297.8 1820.5,455.8 1915.4,506.0" fill="none" stroke="#181818" stroke-width="1.0" marker-end="url(#triangle-empty)"/>
+</g>
+
+
+<g class="uml-edge"
+   data-type="generalization"
+   data-src="ВысотаДерева"
+   data-tgt="ПредокУзла"
+   data-substitutable="true">
+  <path class="uml-edge-line" d="M1417.6,247.7 C1445.0,269.5 1497.6,310.9 1543.6,344.5 C1683.2,446.5 1855.9,562.1 1917.5,603.1" fill="none" stroke="#181818" stroke-width="1.0" marker-end="url(#triangle-empty)"/>
+</g>
+
+
+<g class="uml-edge"
+   data-type="generalization"
+   data-src="ВысотаДерева"
+   data-tgt="РодительУзла"
+   data-substitutable="true">
+  <path class="uml-edge-line" d="M1467.2,235.8 C1595.9,244.9 1877.6,279.4 2068.6,409.5 C2156.2,469.2 2182.2,500.5 2207.6,603.4 C2215.9,637.1 2208.3,678.1 2202.9,699.9" fill="none" stroke="#181818" stroke-width="1.0" marker-end="url(#triangle-empty)"/>
+</g>
+
+
+<g class="uml-edge"
+   data-type="generalization"
+   data-src="ВысотаДерева"
+   data-tgt="СынУзла"
+   data-substitutable="true">
+  <path class="uml-edge-line" d="M1356.8,247.9 C1271.1,282.5 1083.6,374.9 1083.6,521.4 C1083.6,521.4 1083.6,521.4 1083.6,620.4 C1083.6,740.2 1250.7,787.1 1343.4,803.9" fill="none" stroke="#181818" stroke-width="1.0" marker-end="url(#triangle-empty)"/>
+</g>
+
+
+<g class="uml-edge"
+   data-type="generalization"
+   data-src="ВысотаДерева"
+   data-tgt="УровеньУзла"
+   data-substitutable="true">
+  <path class="uml-edge-line" d="M1330.1,247.0 C1283.1,259.2 1221.0,279.9 1173.6,312.5 C1053.7,394.9 1042.1,459.1 1023.6,603.4 C1010.5,705.6 995.6,764.4 1075.6,829.3 C1122.5,867.4 1188.8,887.9 1237.6,898.6" fill="none" stroke="#181818" stroke-width="1.0" marker-end="url(#triangle-empty)"/>
+</g>
+
+
+<g class="uml-edge"
+   data-type="generalization"
+   data-src="ВысотаДерева"
+   data-tgt="ЯрусДерева"
+   data-substitutable="true">
+  <path class="uml-edge-line" d="M1330.1,239.8 C1270.0,248.9 1182.5,268.9 1118.6,312.5 C1073.8,343.0 1068.5,360.8 1044.6,409.5 C962.2,577.0 934.9,671.5 1034.6,829.3 C1067.0,880.6 1076.0,899.8 1130.6,926.3 C1244.2,981.4 1626.8,999.5 1777.2,1004.5" fill="none" stroke="#181818" stroke-width="1.0" marker-end="url(#triangle-empty)"/>
+</g>
+
+
+<g class="uml-edge"
+   data-type="generalization"
+   data-src="ДеревоБинарное"
+   data-tgt="ДеревоДвоичное"
+   data-substitutable="true">
+  <path class="uml-edge-line" d="M3328.6,53.8 C3328.6,71.6 3328.6,100.6 3328.6,118.3" fill="none" stroke="#181818" stroke-width="1.0" marker-end="url(#triangle-empty)"/>
+</g>
+
+
+<g class="uml-edge"
+   data-type="generalization"
+   data-src="ДеревоКорневое"
+   data-tgt="ДеревоОриентированное"
+   data-substitutable="true">
+  <path class="uml-edge-line" d="M3641.5,53.8 C3624.0,71.6 3595.2,100.6 3577.7,118.3" fill="none" stroke="#181818" stroke-width="1.0" marker-end="url(#triangle-empty)"/>
+</g>
+
+
+<g class="uml-edge"
+   data-type="generalization"
+   data-src="ДеревоКорневое"
+   data-tgt="КореньОрдерева"
+   data-substitutable="true">
+  <path class="uml-edge-line" d="M3665.8,53.8 C3674.7,69.5 3687.5,94.8 3692.6,118.6 C3700.2,153.9 3680.1,193.9 3666.9,215.2" fill="none" stroke="#181818" stroke-width="1.0" marker-end="url(#triangle-empty)"/>
+</g>
+
+
+<g class="uml-edge"
+   data-type="generalization"
+   data-src="ДеревоОриентированное"
+   data-tgt="КореньОрдерева"
+   data-substitutable="true">
+  <path class="uml-edge-line" d="M3577.7,150.8 C3595.2,168.5 3624.0,197.6 3641.5,215.3" fill="none" stroke="#181818" stroke-width="1.0" marker-end="url(#triangle-empty)"/>
+</g>
+
+
+<g class="uml-edge"
+   data-type="generalization"
+   data-src="КореньОрдерева"
+   data-tgt="Ордерево"
+   data-substitutable="true">
+  <path class="uml-edge-line" d="M3656.6,247.8 C3656.6,265.5 3656.6,294.6 3656.6,312.3" fill="none" stroke="#181818" stroke-width="1.0" marker-end="url(#triangle-empty)"/>
+</g>
+
+
+<g class="uml-edge"
+   data-type="generalization"
+   data-src="КронаОрдерева"
+   data-tgt="ЛистОрдерева"
+   data-substitutable="true">
+  <path class="uml-edge-line" d="M1639.4,344.0 C1549.3,362.1 1396.2,392.9 1308.0,410.7" fill="none" stroke="#181818" stroke-width="1.0" marker-end="url(#triangle-empty)"/>
+</g>
+
+
+<g class="uml-edge"
+   data-type="generalization"
+   data-src="КронаОрдерева"
+   data-tgt="ПотомокУзла"
+   data-substitutable="true">
+  <path class="uml-edge-line" d="M1730.3,344.9 C1773.9,380.8 1882.1,470.0 1925.8,506.0" fill="none" stroke="#181818" stroke-width="1.0" marker-end="url(#triangle-empty)"/>
+</g>
+
+
+<g class="uml-edge"
+   data-type="generalization"
+   data-src="КронаОрдерева"
+   data-tgt="ПредокУзла"
+   data-substitutable="true">
+  <path class="uml-edge-line" d="M1783.2,344.9 C1862.0,366.2 1984.8,413.0 2038.6,506.4 C2060.9,545.2 2008.3,582.7 1971.9,602.9" fill="none" stroke="#181818" stroke-width="1.0" marker-end="url(#triangle-empty)"/>
+</g>
+
+
+<g class="uml-edge"
+   data-type="generalization"
+   data-src="КронаОрдерева"
+   data-tgt="РодительУзла"
+   data-substitutable="true">
+  <path class="uml-edge-line" d="M1783.7,336.7 C1846.5,345.7 1937.8,365.7 2005.6,409.5 C2119.0,482.7 2178.1,648.7 2194.1,700.0" fill="none" stroke="#181818" stroke-width="1.0" marker-end="url(#triangle-empty)"/>
+</g>
+
+
+<g class="uml-edge"
+   data-type="generalization"
+   data-src="КронаОрдерева"
+   data-tgt="СынУзла"
+   data-substitutable="true">
+  <path class="uml-edge-line" d="M1708.3,345.0 C1703.2,367.1 1692.2,408.9 1675.6,441.4 C1598.5,592.6 1462.0,748.4 1417.8,796.9" fill="none" stroke="#181818" stroke-width="1.0" marker-end="url(#triangle-empty)"/>
+</g>
+
+
+<g class="uml-edge"
+   data-type="generalization"
+   data-src="КронаОрдерева"
+   data-tgt="УровеньУзла"
+   data-substitutable="true">
+  <path class="uml-edge-line" d="M1692.2,344.7 C1625.6,398.2 1405.3,585.9 1314.6,797.4 C1300.7,829.7 1300.4,871.9 1301.5,894.1" fill="none" stroke="#181818" stroke-width="1.0" marker-end="url(#triangle-empty)"/>
+</g>
+
+
+<g class="uml-edge"
+   data-type="generalization"
+   data-src="КронаОрдерева"
+   data-tgt="ЯрусДерева"
+   data-substitutable="true">
+  <path class="uml-edge-line" d="M1783.4,334.5 C2060.9,355.7 3047.6,449.8 3047.6,715.4 C3047.6,715.4 3047.6,715.4 3047.6,814.3 C3047.6,931.8 2145.6,989.5 1899.8,1003.1" fill="none" stroke="#181818" stroke-width="1.0" marker-end="url(#triangle-empty)"/>
+</g>
+
+
+<g class="uml-edge"
+   data-type="generalization"
+   data-src="ЛистОрдерева"
+   data-tgt="ПотомокУзла"
+   data-substitutable="true">
+  <path class="uml-edge-line" d="M1308.2,435.7 C1444.2,454.0 1746.7,494.8 1879.7,512.7" fill="none" stroke="#181818" stroke-width="1.0" marker-end="url(#triangle-empty)"/>
+</g>
+
+
+<g class="uml-edge"
+   data-type="generalization"
+   data-src="ЛистОрдерева"
+   data-tgt="ПредокУзла"
+   data-substitutable="true">
+  <path class="uml-edge-line" d="M1291.5,441.9 C1366.1,463.9 1508.1,505.4 1629.6,538.4 C1716.1,561.9 1816.6,587.5 1879.4,603.2" fill="none" stroke="#181818" stroke-width="1.0" marker-end="url(#triangle-empty)"/>
+</g>
+
+
+<g class="uml-edge"
+   data-type="generalization"
+   data-src="ЛистОрдерева"
+   data-tgt="РодительУзла"
+   data-substitutable="true">
+  <path class="uml-edge-line" d="M1273.1,441.9 C1323.5,464.8 1422.1,508.3 1508.6,538.4 C1731.4,616.0 2005.2,676.2 2130.4,701.9" fill="none" stroke="#181818" stroke-width="1.0" marker-end="url(#triangle-empty)"/>
+</g>
+
+
+<g class="uml-edge"
+   data-type="generalization"
+   data-src="ЛистОрдерева"
+   data-tgt="СынУзла"
+   data-substitutable="true">
+  <path class="uml-edge-line" d="M1246.0,441.6 C1272.2,503.2 1370.6,734.7 1397.0,796.9" fill="none" stroke="#181818" stroke-width="1.0" marker-end="url(#triangle-empty)"/>
+</g>
+
+
+<g class="uml-edge"
+   data-type="generalization"
+   data-src="ЛистОрдерева"
+   data-tgt="УровеньУзла"
+   data-substitutable="true">
+  <path class="uml-edge-line" d="M1215.7,441.8 C1151.3,485.0 983.1,612.7 1039.6,732.4 C1081.0,819.9 1189.8,870.7 1253.7,893.9" fill="none" stroke="#181818" stroke-width="1.0" marker-end="url(#triangle-empty)"/>
+</g>
+
+
+<g class="uml-edge"
+   data-type="generalization"
+   data-src="ЛистОрдерева"
+   data-tgt="ЯрусДерева"
+   data-substitutable="true">
+  <path class="uml-edge-line" d="M1196.7,441.9 C1163.9,455.3 1118.9,477.1 1086.6,506.4 C1048.6,541.0 1040.0,554.7 1023.6,603.4 C990.8,701.1 1005.9,753.5 1075.6,829.3 C1125.1,883.1 1140.6,899.3 1208.6,926.3 C1311.4,967.1 1640.0,993.1 1777.3,1002.4" fill="none" stroke="#181818" stroke-width="1.0" marker-end="url(#triangle-empty)"/>
+</g>
+
+
+<g class="uml-edge"
+   data-type="generalization"
+   data-src="ПотомокУзла"
+   data-tgt="ПредокУзла"
+   data-substitutable="true">
+  <path class="uml-edge-line" d="M1944.0,538.7 C1943.2,556.4 1942.0,585.5 1941.2,603.2" fill="none" stroke="#181818" stroke-width="1.0" marker-end="url(#triangle-empty)"/>
+</g>
+
+
+<g class="uml-edge"
+   data-type="generalization"
+   data-src="ПотомокУзла"
+   data-tgt="РодительУзла"
+   data-substitutable="true">
+  <path class="uml-edge-line" d="M1965.0,538.8 C2012.5,574.8 2130.5,663.9 2178.2,699.9" fill="none" stroke="#181818" stroke-width="1.0" marker-end="url(#triangle-empty)"/>
+</g>
+
+
+<g class="uml-edge"
+   data-type="generalization"
+   data-src="ПотомокУзла"
+   data-tgt="СынУзла"
+   data-substitutable="true">
+  <path class="uml-edge-line" d="M1901.1,538.8 C1860.5,553.7 1798.9,577.6 1747.6,603.4 C1621.2,667.0 1479.5,760.7 1425.8,797.1" fill="none" stroke="#181818" stroke-width="1.0" marker-end="url(#triangle-empty)"/>
+</g>
+
+
+<g class="uml-edge"
+   data-type="generalization"
+   data-src="ПотомокУзла"
+   data-tgt="УровеньУзла"
+   data-substitutable="true">
+  <path class="uml-edge-line" d="M1925.2,538.6 C1864.2,585.9 1669.6,733.4 1492.6,829.3 C1444.1,855.6 1385.2,879.2 1346.0,893.8" fill="none" stroke="#181818" stroke-width="1.0" marker-end="url(#triangle-empty)"/>
+</g>
+
+
+<g class="uml-edge"
+   data-type="generalization"
+   data-src="ПотомокУзла"
+   data-tgt="ЯрусДерева"
+   data-substitutable="true">
+  <path class="uml-edge-line" d="M2009.5,532.5 C2124.5,551.9 2347.0,606.5 2295.6,732.4 C2250.0,844.1 2208.9,863.9 2105.6,926.3 C2041.2,965.2 1956.5,986.3 1900.0,997.0" fill="none" stroke="#181818" stroke-width="1.0" marker-end="url(#triangle-empty)"/>
+</g>
+
+
+<g class="uml-edge"
+   data-type="generalization"
+   data-src="ПредокУзла"
+   data-tgt="РодительУзла"
+   data-substitutable="true">
+  <path class="uml-edge-line" d="M1982.6,635.9 C2030.6,653.5 2108.6,682.2 2156.6,699.9" fill="none" stroke="#181818" stroke-width="1.0" marker-end="url(#triangle-empty)"/>
+</g>
+
+
+<g class="uml-edge"
+   data-type="generalization"
+   data-src="ПредокУзла"
+   data-tgt="СынУзла"
+   data-substitutable="true">
+  <path class="uml-edge-line" d="M1897.6,635.8 C1797.0,671.7 1547.6,760.9 1446.8,796.9" fill="none" stroke="#181818" stroke-width="1.0" marker-end="url(#triangle-empty)"/>
+</g>
+
+
+<g class="uml-edge"
+   data-type="generalization"
+   data-src="ПредокУзла"
+   data-tgt="УровеньУзла"
+   data-substitutable="true">
+  <path class="uml-edge-line" d="M1930.4,635.8 C1903.3,675.3 1825.6,780.2 1732.6,829.3 C1614.2,891.8 1455.0,906.2 1367.3,909.0" fill="none" stroke="#181818" stroke-width="1.0" marker-end="url(#triangle-empty)"/>
+</g>
+
+
+<g class="uml-edge"
+   data-type="generalization"
+   data-src="ПредокУзла"
+   data-tgt="ЯрусДерева"
+   data-substitutable="true">
+  <path class="uml-edge-line" d="M1936.7,635.6 C1931.1,657.2 1920.7,697.8 1911.6,732.4 C1885.7,830.9 1854.0,949.2 1842.8,990.8" fill="none" stroke="#181818" stroke-width="1.0" marker-end="url(#triangle-empty)"/>
+</g>
+
+
+<g class="uml-edge"
+   data-type="generalization"
+   data-src="РодительУзла"
+   data-tgt="СынУзла"
+   data-substitutable="true">
+  <path class="uml-edge-line" d="M2130.1,725.5 C1977.0,743.8 1609.1,787.8 1463.9,805.1" fill="none" stroke="#181818" stroke-width="1.0" marker-end="url(#triangle-empty)"/>
+</g>
+
+
+<g class="uml-edge"
+   data-type="generalization"
+   data-src="РодительУзла"
+   data-tgt="УровеньУзла"
+   data-substitutable="true">
+  <path class="uml-edge-line" d="M2168.5,732.8 C2119.3,757.4 2017.9,805.1 1926.6,829.3 C1727.1,882.2 1482.0,900.6 1367.4,906.6" fill="none" stroke="#181818" stroke-width="1.0" marker-end="url(#triangle-empty)"/>
+</g>
+
+
+<g class="uml-edge"
+   data-type="generalization"
+   data-src="РодительУзла"
+   data-tgt="ЯрусДерева"
+   data-substitutable="true">
+  <path class="uml-edge-line" d="M2191.2,732.8 C2172.0,770.9 2117.6,870.4 2044.6,926.3 C2001.6,959.1 1943.5,980.1 1899.9,992.2" fill="none" stroke="#181818" stroke-width="1.0" marker-end="url(#triangle-empty)"/>
+</g>
+
+
+<g class="uml-edge"
+   data-type="generalization"
+   data-src="СынУзла"
+   data-tgt="УровеньУзла"
+   data-substitutable="true">
+  <path class="uml-edge-line" d="M1387.4,829.6 C1368.5,847.3 1337.6,876.4 1318.8,894.1" fill="none" stroke="#181818" stroke-width="1.0" marker-end="url(#triangle-empty)"/>
+</g>
+
+
+<g class="uml-edge"
+   data-type="generalization"
+   data-src="СынУзла"
+   data-tgt="ЯрусДерева"
+   data-substitutable="true">
+  <path class="uml-edge-line" d="M1438.5,829.7 C1519.9,865.6 1722.0,954.8 1803.6,990.8" fill="none" stroke="#181818" stroke-width="1.0" marker-end="url(#triangle-empty)"/>
+</g>
+
+
+<g class="uml-edge"
+   data-type="generalization"
+   data-src="УровеньУзла"
+   data-tgt="ЯрусДерева"
+   data-substitutable="true">
+  <path class="uml-edge-line" d="M1367.5,922.8 C1471.9,941.3 1675.6,977.4 1777.5,995.4" fill="none" stroke="#181818" stroke-width="1.0" marker-end="url(#triangle-empty)"/>
+</g>
+
+<g transform="translate(1587,21)" class="uml-class" data-id="БратУзла" data-name="БратУзла" data-type="class" data-class-kind="class" data-visibility="" data-stereotype="" data-abstract="false" data-multiplicity="" data-attributes-count="0" data-operations-count="0" data-tagged-values-count="0" data-template-parameters-count="0">
+<rect class="uml-class-title" x="0" y="0" width="120" height="32" fill="#e5e5e5"/>
+<rect class="uml-class-outline uml-class-title-outline" x="0" y="0" width="120" height="32" stroke="#999999" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+<circle class="uml-kind-badge uml-kind-badge-c" cx="19" cy="16.0" r="11" fill="#b8d9bf" stroke="#3e7d4a" stroke-width="1.5"/><text class="uml-kind-badge-text" x="19" y="20.0" text-anchor="middle" font-family="Arial" font-size="12" font-weight="700" fill="black">C</text>
+<text class="uml-class-title-text" x="38" y="20" text-anchor="start" fill="black" font-family="Arial" font-size="12" font-weight="500">БратУзла</text>
+<rect class="uml-bbox" x="0" y="0" width="120" height="32" fill="none" stroke="none" pointer-events="all"/>
+</g>
+<g transform="translate(1345,118)" class="uml-class" data-id="ВетвьОрдерева" data-name="ВетвьОрдерева" data-type="class" data-class-kind="class" data-visibility="" data-stereotype="" data-abstract="false" data-multiplicity="" data-attributes-count="0" data-operations-count="0" data-tagged-values-count="0" data-template-parameters-count="0">
+<rect class="uml-class-title" x="0" y="0" width="143.60000000000002" height="32" fill="#e5e5e5"/>
+<rect class="uml-class-outline uml-class-title-outline" x="0" y="0" width="143.60000000000002" height="32" stroke="#999999" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+<circle class="uml-kind-badge uml-kind-badge-c" cx="19" cy="16.0" r="11" fill="#b8d9bf" stroke="#3e7d4a" stroke-width="1.5"/><text class="uml-kind-badge-text" x="19" y="20.0" text-anchor="middle" font-family="Arial" font-size="12" font-weight="700" fill="black">C</text>
+<text class="uml-class-title-text" x="38" y="20" text-anchor="start" fill="black" font-family="Arial" font-size="12" font-weight="500">ВетвьОрдерева</text>
+<rect class="uml-bbox" x="0" y="0" width="143.60000000000002" height="32" fill="none" stroke="none" pointer-events="all"/>
+</g>
+<g transform="translate(1330,215)" class="uml-class" data-id="ВысотаДерева" data-name="ВысотаДерева" data-type="class" data-class-kind="class" data-visibility="" data-stereotype="" data-abstract="false" data-multiplicity="" data-attributes-count="0" data-operations-count="0" data-tagged-values-count="0" data-template-parameters-count="0">
+<rect class="uml-class-title" x="0" y="0" width="136.4" height="32" fill="#e5e5e5"/>
+<rect class="uml-class-outline uml-class-title-outline" x="0" y="0" width="136.4" height="32" stroke="#999999" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+<circle class="uml-kind-badge uml-kind-badge-c" cx="19" cy="16.0" r="11" fill="#b8d9bf" stroke="#3e7d4a" stroke-width="1.5"/><text class="uml-kind-badge-text" x="19" y="20.0" text-anchor="middle" font-family="Arial" font-size="12" font-weight="700" fill="black">C</text>
+<text class="uml-class-title-text" x="38" y="20" text-anchor="start" fill="black" font-family="Arial" font-size="12" font-weight="500">ВысотаДерева</text>
+<rect class="uml-bbox" x="0" y="0" width="136.4" height="32" fill="none" stroke="none" pointer-events="all"/>
+</g>
+<g transform="translate(3253,21)" class="uml-class" data-id="ДеревоБинарное" data-name="ДеревоБинарное" data-type="class" data-class-kind="class" data-visibility="" data-stereotype="" data-abstract="false" data-multiplicity="" data-attributes-count="0" data-operations-count="0" data-tagged-values-count="0" data-template-parameters-count="0">
+<rect class="uml-class-title" x="0" y="0" width="150.8" height="32" fill="#e5e5e5"/>
+<rect class="uml-class-outline uml-class-title-outline" x="0" y="0" width="150.8" height="32" stroke="#999999" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+<circle class="uml-kind-badge uml-kind-badge-c" cx="19" cy="16.0" r="11" fill="#b8d9bf" stroke="#3e7d4a" stroke-width="1.5"/><text class="uml-kind-badge-text" x="19" y="20.0" text-anchor="middle" font-family="Arial" font-size="12" font-weight="700" fill="black">C</text>
+<text class="uml-class-title-text" x="38" y="20" text-anchor="start" fill="black" font-family="Arial" font-size="12" font-weight="500">ДеревоБинарное</text>
+<rect class="uml-bbox" x="0" y="0" width="150.8" height="32" fill="none" stroke="none" pointer-events="all"/>
+</g>
+<g transform="translate(3253,118)" class="uml-class" data-id="ДеревоДвоичное" data-name="ДеревоДвоичное" data-type="class" data-class-kind="class" data-visibility="" data-stereotype="" data-abstract="false" data-multiplicity="" data-attributes-count="0" data-operations-count="0" data-tagged-values-count="0" data-template-parameters-count="0">
+<rect class="uml-class-title" x="0" y="0" width="150.8" height="32" fill="#e5e5e5"/>
+<rect class="uml-class-outline uml-class-title-outline" x="0" y="0" width="150.8" height="32" stroke="#999999" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+<circle class="uml-kind-badge uml-kind-badge-c" cx="19" cy="16.0" r="11" fill="#b8d9bf" stroke="#3e7d4a" stroke-width="1.5"/><text class="uml-kind-badge-text" x="19" y="20.0" text-anchor="middle" font-family="Arial" font-size="12" font-weight="700" fill="black">C</text>
+<text class="uml-class-title-text" x="38" y="20" text-anchor="start" fill="black" font-family="Arial" font-size="12" font-weight="500">ДеревоДвоичное</text>
+<rect class="uml-bbox" x="0" y="0" width="150.8" height="32" fill="none" stroke="none" pointer-events="all"/>
+</g>
+<g transform="translate(3581,21)" class="uml-class" data-id="ДеревоКорневое" data-name="ДеревоКорневое" data-type="class" data-class-kind="class" data-visibility="" data-stereotype="" data-abstract="false" data-multiplicity="" data-attributes-count="0" data-operations-count="0" data-tagged-values-count="0" data-template-parameters-count="0">
+<rect class="uml-class-title" x="0" y="0" width="150.8" height="32" fill="#e5e5e5"/>
+<rect class="uml-class-outline uml-class-title-outline" x="0" y="0" width="150.8" height="32" stroke="#999999" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+<circle class="uml-kind-badge uml-kind-badge-c" cx="19" cy="16.0" r="11" fill="#b8d9bf" stroke="#3e7d4a" stroke-width="1.5"/><text class="uml-kind-badge-text" x="19" y="20.0" text-anchor="middle" font-family="Arial" font-size="12" font-weight="700" fill="black">C</text>
+<text class="uml-class-title-text" x="38" y="20" text-anchor="start" fill="black" font-family="Arial" font-size="12" font-weight="500">ДеревоКорневое</text>
+<rect class="uml-bbox" x="0" y="0" width="150.8" height="32" fill="none" stroke="none" pointer-events="all"/>
+</g>
+<g transform="translate(3462,118)" class="uml-class" data-id="ДеревоОриентированное" data-name="ДеревоОриентированное" data-type="class" data-class-kind="class" data-visibility="" data-stereotype="" data-abstract="false" data-multiplicity="" data-attributes-count="0" data-operations-count="0" data-tagged-values-count="0" data-template-parameters-count="0">
+<rect class="uml-class-title" x="0" y="0" width="201.20000000000002" height="32" fill="#e5e5e5"/>
+<rect class="uml-class-outline uml-class-title-outline" x="0" y="0" width="201.20000000000002" height="32" stroke="#999999" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+<circle class="uml-kind-badge uml-kind-badge-c" cx="19" cy="16.0" r="11" fill="#b8d9bf" stroke="#3e7d4a" stroke-width="1.5"/><text class="uml-kind-badge-text" x="19" y="20.0" text-anchor="middle" font-family="Arial" font-size="12" font-weight="700" fill="black">C</text>
+<text class="uml-class-title-text" x="38" y="20" text-anchor="start" fill="black" font-family="Arial" font-size="12" font-weight="500">ДеревоОриентированное</text>
+<rect class="uml-bbox" x="0" y="0" width="201.20000000000002" height="32" fill="none" stroke="none" pointer-events="all"/>
+</g>
+<g transform="translate(3581,215)" class="uml-class" data-id="КореньОрдерева" data-name="КореньОрдерева" data-type="class" data-class-kind="class" data-visibility="" data-stereotype="" data-abstract="false" data-multiplicity="" data-attributes-count="0" data-operations-count="0" data-tagged-values-count="0" data-template-parameters-count="0">
+<rect class="uml-class-title" x="0" y="0" width="150.8" height="32" fill="#e5e5e5"/>
+<rect class="uml-class-outline uml-class-title-outline" x="0" y="0" width="150.8" height="32" stroke="#999999" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+<circle class="uml-kind-badge uml-kind-badge-c" cx="19" cy="16.0" r="11" fill="#b8d9bf" stroke="#3e7d4a" stroke-width="1.5"/><text class="uml-kind-badge-text" x="19" y="20.0" text-anchor="middle" font-family="Arial" font-size="12" font-weight="700" fill="black">C</text>
+<text class="uml-class-title-text" x="38" y="20" text-anchor="start" fill="black" font-family="Arial" font-size="12" font-weight="500">КореньОрдерева</text>
+<rect class="uml-bbox" x="0" y="0" width="150.8" height="32" fill="none" stroke="none" pointer-events="all"/>
+</g>
+<g transform="translate(1639,312)" class="uml-class" data-id="КронаОрдерева" data-name="КронаОрдерева" data-type="class" data-class-kind="class" data-visibility="" data-stereotype="" data-abstract="false" data-multiplicity="" data-attributes-count="0" data-operations-count="0" data-tagged-values-count="0" data-template-parameters-count="0">
+<rect class="uml-class-title" x="0" y="0" width="143.60000000000002" height="32" fill="#e5e5e5"/>
+<rect class="uml-class-outline uml-class-title-outline" x="0" y="0" width="143.60000000000002" height="32" stroke="#999999" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+<circle class="uml-kind-badge uml-kind-badge-c" cx="19" cy="16.0" r="11" fill="#b8d9bf" stroke="#3e7d4a" stroke-width="1.5"/><text class="uml-kind-badge-text" x="19" y="20.0" text-anchor="middle" font-family="Arial" font-size="12" font-weight="700" fill="black">C</text>
+<text class="uml-class-title-text" x="38" y="20" text-anchor="start" fill="black" font-family="Arial" font-size="12" font-weight="500">КронаОрдерева</text>
+<rect class="uml-bbox" x="0" y="0" width="143.60000000000002" height="32" fill="none" stroke="none" pointer-events="all"/>
+</g>
+<g transform="translate(1171,409)" class="uml-class" data-id="ЛистОрдерева" data-name="ЛистОрдерева" data-type="class" data-class-kind="class" data-visibility="" data-stereotype="" data-abstract="false" data-multiplicity="" data-attributes-count="0" data-operations-count="0" data-tagged-values-count="0" data-template-parameters-count="0">
+<rect class="uml-class-title" x="0" y="0" width="136.4" height="32" fill="#e5e5e5"/>
+<rect class="uml-class-outline uml-class-title-outline" x="0" y="0" width="136.4" height="32" stroke="#999999" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+<circle class="uml-kind-badge uml-kind-badge-c" cx="19" cy="16.0" r="11" fill="#b8d9bf" stroke="#3e7d4a" stroke-width="1.5"/><text class="uml-kind-badge-text" x="19" y="20.0" text-anchor="middle" font-family="Arial" font-size="12" font-weight="700" fill="black">C</text>
+<text class="uml-class-title-text" x="38" y="20" text-anchor="start" fill="black" font-family="Arial" font-size="12" font-weight="500">ЛистОрдерева</text>
+<rect class="uml-bbox" x="0" y="0" width="136.4" height="32" fill="none" stroke="none" pointer-events="all"/>
+</g>
+<g transform="translate(3596,312)" class="uml-class" data-id="Ордерево" data-name="Ордерево" data-type="class" data-class-kind="class" data-visibility="" data-stereotype="" data-abstract="false" data-multiplicity="" data-attributes-count="0" data-operations-count="0" data-tagged-values-count="0" data-template-parameters-count="0">
+<rect class="uml-class-title" x="0" y="0" width="120" height="32" fill="#e5e5e5"/>
+<rect class="uml-class-outline uml-class-title-outline" x="0" y="0" width="120" height="32" stroke="#999999" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+<circle class="uml-kind-badge uml-kind-badge-c" cx="19" cy="16.0" r="11" fill="#b8d9bf" stroke="#3e7d4a" stroke-width="1.5"/><text class="uml-kind-badge-text" x="19" y="20.0" text-anchor="middle" font-family="Arial" font-size="12" font-weight="700" fill="black">C</text>
+<text class="uml-class-title-text" x="38" y="20" text-anchor="start" fill="black" font-family="Arial" font-size="12" font-weight="500">Ордерево</text>
+<rect class="uml-bbox" x="0" y="0" width="120" height="32" fill="none" stroke="none" pointer-events="all"/>
+</g>
+<g transform="translate(1879,506)" class="uml-class" data-id="ПотомокУзла" data-name="ПотомокУзла" data-type="class" data-class-kind="class" data-visibility="" data-stereotype="" data-abstract="false" data-multiplicity="" data-attributes-count="0" data-operations-count="0" data-tagged-values-count="0" data-template-parameters-count="0">
+<rect class="uml-class-title" x="0" y="0" width="129.2" height="32" fill="#e5e5e5"/>
+<rect class="uml-class-outline uml-class-title-outline" x="0" y="0" width="129.2" height="32" stroke="#999999" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+<circle class="uml-kind-badge uml-kind-badge-c" cx="19" cy="16.0" r="11" fill="#b8d9bf" stroke="#3e7d4a" stroke-width="1.5"/><text class="uml-kind-badge-text" x="19" y="20.0" text-anchor="middle" font-family="Arial" font-size="12" font-weight="700" fill="black">C</text>
+<text class="uml-class-title-text" x="38" y="20" text-anchor="start" fill="black" font-family="Arial" font-size="12" font-weight="500">ПотомокУзла</text>
+<rect class="uml-bbox" x="0" y="0" width="129.2" height="32" fill="none" stroke="none" pointer-events="all"/>
+</g>
+<g transform="translate(1879,603)" class="uml-class" data-id="ПредокУзла" data-name="ПредокУзла" data-type="class" data-class-kind="class" data-visibility="" data-stereotype="" data-abstract="false" data-multiplicity="" data-attributes-count="0" data-operations-count="0" data-tagged-values-count="0" data-template-parameters-count="0">
+<rect class="uml-class-title" x="0" y="0" width="122.0" height="32" fill="#e5e5e5"/>
+<rect class="uml-class-outline uml-class-title-outline" x="0" y="0" width="122.0" height="32" stroke="#999999" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+<circle class="uml-kind-badge uml-kind-badge-c" cx="19" cy="16.0" r="11" fill="#b8d9bf" stroke="#3e7d4a" stroke-width="1.5"/><text class="uml-kind-badge-text" x="19" y="20.0" text-anchor="middle" font-family="Arial" font-size="12" font-weight="700" fill="black">C</text>
+<text class="uml-class-title-text" x="38" y="20" text-anchor="start" fill="black" font-family="Arial" font-size="12" font-weight="500">ПредокУзла</text>
+<rect class="uml-bbox" x="0" y="0" width="122.0" height="32" fill="none" stroke="none" pointer-events="all"/>
+</g>
+<g transform="translate(2130,700)" class="uml-class" data-id="РодительУзла" data-name="РодительУзла" data-type="class" data-class-kind="class" data-visibility="" data-stereotype="" data-abstract="false" data-multiplicity="" data-attributes-count="0" data-operations-count="0" data-tagged-values-count="0" data-template-parameters-count="0">
+<rect class="uml-class-title" x="0" y="0" width="136.4" height="32" fill="#e5e5e5"/>
+<rect class="uml-class-outline uml-class-title-outline" x="0" y="0" width="136.4" height="32" stroke="#999999" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+<circle class="uml-kind-badge uml-kind-badge-c" cx="19" cy="16.0" r="11" fill="#b8d9bf" stroke="#3e7d4a" stroke-width="1.5"/><text class="uml-kind-badge-text" x="19" y="20.0" text-anchor="middle" font-family="Arial" font-size="12" font-weight="700" fill="black">C</text>
+<text class="uml-class-title-text" x="38" y="20" text-anchor="start" fill="black" font-family="Arial" font-size="12" font-weight="500">РодительУзла</text>
+<rect class="uml-bbox" x="0" y="0" width="136.4" height="32" fill="none" stroke="none" pointer-events="all"/>
+</g>
+<g transform="translate(1343,797)" class="uml-class" data-id="СынУзла" data-name="СынУзла" data-type="class" data-class-kind="class" data-visibility="" data-stereotype="" data-abstract="false" data-multiplicity="" data-attributes-count="0" data-operations-count="0" data-tagged-values-count="0" data-template-parameters-count="0">
+<rect class="uml-class-title" x="0" y="0" width="120" height="32" fill="#e5e5e5"/>
+<rect class="uml-class-outline uml-class-title-outline" x="0" y="0" width="120" height="32" stroke="#999999" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+<circle class="uml-kind-badge uml-kind-badge-c" cx="19" cy="16.0" r="11" fill="#b8d9bf" stroke="#3e7d4a" stroke-width="1.5"/><text class="uml-kind-badge-text" x="19" y="20.0" text-anchor="middle" font-family="Arial" font-size="12" font-weight="700" fill="black">C</text>
+<text class="uml-class-title-text" x="38" y="20" text-anchor="start" fill="black" font-family="Arial" font-size="12" font-weight="500">СынУзла</text>
+<rect class="uml-bbox" x="0" y="0" width="120" height="32" fill="none" stroke="none" pointer-events="all"/>
+</g>
+<g transform="translate(1238,894)" class="uml-class" data-id="УровеньУзла" data-name="УровеньУзла" data-type="class" data-class-kind="class" data-visibility="" data-stereotype="" data-abstract="false" data-multiplicity="" data-attributes-count="0" data-operations-count="0" data-tagged-values-count="0" data-template-parameters-count="0">
+<rect class="uml-class-title" x="0" y="0" width="129.2" height="32" fill="#e5e5e5"/>
+<rect class="uml-class-outline uml-class-title-outline" x="0" y="0" width="129.2" height="32" stroke="#999999" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+<circle class="uml-kind-badge uml-kind-badge-c" cx="19" cy="16.0" r="11" fill="#b8d9bf" stroke="#3e7d4a" stroke-width="1.5"/><text class="uml-kind-badge-text" x="19" y="20.0" text-anchor="middle" font-family="Arial" font-size="12" font-weight="700" fill="black">C</text>
+<text class="uml-class-title-text" x="38" y="20" text-anchor="start" fill="black" font-family="Arial" font-size="12" font-weight="500">УровеньУзла</text>
+<rect class="uml-bbox" x="0" y="0" width="129.2" height="32" fill="none" stroke="none" pointer-events="all"/>
+</g>
+<g transform="translate(1777,991)" class="uml-class" data-id="ЯрусДерева" data-name="ЯрусДерева" data-type="class" data-class-kind="class" data-visibility="" data-stereotype="" data-abstract="false" data-multiplicity="" data-attributes-count="0" data-operations-count="0" data-tagged-values-count="0" data-template-parameters-count="0">
+<rect class="uml-class-title" x="0" y="0" width="122.0" height="32" fill="#e5e5e5"/>
+<rect class="uml-class-outline uml-class-title-outline" x="0" y="0" width="122.0" height="32" stroke="#999999" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+<circle class="uml-kind-badge uml-kind-badge-c" cx="19" cy="16.0" r="11" fill="#b8d9bf" stroke="#3e7d4a" stroke-width="1.5"/><text class="uml-kind-badge-text" x="19" y="20.0" text-anchor="middle" font-family="Arial" font-size="12" font-weight="700" fill="black">C</text>
+<text class="uml-class-title-text" x="38" y="20" text-anchor="start" fill="black" font-family="Arial" font-size="12" font-weight="500">ЯрусДерева</text>
+<rect class="uml-bbox" x="0" y="0" width="122.0" height="32" fill="none" stroke="none" pointer-events="all"/>
+</g>
+</svg>

@@ -1,0 +1,528 @@
+{"paragraph_id": "7.3", "concept_a": "Биграф", "concept_b": "Граф двудольный", "has_relation": true}
+{"paragraph_id": "7.3", "concept_a": "Биграф", "concept_b": "Граф двудольный полный", "has_relation": true}
+{"paragraph_id": "7.3", "concept_a": "Биграф", "concept_b": "Граф звёздный", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Биграф", "concept_b": "Граф к-дольный", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Биграф", "concept_b": "Граф полный", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Биграф", "concept_b": "Граф пустой", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Биграф", "concept_b": "Граф рёберный", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Биграф", "concept_b": "Граф тривиальный", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Биграф", "concept_b": "Граф чётный", "has_relation": true}
+{"paragraph_id": "7.3", "concept_a": "Биграф", "concept_b": "Диполь", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Биграф", "concept_b": "Добавление вершины", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Биграф", "concept_b": "Добавление ребра", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Биграф", "concept_b": "Доля", "has_relation": true}
+{"paragraph_id": "7.3", "concept_a": "Биграф", "concept_b": "Дополнение графа", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Биграф", "concept_b": "Источник", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Биграф", "concept_b": "Клика", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Биграф", "concept_b": "Матрица смежности рёбер", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Биграф", "concept_b": "Объединение графов", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Биграф", "concept_b": "Орграф антисимметричный", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Биграф", "concept_b": "Орграф направленный", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Биграф", "concept_b": "Размножение вершины", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Биграф", "concept_b": "Сеть", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Биграф", "concept_b": "Соединение графов", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Биграф", "concept_b": "Сток", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Биграф", "concept_b": "Стягивание подграфа", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Биграф", "concept_b": "Турнир", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Биграф", "concept_b": "Удаление вершины", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Биграф", "concept_b": "Удаление ребра", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Биграф", "concept_b": "Центр звезды", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Биграф", "concept_b": "Число кликовое", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Биграф", "concept_b": "Экземпляр класса", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Биграф", "concept_b": "рёберно изоморфны", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Граф двудольный", "concept_b": "Граф двудольный полный", "has_relation": true}
+{"paragraph_id": "7.3", "concept_a": "Граф двудольный", "concept_b": "Граф звёздный", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Граф двудольный", "concept_b": "Граф к-дольный", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Граф двудольный", "concept_b": "Граф полный", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Граф двудольный", "concept_b": "Граф пустой", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Граф двудольный", "concept_b": "Граф рёберный", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Граф двудольный", "concept_b": "Граф тривиальный", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Граф двудольный", "concept_b": "Граф чётный", "has_relation": true}
+{"paragraph_id": "7.3", "concept_a": "Граф двудольный", "concept_b": "Диполь", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Граф двудольный", "concept_b": "Добавление вершины", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Граф двудольный", "concept_b": "Добавление ребра", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Граф двудольный", "concept_b": "Доля", "has_relation": true}
+{"paragraph_id": "7.3", "concept_a": "Граф двудольный", "concept_b": "Дополнение графа", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Граф двудольный", "concept_b": "Источник", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Граф двудольный", "concept_b": "Клика", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Граф двудольный", "concept_b": "Матрица смежности рёбер", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Граф двудольный", "concept_b": "Объединение графов", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Граф двудольный", "concept_b": "Орграф антисимметричный", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Граф двудольный", "concept_b": "Орграф направленный", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Граф двудольный", "concept_b": "Размножение вершины", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Граф двудольный", "concept_b": "Сеть", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Граф двудольный", "concept_b": "Соединение графов", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Граф двудольный", "concept_b": "Сток", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Граф двудольный", "concept_b": "Стягивание подграфа", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Граф двудольный", "concept_b": "Турнир", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Граф двудольный", "concept_b": "Удаление вершины", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Граф двудольный", "concept_b": "Удаление ребра", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Граф двудольный", "concept_b": "Центр звезды", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Граф двудольный", "concept_b": "Число кликовое", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Граф двудольный", "concept_b": "Экземпляр класса", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Граф двудольный", "concept_b": "рёберно изоморфны", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Граф двудольный полный", "concept_b": "Граф звёздный", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Граф двудольный полный", "concept_b": "Граф к-дольный", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Граф двудольный полный", "concept_b": "Граф полный", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Граф двудольный полный", "concept_b": "Граф пустой", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Граф двудольный полный", "concept_b": "Граф рёберный", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Граф двудольный полный", "concept_b": "Граф тривиальный", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Граф двудольный полный", "concept_b": "Граф чётный", "has_relation": true}
+{"paragraph_id": "7.3", "concept_a": "Граф двудольный полный", "concept_b": "Диполь", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Граф двудольный полный", "concept_b": "Добавление вершины", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Граф двудольный полный", "concept_b": "Добавление ребра", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Граф двудольный полный", "concept_b": "Доля", "has_relation": true}
+{"paragraph_id": "7.3", "concept_a": "Граф двудольный полный", "concept_b": "Дополнение графа", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Граф двудольный полный", "concept_b": "Источник", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Граф двудольный полный", "concept_b": "Клика", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Граф двудольный полный", "concept_b": "Матрица смежности рёбер", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Граф двудольный полный", "concept_b": "Объединение графов", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Граф двудольный полный", "concept_b": "Орграф антисимметричный", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Граф двудольный полный", "concept_b": "Орграф направленный", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Граф двудольный полный", "concept_b": "Размножение вершины", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Граф двудольный полный", "concept_b": "Сеть", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Граф двудольный полный", "concept_b": "Соединение графов", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Граф двудольный полный", "concept_b": "Сток", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Граф двудольный полный", "concept_b": "Стягивание подграфа", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Граф двудольный полный", "concept_b": "Турнир", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Граф двудольный полный", "concept_b": "Удаление вершины", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Граф двудольный полный", "concept_b": "Удаление ребра", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Граф двудольный полный", "concept_b": "Центр звезды", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Граф двудольный полный", "concept_b": "Число кликовое", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Граф двудольный полный", "concept_b": "Экземпляр класса", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Граф двудольный полный", "concept_b": "рёберно изоморфны", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Граф звёздный", "concept_b": "Граф к-дольный", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Граф звёздный", "concept_b": "Граф полный", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Граф звёздный", "concept_b": "Граф пустой", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Граф звёздный", "concept_b": "Граф рёберный", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Граф звёздный", "concept_b": "Граф тривиальный", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Граф звёздный", "concept_b": "Граф чётный", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Граф звёздный", "concept_b": "Диполь", "has_relation": true}
+{"paragraph_id": "7.3", "concept_a": "Граф звёздный", "concept_b": "Добавление вершины", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Граф звёздный", "concept_b": "Добавление ребра", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Граф звёздный", "concept_b": "Доля", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Граф звёздный", "concept_b": "Дополнение графа", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Граф звёздный", "concept_b": "Источник", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Граф звёздный", "concept_b": "Клика", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Граф звёздный", "concept_b": "Матрица смежности рёбер", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Граф звёздный", "concept_b": "Объединение графов", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Граф звёздный", "concept_b": "Орграф антисимметричный", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Граф звёздный", "concept_b": "Орграф направленный", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Граф звёздный", "concept_b": "Размножение вершины", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Граф звёздный", "concept_b": "Сеть", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Граф звёздный", "concept_b": "Соединение графов", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Граф звёздный", "concept_b": "Сток", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Граф звёздный", "concept_b": "Стягивание подграфа", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Граф звёздный", "concept_b": "Турнир", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Граф звёздный", "concept_b": "Удаление вершины", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Граф звёздный", "concept_b": "Удаление ребра", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Граф звёздный", "concept_b": "Центр звезды", "has_relation": true}
+{"paragraph_id": "7.3", "concept_a": "Граф звёздный", "concept_b": "Число кликовое", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Граф звёздный", "concept_b": "Экземпляр класса", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Граф звёздный", "concept_b": "рёберно изоморфны", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Граф к-дольный", "concept_b": "Граф полный", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Граф к-дольный", "concept_b": "Граф пустой", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Граф к-дольный", "concept_b": "Граф рёберный", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Граф к-дольный", "concept_b": "Граф тривиальный", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Граф к-дольный", "concept_b": "Граф чётный", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Граф к-дольный", "concept_b": "Диполь", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Граф к-дольный", "concept_b": "Добавление вершины", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Граф к-дольный", "concept_b": "Добавление ребра", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Граф к-дольный", "concept_b": "Доля", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Граф к-дольный", "concept_b": "Дополнение графа", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Граф к-дольный", "concept_b": "Источник", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Граф к-дольный", "concept_b": "Клика", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Граф к-дольный", "concept_b": "Матрица смежности рёбер", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Граф к-дольный", "concept_b": "Объединение графов", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Граф к-дольный", "concept_b": "Орграф антисимметричный", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Граф к-дольный", "concept_b": "Орграф направленный", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Граф к-дольный", "concept_b": "Размножение вершины", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Граф к-дольный", "concept_b": "Сеть", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Граф к-дольный", "concept_b": "Соединение графов", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Граф к-дольный", "concept_b": "Сток", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Граф к-дольный", "concept_b": "Стягивание подграфа", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Граф к-дольный", "concept_b": "Турнир", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Граф к-дольный", "concept_b": "Удаление вершины", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Граф к-дольный", "concept_b": "Удаление ребра", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Граф к-дольный", "concept_b": "Центр звезды", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Граф к-дольный", "concept_b": "Число кликовое", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Граф к-дольный", "concept_b": "Экземпляр класса", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Граф к-дольный", "concept_b": "рёберно изоморфны", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Граф полный", "concept_b": "Граф пустой", "has_relation": true}
+{"paragraph_id": "7.3", "concept_a": "Граф полный", "concept_b": "Граф рёберный", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Граф полный", "concept_b": "Граф тривиальный", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Граф полный", "concept_b": "Граф чётный", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Граф полный", "concept_b": "Диполь", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Граф полный", "concept_b": "Добавление вершины", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Граф полный", "concept_b": "Добавление ребра", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Граф полный", "concept_b": "Доля", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Граф полный", "concept_b": "Дополнение графа", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Граф полный", "concept_b": "Источник", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Граф полный", "concept_b": "Клика", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Граф полный", "concept_b": "Матрица смежности рёбер", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Граф полный", "concept_b": "Объединение графов", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Граф полный", "concept_b": "Орграф антисимметричный", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Граф полный", "concept_b": "Орграф направленный", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Граф полный", "concept_b": "Размножение вершины", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Граф полный", "concept_b": "Сеть", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Граф полный", "concept_b": "Соединение графов", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Граф полный", "concept_b": "Сток", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Граф полный", "concept_b": "Стягивание подграфа", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Граф полный", "concept_b": "Турнир", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Граф полный", "concept_b": "Удаление вершины", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Граф полный", "concept_b": "Удаление ребра", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Граф полный", "concept_b": "Центр звезды", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Граф полный", "concept_b": "Число кликовое", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Граф полный", "concept_b": "Экземпляр класса", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Граф полный", "concept_b": "рёберно изоморфны", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Граф пустой", "concept_b": "Граф рёберный", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Граф пустой", "concept_b": "Граф тривиальный", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Граф пустой", "concept_b": "Граф чётный", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Граф пустой", "concept_b": "Диполь", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Граф пустой", "concept_b": "Добавление вершины", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Граф пустой", "concept_b": "Добавление ребра", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Граф пустой", "concept_b": "Доля", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Граф пустой", "concept_b": "Дополнение графа", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Граф пустой", "concept_b": "Источник", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Граф пустой", "concept_b": "Клика", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Граф пустой", "concept_b": "Матрица смежности рёбер", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Граф пустой", "concept_b": "Объединение графов", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Граф пустой", "concept_b": "Орграф антисимметричный", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Граф пустой", "concept_b": "Орграф направленный", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Граф пустой", "concept_b": "Размножение вершины", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Граф пустой", "concept_b": "Сеть", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Граф пустой", "concept_b": "Соединение графов", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Граф пустой", "concept_b": "Сток", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Граф пустой", "concept_b": "Стягивание подграфа", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Граф пустой", "concept_b": "Турнир", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Граф пустой", "concept_b": "Удаление вершины", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Граф пустой", "concept_b": "Удаление ребра", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Граф пустой", "concept_b": "Центр звезды", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Граф пустой", "concept_b": "Число кликовое", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Граф пустой", "concept_b": "Экземпляр класса", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Граф пустой", "concept_b": "рёберно изоморфны", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Граф рёберный", "concept_b": "Граф тривиальный", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Граф рёберный", "concept_b": "Граф чётный", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Граф рёберный", "concept_b": "Диполь", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Граф рёберный", "concept_b": "Добавление вершины", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Граф рёберный", "concept_b": "Добавление ребра", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Граф рёберный", "concept_b": "Доля", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Граф рёберный", "concept_b": "Дополнение графа", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Граф рёберный", "concept_b": "Источник", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Граф рёберный", "concept_b": "Клика", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Граф рёберный", "concept_b": "Матрица смежности рёбер", "has_relation": true}
+{"paragraph_id": "7.3", "concept_a": "Граф рёберный", "concept_b": "Объединение графов", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Граф рёберный", "concept_b": "Орграф антисимметричный", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Граф рёберный", "concept_b": "Орграф направленный", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Граф рёберный", "concept_b": "Размножение вершины", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Граф рёберный", "concept_b": "Сеть", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Граф рёберный", "concept_b": "Соединение графов", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Граф рёберный", "concept_b": "Сток", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Граф рёберный", "concept_b": "Стягивание подграфа", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Граф рёберный", "concept_b": "Турнир", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Граф рёберный", "concept_b": "Удаление вершины", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Граф рёберный", "concept_b": "Удаление ребра", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Граф рёберный", "concept_b": "Центр звезды", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Граф рёберный", "concept_b": "Число кликовое", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Граф рёберный", "concept_b": "Экземпляр класса", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Граф рёберный", "concept_b": "рёберно изоморфны", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Граф тривиальный", "concept_b": "Граф чётный", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Граф тривиальный", "concept_b": "Диполь", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Граф тривиальный", "concept_b": "Добавление вершины", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Граф тривиальный", "concept_b": "Добавление ребра", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Граф тривиальный", "concept_b": "Доля", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Граф тривиальный", "concept_b": "Дополнение графа", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Граф тривиальный", "concept_b": "Источник", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Граф тривиальный", "concept_b": "Клика", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Граф тривиальный", "concept_b": "Матрица смежности рёбер", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Граф тривиальный", "concept_b": "Объединение графов", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Граф тривиальный", "concept_b": "Орграф антисимметричный", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Граф тривиальный", "concept_b": "Орграф направленный", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Граф тривиальный", "concept_b": "Размножение вершины", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Граф тривиальный", "concept_b": "Сеть", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Граф тривиальный", "concept_b": "Соединение графов", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Граф тривиальный", "concept_b": "Сток", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Граф тривиальный", "concept_b": "Стягивание подграфа", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Граф тривиальный", "concept_b": "Турнир", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Граф тривиальный", "concept_b": "Удаление вершины", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Граф тривиальный", "concept_b": "Удаление ребра", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Граф тривиальный", "concept_b": "Центр звезды", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Граф тривиальный", "concept_b": "Число кликовое", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Граф тривиальный", "concept_b": "Экземпляр класса", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Граф тривиальный", "concept_b": "рёберно изоморфны", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Граф чётный", "concept_b": "Диполь", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Граф чётный", "concept_b": "Добавление вершины", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Граф чётный", "concept_b": "Добавление ребра", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Граф чётный", "concept_b": "Доля", "has_relation": true}
+{"paragraph_id": "7.3", "concept_a": "Граф чётный", "concept_b": "Дополнение графа", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Граф чётный", "concept_b": "Источник", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Граф чётный", "concept_b": "Клика", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Граф чётный", "concept_b": "Матрица смежности рёбер", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Граф чётный", "concept_b": "Объединение графов", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Граф чётный", "concept_b": "Орграф антисимметричный", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Граф чётный", "concept_b": "Орграф направленный", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Граф чётный", "concept_b": "Размножение вершины", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Граф чётный", "concept_b": "Сеть", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Граф чётный", "concept_b": "Соединение графов", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Граф чётный", "concept_b": "Сток", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Граф чётный", "concept_b": "Стягивание подграфа", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Граф чётный", "concept_b": "Турнир", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Граф чётный", "concept_b": "Удаление вершины", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Граф чётный", "concept_b": "Удаление ребра", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Граф чётный", "concept_b": "Центр звезды", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Граф чётный", "concept_b": "Число кликовое", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Граф чётный", "concept_b": "Экземпляр класса", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Граф чётный", "concept_b": "рёберно изоморфны", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Диполь", "concept_b": "Добавление вершины", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Диполь", "concept_b": "Добавление ребра", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Диполь", "concept_b": "Доля", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Диполь", "concept_b": "Дополнение графа", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Диполь", "concept_b": "Источник", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Диполь", "concept_b": "Клика", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Диполь", "concept_b": "Матрица смежности рёбер", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Диполь", "concept_b": "Объединение графов", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Диполь", "concept_b": "Орграф антисимметричный", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Диполь", "concept_b": "Орграф направленный", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Диполь", "concept_b": "Размножение вершины", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Диполь", "concept_b": "Сеть", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Диполь", "concept_b": "Соединение графов", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Диполь", "concept_b": "Сток", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Диполь", "concept_b": "Стягивание подграфа", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Диполь", "concept_b": "Турнир", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Диполь", "concept_b": "Удаление вершины", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Диполь", "concept_b": "Удаление ребра", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Диполь", "concept_b": "Центр звезды", "has_relation": true}
+{"paragraph_id": "7.3", "concept_a": "Диполь", "concept_b": "Число кликовое", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Диполь", "concept_b": "Экземпляр класса", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Диполь", "concept_b": "рёберно изоморфны", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Добавление вершины", "concept_b": "Добавление ребра", "has_relation": true}
+{"paragraph_id": "7.3", "concept_a": "Добавление вершины", "concept_b": "Доля", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Добавление вершины", "concept_b": "Дополнение графа", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Добавление вершины", "concept_b": "Источник", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Добавление вершины", "concept_b": "Клика", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Добавление вершины", "concept_b": "Матрица смежности рёбер", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Добавление вершины", "concept_b": "Объединение графов", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Добавление вершины", "concept_b": "Орграф антисимметричный", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Добавление вершины", "concept_b": "Орграф направленный", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Добавление вершины", "concept_b": "Размножение вершины", "has_relation": true}
+{"paragraph_id": "7.3", "concept_a": "Добавление вершины", "concept_b": "Сеть", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Добавление вершины", "concept_b": "Соединение графов", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Добавление вершины", "concept_b": "Сток", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Добавление вершины", "concept_b": "Стягивание подграфа", "has_relation": true}
+{"paragraph_id": "7.3", "concept_a": "Добавление вершины", "concept_b": "Турнир", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Добавление вершины", "concept_b": "Удаление вершины", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Добавление вершины", "concept_b": "Удаление ребра", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Добавление вершины", "concept_b": "Центр звезды", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Добавление вершины", "concept_b": "Число кликовое", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Добавление вершины", "concept_b": "Экземпляр класса", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Добавление вершины", "concept_b": "рёберно изоморфны", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Добавление ребра", "concept_b": "Доля", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Добавление ребра", "concept_b": "Дополнение графа", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Добавление ребра", "concept_b": "Источник", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Добавление ребра", "concept_b": "Клика", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Добавление ребра", "concept_b": "Матрица смежности рёбер", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Добавление ребра", "concept_b": "Объединение графов", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Добавление ребра", "concept_b": "Орграф антисимметричный", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Добавление ребра", "concept_b": "Орграф направленный", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Добавление ребра", "concept_b": "Размножение вершины", "has_relation": true}
+{"paragraph_id": "7.3", "concept_a": "Добавление ребра", "concept_b": "Сеть", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Добавление ребра", "concept_b": "Соединение графов", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Добавление ребра", "concept_b": "Сток", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Добавление ребра", "concept_b": "Стягивание подграфа", "has_relation": true}
+{"paragraph_id": "7.3", "concept_a": "Добавление ребра", "concept_b": "Турнир", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Добавление ребра", "concept_b": "Удаление вершины", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Добавление ребра", "concept_b": "Удаление ребра", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Добавление ребра", "concept_b": "Центр звезды", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Добавление ребра", "concept_b": "Число кликовое", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Добавление ребра", "concept_b": "Экземпляр класса", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Добавление ребра", "concept_b": "рёберно изоморфны", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Доля", "concept_b": "Дополнение графа", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Доля", "concept_b": "Источник", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Доля", "concept_b": "Клика", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Доля", "concept_b": "Матрица смежности рёбер", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Доля", "concept_b": "Объединение графов", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Доля", "concept_b": "Орграф антисимметричный", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Доля", "concept_b": "Орграф направленный", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Доля", "concept_b": "Размножение вершины", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Доля", "concept_b": "Сеть", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Доля", "concept_b": "Соединение графов", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Доля", "concept_b": "Сток", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Доля", "concept_b": "Стягивание подграфа", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Доля", "concept_b": "Турнир", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Доля", "concept_b": "Удаление вершины", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Доля", "concept_b": "Удаление ребра", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Доля", "concept_b": "Центр звезды", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Доля", "concept_b": "Число кликовое", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Доля", "concept_b": "Экземпляр класса", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Доля", "concept_b": "рёберно изоморфны", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Дополнение графа", "concept_b": "Источник", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Дополнение графа", "concept_b": "Клика", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Дополнение графа", "concept_b": "Матрица смежности рёбер", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Дополнение графа", "concept_b": "Объединение графов", "has_relation": true}
+{"paragraph_id": "7.3", "concept_a": "Дополнение графа", "concept_b": "Орграф антисимметричный", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Дополнение графа", "concept_b": "Орграф направленный", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Дополнение графа", "concept_b": "Размножение вершины", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Дополнение графа", "concept_b": "Сеть", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Дополнение графа", "concept_b": "Соединение графов", "has_relation": true}
+{"paragraph_id": "7.3", "concept_a": "Дополнение графа", "concept_b": "Сток", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Дополнение графа", "concept_b": "Стягивание подграфа", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Дополнение графа", "concept_b": "Турнир", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Дополнение графа", "concept_b": "Удаление вершины", "has_relation": true}
+{"paragraph_id": "7.3", "concept_a": "Дополнение графа", "concept_b": "Удаление ребра", "has_relation": true}
+{"paragraph_id": "7.3", "concept_a": "Дополнение графа", "concept_b": "Центр звезды", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Дополнение графа", "concept_b": "Число кликовое", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Дополнение графа", "concept_b": "Экземпляр класса", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Дополнение графа", "concept_b": "рёберно изоморфны", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Источник", "concept_b": "Клика", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Источник", "concept_b": "Матрица смежности рёбер", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Источник", "concept_b": "Объединение графов", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Источник", "concept_b": "Орграф антисимметричный", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Источник", "concept_b": "Орграф направленный", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Источник", "concept_b": "Размножение вершины", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Источник", "concept_b": "Сеть", "has_relation": true}
+{"paragraph_id": "7.3", "concept_a": "Источник", "concept_b": "Соединение графов", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Источник", "concept_b": "Сток", "has_relation": true}
+{"paragraph_id": "7.3", "concept_a": "Источник", "concept_b": "Стягивание подграфа", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Источник", "concept_b": "Турнир", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Источник", "concept_b": "Удаление вершины", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Источник", "concept_b": "Удаление ребра", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Источник", "concept_b": "Центр звезды", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Источник", "concept_b": "Число кликовое", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Источник", "concept_b": "Экземпляр класса", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Источник", "concept_b": "рёберно изоморфны", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Клика", "concept_b": "Матрица смежности рёбер", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Клика", "concept_b": "Объединение графов", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Клика", "concept_b": "Орграф антисимметричный", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Клика", "concept_b": "Орграф направленный", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Клика", "concept_b": "Размножение вершины", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Клика", "concept_b": "Сеть", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Клика", "concept_b": "Соединение графов", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Клика", "concept_b": "Сток", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Клика", "concept_b": "Стягивание подграфа", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Клика", "concept_b": "Турнир", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Клика", "concept_b": "Удаление вершины", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Клика", "concept_b": "Удаление ребра", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Клика", "concept_b": "Центр звезды", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Клика", "concept_b": "Число кликовое", "has_relation": true}
+{"paragraph_id": "7.3", "concept_a": "Клика", "concept_b": "Экземпляр класса", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Клика", "concept_b": "рёберно изоморфны", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Матрица смежности рёбер", "concept_b": "Объединение графов", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Матрица смежности рёбер", "concept_b": "Орграф антисимметричный", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Матрица смежности рёбер", "concept_b": "Орграф направленный", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Матрица смежности рёбер", "concept_b": "Размножение вершины", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Матрица смежности рёбер", "concept_b": "Сеть", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Матрица смежности рёбер", "concept_b": "Соединение графов", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Матрица смежности рёбер", "concept_b": "Сток", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Матрица смежности рёбер", "concept_b": "Стягивание подграфа", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Матрица смежности рёбер", "concept_b": "Турнир", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Матрица смежности рёбер", "concept_b": "Удаление вершины", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Матрица смежности рёбер", "concept_b": "Удаление ребра", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Матрица смежности рёбер", "concept_b": "Центр звезды", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Матрица смежности рёбер", "concept_b": "Число кликовое", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Матрица смежности рёбер", "concept_b": "Экземпляр класса", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Матрица смежности рёбер", "concept_b": "рёберно изоморфны", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Объединение графов", "concept_b": "Орграф антисимметричный", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Объединение графов", "concept_b": "Орграф направленный", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Объединение графов", "concept_b": "Размножение вершины", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Объединение графов", "concept_b": "Сеть", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Объединение графов", "concept_b": "Соединение графов", "has_relation": true}
+{"paragraph_id": "7.3", "concept_a": "Объединение графов", "concept_b": "Сток", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Объединение графов", "concept_b": "Стягивание подграфа", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Объединение графов", "concept_b": "Турнир", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Объединение графов", "concept_b": "Удаление вершины", "has_relation": true}
+{"paragraph_id": "7.3", "concept_a": "Объединение графов", "concept_b": "Удаление ребра", "has_relation": true}
+{"paragraph_id": "7.3", "concept_a": "Объединение графов", "concept_b": "Центр звезды", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Объединение графов", "concept_b": "Число кликовое", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Объединение графов", "concept_b": "Экземпляр класса", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Объединение графов", "concept_b": "рёберно изоморфны", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Орграф антисимметричный", "concept_b": "Орграф направленный", "has_relation": true}
+{"paragraph_id": "7.3", "concept_a": "Орграф антисимметричный", "concept_b": "Размножение вершины", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Орграф антисимметричный", "concept_b": "Сеть", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Орграф антисимметричный", "concept_b": "Соединение графов", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Орграф антисимметричный", "concept_b": "Сток", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Орграф антисимметричный", "concept_b": "Стягивание подграфа", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Орграф антисимметричный", "concept_b": "Турнир", "has_relation": true}
+{"paragraph_id": "7.3", "concept_a": "Орграф антисимметричный", "concept_b": "Удаление вершины", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Орграф антисимметричный", "concept_b": "Удаление ребра", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Орграф антисимметричный", "concept_b": "Центр звезды", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Орграф антисимметричный", "concept_b": "Число кликовое", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Орграф антисимметричный", "concept_b": "Экземпляр класса", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Орграф антисимметричный", "concept_b": "рёберно изоморфны", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Орграф направленный", "concept_b": "Размножение вершины", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Орграф направленный", "concept_b": "Сеть", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Орграф направленный", "concept_b": "Соединение графов", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Орграф направленный", "concept_b": "Сток", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Орграф направленный", "concept_b": "Стягивание подграфа", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Орграф направленный", "concept_b": "Турнир", "has_relation": true}
+{"paragraph_id": "7.3", "concept_a": "Орграф направленный", "concept_b": "Удаление вершины", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Орграф направленный", "concept_b": "Удаление ребра", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Орграф направленный", "concept_b": "Центр звезды", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Орграф направленный", "concept_b": "Число кликовое", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Орграф направленный", "concept_b": "Экземпляр класса", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Орграф направленный", "concept_b": "рёберно изоморфны", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Размножение вершины", "concept_b": "Сеть", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Размножение вершины", "concept_b": "Соединение графов", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Размножение вершины", "concept_b": "Сток", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Размножение вершины", "concept_b": "Стягивание подграфа", "has_relation": true}
+{"paragraph_id": "7.3", "concept_a": "Размножение вершины", "concept_b": "Турнир", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Размножение вершины", "concept_b": "Удаление вершины", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Размножение вершины", "concept_b": "Удаление ребра", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Размножение вершины", "concept_b": "Центр звезды", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Размножение вершины", "concept_b": "Число кликовое", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Размножение вершины", "concept_b": "Экземпляр класса", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Размножение вершины", "concept_b": "рёберно изоморфны", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Сеть", "concept_b": "Соединение графов", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Сеть", "concept_b": "Сток", "has_relation": true}
+{"paragraph_id": "7.3", "concept_a": "Сеть", "concept_b": "Стягивание подграфа", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Сеть", "concept_b": "Турнир", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Сеть", "concept_b": "Удаление вершины", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Сеть", "concept_b": "Удаление ребра", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Сеть", "concept_b": "Центр звезды", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Сеть", "concept_b": "Число кликовое", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Сеть", "concept_b": "Экземпляр класса", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Сеть", "concept_b": "рёберно изоморфны", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Соединение графов", "concept_b": "Сток", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Соединение графов", "concept_b": "Стягивание подграфа", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Соединение графов", "concept_b": "Турнир", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Соединение графов", "concept_b": "Удаление вершины", "has_relation": true}
+{"paragraph_id": "7.3", "concept_a": "Соединение графов", "concept_b": "Удаление ребра", "has_relation": true}
+{"paragraph_id": "7.3", "concept_a": "Соединение графов", "concept_b": "Центр звезды", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Соединение графов", "concept_b": "Число кликовое", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Соединение графов", "concept_b": "Экземпляр класса", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Соединение графов", "concept_b": "рёберно изоморфны", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Сток", "concept_b": "Стягивание подграфа", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Сток", "concept_b": "Турнир", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Сток", "concept_b": "Удаление вершины", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Сток", "concept_b": "Удаление ребра", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Сток", "concept_b": "Центр звезды", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Сток", "concept_b": "Число кликовое", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Сток", "concept_b": "Экземпляр класса", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Сток", "concept_b": "рёберно изоморфны", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Стягивание подграфа", "concept_b": "Турнир", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Стягивание подграфа", "concept_b": "Удаление вершины", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Стягивание подграфа", "concept_b": "Удаление ребра", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Стягивание подграфа", "concept_b": "Центр звезды", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Стягивание подграфа", "concept_b": "Число кликовое", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Стягивание подграфа", "concept_b": "Экземпляр класса", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Стягивание подграфа", "concept_b": "рёберно изоморфны", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Турнир", "concept_b": "Удаление вершины", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Турнир", "concept_b": "Удаление ребра", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Турнир", "concept_b": "Центр звезды", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Турнир", "concept_b": "Число кликовое", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Турнир", "concept_b": "Экземпляр класса", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Турнир", "concept_b": "рёберно изоморфны", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Удаление вершины", "concept_b": "Удаление ребра", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Удаление вершины", "concept_b": "Центр звезды", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Удаление вершины", "concept_b": "Число кликовое", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Удаление вершины", "concept_b": "Экземпляр класса", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Удаление вершины", "concept_b": "рёберно изоморфны", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Удаление ребра", "concept_b": "Центр звезды", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Удаление ребра", "concept_b": "Число кликовое", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Удаление ребра", "concept_b": "Экземпляр класса", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Удаление ребра", "concept_b": "рёберно изоморфны", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Центр звезды", "concept_b": "Число кликовое", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Центр звезды", "concept_b": "Экземпляр класса", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Центр звезды", "concept_b": "рёберно изоморфны", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Число кликовое", "concept_b": "Экземпляр класса", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Число кликовое", "concept_b": "рёберно изоморфны", "has_relation": false}
+{"paragraph_id": "7.3", "concept_a": "Экземпляр класса", "concept_b": "рёберно изоморфны", "has_relation": false}

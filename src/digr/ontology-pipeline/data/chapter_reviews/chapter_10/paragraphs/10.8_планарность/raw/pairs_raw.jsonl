@@ -1,0 +1,36 @@
+{"paragraph_id": "10.8", "concept_a": "Грань графа", "concept_b": "Граф гомеоморфный", "has_relation": false}
+{"paragraph_id": "10.8", "concept_a": "Грань графа", "concept_b": "Граф планарный", "has_relation": true}
+{"paragraph_id": "10.8", "concept_a": "Грань графа", "concept_b": "Граф плоский", "has_relation": true}
+{"paragraph_id": "10.8", "concept_a": "Грань графа", "concept_b": "Операция подразбиения", "has_relation": false}
+{"paragraph_id": "10.8", "concept_a": "Грань графа", "concept_b": "Теорема Куратовского", "has_relation": false}
+{"paragraph_id": "10.8", "concept_a": "Грань графа", "concept_b": "Укладка графа", "has_relation": true}
+{"paragraph_id": "10.8", "concept_a": "Грань графа", "concept_b": "Формула Эйлера", "has_relation": false}
+{"paragraph_id": "10.8", "concept_a": "Грань графа", "concept_b": "Эйлерова характеристика \\\\", "has_relation": false}
+{"paragraph_id": "10.8", "concept_a": "Граф гомеоморфный", "concept_b": "Граф планарный", "has_relation": false}
+{"paragraph_id": "10.8", "concept_a": "Граф гомеоморфный", "concept_b": "Граф плоский", "has_relation": false}
+{"paragraph_id": "10.8", "concept_a": "Граф гомеоморфный", "concept_b": "Операция подразбиения", "has_relation": true}
+{"paragraph_id": "10.8", "concept_a": "Граф гомеоморфный", "concept_b": "Теорема Куратовского", "has_relation": true}
+{"paragraph_id": "10.8", "concept_a": "Граф гомеоморфный", "concept_b": "Укладка графа", "has_relation": false}
+{"paragraph_id": "10.8", "concept_a": "Граф гомеоморфный", "concept_b": "Формула Эйлера", "has_relation": false}
+{"paragraph_id": "10.8", "concept_a": "Граф гомеоморфный", "concept_b": "Эйлерова характеристика \\\\", "has_relation": false}
+{"paragraph_id": "10.8", "concept_a": "Граф планарный", "concept_b": "Граф плоский", "has_relation": true}
+{"paragraph_id": "10.8", "concept_a": "Граф планарный", "concept_b": "Операция подразбиения", "has_relation": false}
+{"paragraph_id": "10.8", "concept_a": "Граф планарный", "concept_b": "Теорема Куратовского", "has_relation": false}
+{"paragraph_id": "10.8", "concept_a": "Граф планарный", "concept_b": "Укладка графа", "has_relation": true}
+{"paragraph_id": "10.8", "concept_a": "Граф планарный", "concept_b": "Формула Эйлера", "has_relation": false}
+{"paragraph_id": "10.8", "concept_a": "Граф планарный", "concept_b": "Эйлерова характеристика \\\\", "has_relation": false}
+{"paragraph_id": "10.8", "concept_a": "Граф плоский", "concept_b": "Операция подразбиения", "has_relation": false}
+{"paragraph_id": "10.8", "concept_a": "Граф плоский", "concept_b": "Теорема Куратовского", "has_relation": false}
+{"paragraph_id": "10.8", "concept_a": "Граф плоский", "concept_b": "Укладка графа", "has_relation": true}
+{"paragraph_id": "10.8", "concept_a": "Граф плоский", "concept_b": "Формула Эйлера", "has_relation": false}
+{"paragraph_id": "10.8", "concept_a": "Граф плоский", "concept_b": "Эйлерова характеристика \\\\", "has_relation": false}
+{"paragraph_id": "10.8", "concept_a": "Операция подразбиения", "concept_b": "Теорема Куратовского", "has_relation": true}
+{"paragraph_id": "10.8", "concept_a": "Операция подразбиения", "concept_b": "Укладка графа", "has_relation": false}
+{"paragraph_id": "10.8", "concept_a": "Операция подразбиения", "concept_b": "Формула Эйлера", "has_relation": false}
+{"paragraph_id": "10.8", "concept_a": "Операция подразбиения", "concept_b": "Эйлерова характеристика \\\\", "has_relation": false}
+{"paragraph_id": "10.8", "concept_a": "Теорема Куратовского", "concept_b": "Укладка графа", "has_relation": false}
+{"paragraph_id": "10.8", "concept_a": "Теорема Куратовского", "concept_b": "Формула Эйлера", "has_relation": false}
+{"paragraph_id": "10.8", "concept_a": "Теорема Куратовского", "concept_b": "Эйлерова характеристика \\\\", "has_relation": false}
+{"paragraph_id": "10.8", "concept_a": "Укладка графа", "concept_b": "Формула Эйлера", "has_relation": false}
+{"paragraph_id": "10.8", "concept_a": "Укладка графа", "concept_b": "Эйлерова характеристика \\\\", "has_relation": false}
+{"paragraph_id": "10.8", "concept_a": "Формула Эйлера", "concept_b": "Эйлерова характеристика \\\\", "has_relation": true}

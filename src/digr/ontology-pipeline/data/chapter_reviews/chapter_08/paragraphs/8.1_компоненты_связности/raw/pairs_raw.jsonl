@@ -1,0 +1,36 @@
+{"paragraph_id": "8.1", "concept_a": "Блок графа", "concept_b": "Блок тривиальный", "has_relation": false}
+{"paragraph_id": "8.1", "concept_a": "Блок графа", "concept_b": "Вершина разделяющая", "has_relation": true}
+{"paragraph_id": "8.1", "concept_a": "Блок графа", "concept_b": "Граф $n$-связный", "has_relation": false}
+{"paragraph_id": "8.1", "concept_a": "Блок графа", "concept_b": "Граф двусвязный", "has_relation": false}
+{"paragraph_id": "8.1", "concept_a": "Блок графа", "concept_b": "Мост", "has_relation": true}
+{"paragraph_id": "8.1", "concept_a": "Блок графа", "concept_b": "Связность вершинная", "has_relation": false}
+{"paragraph_id": "8.1", "concept_a": "Блок графа", "concept_b": "Связность рёберная", "has_relation": false}
+{"paragraph_id": "8.1", "concept_a": "Блок графа", "concept_b": "Точка сочленения", "has_relation": true}
+{"paragraph_id": "8.1", "concept_a": "Блок тривиальный", "concept_b": "Вершина разделяющая", "has_relation": false}
+{"paragraph_id": "8.1", "concept_a": "Блок тривиальный", "concept_b": "Граф $n$-связный", "has_relation": false}
+{"paragraph_id": "8.1", "concept_a": "Блок тривиальный", "concept_b": "Граф двусвязный", "has_relation": false}
+{"paragraph_id": "8.1", "concept_a": "Блок тривиальный", "concept_b": "Мост", "has_relation": false}
+{"paragraph_id": "8.1", "concept_a": "Блок тривиальный", "concept_b": "Связность вершинная", "has_relation": false}
+{"paragraph_id": "8.1", "concept_a": "Блок тривиальный", "concept_b": "Связность рёберная", "has_relation": false}
+{"paragraph_id": "8.1", "concept_a": "Блок тривиальный", "concept_b": "Точка сочленения", "has_relation": false}
+{"paragraph_id": "8.1", "concept_a": "Вершина разделяющая", "concept_b": "Граф $n$-связный", "has_relation": false}
+{"paragraph_id": "8.1", "concept_a": "Вершина разделяющая", "concept_b": "Граф двусвязный", "has_relation": false}
+{"paragraph_id": "8.1", "concept_a": "Вершина разделяющая", "concept_b": "Мост", "has_relation": true}
+{"paragraph_id": "8.1", "concept_a": "Вершина разделяющая", "concept_b": "Связность вершинная", "has_relation": false}
+{"paragraph_id": "8.1", "concept_a": "Вершина разделяющая", "concept_b": "Связность рёберная", "has_relation": false}
+{"paragraph_id": "8.1", "concept_a": "Вершина разделяющая", "concept_b": "Точка сочленения", "has_relation": true}
+{"paragraph_id": "8.1", "concept_a": "Граф $n$-связный", "concept_b": "Граф двусвязный", "has_relation": false}
+{"paragraph_id": "8.1", "concept_a": "Граф $n$-связный", "concept_b": "Мост", "has_relation": false}
+{"paragraph_id": "8.1", "concept_a": "Граф $n$-связный", "concept_b": "Связность вершинная", "has_relation": false}
+{"paragraph_id": "8.1", "concept_a": "Граф $n$-связный", "concept_b": "Связность рёберная", "has_relation": true}
+{"paragraph_id": "8.1", "concept_a": "Граф $n$-связный", "concept_b": "Точка сочленения", "has_relation": false}
+{"paragraph_id": "8.1", "concept_a": "Граф двусвязный", "concept_b": "Мост", "has_relation": false}
+{"paragraph_id": "8.1", "concept_a": "Граф двусвязный", "concept_b": "Связность вершинная", "has_relation": false}
+{"paragraph_id": "8.1", "concept_a": "Граф двусвязный", "concept_b": "Связность рёберная", "has_relation": false}
+{"paragraph_id": "8.1", "concept_a": "Граф двусвязный", "concept_b": "Точка сочленения", "has_relation": false}
+{"paragraph_id": "8.1", "concept_a": "Мост", "concept_b": "Связность вершинная", "has_relation": false}
+{"paragraph_id": "8.1", "concept_a": "Мост", "concept_b": "Связность рёберная", "has_relation": false}
+{"paragraph_id": "8.1", "concept_a": "Мост", "concept_b": "Точка сочленения", "has_relation": true}
+{"paragraph_id": "8.1", "concept_a": "Связность вершинная", "concept_b": "Связность рёберная", "has_relation": false}
+{"paragraph_id": "8.1", "concept_a": "Связность вершинная", "concept_b": "Точка сочленения", "has_relation": false}
+{"paragraph_id": "8.1", "concept_a": "Связность рёберная", "concept_b": "Точка сочленения", "has_relation": false}

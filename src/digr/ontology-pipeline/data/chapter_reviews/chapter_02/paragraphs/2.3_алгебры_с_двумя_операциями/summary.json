@@ -1,0 +1,18 @@
+{
+  "paragraph_id": "2.3",
+  "paragraph_title": "2.3. Алгебры с двумя операциями",
+  "folder": "2.3_алгебры_с_двумя_операциями",
+  "relations_reviewed": 5,
+  "corrected_relations": 2,
+  "category_counts": {
+    "found_on_diagram_correct": 0,
+    "found_on_diagram_wrong_direction": 0,
+    "found_on_diagram_wrong_type": 0,
+    "found_on_diagram_wrong_direction_and_type": 0,
+    "found_not_on_diagram_accepted": 2,
+    "found_not_on_diagram_rejected": 0,
+    "not_found_from_diagram": 3
+  },
+  "rendered": true,
+  "render_error": null
+}

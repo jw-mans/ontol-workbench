@@ -1,0 +1,91 @@
+{"paragraph_id": "10.6", "concept_a": "Задача о выборе переводчиков", "concept_b": "Задача о наименьшем покрытии", "has_relation": false}
+{"paragraph_id": "10.6", "concept_a": "Задача о выборе переводчиков", "concept_b": "Задача о пяти ферзях", "has_relation": false}
+{"paragraph_id": "10.6", "concept_a": "Задача о выборе переводчиков", "concept_b": "Задача о развозке", "has_relation": true}
+{"paragraph_id": "10.6", "concept_a": "Задача о выборе переводчиков", "concept_b": "Множество вершин внешне устойчивое", "has_relation": false}
+{"paragraph_id": "10.6", "concept_a": "Задача о выборе переводчиков", "concept_b": "Множество вершин доминирующее", "has_relation": false}
+{"paragraph_id": "10.6", "concept_a": "Задача о выборе переводчиков", "concept_b": "Множество минимальное", "has_relation": false}
+{"paragraph_id": "10.6", "concept_a": "Задача о выборе переводчиков", "concept_b": "Множество наименьшее", "has_relation": false}
+{"paragraph_id": "10.6", "concept_a": "Задача о выборе переводчиков", "concept_b": "Множество рёбер внешне устойчивое", "has_relation": false}
+{"paragraph_id": "10.6", "concept_a": "Задача о выборе переводчиков", "concept_b": "Множество рёбер доминирующее", "has_relation": false}
+{"paragraph_id": "10.6", "concept_a": "Задача о выборе переводчиков", "concept_b": "Множество узлов доминирующее", "has_relation": false}
+{"paragraph_id": "10.6", "concept_a": "Задача о выборе переводчиков", "concept_b": "Множество узлов независимое", "has_relation": false}
+{"paragraph_id": "10.6", "concept_a": "Задача о выборе переводчиков", "concept_b": "Ядро графа", "has_relation": false}
+{"paragraph_id": "10.6", "concept_a": "Задача о выборе переводчиков", "concept_b": "Ядро орграфа", "has_relation": false}
+{"paragraph_id": "10.6", "concept_a": "Задача о наименьшем покрытии", "concept_b": "Задача о пяти ферзях", "has_relation": false}
+{"paragraph_id": "10.6", "concept_a": "Задача о наименьшем покрытии", "concept_b": "Задача о развозке", "has_relation": false}
+{"paragraph_id": "10.6", "concept_a": "Задача о наименьшем покрытии", "concept_b": "Множество вершин внешне устойчивое", "has_relation": false}
+{"paragraph_id": "10.6", "concept_a": "Задача о наименьшем покрытии", "concept_b": "Множество вершин доминирующее", "has_relation": false}
+{"paragraph_id": "10.6", "concept_a": "Задача о наименьшем покрытии", "concept_b": "Множество минимальное", "has_relation": false}
+{"paragraph_id": "10.6", "concept_a": "Задача о наименьшем покрытии", "concept_b": "Множество наименьшее", "has_relation": false}
+{"paragraph_id": "10.6", "concept_a": "Задача о наименьшем покрытии", "concept_b": "Множество рёбер внешне устойчивое", "has_relation": false}
+{"paragraph_id": "10.6", "concept_a": "Задача о наименьшем покрытии", "concept_b": "Множество рёбер доминирующее", "has_relation": false}
+{"paragraph_id": "10.6", "concept_a": "Задача о наименьшем покрытии", "concept_b": "Множество узлов доминирующее", "has_relation": false}
+{"paragraph_id": "10.6", "concept_a": "Задача о наименьшем покрытии", "concept_b": "Множество узлов независимое", "has_relation": false}
+{"paragraph_id": "10.6", "concept_a": "Задача о наименьшем покрытии", "concept_b": "Ядро графа", "has_relation": false}
+{"paragraph_id": "10.6", "concept_a": "Задача о наименьшем покрытии", "concept_b": "Ядро орграфа", "has_relation": false}
+{"paragraph_id": "10.6", "concept_a": "Задача о пяти ферзях", "concept_b": "Задача о развозке", "has_relation": false}
+{"paragraph_id": "10.6", "concept_a": "Задача о пяти ферзях", "concept_b": "Множество вершин внешне устойчивое", "has_relation": true}
+{"paragraph_id": "10.6", "concept_a": "Задача о пяти ферзях", "concept_b": "Множество вершин доминирующее", "has_relation": true}
+{"paragraph_id": "10.6", "concept_a": "Задача о пяти ферзях", "concept_b": "Множество минимальное", "has_relation": true}
+{"paragraph_id": "10.6", "concept_a": "Задача о пяти ферзях", "concept_b": "Множество наименьшее", "has_relation": true}
+{"paragraph_id": "10.6", "concept_a": "Задача о пяти ферзях", "concept_b": "Множество рёбер внешне устойчивое", "has_relation": false}
+{"paragraph_id": "10.6", "concept_a": "Задача о пяти ферзях", "concept_b": "Множество рёбер доминирующее", "has_relation": false}
+{"paragraph_id": "10.6", "concept_a": "Задача о пяти ферзях", "concept_b": "Множество узлов доминирующее", "has_relation": false}
+{"paragraph_id": "10.6", "concept_a": "Задача о пяти ферзях", "concept_b": "Множество узлов независимое", "has_relation": false}
+{"paragraph_id": "10.6", "concept_a": "Задача о пяти ферзях", "concept_b": "Ядро графа", "has_relation": false}
+{"paragraph_id": "10.6", "concept_a": "Задача о пяти ферзях", "concept_b": "Ядро орграфа", "has_relation": false}
+{"paragraph_id": "10.6", "concept_a": "Задача о развозке", "concept_b": "Множество вершин внешне устойчивое", "has_relation": false}
+{"paragraph_id": "10.6", "concept_a": "Задача о развозке", "concept_b": "Множество вершин доминирующее", "has_relation": false}
+{"paragraph_id": "10.6", "concept_a": "Задача о развозке", "concept_b": "Множество минимальное", "has_relation": false}
+{"paragraph_id": "10.6", "concept_a": "Задача о развозке", "concept_b": "Множество наименьшее", "has_relation": false}
+{"paragraph_id": "10.6", "concept_a": "Задача о развозке", "concept_b": "Множество рёбер внешне устойчивое", "has_relation": false}
+{"paragraph_id": "10.6", "concept_a": "Задача о развозке", "concept_b": "Множество рёбер доминирующее", "has_relation": false}
+{"paragraph_id": "10.6", "concept_a": "Задача о развозке", "concept_b": "Множество узлов доминирующее", "has_relation": false}
+{"paragraph_id": "10.6", "concept_a": "Задача о развозке", "concept_b": "Множество узлов независимое", "has_relation": false}
+{"paragraph_id": "10.6", "concept_a": "Задача о развозке", "concept_b": "Ядро графа", "has_relation": false}
+{"paragraph_id": "10.6", "concept_a": "Задача о развозке", "concept_b": "Ядро орграфа", "has_relation": false}
+{"paragraph_id": "10.6", "concept_a": "Множество вершин внешне устойчивое", "concept_b": "Множество вершин доминирующее", "has_relation": true}
+{"paragraph_id": "10.6", "concept_a": "Множество вершин внешне устойчивое", "concept_b": "Множество минимальное", "has_relation": true}
+{"paragraph_id": "10.6", "concept_a": "Множество вершин внешне устойчивое", "concept_b": "Множество наименьшее", "has_relation": true}
+{"paragraph_id": "10.6", "concept_a": "Множество вершин внешне устойчивое", "concept_b": "Множество рёбер внешне устойчивое", "has_relation": false}
+{"paragraph_id": "10.6", "concept_a": "Множество вершин внешне устойчивое", "concept_b": "Множество рёбер доминирующее", "has_relation": false}
+{"paragraph_id": "10.6", "concept_a": "Множество вершин внешне устойчивое", "concept_b": "Множество узлов доминирующее", "has_relation": false}
+{"paragraph_id": "10.6", "concept_a": "Множество вершин внешне устойчивое", "concept_b": "Множество узлов независимое", "has_relation": false}
+{"paragraph_id": "10.6", "concept_a": "Множество вершин внешне устойчивое", "concept_b": "Ядро графа", "has_relation": false}
+{"paragraph_id": "10.6", "concept_a": "Множество вершин внешне устойчивое", "concept_b": "Ядро орграфа", "has_relation": false}
+{"paragraph_id": "10.6", "concept_a": "Множество вершин доминирующее", "concept_b": "Множество минимальное", "has_relation": true}
+{"paragraph_id": "10.6", "concept_a": "Множество вершин доминирующее", "concept_b": "Множество наименьшее", "has_relation": true}
+{"paragraph_id": "10.6", "concept_a": "Множество вершин доминирующее", "concept_b": "Множество рёбер внешне устойчивое", "has_relation": false}
+{"paragraph_id": "10.6", "concept_a": "Множество вершин доминирующее", "concept_b": "Множество рёбер доминирующее", "has_relation": false}
+{"paragraph_id": "10.6", "concept_a": "Множество вершин доминирующее", "concept_b": "Множество узлов доминирующее", "has_relation": false}
+{"paragraph_id": "10.6", "concept_a": "Множество вершин доминирующее", "concept_b": "Множество узлов независимое", "has_relation": false}
+{"paragraph_id": "10.6", "concept_a": "Множество вершин доминирующее", "concept_b": "Ядро графа", "has_relation": false}
+{"paragraph_id": "10.6", "concept_a": "Множество вершин доминирующее", "concept_b": "Ядро орграфа", "has_relation": false}
+{"paragraph_id": "10.6", "concept_a": "Множество минимальное", "concept_b": "Множество наименьшее", "has_relation": true}
+{"paragraph_id": "10.6", "concept_a": "Множество минимальное", "concept_b": "Множество рёбер внешне устойчивое", "has_relation": true}
+{"paragraph_id": "10.6", "concept_a": "Множество минимальное", "concept_b": "Множество рёбер доминирующее", "has_relation": true}
+{"paragraph_id": "10.6", "concept_a": "Множество минимальное", "concept_b": "Множество узлов доминирующее", "has_relation": false}
+{"paragraph_id": "10.6", "concept_a": "Множество минимальное", "concept_b": "Множество узлов независимое", "has_relation": false}
+{"paragraph_id": "10.6", "concept_a": "Множество минимальное", "concept_b": "Ядро графа", "has_relation": false}
+{"paragraph_id": "10.6", "concept_a": "Множество минимальное", "concept_b": "Ядро орграфа", "has_relation": false}
+{"paragraph_id": "10.6", "concept_a": "Множество наименьшее", "concept_b": "Множество рёбер внешне устойчивое", "has_relation": true}
+{"paragraph_id": "10.6", "concept_a": "Множество наименьшее", "concept_b": "Множество рёбер доминирующее", "has_relation": true}
+{"paragraph_id": "10.6", "concept_a": "Множество наименьшее", "concept_b": "Множество узлов доминирующее", "has_relation": false}
+{"paragraph_id": "10.6", "concept_a": "Множество наименьшее", "concept_b": "Множество узлов независимое", "has_relation": false}
+{"paragraph_id": "10.6", "concept_a": "Множество наименьшее", "concept_b": "Ядро графа", "has_relation": false}
+{"paragraph_id": "10.6", "concept_a": "Множество наименьшее", "concept_b": "Ядро орграфа", "has_relation": false}
+{"paragraph_id": "10.6", "concept_a": "Множество рёбер внешне устойчивое", "concept_b": "Множество рёбер доминирующее", "has_relation": true}
+{"paragraph_id": "10.6", "concept_a": "Множество рёбер внешне устойчивое", "concept_b": "Множество узлов доминирующее", "has_relation": false}
+{"paragraph_id": "10.6", "concept_a": "Множество рёбер внешне устойчивое", "concept_b": "Множество узлов независимое", "has_relation": false}
+{"paragraph_id": "10.6", "concept_a": "Множество рёбер внешне устойчивое", "concept_b": "Ядро графа", "has_relation": false}
+{"paragraph_id": "10.6", "concept_a": "Множество рёбер внешне устойчивое", "concept_b": "Ядро орграфа", "has_relation": false}
+{"paragraph_id": "10.6", "concept_a": "Множество рёбер доминирующее", "concept_b": "Множество узлов доминирующее", "has_relation": false}
+{"paragraph_id": "10.6", "concept_a": "Множество рёбер доминирующее", "concept_b": "Множество узлов независимое", "has_relation": false}
+{"paragraph_id": "10.6", "concept_a": "Множество рёбер доминирующее", "concept_b": "Ядро графа", "has_relation": false}
+{"paragraph_id": "10.6", "concept_a": "Множество рёбер доминирующее", "concept_b": "Ядро орграфа", "has_relation": false}
+{"paragraph_id": "10.6", "concept_a": "Множество узлов доминирующее", "concept_b": "Множество узлов независимое", "has_relation": true}
+{"paragraph_id": "10.6", "concept_a": "Множество узлов доминирующее", "concept_b": "Ядро графа", "has_relation": false}
+{"paragraph_id": "10.6", "concept_a": "Множество узлов доминирующее", "concept_b": "Ядро орграфа", "has_relation": true}
+{"paragraph_id": "10.6", "concept_a": "Множество узлов независимое", "concept_b": "Ядро графа", "has_relation": false}
+{"paragraph_id": "10.6", "concept_a": "Множество узлов независимое", "concept_b": "Ядро орграфа", "has_relation": true}
+{"paragraph_id": "10.6", "concept_a": "Ядро графа", "concept_b": "Ядро орграфа", "has_relation": false}

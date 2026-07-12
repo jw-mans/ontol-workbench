@@ -1,0 +1,78 @@
+{"paragraph_id": "5.3", "concept_a": "Алгоритм генерации подмножеств", "concept_b": "Бином Ньютона", "has_relation": false}
+{"paragraph_id": "5.3", "concept_a": "Алгоритм генерации подмножеств", "concept_b": "Задача переборная", "has_relation": false}
+{"paragraph_id": "5.3", "concept_a": "Алгоритм генерации подмножеств", "concept_b": "Коэффициент биномиальный", "has_relation": false}
+{"paragraph_id": "5.3", "concept_a": "Алгоритм генерации подмножеств", "concept_b": "Коэффициент биномиальный расширенный", "has_relation": false}
+{"paragraph_id": "5.3", "concept_a": "Алгоритм генерации подмножеств", "concept_b": "Коэффициент мультиномиальный", "has_relation": false}
+{"paragraph_id": "5.3", "concept_a": "Алгоритм генерации подмножеств", "concept_b": "Пространство поиска", "has_relation": false}
+{"paragraph_id": "5.3", "concept_a": "Алгоритм генерации подмножеств", "concept_b": "Рекуррентное соотношение", "has_relation": false}
+{"paragraph_id": "5.3", "concept_a": "Алгоритм генерации подмножеств", "concept_b": "Система счисления k-биномиальная", "has_relation": false}
+{"paragraph_id": "5.3", "concept_a": "Алгоритм генерации подмножеств", "concept_b": "Состав последовательности", "has_relation": false}
+{"paragraph_id": "5.3", "concept_a": "Алгоритм генерации подмножеств", "concept_b": "Треугольник Паскаля", "has_relation": false}
+{"paragraph_id": "5.3", "concept_a": "Алгоритм генерации подмножеств", "concept_b": "Треугольник Паскаля расширенный", "has_relation": false}
+{"paragraph_id": "5.3", "concept_a": "Алгоритм генерации подмножеств", "concept_b": "Формула Коши", "has_relation": false}
+{"paragraph_id": "5.3", "concept_a": "Бином Ньютона", "concept_b": "Задача переборная", "has_relation": false}
+{"paragraph_id": "5.3", "concept_a": "Бином Ньютона", "concept_b": "Коэффициент биномиальный", "has_relation": true}
+{"paragraph_id": "5.3", "concept_a": "Бином Ньютона", "concept_b": "Коэффициент биномиальный расширенный", "has_relation": false}
+{"paragraph_id": "5.3", "concept_a": "Бином Ньютона", "concept_b": "Коэффициент мультиномиальный", "has_relation": false}
+{"paragraph_id": "5.3", "concept_a": "Бином Ньютона", "concept_b": "Пространство поиска", "has_relation": false}
+{"paragraph_id": "5.3", "concept_a": "Бином Ньютона", "concept_b": "Рекуррентное соотношение", "has_relation": false}
+{"paragraph_id": "5.3", "concept_a": "Бином Ньютона", "concept_b": "Система счисления k-биномиальная", "has_relation": false}
+{"paragraph_id": "5.3", "concept_a": "Бином Ньютона", "concept_b": "Состав последовательности", "has_relation": false}
+{"paragraph_id": "5.3", "concept_a": "Бином Ньютона", "concept_b": "Треугольник Паскаля", "has_relation": false}
+{"paragraph_id": "5.3", "concept_a": "Бином Ньютона", "concept_b": "Треугольник Паскаля расширенный", "has_relation": false}
+{"paragraph_id": "5.3", "concept_a": "Бином Ньютона", "concept_b": "Формула Коши", "has_relation": false}
+{"paragraph_id": "5.3", "concept_a": "Задача переборная", "concept_b": "Коэффициент биномиальный", "has_relation": false}
+{"paragraph_id": "5.3", "concept_a": "Задача переборная", "concept_b": "Коэффициент биномиальный расширенный", "has_relation": false}
+{"paragraph_id": "5.3", "concept_a": "Задача переборная", "concept_b": "Коэффициент мультиномиальный", "has_relation": false}
+{"paragraph_id": "5.3", "concept_a": "Задача переборная", "concept_b": "Пространство поиска", "has_relation": true}
+{"paragraph_id": "5.3", "concept_a": "Задача переборная", "concept_b": "Рекуррентное соотношение", "has_relation": false}
+{"paragraph_id": "5.3", "concept_a": "Задача переборная", "concept_b": "Система счисления k-биномиальная", "has_relation": false}
+{"paragraph_id": "5.3", "concept_a": "Задача переборная", "concept_b": "Состав последовательности", "has_relation": false}
+{"paragraph_id": "5.3", "concept_a": "Задача переборная", "concept_b": "Треугольник Паскаля", "has_relation": false}
+{"paragraph_id": "5.3", "concept_a": "Задача переборная", "concept_b": "Треугольник Паскаля расширенный", "has_relation": false}
+{"paragraph_id": "5.3", "concept_a": "Задача переборная", "concept_b": "Формула Коши", "has_relation": false}
+{"paragraph_id": "5.3", "concept_a": "Коэффициент биномиальный", "concept_b": "Коэффициент биномиальный расширенный", "has_relation": false}
+{"paragraph_id": "5.3", "concept_a": "Коэффициент биномиальный", "concept_b": "Коэффициент мультиномиальный", "has_relation": false}
+{"paragraph_id": "5.3", "concept_a": "Коэффициент биномиальный", "concept_b": "Пространство поиска", "has_relation": false}
+{"paragraph_id": "5.3", "concept_a": "Коэффициент биномиальный", "concept_b": "Рекуррентное соотношение", "has_relation": false}
+{"paragraph_id": "5.3", "concept_a": "Коэффициент биномиальный", "concept_b": "Система счисления k-биномиальная", "has_relation": false}
+{"paragraph_id": "5.3", "concept_a": "Коэффициент биномиальный", "concept_b": "Состав последовательности", "has_relation": false}
+{"paragraph_id": "5.3", "concept_a": "Коэффициент биномиальный", "concept_b": "Треугольник Паскаля", "has_relation": false}
+{"paragraph_id": "5.3", "concept_a": "Коэффициент биномиальный", "concept_b": "Треугольник Паскаля расширенный", "has_relation": false}
+{"paragraph_id": "5.3", "concept_a": "Коэффициент биномиальный", "concept_b": "Формула Коши", "has_relation": false}
+{"paragraph_id": "5.3", "concept_a": "Коэффициент биномиальный расширенный", "concept_b": "Коэффициент мультиномиальный", "has_relation": false}
+{"paragraph_id": "5.3", "concept_a": "Коэффициент биномиальный расширенный", "concept_b": "Пространство поиска", "has_relation": false}
+{"paragraph_id": "5.3", "concept_a": "Коэффициент биномиальный расширенный", "concept_b": "Рекуррентное соотношение", "has_relation": false}
+{"paragraph_id": "5.3", "concept_a": "Коэффициент биномиальный расширенный", "concept_b": "Система счисления k-биномиальная", "has_relation": false}
+{"paragraph_id": "5.3", "concept_a": "Коэффициент биномиальный расширенный", "concept_b": "Состав последовательности", "has_relation": false}
+{"paragraph_id": "5.3", "concept_a": "Коэффициент биномиальный расширенный", "concept_b": "Треугольник Паскаля", "has_relation": false}
+{"paragraph_id": "5.3", "concept_a": "Коэффициент биномиальный расширенный", "concept_b": "Треугольник Паскаля расширенный", "has_relation": false}
+{"paragraph_id": "5.3", "concept_a": "Коэффициент биномиальный расширенный", "concept_b": "Формула Коши", "has_relation": false}
+{"paragraph_id": "5.3", "concept_a": "Коэффициент мультиномиальный", "concept_b": "Пространство поиска", "has_relation": false}
+{"paragraph_id": "5.3", "concept_a": "Коэффициент мультиномиальный", "concept_b": "Рекуррентное соотношение", "has_relation": false}
+{"paragraph_id": "5.3", "concept_a": "Коэффициент мультиномиальный", "concept_b": "Система счисления k-биномиальная", "has_relation": false}
+{"paragraph_id": "5.3", "concept_a": "Коэффициент мультиномиальный", "concept_b": "Состав последовательности", "has_relation": false}
+{"paragraph_id": "5.3", "concept_a": "Коэффициент мультиномиальный", "concept_b": "Треугольник Паскаля", "has_relation": false}
+{"paragraph_id": "5.3", "concept_a": "Коэффициент мультиномиальный", "concept_b": "Треугольник Паскаля расширенный", "has_relation": false}
+{"paragraph_id": "5.3", "concept_a": "Коэффициент мультиномиальный", "concept_b": "Формула Коши", "has_relation": false}
+{"paragraph_id": "5.3", "concept_a": "Пространство поиска", "concept_b": "Рекуррентное соотношение", "has_relation": false}
+{"paragraph_id": "5.3", "concept_a": "Пространство поиска", "concept_b": "Система счисления k-биномиальная", "has_relation": false}
+{"paragraph_id": "5.3", "concept_a": "Пространство поиска", "concept_b": "Состав последовательности", "has_relation": false}
+{"paragraph_id": "5.3", "concept_a": "Пространство поиска", "concept_b": "Треугольник Паскаля", "has_relation": false}
+{"paragraph_id": "5.3", "concept_a": "Пространство поиска", "concept_b": "Треугольник Паскаля расширенный", "has_relation": false}
+{"paragraph_id": "5.3", "concept_a": "Пространство поиска", "concept_b": "Формула Коши", "has_relation": false}
+{"paragraph_id": "5.3", "concept_a": "Рекуррентное соотношение", "concept_b": "Система счисления k-биномиальная", "has_relation": false}
+{"paragraph_id": "5.3", "concept_a": "Рекуррентное соотношение", "concept_b": "Состав последовательности", "has_relation": false}
+{"paragraph_id": "5.3", "concept_a": "Рекуррентное соотношение", "concept_b": "Треугольник Паскаля", "has_relation": false}
+{"paragraph_id": "5.3", "concept_a": "Рекуррентное соотношение", "concept_b": "Треугольник Паскаля расширенный", "has_relation": false}
+{"paragraph_id": "5.3", "concept_a": "Рекуррентное соотношение", "concept_b": "Формула Коши", "has_relation": false}
+{"paragraph_id": "5.3", "concept_a": "Система счисления k-биномиальная", "concept_b": "Состав последовательности", "has_relation": false}
+{"paragraph_id": "5.3", "concept_a": "Система счисления k-биномиальная", "concept_b": "Треугольник Паскаля", "has_relation": false}
+{"paragraph_id": "5.3", "concept_a": "Система счисления k-биномиальная", "concept_b": "Треугольник Паскаля расширенный", "has_relation": false}
+{"paragraph_id": "5.3", "concept_a": "Система счисления k-биномиальная", "concept_b": "Формула Коши", "has_relation": false}
+{"paragraph_id": "5.3", "concept_a": "Состав последовательности", "concept_b": "Треугольник Паскаля", "has_relation": false}
+{"paragraph_id": "5.3", "concept_a": "Состав последовательности", "concept_b": "Треугольник Паскаля расширенный", "has_relation": false}
+{"paragraph_id": "5.3", "concept_a": "Состав последовательности", "concept_b": "Формула Коши", "has_relation": false}
+{"paragraph_id": "5.3", "concept_a": "Треугольник Паскаля", "concept_b": "Треугольник Паскаля расширенный", "has_relation": false}
+{"paragraph_id": "5.3", "concept_a": "Треугольник Паскаля", "concept_b": "Формула Коши", "has_relation": false}
+{"paragraph_id": "5.3", "concept_a": "Треугольник Паскаля расширенный", "concept_b": "Формула Коши", "has_relation": false}

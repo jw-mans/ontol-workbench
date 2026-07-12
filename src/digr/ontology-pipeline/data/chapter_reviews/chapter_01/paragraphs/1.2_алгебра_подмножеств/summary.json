@@ -1,0 +1,18 @@
+{
+  "paragraph_id": "1.2",
+  "paragraph_title": "1.2. Алгебра подмножеств",
+  "folder": "1.2_алгебра_подмножеств",
+  "relations_reviewed": 52,
+  "corrected_relations": 47,
+  "category_counts": {
+    "found_on_diagram_correct": 1,
+    "found_on_diagram_wrong_direction": 0,
+    "found_on_diagram_wrong_type": 1,
+    "found_on_diagram_wrong_direction_and_type": 0,
+    "found_not_on_diagram_accepted": 45,
+    "found_not_on_diagram_rejected": 0,
+    "not_found_from_diagram": 5
+  },
+  "rendered": false,
+  "render_error": "Обнаружен циклический архитектурный антипаттерн взаимосвязи иерархий (a^+ b^+ a^+ b^+) для класса 'Алгебра'\nОбнаружен циклический архитектурный антипаттерн взаимосвязи иерархий (a^+ b^+ a^+ b^+) для класса 'Разбиение'"
+}

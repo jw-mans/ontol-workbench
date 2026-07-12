@@ -1,0 +1,91 @@
+{"paragraph_id": "8.5", "concept_a": "Алгоритм Косарайю", "concept_b": "Алгоритм выделения компонент сильной связности", "has_relation": false}
+{"paragraph_id": "8.5", "concept_a": "Алгоритм Косарайю", "concept_b": "Базис орграфа", "has_relation": false}
+{"paragraph_id": "8.5", "concept_a": "Алгоритм Косарайю", "concept_b": "Граф Герца", "has_relation": false}
+{"paragraph_id": "8.5", "concept_a": "Алгоритм Косарайю", "concept_b": "Компонента сильной связности", "has_relation": false}
+{"paragraph_id": "8.5", "concept_a": "Алгоритм Косарайю", "concept_b": "Конденсация орграфа", "has_relation": false}
+{"paragraph_id": "8.5", "concept_a": "Алгоритм Косарайю", "concept_b": "Множество узлов порождающее", "has_relation": false}
+{"paragraph_id": "8.5", "concept_a": "Алгоритм Косарайю", "concept_b": "Связанность узлов односторонняя", "has_relation": false}
+{"paragraph_id": "8.5", "concept_a": "Алгоритм Косарайю", "concept_b": "Связанность узлов сильная", "has_relation": false}
+{"paragraph_id": "8.5", "concept_a": "Алгоритм Косарайю", "concept_b": "Связанность узлов слабая", "has_relation": false}
+{"paragraph_id": "8.5", "concept_a": "Алгоритм Косарайю", "concept_b": "Связность односторонняя", "has_relation": false}
+{"paragraph_id": "8.5", "concept_a": "Алгоритм Косарайю", "concept_b": "Связность сильная", "has_relation": false}
+{"paragraph_id": "8.5", "concept_a": "Алгоритм Косарайю", "concept_b": "Связность слабая", "has_relation": false}
+{"paragraph_id": "8.5", "concept_a": "Алгоритм Косарайю", "concept_b": "Фактор-граф", "has_relation": false}
+{"paragraph_id": "8.5", "concept_a": "Алгоритм выделения компонент сильной связности", "concept_b": "Базис орграфа", "has_relation": false}
+{"paragraph_id": "8.5", "concept_a": "Алгоритм выделения компонент сильной связности", "concept_b": "Граф Герца", "has_relation": false}
+{"paragraph_id": "8.5", "concept_a": "Алгоритм выделения компонент сильной связности", "concept_b": "Компонента сильной связности", "has_relation": false}
+{"paragraph_id": "8.5", "concept_a": "Алгоритм выделения компонент сильной связности", "concept_b": "Конденсация орграфа", "has_relation": false}
+{"paragraph_id": "8.5", "concept_a": "Алгоритм выделения компонент сильной связности", "concept_b": "Множество узлов порождающее", "has_relation": false}
+{"paragraph_id": "8.5", "concept_a": "Алгоритм выделения компонент сильной связности", "concept_b": "Связанность узлов односторонняя", "has_relation": false}
+{"paragraph_id": "8.5", "concept_a": "Алгоритм выделения компонент сильной связности", "concept_b": "Связанность узлов сильная", "has_relation": false}
+{"paragraph_id": "8.5", "concept_a": "Алгоритм выделения компонент сильной связности", "concept_b": "Связанность узлов слабая", "has_relation": false}
+{"paragraph_id": "8.5", "concept_a": "Алгоритм выделения компонент сильной связности", "concept_b": "Связность односторонняя", "has_relation": false}
+{"paragraph_id": "8.5", "concept_a": "Алгоритм выделения компонент сильной связности", "concept_b": "Связность сильная", "has_relation": false}
+{"paragraph_id": "8.5", "concept_a": "Алгоритм выделения компонент сильной связности", "concept_b": "Связность слабая", "has_relation": false}
+{"paragraph_id": "8.5", "concept_a": "Алгоритм выделения компонент сильной связности", "concept_b": "Фактор-граф", "has_relation": false}
+{"paragraph_id": "8.5", "concept_a": "Базис орграфа", "concept_b": "Граф Герца", "has_relation": false}
+{"paragraph_id": "8.5", "concept_a": "Базис орграфа", "concept_b": "Компонента сильной связности", "has_relation": false}
+{"paragraph_id": "8.5", "concept_a": "Базис орграфа", "concept_b": "Конденсация орграфа", "has_relation": false}
+{"paragraph_id": "8.5", "concept_a": "Базис орграфа", "concept_b": "Множество узлов порождающее", "has_relation": true}
+{"paragraph_id": "8.5", "concept_a": "Базис орграфа", "concept_b": "Связанность узлов односторонняя", "has_relation": false}
+{"paragraph_id": "8.5", "concept_a": "Базис орграфа", "concept_b": "Связанность узлов сильная", "has_relation": false}
+{"paragraph_id": "8.5", "concept_a": "Базис орграфа", "concept_b": "Связанность узлов слабая", "has_relation": false}
+{"paragraph_id": "8.5", "concept_a": "Базис орграфа", "concept_b": "Связность односторонняя", "has_relation": false}
+{"paragraph_id": "8.5", "concept_a": "Базис орграфа", "concept_b": "Связность сильная", "has_relation": false}
+{"paragraph_id": "8.5", "concept_a": "Базис орграфа", "concept_b": "Связность слабая", "has_relation": false}
+{"paragraph_id": "8.5", "concept_a": "Базис орграфа", "concept_b": "Фактор-граф", "has_relation": false}
+{"paragraph_id": "8.5", "concept_a": "Граф Герца", "concept_b": "Компонента сильной связности", "has_relation": true}
+{"paragraph_id": "8.5", "concept_a": "Граф Герца", "concept_b": "Конденсация орграфа", "has_relation": true}
+{"paragraph_id": "8.5", "concept_a": "Граф Герца", "concept_b": "Множество узлов порождающее", "has_relation": false}
+{"paragraph_id": "8.5", "concept_a": "Граф Герца", "concept_b": "Связанность узлов односторонняя", "has_relation": false}
+{"paragraph_id": "8.5", "concept_a": "Граф Герца", "concept_b": "Связанность узлов сильная", "has_relation": false}
+{"paragraph_id": "8.5", "concept_a": "Граф Герца", "concept_b": "Связанность узлов слабая", "has_relation": false}
+{"paragraph_id": "8.5", "concept_a": "Граф Герца", "concept_b": "Связность односторонняя", "has_relation": false}
+{"paragraph_id": "8.5", "concept_a": "Граф Герца", "concept_b": "Связность сильная", "has_relation": false}
+{"paragraph_id": "8.5", "concept_a": "Граф Герца", "concept_b": "Связность слабая", "has_relation": false}
+{"paragraph_id": "8.5", "concept_a": "Граф Герца", "concept_b": "Фактор-граф", "has_relation": true}
+{"paragraph_id": "8.5", "concept_a": "Компонента сильной связности", "concept_b": "Конденсация орграфа", "has_relation": true}
+{"paragraph_id": "8.5", "concept_a": "Компонента сильной связности", "concept_b": "Множество узлов порождающее", "has_relation": false}
+{"paragraph_id": "8.5", "concept_a": "Компонента сильной связности", "concept_b": "Связанность узлов односторонняя", "has_relation": false}
+{"paragraph_id": "8.5", "concept_a": "Компонента сильной связности", "concept_b": "Связанность узлов сильная", "has_relation": false}
+{"paragraph_id": "8.5", "concept_a": "Компонента сильной связности", "concept_b": "Связанность узлов слабая", "has_relation": false}
+{"paragraph_id": "8.5", "concept_a": "Компонента сильной связности", "concept_b": "Связность односторонняя", "has_relation": false}
+{"paragraph_id": "8.5", "concept_a": "Компонента сильной связности", "concept_b": "Связность сильная", "has_relation": false}
+{"paragraph_id": "8.5", "concept_a": "Компонента сильной связности", "concept_b": "Связность слабая", "has_relation": false}
+{"paragraph_id": "8.5", "concept_a": "Компонента сильной связности", "concept_b": "Фактор-граф", "has_relation": true}
+{"paragraph_id": "8.5", "concept_a": "Конденсация орграфа", "concept_b": "Множество узлов порождающее", "has_relation": false}
+{"paragraph_id": "8.5", "concept_a": "Конденсация орграфа", "concept_b": "Связанность узлов односторонняя", "has_relation": false}
+{"paragraph_id": "8.5", "concept_a": "Конденсация орграфа", "concept_b": "Связанность узлов сильная", "has_relation": false}
+{"paragraph_id": "8.5", "concept_a": "Конденсация орграфа", "concept_b": "Связанность узлов слабая", "has_relation": false}
+{"paragraph_id": "8.5", "concept_a": "Конденсация орграфа", "concept_b": "Связность односторонняя", "has_relation": false}
+{"paragraph_id": "8.5", "concept_a": "Конденсация орграфа", "concept_b": "Связность сильная", "has_relation": false}
+{"paragraph_id": "8.5", "concept_a": "Конденсация орграфа", "concept_b": "Связность слабая", "has_relation": false}
+{"paragraph_id": "8.5", "concept_a": "Конденсация орграфа", "concept_b": "Фактор-граф", "has_relation": true}
+{"paragraph_id": "8.5", "concept_a": "Множество узлов порождающее", "concept_b": "Связанность узлов односторонняя", "has_relation": false}
+{"paragraph_id": "8.5", "concept_a": "Множество узлов порождающее", "concept_b": "Связанность узлов сильная", "has_relation": false}
+{"paragraph_id": "8.5", "concept_a": "Множество узлов порождающее", "concept_b": "Связанность узлов слабая", "has_relation": false}
+{"paragraph_id": "8.5", "concept_a": "Множество узлов порождающее", "concept_b": "Связность односторонняя", "has_relation": false}
+{"paragraph_id": "8.5", "concept_a": "Множество узлов порождающее", "concept_b": "Связность сильная", "has_relation": false}
+{"paragraph_id": "8.5", "concept_a": "Множество узлов порождающее", "concept_b": "Связность слабая", "has_relation": false}
+{"paragraph_id": "8.5", "concept_a": "Множество узлов порождающее", "concept_b": "Фактор-граф", "has_relation": false}
+{"paragraph_id": "8.5", "concept_a": "Связанность узлов односторонняя", "concept_b": "Связанность узлов сильная", "has_relation": true}
+{"paragraph_id": "8.5", "concept_a": "Связанность узлов односторонняя", "concept_b": "Связанность узлов слабая", "has_relation": true}
+{"paragraph_id": "8.5", "concept_a": "Связанность узлов односторонняя", "concept_b": "Связность односторонняя", "has_relation": true}
+{"paragraph_id": "8.5", "concept_a": "Связанность узлов односторонняя", "concept_b": "Связность сильная", "has_relation": true}
+{"paragraph_id": "8.5", "concept_a": "Связанность узлов односторонняя", "concept_b": "Связность слабая", "has_relation": true}
+{"paragraph_id": "8.5", "concept_a": "Связанность узлов односторонняя", "concept_b": "Фактор-граф", "has_relation": false}
+{"paragraph_id": "8.5", "concept_a": "Связанность узлов сильная", "concept_b": "Связанность узлов слабая", "has_relation": true}
+{"paragraph_id": "8.5", "concept_a": "Связанность узлов сильная", "concept_b": "Связность односторонняя", "has_relation": true}
+{"paragraph_id": "8.5", "concept_a": "Связанность узлов сильная", "concept_b": "Связность сильная", "has_relation": true}
+{"paragraph_id": "8.5", "concept_a": "Связанность узлов сильная", "concept_b": "Связность слабая", "has_relation": true}
+{"paragraph_id": "8.5", "concept_a": "Связанность узлов сильная", "concept_b": "Фактор-граф", "has_relation": false}
+{"paragraph_id": "8.5", "concept_a": "Связанность узлов слабая", "concept_b": "Связность односторонняя", "has_relation": true}
+{"paragraph_id": "8.5", "concept_a": "Связанность узлов слабая", "concept_b": "Связность сильная", "has_relation": true}
+{"paragraph_id": "8.5", "concept_a": "Связанность узлов слабая", "concept_b": "Связность слабая", "has_relation": true}
+{"paragraph_id": "8.5", "concept_a": "Связанность узлов слабая", "concept_b": "Фактор-граф", "has_relation": false}
+{"paragraph_id": "8.5", "concept_a": "Связность односторонняя", "concept_b": "Связность сильная", "has_relation": true}
+{"paragraph_id": "8.5", "concept_a": "Связность односторонняя", "concept_b": "Связность слабая", "has_relation": true}
+{"paragraph_id": "8.5", "concept_a": "Связность односторонняя", "concept_b": "Фактор-граф", "has_relation": false}
+{"paragraph_id": "8.5", "concept_a": "Связность сильная", "concept_b": "Связность слабая", "has_relation": true}
+{"paragraph_id": "8.5", "concept_a": "Связность сильная", "concept_b": "Фактор-граф", "has_relation": false}
+{"paragraph_id": "8.5", "concept_a": "Связность слабая", "concept_b": "Фактор-граф", "has_relation": false}

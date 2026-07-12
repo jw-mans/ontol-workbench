@@ -1,0 +1,190 @@
+{"paragraph_id": "1.7", "concept_a": "Вектор", "concept_b": "Гомоморфизм", "has_relation": false}
+{"paragraph_id": "1.7", "concept_a": "Вектор", "concept_b": "Измельчение разбиения", "has_relation": false}
+{"paragraph_id": "1.7", "concept_a": "Вектор", "concept_b": "Изоморфизм", "has_relation": false}
+{"paragraph_id": "1.7", "concept_a": "Вектор", "concept_b": "Изоморфные множества", "has_relation": false}
+{"paragraph_id": "1.7", "concept_a": "Вектор", "concept_b": "Класс толерантности", "has_relation": false}
+{"paragraph_id": "1.7", "concept_a": "Вектор", "concept_b": "Класс эквивалентности", "has_relation": false}
+{"paragraph_id": "1.7", "concept_a": "Вектор", "concept_b": "Коллинеарность", "has_relation": true}
+{"paragraph_id": "1.7", "concept_a": "Вектор", "concept_b": "Множество уровня", "has_relation": false}
+{"paragraph_id": "1.7", "concept_a": "Вектор", "concept_b": "Направленный отрезок", "has_relation": true}
+{"paragraph_id": "1.7", "concept_a": "Вектор", "concept_b": "Натуральное отображение", "has_relation": false}
+{"paragraph_id": "1.7", "concept_a": "Вектор", "concept_b": "Отношение изоморфности", "has_relation": false}
+{"paragraph_id": "1.7", "concept_a": "Вектор", "concept_b": "Отношение толерантности", "has_relation": false}
+{"paragraph_id": "1.7", "concept_a": "Вектор", "concept_b": "Отношение эквивалентности", "has_relation": false}
+{"paragraph_id": "1.7", "concept_a": "Вектор", "concept_b": "Проекция каноническая", "has_relation": false}
+{"paragraph_id": "1.7", "concept_a": "Вектор", "concept_b": "Факторизация", "has_relation": false}
+{"paragraph_id": "1.7", "concept_a": "Вектор", "concept_b": "Факторизация функции", "has_relation": false}
+{"paragraph_id": "1.7", "concept_a": "Вектор", "concept_b": "Фактормножество", "has_relation": false}
+{"paragraph_id": "1.7", "concept_a": "Вектор", "concept_b": "Функция индуцированная", "has_relation": false}
+{"paragraph_id": "1.7", "concept_a": "Вектор", "concept_b": "Функция отождествления", "has_relation": false}
+{"paragraph_id": "1.7", "concept_a": "Гомоморфизм", "concept_b": "Измельчение разбиения", "has_relation": false}
+{"paragraph_id": "1.7", "concept_a": "Гомоморфизм", "concept_b": "Изоморфизм", "has_relation": true}
+{"paragraph_id": "1.7", "concept_a": "Гомоморфизм", "concept_b": "Изоморфные множества", "has_relation": false}
+{"paragraph_id": "1.7", "concept_a": "Гомоморфизм", "concept_b": "Класс толерантности", "has_relation": false}
+{"paragraph_id": "1.7", "concept_a": "Гомоморфизм", "concept_b": "Класс эквивалентности", "has_relation": false}
+{"paragraph_id": "1.7", "concept_a": "Гомоморфизм", "concept_b": "Коллинеарность", "has_relation": false}
+{"paragraph_id": "1.7", "concept_a": "Гомоморфизм", "concept_b": "Множество уровня", "has_relation": false}
+{"paragraph_id": "1.7", "concept_a": "Гомоморфизм", "concept_b": "Направленный отрезок", "has_relation": false}
+{"paragraph_id": "1.7", "concept_a": "Гомоморфизм", "concept_b": "Натуральное отображение", "has_relation": false}
+{"paragraph_id": "1.7", "concept_a": "Гомоморфизм", "concept_b": "Отношение изоморфности", "has_relation": false}
+{"paragraph_id": "1.7", "concept_a": "Гомоморфизм", "concept_b": "Отношение толерантности", "has_relation": false}
+{"paragraph_id": "1.7", "concept_a": "Гомоморфизм", "concept_b": "Отношение эквивалентности", "has_relation": false}
+{"paragraph_id": "1.7", "concept_a": "Гомоморфизм", "concept_b": "Проекция каноническая", "has_relation": false}
+{"paragraph_id": "1.7", "concept_a": "Гомоморфизм", "concept_b": "Факторизация", "has_relation": false}
+{"paragraph_id": "1.7", "concept_a": "Гомоморфизм", "concept_b": "Факторизация функции", "has_relation": false}
+{"paragraph_id": "1.7", "concept_a": "Гомоморфизм", "concept_b": "Фактормножество", "has_relation": false}
+{"paragraph_id": "1.7", "concept_a": "Гомоморфизм", "concept_b": "Функция индуцированная", "has_relation": false}
+{"paragraph_id": "1.7", "concept_a": "Гомоморфизм", "concept_b": "Функция отождествления", "has_relation": false}
+{"paragraph_id": "1.7", "concept_a": "Измельчение разбиения", "concept_b": "Изоморфизм", "has_relation": false}
+{"paragraph_id": "1.7", "concept_a": "Измельчение разбиения", "concept_b": "Изоморфные множества", "has_relation": false}
+{"paragraph_id": "1.7", "concept_a": "Измельчение разбиения", "concept_b": "Класс толерантности", "has_relation": false}
+{"paragraph_id": "1.7", "concept_a": "Измельчение разбиения", "concept_b": "Класс эквивалентности", "has_relation": false}
+{"paragraph_id": "1.7", "concept_a": "Измельчение разбиения", "concept_b": "Коллинеарность", "has_relation": false}
+{"paragraph_id": "1.7", "concept_a": "Измельчение разбиения", "concept_b": "Множество уровня", "has_relation": false}
+{"paragraph_id": "1.7", "concept_a": "Измельчение разбиения", "concept_b": "Направленный отрезок", "has_relation": false}
+{"paragraph_id": "1.7", "concept_a": "Измельчение разбиения", "concept_b": "Натуральное отображение", "has_relation": false}
+{"paragraph_id": "1.7", "concept_a": "Измельчение разбиения", "concept_b": "Отношение изоморфности", "has_relation": false}
+{"paragraph_id": "1.7", "concept_a": "Измельчение разбиения", "concept_b": "Отношение толерантности", "has_relation": false}
+{"paragraph_id": "1.7", "concept_a": "Измельчение разбиения", "concept_b": "Отношение эквивалентности", "has_relation": false}
+{"paragraph_id": "1.7", "concept_a": "Измельчение разбиения", "concept_b": "Проекция каноническая", "has_relation": false}
+{"paragraph_id": "1.7", "concept_a": "Измельчение разбиения", "concept_b": "Факторизация", "has_relation": false}
+{"paragraph_id": "1.7", "concept_a": "Измельчение разбиения", "concept_b": "Факторизация функции", "has_relation": false}
+{"paragraph_id": "1.7", "concept_a": "Измельчение разбиения", "concept_b": "Фактормножество", "has_relation": false}
+{"paragraph_id": "1.7", "concept_a": "Измельчение разбиения", "concept_b": "Функция индуцированная", "has_relation": false}
+{"paragraph_id": "1.7", "concept_a": "Измельчение разбиения", "concept_b": "Функция отождествления", "has_relation": false}
+{"paragraph_id": "1.7", "concept_a": "Изоморфизм", "concept_b": "Изоморфные множества", "has_relation": false}
+{"paragraph_id": "1.7", "concept_a": "Изоморфизм", "concept_b": "Класс толерантности", "has_relation": false}
+{"paragraph_id": "1.7", "concept_a": "Изоморфизм", "concept_b": "Класс эквивалентности", "has_relation": false}
+{"paragraph_id": "1.7", "concept_a": "Изоморфизм", "concept_b": "Коллинеарность", "has_relation": false}
+{"paragraph_id": "1.7", "concept_a": "Изоморфизм", "concept_b": "Множество уровня", "has_relation": false}
+{"paragraph_id": "1.7", "concept_a": "Изоморфизм", "concept_b": "Направленный отрезок", "has_relation": false}
+{"paragraph_id": "1.7", "concept_a": "Изоморфизм", "concept_b": "Натуральное отображение", "has_relation": false}
+{"paragraph_id": "1.7", "concept_a": "Изоморфизм", "concept_b": "Отношение изоморфности", "has_relation": false}
+{"paragraph_id": "1.7", "concept_a": "Изоморфизм", "concept_b": "Отношение толерантности", "has_relation": false}
+{"paragraph_id": "1.7", "concept_a": "Изоморфизм", "concept_b": "Отношение эквивалентности", "has_relation": false}
+{"paragraph_id": "1.7", "concept_a": "Изоморфизм", "concept_b": "Проекция каноническая", "has_relation": false}
+{"paragraph_id": "1.7", "concept_a": "Изоморфизм", "concept_b": "Факторизация", "has_relation": false}
+{"paragraph_id": "1.7", "concept_a": "Изоморфизм", "concept_b": "Факторизация функции", "has_relation": false}
+{"paragraph_id": "1.7", "concept_a": "Изоморфизм", "concept_b": "Фактормножество", "has_relation": false}
+{"paragraph_id": "1.7", "concept_a": "Изоморфизм", "concept_b": "Функция индуцированная", "has_relation": false}
+{"paragraph_id": "1.7", "concept_a": "Изоморфизм", "concept_b": "Функция отождествления", "has_relation": false}
+{"paragraph_id": "1.7", "concept_a": "Изоморфные множества", "concept_b": "Класс толерантности", "has_relation": false}
+{"paragraph_id": "1.7", "concept_a": "Изоморфные множества", "concept_b": "Класс эквивалентности", "has_relation": false}
+{"paragraph_id": "1.7", "concept_a": "Изоморфные множества", "concept_b": "Коллинеарность", "has_relation": false}
+{"paragraph_id": "1.7", "concept_a": "Изоморфные множества", "concept_b": "Множество уровня", "has_relation": false}
+{"paragraph_id": "1.7", "concept_a": "Изоморфные множества", "concept_b": "Направленный отрезок", "has_relation": false}
+{"paragraph_id": "1.7", "concept_a": "Изоморфные множества", "concept_b": "Натуральное отображение", "has_relation": false}
+{"paragraph_id": "1.7", "concept_a": "Изоморфные множества", "concept_b": "Отношение изоморфности", "has_relation": false}
+{"paragraph_id": "1.7", "concept_a": "Изоморфные множества", "concept_b": "Отношение толерантности", "has_relation": false}
+{"paragraph_id": "1.7", "concept_a": "Изоморфные множества", "concept_b": "Отношение эквивалентности", "has_relation": false}
+{"paragraph_id": "1.7", "concept_a": "Изоморфные множества", "concept_b": "Проекция каноническая", "has_relation": false}
+{"paragraph_id": "1.7", "concept_a": "Изоморфные множества", "concept_b": "Факторизация", "has_relation": false}
+{"paragraph_id": "1.7", "concept_a": "Изоморфные множества", "concept_b": "Факторизация функции", "has_relation": false}
+{"paragraph_id": "1.7", "concept_a": "Изоморфные множества", "concept_b": "Фактормножество", "has_relation": false}
+{"paragraph_id": "1.7", "concept_a": "Изоморфные множества", "concept_b": "Функция индуцированная", "has_relation": false}
+{"paragraph_id": "1.7", "concept_a": "Изоморфные множества", "concept_b": "Функция отождествления", "has_relation": false}
+{"paragraph_id": "1.7", "concept_a": "Класс толерантности", "concept_b": "Класс эквивалентности", "has_relation": false}
+{"paragraph_id": "1.7", "concept_a": "Класс толерантности", "concept_b": "Коллинеарность", "has_relation": false}
+{"paragraph_id": "1.7", "concept_a": "Класс толерантности", "concept_b": "Множество уровня", "has_relation": false}
+{"paragraph_id": "1.7", "concept_a": "Класс толерантности", "concept_b": "Направленный отрезок", "has_relation": false}
+{"paragraph_id": "1.7", "concept_a": "Класс толерантности", "concept_b": "Натуральное отображение", "has_relation": false}
+{"paragraph_id": "1.7", "concept_a": "Класс толерантности", "concept_b": "Отношение изоморфности", "has_relation": false}
+{"paragraph_id": "1.7", "concept_a": "Класс толерантности", "concept_b": "Отношение толерантности", "has_relation": true}
+{"paragraph_id": "1.7", "concept_a": "Класс толерантности", "concept_b": "Отношение эквивалентности", "has_relation": false}
+{"paragraph_id": "1.7", "concept_a": "Класс толерантности", "concept_b": "Проекция каноническая", "has_relation": false}
+{"paragraph_id": "1.7", "concept_a": "Класс толерантности", "concept_b": "Факторизация", "has_relation": false}
+{"paragraph_id": "1.7", "concept_a": "Класс толерантности", "concept_b": "Факторизация функции", "has_relation": false}
+{"paragraph_id": "1.7", "concept_a": "Класс толерантности", "concept_b": "Фактормножество", "has_relation": false}
+{"paragraph_id": "1.7", "concept_a": "Класс толерантности", "concept_b": "Функция индуцированная", "has_relation": false}
+{"paragraph_id": "1.7", "concept_a": "Класс толерантности", "concept_b": "Функция отождествления", "has_relation": false}
+{"paragraph_id": "1.7", "concept_a": "Класс эквивалентности", "concept_b": "Коллинеарность", "has_relation": false}
+{"paragraph_id": "1.7", "concept_a": "Класс эквивалентности", "concept_b": "Множество уровня", "has_relation": false}
+{"paragraph_id": "1.7", "concept_a": "Класс эквивалентности", "concept_b": "Направленный отрезок", "has_relation": false}
+{"paragraph_id": "1.7", "concept_a": "Класс эквивалентности", "concept_b": "Натуральное отображение", "has_relation": false}
+{"paragraph_id": "1.7", "concept_a": "Класс эквивалентности", "concept_b": "Отношение изоморфности", "has_relation": false}
+{"paragraph_id": "1.7", "concept_a": "Класс эквивалентности", "concept_b": "Отношение толерантности", "has_relation": false}
+{"paragraph_id": "1.7", "concept_a": "Класс эквивалентности", "concept_b": "Отношение эквивалентности", "has_relation": false}
+{"paragraph_id": "1.7", "concept_a": "Класс эквивалентности", "concept_b": "Проекция каноническая", "has_relation": false}
+{"paragraph_id": "1.7", "concept_a": "Класс эквивалентности", "concept_b": "Факторизация", "has_relation": false}
+{"paragraph_id": "1.7", "concept_a": "Класс эквивалентности", "concept_b": "Факторизация функции", "has_relation": false}
+{"paragraph_id": "1.7", "concept_a": "Класс эквивалентности", "concept_b": "Фактормножество", "has_relation": true}
+{"paragraph_id": "1.7", "concept_a": "Класс эквивалентности", "concept_b": "Функция индуцированная", "has_relation": false}
+{"paragraph_id": "1.7", "concept_a": "Класс эквивалентности", "concept_b": "Функция отождествления", "has_relation": false}
+{"paragraph_id": "1.7", "concept_a": "Коллинеарность", "concept_b": "Множество уровня", "has_relation": false}
+{"paragraph_id": "1.7", "concept_a": "Коллинеарность", "concept_b": "Направленный отрезок", "has_relation": true}
+{"paragraph_id": "1.7", "concept_a": "Коллинеарность", "concept_b": "Натуральное отображение", "has_relation": false}
+{"paragraph_id": "1.7", "concept_a": "Коллинеарность", "concept_b": "Отношение изоморфности", "has_relation": false}
+{"paragraph_id": "1.7", "concept_a": "Коллинеарность", "concept_b": "Отношение толерантности", "has_relation": false}
+{"paragraph_id": "1.7", "concept_a": "Коллинеарность", "concept_b": "Отношение эквивалентности", "has_relation": false}
+{"paragraph_id": "1.7", "concept_a": "Коллинеарность", "concept_b": "Проекция каноническая", "has_relation": false}
+{"paragraph_id": "1.7", "concept_a": "Коллинеарность", "concept_b": "Факторизация", "has_relation": false}
+{"paragraph_id": "1.7", "concept_a": "Коллинеарность", "concept_b": "Факторизация функции", "has_relation": false}
+{"paragraph_id": "1.7", "concept_a": "Коллинеарность", "concept_b": "Фактормножество", "has_relation": false}
+{"paragraph_id": "1.7", "concept_a": "Коллинеарность", "concept_b": "Функция индуцированная", "has_relation": false}
+{"paragraph_id": "1.7", "concept_a": "Коллинеарность", "concept_b": "Функция отождествления", "has_relation": false}
+{"paragraph_id": "1.7", "concept_a": "Множество уровня", "concept_b": "Направленный отрезок", "has_relation": false}
+{"paragraph_id": "1.7", "concept_a": "Множество уровня", "concept_b": "Натуральное отображение", "has_relation": false}
+{"paragraph_id": "1.7", "concept_a": "Множество уровня", "concept_b": "Отношение изоморфности", "has_relation": false}
+{"paragraph_id": "1.7", "concept_a": "Множество уровня", "concept_b": "Отношение толерантности", "has_relation": false}
+{"paragraph_id": "1.7", "concept_a": "Множество уровня", "concept_b": "Отношение эквивалентности", "has_relation": false}
+{"paragraph_id": "1.7", "concept_a": "Множество уровня", "concept_b": "Проекция каноническая", "has_relation": false}
+{"paragraph_id": "1.7", "concept_a": "Множество уровня", "concept_b": "Факторизация", "has_relation": false}
+{"paragraph_id": "1.7", "concept_a": "Множество уровня", "concept_b": "Факторизация функции", "has_relation": false}
+{"paragraph_id": "1.7", "concept_a": "Множество уровня", "concept_b": "Фактормножество", "has_relation": false}
+{"paragraph_id": "1.7", "concept_a": "Множество уровня", "concept_b": "Функция индуцированная", "has_relation": false}
+{"paragraph_id": "1.7", "concept_a": "Множество уровня", "concept_b": "Функция отождествления", "has_relation": false}
+{"paragraph_id": "1.7", "concept_a": "Направленный отрезок", "concept_b": "Натуральное отображение", "has_relation": false}
+{"paragraph_id": "1.7", "concept_a": "Направленный отрезок", "concept_b": "Отношение изоморфности", "has_relation": false}
+{"paragraph_id": "1.7", "concept_a": "Направленный отрезок", "concept_b": "Отношение толерантности", "has_relation": false}
+{"paragraph_id": "1.7", "concept_a": "Направленный отрезок", "concept_b": "Отношение эквивалентности", "has_relation": false}
+{"paragraph_id": "1.7", "concept_a": "Направленный отрезок", "concept_b": "Проекция каноническая", "has_relation": false}
+{"paragraph_id": "1.7", "concept_a": "Направленный отрезок", "concept_b": "Факторизация", "has_relation": false}
+{"paragraph_id": "1.7", "concept_a": "Направленный отрезок", "concept_b": "Факторизация функции", "has_relation": false}
+{"paragraph_id": "1.7", "concept_a": "Направленный отрезок", "concept_b": "Фактормножество", "has_relation": false}
+{"paragraph_id": "1.7", "concept_a": "Направленный отрезок", "concept_b": "Функция индуцированная", "has_relation": false}
+{"paragraph_id": "1.7", "concept_a": "Направленный отрезок", "concept_b": "Функция отождествления", "has_relation": false}
+{"paragraph_id": "1.7", "concept_a": "Натуральное отображение", "concept_b": "Отношение изоморфности", "has_relation": false}
+{"paragraph_id": "1.7", "concept_a": "Натуральное отображение", "concept_b": "Отношение толерантности", "has_relation": false}
+{"paragraph_id": "1.7", "concept_a": "Натуральное отображение", "concept_b": "Отношение эквивалентности", "has_relation": false}
+{"paragraph_id": "1.7", "concept_a": "Натуральное отображение", "concept_b": "Проекция каноническая", "has_relation": true}
+{"paragraph_id": "1.7", "concept_a": "Натуральное отображение", "concept_b": "Факторизация", "has_relation": true}
+{"paragraph_id": "1.7", "concept_a": "Натуральное отображение", "concept_b": "Факторизация функции", "has_relation": true}
+{"paragraph_id": "1.7", "concept_a": "Натуральное отображение", "concept_b": "Фактормножество", "has_relation": false}
+{"paragraph_id": "1.7", "concept_a": "Натуральное отображение", "concept_b": "Функция индуцированная", "has_relation": true}
+{"paragraph_id": "1.7", "concept_a": "Натуральное отображение", "concept_b": "Функция отождествления", "has_relation": true}
+{"paragraph_id": "1.7", "concept_a": "Отношение изоморфности", "concept_b": "Отношение толерантности", "has_relation": false}
+{"paragraph_id": "1.7", "concept_a": "Отношение изоморфности", "concept_b": "Отношение эквивалентности", "has_relation": false}
+{"paragraph_id": "1.7", "concept_a": "Отношение изоморфности", "concept_b": "Проекция каноническая", "has_relation": false}
+{"paragraph_id": "1.7", "concept_a": "Отношение изоморфности", "concept_b": "Факторизация", "has_relation": false}
+{"paragraph_id": "1.7", "concept_a": "Отношение изоморфности", "concept_b": "Факторизация функции", "has_relation": false}
+{"paragraph_id": "1.7", "concept_a": "Отношение изоморфности", "concept_b": "Фактормножество", "has_relation": false}
+{"paragraph_id": "1.7", "concept_a": "Отношение изоморфности", "concept_b": "Функция индуцированная", "has_relation": false}
+{"paragraph_id": "1.7", "concept_a": "Отношение изоморфности", "concept_b": "Функция отождествления", "has_relation": false}
+{"paragraph_id": "1.7", "concept_a": "Отношение толерантности", "concept_b": "Отношение эквивалентности", "has_relation": false}
+{"paragraph_id": "1.7", "concept_a": "Отношение толерантности", "concept_b": "Проекция каноническая", "has_relation": false}
+{"paragraph_id": "1.7", "concept_a": "Отношение толерантности", "concept_b": "Факторизация", "has_relation": false}
+{"paragraph_id": "1.7", "concept_a": "Отношение толерантности", "concept_b": "Факторизация функции", "has_relation": false}
+{"paragraph_id": "1.7", "concept_a": "Отношение толерантности", "concept_b": "Фактормножество", "has_relation": false}
+{"paragraph_id": "1.7", "concept_a": "Отношение толерантности", "concept_b": "Функция индуцированная", "has_relation": false}
+{"paragraph_id": "1.7", "concept_a": "Отношение толерантности", "concept_b": "Функция отождествления", "has_relation": false}
+{"paragraph_id": "1.7", "concept_a": "Отношение эквивалентности", "concept_b": "Проекция каноническая", "has_relation": false}
+{"paragraph_id": "1.7", "concept_a": "Отношение эквивалентности", "concept_b": "Факторизация", "has_relation": false}
+{"paragraph_id": "1.7", "concept_a": "Отношение эквивалентности", "concept_b": "Факторизация функции", "has_relation": false}
+{"paragraph_id": "1.7", "concept_a": "Отношение эквивалентности", "concept_b": "Фактормножество", "has_relation": false}
+{"paragraph_id": "1.7", "concept_a": "Отношение эквивалентности", "concept_b": "Функция индуцированная", "has_relation": false}
+{"paragraph_id": "1.7", "concept_a": "Отношение эквивалентности", "concept_b": "Функция отождествления", "has_relation": false}
+{"paragraph_id": "1.7", "concept_a": "Проекция каноническая", "concept_b": "Факторизация", "has_relation": true}
+{"paragraph_id": "1.7", "concept_a": "Проекция каноническая", "concept_b": "Факторизация функции", "has_relation": true}
+{"paragraph_id": "1.7", "concept_a": "Проекция каноническая", "concept_b": "Фактормножество", "has_relation": false}
+{"paragraph_id": "1.7", "concept_a": "Проекция каноническая", "concept_b": "Функция индуцированная", "has_relation": true}
+{"paragraph_id": "1.7", "concept_a": "Проекция каноническая", "concept_b": "Функция отождествления", "has_relation": true}
+{"paragraph_id": "1.7", "concept_a": "Факторизация", "concept_b": "Факторизация функции", "has_relation": true}
+{"paragraph_id": "1.7", "concept_a": "Факторизация", "concept_b": "Фактормножество", "has_relation": false}
+{"paragraph_id": "1.7", "concept_a": "Факторизация", "concept_b": "Функция индуцированная", "has_relation": true}
+{"paragraph_id": "1.7", "concept_a": "Факторизация", "concept_b": "Функция отождествления", "has_relation": true}
+{"paragraph_id": "1.7", "concept_a": "Факторизация функции", "concept_b": "Фактормножество", "has_relation": false}
+{"paragraph_id": "1.7", "concept_a": "Факторизация функции", "concept_b": "Функция индуцированная", "has_relation": true}
+{"paragraph_id": "1.7", "concept_a": "Факторизация функции", "concept_b": "Функция отождествления", "has_relation": true}
+{"paragraph_id": "1.7", "concept_a": "Фактормножество", "concept_b": "Функция индуцированная", "has_relation": false}
+{"paragraph_id": "1.7", "concept_a": "Фактормножество", "concept_b": "Функция отождествления", "has_relation": false}
+{"paragraph_id": "1.7", "concept_a": "Функция индуцированная", "concept_b": "Функция отождествления", "has_relation": true}

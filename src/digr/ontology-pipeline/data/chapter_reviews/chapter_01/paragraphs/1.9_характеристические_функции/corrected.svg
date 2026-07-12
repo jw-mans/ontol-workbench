@@ -1,0 +1,832 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="4718" height="657" viewBox="0 0 4718 657" class="uml-diagram" data-theme="light" data-title="Диаграмма TDL">
+
+    <defs>
+      <linearGradient id="uml-yellow-title-gradient" x1="0%" y1="0%" x2="0%" y2="100%">
+        <stop offset="0%" stop-color="#f0c955"/>
+        <stop offset="50%" stop-color="#ffebc2"/>
+        <stop offset="100%" stop-color="#f0c955"/>
+      </linearGradient>
+
+      <linearGradient id="uml-yellow-section-gradient" x1="0%" y1="0%" x2="0%" y2="100%">
+        <stop offset="0%" stop-color="#f5d56b"/>
+        <stop offset="50%" stop-color="#fff1cf"/>
+        <stop offset="100%" stop-color="#f0c955"/>
+      </linearGradient>
+
+      <marker id="diamond-empty" markerWidth="12" markerHeight="8" viewBox="0 0 12 8" refX="0" refY="4" orient="auto" markerUnits="userSpaceOnUse">
+        <path class="uml-marker uml-marker-hollow" d="M 0 4 L 6 0 L 12 4 L 6 8 Z" fill="white" stroke="#181818" stroke-width="1"/>
+      </marker>
+
+      <marker id="diamond-filled" markerWidth="12" markerHeight="8" viewBox="0 0 12 8" refX="0" refY="4" orient="auto" markerUnits="userSpaceOnUse">
+        <path class="uml-marker uml-marker-filled" d="M 0 4 L 6 0 L 12 4 L 6 8 Z" fill="#181818" stroke="#181818" stroke-width="1"/>
+      </marker>
+
+      <marker id="diamond-empty-end" markerWidth="12" markerHeight="8" viewBox="0 0 12 8" refX="12" refY="4" orient="auto" markerUnits="userSpaceOnUse">
+        <path class="uml-marker uml-marker-hollow" d="M 0 4 L 6 0 L 12 4 L 6 8 Z" fill="white" stroke="#181818" stroke-width="1"/>
+      </marker>
+
+      <marker id="diamond-filled-end" markerWidth="12" markerHeight="8" viewBox="0 0 12 8" refX="12" refY="4" orient="auto" markerUnits="userSpaceOnUse">
+        <path class="uml-marker uml-marker-filled" d="M 0 4 L 6 0 L 12 4 L 6 8 Z" fill="#181818" stroke="#181818" stroke-width="1"/>
+      </marker>
+
+      <marker id="arrow-filled" markerWidth="9" markerHeight="8" viewBox="0 0 9 8" refX="9" refY="4" orient="auto" markerUnits="userSpaceOnUse">
+        <path class="uml-marker uml-marker-filled" d="M 9 4 L 0 0 L 4 4 L 0 8 Z" fill="#181818" stroke="#181818" stroke-width="1"/>
+      </marker>
+
+      <marker id="triangle-empty" markerWidth="18" markerHeight="12" viewBox="0 0 18 12" refX="18" refY="6" orient="auto" markerUnits="userSpaceOnUse">
+        <path class="uml-marker uml-marker-hollow" d="M 18 6 L 0 0 L 0 12 Z" fill="white" stroke="#181818" stroke-width="1"/>
+      </marker>
+    </defs>
+    
+<style id="uml-theme-light" type="text/css"><![CDATA[
+svg.uml-diagram {
+  background: #ffffff;
+}
+
+.uml-class-title {
+  fill: #e5e5e5;
+}
+
+.uml-class-section,
+.uml-enum-body {
+  fill: #eeeeee;
+}
+
+.uml-class-outline,
+.uml-class-title,
+.uml-class-section,
+.uml-enum-body,
+.uml-enum-title,
+.uml-template-box {
+  stroke: #999999;
+  stroke-width: 1;
+}
+
+.uml-class-title-text,
+.uml-feature-text,
+.uml-template-text,
+.uml-edge-label,
+.uml-multiplicity {
+  fill: #000000;
+}
+
+.uml-kind-badge-c {
+  fill: #b8d9bf;
+  stroke: #3e7d4a;
+}
+
+.uml-kind-badge-e {
+  fill: #f29b86;
+  stroke: #9d3f2f;
+}
+
+.uml-kind-badge-i {
+  fill: #c9d7ff;
+  stroke: #4a61a8;
+}
+
+.uml-kind-badge-d {
+  fill: #d9c7f2;
+  stroke: #6f4aa8;
+}
+
+.uml-kind-badge-text {
+  fill: #000000;
+}
+
+.uml-attribute-bullet {
+  fill: #ffffff;
+  stroke: #3aa76d;
+}
+
+.uml-operation-bullet {
+  fill: #3aa76d;
+  stroke: #2a7d50;
+}
+
+.uml-edge-line {
+  stroke: #181818;
+  stroke-width: 1;
+}
+
+.uml-marker-filled {
+  fill: #181818;
+  stroke: #181818;
+}
+
+.uml-marker-hollow {
+  fill: #ffffff;
+  stroke: #181818;
+}
+
+]]></style>
+
+<g class="uml-edge"
+   data-type="association"
+   data-name=""
+   data-derived="false"
+   
+   data-end1-class="ХарактеристическаяФункцияОтношения"
+   data-end1-multiplicity=""
+   data-end1-role=""
+   data-end1-navigable="true"
+   data-end1-aggregation="none"
+   data-end1-role-visibility=""
+   data-end1-collection-kind="set"
+   data-end1-changeability=""
+   data-end1-derived="false"
+   data-end1-union="false"
+   data-end1-redefines=""
+   data-end1-role-type=""
+   data-end1-subsets-role=""
+   data-end1-subsets-participant=""
+   data-end2-class="Предикат"
+   data-end2-multiplicity=""
+   data-end2-role=""
+   data-end2-navigable="false"
+   data-end2-aggregation="none"
+   data-end2-role-visibility=""
+   data-end2-collection-kind="set"
+   data-end2-changeability=""
+   data-end2-derived="false"
+   data-end2-union="false"
+   data-end2-redefines=""
+   data-end2-role-type=""
+   data-end2-subsets-role=""
+   data-end2-subsets-participant="">
+  <path class="uml-edge-line" d="M3575.0,151.0 C3538.9,168.7 3480.3,197.4 3444.2,215.1" fill="none" stroke="#181818" stroke-width="1.0"/>
+  
+  
+  
+  
+  
+</g>
+
+
+<g class="uml-edge"
+   data-type="generalization"
+   data-src="АнализДискриминантный"
+   data-tgt="Классификатор"
+   data-substitutable="true">
+  <path class="uml-edge-line" d="M1213.5,54.1 C1123.9,72.1 977.0,101.5 889.6,119.1" fill="none" stroke="#181818" stroke-width="1.0" marker-end="url(#triangle-empty)"/>
+</g>
+
+
+<g class="uml-edge"
+   data-type="generalization"
+   data-src="АнализДискриминантный"
+   data-tgt="РаспознаваниеОбразов"
+   data-substitutable="true">
+  <path class="uml-edge-line" d="M1290.6,54.0 C1290.6,89.9 1290.6,179.1 1290.6,215.1" fill="none" stroke="#181818" stroke-width="1.0" marker-end="url(#triangle-empty)"/>
+</g>
+
+
+<g class="uml-edge"
+   data-type="generalization"
+   data-src="АнализДискриминантный"
+   data-tgt="Систематика"
+   data-substitutable="true">
+  <path class="uml-edge-line" d="M1306.6,53.8 C1335.3,82.2 1394.7,146.9 1416.6,215.5 C1420.9,229.1 1423.4,235.1 1416.6,247.5 C1399.4,278.7 1364.4,299.5 1335.6,312.0" fill="none" stroke="#181818" stroke-width="1.0" marker-end="url(#triangle-empty)"/>
+</g>
+
+
+<g class="uml-edge"
+   data-type="generalization"
+   data-src="ВключениеМультимножеств"
+   data-tgt="МощностьМультимножества"
+   data-substitutable="true">
+  <path class="uml-edge-line" d="M2019.6,53.9 C2019.6,71.6 2019.6,100.6 2019.6,118.3" fill="none" stroke="#181818" stroke-width="1.0" marker-end="url(#triangle-empty)"/>
+</g>
+
+
+<g class="uml-edge"
+   data-type="generalization"
+   data-src="ВключениеМультимножеств"
+   data-tgt="ОбъединениеМультимножеств"
+   data-substitutable="true">
+  <path class="uml-edge-line" d="M1985.1,54.0 C1955.9,68.2 1913.8,91.1 1882.6,118.6 C1849.1,148.1 1819.8,192.2 1805.6,215.3" fill="none" stroke="#181818" stroke-width="1.0" marker-end="url(#triangle-empty)"/>
+</g>
+
+
+<g class="uml-edge"
+   data-type="generalization"
+   data-src="ВключениеМультимножеств"
+   data-tgt="ПересечениеМультимножеств"
+   data-substitutable="true">
+  <path class="uml-edge-line" d="M2090.8,54.1 C2144.4,67.2 2218.8,88.7 2279.6,118.6 C2335.1,145.8 2392.5,191.3 2420.7,215.0" fill="none" stroke="#181818" stroke-width="1.0" marker-end="url(#triangle-empty)"/>
+</g>
+
+
+<g class="uml-edge"
+   data-type="generalization"
+   data-src="ВключениеМультимножеств"
+   data-tgt="РавенствоМультимножеств"
+   data-substitutable="true">
+  <path class="uml-edge-line" d="M2065.8,54.0 C2096.3,66.5 2134.6,87.4 2156.6,118.6 C2199.7,179.8 2199.0,275.3 2196.8,312.2" fill="none" stroke="#181818" stroke-width="1.0" marker-end="url(#triangle-empty)"/>
+</g>
+
+
+<g class="uml-edge"
+   data-type="generalization"
+   data-src="ВключениеМультимножеств"
+   data-tgt="ХарактеристическаяФункцияМультимножества"
+   data-substitutable="true">
+  <path class="uml-edge-line" d="M1927.0,54.0 C1838.8,74.3 1711.0,119.2 1652.6,215.5 C1586.8,324.1 1786.3,383.4 1909.7,409.0" fill="none" stroke="#181818" stroke-width="1.0" marker-end="url(#triangle-empty)"/>
+</g>
+
+
+<g class="uml-edge"
+   data-type="generalization"
+   data-src="ДеревоКлассификацииВыровненное"
+   data-tgt="КлассификаторИерархический"
+   data-substitutable="true">
+  <path class="uml-edge-line" d="M2689.9,53.9 C2670.5,71.6 2638.7,100.6 2619.3,118.3" fill="none" stroke="#181818" stroke-width="1.0" marker-end="url(#triangle-empty)"/>
+</g>
+
+
+<g class="uml-edge"
+   data-type="generalization"
+   data-src="ДеревоКлассификацииВыровненное"
+   data-tgt="ШиринаВетвления"
+   data-substitutable="true">
+  <path class="uml-edge-line" d="M2718.1,53.8 C2728.9,69.2 2744.3,94.2 2750.6,118.6 C2759.3,152.3 2755.8,193.6 2752.9,215.4" fill="none" stroke="#181818" stroke-width="1.0" marker-end="url(#triangle-empty)"/>
+</g>
+
+
+<g class="uml-edge"
+   data-type="generalization"
+   data-src="ДополнениеНечёткое"
+   data-tgt="ОбъединениеНечёткое"
+   data-substitutable="true">
+  <path class="uml-edge-line" d="M3108.6,54.1 C3082.4,71.7 3039.8,100.4 3013.6,118.1" fill="none" stroke="#181818" stroke-width="1.0" marker-end="url(#triangle-empty)"/>
+</g>
+
+
+<g class="uml-edge"
+   data-type="generalization"
+   data-src="ДополнениеНечёткое"
+   data-tgt="ПересечениеНечёткое"
+   data-substitutable="true">
+  <path class="uml-edge-line" d="M3131.5,54.0 C3131.3,89.9 3130.9,179.1 3130.7,215.1" fill="none" stroke="#181818" stroke-width="1.0" marker-end="url(#triangle-empty)"/>
+</g>
+
+
+<g class="uml-edge"
+   data-type="generalization"
+   data-src="ИстинностноеЗначение"
+   data-tgt="Предикат"
+   data-substitutable="true">
+  <path class="uml-edge-line" d="M3502.5,54.0 C3479.0,67.6 3447.5,89.9 3430.6,118.6 C3412.5,149.3 3411.0,192.5 3411.7,215.2" fill="none" stroke="#181818" stroke-width="1.0" marker-end="url(#triangle-empty)"/>
+</g>
+
+
+<g class="uml-edge"
+   data-type="generalization"
+   data-src="ИстинностноеЗначение"
+   data-tgt="ХарактеристическаяФункцияОтношения"
+   data-substitutable="true">
+  <path class="uml-edge-line" d="M3544.5,53.9 C3558.3,71.6 3580.9,100.6 3594.7,118.3" fill="none" stroke="#181818" stroke-width="1.0" marker-end="url(#triangle-empty)"/>
+</g>
+
+
+<g class="uml-edge"
+   data-type="generalization"
+   data-src="Квадрант"
+   data-tgt="Классификатор"
+   data-substitutable="true">
+  <path class="uml-edge-line" d="M817.6,53.9 C817.6,71.6 817.6,100.6 817.6,118.3" fill="none" stroke="#181818" stroke-width="1.0" marker-end="url(#triangle-empty)"/>
+</g>
+
+
+<g class="uml-edge"
+   data-type="generalization"
+   data-src="Классификатор"
+   data-tgt="МножествоХарактеристик"
+   data-substitutable="true">
+  <path class="uml-edge-line" d="M833.0,150.8 C850.9,168.5 880.3,197.6 898.2,215.3" fill="none" stroke="#181818" stroke-width="1.0" marker-end="url(#triangle-empty)"/>
+</g>
+
+
+<g class="uml-edge"
+   data-type="generalization"
+   data-src="Классификатор"
+   data-tgt="РаспознаваниеОбразов"
+   data-substitutable="true">
+  <path class="uml-edge-line" d="M889.7,150.0 C977.2,167.6 1124.3,197.1 1213.8,215.1" fill="none" stroke="#181818" stroke-width="1.0" marker-end="url(#triangle-empty)"/>
+</g>
+
+
+<g class="uml-edge"
+   data-type="generalization"
+   data-src="Классификатор"
+   data-tgt="Систематика"
+   data-substitutable="true">
+  <path class="uml-edge-line" d="M865.9,151.0 C912.6,166.2 985.1,190.8 1046.6,215.5 C1124.4,246.9 1213.4,289.5 1259.4,312.0" fill="none" stroke="#181818" stroke-width="1.0" marker-end="url(#triangle-empty)"/>
+</g>
+
+
+<g class="uml-edge"
+   data-type="generalization"
+   data-src="Классификатор"
+   data-tgt="ХарактеристическаяФункция"
+   data-substitutable="true">
+  <path class="uml-edge-line" d="M745.6,137.6 C549.6,145.2 21.6,179.3 21.6,327.5 C21.6,327.5 21.6,327.5 21.6,426.5 C21.6,543.2 168.3,589.0 277.2,607.0" fill="none" stroke="#181818" stroke-width="1.0" marker-end="url(#triangle-empty)"/>
+</g>
+
+
+<g class="uml-edge"
+   data-type="generalization"
+   data-src="Классификатор"
+   data-tgt="ХарактеристическаяФункцияБинарная"
+   data-substitutable="true">
+  <path class="uml-edge-line" d="M790.4,150.9 C762.1,166.9 716.6,192.8 677.6,215.5 C619.2,249.6 551.1,290.4 515.1,312.1" fill="none" stroke="#181818" stroke-width="1.0" marker-end="url(#triangle-empty)"/>
+</g>
+
+
+<g class="uml-edge"
+   data-type="generalization"
+   data-src="Классификатор"
+   data-tgt="ХарактеристическаяФункцияНеотрицательноЦелочисленная"
+   data-substitutable="true">
+  <path class="uml-edge-line" d="M810.2,150.7 C785.7,200.5 707.8,359.0 683.1,409.1" fill="none" stroke="#181818" stroke-width="1.0" marker-end="url(#triangle-empty)"/>
+</g>
+
+
+<g class="uml-edge"
+   data-type="generalization"
+   data-src="Классификатор"
+   data-tgt="ХарактеристическаяФункцияНечёткая"
+   data-substitutable="true">
+  <path class="uml-edge-line" d="M745.6,136.7 C632.3,142.9 415.0,173.4 316.6,312.5 C271.6,376.2 344.9,469.4 377.9,506.0" fill="none" stroke="#181818" stroke-width="1.0" marker-end="url(#triangle-empty)"/>
+</g>
+
+
+<g class="uml-edge"
+   data-type="generalization"
+   data-src="КлассификаторИерархический"
+   data-tgt="ШиринаВетвления"
+   data-substitutable="true">
+  <path class="uml-edge-line" d="M2626.7,151.0 C2654.2,168.7 2699.0,197.4 2726.5,215.1" fill="none" stroke="#181818" stroke-width="1.0" marker-end="url(#triangle-empty)"/>
+</g>
+
+
+<g class="uml-edge"
+   data-type="generalization"
+   data-src="ЛогикаНечёткая"
+   data-tgt="НечёткоеМножество"
+   data-substitutable="true">
+  <path class="uml-edge-line" d="M4021.7,54.1 C3994.3,71.7 3949.9,100.4 3922.5,118.1" fill="none" stroke="#181818" stroke-width="1.0" marker-end="url(#triangle-empty)"/>
+</g>
+
+
+<g class="uml-edge"
+   data-type="generalization"
+   data-src="ЛогикаНечёткая"
+   data-tgt="ФункцияХарактеристическаяНечёткая"
+   data-substitutable="true">
+  <path class="uml-edge-line" d="M4041.5,53.9 C4035.7,75.5 4024.5,116.2 4013.6,150.5 C4006.4,173.3 3997.1,199.2 3991.2,215.3" fill="none" stroke="#181818" stroke-width="1.0" marker-end="url(#triangle-empty)"/>
+</g>
+
+
+<g class="uml-edge"
+   data-type="generalization"
+   data-src="МножествоХарактеристик"
+   data-tgt="ХарактеристическаяФункция"
+   data-substitutable="true">
+  <path class="uml-edge-line" d="M933.6,247.8 C950.8,262.3 974.5,285.8 984.6,312.5 C997.2,345.8 986.2,422.2 969.6,441.4 C905.5,515.6 626.8,575.9 481.5,603.0" fill="none" stroke="#181818" stroke-width="1.0" marker-end="url(#triangle-empty)"/>
+</g>
+
+
+<g class="uml-edge"
+   data-type="generalization"
+   data-src="МножествоХарактеристик"
+   data-tgt="ХарактеристическаяФункцияБинарная"
+   data-substitutable="true">
+  <path class="uml-edge-line" d="M844.5,248.0 C765.7,265.6 637.5,294.4 558.6,312.0" fill="none" stroke="#181818" stroke-width="1.0" marker-end="url(#triangle-empty)"/>
+</g>
+
+
+<g class="uml-edge"
+   data-type="generalization"
+   data-src="МножествоХарактеристик"
+   data-tgt="ХарактеристическаяФункцияНеотрицательноЦелочисленная"
+   data-substitutable="true">
+  <path class="uml-edge-line" d="M894.5,247.9 C850.0,283.8 739.4,373.0 694.8,409.0" fill="none" stroke="#181818" stroke-width="1.0" marker-end="url(#triangle-empty)"/>
+</g>
+
+
+<g class="uml-edge"
+   data-type="generalization"
+   data-src="МножествоХарактеристик"
+   data-tgt="ХарактеристическаяФункцияНечёткая"
+   data-substitutable="true">
+  <path class="uml-edge-line" d="M919.9,247.9 C934.3,286.0 964.8,385.3 916.6,441.4 C868.5,497.5 674.7,514.7 536.9,519.7" fill="none" stroke="#181818" stroke-width="1.0" marker-end="url(#triangle-empty)"/>
+</g>
+
+
+<g class="uml-edge"
+   data-type="generalization"
+   data-src="МощностьМультимножества"
+   data-tgt="ОбъединениеМультимножеств"
+   data-substitutable="true">
+  <path class="uml-edge-line" d="M1983.3,151.0 C1941.8,168.7 1874.4,197.4 1832.9,215.1" fill="none" stroke="#181818" stroke-width="1.0" marker-end="url(#triangle-empty)"/>
+</g>
+
+
+<g class="uml-edge"
+   data-type="generalization"
+   data-src="МощностьМультимножества"
+   data-tgt="ПересечениеМультимножеств"
+   data-substitutable="true">
+  <path class="uml-edge-line" d="M2087.8,151.0 C2165.8,168.7 2292.5,197.4 2370.4,215.1" fill="none" stroke="#181818" stroke-width="1.0" marker-end="url(#triangle-empty)"/>
+</g>
+
+
+<g class="uml-edge"
+   data-type="generalization"
+   data-src="МощностьМультимножества"
+   data-tgt="РавенствоМультимножеств"
+   data-substitutable="true">
+  <path class="uml-edge-line" d="M2033.7,150.9 C2066.7,186.9 2148.4,276.0 2181.4,312.0" fill="none" stroke="#181818" stroke-width="1.0" marker-end="url(#triangle-empty)"/>
+</g>
+
+
+<g class="uml-edge"
+   data-type="generalization"
+   data-src="МощностьМультимножества"
+   data-tgt="ХарактеристическаяФункцияМультимножества"
+   data-substitutable="true">
+  <path class="uml-edge-line" d="M2018.5,150.7 C2015.1,200.5 2004.1,359.0 2000.7,409.1" fill="none" stroke="#181818" stroke-width="1.0" marker-end="url(#triangle-empty)"/>
+</g>
+
+
+<g class="uml-edge"
+   data-type="generalization"
+   data-src="НечёткоеМножество"
+   data-tgt="ФункцияХарактеристическаяНечёткая"
+   data-substitutable="true">
+  <path class="uml-edge-line" d="M3912.6,150.8 C3928.8,168.5 3955.4,197.6 3971.7,215.3" fill="none" stroke="#181818" stroke-width="1.0" marker-end="url(#triangle-empty)"/>
+</g>
+
+
+<g class="uml-edge"
+   data-type="generalization"
+   data-src="НечёткоеМножествоАбсолютнаяРазность"
+   data-tgt="НечёткоеМножествоАлгебраическаяСумма"
+   data-substitutable="true">
+  <path class="uml-edge-line" d="M4391.3,53.9 C4386.2,71.6 4378.0,100.6 4372.9,118.3" fill="none" stroke="#181818" stroke-width="1.0" marker-end="url(#triangle-empty)"/>
+</g>
+
+
+<g class="uml-edge"
+   data-type="generalization"
+   data-src="НечёткоеМножествоАбсолютнаяРазность"
+   data-tgt="НечёткоеМножествоАлгебраическоеУмножение"
+   data-substitutable="true">
+  <path class="uml-edge-line" d="M4460.0,54.0 C4493.8,65.7 4532.4,85.6 4552.6,118.6 C4571.4,149.3 4551.1,192.5 4537.6,215.2" fill="none" stroke="#181818" stroke-width="1.0" marker-end="url(#triangle-empty)"/>
+</g>
+
+
+<g class="uml-edge"
+   data-type="generalization"
+   data-src="НечёткоеМножествоАлгебраическаяСумма"
+   data-tgt="НечёткоеМножествоАлгебраическоеУмножение"
+   data-substitutable="true">
+  <path class="uml-edge-line" d="M4394.5,151.0 C4424.1,168.7 4472.2,197.4 4501.7,215.1" fill="none" stroke="#181818" stroke-width="1.0" marker-end="url(#triangle-empty)"/>
+</g>
+
+
+<g class="uml-edge"
+   data-type="generalization"
+   data-src="ОбъединениеМультимножеств"
+   data-tgt="РавенствоМультимножеств"
+   data-substitutable="true">
+  <path class="uml-edge-line" d="M1861.6,248.0 C1935.8,265.6 2056.4,294.4 2130.6,312.0" fill="none" stroke="#181818" stroke-width="1.0" marker-end="url(#triangle-empty)"/>
+</g>
+
+
+<g class="uml-edge"
+   data-type="generalization"
+   data-src="ОбъединениеМультимножеств"
+   data-tgt="ХарактеристическаяФункцияМультимножества"
+   data-substitutable="true">
+  <path class="uml-edge-line" d="M1812.9,247.9 C1850.9,283.8 1945.2,373.0 1983.2,409.0" fill="none" stroke="#181818" stroke-width="1.0" marker-end="url(#triangle-empty)"/>
+</g>
+
+
+<g class="uml-edge"
+   data-type="generalization"
+   data-src="ОбъединениеНечёткое"
+   data-tgt="ПересечениеНечёткое"
+   data-substitutable="true">
+  <path class="uml-edge-line" d="M3013.4,151.0 C3039.4,168.7 3081.8,197.4 3107.8,215.1" fill="none" stroke="#181818" stroke-width="1.0" marker-end="url(#triangle-empty)"/>
+</g>
+
+
+<g class="uml-edge"
+   data-type="generalization"
+   data-src="ПересечениеМультимножеств"
+   data-tgt="РавенствоМультимножеств"
+   data-substitutable="true">
+  <path class="uml-edge-line" d="M2399.0,248.0 C2353.8,265.6 2280.3,294.4 2235.2,312.0" fill="none" stroke="#181818" stroke-width="1.0" marker-end="url(#triangle-empty)"/>
+</g>
+
+
+<g class="uml-edge"
+   data-type="generalization"
+   data-src="ПересечениеМультимножеств"
+   data-tgt="ХарактеристическаяФункцияМультимножества"
+   data-substitutable="true">
+  <path class="uml-edge-line" d="M2428.5,247.9 C2411.7,272.3 2375.5,319.7 2332.6,344.5 C2274.3,378.2 2202.4,397.7 2140.4,409.0" fill="none" stroke="#181818" stroke-width="1.0" marker-end="url(#triangle-empty)"/>
+</g>
+
+
+<g class="uml-edge"
+   data-type="generalization"
+   data-src="РавенствоМультимножеств"
+   data-tgt="ХарактеристическаяФункцияМультимножества"
+   data-substitutable="true">
+  <path class="uml-edge-line" d="M2163.7,345.0 C2127.2,362.6 2068.0,391.3 2031.5,409.0" fill="none" stroke="#181818" stroke-width="1.0" marker-end="url(#triangle-empty)"/>
+</g>
+
+
+<g class="uml-edge"
+   data-type="generalization"
+   data-src="РаспознаваниеОбразов"
+   data-tgt="Систематика"
+   data-substitutable="true">
+  <path class="uml-edge-line" d="M1290.6,247.8 C1290.6,265.5 1290.6,294.6 1290.6,312.3" fill="none" stroke="#181818" stroke-width="1.0" marker-end="url(#triangle-empty)"/>
+</g>
+
+
+<g class="uml-edge"
+   data-type="generalization"
+   data-src="ХарактеристическаяФункцияБинарная"
+   data-tgt="ХарактеристическаяФункция"
+   data-substitutable="true">
+  <path class="uml-edge-line" d="M441.3,344.9 C377.2,368.3 266.6,419.4 219.6,506.4 C193.1,555.5 263.1,586.4 321.9,603.0" fill="none" stroke="#181818" stroke-width="1.0" marker-end="url(#triangle-empty)"/>
+</g>
+
+
+<g class="uml-edge"
+   data-type="generalization"
+   data-src="ХарактеристическаяФункцияНеотрицательноЦелочисленная"
+   data-tgt="ХарактеристическаяФункция"
+   data-substitutable="true">
+  <path class="uml-edge-line" d="M663.8,441.6 C645.1,464.8 606.4,509.7 565.6,538.4 C525.3,566.8 473.3,589.2 436.9,603.0" fill="none" stroke="#181818" stroke-width="1.0" marker-end="url(#triangle-empty)"/>
+</g>
+
+
+<g class="uml-edge"
+   data-type="generalization"
+   data-src="ХарактеристическаяФункцияНечёткая"
+   data-tgt="ХарактеристическаяФункция"
+   data-substitutable="true">
+  <path class="uml-edge-line" d="M392.6,538.7 C392.6,556.4 392.6,585.5 392.6,603.2" fill="none" stroke="#181818" stroke-width="1.0" marker-end="url(#triangle-empty)"/>
+</g>
+
+
+<g class="uml-edge"
+   data-type="generalization"
+   data-src="ХарактеристическаяФункцияБинарная"
+   data-tgt="ХарактеристическаяФункцияНеотрицательноЦелочисленная"
+   data-substitutable="true">
+  <path class="uml-edge-line" d="M519.9,345.0 C554.5,362.6 610.7,391.3 645.3,409.0" fill="none" stroke="#181818" stroke-width="1.0" marker-end="url(#triangle-empty)"/>
+</g>
+
+
+<g class="uml-edge"
+   data-type="generalization"
+   data-src="ХарактеристическаяФункцияБинарная"
+   data-tgt="ХарактеристическаяФункцияНечёткая"
+   data-substitutable="true">
+  <path class="uml-edge-line" d="M477.5,344.7 C465.4,360.3 447.1,385.6 434.6,409.5 C417.4,442.4 403.7,484.0 397.1,506.1" fill="none" stroke="#181818" stroke-width="1.0" marker-end="url(#triangle-empty)"/>
+</g>
+
+
+<g class="uml-edge"
+   data-type="generalization"
+   data-src="ХарактеристическаяФункцияНеотрицательноЦелочисленная"
+   data-tgt="ХарактеристическаяФункцияНечёткая"
+   data-substitutable="true">
+  <path class="uml-edge-line" d="M629.5,441.9 C576.9,459.6 491.3,488.3 438.7,506.0" fill="none" stroke="#181818" stroke-width="1.0" marker-end="url(#triangle-empty)"/>
+</g>
+
+<g transform="translate(1190,21)" class="uml-class" data-id="АнализДискриминантный" data-name="АнализДискриминантный" data-type="class" data-class-kind="class" data-visibility="" data-stereotype="" data-abstract="false" data-multiplicity="" data-attributes-count="0" data-operations-count="0" data-tagged-values-count="0" data-template-parameters-count="0">
+<rect class="uml-class-title" x="0" y="0" width="201.20000000000002" height="32" fill="#e5e5e5"/>
+<rect class="uml-class-outline uml-class-title-outline" x="0" y="0" width="201.20000000000002" height="32" stroke="#999999" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+<circle class="uml-kind-badge uml-kind-badge-c" cx="19" cy="16.0" r="11" fill="#b8d9bf" stroke="#3e7d4a" stroke-width="1.5"/><text class="uml-kind-badge-text" x="19" y="20.0" text-anchor="middle" font-family="Arial" font-size="12" font-weight="700" fill="black">C</text>
+<text class="uml-class-title-text" x="38" y="20" text-anchor="start" fill="black" font-family="Arial" font-size="12" font-weight="500">АнализДискриминантный</text>
+<rect class="uml-bbox" x="0" y="0" width="201.20000000000002" height="32" fill="none" stroke="none" pointer-events="all"/>
+</g>
+<g transform="translate(1911,21)" class="uml-class" data-id="ВключениеМультимножеств" data-name="ВключениеМультимножеств" data-type="class" data-class-kind="class" data-visibility="" data-stereotype="" data-abstract="false" data-multiplicity="" data-attributes-count="0" data-operations-count="0" data-tagged-values-count="0" data-template-parameters-count="0">
+<rect class="uml-class-title" x="0" y="0" width="215.6" height="32" fill="#e5e5e5"/>
+<rect class="uml-class-outline uml-class-title-outline" x="0" y="0" width="215.6" height="32" stroke="#999999" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+<circle class="uml-kind-badge uml-kind-badge-c" cx="19" cy="16.0" r="11" fill="#b8d9bf" stroke="#3e7d4a" stroke-width="1.5"/><text class="uml-kind-badge-text" x="19" y="20.0" text-anchor="middle" font-family="Arial" font-size="12" font-weight="700" fill="black">C</text>
+<text class="uml-class-title-text" x="38" y="20" text-anchor="start" fill="black" font-family="Arial" font-size="12" font-weight="500">ВключениеМультимножеств</text>
+<rect class="uml-bbox" x="0" y="0" width="215.6" height="32" fill="none" stroke="none" pointer-events="all"/>
+</g>
+<g transform="translate(2573,21)" class="uml-class" data-id="ДеревоКлассификацииВыровненное" data-name="ДеревоКлассификацииВыровненное" data-type="class" data-class-kind="class" data-visibility="" data-stereotype="" data-abstract="false" data-multiplicity="" data-attributes-count="0" data-operations-count="0" data-tagged-values-count="0" data-template-parameters-count="0">
+<rect class="uml-class-title" x="0" y="0" width="266.0" height="32" fill="#e5e5e5"/>
+<rect class="uml-class-outline uml-class-title-outline" x="0" y="0" width="266.0" height="32" stroke="#999999" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+<circle class="uml-kind-badge uml-kind-badge-c" cx="19" cy="16.0" r="11" fill="#b8d9bf" stroke="#3e7d4a" stroke-width="1.5"/><text class="uml-kind-badge-text" x="19" y="20.0" text-anchor="middle" font-family="Arial" font-size="12" font-weight="700" fill="black">C</text>
+<text class="uml-class-title-text" x="38" y="20" text-anchor="start" fill="black" font-family="Arial" font-size="12" font-weight="500">ДеревоКлассификацииВыровненное</text>
+<rect class="uml-bbox" x="0" y="0" width="266.0" height="32" fill="none" stroke="none" pointer-events="all"/>
+</g>
+<g transform="translate(3041,21)" class="uml-class" data-id="ДополнениеНечёткое" data-name="ДополнениеНечёткое" data-type="class" data-class-kind="class" data-visibility="" data-stereotype="" data-abstract="false" data-multiplicity="" data-attributes-count="0" data-operations-count="0" data-tagged-values-count="0" data-template-parameters-count="0">
+<rect class="uml-class-title" x="0" y="0" width="179.6" height="32" fill="#e5e5e5"/>
+<rect class="uml-class-outline uml-class-title-outline" x="0" y="0" width="179.6" height="32" stroke="#999999" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+<circle class="uml-kind-badge uml-kind-badge-c" cx="19" cy="16.0" r="11" fill="#b8d9bf" stroke="#3e7d4a" stroke-width="1.5"/><text class="uml-kind-badge-text" x="19" y="20.0" text-anchor="middle" font-family="Arial" font-size="12" font-weight="700" fill="black">C</text>
+<text class="uml-class-title-text" x="38" y="20" text-anchor="start" fill="black" font-family="Arial" font-size="12" font-weight="500">ДополнениеНечёткое</text>
+<rect class="uml-bbox" x="0" y="0" width="179.6" height="32" fill="none" stroke="none" pointer-events="all"/>
+</g>
+<g transform="translate(3435,21)" class="uml-class" data-id="ИстинностноеЗначение" data-name="ИстинностноеЗначение" data-type="class" data-class-kind="class" data-visibility="" data-stereotype="" data-abstract="false" data-multiplicity="" data-attributes-count="0" data-operations-count="0" data-tagged-values-count="0" data-template-parameters-count="0">
+<rect class="uml-class-title" x="0" y="0" width="194.0" height="32" fill="#e5e5e5"/>
+<rect class="uml-class-outline uml-class-title-outline" x="0" y="0" width="194.0" height="32" stroke="#999999" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+<circle class="uml-kind-badge uml-kind-badge-c" cx="19" cy="16.0" r="11" fill="#b8d9bf" stroke="#3e7d4a" stroke-width="1.5"/><text class="uml-kind-badge-text" x="19" y="20.0" text-anchor="middle" font-family="Arial" font-size="12" font-weight="700" fill="black">C</text>
+<text class="uml-class-title-text" x="38" y="20" text-anchor="start" fill="black" font-family="Arial" font-size="12" font-weight="500">ИстинностноеЗначение</text>
+<rect class="uml-bbox" x="0" y="0" width="194.0" height="32" fill="none" stroke="none" pointer-events="all"/>
+</g>
+<g transform="translate(757,21)" class="uml-class" data-id="Квадрант" data-name="Квадрант" data-type="class" data-class-kind="class" data-visibility="" data-stereotype="" data-abstract="false" data-multiplicity="" data-attributes-count="0" data-operations-count="0" data-tagged-values-count="0" data-template-parameters-count="0">
+<rect class="uml-class-title" x="0" y="0" width="120" height="32" fill="#e5e5e5"/>
+<rect class="uml-class-outline uml-class-title-outline" x="0" y="0" width="120" height="32" stroke="#999999" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+<circle class="uml-kind-badge uml-kind-badge-c" cx="19" cy="16.0" r="11" fill="#b8d9bf" stroke="#3e7d4a" stroke-width="1.5"/><text class="uml-kind-badge-text" x="19" y="20.0" text-anchor="middle" font-family="Arial" font-size="12" font-weight="700" fill="black">C</text>
+<text class="uml-class-title-text" x="38" y="20" text-anchor="start" fill="black" font-family="Arial" font-size="12" font-weight="500">Квадрант</text>
+<rect class="uml-bbox" x="0" y="0" width="120" height="32" fill="none" stroke="none" pointer-events="all"/>
+</g>
+<g transform="translate(745,118)" class="uml-class" data-id="Классификатор" data-name="Классификатор" data-type="class" data-class-kind="class" data-visibility="" data-stereotype="" data-abstract="false" data-multiplicity="" data-attributes-count="0" data-operations-count="0" data-tagged-values-count="0" data-template-parameters-count="0">
+<rect class="uml-class-title" x="0" y="0" width="143.60000000000002" height="32" fill="#e5e5e5"/>
+<rect class="uml-class-outline uml-class-title-outline" x="0" y="0" width="143.60000000000002" height="32" stroke="#999999" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+<circle class="uml-kind-badge uml-kind-badge-c" cx="19" cy="16.0" r="11" fill="#b8d9bf" stroke="#3e7d4a" stroke-width="1.5"/><text class="uml-kind-badge-text" x="19" y="20.0" text-anchor="middle" font-family="Arial" font-size="12" font-weight="700" fill="black">C</text>
+<text class="uml-class-title-text" x="38" y="20" text-anchor="start" fill="black" font-family="Arial" font-size="12" font-weight="500">Классификатор</text>
+<rect class="uml-bbox" x="0" y="0" width="143.60000000000002" height="32" fill="none" stroke="none" pointer-events="all"/>
+</g>
+<g transform="translate(2483,118)" class="uml-class" data-id="КлассификаторИерархический" data-name="КлассификаторИерархический" data-type="class" data-class-kind="class" data-visibility="" data-stereotype="" data-abstract="false" data-multiplicity="" data-attributes-count="0" data-operations-count="0" data-tagged-values-count="0" data-template-parameters-count="0">
+<rect class="uml-class-title" x="0" y="0" width="237.20000000000002" height="32" fill="#e5e5e5"/>
+<rect class="uml-class-outline uml-class-title-outline" x="0" y="0" width="237.20000000000002" height="32" stroke="#999999" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+<circle class="uml-kind-badge uml-kind-badge-c" cx="19" cy="16.0" r="11" fill="#b8d9bf" stroke="#3e7d4a" stroke-width="1.5"/><text class="uml-kind-badge-text" x="19" y="20.0" text-anchor="middle" font-family="Arial" font-size="12" font-weight="700" fill="black">C</text>
+<text class="uml-class-title-text" x="38" y="20" text-anchor="start" fill="black" font-family="Arial" font-size="12" font-weight="500">КлассификаторИерархический</text>
+<rect class="uml-bbox" x="0" y="0" width="237.20000000000002" height="32" fill="none" stroke="none" pointer-events="all"/>
+</g>
+<g transform="translate(3970,21)" class="uml-class" data-id="ЛогикаНечёткая" data-name="ЛогикаНечёткая" data-type="class" data-class-kind="class" data-visibility="" data-stereotype="" data-abstract="false" data-multiplicity="" data-attributes-count="0" data-operations-count="0" data-tagged-values-count="0" data-template-parameters-count="0">
+<rect class="uml-class-title" x="0" y="0" width="150.8" height="32" fill="#e5e5e5"/>
+<rect class="uml-class-outline uml-class-title-outline" x="0" y="0" width="150.8" height="32" stroke="#999999" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+<circle class="uml-kind-badge uml-kind-badge-c" cx="19" cy="16.0" r="11" fill="#b8d9bf" stroke="#3e7d4a" stroke-width="1.5"/><text class="uml-kind-badge-text" x="19" y="20.0" text-anchor="middle" font-family="Arial" font-size="12" font-weight="700" fill="black">C</text>
+<text class="uml-class-title-text" x="38" y="20" text-anchor="start" fill="black" font-family="Arial" font-size="12" font-weight="500">ЛогикаНечёткая</text>
+<rect class="uml-bbox" x="0" y="0" width="150.8" height="32" fill="none" stroke="none" pointer-events="all"/>
+</g>
+<g transform="translate(809,215)" class="uml-class" data-id="МножествоХарактеристик" data-name="МножествоХарактеристик" data-type="class" data-class-kind="class" data-visibility="" data-stereotype="" data-abstract="false" data-multiplicity="" data-attributes-count="0" data-operations-count="0" data-tagged-values-count="0" data-template-parameters-count="0">
+<rect class="uml-class-title" x="0" y="0" width="208.4" height="32" fill="#e5e5e5"/>
+<rect class="uml-class-outline uml-class-title-outline" x="0" y="0" width="208.4" height="32" stroke="#999999" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+<circle class="uml-kind-badge uml-kind-badge-c" cx="19" cy="16.0" r="11" fill="#b8d9bf" stroke="#3e7d4a" stroke-width="1.5"/><text class="uml-kind-badge-text" x="19" y="20.0" text-anchor="middle" font-family="Arial" font-size="12" font-weight="700" fill="black">C</text>
+<text class="uml-class-title-text" x="38" y="20" text-anchor="start" fill="black" font-family="Arial" font-size="12" font-weight="500">МножествоХарактеристик</text>
+<rect class="uml-bbox" x="0" y="0" width="208.4" height="32" fill="none" stroke="none" pointer-events="all"/>
+</g>
+<g transform="translate(1911,118)" class="uml-class" data-id="МощностьМультимножества" data-name="МощностьМультимножества" data-type="class" data-class-kind="class" data-visibility="" data-stereotype="" data-abstract="false" data-multiplicity="" data-attributes-count="0" data-operations-count="0" data-tagged-values-count="0" data-template-parameters-count="0">
+<rect class="uml-class-title" x="0" y="0" width="215.6" height="32" fill="#e5e5e5"/>
+<rect class="uml-class-outline uml-class-title-outline" x="0" y="0" width="215.6" height="32" stroke="#999999" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+<circle class="uml-kind-badge uml-kind-badge-c" cx="19" cy="16.0" r="11" fill="#b8d9bf" stroke="#3e7d4a" stroke-width="1.5"/><text class="uml-kind-badge-text" x="19" y="20.0" text-anchor="middle" font-family="Arial" font-size="12" font-weight="700" fill="black">C</text>
+<text class="uml-class-title-text" x="38" y="20" text-anchor="start" fill="black" font-family="Arial" font-size="12" font-weight="500">МощностьМультимножества</text>
+<rect class="uml-bbox" x="0" y="0" width="215.6" height="32" fill="none" stroke="none" pointer-events="all"/>
+</g>
+<g transform="translate(3812,118)" class="uml-class" data-id="НечёткоеМножество" data-name="НечёткоеМножество" data-type="class" data-class-kind="class" data-visibility="" data-stereotype="" data-abstract="false" data-multiplicity="" data-attributes-count="0" data-operations-count="0" data-tagged-values-count="0" data-template-parameters-count="0">
+<rect class="uml-class-title" x="0" y="0" width="172.4" height="32" fill="#e5e5e5"/>
+<rect class="uml-class-outline uml-class-title-outline" x="0" y="0" width="172.4" height="32" stroke="#999999" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+<circle class="uml-kind-badge uml-kind-badge-c" cx="19" cy="16.0" r="11" fill="#b8d9bf" stroke="#3e7d4a" stroke-width="1.5"/><text class="uml-kind-badge-text" x="19" y="20.0" text-anchor="middle" font-family="Arial" font-size="12" font-weight="700" fill="black">C</text>
+<text class="uml-class-title-text" x="38" y="20" text-anchor="start" fill="black" font-family="Arial" font-size="12" font-weight="500">НечёткоеМножество</text>
+<rect class="uml-bbox" x="0" y="0" width="172.4" height="32" fill="none" stroke="none" pointer-events="all"/>
+</g>
+<g transform="translate(4244,21)" class="uml-class" data-id="НечёткоеМножествоАбсолютнаяРазность" data-name="НечёткоеМножествоАбсолютнаяРазность" data-type="class" data-class-kind="class" data-visibility="" data-stereotype="" data-abstract="false" data-multiplicity="" data-attributes-count="0" data-operations-count="0" data-tagged-values-count="0" data-template-parameters-count="0">
+<rect class="uml-class-title" x="0" y="0" width="302.0" height="32" fill="#e5e5e5"/>
+<rect class="uml-class-outline uml-class-title-outline" x="0" y="0" width="302.0" height="32" stroke="#999999" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+<circle class="uml-kind-badge uml-kind-badge-c" cx="19" cy="16.0" r="11" fill="#b8d9bf" stroke="#3e7d4a" stroke-width="1.5"/><text class="uml-kind-badge-text" x="19" y="20.0" text-anchor="middle" font-family="Arial" font-size="12" font-weight="700" fill="black">C</text>
+<text class="uml-class-title-text" x="38" y="20" text-anchor="start" fill="black" font-family="Arial" font-size="12" font-weight="500">НечёткоеМножествоАбсолютнаяРазность</text>
+<rect class="uml-bbox" x="0" y="0" width="302.0" height="32" fill="none" stroke="none" pointer-events="all"/>
+</g>
+<g transform="translate(4214,118)" class="uml-class" data-id="НечёткоеМножествоАлгебраическаяСумма" data-name="НечёткоеМножествоАлгебраическаяСумма" data-type="class" data-class-kind="class" data-visibility="" data-stereotype="" data-abstract="false" data-multiplicity="" data-attributes-count="0" data-operations-count="0" data-tagged-values-count="0" data-template-parameters-count="0">
+<rect class="uml-class-title" x="0" y="0" width="309.2" height="32" fill="#e5e5e5"/>
+<rect class="uml-class-outline uml-class-title-outline" x="0" y="0" width="309.2" height="32" stroke="#999999" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+<circle class="uml-kind-badge uml-kind-badge-c" cx="19" cy="16.0" r="11" fill="#b8d9bf" stroke="#3e7d4a" stroke-width="1.5"/><text class="uml-kind-badge-text" x="19" y="20.0" text-anchor="middle" font-family="Arial" font-size="12" font-weight="700" fill="black">C</text>
+<text class="uml-class-title-text" x="38" y="20" text-anchor="start" fill="black" font-family="Arial" font-size="12" font-weight="500">НечёткоеМножествоАлгебраическаяСумма</text>
+<rect class="uml-bbox" x="0" y="0" width="309.2" height="32" fill="none" stroke="none" pointer-events="all"/>
+</g>
+<g transform="translate(4358,215)" class="uml-class" data-id="НечёткоеМножествоАлгебраическоеУмножение" data-name="НечёткоеМножествоАлгебраическоеУмножение" data-type="class" data-class-kind="class" data-visibility="" data-stereotype="" data-abstract="false" data-multiplicity="" data-attributes-count="0" data-operations-count="0" data-tagged-values-count="0" data-template-parameters-count="0">
+<rect class="uml-class-title" x="0" y="0" width="338.0" height="32" fill="#e5e5e5"/>
+<rect class="uml-class-outline uml-class-title-outline" x="0" y="0" width="338.0" height="32" stroke="#999999" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+<circle class="uml-kind-badge uml-kind-badge-c" cx="19" cy="16.0" r="11" fill="#b8d9bf" stroke="#3e7d4a" stroke-width="1.5"/><text class="uml-kind-badge-text" x="19" y="20.0" text-anchor="middle" font-family="Arial" font-size="12" font-weight="700" fill="black">C</text>
+<text class="uml-class-title-text" x="38" y="20" text-anchor="start" fill="black" font-family="Arial" font-size="12" font-weight="500">НечёткоеМножествоАлгебраическоеУмножение</text>
+<rect class="uml-bbox" x="0" y="0" width="338.0" height="32" fill="none" stroke="none" pointer-events="all"/>
+</g>
+<g transform="translate(1681,215)" class="uml-class" data-id="ОбъединениеМультимножеств" data-name="ОбъединениеМультимножеств" data-type="class" data-class-kind="class" data-visibility="" data-stereotype="" data-abstract="false" data-multiplicity="" data-attributes-count="0" data-operations-count="0" data-tagged-values-count="0" data-template-parameters-count="0">
+<rect class="uml-class-title" x="0" y="0" width="230.0" height="32" fill="#e5e5e5"/>
+<rect class="uml-class-outline uml-class-title-outline" x="0" y="0" width="230.0" height="32" stroke="#999999" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+<circle class="uml-kind-badge uml-kind-badge-c" cx="19" cy="16.0" r="11" fill="#b8d9bf" stroke="#3e7d4a" stroke-width="1.5"/><text class="uml-kind-badge-text" x="19" y="20.0" text-anchor="middle" font-family="Arial" font-size="12" font-weight="700" fill="black">C</text>
+<text class="uml-class-title-text" x="38" y="20" text-anchor="start" fill="black" font-family="Arial" font-size="12" font-weight="500">ОбъединениеМультимножеств</text>
+<rect class="uml-bbox" x="0" y="0" width="230.0" height="32" fill="none" stroke="none" pointer-events="all"/>
+</g>
+<g transform="translate(2897,118)" class="uml-class" data-id="ОбъединениеНечёткое" data-name="ОбъединениеНечёткое" data-type="class" data-class-kind="class" data-visibility="" data-stereotype="" data-abstract="false" data-multiplicity="" data-attributes-count="0" data-operations-count="0" data-tagged-values-count="0" data-template-parameters-count="0">
+<rect class="uml-class-title" x="0" y="0" width="186.8" height="32" fill="#e5e5e5"/>
+<rect class="uml-class-outline uml-class-title-outline" x="0" y="0" width="186.8" height="32" stroke="#999999" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+<circle class="uml-kind-badge uml-kind-badge-c" cx="19" cy="16.0" r="11" fill="#b8d9bf" stroke="#3e7d4a" stroke-width="1.5"/><text class="uml-kind-badge-text" x="19" y="20.0" text-anchor="middle" font-family="Arial" font-size="12" font-weight="700" fill="black">C</text>
+<text class="uml-class-title-text" x="38" y="20" text-anchor="start" fill="black" font-family="Arial" font-size="12" font-weight="500">ОбъединениеНечёткое</text>
+<rect class="uml-bbox" x="0" y="0" width="186.8" height="32" fill="none" stroke="none" pointer-events="all"/>
+</g>
+<g transform="translate(2323,215)" class="uml-class" data-id="ПересечениеМультимножеств" data-name="ПересечениеМультимножеств" data-type="class" data-class-kind="class" data-visibility="" data-stereotype="" data-abstract="false" data-multiplicity="" data-attributes-count="0" data-operations-count="0" data-tagged-values-count="0" data-template-parameters-count="0">
+<rect class="uml-class-title" x="0" y="0" width="230.0" height="32" fill="#e5e5e5"/>
+<rect class="uml-class-outline uml-class-title-outline" x="0" y="0" width="230.0" height="32" stroke="#999999" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+<circle class="uml-kind-badge uml-kind-badge-c" cx="19" cy="16.0" r="11" fill="#b8d9bf" stroke="#3e7d4a" stroke-width="1.5"/><text class="uml-kind-badge-text" x="19" y="20.0" text-anchor="middle" font-family="Arial" font-size="12" font-weight="700" fill="black">C</text>
+<text class="uml-class-title-text" x="38" y="20" text-anchor="start" fill="black" font-family="Arial" font-size="12" font-weight="500">ПересечениеМультимножеств</text>
+<rect class="uml-bbox" x="0" y="0" width="230.0" height="32" fill="none" stroke="none" pointer-events="all"/>
+</g>
+<g transform="translate(3037,215)" class="uml-class" data-id="ПересечениеНечёткое" data-name="ПересечениеНечёткое" data-type="class" data-class-kind="class" data-visibility="" data-stereotype="" data-abstract="false" data-multiplicity="" data-attributes-count="0" data-operations-count="0" data-tagged-values-count="0" data-template-parameters-count="0">
+<rect class="uml-class-title" x="0" y="0" width="186.8" height="32" fill="#e5e5e5"/>
+<rect class="uml-class-outline uml-class-title-outline" x="0" y="0" width="186.8" height="32" stroke="#999999" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+<circle class="uml-kind-badge uml-kind-badge-c" cx="19" cy="16.0" r="11" fill="#b8d9bf" stroke="#3e7d4a" stroke-width="1.5"/><text class="uml-kind-badge-text" x="19" y="20.0" text-anchor="middle" font-family="Arial" font-size="12" font-weight="700" fill="black">C</text>
+<text class="uml-class-title-text" x="38" y="20" text-anchor="start" fill="black" font-family="Arial" font-size="12" font-weight="500">ПересечениеНечёткое</text>
+<rect class="uml-bbox" x="0" y="0" width="186.8" height="32" fill="none" stroke="none" pointer-events="all"/>
+</g>
+<g transform="translate(3352,215)" class="uml-class" data-id="Предикат" data-name="Предикат" data-type="class" data-class-kind="class" data-visibility="" data-stereotype="" data-abstract="false" data-multiplicity="" data-attributes-count="0" data-operations-count="0" data-tagged-values-count="0" data-template-parameters-count="0">
+<rect class="uml-class-title" x="0" y="0" width="120" height="32" fill="#e5e5e5"/>
+<rect class="uml-class-outline uml-class-title-outline" x="0" y="0" width="120" height="32" stroke="#999999" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+<circle class="uml-kind-badge uml-kind-badge-c" cx="19" cy="16.0" r="11" fill="#b8d9bf" stroke="#3e7d4a" stroke-width="1.5"/><text class="uml-kind-badge-text" x="19" y="20.0" text-anchor="middle" font-family="Arial" font-size="12" font-weight="700" fill="black">C</text>
+<text class="uml-class-title-text" x="38" y="20" text-anchor="start" fill="black" font-family="Arial" font-size="12" font-weight="500">Предикат</text>
+<rect class="uml-bbox" x="0" y="0" width="120" height="32" fill="none" stroke="none" pointer-events="all"/>
+</g>
+<g transform="translate(2087,312)" class="uml-class" data-id="РавенствоМультимножеств" data-name="РавенствоМультимножеств" data-type="class" data-class-kind="class" data-visibility="" data-stereotype="" data-abstract="false" data-multiplicity="" data-attributes-count="0" data-operations-count="0" data-tagged-values-count="0" data-template-parameters-count="0">
+<rect class="uml-class-title" x="0" y="0" width="215.6" height="32" fill="#e5e5e5"/>
+<rect class="uml-class-outline uml-class-title-outline" x="0" y="0" width="215.6" height="32" stroke="#999999" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+<circle class="uml-kind-badge uml-kind-badge-c" cx="19" cy="16.0" r="11" fill="#b8d9bf" stroke="#3e7d4a" stroke-width="1.5"/><text class="uml-kind-badge-text" x="19" y="20.0" text-anchor="middle" font-family="Arial" font-size="12" font-weight="700" fill="black">C</text>
+<text class="uml-class-title-text" x="38" y="20" text-anchor="start" fill="black" font-family="Arial" font-size="12" font-weight="500">РавенствоМультимножеств</text>
+<rect class="uml-bbox" x="0" y="0" width="215.6" height="32" fill="none" stroke="none" pointer-events="all"/>
+</g>
+<g transform="translate(1193,215)" class="uml-class" data-id="РаспознаваниеОбразов" data-name="РаспознаваниеОбразов" data-type="class" data-class-kind="class" data-visibility="" data-stereotype="" data-abstract="false" data-multiplicity="" data-attributes-count="0" data-operations-count="0" data-tagged-values-count="0" data-template-parameters-count="0">
+<rect class="uml-class-title" x="0" y="0" width="194.0" height="32" fill="#e5e5e5"/>
+<rect class="uml-class-outline uml-class-title-outline" x="0" y="0" width="194.0" height="32" stroke="#999999" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+<circle class="uml-kind-badge uml-kind-badge-c" cx="19" cy="16.0" r="11" fill="#b8d9bf" stroke="#3e7d4a" stroke-width="1.5"/><text class="uml-kind-badge-text" x="19" y="20.0" text-anchor="middle" font-family="Arial" font-size="12" font-weight="700" fill="black">C</text>
+<text class="uml-class-title-text" x="38" y="20" text-anchor="start" fill="black" font-family="Arial" font-size="12" font-weight="500">РаспознаваниеОбразов</text>
+<rect class="uml-bbox" x="0" y="0" width="194.0" height="32" fill="none" stroke="none" pointer-events="all"/>
+</g>
+<g transform="translate(1226,312)" class="uml-class" data-id="Систематика" data-name="Систематика" data-type="class" data-class-kind="class" data-visibility="" data-stereotype="" data-abstract="false" data-multiplicity="" data-attributes-count="0" data-operations-count="0" data-tagged-values-count="0" data-template-parameters-count="0">
+<rect class="uml-class-title" x="0" y="0" width="129.2" height="32" fill="#e5e5e5"/>
+<rect class="uml-class-outline uml-class-title-outline" x="0" y="0" width="129.2" height="32" stroke="#999999" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+<circle class="uml-kind-badge uml-kind-badge-c" cx="19" cy="16.0" r="11" fill="#b8d9bf" stroke="#3e7d4a" stroke-width="1.5"/><text class="uml-kind-badge-text" x="19" y="20.0" text-anchor="middle" font-family="Arial" font-size="12" font-weight="700" fill="black">C</text>
+<text class="uml-class-title-text" x="38" y="20" text-anchor="start" fill="black" font-family="Arial" font-size="12" font-weight="500">Систематика</text>
+<rect class="uml-bbox" x="0" y="0" width="129.2" height="32" fill="none" stroke="none" pointer-events="all"/>
+</g>
+<g transform="translate(3841,215)" class="uml-class" data-id="ФункцияХарактеристическаяНечёткая" data-name="ФункцияХарактеристическаяНечёткая" data-type="class" data-class-kind="class" data-visibility="" data-stereotype="" data-abstract="false" data-multiplicity="" data-attributes-count="0" data-operations-count="0" data-tagged-values-count="0" data-template-parameters-count="0">
+<rect class="uml-class-title" x="0" y="0" width="287.6" height="32" fill="#e5e5e5"/>
+<rect class="uml-class-outline uml-class-title-outline" x="0" y="0" width="287.6" height="32" stroke="#999999" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+<circle class="uml-kind-badge uml-kind-badge-c" cx="19" cy="16.0" r="11" fill="#b8d9bf" stroke="#3e7d4a" stroke-width="1.5"/><text class="uml-kind-badge-text" x="19" y="20.0" text-anchor="middle" font-family="Arial" font-size="12" font-weight="700" fill="black">C</text>
+<text class="uml-class-title-text" x="38" y="20" text-anchor="start" fill="black" font-family="Arial" font-size="12" font-weight="500">ФункцияХарактеристическаяНечёткая</text>
+<rect class="uml-bbox" x="0" y="0" width="287.6" height="32" fill="none" stroke="none" pointer-events="all"/>
+</g>
+<g transform="translate(277,603)" class="uml-class" data-id="ХарактеристическаяФункция" data-name="ХарактеристическаяФункция" data-type="class" data-class-kind="class" data-visibility="" data-stereotype="" data-abstract="false" data-multiplicity="" data-attributes-count="0" data-operations-count="0" data-tagged-values-count="0" data-template-parameters-count="0">
+<rect class="uml-class-title" x="0" y="0" width="230.0" height="32" fill="#e5e5e5"/>
+<rect class="uml-class-outline uml-class-title-outline" x="0" y="0" width="230.0" height="32" stroke="#999999" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+<circle class="uml-kind-badge uml-kind-badge-c" cx="19" cy="16.0" r="11" fill="#b8d9bf" stroke="#3e7d4a" stroke-width="1.5"/><text class="uml-kind-badge-text" x="19" y="20.0" text-anchor="middle" font-family="Arial" font-size="12" font-weight="700" fill="black">C</text>
+<text class="uml-class-title-text" x="38" y="20" text-anchor="start" fill="black" font-family="Arial" font-size="12" font-weight="500">ХарактеристическаяФункция</text>
+<rect class="uml-bbox" x="0" y="0" width="230.0" height="32" fill="none" stroke="none" pointer-events="all"/>
+</g>
+<g transform="translate(345,312)" class="uml-class" data-id="ХарактеристическаяФункцияБинарная" data-name="ХарактеристическаяФункцияБинарная" data-type="class" data-class-kind="class" data-visibility="" data-stereotype="" data-abstract="false" data-multiplicity="" data-attributes-count="0" data-operations-count="0" data-tagged-values-count="0" data-template-parameters-count="0">
+<rect class="uml-class-title" x="0" y="0" width="287.6" height="32" fill="#e5e5e5"/>
+<rect class="uml-class-outline uml-class-title-outline" x="0" y="0" width="287.6" height="32" stroke="#999999" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+<circle class="uml-kind-badge uml-kind-badge-c" cx="19" cy="16.0" r="11" fill="#b8d9bf" stroke="#3e7d4a" stroke-width="1.5"/><text class="uml-kind-badge-text" x="19" y="20.0" text-anchor="middle" font-family="Arial" font-size="12" font-weight="700" fill="black">C</text>
+<text class="uml-class-title-text" x="38" y="20" text-anchor="start" fill="black" font-family="Arial" font-size="12" font-weight="500">ХарактеристическаяФункцияБинарная</text>
+<rect class="uml-bbox" x="0" y="0" width="287.6" height="32" fill="none" stroke="none" pointer-events="all"/>
+</g>
+<g transform="translate(1830,409)" class="uml-class" data-id="ХарактеристическаяФункцияМультимножества" data-name="ХарактеристическаяФункцияМультимножества" data-type="class" data-class-kind="class" data-visibility="" data-stereotype="" data-abstract="false" data-multiplicity="" data-attributes-count="0" data-operations-count="0" data-tagged-values-count="0" data-template-parameters-count="0">
+<rect class="uml-class-title" x="0" y="0" width="338.0" height="32" fill="#e5e5e5"/>
+<rect class="uml-class-outline uml-class-title-outline" x="0" y="0" width="338.0" height="32" stroke="#999999" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+<circle class="uml-kind-badge uml-kind-badge-c" cx="19" cy="16.0" r="11" fill="#b8d9bf" stroke="#3e7d4a" stroke-width="1.5"/><text class="uml-kind-badge-text" x="19" y="20.0" text-anchor="middle" font-family="Arial" font-size="12" font-weight="700" fill="black">C</text>
+<text class="uml-class-title-text" x="38" y="20" text-anchor="start" fill="black" font-family="Arial" font-size="12" font-weight="500">ХарактеристическаяФункцияМультимножества</text>
+<rect class="uml-bbox" x="0" y="0" width="338.0" height="32" fill="none" stroke="none" pointer-events="all"/>
+</g>
+<g transform="translate(463,409)" class="uml-class" data-id="ХарактеристическаяФункцияНеотрицательноЦелочисленная" data-name="ХарактеристическаяФункцияНеотрицательноЦелочисленная" data-type="class" data-class-kind="class" data-visibility="" data-stereotype="" data-abstract="false" data-multiplicity="" data-attributes-count="0" data-operations-count="0" data-tagged-values-count="0" data-template-parameters-count="0">
+<rect class="uml-class-title" x="0" y="0" width="424.40000000000003" height="32" fill="#e5e5e5"/>
+<rect class="uml-class-outline uml-class-title-outline" x="0" y="0" width="424.40000000000003" height="32" stroke="#999999" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+<circle class="uml-kind-badge uml-kind-badge-c" cx="19" cy="16.0" r="11" fill="#b8d9bf" stroke="#3e7d4a" stroke-width="1.5"/><text class="uml-kind-badge-text" x="19" y="20.0" text-anchor="middle" font-family="Arial" font-size="12" font-weight="700" fill="black">C</text>
+<text class="uml-class-title-text" x="38" y="20" text-anchor="start" fill="black" font-family="Arial" font-size="12" font-weight="500">ХарактеристическаяФункцияНеотрицательноЦелочисленная</text>
+<rect class="uml-bbox" x="0" y="0" width="424.40000000000003" height="32" fill="none" stroke="none" pointer-events="all"/>
+</g>
+<g transform="translate(248,506)" class="uml-class" data-id="ХарактеристическаяФункцияНечёткая" data-name="ХарактеристическаяФункцияНечёткая" data-type="class" data-class-kind="class" data-visibility="" data-stereotype="" data-abstract="false" data-multiplicity="" data-attributes-count="0" data-operations-count="0" data-tagged-values-count="0" data-template-parameters-count="0">
+<rect class="uml-class-title" x="0" y="0" width="287.6" height="32" fill="#e5e5e5"/>
+<rect class="uml-class-outline uml-class-title-outline" x="0" y="0" width="287.6" height="32" stroke="#999999" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+<circle class="uml-kind-badge uml-kind-badge-c" cx="19" cy="16.0" r="11" fill="#b8d9bf" stroke="#3e7d4a" stroke-width="1.5"/><text class="uml-kind-badge-text" x="19" y="20.0" text-anchor="middle" font-family="Arial" font-size="12" font-weight="700" fill="black">C</text>
+<text class="uml-class-title-text" x="38" y="20" text-anchor="start" fill="black" font-family="Arial" font-size="12" font-weight="500">ХарактеристическаяФункцияНечёткая</text>
+<rect class="uml-bbox" x="0" y="0" width="287.6" height="32" fill="none" stroke="none" pointer-events="all"/>
+</g>
+<g transform="translate(3459,118)" class="uml-class" data-id="ХарактеристическаяФункцияОтношения" data-name="ХарактеристическаяФункцияОтношения" data-type="class" data-class-kind="class" data-visibility="" data-stereotype="" data-abstract="false" data-multiplicity="" data-attributes-count="0" data-operations-count="0" data-tagged-values-count="0" data-template-parameters-count="0">
+<rect class="uml-class-title" x="0" y="0" width="294.8" height="32" fill="#e5e5e5"/>
+<rect class="uml-class-outline uml-class-title-outline" x="0" y="0" width="294.8" height="32" stroke="#999999" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+<circle class="uml-kind-badge uml-kind-badge-c" cx="19" cy="16.0" r="11" fill="#b8d9bf" stroke="#3e7d4a" stroke-width="1.5"/><text class="uml-kind-badge-text" x="19" y="20.0" text-anchor="middle" font-family="Arial" font-size="12" font-weight="700" fill="black">C</text>
+<text class="uml-class-title-text" x="38" y="20" text-anchor="start" fill="black" font-family="Arial" font-size="12" font-weight="500">ХарактеристическаяФункцияОтношения</text>
+<rect class="uml-bbox" x="0" y="0" width="294.8" height="32" fill="none" stroke="none" pointer-events="all"/>
+</g>
+<g transform="translate(2671,215)" class="uml-class" data-id="ШиринаВетвления" data-name="ШиринаВетвления" data-type="class" data-class-kind="class" data-visibility="" data-stereotype="" data-abstract="false" data-multiplicity="" data-attributes-count="0" data-operations-count="0" data-tagged-values-count="0" data-template-parameters-count="0">
+<rect class="uml-class-title" x="0" y="0" width="158.0" height="32" fill="#e5e5e5"/>
+<rect class="uml-class-outline uml-class-title-outline" x="0" y="0" width="158.0" height="32" stroke="#999999" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+<circle class="uml-kind-badge uml-kind-badge-c" cx="19" cy="16.0" r="11" fill="#b8d9bf" stroke="#3e7d4a" stroke-width="1.5"/><text class="uml-kind-badge-text" x="19" y="20.0" text-anchor="middle" font-family="Arial" font-size="12" font-weight="700" fill="black">C</text>
+<text class="uml-class-title-text" x="38" y="20" text-anchor="start" fill="black" font-family="Arial" font-size="12" font-weight="500">ШиринаВетвления</text>
+<rect class="uml-bbox" x="0" y="0" width="158.0" height="32" fill="none" stroke="none" pointer-events="all"/>
+</g>
+</svg>

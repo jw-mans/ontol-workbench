@@ -1,0 +1,10 @@
+{"paragraph_id": "2.3", "concept_a": "Арифметика машинная", "concept_b": "Кольцо", "has_relation": false}
+{"paragraph_id": "2.3", "concept_a": "Арифметика машинная", "concept_b": "Кольцо вырожденный случай", "has_relation": true}
+{"paragraph_id": "2.3", "concept_a": "Арифметика машинная", "concept_b": "Кольцо коммутативное", "has_relation": false}
+{"paragraph_id": "2.3", "concept_a": "Арифметика машинная", "concept_b": "Кольцо с единицей", "has_relation": false}
+{"paragraph_id": "2.3", "concept_a": "Кольцо", "concept_b": "Кольцо вырожденный случай", "has_relation": false}
+{"paragraph_id": "2.3", "concept_a": "Кольцо", "concept_b": "Кольцо коммутативное", "has_relation": false}
+{"paragraph_id": "2.3", "concept_a": "Кольцо", "concept_b": "Кольцо с единицей", "has_relation": false}
+{"paragraph_id": "2.3", "concept_a": "Кольцо вырожденный случай", "concept_b": "Кольцо коммутативное", "has_relation": false}
+{"paragraph_id": "2.3", "concept_a": "Кольцо вырожденный случай", "concept_b": "Кольцо с единицей", "has_relation": false}
+{"paragraph_id": "2.3", "concept_a": "Кольцо коммутативное", "concept_b": "Кольцо с единицей", "has_relation": true}

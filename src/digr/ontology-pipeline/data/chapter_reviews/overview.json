@@ -1,0 +1,1438 @@
+{
+  "chapters": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9",
+    "10"
+  ],
+  "chapter_summaries": [
+    {
+      "chapter": "1",
+      "paragraphs": [
+        "1.1",
+        "1.2",
+        "1.3",
+        "1.4",
+        "1.5",
+        "1.6",
+        "1.7",
+        "1.8",
+        "1.9"
+      ],
+      "ground_truth_source": "src/digr/ontology-pipeline/data/dm_reference_ontologies/chapter_01",
+      "ignored_concepts": [
+        "bool",
+        "Объект",
+        "Парадокс",
+        "Парадокс Рассела",
+        "Структура",
+        "Указатель",
+        "Элементами семейства являются множества"
+      ],
+      "chapter_concepts": 338,
+      "raw_unique_relations": 506,
+      "textbook_relations_in_chapter_scope": 100,
+      "textbook_unique_relation_pairs_in_chapter_scope": 95,
+      "category_counts": {
+        "found_on_diagram_correct": 8,
+        "found_on_diagram_wrong_direction": 8,
+        "found_on_diagram_wrong_type": 9,
+        "found_on_diagram_wrong_direction_and_type": 4,
+        "found_not_on_diagram_accepted": 462,
+        "found_not_on_diagram_rejected": 15,
+        "not_found_from_diagram": 76
+      },
+      "corrected_relations": 486,
+      "rendered": false,
+      "render_error": "Обнаружен циклический архитектурный антипаттерн взаимосвязи иерархий (a^+ b^+ a^+ b^+) для класса 'Алгебра'\nОбнаружен циклический архитектурный антипаттерн взаимосвязи иерархий (a^+ b^+ a^+ b^+) для класса 'Алфавит'\nОбнаружен циклический архитектурный антипаттерн взаимосвязи иерархий (a^+ b^+ a^+ b^+) для класса 'Буква'\nОбнаружен циклический архитектурный антипаттерн взаимосвязи иерархий (a^+ b^+ a^+ b^+) для класса 'Кортеж'\nОбнаружен циклический архитектурный антипаттерн взаимосвязи иерархий (a^+ b^+ a^+ b^+) для класса 'Множество'\nОбнаружен циклический архитектурный антипаттерн взаимосвязи иерархий (a^+ b^+ a^+ b^+) для класса 'МножествоПустое'\nОбнаружен циклический архитектурный антипаттерн взаимосвязи иерархий (a^+ b^+ a^+ b^+) для класса 'ОбластьЗначенийФункции'\nОбнаружен циклический архитектурный антипаттерн взаимосвязи иерархий (a^+ b^+ a^+ b^+) для класса 'ПродолжениеФункции'\nОбнаружен циклический архитектурный антипаттерн взаимосвязи иерархий (a^+ b^+ a^+ b^+) для класса 'Разбиение'\nОбнаружен циклический архитектурный антипаттерн взаимосвязи иерархий (a^+ b^+ a^+ b^+) для класса 'СемействоМножеств'\nОбнаружен циклический архитектурный антипаттерн взаимосвязи иерархий (a^+ b^+ a^+ b^+) для класса 'СужениеФункции'\nОбнаружен циклический архитектурный антипаттерн взаимосвязи иерархий (a^+ b^+ a^+ b^+) для класса 'ФункцияТотальная'\nОбнаружен циклический архитектурный антипаттерн взаимосвязи иерархий (a^+ b^+ a^+ b^+) для класса 'ЧислоВещественное'\nОбнаружен циклический архитектурный антипаттерн взаимосвязи иерархий (a^+ b^+ a^+ b^+) для класса 'ЧислоНатуральное'\nОбнаружен циклический архитектурный антипаттерн взаимосвязи иерархий (a^+ b^+ a^+ b^+) для класса 'ЧислоПростое'",
+      "paragraph_reviews": [
+        {
+          "paragraph_id": "1.1",
+          "paragraph_title": "1.1. Множества",
+          "folder": "1.1_множества",
+          "relations_reviewed": 100,
+          "corrected_relations": 87,
+          "category_counts": {
+            "found_on_diagram_correct": 4,
+            "found_on_diagram_wrong_direction": 3,
+            "found_on_diagram_wrong_type": 5,
+            "found_on_diagram_wrong_direction_and_type": 2,
+            "found_not_on_diagram_accepted": 78,
+            "found_not_on_diagram_rejected": 1,
+            "not_found_from_diagram": 7
+          },
+          "rendered": false,
+          "render_error": "Обнаружен циклический архитектурный антипаттерн взаимосвязи иерархий (a^+ b^+ a^+ b^+) для класса 'Алфавит'\nОбнаружен циклический архитектурный антипаттерн взаимосвязи иерархий (a^+ b^+ a^+ b^+) для класса 'Буква'\nОбнаружен циклический архитектурный антипаттерн взаимосвязи иерархий (a^+ b^+ a^+ b^+) для класса 'Множество'\nОбнаружен циклический архитектурный антипаттерн взаимосвязи иерархий (a^+ b^+ a^+ b^+) для класса 'МножествоПустое'\nОбнаружен циклический архитектурный антипаттерн взаимосвязи иерархий (a^+ b^+ a^+ b^+) для класса 'СемействоМножеств'\nОбнаружен циклический архитектурный антипаттерн взаимосвязи иерархий (a^+ b^+ a^+ b^+) для класса 'ЧислоВещественное'\nОбнаружен циклический архитектурный антипаттерн взаимосвязи иерархий (a^+ b^+ a^+ b^+) для класса 'ЧислоНатуральное'\nОбнаружен циклический архитектурный антипаттерн взаимосвязи иерархий (a^+ b^+ a^+ b^+) для класса 'ЧислоПростое'"
+        },
+        {
+          "paragraph_id": "1.2",
+          "paragraph_title": "1.2. Алгебра подмножеств",
+          "folder": "1.2_алгебра_подмножеств",
+          "relations_reviewed": 52,
+          "corrected_relations": 47,
+          "category_counts": {
+            "found_on_diagram_correct": 1,
+            "found_on_diagram_wrong_direction": 0,
+            "found_on_diagram_wrong_type": 1,
+            "found_on_diagram_wrong_direction_and_type": 0,
+            "found_not_on_diagram_accepted": 45,
+            "found_not_on_diagram_rejected": 0,
+            "not_found_from_diagram": 5
+          },
+          "rendered": false,
+          "render_error": "Обнаружен циклический архитектурный антипаттерн взаимосвязи иерархий (a^+ b^+ a^+ b^+) для класса 'Алгебра'\nОбнаружен циклический архитектурный антипаттерн взаимосвязи иерархий (a^+ b^+ a^+ b^+) для класса 'Разбиение'"
+        },
+        {
+          "paragraph_id": "1.3",
+          "paragraph_title": "1.3. Представление множеств в программах",
+          "folder": "1.3_представление_множеств_в_программах",
+          "relations_reviewed": 91,
+          "corrected_relations": 86,
+          "category_counts": {
+            "found_on_diagram_correct": 0,
+            "found_on_diagram_wrong_direction": 0,
+            "found_on_diagram_wrong_type": 1,
+            "found_on_diagram_wrong_direction_and_type": 0,
+            "found_not_on_diagram_accepted": 85,
+            "found_not_on_diagram_rejected": 1,
+            "not_found_from_diagram": 4
+          },
+          "rendered": true,
+          "render_error": null
+        },
+        {
+          "paragraph_id": "1.4",
+          "paragraph_title": "1.4. Отношения",
+          "folder": "1.4_отношения",
+          "relations_reviewed": 97,
+          "corrected_relations": 83,
+          "category_counts": {
+            "found_on_diagram_correct": 1,
+            "found_on_diagram_wrong_direction": 0,
+            "found_on_diagram_wrong_type": 1,
+            "found_on_diagram_wrong_direction_and_type": 0,
+            "found_not_on_diagram_accepted": 81,
+            "found_not_on_diagram_rejected": 0,
+            "not_found_from_diagram": 14
+          },
+          "rendered": false,
+          "render_error": "Обнаружен циклический архитектурный антипаттерн взаимосвязи иерархий (a^+ b^+ a^+ b^+) для класса 'Кортеж'"
+        },
+        {
+          "paragraph_id": "1.5",
+          "paragraph_title": "1.5. Замыкание и сокращение отношений",
+          "folder": "1.5_замыкание_и_сокращение_отношений",
+          "relations_reviewed": 11,
+          "corrected_relations": 5,
+          "category_counts": {
+            "found_on_diagram_correct": 0,
+            "found_on_diagram_wrong_direction": 0,
+            "found_on_diagram_wrong_type": 0,
+            "found_on_diagram_wrong_direction_and_type": 0,
+            "found_not_on_diagram_accepted": 5,
+            "found_not_on_diagram_rejected": 0,
+            "not_found_from_diagram": 6
+          },
+          "rendered": true,
+          "render_error": null
+        },
+        {
+          "paragraph_id": "1.6",
+          "paragraph_title": "1.6. Функции",
+          "folder": "1.6_функции",
+          "relations_reviewed": 87,
+          "corrected_relations": 76,
+          "category_counts": {
+            "found_on_diagram_correct": 0,
+            "found_on_diagram_wrong_direction": 0,
+            "found_on_diagram_wrong_type": 1,
+            "found_on_diagram_wrong_direction_and_type": 1,
+            "found_not_on_diagram_accepted": 74,
+            "found_not_on_diagram_rejected": 1,
+            "not_found_from_diagram": 10
+          },
+          "rendered": false,
+          "render_error": "Обнаружен циклический архитектурный антипаттерн взаимосвязи иерархий (a^+ b^+ a^+ b^+) для класса 'ОбластьЗначенийФункции'\nОбнаружен циклический архитектурный антипаттерн взаимосвязи иерархий (a^+ b^+ a^+ b^+) для класса 'ПродолжениеФункции'\nОбнаружен циклический архитектурный антипаттерн взаимосвязи иерархий (a^+ b^+ a^+ b^+) для класса 'СужениеФункции'\nОбнаружен циклический архитектурный антипаттерн взаимосвязи иерархий (a^+ b^+ a^+ b^+) для класса 'ФункцияТотальная'"
+        },
+        {
+          "paragraph_id": "1.7",
+          "paragraph_title": "1.7. Отношения эквивалентности",
+          "folder": "1.7_отношения_эквивалентности",
+          "relations_reviewed": 30,
+          "corrected_relations": 11,
+          "category_counts": {
+            "found_on_diagram_correct": 1,
+            "found_on_diagram_wrong_direction": 0,
+            "found_on_diagram_wrong_type": 0,
+            "found_on_diagram_wrong_direction_and_type": 0,
+            "found_not_on_diagram_accepted": 10,
+            "found_not_on_diagram_rejected": 10,
+            "not_found_from_diagram": 9
+          },
+          "rendered": true,
+          "render_error": null
+        },
+        {
+          "paragraph_id": "1.8",
+          "paragraph_title": "1.8. Отношения порядка",
+          "folder": "1.8_отношения_порядка",
+          "relations_reviewed": 58,
+          "corrected_relations": 41,
+          "category_counts": {
+            "found_on_diagram_correct": 0,
+            "found_on_diagram_wrong_direction": 2,
+            "found_on_diagram_wrong_type": 0,
+            "found_on_diagram_wrong_direction_and_type": 0,
+            "found_not_on_diagram_accepted": 39,
+            "found_not_on_diagram_rejected": 2,
+            "not_found_from_diagram": 15
+          },
+          "rendered": true,
+          "render_error": null
+        },
+        {
+          "paragraph_id": "1.9",
+          "paragraph_title": "1.9. Характеристические функции",
+          "folder": "1.9_характеристические_функции",
+          "relations_reviewed": 57,
+          "corrected_relations": 51,
+          "category_counts": {
+            "found_on_diagram_correct": 1,
+            "found_on_diagram_wrong_direction": 3,
+            "found_on_diagram_wrong_type": 0,
+            "found_on_diagram_wrong_direction_and_type": 1,
+            "found_not_on_diagram_accepted": 46,
+            "found_not_on_diagram_rejected": 0,
+            "not_found_from_diagram": 6
+          },
+          "rendered": true,
+          "render_error": null
+        }
+      ]
+    },
+    {
+      "chapter": "2",
+      "paragraphs": [
+        "2.1",
+        "2.2",
+        "2.3",
+        "2.4",
+        "2.6",
+        "2.7"
+      ],
+      "ground_truth_source": "src/digr/ontology-pipeline/data/dm_reference_ontologies/chapter_02",
+      "ignored_concepts": [
+        "bool",
+        "Объект",
+        "Парадокс",
+        "Парадокс Рассела",
+        "Структура",
+        "Указатель",
+        "Элементами семейства являются множества"
+      ],
+      "chapter_concepts": 165,
+      "raw_unique_relations": 134,
+      "textbook_relations_in_chapter_scope": 71,
+      "textbook_unique_relation_pairs_in_chapter_scope": 71,
+      "category_counts": {
+        "found_on_diagram_correct": 6,
+        "found_on_diagram_wrong_direction": 0,
+        "found_on_diagram_wrong_type": 2,
+        "found_on_diagram_wrong_direction_and_type": 0,
+        "found_not_on_diagram_accepted": 126,
+        "found_not_on_diagram_rejected": 0,
+        "not_found_from_diagram": 63
+      },
+      "corrected_relations": 134,
+      "rendered": true,
+      "render_error": null,
+      "paragraph_reviews": [
+        {
+          "paragraph_id": "2.1",
+          "paragraph_title": "2.1. Алгебры и морфизмы",
+          "folder": "2.1_алгебры_и_морфизмы",
+          "relations_reviewed": 63,
+          "corrected_relations": 46,
+          "category_counts": {
+            "found_on_diagram_correct": 4,
+            "found_on_diagram_wrong_direction": 0,
+            "found_on_diagram_wrong_type": 1,
+            "found_on_diagram_wrong_direction_and_type": 0,
+            "found_not_on_diagram_accepted": 41,
+            "found_not_on_diagram_rejected": 0,
+            "not_found_from_diagram": 17
+          },
+          "rendered": true,
+          "render_error": null
+        },
+        {
+          "paragraph_id": "2.2",
+          "paragraph_title": "2.2. Алгебры с одной операцией",
+          "folder": "2.2_алгебры_с_одной_операцией",
+          "relations_reviewed": 52,
+          "corrected_relations": 49,
+          "category_counts": {
+            "found_on_diagram_correct": 2,
+            "found_on_diagram_wrong_direction": 0,
+            "found_on_diagram_wrong_type": 0,
+            "found_on_diagram_wrong_direction_and_type": 0,
+            "found_not_on_diagram_accepted": 47,
+            "found_not_on_diagram_rejected": 0,
+            "not_found_from_diagram": 3
+          },
+          "rendered": true,
+          "render_error": null
+        },
+        {
+          "paragraph_id": "2.3",
+          "paragraph_title": "2.3. Алгебры с двумя операциями",
+          "folder": "2.3_алгебры_с_двумя_операциями",
+          "relations_reviewed": 5,
+          "corrected_relations": 2,
+          "category_counts": {
+            "found_on_diagram_correct": 0,
+            "found_on_diagram_wrong_direction": 0,
+            "found_on_diagram_wrong_type": 0,
+            "found_on_diagram_wrong_direction_and_type": 0,
+            "found_not_on_diagram_accepted": 2,
+            "found_not_on_diagram_rejected": 0,
+            "not_found_from_diagram": 3
+          },
+          "rendered": true,
+          "render_error": null
+        },
+        {
+          "paragraph_id": "2.4",
+          "paragraph_title": "2.4. Элементарная теория чисел",
+          "folder": "2.4_элементарная_теория_чисел",
+          "relations_reviewed": 44,
+          "corrected_relations": 29,
+          "category_counts": {
+            "found_on_diagram_correct": 0,
+            "found_on_diagram_wrong_direction": 0,
+            "found_on_diagram_wrong_type": 1,
+            "found_on_diagram_wrong_direction_and_type": 0,
+            "found_not_on_diagram_accepted": 28,
+            "found_not_on_diagram_rejected": 0,
+            "not_found_from_diagram": 15
+          },
+          "rendered": true,
+          "render_error": null
+        },
+        {
+          "paragraph_id": "2.6",
+          "paragraph_title": "2.6. Решётки",
+          "folder": "2.6_решётки",
+          "relations_reviewed": 17,
+          "corrected_relations": 4,
+          "category_counts": {
+            "found_on_diagram_correct": 0,
+            "found_on_diagram_wrong_direction": 0,
+            "found_on_diagram_wrong_type": 0,
+            "found_on_diagram_wrong_direction_and_type": 0,
+            "found_not_on_diagram_accepted": 4,
+            "found_not_on_diagram_rejected": 0,
+            "not_found_from_diagram": 13
+          },
+          "rendered": true,
+          "render_error": null
+        },
+        {
+          "paragraph_id": "2.7",
+          "paragraph_title": "2.7. Матроиды и жадные алгоритмы",
+          "folder": "2.7_матроиды_и_жадные_алгоритмы",
+          "relations_reviewed": 4,
+          "corrected_relations": 4,
+          "category_counts": {
+            "found_on_diagram_correct": 0,
+            "found_on_diagram_wrong_direction": 0,
+            "found_on_diagram_wrong_type": 0,
+            "found_on_diagram_wrong_direction_and_type": 0,
+            "found_not_on_diagram_accepted": 4,
+            "found_not_on_diagram_rejected": 0,
+            "not_found_from_diagram": 0
+          },
+          "rendered": true,
+          "render_error": null
+        }
+      ]
+    },
+    {
+      "chapter": "3",
+      "paragraphs": [
+        "3.2",
+        "3.6"
+      ],
+      "ground_truth_source": "src/digr/ontology-pipeline/data/dm_reference_ontologies/chapter_03",
+      "ignored_concepts": [
+        "bool",
+        "Объект",
+        "Парадокс",
+        "Парадокс Рассела",
+        "Структура",
+        "Указатель",
+        "Элементами семейства являются множества"
+      ],
+      "chapter_concepts": 15,
+      "raw_unique_relations": 18,
+      "textbook_relations_in_chapter_scope": 20,
+      "textbook_unique_relation_pairs_in_chapter_scope": 19,
+      "category_counts": {
+        "found_on_diagram_correct": 0,
+        "found_on_diagram_wrong_direction": 0,
+        "found_on_diagram_wrong_type": 0,
+        "found_on_diagram_wrong_direction_and_type": 0,
+        "found_not_on_diagram_accepted": 18,
+        "found_not_on_diagram_rejected": 0,
+        "not_found_from_diagram": 20
+      },
+      "corrected_relations": 18,
+      "rendered": true,
+      "render_error": null,
+      "paragraph_reviews": [
+        {
+          "paragraph_id": "3.2",
+          "paragraph_title": "3.2. Формулы",
+          "folder": "3.2_формулы",
+          "relations_reviewed": 12,
+          "corrected_relations": 12,
+          "category_counts": {
+            "found_on_diagram_correct": 0,
+            "found_on_diagram_wrong_direction": 0,
+            "found_on_diagram_wrong_type": 0,
+            "found_on_diagram_wrong_direction_and_type": 0,
+            "found_not_on_diagram_accepted": 12,
+            "found_not_on_diagram_rejected": 0,
+            "not_found_from_diagram": 0
+          },
+          "rendered": true,
+          "render_error": null
+        },
+        {
+          "paragraph_id": "3.6",
+          "paragraph_title": "3.6. Полные системы булевых функций",
+          "folder": "3.6_полные_системы_булевых_функций",
+          "relations_reviewed": 6,
+          "corrected_relations": 6,
+          "category_counts": {
+            "found_on_diagram_correct": 0,
+            "found_on_diagram_wrong_direction": 0,
+            "found_on_diagram_wrong_type": 0,
+            "found_on_diagram_wrong_direction_and_type": 0,
+            "found_not_on_diagram_accepted": 6,
+            "found_not_on_diagram_rejected": 0,
+            "not_found_from_diagram": 0
+          },
+          "rendered": true,
+          "render_error": null
+        }
+      ]
+    },
+    {
+      "chapter": "4",
+      "paragraphs": [
+        "4.3",
+        "4.4",
+        "4.5",
+        "4.6"
+      ],
+      "ground_truth_source": "src/digr/ontology-pipeline/data/dm_reference_ontologies/chapter_04",
+      "ignored_concepts": [
+        "bool",
+        "Объект",
+        "Парадокс",
+        "Парадокс Рассела",
+        "Структура",
+        "Указатель",
+        "Элементами семейства являются множества"
+      ],
+      "chapter_concepts": 98,
+      "raw_unique_relations": 165,
+      "textbook_relations_in_chapter_scope": 61,
+      "textbook_unique_relation_pairs_in_chapter_scope": 58,
+      "category_counts": {
+        "found_on_diagram_correct": 3,
+        "found_on_diagram_wrong_direction": 0,
+        "found_on_diagram_wrong_type": 3,
+        "found_on_diagram_wrong_direction_and_type": 0,
+        "found_not_on_diagram_accepted": 159,
+        "found_not_on_diagram_rejected": 0,
+        "not_found_from_diagram": 55
+      },
+      "corrected_relations": 165,
+      "rendered": false,
+      "render_error": "Обнаружен циклический архитектурный антипаттерн взаимосвязи иерархий (a^+ b^+ a^+ b^+) для класса 'Дедуктика'",
+      "paragraph_reviews": [
+        {
+          "paragraph_id": "4.3",
+          "paragraph_title": "4.3. Исчисление высказываний",
+          "folder": "4.3_исчисление_высказываний",
+          "relations_reviewed": 26,
+          "corrected_relations": 26,
+          "category_counts": {
+            "found_on_diagram_correct": 0,
+            "found_on_diagram_wrong_direction": 0,
+            "found_on_diagram_wrong_type": 0,
+            "found_on_diagram_wrong_direction_and_type": 0,
+            "found_not_on_diagram_accepted": 26,
+            "found_not_on_diagram_rejected": 0,
+            "not_found_from_diagram": 0
+          },
+          "rendered": true,
+          "render_error": null
+        },
+        {
+          "paragraph_id": "4.4",
+          "paragraph_title": "4.4. Исчисление предикатов",
+          "folder": "4.4_исчисление_предикатов",
+          "relations_reviewed": 69,
+          "corrected_relations": 69,
+          "category_counts": {
+            "found_on_diagram_correct": 0,
+            "found_on_diagram_wrong_direction": 0,
+            "found_on_diagram_wrong_type": 0,
+            "found_on_diagram_wrong_direction_and_type": 0,
+            "found_not_on_diagram_accepted": 69,
+            "found_not_on_diagram_rejected": 0,
+            "not_found_from_diagram": 0
+          },
+          "rendered": true,
+          "render_error": null
+        },
+        {
+          "paragraph_id": "4.5",
+          "paragraph_title": "4.5. Наивная теория алгоритмов",
+          "folder": "4.5_наивная_теория_алгоритмов",
+          "relations_reviewed": 85,
+          "corrected_relations": 71,
+          "category_counts": {
+            "found_on_diagram_correct": 3,
+            "found_on_diagram_wrong_direction": 0,
+            "found_on_diagram_wrong_type": 3,
+            "found_on_diagram_wrong_direction_and_type": 0,
+            "found_not_on_diagram_accepted": 65,
+            "found_not_on_diagram_rejected": 0,
+            "not_found_from_diagram": 14
+          },
+          "rendered": false,
+          "render_error": "Обнаружен циклический архитектурный антипаттерн взаимосвязи иерархий (a^+ b^+ a^+ b^+) для класса 'Дедуктика'"
+        },
+        {
+          "paragraph_id": "4.6",
+          "paragraph_title": "4.6. Автоматическое доказательство теорем",
+          "folder": "4.6_автоматическое_доказательство_теорем",
+          "relations_reviewed": 0,
+          "corrected_relations": 0,
+          "category_counts": {
+            "found_on_diagram_correct": 0,
+            "found_on_diagram_wrong_direction": 0,
+            "found_on_diagram_wrong_type": 0,
+            "found_on_diagram_wrong_direction_and_type": 0,
+            "found_not_on_diagram_accepted": 0,
+            "found_not_on_diagram_rejected": 0,
+            "not_found_from_diagram": 0
+          },
+          "rendered": true,
+          "render_error": null
+        }
+      ]
+    },
+    {
+      "chapter": "5",
+      "paragraphs": [
+        "5.1",
+        "5.2",
+        "5.3",
+        "5.4",
+        "5.5",
+        "5.7"
+      ],
+      "ground_truth_source": "src/digr/ontology-pipeline/data/dm_reference_ontologies/chapter_05",
+      "ignored_concepts": [
+        "bool",
+        "Объект",
+        "Парадокс",
+        "Парадокс Рассела",
+        "Структура",
+        "Указатель",
+        "Элементами семейства являются множества"
+      ],
+      "chapter_concepts": 93,
+      "raw_unique_relations": 43,
+      "textbook_relations_in_chapter_scope": 48,
+      "textbook_unique_relation_pairs_in_chapter_scope": 47,
+      "category_counts": {
+        "found_on_diagram_correct": 2,
+        "found_on_diagram_wrong_direction": 0,
+        "found_on_diagram_wrong_type": 3,
+        "found_on_diagram_wrong_direction_and_type": 0,
+        "found_not_on_diagram_accepted": 38,
+        "found_not_on_diagram_rejected": 0,
+        "not_found_from_diagram": 43
+      },
+      "corrected_relations": 43,
+      "rendered": true,
+      "render_error": null,
+      "paragraph_reviews": [
+        {
+          "paragraph_id": "5.1",
+          "paragraph_title": "5.1. Комбинаторные задачи",
+          "folder": "5.1_комбинаторные_задачи",
+          "relations_reviewed": 24,
+          "corrected_relations": 14,
+          "category_counts": {
+            "found_on_diagram_correct": 0,
+            "found_on_diagram_wrong_direction": 0,
+            "found_on_diagram_wrong_type": 0,
+            "found_on_diagram_wrong_direction_and_type": 0,
+            "found_not_on_diagram_accepted": 14,
+            "found_not_on_diagram_rejected": 0,
+            "not_found_from_diagram": 10
+          },
+          "rendered": true,
+          "render_error": null
+        },
+        {
+          "paragraph_id": "5.2",
+          "paragraph_title": "5.2. Перестановки",
+          "folder": "5.2_перестановки",
+          "relations_reviewed": 31,
+          "corrected_relations": 23,
+          "category_counts": {
+            "found_on_diagram_correct": 1,
+            "found_on_diagram_wrong_direction": 0,
+            "found_on_diagram_wrong_type": 2,
+            "found_on_diagram_wrong_direction_and_type": 0,
+            "found_not_on_diagram_accepted": 20,
+            "found_not_on_diagram_rejected": 0,
+            "not_found_from_diagram": 8
+          },
+          "rendered": true,
+          "render_error": null
+        },
+        {
+          "paragraph_id": "5.3",
+          "paragraph_title": "5.3. Биномиальные коэффициенты",
+          "folder": "5.3_биномиальные_коэффициенты",
+          "relations_reviewed": 9,
+          "corrected_relations": 2,
+          "category_counts": {
+            "found_on_diagram_correct": 0,
+            "found_on_diagram_wrong_direction": 0,
+            "found_on_diagram_wrong_type": 1,
+            "found_on_diagram_wrong_direction_and_type": 0,
+            "found_not_on_diagram_accepted": 1,
+            "found_not_on_diagram_rejected": 0,
+            "not_found_from_diagram": 7
+          },
+          "rendered": true,
+          "render_error": null
+        },
+        {
+          "paragraph_id": "5.4",
+          "paragraph_title": "5.4. Разбиения",
+          "folder": "5.4_разбиения",
+          "relations_reviewed": 10,
+          "corrected_relations": 3,
+          "category_counts": {
+            "found_on_diagram_correct": 1,
+            "found_on_diagram_wrong_direction": 0,
+            "found_on_diagram_wrong_type": 0,
+            "found_on_diagram_wrong_direction_and_type": 0,
+            "found_not_on_diagram_accepted": 2,
+            "found_not_on_diagram_rejected": 0,
+            "not_found_from_diagram": 7
+          },
+          "rendered": true,
+          "render_error": null
+        },
+        {
+          "paragraph_id": "5.5",
+          "paragraph_title": "5.5. Включения и исключения",
+          "folder": "5.5_включения_и_исключения",
+          "relations_reviewed": 1,
+          "corrected_relations": 1,
+          "category_counts": {
+            "found_on_diagram_correct": 0,
+            "found_on_diagram_wrong_direction": 0,
+            "found_on_diagram_wrong_type": 0,
+            "found_on_diagram_wrong_direction_and_type": 0,
+            "found_not_on_diagram_accepted": 1,
+            "found_not_on_diagram_rejected": 0,
+            "not_found_from_diagram": 0
+          },
+          "rendered": true,
+          "render_error": null
+        },
+        {
+          "paragraph_id": "5.7",
+          "paragraph_title": "5.7. Производящие функции",
+          "folder": "5.7_производящие_функции",
+          "relations_reviewed": 0,
+          "corrected_relations": 0,
+          "category_counts": {
+            "found_on_diagram_correct": 0,
+            "found_on_diagram_wrong_direction": 0,
+            "found_on_diagram_wrong_type": 0,
+            "found_on_diagram_wrong_direction_and_type": 0,
+            "found_not_on_diagram_accepted": 0,
+            "found_not_on_diagram_rejected": 0,
+            "not_found_from_diagram": 0
+          },
+          "rendered": true,
+          "render_error": null
+        }
+      ]
+    },
+    {
+      "chapter": "6",
+      "paragraphs": [
+        "6.1",
+        "6.2",
+        "6.3",
+        "6.4",
+        "6.5"
+      ],
+      "ground_truth_source": "src/digr/ontology-pipeline/data/dm_reference_ontologies/chapter_06",
+      "ignored_concepts": [
+        "bool",
+        "Объект",
+        "Парадокс",
+        "Парадокс Рассела",
+        "Структура",
+        "Указатель",
+        "Элементами семейства являются множества"
+      ],
+      "chapter_concepts": 134,
+      "raw_unique_relations": 150,
+      "textbook_relations_in_chapter_scope": 0,
+      "textbook_unique_relation_pairs_in_chapter_scope": 0,
+      "category_counts": {
+        "found_on_diagram_correct": 0,
+        "found_on_diagram_wrong_direction": 0,
+        "found_on_diagram_wrong_type": 0,
+        "found_on_diagram_wrong_direction_and_type": 0,
+        "found_not_on_diagram_accepted": 147,
+        "found_not_on_diagram_rejected": 3,
+        "not_found_from_diagram": 0
+      },
+      "corrected_relations": 147,
+      "rendered": true,
+      "render_error": null,
+      "paragraph_reviews": [
+        {
+          "paragraph_id": "6.1",
+          "paragraph_title": "6.1 Информация и энтропия",
+          "folder": "6.1_информация_и_энтропия",
+          "relations_reviewed": 26,
+          "corrected_relations": 26,
+          "category_counts": {
+            "found_on_diagram_correct": 0,
+            "found_on_diagram_wrong_direction": 0,
+            "found_on_diagram_wrong_type": 0,
+            "found_on_diagram_wrong_direction_and_type": 0,
+            "found_not_on_diagram_accepted": 26,
+            "found_not_on_diagram_rejected": 0,
+            "not_found_from_diagram": 0
+          },
+          "rendered": true,
+          "render_error": null
+        },
+        {
+          "paragraph_id": "6.2",
+          "paragraph_title": "6.2. Алфавитное кодирование",
+          "folder": "6.2_алфавитное_кодирование",
+          "relations_reviewed": 15,
+          "corrected_relations": 15,
+          "category_counts": {
+            "found_on_diagram_correct": 0,
+            "found_on_diagram_wrong_direction": 0,
+            "found_on_diagram_wrong_type": 0,
+            "found_on_diagram_wrong_direction_and_type": 0,
+            "found_not_on_diagram_accepted": 15,
+            "found_not_on_diagram_rejected": 0,
+            "not_found_from_diagram": 0
+          },
+          "rendered": true,
+          "render_error": null
+        },
+        {
+          "paragraph_id": "6.3",
+          "paragraph_title": "6.3. Кодирование с минимальной избыточностью",
+          "folder": "6.3_кодирование_с_минимальной_избыточностью",
+          "relations_reviewed": 4,
+          "corrected_relations": 4,
+          "category_counts": {
+            "found_on_diagram_correct": 0,
+            "found_on_diagram_wrong_direction": 0,
+            "found_on_diagram_wrong_type": 0,
+            "found_on_diagram_wrong_direction_and_type": 0,
+            "found_not_on_diagram_accepted": 4,
+            "found_not_on_diagram_rejected": 0,
+            "not_found_from_diagram": 0
+          },
+          "rendered": true,
+          "render_error": null
+        },
+        {
+          "paragraph_id": "6.4",
+          "paragraph_title": "6.4. Помехоустойчивое кодирование",
+          "folder": "6.4_помехоустойчивое_кодирование",
+          "relations_reviewed": 37,
+          "corrected_relations": 34,
+          "category_counts": {
+            "found_on_diagram_correct": 0,
+            "found_on_diagram_wrong_direction": 0,
+            "found_on_diagram_wrong_type": 0,
+            "found_on_diagram_wrong_direction_and_type": 0,
+            "found_not_on_diagram_accepted": 34,
+            "found_not_on_diagram_rejected": 3,
+            "not_found_from_diagram": 0
+          },
+          "rendered": true,
+          "render_error": null
+        },
+        {
+          "paragraph_id": "6.5",
+          "paragraph_title": "6.5. Сжатие и шифрование данных",
+          "folder": "6.5_сжатие_и_шифрование_данных",
+          "relations_reviewed": 69,
+          "corrected_relations": 69,
+          "category_counts": {
+            "found_on_diagram_correct": 0,
+            "found_on_diagram_wrong_direction": 0,
+            "found_on_diagram_wrong_type": 0,
+            "found_on_diagram_wrong_direction_and_type": 0,
+            "found_not_on_diagram_accepted": 69,
+            "found_not_on_diagram_rejected": 0,
+            "not_found_from_diagram": 0
+          },
+          "rendered": true,
+          "render_error": null
+        }
+      ]
+    },
+    {
+      "chapter": "7",
+      "paragraphs": [
+        "7.1",
+        "7.2",
+        "7.3",
+        "7.4",
+        "7.5"
+      ],
+      "ground_truth_source": "src/digr/ontology-pipeline/data/dm_reference_ontologies/chapter_07",
+      "ignored_concepts": [
+        "bool",
+        "Объект",
+        "Парадокс",
+        "Парадокс Рассела",
+        "Структура",
+        "Указатель",
+        "Элементами семейства являются множества"
+      ],
+      "chapter_concepts": 135,
+      "raw_unique_relations": 168,
+      "textbook_relations_in_chapter_scope": 73,
+      "textbook_unique_relation_pairs_in_chapter_scope": 69,
+      "category_counts": {
+        "found_on_diagram_correct": 0,
+        "found_on_diagram_wrong_direction": 4,
+        "found_on_diagram_wrong_type": 2,
+        "found_on_diagram_wrong_direction_and_type": 0,
+        "found_not_on_diagram_accepted": 161,
+        "found_not_on_diagram_rejected": 1,
+        "not_found_from_diagram": 67
+      },
+      "corrected_relations": 167,
+      "rendered": false,
+      "render_error": "Обнаружен циклический архитектурный антипаттерн взаимосвязи иерархий (a^+ b^+ a^+ b^+) для класса 'Дуга'",
+      "paragraph_reviews": [
+        {
+          "paragraph_id": "7.1",
+          "paragraph_title": "7.1. Определения графов",
+          "folder": "7.1_определения_графов",
+          "relations_reviewed": 83,
+          "corrected_relations": 63,
+          "category_counts": {
+            "found_on_diagram_correct": 0,
+            "found_on_diagram_wrong_direction": 0,
+            "found_on_diagram_wrong_type": 2,
+            "found_on_diagram_wrong_direction_and_type": 0,
+            "found_not_on_diagram_accepted": 61,
+            "found_not_on_diagram_rejected": 0,
+            "not_found_from_diagram": 20
+          },
+          "rendered": false,
+          "render_error": "Обнаружен циклический архитектурный антипаттерн взаимосвязи иерархий (a^+ b^+ a^+ b^+) для класса 'Дуга'"
+        },
+        {
+          "paragraph_id": "7.2",
+          "paragraph_title": "7.2. Элементы графов",
+          "folder": "7.2_элементы_графов",
+          "relations_reviewed": 75,
+          "corrected_relations": 57,
+          "category_counts": {
+            "found_on_diagram_correct": 0,
+            "found_on_diagram_wrong_direction": 4,
+            "found_on_diagram_wrong_type": 0,
+            "found_on_diagram_wrong_direction_and_type": 0,
+            "found_not_on_diagram_accepted": 53,
+            "found_not_on_diagram_rejected": 1,
+            "not_found_from_diagram": 17
+          },
+          "rendered": true,
+          "render_error": null
+        },
+        {
+          "paragraph_id": "7.3",
+          "paragraph_title": "7.3. Виды графов и операции над графами",
+          "folder": "7.3_виды_графов_и_операции_над_графами",
+          "relations_reviewed": 58,
+          "corrected_relations": 37,
+          "category_counts": {
+            "found_on_diagram_correct": 0,
+            "found_on_diagram_wrong_direction": 0,
+            "found_on_diagram_wrong_type": 0,
+            "found_on_diagram_wrong_direction_and_type": 0,
+            "found_not_on_diagram_accepted": 37,
+            "found_not_on_diagram_rejected": 0,
+            "not_found_from_diagram": 21
+          },
+          "rendered": true,
+          "render_error": null
+        },
+        {
+          "paragraph_id": "7.4",
+          "paragraph_title": "7.4. Представление графов в программах",
+          "folder": "7.4_представление_графов_в_программах",
+          "relations_reviewed": 16,
+          "corrected_relations": 7,
+          "category_counts": {
+            "found_on_diagram_correct": 0,
+            "found_on_diagram_wrong_direction": 0,
+            "found_on_diagram_wrong_type": 0,
+            "found_on_diagram_wrong_direction_and_type": 0,
+            "found_not_on_diagram_accepted": 7,
+            "found_not_on_diagram_rejected": 0,
+            "not_found_from_diagram": 9
+          },
+          "rendered": true,
+          "render_error": null
+        },
+        {
+          "paragraph_id": "7.5",
+          "paragraph_title": "7.5. Графы и отношения",
+          "folder": "7.5_графы_и_отношения",
+          "relations_reviewed": 3,
+          "corrected_relations": 3,
+          "category_counts": {
+            "found_on_diagram_correct": 0,
+            "found_on_diagram_wrong_direction": 0,
+            "found_on_diagram_wrong_type": 0,
+            "found_on_diagram_wrong_direction_and_type": 0,
+            "found_not_on_diagram_accepted": 3,
+            "found_not_on_diagram_rejected": 0,
+            "not_found_from_diagram": 0
+          },
+          "rendered": true,
+          "render_error": null
+        }
+      ]
+    },
+    {
+      "chapter": "8",
+      "paragraphs": [
+        "8.1",
+        "8.2",
+        "8.3",
+        "8.4",
+        "8.5",
+        "8.6"
+      ],
+      "ground_truth_source": "src/digr/ontology-pipeline/data/dm_reference_ontologies/chapter_08",
+      "ignored_concepts": [
+        "bool",
+        "Объект",
+        "Парадокс",
+        "Парадокс Рассела",
+        "Структура",
+        "Указатель",
+        "Элементами семейства являются множества"
+      ],
+      "chapter_concepts": 62,
+      "raw_unique_relations": 51,
+      "textbook_relations_in_chapter_scope": 58,
+      "textbook_unique_relation_pairs_in_chapter_scope": 50,
+      "category_counts": {
+        "found_on_diagram_correct": 0,
+        "found_on_diagram_wrong_direction": 0,
+        "found_on_diagram_wrong_type": 1,
+        "found_on_diagram_wrong_direction_and_type": 0,
+        "found_not_on_diagram_accepted": 50,
+        "found_not_on_diagram_rejected": 0,
+        "not_found_from_diagram": 57
+      },
+      "corrected_relations": 51,
+      "rendered": false,
+      "render_error": "Обнаружен циклический архитектурный антипаттерн взаимосвязи иерархий (a^+ b^+ a^+ b^+) для класса 'ГрафГерца'\nОбнаружен циклический архитектурный антипаттерн взаимосвязи иерархий (a^+ b^+ a^+ b^+) для класса 'КонденсацияОрграфа'",
+      "paragraph_reviews": [
+        {
+          "paragraph_id": "8.1",
+          "paragraph_title": "8.1. Компоненты связности",
+          "folder": "8.1_компоненты_связности",
+          "relations_reviewed": 19,
+          "corrected_relations": 7,
+          "category_counts": {
+            "found_on_diagram_correct": 0,
+            "found_on_diagram_wrong_direction": 0,
+            "found_on_diagram_wrong_type": 0,
+            "found_on_diagram_wrong_direction_and_type": 0,
+            "found_not_on_diagram_accepted": 7,
+            "found_not_on_diagram_rejected": 0,
+            "not_found_from_diagram": 12
+          },
+          "rendered": true,
+          "render_error": null
+        },
+        {
+          "paragraph_id": "8.2",
+          "paragraph_title": "8.2. Теорема Менгера",
+          "folder": "8.2_теорема_менгера",
+          "relations_reviewed": 11,
+          "corrected_relations": 1,
+          "category_counts": {
+            "found_on_diagram_correct": 0,
+            "found_on_diagram_wrong_direction": 0,
+            "found_on_diagram_wrong_type": 0,
+            "found_on_diagram_wrong_direction_and_type": 0,
+            "found_not_on_diagram_accepted": 1,
+            "found_not_on_diagram_rejected": 0,
+            "not_found_from_diagram": 10
+          },
+          "rendered": true,
+          "render_error": null
+        },
+        {
+          "paragraph_id": "8.3",
+          "paragraph_title": "8.3. Паросочетания",
+          "folder": "8.3_паросочетания",
+          "relations_reviewed": 19,
+          "corrected_relations": 10,
+          "category_counts": {
+            "found_on_diagram_correct": 0,
+            "found_on_diagram_wrong_direction": 0,
+            "found_on_diagram_wrong_type": 0,
+            "found_on_diagram_wrong_direction_and_type": 0,
+            "found_not_on_diagram_accepted": 10,
+            "found_not_on_diagram_rejected": 0,
+            "not_found_from_diagram": 9
+          },
+          "rendered": true,
+          "render_error": null
+        },
+        {
+          "paragraph_id": "8.4",
+          "paragraph_title": "8.4. Потоки в сетях",
+          "folder": "8.4_потоки_в_сетях",
+          "relations_reviewed": 1,
+          "corrected_relations": 1,
+          "category_counts": {
+            "found_on_diagram_correct": 0,
+            "found_on_diagram_wrong_direction": 0,
+            "found_on_diagram_wrong_type": 0,
+            "found_on_diagram_wrong_direction_and_type": 0,
+            "found_not_on_diagram_accepted": 1,
+            "found_not_on_diagram_rejected": 0,
+            "not_found_from_diagram": 0
+          },
+          "rendered": true,
+          "render_error": null
+        },
+        {
+          "paragraph_id": "8.5",
+          "paragraph_title": "8.5. Связность в орграфах",
+          "folder": "8.5_связность_в_орграфах",
+          "relations_reviewed": 33,
+          "corrected_relations": 22,
+          "category_counts": {
+            "found_on_diagram_correct": 0,
+            "found_on_diagram_wrong_direction": 0,
+            "found_on_diagram_wrong_type": 1,
+            "found_on_diagram_wrong_direction_and_type": 0,
+            "found_not_on_diagram_accepted": 21,
+            "found_not_on_diagram_rejected": 0,
+            "not_found_from_diagram": 11
+          },
+          "rendered": false,
+          "render_error": "Обнаружен циклический архитектурный антипаттерн взаимосвязи иерархий (a^+ b^+ a^+ b^+) для класса 'ГрафГерца'\nОбнаружен циклический архитектурный антипаттерн взаимосвязи иерархий (a^+ b^+ a^+ b^+) для класса 'КонденсацияОрграфа'"
+        },
+        {
+          "paragraph_id": "8.6",
+          "paragraph_title": "8.6. Кратчайшие пути",
+          "folder": "8.6_кратчайшие_пути",
+          "relations_reviewed": 25,
+          "corrected_relations": 10,
+          "category_counts": {
+            "found_on_diagram_correct": 0,
+            "found_on_diagram_wrong_direction": 0,
+            "found_on_diagram_wrong_type": 0,
+            "found_on_diagram_wrong_direction_and_type": 0,
+            "found_not_on_diagram_accepted": 10,
+            "found_not_on_diagram_rejected": 0,
+            "not_found_from_diagram": 15
+          },
+          "rendered": true,
+          "render_error": null
+        }
+      ]
+    },
+    {
+      "chapter": "9",
+      "paragraphs": [
+        "9.1",
+        "9.2",
+        "9.3",
+        "9.4",
+        "9.5",
+        "9.6"
+      ],
+      "ground_truth_source": "src/digr/ontology-pipeline/data/dm_reference_ontologies/chapter_09",
+      "ignored_concepts": [
+        "bool",
+        "Объект",
+        "Парадокс",
+        "Парадокс Рассела",
+        "Структура",
+        "Указатель",
+        "Элементами семейства являются множества"
+      ],
+      "chapter_concepts": 90,
+      "raw_unique_relations": 131,
+      "textbook_relations_in_chapter_scope": 19,
+      "textbook_unique_relation_pairs_in_chapter_scope": 19,
+      "category_counts": {
+        "found_on_diagram_correct": 0,
+        "found_on_diagram_wrong_direction": 3,
+        "found_on_diagram_wrong_type": 1,
+        "found_on_diagram_wrong_direction_and_type": 0,
+        "found_not_on_diagram_accepted": 118,
+        "found_not_on_diagram_rejected": 9,
+        "not_found_from_diagram": 15
+      },
+      "corrected_relations": 122,
+      "rendered": true,
+      "render_error": null,
+      "paragraph_reviews": [
+        {
+          "paragraph_id": "9.1",
+          "paragraph_title": "9.1. Свободные деревья",
+          "folder": "9.1_свободные_деревья",
+          "relations_reviewed": 7,
+          "corrected_relations": 7,
+          "category_counts": {
+            "found_on_diagram_correct": 0,
+            "found_on_diagram_wrong_direction": 0,
+            "found_on_diagram_wrong_type": 1,
+            "found_on_diagram_wrong_direction_and_type": 0,
+            "found_not_on_diagram_accepted": 6,
+            "found_not_on_diagram_rejected": 0,
+            "not_found_from_diagram": 0
+          },
+          "rendered": true,
+          "render_error": null
+        },
+        {
+          "paragraph_id": "9.2",
+          "paragraph_title": "9.2. Ориентированные, упорядоченные и~бинарные деревья",
+          "folder": "9.2_ориентированные_упорядоченные_и_бинарные_деревья",
+          "relations_reviewed": 60,
+          "corrected_relations": 60,
+          "category_counts": {
+            "found_on_diagram_correct": 0,
+            "found_on_diagram_wrong_direction": 0,
+            "found_on_diagram_wrong_type": 0,
+            "found_on_diagram_wrong_direction_and_type": 0,
+            "found_not_on_diagram_accepted": 60,
+            "found_not_on_diagram_rejected": 0,
+            "not_found_from_diagram": 0
+          },
+          "rendered": true,
+          "render_error": null
+        },
+        {
+          "paragraph_id": "9.3",
+          "paragraph_title": "9.3. Представление деревьев в программах",
+          "folder": "9.3_представление_деревьев_в_программах",
+          "relations_reviewed": 37,
+          "corrected_relations": 20,
+          "category_counts": {
+            "found_on_diagram_correct": 0,
+            "found_on_diagram_wrong_direction": 3,
+            "found_on_diagram_wrong_type": 0,
+            "found_on_diagram_wrong_direction_and_type": 0,
+            "found_not_on_diagram_accepted": 17,
+            "found_not_on_diagram_rejected": 9,
+            "not_found_from_diagram": 8
+          },
+          "rendered": true,
+          "render_error": null
+        },
+        {
+          "paragraph_id": "9.4",
+          "paragraph_title": "9.4. Деревья сортировки",
+          "folder": "9.4_деревья_сортировки",
+          "relations_reviewed": 24,
+          "corrected_relations": 24,
+          "category_counts": {
+            "found_on_diagram_correct": 0,
+            "found_on_diagram_wrong_direction": 0,
+            "found_on_diagram_wrong_type": 0,
+            "found_on_diagram_wrong_direction_and_type": 0,
+            "found_not_on_diagram_accepted": 24,
+            "found_not_on_diagram_rejected": 0,
+            "not_found_from_diagram": 0
+          },
+          "rendered": true,
+          "render_error": null
+        },
+        {
+          "paragraph_id": "9.5",
+          "paragraph_title": "9.5. Специальные деревья",
+          "folder": "9.5_специальные_деревья",
+          "relations_reviewed": 3,
+          "corrected_relations": 3,
+          "category_counts": {
+            "found_on_diagram_correct": 0,
+            "found_on_diagram_wrong_direction": 0,
+            "found_on_diagram_wrong_type": 0,
+            "found_on_diagram_wrong_direction_and_type": 0,
+            "found_not_on_diagram_accepted": 3,
+            "found_not_on_diagram_rejected": 0,
+            "not_found_from_diagram": 0
+          },
+          "rendered": true,
+          "render_error": null
+        },
+        {
+          "paragraph_id": "9.6",
+          "paragraph_title": "9.6. Кратчайший остов",
+          "folder": "9.6_кратчайший_остов",
+          "relations_reviewed": 8,
+          "corrected_relations": 8,
+          "category_counts": {
+            "found_on_diagram_correct": 0,
+            "found_on_diagram_wrong_direction": 0,
+            "found_on_diagram_wrong_type": 0,
+            "found_on_diagram_wrong_direction_and_type": 0,
+            "found_not_on_diagram_accepted": 8,
+            "found_not_on_diagram_rejected": 0,
+            "not_found_from_diagram": 0
+          },
+          "rendered": true,
+          "render_error": null
+        }
+      ]
+    },
+    {
+      "chapter": "10",
+      "paragraphs": [
+        "10.1",
+        "10.2",
+        "10.3",
+        "10.4",
+        "10.5",
+        "10.6",
+        "10.7",
+        "10.8"
+      ],
+      "ground_truth_source": "src/digr/ontology-pipeline/data/dm_reference_ontologies/chapter_10",
+      "ignored_concepts": [
+        "bool",
+        "Объект",
+        "Парадокс",
+        "Парадокс Рассела",
+        "Структура",
+        "Указатель",
+        "Элементами семейства являются множества"
+      ],
+      "chapter_concepts": 91,
+      "raw_unique_relations": 107,
+      "textbook_relations_in_chapter_scope": 23,
+      "textbook_unique_relation_pairs_in_chapter_scope": 22,
+      "category_counts": {
+        "found_on_diagram_correct": 0,
+        "found_on_diagram_wrong_direction": 0,
+        "found_on_diagram_wrong_type": 0,
+        "found_on_diagram_wrong_direction_and_type": 0,
+        "found_not_on_diagram_accepted": 107,
+        "found_not_on_diagram_rejected": 0,
+        "not_found_from_diagram": 23
+      },
+      "corrected_relations": 107,
+      "rendered": true,
+      "render_error": null,
+      "paragraph_reviews": [
+        {
+          "paragraph_id": "10.1",
+          "paragraph_title": "10.1. Фундаментальные циклы и разрезы",
+          "folder": "10.1_фундаментальные_циклы_и_разрезы",
+          "relations_reviewed": 32,
+          "corrected_relations": 26,
+          "category_counts": {
+            "found_on_diagram_correct": 0,
+            "found_on_diagram_wrong_direction": 0,
+            "found_on_diagram_wrong_type": 0,
+            "found_on_diagram_wrong_direction_and_type": 0,
+            "found_not_on_diagram_accepted": 26,
+            "found_not_on_diagram_rejected": 0,
+            "not_found_from_diagram": 6
+          },
+          "rendered": true,
+          "render_error": null
+        },
+        {
+          "paragraph_id": "10.2",
+          "paragraph_title": "10.2. Эйлеровы циклы",
+          "folder": "10.2_эйлеровы_циклы",
+          "relations_reviewed": 6,
+          "corrected_relations": 6,
+          "category_counts": {
+            "found_on_diagram_correct": 0,
+            "found_on_diagram_wrong_direction": 0,
+            "found_on_diagram_wrong_type": 0,
+            "found_on_diagram_wrong_direction_and_type": 0,
+            "found_not_on_diagram_accepted": 6,
+            "found_not_on_diagram_rejected": 0,
+            "not_found_from_diagram": 0
+          },
+          "rendered": true,
+          "render_error": null
+        },
+        {
+          "paragraph_id": "10.3",
+          "paragraph_title": "10.3. Гамильтоновы циклы",
+          "folder": "10.3_гамильтоновы_циклы",
+          "relations_reviewed": 9,
+          "corrected_relations": 9,
+          "category_counts": {
+            "found_on_diagram_correct": 0,
+            "found_on_diagram_wrong_direction": 0,
+            "found_on_diagram_wrong_type": 0,
+            "found_on_diagram_wrong_direction_and_type": 0,
+            "found_not_on_diagram_accepted": 9,
+            "found_not_on_diagram_rejected": 0,
+            "not_found_from_diagram": 0
+          },
+          "rendered": true,
+          "render_error": null
+        },
+        {
+          "paragraph_id": "10.4",
+          "paragraph_title": "10.4. Независимые и покрывающие множества",
+          "folder": "10.4_независимые_и_покрывающие_множества",
+          "relations_reviewed": 33,
+          "corrected_relations": 33,
+          "category_counts": {
+            "found_on_diagram_correct": 0,
+            "found_on_diagram_wrong_direction": 0,
+            "found_on_diagram_wrong_type": 0,
+            "found_on_diagram_wrong_direction_and_type": 0,
+            "found_not_on_diagram_accepted": 33,
+            "found_not_on_diagram_rejected": 0,
+            "not_found_from_diagram": 0
+          },
+          "rendered": true,
+          "render_error": null
+        },
+        {
+          "paragraph_id": "10.5",
+          "paragraph_title": "10.5. Построение независимых множеств вершин",
+          "folder": "10.5_построение_независимых_множеств_вершин",
+          "relations_reviewed": 3,
+          "corrected_relations": 3,
+          "category_counts": {
+            "found_on_diagram_correct": 0,
+            "found_on_diagram_wrong_direction": 0,
+            "found_on_diagram_wrong_type": 0,
+            "found_on_diagram_wrong_direction_and_type": 0,
+            "found_not_on_diagram_accepted": 3,
+            "found_not_on_diagram_rejected": 0,
+            "not_found_from_diagram": 0
+          },
+          "rendered": true,
+          "render_error": null
+        },
+        {
+          "paragraph_id": "10.6",
+          "paragraph_title": "10.6. Доминирующие множества",
+          "folder": "10.6_доминирующие_множества",
+          "relations_reviewed": 19,
+          "corrected_relations": 19,
+          "category_counts": {
+            "found_on_diagram_correct": 0,
+            "found_on_diagram_wrong_direction": 0,
+            "found_on_diagram_wrong_type": 0,
+            "found_on_diagram_wrong_direction_and_type": 0,
+            "found_not_on_diagram_accepted": 19,
+            "found_not_on_diagram_rejected": 0,
+            "not_found_from_diagram": 0
+          },
+          "rendered": true,
+          "render_error": null
+        },
+        {
+          "paragraph_id": "10.7",
+          "paragraph_title": "10.7. Раскраска графов",
+          "folder": "10.7_раскраска_графов",
+          "relations_reviewed": 1,
+          "corrected_relations": 1,
+          "category_counts": {
+            "found_on_diagram_correct": 0,
+            "found_on_diagram_wrong_direction": 0,
+            "found_on_diagram_wrong_type": 0,
+            "found_on_diagram_wrong_direction_and_type": 0,
+            "found_not_on_diagram_accepted": 1,
+            "found_not_on_diagram_rejected": 0,
+            "not_found_from_diagram": 0
+          },
+          "rendered": true,
+          "render_error": null
+        },
+        {
+          "paragraph_id": "10.8",
+          "paragraph_title": "10.8. Планарность",
+          "folder": "10.8_планарность",
+          "relations_reviewed": 10,
+          "corrected_relations": 10,
+          "category_counts": {
+            "found_on_diagram_correct": 0,
+            "found_on_diagram_wrong_direction": 0,
+            "found_on_diagram_wrong_type": 0,
+            "found_on_diagram_wrong_direction_and_type": 0,
+            "found_not_on_diagram_accepted": 10,
+            "found_not_on_diagram_rejected": 0,
+            "not_found_from_diagram": 0
+          },
+          "rendered": true,
+          "render_error": null
+        }
+      ]
+    }
+  ],
+  "category_totals": {
+    "found_on_diagram_correct": 19,
+    "found_on_diagram_wrong_direction": 15,
+    "found_on_diagram_wrong_type": 21,
+    "found_on_diagram_wrong_direction_and_type": 4,
+    "found_not_on_diagram_accepted": 1386,
+    "found_not_on_diagram_rejected": 28,
+    "not_found_from_diagram": 419
+  }
+}

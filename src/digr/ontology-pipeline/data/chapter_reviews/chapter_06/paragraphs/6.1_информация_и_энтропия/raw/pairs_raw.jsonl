@@ -1,0 +1,946 @@
+{"paragraph_id": "6.1", "concept_a": "Бит", "concept_b": "Вероятность апостериорная", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Бит", "concept_b": "Вероятность априорная", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Бит", "concept_b": "Вероятность условная", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Бит", "concept_b": "Дерево кодовое", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Бит", "concept_b": "Диаграмма информационных потоков", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Бит", "concept_b": "Диаграмма переходов", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Бит", "concept_b": "Избыточность источника", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Бит", "concept_b": "Избыточность относительная", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Бит", "concept_b": "Информация взаимная", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Бит", "concept_b": "Информация условная", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Бит", "concept_b": "Источник двоичный", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Бит", "concept_b": "Источник информации дискретный", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Бит", "concept_b": "Кодирование", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Бит", "concept_b": "Кодирование Схема", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Бит", "concept_b": "Кодирование алфавитное", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Бит", "concept_b": "Кодовое слово", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Бит", "concept_b": "Количество информации", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Бит", "concept_b": "Матрица стохастическая", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Бит", "concept_b": "Нат", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Бит", "concept_b": "Неравенство Крафта", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Бит", "concept_b": "Неравенство Макмиллана", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Бит", "concept_b": "Передатчик", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Бит", "concept_b": "Приёмник", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Бит", "concept_b": "Пропускная способность", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Бит", "concept_b": "Событие", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Бит", "concept_b": "Стирание символа", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Бит", "concept_b": "Схема кодирования алфавитная", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Бит", "concept_b": "Схема префиксная", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Бит", "concept_b": "Схема разделимая", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Бит", "concept_b": "Утечка информации", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Бит", "concept_b": "Формула Байеса", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Бит", "concept_b": "Формула Хартли", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Бит", "concept_b": "Формула Шеннона", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Бит", "concept_b": "Функция Шеннона", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Бит", "concept_b": "Цена кодирования", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Бит", "concept_b": "Частота относительная", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Бит", "concept_b": "Шум информационный", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Бит", "concept_b": "Энтропия", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Бит", "concept_b": "Энтропия  информационная)", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Бит", "concept_b": "Энтропия совместная", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Бит", "concept_b": "Энтропия условная", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Бит", "concept_b": "Эффективность кодирования", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Бит", "concept_b": "дерево бинарное", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Вероятность апостериорная", "concept_b": "Вероятность априорная", "has_relation": true}
+{"paragraph_id": "6.1", "concept_a": "Вероятность апостериорная", "concept_b": "Вероятность условная", "has_relation": true}
+{"paragraph_id": "6.1", "concept_a": "Вероятность апостериорная", "concept_b": "Дерево кодовое", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Вероятность апостериорная", "concept_b": "Диаграмма информационных потоков", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Вероятность апостериорная", "concept_b": "Диаграмма переходов", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Вероятность апостериорная", "concept_b": "Избыточность источника", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Вероятность апостериорная", "concept_b": "Избыточность относительная", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Вероятность апостериорная", "concept_b": "Информация взаимная", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Вероятность апостериорная", "concept_b": "Информация условная", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Вероятность апостериорная", "concept_b": "Источник двоичный", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Вероятность апостериорная", "concept_b": "Источник информации дискретный", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Вероятность апостериорная", "concept_b": "Кодирование", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Вероятность апостериорная", "concept_b": "Кодирование Схема", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Вероятность апостериорная", "concept_b": "Кодирование алфавитное", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Вероятность апостериорная", "concept_b": "Кодовое слово", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Вероятность апостериорная", "concept_b": "Количество информации", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Вероятность апостериорная", "concept_b": "Матрица стохастическая", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Вероятность апостериорная", "concept_b": "Нат", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Вероятность апостериорная", "concept_b": "Неравенство Крафта", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Вероятность апостериорная", "concept_b": "Неравенство Макмиллана", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Вероятность апостериорная", "concept_b": "Передатчик", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Вероятность апостериорная", "concept_b": "Приёмник", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Вероятность апостериорная", "concept_b": "Пропускная способность", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Вероятность апостериорная", "concept_b": "Событие", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Вероятность апостериорная", "concept_b": "Стирание символа", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Вероятность апостериорная", "concept_b": "Схема кодирования алфавитная", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Вероятность апостериорная", "concept_b": "Схема префиксная", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Вероятность апостериорная", "concept_b": "Схема разделимая", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Вероятность апостериорная", "concept_b": "Утечка информации", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Вероятность апостериорная", "concept_b": "Формула Байеса", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Вероятность апостериорная", "concept_b": "Формула Хартли", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Вероятность апостериорная", "concept_b": "Формула Шеннона", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Вероятность апостериорная", "concept_b": "Функция Шеннона", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Вероятность апостериорная", "concept_b": "Цена кодирования", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Вероятность апостериорная", "concept_b": "Частота относительная", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Вероятность апостериорная", "concept_b": "Шум информационный", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Вероятность апостериорная", "concept_b": "Энтропия", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Вероятность апостериорная", "concept_b": "Энтропия  информационная)", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Вероятность апостериорная", "concept_b": "Энтропия совместная", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Вероятность апостериорная", "concept_b": "Энтропия условная", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Вероятность апостериорная", "concept_b": "Эффективность кодирования", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Вероятность апостериорная", "concept_b": "дерево бинарное", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Вероятность априорная", "concept_b": "Вероятность условная", "has_relation": true}
+{"paragraph_id": "6.1", "concept_a": "Вероятность априорная", "concept_b": "Дерево кодовое", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Вероятность априорная", "concept_b": "Диаграмма информационных потоков", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Вероятность априорная", "concept_b": "Диаграмма переходов", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Вероятность априорная", "concept_b": "Избыточность источника", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Вероятность априорная", "concept_b": "Избыточность относительная", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Вероятность априорная", "concept_b": "Информация взаимная", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Вероятность априорная", "concept_b": "Информация условная", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Вероятность априорная", "concept_b": "Источник двоичный", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Вероятность априорная", "concept_b": "Источник информации дискретный", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Вероятность априорная", "concept_b": "Кодирование", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Вероятность априорная", "concept_b": "Кодирование Схема", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Вероятность априорная", "concept_b": "Кодирование алфавитное", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Вероятность априорная", "concept_b": "Кодовое слово", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Вероятность априорная", "concept_b": "Количество информации", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Вероятность априорная", "concept_b": "Матрица стохастическая", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Вероятность априорная", "concept_b": "Нат", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Вероятность априорная", "concept_b": "Неравенство Крафта", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Вероятность априорная", "concept_b": "Неравенство Макмиллана", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Вероятность априорная", "concept_b": "Передатчик", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Вероятность априорная", "concept_b": "Приёмник", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Вероятность априорная", "concept_b": "Пропускная способность", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Вероятность априорная", "concept_b": "Событие", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Вероятность априорная", "concept_b": "Стирание символа", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Вероятность априорная", "concept_b": "Схема кодирования алфавитная", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Вероятность априорная", "concept_b": "Схема префиксная", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Вероятность априорная", "concept_b": "Схема разделимая", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Вероятность априорная", "concept_b": "Утечка информации", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Вероятность априорная", "concept_b": "Формула Байеса", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Вероятность априорная", "concept_b": "Формула Хартли", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Вероятность априорная", "concept_b": "Формула Шеннона", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Вероятность априорная", "concept_b": "Функция Шеннона", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Вероятность априорная", "concept_b": "Цена кодирования", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Вероятность априорная", "concept_b": "Частота относительная", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Вероятность априорная", "concept_b": "Шум информационный", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Вероятность априорная", "concept_b": "Энтропия", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Вероятность априорная", "concept_b": "Энтропия  информационная)", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Вероятность априорная", "concept_b": "Энтропия совместная", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Вероятность априорная", "concept_b": "Энтропия условная", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Вероятность априорная", "concept_b": "Эффективность кодирования", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Вероятность априорная", "concept_b": "дерево бинарное", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Вероятность условная", "concept_b": "Дерево кодовое", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Вероятность условная", "concept_b": "Диаграмма информационных потоков", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Вероятность условная", "concept_b": "Диаграмма переходов", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Вероятность условная", "concept_b": "Избыточность источника", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Вероятность условная", "concept_b": "Избыточность относительная", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Вероятность условная", "concept_b": "Информация взаимная", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Вероятность условная", "concept_b": "Информация условная", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Вероятность условная", "concept_b": "Источник двоичный", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Вероятность условная", "concept_b": "Источник информации дискретный", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Вероятность условная", "concept_b": "Кодирование", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Вероятность условная", "concept_b": "Кодирование Схема", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Вероятность условная", "concept_b": "Кодирование алфавитное", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Вероятность условная", "concept_b": "Кодовое слово", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Вероятность условная", "concept_b": "Количество информации", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Вероятность условная", "concept_b": "Матрица стохастическая", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Вероятность условная", "concept_b": "Нат", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Вероятность условная", "concept_b": "Неравенство Крафта", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Вероятность условная", "concept_b": "Неравенство Макмиллана", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Вероятность условная", "concept_b": "Передатчик", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Вероятность условная", "concept_b": "Приёмник", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Вероятность условная", "concept_b": "Пропускная способность", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Вероятность условная", "concept_b": "Событие", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Вероятность условная", "concept_b": "Стирание символа", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Вероятность условная", "concept_b": "Схема кодирования алфавитная", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Вероятность условная", "concept_b": "Схема префиксная", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Вероятность условная", "concept_b": "Схема разделимая", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Вероятность условная", "concept_b": "Утечка информации", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Вероятность условная", "concept_b": "Формула Байеса", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Вероятность условная", "concept_b": "Формула Хартли", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Вероятность условная", "concept_b": "Формула Шеннона", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Вероятность условная", "concept_b": "Функция Шеннона", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Вероятность условная", "concept_b": "Цена кодирования", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Вероятность условная", "concept_b": "Частота относительная", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Вероятность условная", "concept_b": "Шум информационный", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Вероятность условная", "concept_b": "Энтропия", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Вероятность условная", "concept_b": "Энтропия  информационная)", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Вероятность условная", "concept_b": "Энтропия совместная", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Вероятность условная", "concept_b": "Энтропия условная", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Вероятность условная", "concept_b": "Эффективность кодирования", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Вероятность условная", "concept_b": "дерево бинарное", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Дерево кодовое", "concept_b": "Диаграмма информационных потоков", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Дерево кодовое", "concept_b": "Диаграмма переходов", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Дерево кодовое", "concept_b": "Избыточность источника", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Дерево кодовое", "concept_b": "Избыточность относительная", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Дерево кодовое", "concept_b": "Информация взаимная", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Дерево кодовое", "concept_b": "Информация условная", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Дерево кодовое", "concept_b": "Источник двоичный", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Дерево кодовое", "concept_b": "Источник информации дискретный", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Дерево кодовое", "concept_b": "Кодирование", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Дерево кодовое", "concept_b": "Кодирование Схема", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Дерево кодовое", "concept_b": "Кодирование алфавитное", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Дерево кодовое", "concept_b": "Кодовое слово", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Дерево кодовое", "concept_b": "Количество информации", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Дерево кодовое", "concept_b": "Матрица стохастическая", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Дерево кодовое", "concept_b": "Нат", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Дерево кодовое", "concept_b": "Неравенство Крафта", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Дерево кодовое", "concept_b": "Неравенство Макмиллана", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Дерево кодовое", "concept_b": "Передатчик", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Дерево кодовое", "concept_b": "Приёмник", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Дерево кодовое", "concept_b": "Пропускная способность", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Дерево кодовое", "concept_b": "Событие", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Дерево кодовое", "concept_b": "Стирание символа", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Дерево кодовое", "concept_b": "Схема кодирования алфавитная", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Дерево кодовое", "concept_b": "Схема префиксная", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Дерево кодовое", "concept_b": "Схема разделимая", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Дерево кодовое", "concept_b": "Утечка информации", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Дерево кодовое", "concept_b": "Формула Байеса", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Дерево кодовое", "concept_b": "Формула Хартли", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Дерево кодовое", "concept_b": "Формула Шеннона", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Дерево кодовое", "concept_b": "Функция Шеннона", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Дерево кодовое", "concept_b": "Цена кодирования", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Дерево кодовое", "concept_b": "Частота относительная", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Дерево кодовое", "concept_b": "Шум информационный", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Дерево кодовое", "concept_b": "Энтропия", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Дерево кодовое", "concept_b": "Энтропия  информационная)", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Дерево кодовое", "concept_b": "Энтропия совместная", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Дерево кодовое", "concept_b": "Энтропия условная", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Дерево кодовое", "concept_b": "Эффективность кодирования", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Дерево кодовое", "concept_b": "дерево бинарное", "has_relation": true}
+{"paragraph_id": "6.1", "concept_a": "Диаграмма информационных потоков", "concept_b": "Диаграмма переходов", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Диаграмма информационных потоков", "concept_b": "Избыточность источника", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Диаграмма информационных потоков", "concept_b": "Избыточность относительная", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Диаграмма информационных потоков", "concept_b": "Информация взаимная", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Диаграмма информационных потоков", "concept_b": "Информация условная", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Диаграмма информационных потоков", "concept_b": "Источник двоичный", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Диаграмма информационных потоков", "concept_b": "Источник информации дискретный", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Диаграмма информационных потоков", "concept_b": "Кодирование", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Диаграмма информационных потоков", "concept_b": "Кодирование Схема", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Диаграмма информационных потоков", "concept_b": "Кодирование алфавитное", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Диаграмма информационных потоков", "concept_b": "Кодовое слово", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Диаграмма информационных потоков", "concept_b": "Количество информации", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Диаграмма информационных потоков", "concept_b": "Матрица стохастическая", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Диаграмма информационных потоков", "concept_b": "Нат", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Диаграмма информационных потоков", "concept_b": "Неравенство Крафта", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Диаграмма информационных потоков", "concept_b": "Неравенство Макмиллана", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Диаграмма информационных потоков", "concept_b": "Передатчик", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Диаграмма информационных потоков", "concept_b": "Приёмник", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Диаграмма информационных потоков", "concept_b": "Пропускная способность", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Диаграмма информационных потоков", "concept_b": "Событие", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Диаграмма информационных потоков", "concept_b": "Стирание символа", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Диаграмма информационных потоков", "concept_b": "Схема кодирования алфавитная", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Диаграмма информационных потоков", "concept_b": "Схема префиксная", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Диаграмма информационных потоков", "concept_b": "Схема разделимая", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Диаграмма информационных потоков", "concept_b": "Утечка информации", "has_relation": true}
+{"paragraph_id": "6.1", "concept_a": "Диаграмма информационных потоков", "concept_b": "Формула Байеса", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Диаграмма информационных потоков", "concept_b": "Формула Хартли", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Диаграмма информационных потоков", "concept_b": "Формула Шеннона", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Диаграмма информационных потоков", "concept_b": "Функция Шеннона", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Диаграмма информационных потоков", "concept_b": "Цена кодирования", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Диаграмма информационных потоков", "concept_b": "Частота относительная", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Диаграмма информационных потоков", "concept_b": "Шум информационный", "has_relation": true}
+{"paragraph_id": "6.1", "concept_a": "Диаграмма информационных потоков", "concept_b": "Энтропия", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Диаграмма информационных потоков", "concept_b": "Энтропия  информационная)", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Диаграмма информационных потоков", "concept_b": "Энтропия совместная", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Диаграмма информационных потоков", "concept_b": "Энтропия условная", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Диаграмма информационных потоков", "concept_b": "Эффективность кодирования", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Диаграмма информационных потоков", "concept_b": "дерево бинарное", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Диаграмма переходов", "concept_b": "Избыточность источника", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Диаграмма переходов", "concept_b": "Избыточность относительная", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Диаграмма переходов", "concept_b": "Информация взаимная", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Диаграмма переходов", "concept_b": "Информация условная", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Диаграмма переходов", "concept_b": "Источник двоичный", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Диаграмма переходов", "concept_b": "Источник информации дискретный", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Диаграмма переходов", "concept_b": "Кодирование", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Диаграмма переходов", "concept_b": "Кодирование Схема", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Диаграмма переходов", "concept_b": "Кодирование алфавитное", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Диаграмма переходов", "concept_b": "Кодовое слово", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Диаграмма переходов", "concept_b": "Количество информации", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Диаграмма переходов", "concept_b": "Матрица стохастическая", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Диаграмма переходов", "concept_b": "Нат", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Диаграмма переходов", "concept_b": "Неравенство Крафта", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Диаграмма переходов", "concept_b": "Неравенство Макмиллана", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Диаграмма переходов", "concept_b": "Передатчик", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Диаграмма переходов", "concept_b": "Приёмник", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Диаграмма переходов", "concept_b": "Пропускная способность", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Диаграмма переходов", "concept_b": "Событие", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Диаграмма переходов", "concept_b": "Стирание символа", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Диаграмма переходов", "concept_b": "Схема кодирования алфавитная", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Диаграмма переходов", "concept_b": "Схема префиксная", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Диаграмма переходов", "concept_b": "Схема разделимая", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Диаграмма переходов", "concept_b": "Утечка информации", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Диаграмма переходов", "concept_b": "Формула Байеса", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Диаграмма переходов", "concept_b": "Формула Хартли", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Диаграмма переходов", "concept_b": "Формула Шеннона", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Диаграмма переходов", "concept_b": "Функция Шеннона", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Диаграмма переходов", "concept_b": "Цена кодирования", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Диаграмма переходов", "concept_b": "Частота относительная", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Диаграмма переходов", "concept_b": "Шум информационный", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Диаграмма переходов", "concept_b": "Энтропия", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Диаграмма переходов", "concept_b": "Энтропия  информационная)", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Диаграмма переходов", "concept_b": "Энтропия совместная", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Диаграмма переходов", "concept_b": "Энтропия условная", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Диаграмма переходов", "concept_b": "Эффективность кодирования", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Диаграмма переходов", "concept_b": "дерево бинарное", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Избыточность источника", "concept_b": "Избыточность относительная", "has_relation": true}
+{"paragraph_id": "6.1", "concept_a": "Избыточность источника", "concept_b": "Информация взаимная", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Избыточность источника", "concept_b": "Информация условная", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Избыточность источника", "concept_b": "Источник двоичный", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Избыточность источника", "concept_b": "Источник информации дискретный", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Избыточность источника", "concept_b": "Кодирование", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Избыточность источника", "concept_b": "Кодирование Схема", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Избыточность источника", "concept_b": "Кодирование алфавитное", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Избыточность источника", "concept_b": "Кодовое слово", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Избыточность источника", "concept_b": "Количество информации", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Избыточность источника", "concept_b": "Матрица стохастическая", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Избыточность источника", "concept_b": "Нат", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Избыточность источника", "concept_b": "Неравенство Крафта", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Избыточность источника", "concept_b": "Неравенство Макмиллана", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Избыточность источника", "concept_b": "Передатчик", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Избыточность источника", "concept_b": "Приёмник", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Избыточность источника", "concept_b": "Пропускная способность", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Избыточность источника", "concept_b": "Событие", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Избыточность источника", "concept_b": "Стирание символа", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Избыточность источника", "concept_b": "Схема кодирования алфавитная", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Избыточность источника", "concept_b": "Схема префиксная", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Избыточность источника", "concept_b": "Схема разделимая", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Избыточность источника", "concept_b": "Утечка информации", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Избыточность источника", "concept_b": "Формула Байеса", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Избыточность источника", "concept_b": "Формула Хартли", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Избыточность источника", "concept_b": "Формула Шеннона", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Избыточность источника", "concept_b": "Функция Шеннона", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Избыточность источника", "concept_b": "Цена кодирования", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Избыточность источника", "concept_b": "Частота относительная", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Избыточность источника", "concept_b": "Шум информационный", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Избыточность источника", "concept_b": "Энтропия", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Избыточность источника", "concept_b": "Энтропия  информационная)", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Избыточность источника", "concept_b": "Энтропия совместная", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Избыточность источника", "concept_b": "Энтропия условная", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Избыточность источника", "concept_b": "Эффективность кодирования", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Избыточность источника", "concept_b": "дерево бинарное", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Избыточность относительная", "concept_b": "Информация взаимная", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Избыточность относительная", "concept_b": "Информация условная", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Избыточность относительная", "concept_b": "Источник двоичный", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Избыточность относительная", "concept_b": "Источник информации дискретный", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Избыточность относительная", "concept_b": "Кодирование", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Избыточность относительная", "concept_b": "Кодирование Схема", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Избыточность относительная", "concept_b": "Кодирование алфавитное", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Избыточность относительная", "concept_b": "Кодовое слово", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Избыточность относительная", "concept_b": "Количество информации", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Избыточность относительная", "concept_b": "Матрица стохастическая", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Избыточность относительная", "concept_b": "Нат", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Избыточность относительная", "concept_b": "Неравенство Крафта", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Избыточность относительная", "concept_b": "Неравенство Макмиллана", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Избыточность относительная", "concept_b": "Передатчик", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Избыточность относительная", "concept_b": "Приёмник", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Избыточность относительная", "concept_b": "Пропускная способность", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Избыточность относительная", "concept_b": "Событие", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Избыточность относительная", "concept_b": "Стирание символа", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Избыточность относительная", "concept_b": "Схема кодирования алфавитная", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Избыточность относительная", "concept_b": "Схема префиксная", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Избыточность относительная", "concept_b": "Схема разделимая", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Избыточность относительная", "concept_b": "Утечка информации", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Избыточность относительная", "concept_b": "Формула Байеса", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Избыточность относительная", "concept_b": "Формула Хартли", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Избыточность относительная", "concept_b": "Формула Шеннона", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Избыточность относительная", "concept_b": "Функция Шеннона", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Избыточность относительная", "concept_b": "Цена кодирования", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Избыточность относительная", "concept_b": "Частота относительная", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Избыточность относительная", "concept_b": "Шум информационный", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Избыточность относительная", "concept_b": "Энтропия", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Избыточность относительная", "concept_b": "Энтропия  информационная)", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Избыточность относительная", "concept_b": "Энтропия совместная", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Избыточность относительная", "concept_b": "Энтропия условная", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Избыточность относительная", "concept_b": "Эффективность кодирования", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Избыточность относительная", "concept_b": "дерево бинарное", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Информация взаимная", "concept_b": "Информация условная", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Информация взаимная", "concept_b": "Источник двоичный", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Информация взаимная", "concept_b": "Источник информации дискретный", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Информация взаимная", "concept_b": "Кодирование", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Информация взаимная", "concept_b": "Кодирование Схема", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Информация взаимная", "concept_b": "Кодирование алфавитное", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Информация взаимная", "concept_b": "Кодовое слово", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Информация взаимная", "concept_b": "Количество информации", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Информация взаимная", "concept_b": "Матрица стохастическая", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Информация взаимная", "concept_b": "Нат", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Информация взаимная", "concept_b": "Неравенство Крафта", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Информация взаимная", "concept_b": "Неравенство Макмиллана", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Информация взаимная", "concept_b": "Передатчик", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Информация взаимная", "concept_b": "Приёмник", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Информация взаимная", "concept_b": "Пропускная способность", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Информация взаимная", "concept_b": "Событие", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Информация взаимная", "concept_b": "Стирание символа", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Информация взаимная", "concept_b": "Схема кодирования алфавитная", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Информация взаимная", "concept_b": "Схема префиксная", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Информация взаимная", "concept_b": "Схема разделимая", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Информация взаимная", "concept_b": "Утечка информации", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Информация взаимная", "concept_b": "Формула Байеса", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Информация взаимная", "concept_b": "Формула Хартли", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Информация взаимная", "concept_b": "Формула Шеннона", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Информация взаимная", "concept_b": "Функция Шеннона", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Информация взаимная", "concept_b": "Цена кодирования", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Информация взаимная", "concept_b": "Частота относительная", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Информация взаимная", "concept_b": "Шум информационный", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Информация взаимная", "concept_b": "Энтропия", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Информация взаимная", "concept_b": "Энтропия  информационная)", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Информация взаимная", "concept_b": "Энтропия совместная", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Информация взаимная", "concept_b": "Энтропия условная", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Информация взаимная", "concept_b": "Эффективность кодирования", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Информация взаимная", "concept_b": "дерево бинарное", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Информация условная", "concept_b": "Источник двоичный", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Информация условная", "concept_b": "Источник информации дискретный", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Информация условная", "concept_b": "Кодирование", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Информация условная", "concept_b": "Кодирование Схема", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Информация условная", "concept_b": "Кодирование алфавитное", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Информация условная", "concept_b": "Кодовое слово", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Информация условная", "concept_b": "Количество информации", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Информация условная", "concept_b": "Матрица стохастическая", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Информация условная", "concept_b": "Нат", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Информация условная", "concept_b": "Неравенство Крафта", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Информация условная", "concept_b": "Неравенство Макмиллана", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Информация условная", "concept_b": "Передатчик", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Информация условная", "concept_b": "Приёмник", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Информация условная", "concept_b": "Пропускная способность", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Информация условная", "concept_b": "Событие", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Информация условная", "concept_b": "Стирание символа", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Информация условная", "concept_b": "Схема кодирования алфавитная", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Информация условная", "concept_b": "Схема префиксная", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Информация условная", "concept_b": "Схема разделимая", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Информация условная", "concept_b": "Утечка информации", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Информация условная", "concept_b": "Формула Байеса", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Информация условная", "concept_b": "Формула Хартли", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Информация условная", "concept_b": "Формула Шеннона", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Информация условная", "concept_b": "Функция Шеннона", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Информация условная", "concept_b": "Цена кодирования", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Информация условная", "concept_b": "Частота относительная", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Информация условная", "concept_b": "Шум информационный", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Информация условная", "concept_b": "Энтропия", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Информация условная", "concept_b": "Энтропия  информационная)", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Информация условная", "concept_b": "Энтропия совместная", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Информация условная", "concept_b": "Энтропия условная", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Информация условная", "concept_b": "Эффективность кодирования", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Информация условная", "concept_b": "дерево бинарное", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Источник двоичный", "concept_b": "Источник информации дискретный", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Источник двоичный", "concept_b": "Кодирование", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Источник двоичный", "concept_b": "Кодирование Схема", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Источник двоичный", "concept_b": "Кодирование алфавитное", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Источник двоичный", "concept_b": "Кодовое слово", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Источник двоичный", "concept_b": "Количество информации", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Источник двоичный", "concept_b": "Матрица стохастическая", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Источник двоичный", "concept_b": "Нат", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Источник двоичный", "concept_b": "Неравенство Крафта", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Источник двоичный", "concept_b": "Неравенство Макмиллана", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Источник двоичный", "concept_b": "Передатчик", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Источник двоичный", "concept_b": "Приёмник", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Источник двоичный", "concept_b": "Пропускная способность", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Источник двоичный", "concept_b": "Событие", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Источник двоичный", "concept_b": "Стирание символа", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Источник двоичный", "concept_b": "Схема кодирования алфавитная", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Источник двоичный", "concept_b": "Схема префиксная", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Источник двоичный", "concept_b": "Схема разделимая", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Источник двоичный", "concept_b": "Утечка информации", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Источник двоичный", "concept_b": "Формула Байеса", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Источник двоичный", "concept_b": "Формула Хартли", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Источник двоичный", "concept_b": "Формула Шеннона", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Источник двоичный", "concept_b": "Функция Шеннона", "has_relation": true}
+{"paragraph_id": "6.1", "concept_a": "Источник двоичный", "concept_b": "Цена кодирования", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Источник двоичный", "concept_b": "Частота относительная", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Источник двоичный", "concept_b": "Шум информационный", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Источник двоичный", "concept_b": "Энтропия", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Источник двоичный", "concept_b": "Энтропия  информационная)", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Источник двоичный", "concept_b": "Энтропия совместная", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Источник двоичный", "concept_b": "Энтропия условная", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Источник двоичный", "concept_b": "Эффективность кодирования", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Источник двоичный", "concept_b": "дерево бинарное", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Источник информации дискретный", "concept_b": "Кодирование", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Источник информации дискретный", "concept_b": "Кодирование Схема", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Источник информации дискретный", "concept_b": "Кодирование алфавитное", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Источник информации дискретный", "concept_b": "Кодовое слово", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Источник информации дискретный", "concept_b": "Количество информации", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Источник информации дискретный", "concept_b": "Матрица стохастическая", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Источник информации дискретный", "concept_b": "Нат", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Источник информации дискретный", "concept_b": "Неравенство Крафта", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Источник информации дискретный", "concept_b": "Неравенство Макмиллана", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Источник информации дискретный", "concept_b": "Передатчик", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Источник информации дискретный", "concept_b": "Приёмник", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Источник информации дискретный", "concept_b": "Пропускная способность", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Источник информации дискретный", "concept_b": "Событие", "has_relation": true}
+{"paragraph_id": "6.1", "concept_a": "Источник информации дискретный", "concept_b": "Стирание символа", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Источник информации дискретный", "concept_b": "Схема кодирования алфавитная", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Источник информации дискретный", "concept_b": "Схема префиксная", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Источник информации дискретный", "concept_b": "Схема разделимая", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Источник информации дискретный", "concept_b": "Утечка информации", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Источник информации дискретный", "concept_b": "Формула Байеса", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Источник информации дискретный", "concept_b": "Формула Хартли", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Источник информации дискретный", "concept_b": "Формула Шеннона", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Источник информации дискретный", "concept_b": "Функция Шеннона", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Источник информации дискретный", "concept_b": "Цена кодирования", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Источник информации дискретный", "concept_b": "Частота относительная", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Источник информации дискретный", "concept_b": "Шум информационный", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Источник информации дискретный", "concept_b": "Энтропия", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Источник информации дискретный", "concept_b": "Энтропия  информационная)", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Источник информации дискретный", "concept_b": "Энтропия совместная", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Источник информации дискретный", "concept_b": "Энтропия условная", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Источник информации дискретный", "concept_b": "Эффективность кодирования", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Источник информации дискретный", "concept_b": "дерево бинарное", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Кодирование", "concept_b": "Кодирование Схема", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Кодирование", "concept_b": "Кодирование алфавитное", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Кодирование", "concept_b": "Кодовое слово", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Кодирование", "concept_b": "Количество информации", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Кодирование", "concept_b": "Матрица стохастическая", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Кодирование", "concept_b": "Нат", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Кодирование", "concept_b": "Неравенство Крафта", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Кодирование", "concept_b": "Неравенство Макмиллана", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Кодирование", "concept_b": "Передатчик", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Кодирование", "concept_b": "Приёмник", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Кодирование", "concept_b": "Пропускная способность", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Кодирование", "concept_b": "Событие", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Кодирование", "concept_b": "Стирание символа", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Кодирование", "concept_b": "Схема кодирования алфавитная", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Кодирование", "concept_b": "Схема префиксная", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Кодирование", "concept_b": "Схема разделимая", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Кодирование", "concept_b": "Утечка информации", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Кодирование", "concept_b": "Формула Байеса", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Кодирование", "concept_b": "Формула Хартли", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Кодирование", "concept_b": "Формула Шеннона", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Кодирование", "concept_b": "Функция Шеннона", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Кодирование", "concept_b": "Цена кодирования", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Кодирование", "concept_b": "Частота относительная", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Кодирование", "concept_b": "Шум информационный", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Кодирование", "concept_b": "Энтропия", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Кодирование", "concept_b": "Энтропия  информационная)", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Кодирование", "concept_b": "Энтропия совместная", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Кодирование", "concept_b": "Энтропия условная", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Кодирование", "concept_b": "Эффективность кодирования", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Кодирование", "concept_b": "дерево бинарное", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Кодирование Схема", "concept_b": "Кодирование алфавитное", "has_relation": true}
+{"paragraph_id": "6.1", "concept_a": "Кодирование Схема", "concept_b": "Кодовое слово", "has_relation": true}
+{"paragraph_id": "6.1", "concept_a": "Кодирование Схема", "concept_b": "Количество информации", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Кодирование Схема", "concept_b": "Матрица стохастическая", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Кодирование Схема", "concept_b": "Нат", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Кодирование Схема", "concept_b": "Неравенство Крафта", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Кодирование Схема", "concept_b": "Неравенство Макмиллана", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Кодирование Схема", "concept_b": "Передатчик", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Кодирование Схема", "concept_b": "Приёмник", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Кодирование Схема", "concept_b": "Пропускная способность", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Кодирование Схема", "concept_b": "Событие", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Кодирование Схема", "concept_b": "Стирание символа", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Кодирование Схема", "concept_b": "Схема кодирования алфавитная", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Кодирование Схема", "concept_b": "Схема префиксная", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Кодирование Схема", "concept_b": "Схема разделимая", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Кодирование Схема", "concept_b": "Утечка информации", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Кодирование Схема", "concept_b": "Формула Байеса", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Кодирование Схема", "concept_b": "Формула Хартли", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Кодирование Схема", "concept_b": "Формула Шеннона", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Кодирование Схема", "concept_b": "Функция Шеннона", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Кодирование Схема", "concept_b": "Цена кодирования", "has_relation": true}
+{"paragraph_id": "6.1", "concept_a": "Кодирование Схема", "concept_b": "Частота относительная", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Кодирование Схема", "concept_b": "Шум информационный", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Кодирование Схема", "concept_b": "Энтропия", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Кодирование Схема", "concept_b": "Энтропия  информационная)", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Кодирование Схема", "concept_b": "Энтропия совместная", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Кодирование Схема", "concept_b": "Энтропия условная", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Кодирование Схема", "concept_b": "Эффективность кодирования", "has_relation": true}
+{"paragraph_id": "6.1", "concept_a": "Кодирование Схема", "concept_b": "дерево бинарное", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Кодирование алфавитное", "concept_b": "Кодовое слово", "has_relation": true}
+{"paragraph_id": "6.1", "concept_a": "Кодирование алфавитное", "concept_b": "Количество информации", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Кодирование алфавитное", "concept_b": "Матрица стохастическая", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Кодирование алфавитное", "concept_b": "Нат", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Кодирование алфавитное", "concept_b": "Неравенство Крафта", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Кодирование алфавитное", "concept_b": "Неравенство Макмиллана", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Кодирование алфавитное", "concept_b": "Передатчик", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Кодирование алфавитное", "concept_b": "Приёмник", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Кодирование алфавитное", "concept_b": "Пропускная способность", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Кодирование алфавитное", "concept_b": "Событие", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Кодирование алфавитное", "concept_b": "Стирание символа", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Кодирование алфавитное", "concept_b": "Схема кодирования алфавитная", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Кодирование алфавитное", "concept_b": "Схема префиксная", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Кодирование алфавитное", "concept_b": "Схема разделимая", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Кодирование алфавитное", "concept_b": "Утечка информации", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Кодирование алфавитное", "concept_b": "Формула Байеса", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Кодирование алфавитное", "concept_b": "Формула Хартли", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Кодирование алфавитное", "concept_b": "Формула Шеннона", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Кодирование алфавитное", "concept_b": "Функция Шеннона", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Кодирование алфавитное", "concept_b": "Цена кодирования", "has_relation": true}
+{"paragraph_id": "6.1", "concept_a": "Кодирование алфавитное", "concept_b": "Частота относительная", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Кодирование алфавитное", "concept_b": "Шум информационный", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Кодирование алфавитное", "concept_b": "Энтропия", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Кодирование алфавитное", "concept_b": "Энтропия  информационная)", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Кодирование алфавитное", "concept_b": "Энтропия совместная", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Кодирование алфавитное", "concept_b": "Энтропия условная", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Кодирование алфавитное", "concept_b": "Эффективность кодирования", "has_relation": true}
+{"paragraph_id": "6.1", "concept_a": "Кодирование алфавитное", "concept_b": "дерево бинарное", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Кодовое слово", "concept_b": "Количество информации", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Кодовое слово", "concept_b": "Матрица стохастическая", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Кодовое слово", "concept_b": "Нат", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Кодовое слово", "concept_b": "Неравенство Крафта", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Кодовое слово", "concept_b": "Неравенство Макмиллана", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Кодовое слово", "concept_b": "Передатчик", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Кодовое слово", "concept_b": "Приёмник", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Кодовое слово", "concept_b": "Пропускная способность", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Кодовое слово", "concept_b": "Событие", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Кодовое слово", "concept_b": "Стирание символа", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Кодовое слово", "concept_b": "Схема кодирования алфавитная", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Кодовое слово", "concept_b": "Схема префиксная", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Кодовое слово", "concept_b": "Схема разделимая", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Кодовое слово", "concept_b": "Утечка информации", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Кодовое слово", "concept_b": "Формула Байеса", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Кодовое слово", "concept_b": "Формула Хартли", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Кодовое слово", "concept_b": "Формула Шеннона", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Кодовое слово", "concept_b": "Функция Шеннона", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Кодовое слово", "concept_b": "Цена кодирования", "has_relation": true}
+{"paragraph_id": "6.1", "concept_a": "Кодовое слово", "concept_b": "Частота относительная", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Кодовое слово", "concept_b": "Шум информационный", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Кодовое слово", "concept_b": "Энтропия", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Кодовое слово", "concept_b": "Энтропия  информационная)", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Кодовое слово", "concept_b": "Энтропия совместная", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Кодовое слово", "concept_b": "Энтропия условная", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Кодовое слово", "concept_b": "Эффективность кодирования", "has_relation": true}
+{"paragraph_id": "6.1", "concept_a": "Кодовое слово", "concept_b": "дерево бинарное", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Количество информации", "concept_b": "Матрица стохастическая", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Количество информации", "concept_b": "Нат", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Количество информации", "concept_b": "Неравенство Крафта", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Количество информации", "concept_b": "Неравенство Макмиллана", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Количество информации", "concept_b": "Передатчик", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Количество информации", "concept_b": "Приёмник", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Количество информации", "concept_b": "Пропускная способность", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Количество информации", "concept_b": "Событие", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Количество информации", "concept_b": "Стирание символа", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Количество информации", "concept_b": "Схема кодирования алфавитная", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Количество информации", "concept_b": "Схема префиксная", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Количество информации", "concept_b": "Схема разделимая", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Количество информации", "concept_b": "Утечка информации", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Количество информации", "concept_b": "Формула Байеса", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Количество информации", "concept_b": "Формула Хартли", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Количество информации", "concept_b": "Формула Шеннона", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Количество информации", "concept_b": "Функция Шеннона", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Количество информации", "concept_b": "Цена кодирования", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Количество информации", "concept_b": "Частота относительная", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Количество информации", "concept_b": "Шум информационный", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Количество информации", "concept_b": "Энтропия", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Количество информации", "concept_b": "Энтропия  информационная)", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Количество информации", "concept_b": "Энтропия совместная", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Количество информации", "concept_b": "Энтропия условная", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Количество информации", "concept_b": "Эффективность кодирования", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Количество информации", "concept_b": "дерево бинарное", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Матрица стохастическая", "concept_b": "Нат", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Матрица стохастическая", "concept_b": "Неравенство Крафта", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Матрица стохастическая", "concept_b": "Неравенство Макмиллана", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Матрица стохастическая", "concept_b": "Передатчик", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Матрица стохастическая", "concept_b": "Приёмник", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Матрица стохастическая", "concept_b": "Пропускная способность", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Матрица стохастическая", "concept_b": "Событие", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Матрица стохастическая", "concept_b": "Стирание символа", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Матрица стохастическая", "concept_b": "Схема кодирования алфавитная", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Матрица стохастическая", "concept_b": "Схема префиксная", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Матрица стохастическая", "concept_b": "Схема разделимая", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Матрица стохастическая", "concept_b": "Утечка информации", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Матрица стохастическая", "concept_b": "Формула Байеса", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Матрица стохастическая", "concept_b": "Формула Хартли", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Матрица стохастическая", "concept_b": "Формула Шеннона", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Матрица стохастическая", "concept_b": "Функция Шеннона", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Матрица стохастическая", "concept_b": "Цена кодирования", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Матрица стохастическая", "concept_b": "Частота относительная", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Матрица стохастическая", "concept_b": "Шум информационный", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Матрица стохастическая", "concept_b": "Энтропия", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Матрица стохастическая", "concept_b": "Энтропия  информационная)", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Матрица стохастическая", "concept_b": "Энтропия совместная", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Матрица стохастическая", "concept_b": "Энтропия условная", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Матрица стохастическая", "concept_b": "Эффективность кодирования", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Матрица стохастическая", "concept_b": "дерево бинарное", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Нат", "concept_b": "Неравенство Крафта", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Нат", "concept_b": "Неравенство Макмиллана", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Нат", "concept_b": "Передатчик", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Нат", "concept_b": "Приёмник", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Нат", "concept_b": "Пропускная способность", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Нат", "concept_b": "Событие", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Нат", "concept_b": "Стирание символа", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Нат", "concept_b": "Схема кодирования алфавитная", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Нат", "concept_b": "Схема префиксная", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Нат", "concept_b": "Схема разделимая", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Нат", "concept_b": "Утечка информации", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Нат", "concept_b": "Формула Байеса", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Нат", "concept_b": "Формула Хартли", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Нат", "concept_b": "Формула Шеннона", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Нат", "concept_b": "Функция Шеннона", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Нат", "concept_b": "Цена кодирования", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Нат", "concept_b": "Частота относительная", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Нат", "concept_b": "Шум информационный", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Нат", "concept_b": "Энтропия", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Нат", "concept_b": "Энтропия  информационная)", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Нат", "concept_b": "Энтропия совместная", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Нат", "concept_b": "Энтропия условная", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Нат", "concept_b": "Эффективность кодирования", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Нат", "concept_b": "дерево бинарное", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Неравенство Крафта", "concept_b": "Неравенство Макмиллана", "has_relation": true}
+{"paragraph_id": "6.1", "concept_a": "Неравенство Крафта", "concept_b": "Передатчик", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Неравенство Крафта", "concept_b": "Приёмник", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Неравенство Крафта", "concept_b": "Пропускная способность", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Неравенство Крафта", "concept_b": "Событие", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Неравенство Крафта", "concept_b": "Стирание символа", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Неравенство Крафта", "concept_b": "Схема кодирования алфавитная", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Неравенство Крафта", "concept_b": "Схема префиксная", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Неравенство Крафта", "concept_b": "Схема разделимая", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Неравенство Крафта", "concept_b": "Утечка информации", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Неравенство Крафта", "concept_b": "Формула Байеса", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Неравенство Крафта", "concept_b": "Формула Хартли", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Неравенство Крафта", "concept_b": "Формула Шеннона", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Неравенство Крафта", "concept_b": "Функция Шеннона", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Неравенство Крафта", "concept_b": "Цена кодирования", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Неравенство Крафта", "concept_b": "Частота относительная", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Неравенство Крафта", "concept_b": "Шум информационный", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Неравенство Крафта", "concept_b": "Энтропия", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Неравенство Крафта", "concept_b": "Энтропия  информационная)", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Неравенство Крафта", "concept_b": "Энтропия совместная", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Неравенство Крафта", "concept_b": "Энтропия условная", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Неравенство Крафта", "concept_b": "Эффективность кодирования", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Неравенство Крафта", "concept_b": "дерево бинарное", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Неравенство Макмиллана", "concept_b": "Передатчик", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Неравенство Макмиллана", "concept_b": "Приёмник", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Неравенство Макмиллана", "concept_b": "Пропускная способность", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Неравенство Макмиллана", "concept_b": "Событие", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Неравенство Макмиллана", "concept_b": "Стирание символа", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Неравенство Макмиллана", "concept_b": "Схема кодирования алфавитная", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Неравенство Макмиллана", "concept_b": "Схема префиксная", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Неравенство Макмиллана", "concept_b": "Схема разделимая", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Неравенство Макмиллана", "concept_b": "Утечка информации", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Неравенство Макмиллана", "concept_b": "Формула Байеса", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Неравенство Макмиллана", "concept_b": "Формула Хартли", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Неравенство Макмиллана", "concept_b": "Формула Шеннона", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Неравенство Макмиллана", "concept_b": "Функция Шеннона", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Неравенство Макмиллана", "concept_b": "Цена кодирования", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Неравенство Макмиллана", "concept_b": "Частота относительная", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Неравенство Макмиллана", "concept_b": "Шум информационный", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Неравенство Макмиллана", "concept_b": "Энтропия", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Неравенство Макмиллана", "concept_b": "Энтропия  информационная)", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Неравенство Макмиллана", "concept_b": "Энтропия совместная", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Неравенство Макмиллана", "concept_b": "Энтропия условная", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Неравенство Макмиллана", "concept_b": "Эффективность кодирования", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Неравенство Макмиллана", "concept_b": "дерево бинарное", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Передатчик", "concept_b": "Приёмник", "has_relation": true}
+{"paragraph_id": "6.1", "concept_a": "Передатчик", "concept_b": "Пропускная способность", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Передатчик", "concept_b": "Событие", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Передатчик", "concept_b": "Стирание символа", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Передатчик", "concept_b": "Схема кодирования алфавитная", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Передатчик", "concept_b": "Схема префиксная", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Передатчик", "concept_b": "Схема разделимая", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Передатчик", "concept_b": "Утечка информации", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Передатчик", "concept_b": "Формула Байеса", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Передатчик", "concept_b": "Формула Хартли", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Передатчик", "concept_b": "Формула Шеннона", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Передатчик", "concept_b": "Функция Шеннона", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Передатчик", "concept_b": "Цена кодирования", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Передатчик", "concept_b": "Частота относительная", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Передатчик", "concept_b": "Шум информационный", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Передатчик", "concept_b": "Энтропия", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Передатчик", "concept_b": "Энтропия  информационная)", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Передатчик", "concept_b": "Энтропия совместная", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Передатчик", "concept_b": "Энтропия условная", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Передатчик", "concept_b": "Эффективность кодирования", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Передатчик", "concept_b": "дерево бинарное", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Приёмник", "concept_b": "Пропускная способность", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Приёмник", "concept_b": "Событие", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Приёмник", "concept_b": "Стирание символа", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Приёмник", "concept_b": "Схема кодирования алфавитная", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Приёмник", "concept_b": "Схема префиксная", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Приёмник", "concept_b": "Схема разделимая", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Приёмник", "concept_b": "Утечка информации", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Приёмник", "concept_b": "Формула Байеса", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Приёмник", "concept_b": "Формула Хартли", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Приёмник", "concept_b": "Формула Шеннона", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Приёмник", "concept_b": "Функция Шеннона", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Приёмник", "concept_b": "Цена кодирования", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Приёмник", "concept_b": "Частота относительная", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Приёмник", "concept_b": "Шум информационный", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Приёмник", "concept_b": "Энтропия", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Приёмник", "concept_b": "Энтропия  информационная)", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Приёмник", "concept_b": "Энтропия совместная", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Приёмник", "concept_b": "Энтропия условная", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Приёмник", "concept_b": "Эффективность кодирования", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Приёмник", "concept_b": "дерево бинарное", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Пропускная способность", "concept_b": "Событие", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Пропускная способность", "concept_b": "Стирание символа", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Пропускная способность", "concept_b": "Схема кодирования алфавитная", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Пропускная способность", "concept_b": "Схема префиксная", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Пропускная способность", "concept_b": "Схема разделимая", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Пропускная способность", "concept_b": "Утечка информации", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Пропускная способность", "concept_b": "Формула Байеса", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Пропускная способность", "concept_b": "Формула Хартли", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Пропускная способность", "concept_b": "Формула Шеннона", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Пропускная способность", "concept_b": "Функция Шеннона", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Пропускная способность", "concept_b": "Цена кодирования", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Пропускная способность", "concept_b": "Частота относительная", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Пропускная способность", "concept_b": "Шум информационный", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Пропускная способность", "concept_b": "Энтропия", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Пропускная способность", "concept_b": "Энтропия  информационная)", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Пропускная способность", "concept_b": "Энтропия совместная", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Пропускная способность", "concept_b": "Энтропия условная", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Пропускная способность", "concept_b": "Эффективность кодирования", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Пропускная способность", "concept_b": "дерево бинарное", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Событие", "concept_b": "Стирание символа", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Событие", "concept_b": "Схема кодирования алфавитная", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Событие", "concept_b": "Схема префиксная", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Событие", "concept_b": "Схема разделимая", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Событие", "concept_b": "Утечка информации", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Событие", "concept_b": "Формула Байеса", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Событие", "concept_b": "Формула Хартли", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Событие", "concept_b": "Формула Шеннона", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Событие", "concept_b": "Функция Шеннона", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Событие", "concept_b": "Цена кодирования", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Событие", "concept_b": "Частота относительная", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Событие", "concept_b": "Шум информационный", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Событие", "concept_b": "Энтропия", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Событие", "concept_b": "Энтропия  информационная)", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Событие", "concept_b": "Энтропия совместная", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Событие", "concept_b": "Энтропия условная", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Событие", "concept_b": "Эффективность кодирования", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Событие", "concept_b": "дерево бинарное", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Стирание символа", "concept_b": "Схема кодирования алфавитная", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Стирание символа", "concept_b": "Схема префиксная", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Стирание символа", "concept_b": "Схема разделимая", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Стирание символа", "concept_b": "Утечка информации", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Стирание символа", "concept_b": "Формула Байеса", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Стирание символа", "concept_b": "Формула Хартли", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Стирание символа", "concept_b": "Формула Шеннона", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Стирание символа", "concept_b": "Функция Шеннона", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Стирание символа", "concept_b": "Цена кодирования", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Стирание символа", "concept_b": "Частота относительная", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Стирание символа", "concept_b": "Шум информационный", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Стирание символа", "concept_b": "Энтропия", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Стирание символа", "concept_b": "Энтропия  информационная)", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Стирание символа", "concept_b": "Энтропия совместная", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Стирание символа", "concept_b": "Энтропия условная", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Стирание символа", "concept_b": "Эффективность кодирования", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Стирание символа", "concept_b": "дерево бинарное", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Схема кодирования алфавитная", "concept_b": "Схема префиксная", "has_relation": true}
+{"paragraph_id": "6.1", "concept_a": "Схема кодирования алфавитная", "concept_b": "Схема разделимая", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Схема кодирования алфавитная", "concept_b": "Утечка информации", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Схема кодирования алфавитная", "concept_b": "Формула Байеса", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Схема кодирования алфавитная", "concept_b": "Формула Хартли", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Схема кодирования алфавитная", "concept_b": "Формула Шеннона", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Схема кодирования алфавитная", "concept_b": "Функция Шеннона", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Схема кодирования алфавитная", "concept_b": "Цена кодирования", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Схема кодирования алфавитная", "concept_b": "Частота относительная", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Схема кодирования алфавитная", "concept_b": "Шум информационный", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Схема кодирования алфавитная", "concept_b": "Энтропия", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Схема кодирования алфавитная", "concept_b": "Энтропия  информационная)", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Схема кодирования алфавитная", "concept_b": "Энтропия совместная", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Схема кодирования алфавитная", "concept_b": "Энтропия условная", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Схема кодирования алфавитная", "concept_b": "Эффективность кодирования", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Схема кодирования алфавитная", "concept_b": "дерево бинарное", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Схема префиксная", "concept_b": "Схема разделимая", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Схема префиксная", "concept_b": "Утечка информации", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Схема префиксная", "concept_b": "Формула Байеса", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Схема префиксная", "concept_b": "Формула Хартли", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Схема префиксная", "concept_b": "Формула Шеннона", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Схема префиксная", "concept_b": "Функция Шеннона", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Схема префиксная", "concept_b": "Цена кодирования", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Схема префиксная", "concept_b": "Частота относительная", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Схема префиксная", "concept_b": "Шум информационный", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Схема префиксная", "concept_b": "Энтропия", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Схема префиксная", "concept_b": "Энтропия  информационная)", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Схема префиксная", "concept_b": "Энтропия совместная", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Схема префиксная", "concept_b": "Энтропия условная", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Схема префиксная", "concept_b": "Эффективность кодирования", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Схема префиксная", "concept_b": "дерево бинарное", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Схема разделимая", "concept_b": "Утечка информации", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Схема разделимая", "concept_b": "Формула Байеса", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Схема разделимая", "concept_b": "Формула Хартли", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Схема разделимая", "concept_b": "Формула Шеннона", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Схема разделимая", "concept_b": "Функция Шеннона", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Схема разделимая", "concept_b": "Цена кодирования", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Схема разделимая", "concept_b": "Частота относительная", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Схема разделимая", "concept_b": "Шум информационный", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Схема разделимая", "concept_b": "Энтропия", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Схема разделимая", "concept_b": "Энтропия  информационная)", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Схема разделимая", "concept_b": "Энтропия совместная", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Схема разделимая", "concept_b": "Энтропия условная", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Схема разделимая", "concept_b": "Эффективность кодирования", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Схема разделимая", "concept_b": "дерево бинарное", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Утечка информации", "concept_b": "Формула Байеса", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Утечка информации", "concept_b": "Формула Хартли", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Утечка информации", "concept_b": "Формула Шеннона", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Утечка информации", "concept_b": "Функция Шеннона", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Утечка информации", "concept_b": "Цена кодирования", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Утечка информации", "concept_b": "Частота относительная", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Утечка информации", "concept_b": "Шум информационный", "has_relation": true}
+{"paragraph_id": "6.1", "concept_a": "Утечка информации", "concept_b": "Энтропия", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Утечка информации", "concept_b": "Энтропия  информационная)", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Утечка информации", "concept_b": "Энтропия совместная", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Утечка информации", "concept_b": "Энтропия условная", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Утечка информации", "concept_b": "Эффективность кодирования", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Утечка информации", "concept_b": "дерево бинарное", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Формула Байеса", "concept_b": "Формула Хартли", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Формула Байеса", "concept_b": "Формула Шеннона", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Формула Байеса", "concept_b": "Функция Шеннона", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Формула Байеса", "concept_b": "Цена кодирования", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Формула Байеса", "concept_b": "Частота относительная", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Формула Байеса", "concept_b": "Шум информационный", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Формула Байеса", "concept_b": "Энтропия", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Формула Байеса", "concept_b": "Энтропия  информационная)", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Формула Байеса", "concept_b": "Энтропия совместная", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Формула Байеса", "concept_b": "Энтропия условная", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Формула Байеса", "concept_b": "Эффективность кодирования", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Формула Байеса", "concept_b": "дерево бинарное", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Формула Хартли", "concept_b": "Формула Шеннона", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Формула Хартли", "concept_b": "Функция Шеннона", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Формула Хартли", "concept_b": "Цена кодирования", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Формула Хартли", "concept_b": "Частота относительная", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Формула Хартли", "concept_b": "Шум информационный", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Формула Хартли", "concept_b": "Энтропия", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Формула Хартли", "concept_b": "Энтропия  информационная)", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Формула Хартли", "concept_b": "Энтропия совместная", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Формула Хартли", "concept_b": "Энтропия условная", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Формула Хартли", "concept_b": "Эффективность кодирования", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Формула Хартли", "concept_b": "дерево бинарное", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Формула Шеннона", "concept_b": "Функция Шеннона", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Формула Шеннона", "concept_b": "Цена кодирования", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Формула Шеннона", "concept_b": "Частота относительная", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Формула Шеннона", "concept_b": "Шум информационный", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Формула Шеннона", "concept_b": "Энтропия", "has_relation": true}
+{"paragraph_id": "6.1", "concept_a": "Формула Шеннона", "concept_b": "Энтропия  информационная)", "has_relation": true}
+{"paragraph_id": "6.1", "concept_a": "Формула Шеннона", "concept_b": "Энтропия совместная", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Формула Шеннона", "concept_b": "Энтропия условная", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Формула Шеннона", "concept_b": "Эффективность кодирования", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Формула Шеннона", "concept_b": "дерево бинарное", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Функция Шеннона", "concept_b": "Цена кодирования", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Функция Шеннона", "concept_b": "Частота относительная", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Функция Шеннона", "concept_b": "Шум информационный", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Функция Шеннона", "concept_b": "Энтропия", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Функция Шеннона", "concept_b": "Энтропия  информационная)", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Функция Шеннона", "concept_b": "Энтропия совместная", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Функция Шеннона", "concept_b": "Энтропия условная", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Функция Шеннона", "concept_b": "Эффективность кодирования", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Функция Шеннона", "concept_b": "дерево бинарное", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Цена кодирования", "concept_b": "Частота относительная", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Цена кодирования", "concept_b": "Шум информационный", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Цена кодирования", "concept_b": "Энтропия", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Цена кодирования", "concept_b": "Энтропия  информационная)", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Цена кодирования", "concept_b": "Энтропия совместная", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Цена кодирования", "concept_b": "Энтропия условная", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Цена кодирования", "concept_b": "Эффективность кодирования", "has_relation": true}
+{"paragraph_id": "6.1", "concept_a": "Цена кодирования", "concept_b": "дерево бинарное", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Частота относительная", "concept_b": "Шум информационный", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Частота относительная", "concept_b": "Энтропия", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Частота относительная", "concept_b": "Энтропия  информационная)", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Частота относительная", "concept_b": "Энтропия совместная", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Частота относительная", "concept_b": "Энтропия условная", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Частота относительная", "concept_b": "Эффективность кодирования", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Частота относительная", "concept_b": "дерево бинарное", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Шум информационный", "concept_b": "Энтропия", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Шум информационный", "concept_b": "Энтропия  информационная)", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Шум информационный", "concept_b": "Энтропия совместная", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Шум информационный", "concept_b": "Энтропия условная", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Шум информационный", "concept_b": "Эффективность кодирования", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Шум информационный", "concept_b": "дерево бинарное", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Энтропия", "concept_b": "Энтропия  информационная)", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Энтропия", "concept_b": "Энтропия совместная", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Энтропия", "concept_b": "Энтропия условная", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Энтропия", "concept_b": "Эффективность кодирования", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Энтропия", "concept_b": "дерево бинарное", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Энтропия  информационная)", "concept_b": "Энтропия совместная", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Энтропия  информационная)", "concept_b": "Энтропия условная", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Энтропия  информационная)", "concept_b": "Эффективность кодирования", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Энтропия  информационная)", "concept_b": "дерево бинарное", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Энтропия совместная", "concept_b": "Энтропия условная", "has_relation": true}
+{"paragraph_id": "6.1", "concept_a": "Энтропия совместная", "concept_b": "Эффективность кодирования", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Энтропия совместная", "concept_b": "дерево бинарное", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Энтропия условная", "concept_b": "Эффективность кодирования", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Энтропия условная", "concept_b": "дерево бинарное", "has_relation": false}
+{"paragraph_id": "6.1", "concept_a": "Эффективность кодирования", "concept_b": "дерево бинарное", "has_relation": false}

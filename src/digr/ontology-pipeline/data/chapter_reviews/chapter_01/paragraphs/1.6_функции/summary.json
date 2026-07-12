@@ -1,0 +1,18 @@
+{
+  "paragraph_id": "1.6",
+  "paragraph_title": "1.6. Функции",
+  "folder": "1.6_функции",
+  "relations_reviewed": 87,
+  "corrected_relations": 76,
+  "category_counts": {
+    "found_on_diagram_correct": 0,
+    "found_on_diagram_wrong_direction": 0,
+    "found_on_diagram_wrong_type": 1,
+    "found_on_diagram_wrong_direction_and_type": 1,
+    "found_not_on_diagram_accepted": 74,
+    "found_not_on_diagram_rejected": 1,
+    "not_found_from_diagram": 10
+  },
+  "rendered": false,
+  "render_error": "Обнаружен циклический архитектурный антипаттерн взаимосвязи иерархий (a^+ b^+ a^+ b^+) для класса 'ОбластьЗначенийФункции'\nОбнаружен циклический архитектурный антипаттерн взаимосвязи иерархий (a^+ b^+ a^+ b^+) для класса 'ПродолжениеФункции'\nОбнаружен циклический архитектурный антипаттерн взаимосвязи иерархий (a^+ b^+ a^+ b^+) для класса 'СужениеФункции'\nОбнаружен циклический архитектурный антипаттерн взаимосвязи иерархий (a^+ b^+ a^+ b^+) для класса 'ФункцияТотальная'"
+}

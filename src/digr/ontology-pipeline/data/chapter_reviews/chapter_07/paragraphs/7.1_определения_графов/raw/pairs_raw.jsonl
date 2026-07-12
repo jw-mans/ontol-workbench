@@ -1,0 +1,703 @@
+{"paragraph_id": "7.1", "concept_a": "10.8.2.", "concept_b": "Автоморфизм графов", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "10.8.2.", "concept_b": "Вершина графа", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "10.8.2.", "concept_b": "Гиперграф", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "10.8.2.", "concept_b": "Гипердуга", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "10.8.2.", "concept_b": "Гиперорграф", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "10.8.2.", "concept_b": "Гиперребро", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "10.8.2.", "concept_b": "Граф", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "10.8.2.", "concept_b": "Граф абстрактный", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "10.8.2.", "concept_b": "Граф нагруженный", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "10.8.2.", "concept_b": "Граф нумерованный", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "10.8.2.", "concept_b": "Граф ориентированный", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "10.8.2.", "concept_b": "Граф помеченный", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "10.8.2.", "concept_b": "Граф с петлями", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "10.8.2.", "concept_b": "Диаграмма графа", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "10.8.2.", "concept_b": "Дополнение графа", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "10.8.2.", "concept_b": "Дуга", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "10.8.2.", "concept_b": "Задача о Кёнигсбергских мостах (K$\\ddot{\\text{o", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "10.8.2.", "concept_b": "Задача о четырёх красках", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "10.8.2.", "concept_b": "Изоморфизм графов", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "10.8.2.", "concept_b": "Изоморфизм графов рёберный", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "10.8.2.", "concept_b": "Инвариант графа", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "10.8.2.", "concept_b": "Инцидентность", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "10.8.2.", "concept_b": "Карта", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "10.8.2.", "concept_b": "Множество инцендентности вершин", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "10.8.2.", "concept_b": "Множество пометок", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "10.8.2.", "concept_b": "Множество смежности", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "10.8.2.", "concept_b": "Мультиграф", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "10.8.2.", "concept_b": "Окрестность вершины", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "10.8.2.", "concept_b": "Орграф", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "10.8.2.", "concept_b": "Петля", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "10.8.2.", "concept_b": "Псевдограф", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "10.8.2.", "concept_b": "Равенство графов", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "10.8.2.", "concept_b": "Ребро графа", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "10.8.2.", "concept_b": "Ребро кратное", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "10.8.2.", "concept_b": "Смежность вершин", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "10.8.2.", "concept_b": "Смежность рёбер", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "10.8.2.", "concept_b": "Узел", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Автоморфизм графов", "concept_b": "Вершина графа", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Автоморфизм графов", "concept_b": "Гиперграф", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Автоморфизм графов", "concept_b": "Гипердуга", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Автоморфизм графов", "concept_b": "Гиперорграф", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Автоморфизм графов", "concept_b": "Гиперребро", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Автоморфизм графов", "concept_b": "Граф", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Автоморфизм графов", "concept_b": "Граф абстрактный", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Автоморфизм графов", "concept_b": "Граф нагруженный", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Автоморфизм графов", "concept_b": "Граф нумерованный", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Автоморфизм графов", "concept_b": "Граф ориентированный", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Автоморфизм графов", "concept_b": "Граф помеченный", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Автоморфизм графов", "concept_b": "Граф с петлями", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Автоморфизм графов", "concept_b": "Диаграмма графа", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Автоморфизм графов", "concept_b": "Дополнение графа", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Автоморфизм графов", "concept_b": "Дуга", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Автоморфизм графов", "concept_b": "Задача о Кёнигсбергских мостах (K$\\ddot{\\text{o", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Автоморфизм графов", "concept_b": "Задача о четырёх красках", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Автоморфизм графов", "concept_b": "Изоморфизм графов", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Автоморфизм графов", "concept_b": "Изоморфизм графов рёберный", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Автоморфизм графов", "concept_b": "Инвариант графа", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Автоморфизм графов", "concept_b": "Инцидентность", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Автоморфизм графов", "concept_b": "Карта", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Автоморфизм графов", "concept_b": "Множество инцендентности вершин", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Автоморфизм графов", "concept_b": "Множество пометок", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Автоморфизм графов", "concept_b": "Множество смежности", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Автоморфизм графов", "concept_b": "Мультиграф", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Автоморфизм графов", "concept_b": "Окрестность вершины", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Автоморфизм графов", "concept_b": "Орграф", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Автоморфизм графов", "concept_b": "Петля", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Автоморфизм графов", "concept_b": "Псевдограф", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Автоморфизм графов", "concept_b": "Равенство графов", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Автоморфизм графов", "concept_b": "Ребро графа", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Автоморфизм графов", "concept_b": "Ребро кратное", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Автоморфизм графов", "concept_b": "Смежность вершин", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Автоморфизм графов", "concept_b": "Смежность рёбер", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Автоморфизм графов", "concept_b": "Узел", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Вершина графа", "concept_b": "Гиперграф", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Вершина графа", "concept_b": "Гипердуга", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Вершина графа", "concept_b": "Гиперорграф", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Вершина графа", "concept_b": "Гиперребро", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Вершина графа", "concept_b": "Граф", "has_relation": true}
+{"paragraph_id": "7.1", "concept_a": "Вершина графа", "concept_b": "Граф абстрактный", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Вершина графа", "concept_b": "Граф нагруженный", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Вершина графа", "concept_b": "Граф нумерованный", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Вершина графа", "concept_b": "Граф ориентированный", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Вершина графа", "concept_b": "Граф помеченный", "has_relation": true}
+{"paragraph_id": "7.1", "concept_a": "Вершина графа", "concept_b": "Граф с петлями", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Вершина графа", "concept_b": "Диаграмма графа", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Вершина графа", "concept_b": "Дополнение графа", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Вершина графа", "concept_b": "Дуга", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Вершина графа", "concept_b": "Задача о Кёнигсбергских мостах (K$\\ddot{\\text{o", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Вершина графа", "concept_b": "Задача о четырёх красках", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Вершина графа", "concept_b": "Изоморфизм графов", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Вершина графа", "concept_b": "Изоморфизм графов рёберный", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Вершина графа", "concept_b": "Инвариант графа", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Вершина графа", "concept_b": "Инцидентность", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Вершина графа", "concept_b": "Карта", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Вершина графа", "concept_b": "Множество инцендентности вершин", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Вершина графа", "concept_b": "Множество пометок", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Вершина графа", "concept_b": "Множество смежности", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Вершина графа", "concept_b": "Мультиграф", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Вершина графа", "concept_b": "Окрестность вершины", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Вершина графа", "concept_b": "Орграф", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Вершина графа", "concept_b": "Петля", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Вершина графа", "concept_b": "Псевдограф", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Вершина графа", "concept_b": "Равенство графов", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Вершина графа", "concept_b": "Ребро графа", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Вершина графа", "concept_b": "Ребро кратное", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Вершина графа", "concept_b": "Смежность вершин", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Вершина графа", "concept_b": "Смежность рёбер", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Вершина графа", "concept_b": "Узел", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Гиперграф", "concept_b": "Гипердуга", "has_relation": true}
+{"paragraph_id": "7.1", "concept_a": "Гиперграф", "concept_b": "Гиперорграф", "has_relation": true}
+{"paragraph_id": "7.1", "concept_a": "Гиперграф", "concept_b": "Гиперребро", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Гиперграф", "concept_b": "Граф", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Гиперграф", "concept_b": "Граф абстрактный", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Гиперграф", "concept_b": "Граф нагруженный", "has_relation": true}
+{"paragraph_id": "7.1", "concept_a": "Гиперграф", "concept_b": "Граф нумерованный", "has_relation": true}
+{"paragraph_id": "7.1", "concept_a": "Гиперграф", "concept_b": "Граф ориентированный", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Гиперграф", "concept_b": "Граф помеченный", "has_relation": true}
+{"paragraph_id": "7.1", "concept_a": "Гиперграф", "concept_b": "Граф с петлями", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Гиперграф", "concept_b": "Диаграмма графа", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Гиперграф", "concept_b": "Дополнение графа", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Гиперграф", "concept_b": "Дуга", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Гиперграф", "concept_b": "Задача о Кёнигсбергских мостах (K$\\ddot{\\text{o", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Гиперграф", "concept_b": "Задача о четырёх красках", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Гиперграф", "concept_b": "Изоморфизм графов", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Гиперграф", "concept_b": "Изоморфизм графов рёберный", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Гиперграф", "concept_b": "Инвариант графа", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Гиперграф", "concept_b": "Инцидентность", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Гиперграф", "concept_b": "Карта", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Гиперграф", "concept_b": "Множество инцендентности вершин", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Гиперграф", "concept_b": "Множество пометок", "has_relation": true}
+{"paragraph_id": "7.1", "concept_a": "Гиперграф", "concept_b": "Множество смежности", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Гиперграф", "concept_b": "Мультиграф", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Гиперграф", "concept_b": "Окрестность вершины", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Гиперграф", "concept_b": "Орграф", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Гиперграф", "concept_b": "Петля", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Гиперграф", "concept_b": "Псевдограф", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Гиперграф", "concept_b": "Равенство графов", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Гиперграф", "concept_b": "Ребро графа", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Гиперграф", "concept_b": "Ребро кратное", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Гиперграф", "concept_b": "Смежность вершин", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Гиперграф", "concept_b": "Смежность рёбер", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Гиперграф", "concept_b": "Узел", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Гипердуга", "concept_b": "Гиперорграф", "has_relation": true}
+{"paragraph_id": "7.1", "concept_a": "Гипердуга", "concept_b": "Гиперребро", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Гипердуга", "concept_b": "Граф", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Гипердуга", "concept_b": "Граф абстрактный", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Гипердуга", "concept_b": "Граф нагруженный", "has_relation": true}
+{"paragraph_id": "7.1", "concept_a": "Гипердуга", "concept_b": "Граф нумерованный", "has_relation": true}
+{"paragraph_id": "7.1", "concept_a": "Гипердуга", "concept_b": "Граф ориентированный", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Гипердуга", "concept_b": "Граф помеченный", "has_relation": true}
+{"paragraph_id": "7.1", "concept_a": "Гипердуга", "concept_b": "Граф с петлями", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Гипердуга", "concept_b": "Диаграмма графа", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Гипердуга", "concept_b": "Дополнение графа", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Гипердуга", "concept_b": "Дуга", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Гипердуга", "concept_b": "Задача о Кёнигсбергских мостах (K$\\ddot{\\text{o", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Гипердуга", "concept_b": "Задача о четырёх красках", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Гипердуга", "concept_b": "Изоморфизм графов", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Гипердуга", "concept_b": "Изоморфизм графов рёберный", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Гипердуга", "concept_b": "Инвариант графа", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Гипердуга", "concept_b": "Инцидентность", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Гипердуга", "concept_b": "Карта", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Гипердуга", "concept_b": "Множество инцендентности вершин", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Гипердуга", "concept_b": "Множество пометок", "has_relation": true}
+{"paragraph_id": "7.1", "concept_a": "Гипердуга", "concept_b": "Множество смежности", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Гипердуга", "concept_b": "Мультиграф", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Гипердуга", "concept_b": "Окрестность вершины", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Гипердуга", "concept_b": "Орграф", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Гипердуга", "concept_b": "Петля", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Гипердуга", "concept_b": "Псевдограф", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Гипердуга", "concept_b": "Равенство графов", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Гипердуга", "concept_b": "Ребро графа", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Гипердуга", "concept_b": "Ребро кратное", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Гипердуга", "concept_b": "Смежность вершин", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Гипердуга", "concept_b": "Смежность рёбер", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Гипердуга", "concept_b": "Узел", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Гиперорграф", "concept_b": "Гиперребро", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Гиперорграф", "concept_b": "Граф", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Гиперорграф", "concept_b": "Граф абстрактный", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Гиперорграф", "concept_b": "Граф нагруженный", "has_relation": true}
+{"paragraph_id": "7.1", "concept_a": "Гиперорграф", "concept_b": "Граф нумерованный", "has_relation": true}
+{"paragraph_id": "7.1", "concept_a": "Гиперорграф", "concept_b": "Граф ориентированный", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Гиперорграф", "concept_b": "Граф помеченный", "has_relation": true}
+{"paragraph_id": "7.1", "concept_a": "Гиперорграф", "concept_b": "Граф с петлями", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Гиперорграф", "concept_b": "Диаграмма графа", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Гиперорграф", "concept_b": "Дополнение графа", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Гиперорграф", "concept_b": "Дуга", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Гиперорграф", "concept_b": "Задача о Кёнигсбергских мостах (K$\\ddot{\\text{o", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Гиперорграф", "concept_b": "Задача о четырёх красках", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Гиперорграф", "concept_b": "Изоморфизм графов", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Гиперорграф", "concept_b": "Изоморфизм графов рёберный", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Гиперорграф", "concept_b": "Инвариант графа", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Гиперорграф", "concept_b": "Инцидентность", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Гиперорграф", "concept_b": "Карта", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Гиперорграф", "concept_b": "Множество инцендентности вершин", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Гиперорграф", "concept_b": "Множество пометок", "has_relation": true}
+{"paragraph_id": "7.1", "concept_a": "Гиперорграф", "concept_b": "Множество смежности", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Гиперорграф", "concept_b": "Мультиграф", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Гиперорграф", "concept_b": "Окрестность вершины", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Гиперорграф", "concept_b": "Орграф", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Гиперорграф", "concept_b": "Петля", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Гиперорграф", "concept_b": "Псевдограф", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Гиперорграф", "concept_b": "Равенство графов", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Гиперорграф", "concept_b": "Ребро графа", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Гиперорграф", "concept_b": "Ребро кратное", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Гиперорграф", "concept_b": "Смежность вершин", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Гиперорграф", "concept_b": "Смежность рёбер", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Гиперорграф", "concept_b": "Узел", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Гиперребро", "concept_b": "Граф", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Гиперребро", "concept_b": "Граф абстрактный", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Гиперребро", "concept_b": "Граф нагруженный", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Гиперребро", "concept_b": "Граф нумерованный", "has_relation": true}
+{"paragraph_id": "7.1", "concept_a": "Гиперребро", "concept_b": "Граф ориентированный", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Гиперребро", "concept_b": "Граф помеченный", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Гиперребро", "concept_b": "Граф с петлями", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Гиперребро", "concept_b": "Диаграмма графа", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Гиперребро", "concept_b": "Дополнение графа", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Гиперребро", "concept_b": "Дуга", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Гиперребро", "concept_b": "Задача о Кёнигсбергских мостах (K$\\ddot{\\text{o", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Гиперребро", "concept_b": "Задача о четырёх красках", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Гиперребро", "concept_b": "Изоморфизм графов", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Гиперребро", "concept_b": "Изоморфизм графов рёберный", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Гиперребро", "concept_b": "Инвариант графа", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Гиперребро", "concept_b": "Инцидентность", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Гиперребро", "concept_b": "Карта", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Гиперребро", "concept_b": "Множество инцендентности вершин", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Гиперребро", "concept_b": "Множество пометок", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Гиперребро", "concept_b": "Множество смежности", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Гиперребро", "concept_b": "Мультиграф", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Гиперребро", "concept_b": "Окрестность вершины", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Гиперребро", "concept_b": "Орграф", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Гиперребро", "concept_b": "Петля", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Гиперребро", "concept_b": "Псевдограф", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Гиперребро", "concept_b": "Равенство графов", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Гиперребро", "concept_b": "Ребро графа", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Гиперребро", "concept_b": "Ребро кратное", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Гиперребро", "concept_b": "Смежность вершин", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Гиперребро", "concept_b": "Смежность рёбер", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Гиперребро", "concept_b": "Узел", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Граф", "concept_b": "Граф абстрактный", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Граф", "concept_b": "Граф нагруженный", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Граф", "concept_b": "Граф нумерованный", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Граф", "concept_b": "Граф ориентированный", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Граф", "concept_b": "Граф помеченный", "has_relation": true}
+{"paragraph_id": "7.1", "concept_a": "Граф", "concept_b": "Граф с петлями", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Граф", "concept_b": "Диаграмма графа", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Граф", "concept_b": "Дополнение графа", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Граф", "concept_b": "Дуга", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Граф", "concept_b": "Задача о Кёнигсбергских мостах (K$\\ddot{\\text{o", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Граф", "concept_b": "Задача о четырёх красках", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Граф", "concept_b": "Изоморфизм графов", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Граф", "concept_b": "Изоморфизм графов рёберный", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Граф", "concept_b": "Инвариант графа", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Граф", "concept_b": "Инцидентность", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Граф", "concept_b": "Карта", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Граф", "concept_b": "Множество инцендентности вершин", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Граф", "concept_b": "Множество пометок", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Граф", "concept_b": "Множество смежности", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Граф", "concept_b": "Мультиграф", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Граф", "concept_b": "Окрестность вершины", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Граф", "concept_b": "Орграф", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Граф", "concept_b": "Петля", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Граф", "concept_b": "Псевдограф", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Граф", "concept_b": "Равенство графов", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Граф", "concept_b": "Ребро графа", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Граф", "concept_b": "Ребро кратное", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Граф", "concept_b": "Смежность вершин", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Граф", "concept_b": "Смежность рёбер", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Граф", "concept_b": "Узел", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Граф абстрактный", "concept_b": "Граф нагруженный", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Граф абстрактный", "concept_b": "Граф нумерованный", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Граф абстрактный", "concept_b": "Граф ориентированный", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Граф абстрактный", "concept_b": "Граф помеченный", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Граф абстрактный", "concept_b": "Граф с петлями", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Граф абстрактный", "concept_b": "Диаграмма графа", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Граф абстрактный", "concept_b": "Дополнение графа", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Граф абстрактный", "concept_b": "Дуга", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Граф абстрактный", "concept_b": "Задача о Кёнигсбергских мостах (K$\\ddot{\\text{o", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Граф абстрактный", "concept_b": "Задача о четырёх красках", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Граф абстрактный", "concept_b": "Изоморфизм графов", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Граф абстрактный", "concept_b": "Изоморфизм графов рёберный", "has_relation": true}
+{"paragraph_id": "7.1", "concept_a": "Граф абстрактный", "concept_b": "Инвариант графа", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Граф абстрактный", "concept_b": "Инцидентность", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Граф абстрактный", "concept_b": "Карта", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Граф абстрактный", "concept_b": "Множество инцендентности вершин", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Граф абстрактный", "concept_b": "Множество пометок", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Граф абстрактный", "concept_b": "Множество смежности", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Граф абстрактный", "concept_b": "Мультиграф", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Граф абстрактный", "concept_b": "Окрестность вершины", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Граф абстрактный", "concept_b": "Орграф", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Граф абстрактный", "concept_b": "Петля", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Граф абстрактный", "concept_b": "Псевдограф", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Граф абстрактный", "concept_b": "Равенство графов", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Граф абстрактный", "concept_b": "Ребро графа", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Граф абстрактный", "concept_b": "Ребро кратное", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Граф абстрактный", "concept_b": "Смежность вершин", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Граф абстрактный", "concept_b": "Смежность рёбер", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Граф абстрактный", "concept_b": "Узел", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Граф нагруженный", "concept_b": "Граф нумерованный", "has_relation": true}
+{"paragraph_id": "7.1", "concept_a": "Граф нагруженный", "concept_b": "Граф ориентированный", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Граф нагруженный", "concept_b": "Граф помеченный", "has_relation": true}
+{"paragraph_id": "7.1", "concept_a": "Граф нагруженный", "concept_b": "Граф с петлями", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Граф нагруженный", "concept_b": "Диаграмма графа", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Граф нагруженный", "concept_b": "Дополнение графа", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Граф нагруженный", "concept_b": "Дуга", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Граф нагруженный", "concept_b": "Задача о Кёнигсбергских мостах (K$\\ddot{\\text{o", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Граф нагруженный", "concept_b": "Задача о четырёх красках", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Граф нагруженный", "concept_b": "Изоморфизм графов", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Граф нагруженный", "concept_b": "Изоморфизм графов рёберный", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Граф нагруженный", "concept_b": "Инвариант графа", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Граф нагруженный", "concept_b": "Инцидентность", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Граф нагруженный", "concept_b": "Карта", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Граф нагруженный", "concept_b": "Множество инцендентности вершин", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Граф нагруженный", "concept_b": "Множество пометок", "has_relation": true}
+{"paragraph_id": "7.1", "concept_a": "Граф нагруженный", "concept_b": "Множество смежности", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Граф нагруженный", "concept_b": "Мультиграф", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Граф нагруженный", "concept_b": "Окрестность вершины", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Граф нагруженный", "concept_b": "Орграф", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Граф нагруженный", "concept_b": "Петля", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Граф нагруженный", "concept_b": "Псевдограф", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Граф нагруженный", "concept_b": "Равенство графов", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Граф нагруженный", "concept_b": "Ребро графа", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Граф нагруженный", "concept_b": "Ребро кратное", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Граф нагруженный", "concept_b": "Смежность вершин", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Граф нагруженный", "concept_b": "Смежность рёбер", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Граф нагруженный", "concept_b": "Узел", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Граф нумерованный", "concept_b": "Граф ориентированный", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Граф нумерованный", "concept_b": "Граф помеченный", "has_relation": true}
+{"paragraph_id": "7.1", "concept_a": "Граф нумерованный", "concept_b": "Граф с петлями", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Граф нумерованный", "concept_b": "Диаграмма графа", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Граф нумерованный", "concept_b": "Дополнение графа", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Граф нумерованный", "concept_b": "Дуга", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Граф нумерованный", "concept_b": "Задача о Кёнигсбергских мостах (K$\\ddot{\\text{o", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Граф нумерованный", "concept_b": "Задача о четырёх красках", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Граф нумерованный", "concept_b": "Изоморфизм графов", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Граф нумерованный", "concept_b": "Изоморфизм графов рёберный", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Граф нумерованный", "concept_b": "Инвариант графа", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Граф нумерованный", "concept_b": "Инцидентность", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Граф нумерованный", "concept_b": "Карта", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Граф нумерованный", "concept_b": "Множество инцендентности вершин", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Граф нумерованный", "concept_b": "Множество пометок", "has_relation": true}
+{"paragraph_id": "7.1", "concept_a": "Граф нумерованный", "concept_b": "Множество смежности", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Граф нумерованный", "concept_b": "Мультиграф", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Граф нумерованный", "concept_b": "Окрестность вершины", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Граф нумерованный", "concept_b": "Орграф", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Граф нумерованный", "concept_b": "Петля", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Граф нумерованный", "concept_b": "Псевдограф", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Граф нумерованный", "concept_b": "Равенство графов", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Граф нумерованный", "concept_b": "Ребро графа", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Граф нумерованный", "concept_b": "Ребро кратное", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Граф нумерованный", "concept_b": "Смежность вершин", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Граф нумерованный", "concept_b": "Смежность рёбер", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Граф нумерованный", "concept_b": "Узел", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Граф ориентированный", "concept_b": "Граф помеченный", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Граф ориентированный", "concept_b": "Граф с петлями", "has_relation": true}
+{"paragraph_id": "7.1", "concept_a": "Граф ориентированный", "concept_b": "Диаграмма графа", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Граф ориентированный", "concept_b": "Дополнение графа", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Граф ориентированный", "concept_b": "Дуга", "has_relation": true}
+{"paragraph_id": "7.1", "concept_a": "Граф ориентированный", "concept_b": "Задача о Кёнигсбергских мостах (K$\\ddot{\\text{o", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Граф ориентированный", "concept_b": "Задача о четырёх красках", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Граф ориентированный", "concept_b": "Изоморфизм графов", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Граф ориентированный", "concept_b": "Изоморфизм графов рёберный", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Граф ориентированный", "concept_b": "Инвариант графа", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Граф ориентированный", "concept_b": "Инцидентность", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Граф ориентированный", "concept_b": "Карта", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Граф ориентированный", "concept_b": "Множество инцендентности вершин", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Граф ориентированный", "concept_b": "Множество пометок", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Граф ориентированный", "concept_b": "Множество смежности", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Граф ориентированный", "concept_b": "Мультиграф", "has_relation": true}
+{"paragraph_id": "7.1", "concept_a": "Граф ориентированный", "concept_b": "Окрестность вершины", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Граф ориентированный", "concept_b": "Орграф", "has_relation": true}
+{"paragraph_id": "7.1", "concept_a": "Граф ориентированный", "concept_b": "Петля", "has_relation": true}
+{"paragraph_id": "7.1", "concept_a": "Граф ориентированный", "concept_b": "Псевдограф", "has_relation": true}
+{"paragraph_id": "7.1", "concept_a": "Граф ориентированный", "concept_b": "Равенство графов", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Граф ориентированный", "concept_b": "Ребро графа", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Граф ориентированный", "concept_b": "Ребро кратное", "has_relation": true}
+{"paragraph_id": "7.1", "concept_a": "Граф ориентированный", "concept_b": "Смежность вершин", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Граф ориентированный", "concept_b": "Смежность рёбер", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Граф ориентированный", "concept_b": "Узел", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Граф помеченный", "concept_b": "Граф с петлями", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Граф помеченный", "concept_b": "Диаграмма графа", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Граф помеченный", "concept_b": "Дополнение графа", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Граф помеченный", "concept_b": "Дуга", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Граф помеченный", "concept_b": "Задача о Кёнигсбергских мостах (K$\\ddot{\\text{o", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Граф помеченный", "concept_b": "Задача о четырёх красках", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Граф помеченный", "concept_b": "Изоморфизм графов", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Граф помеченный", "concept_b": "Изоморфизм графов рёберный", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Граф помеченный", "concept_b": "Инвариант графа", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Граф помеченный", "concept_b": "Инцидентность", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Граф помеченный", "concept_b": "Карта", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Граф помеченный", "concept_b": "Множество инцендентности вершин", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Граф помеченный", "concept_b": "Множество пометок", "has_relation": true}
+{"paragraph_id": "7.1", "concept_a": "Граф помеченный", "concept_b": "Множество смежности", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Граф помеченный", "concept_b": "Мультиграф", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Граф помеченный", "concept_b": "Окрестность вершины", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Граф помеченный", "concept_b": "Орграф", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Граф помеченный", "concept_b": "Петля", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Граф помеченный", "concept_b": "Псевдограф", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Граф помеченный", "concept_b": "Равенство графов", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Граф помеченный", "concept_b": "Ребро графа", "has_relation": true}
+{"paragraph_id": "7.1", "concept_a": "Граф помеченный", "concept_b": "Ребро кратное", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Граф помеченный", "concept_b": "Смежность вершин", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Граф помеченный", "concept_b": "Смежность рёбер", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Граф помеченный", "concept_b": "Узел", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Граф с петлями", "concept_b": "Диаграмма графа", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Граф с петлями", "concept_b": "Дополнение графа", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Граф с петлями", "concept_b": "Дуга", "has_relation": true}
+{"paragraph_id": "7.1", "concept_a": "Граф с петлями", "concept_b": "Задача о Кёнигсбергских мостах (K$\\ddot{\\text{o", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Граф с петлями", "concept_b": "Задача о четырёх красках", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Граф с петлями", "concept_b": "Изоморфизм графов", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Граф с петлями", "concept_b": "Изоморфизм графов рёберный", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Граф с петлями", "concept_b": "Инвариант графа", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Граф с петлями", "concept_b": "Инцидентность", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Граф с петлями", "concept_b": "Карта", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Граф с петлями", "concept_b": "Множество инцендентности вершин", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Граф с петлями", "concept_b": "Множество пометок", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Граф с петлями", "concept_b": "Множество смежности", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Граф с петлями", "concept_b": "Мультиграф", "has_relation": true}
+{"paragraph_id": "7.1", "concept_a": "Граф с петлями", "concept_b": "Окрестность вершины", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Граф с петлями", "concept_b": "Орграф", "has_relation": true}
+{"paragraph_id": "7.1", "concept_a": "Граф с петлями", "concept_b": "Петля", "has_relation": true}
+{"paragraph_id": "7.1", "concept_a": "Граф с петлями", "concept_b": "Псевдограф", "has_relation": true}
+{"paragraph_id": "7.1", "concept_a": "Граф с петлями", "concept_b": "Равенство графов", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Граф с петлями", "concept_b": "Ребро графа", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Граф с петлями", "concept_b": "Ребро кратное", "has_relation": true}
+{"paragraph_id": "7.1", "concept_a": "Граф с петлями", "concept_b": "Смежность вершин", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Граф с петлями", "concept_b": "Смежность рёбер", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Граф с петлями", "concept_b": "Узел", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Диаграмма графа", "concept_b": "Дополнение графа", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Диаграмма графа", "concept_b": "Дуга", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Диаграмма графа", "concept_b": "Задача о Кёнигсбергских мостах (K$\\ddot{\\text{o", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Диаграмма графа", "concept_b": "Задача о четырёх красках", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Диаграмма графа", "concept_b": "Изоморфизм графов", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Диаграмма графа", "concept_b": "Изоморфизм графов рёберный", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Диаграмма графа", "concept_b": "Инвариант графа", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Диаграмма графа", "concept_b": "Инцидентность", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Диаграмма графа", "concept_b": "Карта", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Диаграмма графа", "concept_b": "Множество инцендентности вершин", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Диаграмма графа", "concept_b": "Множество пометок", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Диаграмма графа", "concept_b": "Множество смежности", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Диаграмма графа", "concept_b": "Мультиграф", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Диаграмма графа", "concept_b": "Окрестность вершины", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Диаграмма графа", "concept_b": "Орграф", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Диаграмма графа", "concept_b": "Петля", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Диаграмма графа", "concept_b": "Псевдограф", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Диаграмма графа", "concept_b": "Равенство графов", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Диаграмма графа", "concept_b": "Ребро графа", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Диаграмма графа", "concept_b": "Ребро кратное", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Диаграмма графа", "concept_b": "Смежность вершин", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Диаграмма графа", "concept_b": "Смежность рёбер", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Диаграмма графа", "concept_b": "Узел", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Дополнение графа", "concept_b": "Дуга", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Дополнение графа", "concept_b": "Задача о Кёнигсбергских мостах (K$\\ddot{\\text{o", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Дополнение графа", "concept_b": "Задача о четырёх красках", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Дополнение графа", "concept_b": "Изоморфизм графов", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Дополнение графа", "concept_b": "Изоморфизм графов рёберный", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Дополнение графа", "concept_b": "Инвариант графа", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Дополнение графа", "concept_b": "Инцидентность", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Дополнение графа", "concept_b": "Карта", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Дополнение графа", "concept_b": "Множество инцендентности вершин", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Дополнение графа", "concept_b": "Множество пометок", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Дополнение графа", "concept_b": "Множество смежности", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Дополнение графа", "concept_b": "Мультиграф", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Дополнение графа", "concept_b": "Окрестность вершины", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Дополнение графа", "concept_b": "Орграф", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Дополнение графа", "concept_b": "Петля", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Дополнение графа", "concept_b": "Псевдограф", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Дополнение графа", "concept_b": "Равенство графов", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Дополнение графа", "concept_b": "Ребро графа", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Дополнение графа", "concept_b": "Ребро кратное", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Дополнение графа", "concept_b": "Смежность вершин", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Дополнение графа", "concept_b": "Смежность рёбер", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Дополнение графа", "concept_b": "Узел", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Дуга", "concept_b": "Задача о Кёнигсбергских мостах (K$\\ddot{\\text{o", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Дуга", "concept_b": "Задача о четырёх красках", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Дуга", "concept_b": "Изоморфизм графов", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Дуга", "concept_b": "Изоморфизм графов рёберный", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Дуга", "concept_b": "Инвариант графа", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Дуга", "concept_b": "Инцидентность", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Дуга", "concept_b": "Карта", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Дуга", "concept_b": "Множество инцендентности вершин", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Дуга", "concept_b": "Множество пометок", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Дуга", "concept_b": "Множество смежности", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Дуга", "concept_b": "Мультиграф", "has_relation": true}
+{"paragraph_id": "7.1", "concept_a": "Дуга", "concept_b": "Окрестность вершины", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Дуга", "concept_b": "Орграф", "has_relation": true}
+{"paragraph_id": "7.1", "concept_a": "Дуга", "concept_b": "Петля", "has_relation": true}
+{"paragraph_id": "7.1", "concept_a": "Дуга", "concept_b": "Псевдограф", "has_relation": true}
+{"paragraph_id": "7.1", "concept_a": "Дуга", "concept_b": "Равенство графов", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Дуга", "concept_b": "Ребро графа", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Дуга", "concept_b": "Ребро кратное", "has_relation": true}
+{"paragraph_id": "7.1", "concept_a": "Дуга", "concept_b": "Смежность вершин", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Дуга", "concept_b": "Смежность рёбер", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Дуга", "concept_b": "Узел", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Задача о Кёнигсбергских мостах (K$\\ddot{\\text{o", "concept_b": "Задача о четырёх красках", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Задача о Кёнигсбергских мостах (K$\\ddot{\\text{o", "concept_b": "Изоморфизм графов", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Задача о Кёнигсбергских мостах (K$\\ddot{\\text{o", "concept_b": "Изоморфизм графов рёберный", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Задача о Кёнигсбергских мостах (K$\\ddot{\\text{o", "concept_b": "Инвариант графа", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Задача о Кёнигсбергских мостах (K$\\ddot{\\text{o", "concept_b": "Инцидентность", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Задача о Кёнигсбергских мостах (K$\\ddot{\\text{o", "concept_b": "Карта", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Задача о Кёнигсбергских мостах (K$\\ddot{\\text{o", "concept_b": "Множество инцендентности вершин", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Задача о Кёнигсбергских мостах (K$\\ddot{\\text{o", "concept_b": "Множество пометок", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Задача о Кёнигсбергских мостах (K$\\ddot{\\text{o", "concept_b": "Множество смежности", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Задача о Кёнигсбергских мостах (K$\\ddot{\\text{o", "concept_b": "Мультиграф", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Задача о Кёнигсбергских мостах (K$\\ddot{\\text{o", "concept_b": "Окрестность вершины", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Задача о Кёнигсбергских мостах (K$\\ddot{\\text{o", "concept_b": "Орграф", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Задача о Кёнигсбергских мостах (K$\\ddot{\\text{o", "concept_b": "Петля", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Задача о Кёнигсбергских мостах (K$\\ddot{\\text{o", "concept_b": "Псевдограф", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Задача о Кёнигсбергских мостах (K$\\ddot{\\text{o", "concept_b": "Равенство графов", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Задача о Кёнигсбергских мостах (K$\\ddot{\\text{o", "concept_b": "Ребро графа", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Задача о Кёнигсбергских мостах (K$\\ddot{\\text{o", "concept_b": "Ребро кратное", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Задача о Кёнигсбергских мостах (K$\\ddot{\\text{o", "concept_b": "Смежность вершин", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Задача о Кёнигсбергских мостах (K$\\ddot{\\text{o", "concept_b": "Смежность рёбер", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Задача о Кёнигсбергских мостах (K$\\ddot{\\text{o", "concept_b": "Узел", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Задача о четырёх красках", "concept_b": "Изоморфизм графов", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Задача о четырёх красках", "concept_b": "Изоморфизм графов рёберный", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Задача о четырёх красках", "concept_b": "Инвариант графа", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Задача о четырёх красках", "concept_b": "Инцидентность", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Задача о четырёх красках", "concept_b": "Карта", "has_relation": true}
+{"paragraph_id": "7.1", "concept_a": "Задача о четырёх красках", "concept_b": "Множество инцендентности вершин", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Задача о четырёх красках", "concept_b": "Множество пометок", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Задача о четырёх красках", "concept_b": "Множество смежности", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Задача о четырёх красках", "concept_b": "Мультиграф", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Задача о четырёх красках", "concept_b": "Окрестность вершины", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Задача о четырёх красках", "concept_b": "Орграф", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Задача о четырёх красках", "concept_b": "Петля", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Задача о четырёх красках", "concept_b": "Псевдограф", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Задача о четырёх красках", "concept_b": "Равенство графов", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Задача о четырёх красках", "concept_b": "Ребро графа", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Задача о четырёх красках", "concept_b": "Ребро кратное", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Задача о четырёх красках", "concept_b": "Смежность вершин", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Задача о четырёх красках", "concept_b": "Смежность рёбер", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Задача о четырёх красках", "concept_b": "Узел", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Изоморфизм графов", "concept_b": "Изоморфизм графов рёберный", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Изоморфизм графов", "concept_b": "Инвариант графа", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Изоморфизм графов", "concept_b": "Инцидентность", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Изоморфизм графов", "concept_b": "Карта", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Изоморфизм графов", "concept_b": "Множество инцендентности вершин", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Изоморфизм графов", "concept_b": "Множество пометок", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Изоморфизм графов", "concept_b": "Множество смежности", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Изоморфизм графов", "concept_b": "Мультиграф", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Изоморфизм графов", "concept_b": "Окрестность вершины", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Изоморфизм графов", "concept_b": "Орграф", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Изоморфизм графов", "concept_b": "Петля", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Изоморфизм графов", "concept_b": "Псевдограф", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Изоморфизм графов", "concept_b": "Равенство графов", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Изоморфизм графов", "concept_b": "Ребро графа", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Изоморфизм графов", "concept_b": "Ребро кратное", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Изоморфизм графов", "concept_b": "Смежность вершин", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Изоморфизм графов", "concept_b": "Смежность рёбер", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Изоморфизм графов", "concept_b": "Узел", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Изоморфизм графов рёберный", "concept_b": "Инвариант графа", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Изоморфизм графов рёберный", "concept_b": "Инцидентность", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Изоморфизм графов рёберный", "concept_b": "Карта", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Изоморфизм графов рёберный", "concept_b": "Множество инцендентности вершин", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Изоморфизм графов рёберный", "concept_b": "Множество пометок", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Изоморфизм графов рёберный", "concept_b": "Множество смежности", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Изоморфизм графов рёберный", "concept_b": "Мультиграф", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Изоморфизм графов рёберный", "concept_b": "Окрестность вершины", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Изоморфизм графов рёберный", "concept_b": "Орграф", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Изоморфизм графов рёберный", "concept_b": "Петля", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Изоморфизм графов рёберный", "concept_b": "Псевдограф", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Изоморфизм графов рёберный", "concept_b": "Равенство графов", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Изоморфизм графов рёберный", "concept_b": "Ребро графа", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Изоморфизм графов рёберный", "concept_b": "Ребро кратное", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Изоморфизм графов рёберный", "concept_b": "Смежность вершин", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Изоморфизм графов рёберный", "concept_b": "Смежность рёбер", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Изоморфизм графов рёберный", "concept_b": "Узел", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Инвариант графа", "concept_b": "Инцидентность", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Инвариант графа", "concept_b": "Карта", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Инвариант графа", "concept_b": "Множество инцендентности вершин", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Инвариант графа", "concept_b": "Множество пометок", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Инвариант графа", "concept_b": "Множество смежности", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Инвариант графа", "concept_b": "Мультиграф", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Инвариант графа", "concept_b": "Окрестность вершины", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Инвариант графа", "concept_b": "Орграф", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Инвариант графа", "concept_b": "Петля", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Инвариант графа", "concept_b": "Псевдограф", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Инвариант графа", "concept_b": "Равенство графов", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Инвариант графа", "concept_b": "Ребро графа", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Инвариант графа", "concept_b": "Ребро кратное", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Инвариант графа", "concept_b": "Смежность вершин", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Инвариант графа", "concept_b": "Смежность рёбер", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Инвариант графа", "concept_b": "Узел", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Инцидентность", "concept_b": "Карта", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Инцидентность", "concept_b": "Множество инцендентности вершин", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Инцидентность", "concept_b": "Множество пометок", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Инцидентность", "concept_b": "Множество смежности", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Инцидентность", "concept_b": "Мультиграф", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Инцидентность", "concept_b": "Окрестность вершины", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Инцидентность", "concept_b": "Орграф", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Инцидентность", "concept_b": "Петля", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Инцидентность", "concept_b": "Псевдограф", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Инцидентность", "concept_b": "Равенство графов", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Инцидентность", "concept_b": "Ребро графа", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Инцидентность", "concept_b": "Ребро кратное", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Инцидентность", "concept_b": "Смежность вершин", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Инцидентность", "concept_b": "Смежность рёбер", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Инцидентность", "concept_b": "Узел", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Карта", "concept_b": "Множество инцендентности вершин", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Карта", "concept_b": "Множество пометок", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Карта", "concept_b": "Множество смежности", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Карта", "concept_b": "Мультиграф", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Карта", "concept_b": "Окрестность вершины", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Карта", "concept_b": "Орграф", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Карта", "concept_b": "Петля", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Карта", "concept_b": "Псевдограф", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Карта", "concept_b": "Равенство графов", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Карта", "concept_b": "Ребро графа", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Карта", "concept_b": "Ребро кратное", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Карта", "concept_b": "Смежность вершин", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Карта", "concept_b": "Смежность рёбер", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Карта", "concept_b": "Узел", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Множество инцендентности вершин", "concept_b": "Множество пометок", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Множество инцендентности вершин", "concept_b": "Множество смежности", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Множество инцендентности вершин", "concept_b": "Мультиграф", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Множество инцендентности вершин", "concept_b": "Окрестность вершины", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Множество инцендентности вершин", "concept_b": "Орграф", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Множество инцендентности вершин", "concept_b": "Петля", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Множество инцендентности вершин", "concept_b": "Псевдограф", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Множество инцендентности вершин", "concept_b": "Равенство графов", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Множество инцендентности вершин", "concept_b": "Ребро графа", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Множество инцендентности вершин", "concept_b": "Ребро кратное", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Множество инцендентности вершин", "concept_b": "Смежность вершин", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Множество инцендентности вершин", "concept_b": "Смежность рёбер", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Множество инцендентности вершин", "concept_b": "Узел", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Множество пометок", "concept_b": "Множество смежности", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Множество пометок", "concept_b": "Мультиграф", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Множество пометок", "concept_b": "Окрестность вершины", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Множество пометок", "concept_b": "Орграф", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Множество пометок", "concept_b": "Петля", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Множество пометок", "concept_b": "Псевдограф", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Множество пометок", "concept_b": "Равенство графов", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Множество пометок", "concept_b": "Ребро графа", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Множество пометок", "concept_b": "Ребро кратное", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Множество пометок", "concept_b": "Смежность вершин", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Множество пометок", "concept_b": "Смежность рёбер", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Множество пометок", "concept_b": "Узел", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Множество смежности", "concept_b": "Мультиграф", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Множество смежности", "concept_b": "Окрестность вершины", "has_relation": true}
+{"paragraph_id": "7.1", "concept_a": "Множество смежности", "concept_b": "Орграф", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Множество смежности", "concept_b": "Петля", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Множество смежности", "concept_b": "Псевдограф", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Множество смежности", "concept_b": "Равенство графов", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Множество смежности", "concept_b": "Ребро графа", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Множество смежности", "concept_b": "Ребро кратное", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Множество смежности", "concept_b": "Смежность вершин", "has_relation": true}
+{"paragraph_id": "7.1", "concept_a": "Множество смежности", "concept_b": "Смежность рёбер", "has_relation": true}
+{"paragraph_id": "7.1", "concept_a": "Множество смежности", "concept_b": "Узел", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Мультиграф", "concept_b": "Окрестность вершины", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Мультиграф", "concept_b": "Орграф", "has_relation": true}
+{"paragraph_id": "7.1", "concept_a": "Мультиграф", "concept_b": "Петля", "has_relation": true}
+{"paragraph_id": "7.1", "concept_a": "Мультиграф", "concept_b": "Псевдограф", "has_relation": true}
+{"paragraph_id": "7.1", "concept_a": "Мультиграф", "concept_b": "Равенство графов", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Мультиграф", "concept_b": "Ребро графа", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Мультиграф", "concept_b": "Ребро кратное", "has_relation": true}
+{"paragraph_id": "7.1", "concept_a": "Мультиграф", "concept_b": "Смежность вершин", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Мультиграф", "concept_b": "Смежность рёбер", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Мультиграф", "concept_b": "Узел", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Окрестность вершины", "concept_b": "Орграф", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Окрестность вершины", "concept_b": "Петля", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Окрестность вершины", "concept_b": "Псевдограф", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Окрестность вершины", "concept_b": "Равенство графов", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Окрестность вершины", "concept_b": "Ребро графа", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Окрестность вершины", "concept_b": "Ребро кратное", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Окрестность вершины", "concept_b": "Смежность вершин", "has_relation": true}
+{"paragraph_id": "7.1", "concept_a": "Окрестность вершины", "concept_b": "Смежность рёбер", "has_relation": true}
+{"paragraph_id": "7.1", "concept_a": "Окрестность вершины", "concept_b": "Узел", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Орграф", "concept_b": "Петля", "has_relation": true}
+{"paragraph_id": "7.1", "concept_a": "Орграф", "concept_b": "Псевдограф", "has_relation": true}
+{"paragraph_id": "7.1", "concept_a": "Орграф", "concept_b": "Равенство графов", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Орграф", "concept_b": "Ребро графа", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Орграф", "concept_b": "Ребро кратное", "has_relation": true}
+{"paragraph_id": "7.1", "concept_a": "Орграф", "concept_b": "Смежность вершин", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Орграф", "concept_b": "Смежность рёбер", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Орграф", "concept_b": "Узел", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Петля", "concept_b": "Псевдограф", "has_relation": true}
+{"paragraph_id": "7.1", "concept_a": "Петля", "concept_b": "Равенство графов", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Петля", "concept_b": "Ребро графа", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Петля", "concept_b": "Ребро кратное", "has_relation": true}
+{"paragraph_id": "7.1", "concept_a": "Петля", "concept_b": "Смежность вершин", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Петля", "concept_b": "Смежность рёбер", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Петля", "concept_b": "Узел", "has_relation": true}
+{"paragraph_id": "7.1", "concept_a": "Псевдограф", "concept_b": "Равенство графов", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Псевдограф", "concept_b": "Ребро графа", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Псевдограф", "concept_b": "Ребро кратное", "has_relation": true}
+{"paragraph_id": "7.1", "concept_a": "Псевдограф", "concept_b": "Смежность вершин", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Псевдограф", "concept_b": "Смежность рёбер", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Псевдограф", "concept_b": "Узел", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Равенство графов", "concept_b": "Ребро графа", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Равенство графов", "concept_b": "Ребро кратное", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Равенство графов", "concept_b": "Смежность вершин", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Равенство графов", "concept_b": "Смежность рёбер", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Равенство графов", "concept_b": "Узел", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Ребро графа", "concept_b": "Ребро кратное", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Ребро графа", "concept_b": "Смежность вершин", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Ребро графа", "concept_b": "Смежность рёбер", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Ребро графа", "concept_b": "Узел", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Ребро кратное", "concept_b": "Смежность вершин", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Ребро кратное", "concept_b": "Смежность рёбер", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Ребро кратное", "concept_b": "Узел", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Смежность вершин", "concept_b": "Смежность рёбер", "has_relation": true}
+{"paragraph_id": "7.1", "concept_a": "Смежность вершин", "concept_b": "Узел", "has_relation": false}
+{"paragraph_id": "7.1", "concept_a": "Смежность рёбер", "concept_b": "Узел", "has_relation": false}

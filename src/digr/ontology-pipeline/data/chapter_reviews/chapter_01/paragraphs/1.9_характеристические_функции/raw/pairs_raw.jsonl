@@ -1,0 +1,903 @@
+{"paragraph_id": "1.9", "concept_a": "Анализ дискриминантный", "concept_b": "Арифметическая сумма мультимножеств", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Анализ дискриминантный", "concept_b": "Включение мультимножеств", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Анализ дискриминантный", "concept_b": "Выпуклая комбинация нечётких множеств", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Анализ дискриминантный", "concept_b": "Дерево классификации выровненное", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Анализ дискриминантный", "concept_b": "Дополнение нечёткое", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Анализ дискриминантный", "concept_b": "Истинностное значение", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Анализ дискриминантный", "concept_b": "Квадрант", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Анализ дискриминантный", "concept_b": "Классификатор", "has_relation": true}
+{"paragraph_id": "1.9", "concept_a": "Анализ дискриминантный", "concept_b": "Классификатор иерархический", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Анализ дискриминантный", "concept_b": "Классификатор неполный", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Анализ дискриминантный", "concept_b": "Классификатор фасетный", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Анализ дискриминантный", "concept_b": "Классификация универсальная десятичная", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Анализ дискриминантный", "concept_b": "Логика нечёткая", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Анализ дискриминантный", "concept_b": "Множество характеристик", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Анализ дискриминантный", "concept_b": "Мощность мультимножества", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Анализ дискриминантный", "concept_b": "Нечёткое множество", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Анализ дискриминантный", "concept_b": "Нечёткое множество абсолютная разность", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Анализ дискриминантный", "concept_b": "Нечёткое множество алгебраическая сумма", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Анализ дискриминантный", "concept_b": "Нечёткое множество алгебраическое умножение", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Анализ дискриминантный", "concept_b": "Объединение мультимножеств", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Анализ дискриминантный", "concept_b": "Объединение нечёткое", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Анализ дискриминантный", "concept_b": "Пересечение мультимножеств", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Анализ дискриминантный", "concept_b": "Пересечение нечёткое", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Анализ дискриминантный", "concept_b": "Предикат", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Анализ дискриминантный", "concept_b": "Равенство мультимножеств", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Анализ дискриминантный", "concept_b": "Распознавание образов", "has_relation": true}
+{"paragraph_id": "1.9", "concept_a": "Анализ дискриминантный", "concept_b": "Систематика", "has_relation": true}
+{"paragraph_id": "1.9", "concept_a": "Анализ дискриминантный", "concept_b": "Функция характеристическая", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Анализ дискриминантный", "concept_b": "Функция характеристическая нечёткая", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Анализ дискриминантный", "concept_b": "Характеристическая функция", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Анализ дискриминантный", "concept_b": "Характеристическая функция бинарная", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Анализ дискриминантный", "concept_b": "Характеристическая функция множества", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Анализ дискриминантный", "concept_b": "Характеристическая функция мультимножества", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Анализ дискриминантный", "concept_b": "Характеристическая функция неотрицательно целочисленная \\\\", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Анализ дискриминантный", "concept_b": "Характеристическая функция нечёткая", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Анализ дискриминантный", "concept_b": "Характеристическая функция отношения", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Анализ дискриминантный", "concept_b": "Ширина ветвления", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Анализ дискриминантный", "concept_b": "выпуклое нечёткое множество", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Анализ дискриминантный", "concept_b": "органиченное нечёткое множество", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Анализ дискриминантный", "concept_b": "сильно выпуклое нечёткое множество", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Анализ дискриминантный", "concept_b": "строго выпуклое нечёткое множество", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Анализ дискриминантный", "concept_b": "ядро нечёткого множество", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Арифметическая сумма мультимножеств", "concept_b": "Включение мультимножеств", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Арифметическая сумма мультимножеств", "concept_b": "Выпуклая комбинация нечётких множеств", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Арифметическая сумма мультимножеств", "concept_b": "Дерево классификации выровненное", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Арифметическая сумма мультимножеств", "concept_b": "Дополнение нечёткое", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Арифметическая сумма мультимножеств", "concept_b": "Истинностное значение", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Арифметическая сумма мультимножеств", "concept_b": "Квадрант", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Арифметическая сумма мультимножеств", "concept_b": "Классификатор", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Арифметическая сумма мультимножеств", "concept_b": "Классификатор иерархический", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Арифметическая сумма мультимножеств", "concept_b": "Классификатор неполный", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Арифметическая сумма мультимножеств", "concept_b": "Классификатор фасетный", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Арифметическая сумма мультимножеств", "concept_b": "Классификация универсальная десятичная", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Арифметическая сумма мультимножеств", "concept_b": "Логика нечёткая", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Арифметическая сумма мультимножеств", "concept_b": "Множество характеристик", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Арифметическая сумма мультимножеств", "concept_b": "Мощность мультимножества", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Арифметическая сумма мультимножеств", "concept_b": "Нечёткое множество", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Арифметическая сумма мультимножеств", "concept_b": "Нечёткое множество абсолютная разность", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Арифметическая сумма мультимножеств", "concept_b": "Нечёткое множество алгебраическая сумма", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Арифметическая сумма мультимножеств", "concept_b": "Нечёткое множество алгебраическое умножение", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Арифметическая сумма мультимножеств", "concept_b": "Объединение мультимножеств", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Арифметическая сумма мультимножеств", "concept_b": "Объединение нечёткое", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Арифметическая сумма мультимножеств", "concept_b": "Пересечение мультимножеств", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Арифметическая сумма мультимножеств", "concept_b": "Пересечение нечёткое", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Арифметическая сумма мультимножеств", "concept_b": "Предикат", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Арифметическая сумма мультимножеств", "concept_b": "Равенство мультимножеств", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Арифметическая сумма мультимножеств", "concept_b": "Распознавание образов", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Арифметическая сумма мультимножеств", "concept_b": "Систематика", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Арифметическая сумма мультимножеств", "concept_b": "Функция характеристическая", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Арифметическая сумма мультимножеств", "concept_b": "Функция характеристическая нечёткая", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Арифметическая сумма мультимножеств", "concept_b": "Характеристическая функция", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Арифметическая сумма мультимножеств", "concept_b": "Характеристическая функция бинарная", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Арифметическая сумма мультимножеств", "concept_b": "Характеристическая функция множества", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Арифметическая сумма мультимножеств", "concept_b": "Характеристическая функция мультимножества", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Арифметическая сумма мультимножеств", "concept_b": "Характеристическая функция неотрицательно целочисленная \\\\", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Арифметическая сумма мультимножеств", "concept_b": "Характеристическая функция нечёткая", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Арифметическая сумма мультимножеств", "concept_b": "Характеристическая функция отношения", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Арифметическая сумма мультимножеств", "concept_b": "Ширина ветвления", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Арифметическая сумма мультимножеств", "concept_b": "выпуклое нечёткое множество", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Арифметическая сумма мультимножеств", "concept_b": "органиченное нечёткое множество", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Арифметическая сумма мультимножеств", "concept_b": "сильно выпуклое нечёткое множество", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Арифметическая сумма мультимножеств", "concept_b": "строго выпуклое нечёткое множество", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Арифметическая сумма мультимножеств", "concept_b": "ядро нечёткого множество", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Включение мультимножеств", "concept_b": "Выпуклая комбинация нечётких множеств", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Включение мультимножеств", "concept_b": "Дерево классификации выровненное", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Включение мультимножеств", "concept_b": "Дополнение нечёткое", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Включение мультимножеств", "concept_b": "Истинностное значение", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Включение мультимножеств", "concept_b": "Квадрант", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Включение мультимножеств", "concept_b": "Классификатор", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Включение мультимножеств", "concept_b": "Классификатор иерархический", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Включение мультимножеств", "concept_b": "Классификатор неполный", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Включение мультимножеств", "concept_b": "Классификатор фасетный", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Включение мультимножеств", "concept_b": "Классификация универсальная десятичная", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Включение мультимножеств", "concept_b": "Логика нечёткая", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Включение мультимножеств", "concept_b": "Множество характеристик", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Включение мультимножеств", "concept_b": "Мощность мультимножества", "has_relation": true}
+{"paragraph_id": "1.9", "concept_a": "Включение мультимножеств", "concept_b": "Нечёткое множество", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Включение мультимножеств", "concept_b": "Нечёткое множество абсолютная разность", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Включение мультимножеств", "concept_b": "Нечёткое множество алгебраическая сумма", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Включение мультимножеств", "concept_b": "Нечёткое множество алгебраическое умножение", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Включение мультимножеств", "concept_b": "Объединение мультимножеств", "has_relation": true}
+{"paragraph_id": "1.9", "concept_a": "Включение мультимножеств", "concept_b": "Объединение нечёткое", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Включение мультимножеств", "concept_b": "Пересечение мультимножеств", "has_relation": true}
+{"paragraph_id": "1.9", "concept_a": "Включение мультимножеств", "concept_b": "Пересечение нечёткое", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Включение мультимножеств", "concept_b": "Предикат", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Включение мультимножеств", "concept_b": "Равенство мультимножеств", "has_relation": true}
+{"paragraph_id": "1.9", "concept_a": "Включение мультимножеств", "concept_b": "Распознавание образов", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Включение мультимножеств", "concept_b": "Систематика", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Включение мультимножеств", "concept_b": "Функция характеристическая", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Включение мультимножеств", "concept_b": "Функция характеристическая нечёткая", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Включение мультимножеств", "concept_b": "Характеристическая функция", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Включение мультимножеств", "concept_b": "Характеристическая функция бинарная", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Включение мультимножеств", "concept_b": "Характеристическая функция множества", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Включение мультимножеств", "concept_b": "Характеристическая функция мультимножества", "has_relation": true}
+{"paragraph_id": "1.9", "concept_a": "Включение мультимножеств", "concept_b": "Характеристическая функция неотрицательно целочисленная \\\\", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Включение мультимножеств", "concept_b": "Характеристическая функция нечёткая", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Включение мультимножеств", "concept_b": "Характеристическая функция отношения", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Включение мультимножеств", "concept_b": "Ширина ветвления", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Включение мультимножеств", "concept_b": "выпуклое нечёткое множество", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Включение мультимножеств", "concept_b": "органиченное нечёткое множество", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Включение мультимножеств", "concept_b": "сильно выпуклое нечёткое множество", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Включение мультимножеств", "concept_b": "строго выпуклое нечёткое множество", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Включение мультимножеств", "concept_b": "ядро нечёткого множество", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Выпуклая комбинация нечётких множеств", "concept_b": "Дерево классификации выровненное", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Выпуклая комбинация нечётких множеств", "concept_b": "Дополнение нечёткое", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Выпуклая комбинация нечётких множеств", "concept_b": "Истинностное значение", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Выпуклая комбинация нечётких множеств", "concept_b": "Квадрант", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Выпуклая комбинация нечётких множеств", "concept_b": "Классификатор", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Выпуклая комбинация нечётких множеств", "concept_b": "Классификатор иерархический", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Выпуклая комбинация нечётких множеств", "concept_b": "Классификатор неполный", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Выпуклая комбинация нечётких множеств", "concept_b": "Классификатор фасетный", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Выпуклая комбинация нечётких множеств", "concept_b": "Классификация универсальная десятичная", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Выпуклая комбинация нечётких множеств", "concept_b": "Логика нечёткая", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Выпуклая комбинация нечётких множеств", "concept_b": "Множество характеристик", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Выпуклая комбинация нечётких множеств", "concept_b": "Мощность мультимножества", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Выпуклая комбинация нечётких множеств", "concept_b": "Нечёткое множество", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Выпуклая комбинация нечётких множеств", "concept_b": "Нечёткое множество абсолютная разность", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Выпуклая комбинация нечётких множеств", "concept_b": "Нечёткое множество алгебраическая сумма", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Выпуклая комбинация нечётких множеств", "concept_b": "Нечёткое множество алгебраическое умножение", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Выпуклая комбинация нечётких множеств", "concept_b": "Объединение мультимножеств", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Выпуклая комбинация нечётких множеств", "concept_b": "Объединение нечёткое", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Выпуклая комбинация нечётких множеств", "concept_b": "Пересечение мультимножеств", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Выпуклая комбинация нечётких множеств", "concept_b": "Пересечение нечёткое", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Выпуклая комбинация нечётких множеств", "concept_b": "Предикат", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Выпуклая комбинация нечётких множеств", "concept_b": "Равенство мультимножеств", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Выпуклая комбинация нечётких множеств", "concept_b": "Распознавание образов", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Выпуклая комбинация нечётких множеств", "concept_b": "Систематика", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Выпуклая комбинация нечётких множеств", "concept_b": "Функция характеристическая", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Выпуклая комбинация нечётких множеств", "concept_b": "Функция характеристическая нечёткая", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Выпуклая комбинация нечётких множеств", "concept_b": "Характеристическая функция", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Выпуклая комбинация нечётких множеств", "concept_b": "Характеристическая функция бинарная", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Выпуклая комбинация нечётких множеств", "concept_b": "Характеристическая функция множества", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Выпуклая комбинация нечётких множеств", "concept_b": "Характеристическая функция мультимножества", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Выпуклая комбинация нечётких множеств", "concept_b": "Характеристическая функция неотрицательно целочисленная \\\\", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Выпуклая комбинация нечётких множеств", "concept_b": "Характеристическая функция нечёткая", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Выпуклая комбинация нечётких множеств", "concept_b": "Характеристическая функция отношения", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Выпуклая комбинация нечётких множеств", "concept_b": "Ширина ветвления", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Выпуклая комбинация нечётких множеств", "concept_b": "выпуклое нечёткое множество", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Выпуклая комбинация нечётких множеств", "concept_b": "органиченное нечёткое множество", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Выпуклая комбинация нечётких множеств", "concept_b": "сильно выпуклое нечёткое множество", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Выпуклая комбинация нечётких множеств", "concept_b": "строго выпуклое нечёткое множество", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Выпуклая комбинация нечётких множеств", "concept_b": "ядро нечёткого множество", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Дерево классификации выровненное", "concept_b": "Дополнение нечёткое", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Дерево классификации выровненное", "concept_b": "Истинностное значение", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Дерево классификации выровненное", "concept_b": "Квадрант", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Дерево классификации выровненное", "concept_b": "Классификатор", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Дерево классификации выровненное", "concept_b": "Классификатор иерархический", "has_relation": true}
+{"paragraph_id": "1.9", "concept_a": "Дерево классификации выровненное", "concept_b": "Классификатор неполный", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Дерево классификации выровненное", "concept_b": "Классификатор фасетный", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Дерево классификации выровненное", "concept_b": "Классификация универсальная десятичная", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Дерево классификации выровненное", "concept_b": "Логика нечёткая", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Дерево классификации выровненное", "concept_b": "Множество характеристик", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Дерево классификации выровненное", "concept_b": "Мощность мультимножества", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Дерево классификации выровненное", "concept_b": "Нечёткое множество", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Дерево классификации выровненное", "concept_b": "Нечёткое множество абсолютная разность", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Дерево классификации выровненное", "concept_b": "Нечёткое множество алгебраическая сумма", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Дерево классификации выровненное", "concept_b": "Нечёткое множество алгебраическое умножение", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Дерево классификации выровненное", "concept_b": "Объединение мультимножеств", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Дерево классификации выровненное", "concept_b": "Объединение нечёткое", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Дерево классификации выровненное", "concept_b": "Пересечение мультимножеств", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Дерево классификации выровненное", "concept_b": "Пересечение нечёткое", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Дерево классификации выровненное", "concept_b": "Предикат", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Дерево классификации выровненное", "concept_b": "Равенство мультимножеств", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Дерево классификации выровненное", "concept_b": "Распознавание образов", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Дерево классификации выровненное", "concept_b": "Систематика", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Дерево классификации выровненное", "concept_b": "Функция характеристическая", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Дерево классификации выровненное", "concept_b": "Функция характеристическая нечёткая", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Дерево классификации выровненное", "concept_b": "Характеристическая функция", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Дерево классификации выровненное", "concept_b": "Характеристическая функция бинарная", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Дерево классификации выровненное", "concept_b": "Характеристическая функция множества", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Дерево классификации выровненное", "concept_b": "Характеристическая функция мультимножества", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Дерево классификации выровненное", "concept_b": "Характеристическая функция неотрицательно целочисленная \\\\", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Дерево классификации выровненное", "concept_b": "Характеристическая функция нечёткая", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Дерево классификации выровненное", "concept_b": "Характеристическая функция отношения", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Дерево классификации выровненное", "concept_b": "Ширина ветвления", "has_relation": true}
+{"paragraph_id": "1.9", "concept_a": "Дерево классификации выровненное", "concept_b": "выпуклое нечёткое множество", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Дерево классификации выровненное", "concept_b": "органиченное нечёткое множество", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Дерево классификации выровненное", "concept_b": "сильно выпуклое нечёткое множество", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Дерево классификации выровненное", "concept_b": "строго выпуклое нечёткое множество", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Дерево классификации выровненное", "concept_b": "ядро нечёткого множество", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Дополнение нечёткое", "concept_b": "Истинностное значение", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Дополнение нечёткое", "concept_b": "Квадрант", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Дополнение нечёткое", "concept_b": "Классификатор", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Дополнение нечёткое", "concept_b": "Классификатор иерархический", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Дополнение нечёткое", "concept_b": "Классификатор неполный", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Дополнение нечёткое", "concept_b": "Классификатор фасетный", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Дополнение нечёткое", "concept_b": "Классификация универсальная десятичная", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Дополнение нечёткое", "concept_b": "Логика нечёткая", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Дополнение нечёткое", "concept_b": "Множество характеристик", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Дополнение нечёткое", "concept_b": "Мощность мультимножества", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Дополнение нечёткое", "concept_b": "Нечёткое множество", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Дополнение нечёткое", "concept_b": "Нечёткое множество абсолютная разность", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Дополнение нечёткое", "concept_b": "Нечёткое множество алгебраическая сумма", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Дополнение нечёткое", "concept_b": "Нечёткое множество алгебраическое умножение", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Дополнение нечёткое", "concept_b": "Объединение мультимножеств", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Дополнение нечёткое", "concept_b": "Объединение нечёткое", "has_relation": true}
+{"paragraph_id": "1.9", "concept_a": "Дополнение нечёткое", "concept_b": "Пересечение мультимножеств", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Дополнение нечёткое", "concept_b": "Пересечение нечёткое", "has_relation": true}
+{"paragraph_id": "1.9", "concept_a": "Дополнение нечёткое", "concept_b": "Предикат", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Дополнение нечёткое", "concept_b": "Равенство мультимножеств", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Дополнение нечёткое", "concept_b": "Распознавание образов", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Дополнение нечёткое", "concept_b": "Систематика", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Дополнение нечёткое", "concept_b": "Функция характеристическая", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Дополнение нечёткое", "concept_b": "Функция характеристическая нечёткая", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Дополнение нечёткое", "concept_b": "Характеристическая функция", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Дополнение нечёткое", "concept_b": "Характеристическая функция бинарная", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Дополнение нечёткое", "concept_b": "Характеристическая функция множества", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Дополнение нечёткое", "concept_b": "Характеристическая функция мультимножества", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Дополнение нечёткое", "concept_b": "Характеристическая функция неотрицательно целочисленная \\\\", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Дополнение нечёткое", "concept_b": "Характеристическая функция нечёткая", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Дополнение нечёткое", "concept_b": "Характеристическая функция отношения", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Дополнение нечёткое", "concept_b": "Ширина ветвления", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Дополнение нечёткое", "concept_b": "выпуклое нечёткое множество", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Дополнение нечёткое", "concept_b": "органиченное нечёткое множество", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Дополнение нечёткое", "concept_b": "сильно выпуклое нечёткое множество", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Дополнение нечёткое", "concept_b": "строго выпуклое нечёткое множество", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Дополнение нечёткое", "concept_b": "ядро нечёткого множество", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Истинностное значение", "concept_b": "Квадрант", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Истинностное значение", "concept_b": "Классификатор", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Истинностное значение", "concept_b": "Классификатор иерархический", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Истинностное значение", "concept_b": "Классификатор неполный", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Истинностное значение", "concept_b": "Классификатор фасетный", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Истинностное значение", "concept_b": "Классификация универсальная десятичная", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Истинностное значение", "concept_b": "Логика нечёткая", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Истинностное значение", "concept_b": "Множество характеристик", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Истинностное значение", "concept_b": "Мощность мультимножества", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Истинностное значение", "concept_b": "Нечёткое множество", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Истинностное значение", "concept_b": "Нечёткое множество абсолютная разность", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Истинностное значение", "concept_b": "Нечёткое множество алгебраическая сумма", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Истинностное значение", "concept_b": "Нечёткое множество алгебраическое умножение", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Истинностное значение", "concept_b": "Объединение мультимножеств", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Истинностное значение", "concept_b": "Объединение нечёткое", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Истинностное значение", "concept_b": "Пересечение мультимножеств", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Истинностное значение", "concept_b": "Пересечение нечёткое", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Истинностное значение", "concept_b": "Предикат", "has_relation": true}
+{"paragraph_id": "1.9", "concept_a": "Истинностное значение", "concept_b": "Равенство мультимножеств", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Истинностное значение", "concept_b": "Распознавание образов", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Истинностное значение", "concept_b": "Систематика", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Истинностное значение", "concept_b": "Функция характеристическая", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Истинностное значение", "concept_b": "Функция характеристическая нечёткая", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Истинностное значение", "concept_b": "Характеристическая функция", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Истинностное значение", "concept_b": "Характеристическая функция бинарная", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Истинностное значение", "concept_b": "Характеристическая функция множества", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Истинностное значение", "concept_b": "Характеристическая функция мультимножества", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Истинностное значение", "concept_b": "Характеристическая функция неотрицательно целочисленная \\\\", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Истинностное значение", "concept_b": "Характеристическая функция нечёткая", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Истинностное значение", "concept_b": "Характеристическая функция отношения", "has_relation": true}
+{"paragraph_id": "1.9", "concept_a": "Истинностное значение", "concept_b": "Ширина ветвления", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Истинностное значение", "concept_b": "выпуклое нечёткое множество", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Истинностное значение", "concept_b": "органиченное нечёткое множество", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Истинностное значение", "concept_b": "сильно выпуклое нечёткое множество", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Истинностное значение", "concept_b": "строго выпуклое нечёткое множество", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Истинностное значение", "concept_b": "ядро нечёткого множество", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Квадрант", "concept_b": "Классификатор", "has_relation": true}
+{"paragraph_id": "1.9", "concept_a": "Квадрант", "concept_b": "Классификатор иерархический", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Квадрант", "concept_b": "Классификатор неполный", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Квадрант", "concept_b": "Классификатор фасетный", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Квадрант", "concept_b": "Классификация универсальная десятичная", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Квадрант", "concept_b": "Логика нечёткая", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Квадрант", "concept_b": "Множество характеристик", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Квадрант", "concept_b": "Мощность мультимножества", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Квадрант", "concept_b": "Нечёткое множество", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Квадрант", "concept_b": "Нечёткое множество абсолютная разность", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Квадрант", "concept_b": "Нечёткое множество алгебраическая сумма", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Квадрант", "concept_b": "Нечёткое множество алгебраическое умножение", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Квадрант", "concept_b": "Объединение мультимножеств", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Квадрант", "concept_b": "Объединение нечёткое", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Квадрант", "concept_b": "Пересечение мультимножеств", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Квадрант", "concept_b": "Пересечение нечёткое", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Квадрант", "concept_b": "Предикат", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Квадрант", "concept_b": "Равенство мультимножеств", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Квадрант", "concept_b": "Распознавание образов", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Квадрант", "concept_b": "Систематика", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Квадрант", "concept_b": "Функция характеристическая", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Квадрант", "concept_b": "Функция характеристическая нечёткая", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Квадрант", "concept_b": "Характеристическая функция", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Квадрант", "concept_b": "Характеристическая функция бинарная", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Квадрант", "concept_b": "Характеристическая функция множества", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Квадрант", "concept_b": "Характеристическая функция мультимножества", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Квадрант", "concept_b": "Характеристическая функция неотрицательно целочисленная \\\\", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Квадрант", "concept_b": "Характеристическая функция нечёткая", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Квадрант", "concept_b": "Характеристическая функция отношения", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Квадрант", "concept_b": "Ширина ветвления", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Квадрант", "concept_b": "выпуклое нечёткое множество", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Квадрант", "concept_b": "органиченное нечёткое множество", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Квадрант", "concept_b": "сильно выпуклое нечёткое множество", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Квадрант", "concept_b": "строго выпуклое нечёткое множество", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Квадрант", "concept_b": "ядро нечёткого множество", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Классификатор", "concept_b": "Классификатор иерархический", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Классификатор", "concept_b": "Классификатор неполный", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Классификатор", "concept_b": "Классификатор фасетный", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Классификатор", "concept_b": "Классификация универсальная десятичная", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Классификатор", "concept_b": "Логика нечёткая", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Классификатор", "concept_b": "Множество характеристик", "has_relation": true}
+{"paragraph_id": "1.9", "concept_a": "Классификатор", "concept_b": "Мощность мультимножества", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Классификатор", "concept_b": "Нечёткое множество", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Классификатор", "concept_b": "Нечёткое множество абсолютная разность", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Классификатор", "concept_b": "Нечёткое множество алгебраическая сумма", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Классификатор", "concept_b": "Нечёткое множество алгебраическое умножение", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Классификатор", "concept_b": "Объединение мультимножеств", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Классификатор", "concept_b": "Объединение нечёткое", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Классификатор", "concept_b": "Пересечение мультимножеств", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Классификатор", "concept_b": "Пересечение нечёткое", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Классификатор", "concept_b": "Предикат", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Классификатор", "concept_b": "Равенство мультимножеств", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Классификатор", "concept_b": "Распознавание образов", "has_relation": true}
+{"paragraph_id": "1.9", "concept_a": "Классификатор", "concept_b": "Систематика", "has_relation": true}
+{"paragraph_id": "1.9", "concept_a": "Классификатор", "concept_b": "Функция характеристическая", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Классификатор", "concept_b": "Функция характеристическая нечёткая", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Классификатор", "concept_b": "Характеристическая функция", "has_relation": true}
+{"paragraph_id": "1.9", "concept_a": "Классификатор", "concept_b": "Характеристическая функция бинарная", "has_relation": true}
+{"paragraph_id": "1.9", "concept_a": "Классификатор", "concept_b": "Характеристическая функция множества", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Классификатор", "concept_b": "Характеристическая функция мультимножества", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Классификатор", "concept_b": "Характеристическая функция неотрицательно целочисленная \\\\", "has_relation": true}
+{"paragraph_id": "1.9", "concept_a": "Классификатор", "concept_b": "Характеристическая функция нечёткая", "has_relation": true}
+{"paragraph_id": "1.9", "concept_a": "Классификатор", "concept_b": "Характеристическая функция отношения", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Классификатор", "concept_b": "Ширина ветвления", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Классификатор", "concept_b": "выпуклое нечёткое множество", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Классификатор", "concept_b": "органиченное нечёткое множество", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Классификатор", "concept_b": "сильно выпуклое нечёткое множество", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Классификатор", "concept_b": "строго выпуклое нечёткое множество", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Классификатор", "concept_b": "ядро нечёткого множество", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Классификатор иерархический", "concept_b": "Классификатор неполный", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Классификатор иерархический", "concept_b": "Классификатор фасетный", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Классификатор иерархический", "concept_b": "Классификация универсальная десятичная", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Классификатор иерархический", "concept_b": "Логика нечёткая", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Классификатор иерархический", "concept_b": "Множество характеристик", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Классификатор иерархический", "concept_b": "Мощность мультимножества", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Классификатор иерархический", "concept_b": "Нечёткое множество", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Классификатор иерархический", "concept_b": "Нечёткое множество абсолютная разность", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Классификатор иерархический", "concept_b": "Нечёткое множество алгебраическая сумма", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Классификатор иерархический", "concept_b": "Нечёткое множество алгебраическое умножение", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Классификатор иерархический", "concept_b": "Объединение мультимножеств", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Классификатор иерархический", "concept_b": "Объединение нечёткое", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Классификатор иерархический", "concept_b": "Пересечение мультимножеств", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Классификатор иерархический", "concept_b": "Пересечение нечёткое", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Классификатор иерархический", "concept_b": "Предикат", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Классификатор иерархический", "concept_b": "Равенство мультимножеств", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Классификатор иерархический", "concept_b": "Распознавание образов", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Классификатор иерархический", "concept_b": "Систематика", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Классификатор иерархический", "concept_b": "Функция характеристическая", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Классификатор иерархический", "concept_b": "Функция характеристическая нечёткая", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Классификатор иерархический", "concept_b": "Характеристическая функция", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Классификатор иерархический", "concept_b": "Характеристическая функция бинарная", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Классификатор иерархический", "concept_b": "Характеристическая функция множества", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Классификатор иерархический", "concept_b": "Характеристическая функция мультимножества", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Классификатор иерархический", "concept_b": "Характеристическая функция неотрицательно целочисленная \\\\", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Классификатор иерархический", "concept_b": "Характеристическая функция нечёткая", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Классификатор иерархический", "concept_b": "Характеристическая функция отношения", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Классификатор иерархический", "concept_b": "Ширина ветвления", "has_relation": true}
+{"paragraph_id": "1.9", "concept_a": "Классификатор иерархический", "concept_b": "выпуклое нечёткое множество", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Классификатор иерархический", "concept_b": "органиченное нечёткое множество", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Классификатор иерархический", "concept_b": "сильно выпуклое нечёткое множество", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Классификатор иерархический", "concept_b": "строго выпуклое нечёткое множество", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Классификатор иерархический", "concept_b": "ядро нечёткого множество", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Классификатор неполный", "concept_b": "Классификатор фасетный", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Классификатор неполный", "concept_b": "Классификация универсальная десятичная", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Классификатор неполный", "concept_b": "Логика нечёткая", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Классификатор неполный", "concept_b": "Множество характеристик", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Классификатор неполный", "concept_b": "Мощность мультимножества", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Классификатор неполный", "concept_b": "Нечёткое множество", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Классификатор неполный", "concept_b": "Нечёткое множество абсолютная разность", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Классификатор неполный", "concept_b": "Нечёткое множество алгебраическая сумма", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Классификатор неполный", "concept_b": "Нечёткое множество алгебраическое умножение", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Классификатор неполный", "concept_b": "Объединение мультимножеств", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Классификатор неполный", "concept_b": "Объединение нечёткое", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Классификатор неполный", "concept_b": "Пересечение мультимножеств", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Классификатор неполный", "concept_b": "Пересечение нечёткое", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Классификатор неполный", "concept_b": "Предикат", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Классификатор неполный", "concept_b": "Равенство мультимножеств", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Классификатор неполный", "concept_b": "Распознавание образов", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Классификатор неполный", "concept_b": "Систематика", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Классификатор неполный", "concept_b": "Функция характеристическая", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Классификатор неполный", "concept_b": "Функция характеристическая нечёткая", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Классификатор неполный", "concept_b": "Характеристическая функция", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Классификатор неполный", "concept_b": "Характеристическая функция бинарная", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Классификатор неполный", "concept_b": "Характеристическая функция множества", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Классификатор неполный", "concept_b": "Характеристическая функция мультимножества", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Классификатор неполный", "concept_b": "Характеристическая функция неотрицательно целочисленная \\\\", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Классификатор неполный", "concept_b": "Характеристическая функция нечёткая", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Классификатор неполный", "concept_b": "Характеристическая функция отношения", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Классификатор неполный", "concept_b": "Ширина ветвления", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Классификатор неполный", "concept_b": "выпуклое нечёткое множество", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Классификатор неполный", "concept_b": "органиченное нечёткое множество", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Классификатор неполный", "concept_b": "сильно выпуклое нечёткое множество", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Классификатор неполный", "concept_b": "строго выпуклое нечёткое множество", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Классификатор неполный", "concept_b": "ядро нечёткого множество", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Классификатор фасетный", "concept_b": "Классификация универсальная десятичная", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Классификатор фасетный", "concept_b": "Логика нечёткая", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Классификатор фасетный", "concept_b": "Множество характеристик", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Классификатор фасетный", "concept_b": "Мощность мультимножества", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Классификатор фасетный", "concept_b": "Нечёткое множество", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Классификатор фасетный", "concept_b": "Нечёткое множество абсолютная разность", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Классификатор фасетный", "concept_b": "Нечёткое множество алгебраическая сумма", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Классификатор фасетный", "concept_b": "Нечёткое множество алгебраическое умножение", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Классификатор фасетный", "concept_b": "Объединение мультимножеств", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Классификатор фасетный", "concept_b": "Объединение нечёткое", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Классификатор фасетный", "concept_b": "Пересечение мультимножеств", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Классификатор фасетный", "concept_b": "Пересечение нечёткое", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Классификатор фасетный", "concept_b": "Предикат", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Классификатор фасетный", "concept_b": "Равенство мультимножеств", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Классификатор фасетный", "concept_b": "Распознавание образов", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Классификатор фасетный", "concept_b": "Систематика", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Классификатор фасетный", "concept_b": "Функция характеристическая", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Классификатор фасетный", "concept_b": "Функция характеристическая нечёткая", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Классификатор фасетный", "concept_b": "Характеристическая функция", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Классификатор фасетный", "concept_b": "Характеристическая функция бинарная", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Классификатор фасетный", "concept_b": "Характеристическая функция множества", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Классификатор фасетный", "concept_b": "Характеристическая функция мультимножества", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Классификатор фасетный", "concept_b": "Характеристическая функция неотрицательно целочисленная \\\\", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Классификатор фасетный", "concept_b": "Характеристическая функция нечёткая", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Классификатор фасетный", "concept_b": "Характеристическая функция отношения", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Классификатор фасетный", "concept_b": "Ширина ветвления", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Классификатор фасетный", "concept_b": "выпуклое нечёткое множество", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Классификатор фасетный", "concept_b": "органиченное нечёткое множество", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Классификатор фасетный", "concept_b": "сильно выпуклое нечёткое множество", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Классификатор фасетный", "concept_b": "строго выпуклое нечёткое множество", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Классификатор фасетный", "concept_b": "ядро нечёткого множество", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Классификация универсальная десятичная", "concept_b": "Логика нечёткая", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Классификация универсальная десятичная", "concept_b": "Множество характеристик", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Классификация универсальная десятичная", "concept_b": "Мощность мультимножества", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Классификация универсальная десятичная", "concept_b": "Нечёткое множество", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Классификация универсальная десятичная", "concept_b": "Нечёткое множество абсолютная разность", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Классификация универсальная десятичная", "concept_b": "Нечёткое множество алгебраическая сумма", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Классификация универсальная десятичная", "concept_b": "Нечёткое множество алгебраическое умножение", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Классификация универсальная десятичная", "concept_b": "Объединение мультимножеств", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Классификация универсальная десятичная", "concept_b": "Объединение нечёткое", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Классификация универсальная десятичная", "concept_b": "Пересечение мультимножеств", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Классификация универсальная десятичная", "concept_b": "Пересечение нечёткое", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Классификация универсальная десятичная", "concept_b": "Предикат", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Классификация универсальная десятичная", "concept_b": "Равенство мультимножеств", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Классификация универсальная десятичная", "concept_b": "Распознавание образов", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Классификация универсальная десятичная", "concept_b": "Систематика", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Классификация универсальная десятичная", "concept_b": "Функция характеристическая", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Классификация универсальная десятичная", "concept_b": "Функция характеристическая нечёткая", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Классификация универсальная десятичная", "concept_b": "Характеристическая функция", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Классификация универсальная десятичная", "concept_b": "Характеристическая функция бинарная", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Классификация универсальная десятичная", "concept_b": "Характеристическая функция множества", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Классификация универсальная десятичная", "concept_b": "Характеристическая функция мультимножества", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Классификация универсальная десятичная", "concept_b": "Характеристическая функция неотрицательно целочисленная \\\\", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Классификация универсальная десятичная", "concept_b": "Характеристическая функция нечёткая", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Классификация универсальная десятичная", "concept_b": "Характеристическая функция отношения", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Классификация универсальная десятичная", "concept_b": "Ширина ветвления", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Классификация универсальная десятичная", "concept_b": "выпуклое нечёткое множество", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Классификация универсальная десятичная", "concept_b": "органиченное нечёткое множество", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Классификация универсальная десятичная", "concept_b": "сильно выпуклое нечёткое множество", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Классификация универсальная десятичная", "concept_b": "строго выпуклое нечёткое множество", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Классификация универсальная десятичная", "concept_b": "ядро нечёткого множество", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Логика нечёткая", "concept_b": "Множество характеристик", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Логика нечёткая", "concept_b": "Мощность мультимножества", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Логика нечёткая", "concept_b": "Нечёткое множество", "has_relation": true}
+{"paragraph_id": "1.9", "concept_a": "Логика нечёткая", "concept_b": "Нечёткое множество абсолютная разность", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Логика нечёткая", "concept_b": "Нечёткое множество алгебраическая сумма", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Логика нечёткая", "concept_b": "Нечёткое множество алгебраическое умножение", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Логика нечёткая", "concept_b": "Объединение мультимножеств", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Логика нечёткая", "concept_b": "Объединение нечёткое", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Логика нечёткая", "concept_b": "Пересечение мультимножеств", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Логика нечёткая", "concept_b": "Пересечение нечёткое", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Логика нечёткая", "concept_b": "Предикат", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Логика нечёткая", "concept_b": "Равенство мультимножеств", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Логика нечёткая", "concept_b": "Распознавание образов", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Логика нечёткая", "concept_b": "Систематика", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Логика нечёткая", "concept_b": "Функция характеристическая", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Логика нечёткая", "concept_b": "Функция характеристическая нечёткая", "has_relation": true}
+{"paragraph_id": "1.9", "concept_a": "Логика нечёткая", "concept_b": "Характеристическая функция", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Логика нечёткая", "concept_b": "Характеристическая функция бинарная", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Логика нечёткая", "concept_b": "Характеристическая функция множества", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Логика нечёткая", "concept_b": "Характеристическая функция мультимножества", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Логика нечёткая", "concept_b": "Характеристическая функция неотрицательно целочисленная \\\\", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Логика нечёткая", "concept_b": "Характеристическая функция нечёткая", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Логика нечёткая", "concept_b": "Характеристическая функция отношения", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Логика нечёткая", "concept_b": "Ширина ветвления", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Логика нечёткая", "concept_b": "выпуклое нечёткое множество", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Логика нечёткая", "concept_b": "органиченное нечёткое множество", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Логика нечёткая", "concept_b": "сильно выпуклое нечёткое множество", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Логика нечёткая", "concept_b": "строго выпуклое нечёткое множество", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Логика нечёткая", "concept_b": "ядро нечёткого множество", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Множество характеристик", "concept_b": "Мощность мультимножества", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Множество характеристик", "concept_b": "Нечёткое множество", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Множество характеристик", "concept_b": "Нечёткое множество абсолютная разность", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Множество характеристик", "concept_b": "Нечёткое множество алгебраическая сумма", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Множество характеристик", "concept_b": "Нечёткое множество алгебраическое умножение", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Множество характеристик", "concept_b": "Объединение мультимножеств", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Множество характеристик", "concept_b": "Объединение нечёткое", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Множество характеристик", "concept_b": "Пересечение мультимножеств", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Множество характеристик", "concept_b": "Пересечение нечёткое", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Множество характеристик", "concept_b": "Предикат", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Множество характеристик", "concept_b": "Равенство мультимножеств", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Множество характеристик", "concept_b": "Распознавание образов", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Множество характеристик", "concept_b": "Систематика", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Множество характеристик", "concept_b": "Функция характеристическая", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Множество характеристик", "concept_b": "Функция характеристическая нечёткая", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Множество характеристик", "concept_b": "Характеристическая функция", "has_relation": true}
+{"paragraph_id": "1.9", "concept_a": "Множество характеристик", "concept_b": "Характеристическая функция бинарная", "has_relation": true}
+{"paragraph_id": "1.9", "concept_a": "Множество характеристик", "concept_b": "Характеристическая функция множества", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Множество характеристик", "concept_b": "Характеристическая функция мультимножества", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Множество характеристик", "concept_b": "Характеристическая функция неотрицательно целочисленная \\\\", "has_relation": true}
+{"paragraph_id": "1.9", "concept_a": "Множество характеристик", "concept_b": "Характеристическая функция нечёткая", "has_relation": true}
+{"paragraph_id": "1.9", "concept_a": "Множество характеристик", "concept_b": "Характеристическая функция отношения", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Множество характеристик", "concept_b": "Ширина ветвления", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Множество характеристик", "concept_b": "выпуклое нечёткое множество", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Множество характеристик", "concept_b": "органиченное нечёткое множество", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Множество характеристик", "concept_b": "сильно выпуклое нечёткое множество", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Множество характеристик", "concept_b": "строго выпуклое нечёткое множество", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Множество характеристик", "concept_b": "ядро нечёткого множество", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Мощность мультимножества", "concept_b": "Нечёткое множество", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Мощность мультимножества", "concept_b": "Нечёткое множество абсолютная разность", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Мощность мультимножества", "concept_b": "Нечёткое множество алгебраическая сумма", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Мощность мультимножества", "concept_b": "Нечёткое множество алгебраическое умножение", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Мощность мультимножества", "concept_b": "Объединение мультимножеств", "has_relation": true}
+{"paragraph_id": "1.9", "concept_a": "Мощность мультимножества", "concept_b": "Объединение нечёткое", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Мощность мультимножества", "concept_b": "Пересечение мультимножеств", "has_relation": true}
+{"paragraph_id": "1.9", "concept_a": "Мощность мультимножества", "concept_b": "Пересечение нечёткое", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Мощность мультимножества", "concept_b": "Предикат", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Мощность мультимножества", "concept_b": "Равенство мультимножеств", "has_relation": true}
+{"paragraph_id": "1.9", "concept_a": "Мощность мультимножества", "concept_b": "Распознавание образов", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Мощность мультимножества", "concept_b": "Систематика", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Мощность мультимножества", "concept_b": "Функция характеристическая", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Мощность мультимножества", "concept_b": "Функция характеристическая нечёткая", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Мощность мультимножества", "concept_b": "Характеристическая функция", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Мощность мультимножества", "concept_b": "Характеристическая функция бинарная", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Мощность мультимножества", "concept_b": "Характеристическая функция множества", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Мощность мультимножества", "concept_b": "Характеристическая функция мультимножества", "has_relation": true}
+{"paragraph_id": "1.9", "concept_a": "Мощность мультимножества", "concept_b": "Характеристическая функция неотрицательно целочисленная \\\\", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Мощность мультимножества", "concept_b": "Характеристическая функция нечёткая", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Мощность мультимножества", "concept_b": "Характеристическая функция отношения", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Мощность мультимножества", "concept_b": "Ширина ветвления", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Мощность мультимножества", "concept_b": "выпуклое нечёткое множество", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Мощность мультимножества", "concept_b": "органиченное нечёткое множество", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Мощность мультимножества", "concept_b": "сильно выпуклое нечёткое множество", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Мощность мультимножества", "concept_b": "строго выпуклое нечёткое множество", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Мощность мультимножества", "concept_b": "ядро нечёткого множество", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Нечёткое множество", "concept_b": "Нечёткое множество абсолютная разность", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Нечёткое множество", "concept_b": "Нечёткое множество алгебраическая сумма", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Нечёткое множество", "concept_b": "Нечёткое множество алгебраическое умножение", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Нечёткое множество", "concept_b": "Объединение мультимножеств", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Нечёткое множество", "concept_b": "Объединение нечёткое", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Нечёткое множество", "concept_b": "Пересечение мультимножеств", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Нечёткое множество", "concept_b": "Пересечение нечёткое", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Нечёткое множество", "concept_b": "Предикат", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Нечёткое множество", "concept_b": "Равенство мультимножеств", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Нечёткое множество", "concept_b": "Распознавание образов", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Нечёткое множество", "concept_b": "Систематика", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Нечёткое множество", "concept_b": "Функция характеристическая", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Нечёткое множество", "concept_b": "Функция характеристическая нечёткая", "has_relation": true}
+{"paragraph_id": "1.9", "concept_a": "Нечёткое множество", "concept_b": "Характеристическая функция", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Нечёткое множество", "concept_b": "Характеристическая функция бинарная", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Нечёткое множество", "concept_b": "Характеристическая функция множества", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Нечёткое множество", "concept_b": "Характеристическая функция мультимножества", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Нечёткое множество", "concept_b": "Характеристическая функция неотрицательно целочисленная \\\\", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Нечёткое множество", "concept_b": "Характеристическая функция нечёткая", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Нечёткое множество", "concept_b": "Характеристическая функция отношения", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Нечёткое множество", "concept_b": "Ширина ветвления", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Нечёткое множество", "concept_b": "выпуклое нечёткое множество", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Нечёткое множество", "concept_b": "органиченное нечёткое множество", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Нечёткое множество", "concept_b": "сильно выпуклое нечёткое множество", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Нечёткое множество", "concept_b": "строго выпуклое нечёткое множество", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Нечёткое множество", "concept_b": "ядро нечёткого множество", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Нечёткое множество абсолютная разность", "concept_b": "Нечёткое множество алгебраическая сумма", "has_relation": true}
+{"paragraph_id": "1.9", "concept_a": "Нечёткое множество абсолютная разность", "concept_b": "Нечёткое множество алгебраическое умножение", "has_relation": true}
+{"paragraph_id": "1.9", "concept_a": "Нечёткое множество абсолютная разность", "concept_b": "Объединение мультимножеств", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Нечёткое множество абсолютная разность", "concept_b": "Объединение нечёткое", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Нечёткое множество абсолютная разность", "concept_b": "Пересечение мультимножеств", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Нечёткое множество абсолютная разность", "concept_b": "Пересечение нечёткое", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Нечёткое множество абсолютная разность", "concept_b": "Предикат", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Нечёткое множество абсолютная разность", "concept_b": "Равенство мультимножеств", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Нечёткое множество абсолютная разность", "concept_b": "Распознавание образов", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Нечёткое множество абсолютная разность", "concept_b": "Систематика", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Нечёткое множество абсолютная разность", "concept_b": "Функция характеристическая", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Нечёткое множество абсолютная разность", "concept_b": "Функция характеристическая нечёткая", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Нечёткое множество абсолютная разность", "concept_b": "Характеристическая функция", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Нечёткое множество абсолютная разность", "concept_b": "Характеристическая функция бинарная", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Нечёткое множество абсолютная разность", "concept_b": "Характеристическая функция множества", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Нечёткое множество абсолютная разность", "concept_b": "Характеристическая функция мультимножества", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Нечёткое множество абсолютная разность", "concept_b": "Характеристическая функция неотрицательно целочисленная \\\\", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Нечёткое множество абсолютная разность", "concept_b": "Характеристическая функция нечёткая", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Нечёткое множество абсолютная разность", "concept_b": "Характеристическая функция отношения", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Нечёткое множество абсолютная разность", "concept_b": "Ширина ветвления", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Нечёткое множество абсолютная разность", "concept_b": "выпуклое нечёткое множество", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Нечёткое множество абсолютная разность", "concept_b": "органиченное нечёткое множество", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Нечёткое множество абсолютная разность", "concept_b": "сильно выпуклое нечёткое множество", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Нечёткое множество абсолютная разность", "concept_b": "строго выпуклое нечёткое множество", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Нечёткое множество абсолютная разность", "concept_b": "ядро нечёткого множество", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Нечёткое множество алгебраическая сумма", "concept_b": "Нечёткое множество алгебраическое умножение", "has_relation": true}
+{"paragraph_id": "1.9", "concept_a": "Нечёткое множество алгебраическая сумма", "concept_b": "Объединение мультимножеств", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Нечёткое множество алгебраическая сумма", "concept_b": "Объединение нечёткое", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Нечёткое множество алгебраическая сумма", "concept_b": "Пересечение мультимножеств", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Нечёткое множество алгебраическая сумма", "concept_b": "Пересечение нечёткое", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Нечёткое множество алгебраическая сумма", "concept_b": "Предикат", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Нечёткое множество алгебраическая сумма", "concept_b": "Равенство мультимножеств", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Нечёткое множество алгебраическая сумма", "concept_b": "Распознавание образов", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Нечёткое множество алгебраическая сумма", "concept_b": "Систематика", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Нечёткое множество алгебраическая сумма", "concept_b": "Функция характеристическая", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Нечёткое множество алгебраическая сумма", "concept_b": "Функция характеристическая нечёткая", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Нечёткое множество алгебраическая сумма", "concept_b": "Характеристическая функция", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Нечёткое множество алгебраическая сумма", "concept_b": "Характеристическая функция бинарная", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Нечёткое множество алгебраическая сумма", "concept_b": "Характеристическая функция множества", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Нечёткое множество алгебраическая сумма", "concept_b": "Характеристическая функция мультимножества", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Нечёткое множество алгебраическая сумма", "concept_b": "Характеристическая функция неотрицательно целочисленная \\\\", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Нечёткое множество алгебраическая сумма", "concept_b": "Характеристическая функция нечёткая", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Нечёткое множество алгебраическая сумма", "concept_b": "Характеристическая функция отношения", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Нечёткое множество алгебраическая сумма", "concept_b": "Ширина ветвления", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Нечёткое множество алгебраическая сумма", "concept_b": "выпуклое нечёткое множество", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Нечёткое множество алгебраическая сумма", "concept_b": "органиченное нечёткое множество", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Нечёткое множество алгебраическая сумма", "concept_b": "сильно выпуклое нечёткое множество", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Нечёткое множество алгебраическая сумма", "concept_b": "строго выпуклое нечёткое множество", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Нечёткое множество алгебраическая сумма", "concept_b": "ядро нечёткого множество", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Нечёткое множество алгебраическое умножение", "concept_b": "Объединение мультимножеств", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Нечёткое множество алгебраическое умножение", "concept_b": "Объединение нечёткое", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Нечёткое множество алгебраическое умножение", "concept_b": "Пересечение мультимножеств", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Нечёткое множество алгебраическое умножение", "concept_b": "Пересечение нечёткое", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Нечёткое множество алгебраическое умножение", "concept_b": "Предикат", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Нечёткое множество алгебраическое умножение", "concept_b": "Равенство мультимножеств", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Нечёткое множество алгебраическое умножение", "concept_b": "Распознавание образов", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Нечёткое множество алгебраическое умножение", "concept_b": "Систематика", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Нечёткое множество алгебраическое умножение", "concept_b": "Функция характеристическая", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Нечёткое множество алгебраическое умножение", "concept_b": "Функция характеристическая нечёткая", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Нечёткое множество алгебраическое умножение", "concept_b": "Характеристическая функция", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Нечёткое множество алгебраическое умножение", "concept_b": "Характеристическая функция бинарная", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Нечёткое множество алгебраическое умножение", "concept_b": "Характеристическая функция множества", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Нечёткое множество алгебраическое умножение", "concept_b": "Характеристическая функция мультимножества", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Нечёткое множество алгебраическое умножение", "concept_b": "Характеристическая функция неотрицательно целочисленная \\\\", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Нечёткое множество алгебраическое умножение", "concept_b": "Характеристическая функция нечёткая", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Нечёткое множество алгебраическое умножение", "concept_b": "Характеристическая функция отношения", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Нечёткое множество алгебраическое умножение", "concept_b": "Ширина ветвления", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Нечёткое множество алгебраическое умножение", "concept_b": "выпуклое нечёткое множество", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Нечёткое множество алгебраическое умножение", "concept_b": "органиченное нечёткое множество", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Нечёткое множество алгебраическое умножение", "concept_b": "сильно выпуклое нечёткое множество", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Нечёткое множество алгебраическое умножение", "concept_b": "строго выпуклое нечёткое множество", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Нечёткое множество алгебраическое умножение", "concept_b": "ядро нечёткого множество", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Объединение мультимножеств", "concept_b": "Объединение нечёткое", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Объединение мультимножеств", "concept_b": "Пересечение мультимножеств", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Объединение мультимножеств", "concept_b": "Пересечение нечёткое", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Объединение мультимножеств", "concept_b": "Предикат", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Объединение мультимножеств", "concept_b": "Равенство мультимножеств", "has_relation": true}
+{"paragraph_id": "1.9", "concept_a": "Объединение мультимножеств", "concept_b": "Распознавание образов", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Объединение мультимножеств", "concept_b": "Систематика", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Объединение мультимножеств", "concept_b": "Функция характеристическая", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Объединение мультимножеств", "concept_b": "Функция характеристическая нечёткая", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Объединение мультимножеств", "concept_b": "Характеристическая функция", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Объединение мультимножеств", "concept_b": "Характеристическая функция бинарная", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Объединение мультимножеств", "concept_b": "Характеристическая функция множества", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Объединение мультимножеств", "concept_b": "Характеристическая функция мультимножества", "has_relation": true}
+{"paragraph_id": "1.9", "concept_a": "Объединение мультимножеств", "concept_b": "Характеристическая функция неотрицательно целочисленная \\\\", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Объединение мультимножеств", "concept_b": "Характеристическая функция нечёткая", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Объединение мультимножеств", "concept_b": "Характеристическая функция отношения", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Объединение мультимножеств", "concept_b": "Ширина ветвления", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Объединение мультимножеств", "concept_b": "выпуклое нечёткое множество", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Объединение мультимножеств", "concept_b": "органиченное нечёткое множество", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Объединение мультимножеств", "concept_b": "сильно выпуклое нечёткое множество", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Объединение мультимножеств", "concept_b": "строго выпуклое нечёткое множество", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Объединение мультимножеств", "concept_b": "ядро нечёткого множество", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Объединение нечёткое", "concept_b": "Пересечение мультимножеств", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Объединение нечёткое", "concept_b": "Пересечение нечёткое", "has_relation": true}
+{"paragraph_id": "1.9", "concept_a": "Объединение нечёткое", "concept_b": "Предикат", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Объединение нечёткое", "concept_b": "Равенство мультимножеств", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Объединение нечёткое", "concept_b": "Распознавание образов", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Объединение нечёткое", "concept_b": "Систематика", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Объединение нечёткое", "concept_b": "Функция характеристическая", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Объединение нечёткое", "concept_b": "Функция характеристическая нечёткая", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Объединение нечёткое", "concept_b": "Характеристическая функция", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Объединение нечёткое", "concept_b": "Характеристическая функция бинарная", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Объединение нечёткое", "concept_b": "Характеристическая функция множества", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Объединение нечёткое", "concept_b": "Характеристическая функция мультимножества", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Объединение нечёткое", "concept_b": "Характеристическая функция неотрицательно целочисленная \\\\", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Объединение нечёткое", "concept_b": "Характеристическая функция нечёткая", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Объединение нечёткое", "concept_b": "Характеристическая функция отношения", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Объединение нечёткое", "concept_b": "Ширина ветвления", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Объединение нечёткое", "concept_b": "выпуклое нечёткое множество", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Объединение нечёткое", "concept_b": "органиченное нечёткое множество", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Объединение нечёткое", "concept_b": "сильно выпуклое нечёткое множество", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Объединение нечёткое", "concept_b": "строго выпуклое нечёткое множество", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Объединение нечёткое", "concept_b": "ядро нечёткого множество", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Пересечение мультимножеств", "concept_b": "Пересечение нечёткое", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Пересечение мультимножеств", "concept_b": "Предикат", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Пересечение мультимножеств", "concept_b": "Равенство мультимножеств", "has_relation": true}
+{"paragraph_id": "1.9", "concept_a": "Пересечение мультимножеств", "concept_b": "Распознавание образов", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Пересечение мультимножеств", "concept_b": "Систематика", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Пересечение мультимножеств", "concept_b": "Функция характеристическая", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Пересечение мультимножеств", "concept_b": "Функция характеристическая нечёткая", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Пересечение мультимножеств", "concept_b": "Характеристическая функция", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Пересечение мультимножеств", "concept_b": "Характеристическая функция бинарная", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Пересечение мультимножеств", "concept_b": "Характеристическая функция множества", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Пересечение мультимножеств", "concept_b": "Характеристическая функция мультимножества", "has_relation": true}
+{"paragraph_id": "1.9", "concept_a": "Пересечение мультимножеств", "concept_b": "Характеристическая функция неотрицательно целочисленная \\\\", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Пересечение мультимножеств", "concept_b": "Характеристическая функция нечёткая", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Пересечение мультимножеств", "concept_b": "Характеристическая функция отношения", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Пересечение мультимножеств", "concept_b": "Ширина ветвления", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Пересечение мультимножеств", "concept_b": "выпуклое нечёткое множество", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Пересечение мультимножеств", "concept_b": "органиченное нечёткое множество", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Пересечение мультимножеств", "concept_b": "сильно выпуклое нечёткое множество", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Пересечение мультимножеств", "concept_b": "строго выпуклое нечёткое множество", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Пересечение мультимножеств", "concept_b": "ядро нечёткого множество", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Пересечение нечёткое", "concept_b": "Предикат", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Пересечение нечёткое", "concept_b": "Равенство мультимножеств", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Пересечение нечёткое", "concept_b": "Распознавание образов", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Пересечение нечёткое", "concept_b": "Систематика", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Пересечение нечёткое", "concept_b": "Функция характеристическая", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Пересечение нечёткое", "concept_b": "Функция характеристическая нечёткая", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Пересечение нечёткое", "concept_b": "Характеристическая функция", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Пересечение нечёткое", "concept_b": "Характеристическая функция бинарная", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Пересечение нечёткое", "concept_b": "Характеристическая функция множества", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Пересечение нечёткое", "concept_b": "Характеристическая функция мультимножества", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Пересечение нечёткое", "concept_b": "Характеристическая функция неотрицательно целочисленная \\\\", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Пересечение нечёткое", "concept_b": "Характеристическая функция нечёткая", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Пересечение нечёткое", "concept_b": "Характеристическая функция отношения", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Пересечение нечёткое", "concept_b": "Ширина ветвления", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Пересечение нечёткое", "concept_b": "выпуклое нечёткое множество", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Пересечение нечёткое", "concept_b": "органиченное нечёткое множество", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Пересечение нечёткое", "concept_b": "сильно выпуклое нечёткое множество", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Пересечение нечёткое", "concept_b": "строго выпуклое нечёткое множество", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Пересечение нечёткое", "concept_b": "ядро нечёткого множество", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Предикат", "concept_b": "Равенство мультимножеств", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Предикат", "concept_b": "Распознавание образов", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Предикат", "concept_b": "Систематика", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Предикат", "concept_b": "Функция характеристическая", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Предикат", "concept_b": "Функция характеристическая нечёткая", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Предикат", "concept_b": "Характеристическая функция", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Предикат", "concept_b": "Характеристическая функция бинарная", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Предикат", "concept_b": "Характеристическая функция множества", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Предикат", "concept_b": "Характеристическая функция мультимножества", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Предикат", "concept_b": "Характеристическая функция неотрицательно целочисленная \\\\", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Предикат", "concept_b": "Характеристическая функция нечёткая", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Предикат", "concept_b": "Характеристическая функция отношения", "has_relation": true}
+{"paragraph_id": "1.9", "concept_a": "Предикат", "concept_b": "Ширина ветвления", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Предикат", "concept_b": "выпуклое нечёткое множество", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Предикат", "concept_b": "органиченное нечёткое множество", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Предикат", "concept_b": "сильно выпуклое нечёткое множество", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Предикат", "concept_b": "строго выпуклое нечёткое множество", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Предикат", "concept_b": "ядро нечёткого множество", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Равенство мультимножеств", "concept_b": "Распознавание образов", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Равенство мультимножеств", "concept_b": "Систематика", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Равенство мультимножеств", "concept_b": "Функция характеристическая", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Равенство мультимножеств", "concept_b": "Функция характеристическая нечёткая", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Равенство мультимножеств", "concept_b": "Характеристическая функция", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Равенство мультимножеств", "concept_b": "Характеристическая функция бинарная", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Равенство мультимножеств", "concept_b": "Характеристическая функция множества", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Равенство мультимножеств", "concept_b": "Характеристическая функция мультимножества", "has_relation": true}
+{"paragraph_id": "1.9", "concept_a": "Равенство мультимножеств", "concept_b": "Характеристическая функция неотрицательно целочисленная \\\\", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Равенство мультимножеств", "concept_b": "Характеристическая функция нечёткая", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Равенство мультимножеств", "concept_b": "Характеристическая функция отношения", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Равенство мультимножеств", "concept_b": "Ширина ветвления", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Равенство мультимножеств", "concept_b": "выпуклое нечёткое множество", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Равенство мультимножеств", "concept_b": "органиченное нечёткое множество", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Равенство мультимножеств", "concept_b": "сильно выпуклое нечёткое множество", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Равенство мультимножеств", "concept_b": "строго выпуклое нечёткое множество", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Равенство мультимножеств", "concept_b": "ядро нечёткого множество", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Распознавание образов", "concept_b": "Систематика", "has_relation": true}
+{"paragraph_id": "1.9", "concept_a": "Распознавание образов", "concept_b": "Функция характеристическая", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Распознавание образов", "concept_b": "Функция характеристическая нечёткая", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Распознавание образов", "concept_b": "Характеристическая функция", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Распознавание образов", "concept_b": "Характеристическая функция бинарная", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Распознавание образов", "concept_b": "Характеристическая функция множества", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Распознавание образов", "concept_b": "Характеристическая функция мультимножества", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Распознавание образов", "concept_b": "Характеристическая функция неотрицательно целочисленная \\\\", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Распознавание образов", "concept_b": "Характеристическая функция нечёткая", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Распознавание образов", "concept_b": "Характеристическая функция отношения", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Распознавание образов", "concept_b": "Ширина ветвления", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Распознавание образов", "concept_b": "выпуклое нечёткое множество", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Распознавание образов", "concept_b": "органиченное нечёткое множество", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Распознавание образов", "concept_b": "сильно выпуклое нечёткое множество", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Распознавание образов", "concept_b": "строго выпуклое нечёткое множество", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Распознавание образов", "concept_b": "ядро нечёткого множество", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Систематика", "concept_b": "Функция характеристическая", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Систематика", "concept_b": "Функция характеристическая нечёткая", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Систематика", "concept_b": "Характеристическая функция", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Систематика", "concept_b": "Характеристическая функция бинарная", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Систематика", "concept_b": "Характеристическая функция множества", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Систематика", "concept_b": "Характеристическая функция мультимножества", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Систематика", "concept_b": "Характеристическая функция неотрицательно целочисленная \\\\", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Систематика", "concept_b": "Характеристическая функция нечёткая", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Систематика", "concept_b": "Характеристическая функция отношения", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Систематика", "concept_b": "Ширина ветвления", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Систематика", "concept_b": "выпуклое нечёткое множество", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Систематика", "concept_b": "органиченное нечёткое множество", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Систематика", "concept_b": "сильно выпуклое нечёткое множество", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Систематика", "concept_b": "строго выпуклое нечёткое множество", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Систематика", "concept_b": "ядро нечёткого множество", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Функция характеристическая", "concept_b": "Функция характеристическая нечёткая", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Функция характеристическая", "concept_b": "Характеристическая функция", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Функция характеристическая", "concept_b": "Характеристическая функция бинарная", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Функция характеристическая", "concept_b": "Характеристическая функция множества", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Функция характеристическая", "concept_b": "Характеристическая функция мультимножества", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Функция характеристическая", "concept_b": "Характеристическая функция неотрицательно целочисленная \\\\", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Функция характеристическая", "concept_b": "Характеристическая функция нечёткая", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Функция характеристическая", "concept_b": "Характеристическая функция отношения", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Функция характеристическая", "concept_b": "Ширина ветвления", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Функция характеристическая", "concept_b": "выпуклое нечёткое множество", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Функция характеристическая", "concept_b": "органиченное нечёткое множество", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Функция характеристическая", "concept_b": "сильно выпуклое нечёткое множество", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Функция характеристическая", "concept_b": "строго выпуклое нечёткое множество", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Функция характеристическая", "concept_b": "ядро нечёткого множество", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Функция характеристическая нечёткая", "concept_b": "Характеристическая функция", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Функция характеристическая нечёткая", "concept_b": "Характеристическая функция бинарная", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Функция характеристическая нечёткая", "concept_b": "Характеристическая функция множества", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Функция характеристическая нечёткая", "concept_b": "Характеристическая функция мультимножества", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Функция характеристическая нечёткая", "concept_b": "Характеристическая функция неотрицательно целочисленная \\\\", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Функция характеристическая нечёткая", "concept_b": "Характеристическая функция нечёткая", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Функция характеристическая нечёткая", "concept_b": "Характеристическая функция отношения", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Функция характеристическая нечёткая", "concept_b": "Ширина ветвления", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Функция характеристическая нечёткая", "concept_b": "выпуклое нечёткое множество", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Функция характеристическая нечёткая", "concept_b": "органиченное нечёткое множество", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Функция характеристическая нечёткая", "concept_b": "сильно выпуклое нечёткое множество", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Функция характеристическая нечёткая", "concept_b": "строго выпуклое нечёткое множество", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Функция характеристическая нечёткая", "concept_b": "ядро нечёткого множество", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Характеристическая функция", "concept_b": "Характеристическая функция бинарная", "has_relation": true}
+{"paragraph_id": "1.9", "concept_a": "Характеристическая функция", "concept_b": "Характеристическая функция множества", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Характеристическая функция", "concept_b": "Характеристическая функция мультимножества", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Характеристическая функция", "concept_b": "Характеристическая функция неотрицательно целочисленная \\\\", "has_relation": true}
+{"paragraph_id": "1.9", "concept_a": "Характеристическая функция", "concept_b": "Характеристическая функция нечёткая", "has_relation": true}
+{"paragraph_id": "1.9", "concept_a": "Характеристическая функция", "concept_b": "Характеристическая функция отношения", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Характеристическая функция", "concept_b": "Ширина ветвления", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Характеристическая функция", "concept_b": "выпуклое нечёткое множество", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Характеристическая функция", "concept_b": "органиченное нечёткое множество", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Характеристическая функция", "concept_b": "сильно выпуклое нечёткое множество", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Характеристическая функция", "concept_b": "строго выпуклое нечёткое множество", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Характеристическая функция", "concept_b": "ядро нечёткого множество", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Характеристическая функция бинарная", "concept_b": "Характеристическая функция множества", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Характеристическая функция бинарная", "concept_b": "Характеристическая функция мультимножества", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Характеристическая функция бинарная", "concept_b": "Характеристическая функция неотрицательно целочисленная \\\\", "has_relation": true}
+{"paragraph_id": "1.9", "concept_a": "Характеристическая функция бинарная", "concept_b": "Характеристическая функция нечёткая", "has_relation": true}
+{"paragraph_id": "1.9", "concept_a": "Характеристическая функция бинарная", "concept_b": "Характеристическая функция отношения", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Характеристическая функция бинарная", "concept_b": "Ширина ветвления", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Характеристическая функция бинарная", "concept_b": "выпуклое нечёткое множество", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Характеристическая функция бинарная", "concept_b": "органиченное нечёткое множество", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Характеристическая функция бинарная", "concept_b": "сильно выпуклое нечёткое множество", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Характеристическая функция бинарная", "concept_b": "строго выпуклое нечёткое множество", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Характеристическая функция бинарная", "concept_b": "ядро нечёткого множество", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Характеристическая функция множества", "concept_b": "Характеристическая функция мультимножества", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Характеристическая функция множества", "concept_b": "Характеристическая функция неотрицательно целочисленная \\\\", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Характеристическая функция множества", "concept_b": "Характеристическая функция нечёткая", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Характеристическая функция множества", "concept_b": "Характеристическая функция отношения", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Характеристическая функция множества", "concept_b": "Ширина ветвления", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Характеристическая функция множества", "concept_b": "выпуклое нечёткое множество", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Характеристическая функция множества", "concept_b": "органиченное нечёткое множество", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Характеристическая функция множества", "concept_b": "сильно выпуклое нечёткое множество", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Характеристическая функция множества", "concept_b": "строго выпуклое нечёткое множество", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Характеристическая функция множества", "concept_b": "ядро нечёткого множество", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Характеристическая функция мультимножества", "concept_b": "Характеристическая функция неотрицательно целочисленная \\\\", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Характеристическая функция мультимножества", "concept_b": "Характеристическая функция нечёткая", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Характеристическая функция мультимножества", "concept_b": "Характеристическая функция отношения", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Характеристическая функция мультимножества", "concept_b": "Ширина ветвления", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Характеристическая функция мультимножества", "concept_b": "выпуклое нечёткое множество", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Характеристическая функция мультимножества", "concept_b": "органиченное нечёткое множество", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Характеристическая функция мультимножества", "concept_b": "сильно выпуклое нечёткое множество", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Характеристическая функция мультимножества", "concept_b": "строго выпуклое нечёткое множество", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Характеристическая функция мультимножества", "concept_b": "ядро нечёткого множество", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Характеристическая функция неотрицательно целочисленная \\\\", "concept_b": "Характеристическая функция нечёткая", "has_relation": true}
+{"paragraph_id": "1.9", "concept_a": "Характеристическая функция неотрицательно целочисленная \\\\", "concept_b": "Характеристическая функция отношения", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Характеристическая функция неотрицательно целочисленная \\\\", "concept_b": "Ширина ветвления", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Характеристическая функция неотрицательно целочисленная \\\\", "concept_b": "выпуклое нечёткое множество", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Характеристическая функция неотрицательно целочисленная \\\\", "concept_b": "органиченное нечёткое множество", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Характеристическая функция неотрицательно целочисленная \\\\", "concept_b": "сильно выпуклое нечёткое множество", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Характеристическая функция неотрицательно целочисленная \\\\", "concept_b": "строго выпуклое нечёткое множество", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Характеристическая функция неотрицательно целочисленная \\\\", "concept_b": "ядро нечёткого множество", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Характеристическая функция нечёткая", "concept_b": "Характеристическая функция отношения", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Характеристическая функция нечёткая", "concept_b": "Ширина ветвления", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Характеристическая функция нечёткая", "concept_b": "выпуклое нечёткое множество", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Характеристическая функция нечёткая", "concept_b": "органиченное нечёткое множество", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Характеристическая функция нечёткая", "concept_b": "сильно выпуклое нечёткое множество", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Характеристическая функция нечёткая", "concept_b": "строго выпуклое нечёткое множество", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Характеристическая функция нечёткая", "concept_b": "ядро нечёткого множество", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Характеристическая функция отношения", "concept_b": "Ширина ветвления", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Характеристическая функция отношения", "concept_b": "выпуклое нечёткое множество", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Характеристическая функция отношения", "concept_b": "органиченное нечёткое множество", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Характеристическая функция отношения", "concept_b": "сильно выпуклое нечёткое множество", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Характеристическая функция отношения", "concept_b": "строго выпуклое нечёткое множество", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Характеристическая функция отношения", "concept_b": "ядро нечёткого множество", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Ширина ветвления", "concept_b": "выпуклое нечёткое множество", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Ширина ветвления", "concept_b": "органиченное нечёткое множество", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Ширина ветвления", "concept_b": "сильно выпуклое нечёткое множество", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Ширина ветвления", "concept_b": "строго выпуклое нечёткое множество", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "Ширина ветвления", "concept_b": "ядро нечёткого множество", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "выпуклое нечёткое множество", "concept_b": "органиченное нечёткое множество", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "выпуклое нечёткое множество", "concept_b": "сильно выпуклое нечёткое множество", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "выпуклое нечёткое множество", "concept_b": "строго выпуклое нечёткое множество", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "выпуклое нечёткое множество", "concept_b": "ядро нечёткого множество", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "органиченное нечёткое множество", "concept_b": "сильно выпуклое нечёткое множество", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "органиченное нечёткое множество", "concept_b": "строго выпуклое нечёткое множество", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "органиченное нечёткое множество", "concept_b": "ядро нечёткого множество", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "сильно выпуклое нечёткое множество", "concept_b": "строго выпуклое нечёткое множество", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "сильно выпуклое нечёткое множество", "concept_b": "ядро нечёткого множество", "has_relation": false}
+{"paragraph_id": "1.9", "concept_a": "строго выпуклое нечёткое множество", "concept_b": "ядро нечёткого множество", "has_relation": false}

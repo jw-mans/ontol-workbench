@@ -1,0 +1,18 @@
+{
+  "paragraph_id": "8.5",
+  "paragraph_title": "8.5. Связность в орграфах",
+  "folder": "8.5_связность_в_орграфах",
+  "relations_reviewed": 33,
+  "corrected_relations": 22,
+  "category_counts": {
+    "found_on_diagram_correct": 0,
+    "found_on_diagram_wrong_direction": 0,
+    "found_on_diagram_wrong_type": 1,
+    "found_on_diagram_wrong_direction_and_type": 0,
+    "found_not_on_diagram_accepted": 21,
+    "found_not_on_diagram_rejected": 0,
+    "not_found_from_diagram": 11
+  },
+  "rendered": false,
+  "render_error": "Обнаружен циклический архитектурный антипаттерн взаимосвязи иерархий (a^+ b^+ a^+ b^+) для класса 'ГрафГерца'\nОбнаружен циклический архитектурный антипаттерн взаимосвязи иерархий (a^+ b^+ a^+ b^+) для класса 'КонденсацияОрграфа'"
+}

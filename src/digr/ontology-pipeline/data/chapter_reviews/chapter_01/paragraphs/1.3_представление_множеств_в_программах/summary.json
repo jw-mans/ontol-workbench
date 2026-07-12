@@ -1,0 +1,18 @@
+{
+  "paragraph_id": "1.3",
+  "paragraph_title": "1.3. Представление множеств в программах",
+  "folder": "1.3_представление_множеств_в_программах",
+  "relations_reviewed": 91,
+  "corrected_relations": 86,
+  "category_counts": {
+    "found_on_diagram_correct": 0,
+    "found_on_diagram_wrong_direction": 0,
+    "found_on_diagram_wrong_type": 1,
+    "found_on_diagram_wrong_direction_and_type": 0,
+    "found_not_on_diagram_accepted": 85,
+    "found_not_on_diagram_rejected": 1,
+    "not_found_from_diagram": 4
+  },
+  "rendered": true,
+  "render_error": null
+}

@@ -1,0 +1,1035 @@
+{"paragraph_id": "2.4", "concept_a": "2.4.9.", "concept_b": "Алгоритм Евклида", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "2.4.9.", "concept_b": "Алгоритм деления вычитанием", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "2.4.9.", "concept_b": "Арифметика", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "2.4.9.", "concept_b": "Арифметика высшая", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "2.4.9.", "concept_b": "Арифметика модулярная", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "2.4.9.", "concept_b": "Делитель", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "2.4.9.", "concept_b": "Делитель собственный", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "2.4.9.", "concept_b": "Делитель тривиальный", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "2.4.9.", "concept_b": "Делится на", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "2.4.9.", "concept_b": "Дисциплина имён", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "2.4.9.", "concept_b": "Китайская теорема об остатках", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "2.4.9.", "concept_b": "Класс вычетов по модулю", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "2.4.9.", "concept_b": "Комментарии", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "2.4.9.", "concept_b": "Коэффициент Безу", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "2.4.9.", "concept_b": "Наибольший общий делитель", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "2.4.9.", "concept_b": "Наименьшее общее кратное", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "2.4.9.", "concept_b": "Неполное частное", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "2.4.9.", "concept_b": "Общее кратное", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "2.4.9.", "concept_b": "Основание системы остаточных классов", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "2.4.9.", "concept_b": "Остаток от деления", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "2.4.9.", "concept_b": "Отношение делимости", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "2.4.9.", "concept_b": "Отношение толерантности строгой", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "2.4.9.", "concept_b": "Отступы", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "2.4.9.", "concept_b": "Признаки делимости", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "2.4.9.", "concept_b": "Решето Эратосфена", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "2.4.9.", "concept_b": "Система наименьших неотрицательных вычетов", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "2.4.9.", "concept_b": "Система остаточных классов", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "2.4.9.", "concept_b": "Соотношение Безу", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "2.4.9.", "concept_b": "Сравнение", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "2.4.9.", "concept_b": "Сравнение по модулю", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "2.4.9.", "concept_b": "Стиль программирования", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "2.4.9.", "concept_b": "Теория чисел", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "2.4.9.", "concept_b": "Теория чисел элементарная", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "2.4.9.", "concept_b": "Уравнение диофантово", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "2.4.9.", "concept_b": "Функция Эйлера", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "2.4.9.", "concept_b": "Функция аддитивная", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "2.4.9.", "concept_b": "Функция вполне аддитивная", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "2.4.9.", "concept_b": "Функция вполне мультипликативная", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "2.4.9.", "concept_b": "Функция мультипликативная", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "2.4.9.", "concept_b": "Частное", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "2.4.9.", "concept_b": "Числа взаимно простые", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "2.4.9.", "concept_b": "Число кратное", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "2.4.9.", "concept_b": "Число простое", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "2.4.9.", "concept_b": "Число совершенное", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "2.4.9.", "concept_b": "Число составное", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Алгоритм Евклида", "concept_b": "Алгоритм деления вычитанием", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Алгоритм Евклида", "concept_b": "Арифметика", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Алгоритм Евклида", "concept_b": "Арифметика высшая", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Алгоритм Евклида", "concept_b": "Арифметика модулярная", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Алгоритм Евклида", "concept_b": "Делитель", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Алгоритм Евклида", "concept_b": "Делитель собственный", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Алгоритм Евклида", "concept_b": "Делитель тривиальный", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Алгоритм Евклида", "concept_b": "Делится на", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Алгоритм Евклида", "concept_b": "Дисциплина имён", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Алгоритм Евклида", "concept_b": "Китайская теорема об остатках", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Алгоритм Евклида", "concept_b": "Класс вычетов по модулю", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Алгоритм Евклида", "concept_b": "Комментарии", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Алгоритм Евклида", "concept_b": "Коэффициент Безу", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Алгоритм Евклида", "concept_b": "Наибольший общий делитель", "has_relation": true}
+{"paragraph_id": "2.4", "concept_a": "Алгоритм Евклида", "concept_b": "Наименьшее общее кратное", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Алгоритм Евклида", "concept_b": "Неполное частное", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Алгоритм Евклида", "concept_b": "Общее кратное", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Алгоритм Евклида", "concept_b": "Основание системы остаточных классов", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Алгоритм Евклида", "concept_b": "Остаток от деления", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Алгоритм Евклида", "concept_b": "Отношение делимости", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Алгоритм Евклида", "concept_b": "Отношение толерантности строгой", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Алгоритм Евклида", "concept_b": "Отступы", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Алгоритм Евклида", "concept_b": "Признаки делимости", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Алгоритм Евклида", "concept_b": "Решето Эратосфена", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Алгоритм Евклида", "concept_b": "Система наименьших неотрицательных вычетов", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Алгоритм Евклида", "concept_b": "Система остаточных классов", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Алгоритм Евклида", "concept_b": "Соотношение Безу", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Алгоритм Евклида", "concept_b": "Сравнение", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Алгоритм Евклида", "concept_b": "Сравнение по модулю", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Алгоритм Евклида", "concept_b": "Стиль программирования", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Алгоритм Евклида", "concept_b": "Теория чисел", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Алгоритм Евклида", "concept_b": "Теория чисел элементарная", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Алгоритм Евклида", "concept_b": "Уравнение диофантово", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Алгоритм Евклида", "concept_b": "Функция Эйлера", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Алгоритм Евклида", "concept_b": "Функция аддитивная", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Алгоритм Евклида", "concept_b": "Функция вполне аддитивная", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Алгоритм Евклида", "concept_b": "Функция вполне мультипликативная", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Алгоритм Евклида", "concept_b": "Функция мультипликативная", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Алгоритм Евклида", "concept_b": "Частное", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Алгоритм Евклида", "concept_b": "Числа взаимно простые", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Алгоритм Евклида", "concept_b": "Число кратное", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Алгоритм Евклида", "concept_b": "Число простое", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Алгоритм Евклида", "concept_b": "Число совершенное", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Алгоритм Евклида", "concept_b": "Число составное", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Алгоритм деления вычитанием", "concept_b": "Арифметика", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Алгоритм деления вычитанием", "concept_b": "Арифметика высшая", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Алгоритм деления вычитанием", "concept_b": "Арифметика модулярная", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Алгоритм деления вычитанием", "concept_b": "Делитель", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Алгоритм деления вычитанием", "concept_b": "Делитель собственный", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Алгоритм деления вычитанием", "concept_b": "Делитель тривиальный", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Алгоритм деления вычитанием", "concept_b": "Делится на", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Алгоритм деления вычитанием", "concept_b": "Дисциплина имён", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Алгоритм деления вычитанием", "concept_b": "Китайская теорема об остатках", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Алгоритм деления вычитанием", "concept_b": "Класс вычетов по модулю", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Алгоритм деления вычитанием", "concept_b": "Комментарии", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Алгоритм деления вычитанием", "concept_b": "Коэффициент Безу", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Алгоритм деления вычитанием", "concept_b": "Наибольший общий делитель", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Алгоритм деления вычитанием", "concept_b": "Наименьшее общее кратное", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Алгоритм деления вычитанием", "concept_b": "Неполное частное", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Алгоритм деления вычитанием", "concept_b": "Общее кратное", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Алгоритм деления вычитанием", "concept_b": "Основание системы остаточных классов", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Алгоритм деления вычитанием", "concept_b": "Остаток от деления", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Алгоритм деления вычитанием", "concept_b": "Отношение делимости", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Алгоритм деления вычитанием", "concept_b": "Отношение толерантности строгой", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Алгоритм деления вычитанием", "concept_b": "Отступы", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Алгоритм деления вычитанием", "concept_b": "Признаки делимости", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Алгоритм деления вычитанием", "concept_b": "Решето Эратосфена", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Алгоритм деления вычитанием", "concept_b": "Система наименьших неотрицательных вычетов", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Алгоритм деления вычитанием", "concept_b": "Система остаточных классов", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Алгоритм деления вычитанием", "concept_b": "Соотношение Безу", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Алгоритм деления вычитанием", "concept_b": "Сравнение", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Алгоритм деления вычитанием", "concept_b": "Сравнение по модулю", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Алгоритм деления вычитанием", "concept_b": "Стиль программирования", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Алгоритм деления вычитанием", "concept_b": "Теория чисел", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Алгоритм деления вычитанием", "concept_b": "Теория чисел элементарная", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Алгоритм деления вычитанием", "concept_b": "Уравнение диофантово", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Алгоритм деления вычитанием", "concept_b": "Функция Эйлера", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Алгоритм деления вычитанием", "concept_b": "Функция аддитивная", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Алгоритм деления вычитанием", "concept_b": "Функция вполне аддитивная", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Алгоритм деления вычитанием", "concept_b": "Функция вполне мультипликативная", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Алгоритм деления вычитанием", "concept_b": "Функция мультипликативная", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Алгоритм деления вычитанием", "concept_b": "Частное", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Алгоритм деления вычитанием", "concept_b": "Числа взаимно простые", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Алгоритм деления вычитанием", "concept_b": "Число кратное", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Алгоритм деления вычитанием", "concept_b": "Число простое", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Алгоритм деления вычитанием", "concept_b": "Число совершенное", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Алгоритм деления вычитанием", "concept_b": "Число составное", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Арифметика", "concept_b": "Арифметика высшая", "has_relation": true}
+{"paragraph_id": "2.4", "concept_a": "Арифметика", "concept_b": "Арифметика модулярная", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Арифметика", "concept_b": "Делитель", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Арифметика", "concept_b": "Делитель собственный", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Арифметика", "concept_b": "Делитель тривиальный", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Арифметика", "concept_b": "Делится на", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Арифметика", "concept_b": "Дисциплина имён", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Арифметика", "concept_b": "Китайская теорема об остатках", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Арифметика", "concept_b": "Класс вычетов по модулю", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Арифметика", "concept_b": "Комментарии", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Арифметика", "concept_b": "Коэффициент Безу", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Арифметика", "concept_b": "Наибольший общий делитель", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Арифметика", "concept_b": "Наименьшее общее кратное", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Арифметика", "concept_b": "Неполное частное", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Арифметика", "concept_b": "Общее кратное", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Арифметика", "concept_b": "Основание системы остаточных классов", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Арифметика", "concept_b": "Остаток от деления", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Арифметика", "concept_b": "Отношение делимости", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Арифметика", "concept_b": "Отношение толерантности строгой", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Арифметика", "concept_b": "Отступы", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Арифметика", "concept_b": "Признаки делимости", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Арифметика", "concept_b": "Решето Эратосфена", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Арифметика", "concept_b": "Система наименьших неотрицательных вычетов", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Арифметика", "concept_b": "Система остаточных классов", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Арифметика", "concept_b": "Соотношение Безу", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Арифметика", "concept_b": "Сравнение", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Арифметика", "concept_b": "Сравнение по модулю", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Арифметика", "concept_b": "Стиль программирования", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Арифметика", "concept_b": "Теория чисел", "has_relation": true}
+{"paragraph_id": "2.4", "concept_a": "Арифметика", "concept_b": "Теория чисел элементарная", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Арифметика", "concept_b": "Уравнение диофантово", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Арифметика", "concept_b": "Функция Эйлера", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Арифметика", "concept_b": "Функция аддитивная", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Арифметика", "concept_b": "Функция вполне аддитивная", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Арифметика", "concept_b": "Функция вполне мультипликативная", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Арифметика", "concept_b": "Функция мультипликативная", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Арифметика", "concept_b": "Частное", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Арифметика", "concept_b": "Числа взаимно простые", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Арифметика", "concept_b": "Число кратное", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Арифметика", "concept_b": "Число простое", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Арифметика", "concept_b": "Число совершенное", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Арифметика", "concept_b": "Число составное", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Арифметика высшая", "concept_b": "Арифметика модулярная", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Арифметика высшая", "concept_b": "Делитель", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Арифметика высшая", "concept_b": "Делитель собственный", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Арифметика высшая", "concept_b": "Делитель тривиальный", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Арифметика высшая", "concept_b": "Делится на", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Арифметика высшая", "concept_b": "Дисциплина имён", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Арифметика высшая", "concept_b": "Китайская теорема об остатках", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Арифметика высшая", "concept_b": "Класс вычетов по модулю", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Арифметика высшая", "concept_b": "Комментарии", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Арифметика высшая", "concept_b": "Коэффициент Безу", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Арифметика высшая", "concept_b": "Наибольший общий делитель", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Арифметика высшая", "concept_b": "Наименьшее общее кратное", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Арифметика высшая", "concept_b": "Неполное частное", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Арифметика высшая", "concept_b": "Общее кратное", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Арифметика высшая", "concept_b": "Основание системы остаточных классов", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Арифметика высшая", "concept_b": "Остаток от деления", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Арифметика высшая", "concept_b": "Отношение делимости", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Арифметика высшая", "concept_b": "Отношение толерантности строгой", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Арифметика высшая", "concept_b": "Отступы", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Арифметика высшая", "concept_b": "Признаки делимости", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Арифметика высшая", "concept_b": "Решето Эратосфена", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Арифметика высшая", "concept_b": "Система наименьших неотрицательных вычетов", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Арифметика высшая", "concept_b": "Система остаточных классов", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Арифметика высшая", "concept_b": "Соотношение Безу", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Арифметика высшая", "concept_b": "Сравнение", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Арифметика высшая", "concept_b": "Сравнение по модулю", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Арифметика высшая", "concept_b": "Стиль программирования", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Арифметика высшая", "concept_b": "Теория чисел", "has_relation": true}
+{"paragraph_id": "2.4", "concept_a": "Арифметика высшая", "concept_b": "Теория чисел элементарная", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Арифметика высшая", "concept_b": "Уравнение диофантово", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Арифметика высшая", "concept_b": "Функция Эйлера", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Арифметика высшая", "concept_b": "Функция аддитивная", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Арифметика высшая", "concept_b": "Функция вполне аддитивная", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Арифметика высшая", "concept_b": "Функция вполне мультипликативная", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Арифметика высшая", "concept_b": "Функция мультипликативная", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Арифметика высшая", "concept_b": "Частное", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Арифметика высшая", "concept_b": "Числа взаимно простые", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Арифметика высшая", "concept_b": "Число кратное", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Арифметика высшая", "concept_b": "Число простое", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Арифметика высшая", "concept_b": "Число совершенное", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Арифметика высшая", "concept_b": "Число составное", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Арифметика модулярная", "concept_b": "Делитель", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Арифметика модулярная", "concept_b": "Делитель собственный", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Арифметика модулярная", "concept_b": "Делитель тривиальный", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Арифметика модулярная", "concept_b": "Делится на", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Арифметика модулярная", "concept_b": "Дисциплина имён", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Арифметика модулярная", "concept_b": "Китайская теорема об остатках", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Арифметика модулярная", "concept_b": "Класс вычетов по модулю", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Арифметика модулярная", "concept_b": "Комментарии", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Арифметика модулярная", "concept_b": "Коэффициент Безу", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Арифметика модулярная", "concept_b": "Наибольший общий делитель", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Арифметика модулярная", "concept_b": "Наименьшее общее кратное", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Арифметика модулярная", "concept_b": "Неполное частное", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Арифметика модулярная", "concept_b": "Общее кратное", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Арифметика модулярная", "concept_b": "Основание системы остаточных классов", "has_relation": true}
+{"paragraph_id": "2.4", "concept_a": "Арифметика модулярная", "concept_b": "Остаток от деления", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Арифметика модулярная", "concept_b": "Отношение делимости", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Арифметика модулярная", "concept_b": "Отношение толерантности строгой", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Арифметика модулярная", "concept_b": "Отступы", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Арифметика модулярная", "concept_b": "Признаки делимости", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Арифметика модулярная", "concept_b": "Решето Эратосфена", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Арифметика модулярная", "concept_b": "Система наименьших неотрицательных вычетов", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Арифметика модулярная", "concept_b": "Система остаточных классов", "has_relation": true}
+{"paragraph_id": "2.4", "concept_a": "Арифметика модулярная", "concept_b": "Соотношение Безу", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Арифметика модулярная", "concept_b": "Сравнение", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Арифметика модулярная", "concept_b": "Сравнение по модулю", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Арифметика модулярная", "concept_b": "Стиль программирования", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Арифметика модулярная", "concept_b": "Теория чисел", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Арифметика модулярная", "concept_b": "Теория чисел элементарная", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Арифметика модулярная", "concept_b": "Уравнение диофантово", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Арифметика модулярная", "concept_b": "Функция Эйлера", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Арифметика модулярная", "concept_b": "Функция аддитивная", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Арифметика модулярная", "concept_b": "Функция вполне аддитивная", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Арифметика модулярная", "concept_b": "Функция вполне мультипликативная", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Арифметика модулярная", "concept_b": "Функция мультипликативная", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Арифметика модулярная", "concept_b": "Частное", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Арифметика модулярная", "concept_b": "Числа взаимно простые", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Арифметика модулярная", "concept_b": "Число кратное", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Арифметика модулярная", "concept_b": "Число простое", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Арифметика модулярная", "concept_b": "Число совершенное", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Арифметика модулярная", "concept_b": "Число составное", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Делитель", "concept_b": "Делитель собственный", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Делитель", "concept_b": "Делитель тривиальный", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Делитель", "concept_b": "Делится на", "has_relation": true}
+{"paragraph_id": "2.4", "concept_a": "Делитель", "concept_b": "Дисциплина имён", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Делитель", "concept_b": "Китайская теорема об остатках", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Делитель", "concept_b": "Класс вычетов по модулю", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Делитель", "concept_b": "Комментарии", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Делитель", "concept_b": "Коэффициент Безу", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Делитель", "concept_b": "Наибольший общий делитель", "has_relation": true}
+{"paragraph_id": "2.4", "concept_a": "Делитель", "concept_b": "Наименьшее общее кратное", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Делитель", "concept_b": "Неполное частное", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Делитель", "concept_b": "Общее кратное", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Делитель", "concept_b": "Основание системы остаточных классов", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Делитель", "concept_b": "Остаток от деления", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Делитель", "concept_b": "Отношение делимости", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Делитель", "concept_b": "Отношение толерантности строгой", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Делитель", "concept_b": "Отступы", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Делитель", "concept_b": "Признаки делимости", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Делитель", "concept_b": "Решето Эратосфена", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Делитель", "concept_b": "Система наименьших неотрицательных вычетов", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Делитель", "concept_b": "Система остаточных классов", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Делитель", "concept_b": "Соотношение Безу", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Делитель", "concept_b": "Сравнение", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Делитель", "concept_b": "Сравнение по модулю", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Делитель", "concept_b": "Стиль программирования", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Делитель", "concept_b": "Теория чисел", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Делитель", "concept_b": "Теория чисел элементарная", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Делитель", "concept_b": "Уравнение диофантово", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Делитель", "concept_b": "Функция Эйлера", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Делитель", "concept_b": "Функция аддитивная", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Делитель", "concept_b": "Функция вполне аддитивная", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Делитель", "concept_b": "Функция вполне мультипликативная", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Делитель", "concept_b": "Функция мультипликативная", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Делитель", "concept_b": "Частное", "has_relation": true}
+{"paragraph_id": "2.4", "concept_a": "Делитель", "concept_b": "Числа взаимно простые", "has_relation": true}
+{"paragraph_id": "2.4", "concept_a": "Делитель", "concept_b": "Число кратное", "has_relation": true}
+{"paragraph_id": "2.4", "concept_a": "Делитель", "concept_b": "Число простое", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Делитель", "concept_b": "Число совершенное", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Делитель", "concept_b": "Число составное", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Делитель собственный", "concept_b": "Делитель тривиальный", "has_relation": true}
+{"paragraph_id": "2.4", "concept_a": "Делитель собственный", "concept_b": "Делится на", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Делитель собственный", "concept_b": "Дисциплина имён", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Делитель собственный", "concept_b": "Китайская теорема об остатках", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Делитель собственный", "concept_b": "Класс вычетов по модулю", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Делитель собственный", "concept_b": "Комментарии", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Делитель собственный", "concept_b": "Коэффициент Безу", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Делитель собственный", "concept_b": "Наибольший общий делитель", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Делитель собственный", "concept_b": "Наименьшее общее кратное", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Делитель собственный", "concept_b": "Неполное частное", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Делитель собственный", "concept_b": "Общее кратное", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Делитель собственный", "concept_b": "Основание системы остаточных классов", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Делитель собственный", "concept_b": "Остаток от деления", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Делитель собственный", "concept_b": "Отношение делимости", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Делитель собственный", "concept_b": "Отношение толерантности строгой", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Делитель собственный", "concept_b": "Отступы", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Делитель собственный", "concept_b": "Признаки делимости", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Делитель собственный", "concept_b": "Решето Эратосфена", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Делитель собственный", "concept_b": "Система наименьших неотрицательных вычетов", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Делитель собственный", "concept_b": "Система остаточных классов", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Делитель собственный", "concept_b": "Соотношение Безу", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Делитель собственный", "concept_b": "Сравнение", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Делитель собственный", "concept_b": "Сравнение по модулю", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Делитель собственный", "concept_b": "Стиль программирования", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Делитель собственный", "concept_b": "Теория чисел", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Делитель собственный", "concept_b": "Теория чисел элементарная", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Делитель собственный", "concept_b": "Уравнение диофантово", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Делитель собственный", "concept_b": "Функция Эйлера", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Делитель собственный", "concept_b": "Функция аддитивная", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Делитель собственный", "concept_b": "Функция вполне аддитивная", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Делитель собственный", "concept_b": "Функция вполне мультипликативная", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Делитель собственный", "concept_b": "Функция мультипликативная", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Делитель собственный", "concept_b": "Частное", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Делитель собственный", "concept_b": "Числа взаимно простые", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Делитель собственный", "concept_b": "Число кратное", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Делитель собственный", "concept_b": "Число простое", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Делитель собственный", "concept_b": "Число совершенное", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Делитель собственный", "concept_b": "Число составное", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Делитель тривиальный", "concept_b": "Делится на", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Делитель тривиальный", "concept_b": "Дисциплина имён", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Делитель тривиальный", "concept_b": "Китайская теорема об остатках", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Делитель тривиальный", "concept_b": "Класс вычетов по модулю", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Делитель тривиальный", "concept_b": "Комментарии", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Делитель тривиальный", "concept_b": "Коэффициент Безу", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Делитель тривиальный", "concept_b": "Наибольший общий делитель", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Делитель тривиальный", "concept_b": "Наименьшее общее кратное", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Делитель тривиальный", "concept_b": "Неполное частное", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Делитель тривиальный", "concept_b": "Общее кратное", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Делитель тривиальный", "concept_b": "Основание системы остаточных классов", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Делитель тривиальный", "concept_b": "Остаток от деления", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Делитель тривиальный", "concept_b": "Отношение делимости", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Делитель тривиальный", "concept_b": "Отношение толерантности строгой", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Делитель тривиальный", "concept_b": "Отступы", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Делитель тривиальный", "concept_b": "Признаки делимости", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Делитель тривиальный", "concept_b": "Решето Эратосфена", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Делитель тривиальный", "concept_b": "Система наименьших неотрицательных вычетов", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Делитель тривиальный", "concept_b": "Система остаточных классов", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Делитель тривиальный", "concept_b": "Соотношение Безу", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Делитель тривиальный", "concept_b": "Сравнение", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Делитель тривиальный", "concept_b": "Сравнение по модулю", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Делитель тривиальный", "concept_b": "Стиль программирования", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Делитель тривиальный", "concept_b": "Теория чисел", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Делитель тривиальный", "concept_b": "Теория чисел элементарная", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Делитель тривиальный", "concept_b": "Уравнение диофантово", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Делитель тривиальный", "concept_b": "Функция Эйлера", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Делитель тривиальный", "concept_b": "Функция аддитивная", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Делитель тривиальный", "concept_b": "Функция вполне аддитивная", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Делитель тривиальный", "concept_b": "Функция вполне мультипликативная", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Делитель тривиальный", "concept_b": "Функция мультипликативная", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Делитель тривиальный", "concept_b": "Частное", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Делитель тривиальный", "concept_b": "Числа взаимно простые", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Делитель тривиальный", "concept_b": "Число кратное", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Делитель тривиальный", "concept_b": "Число простое", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Делитель тривиальный", "concept_b": "Число совершенное", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Делитель тривиальный", "concept_b": "Число составное", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Делится на", "concept_b": "Дисциплина имён", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Делится на", "concept_b": "Китайская теорема об остатках", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Делится на", "concept_b": "Класс вычетов по модулю", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Делится на", "concept_b": "Комментарии", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Делится на", "concept_b": "Коэффициент Безу", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Делится на", "concept_b": "Наибольший общий делитель", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Делится на", "concept_b": "Наименьшее общее кратное", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Делится на", "concept_b": "Неполное частное", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Делится на", "concept_b": "Общее кратное", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Делится на", "concept_b": "Основание системы остаточных классов", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Делится на", "concept_b": "Остаток от деления", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Делится на", "concept_b": "Отношение делимости", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Делится на", "concept_b": "Отношение толерантности строгой", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Делится на", "concept_b": "Отступы", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Делится на", "concept_b": "Признаки делимости", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Делится на", "concept_b": "Решето Эратосфена", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Делится на", "concept_b": "Система наименьших неотрицательных вычетов", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Делится на", "concept_b": "Система остаточных классов", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Делится на", "concept_b": "Соотношение Безу", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Делится на", "concept_b": "Сравнение", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Делится на", "concept_b": "Сравнение по модулю", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Делится на", "concept_b": "Стиль программирования", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Делится на", "concept_b": "Теория чисел", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Делится на", "concept_b": "Теория чисел элементарная", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Делится на", "concept_b": "Уравнение диофантово", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Делится на", "concept_b": "Функция Эйлера", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Делится на", "concept_b": "Функция аддитивная", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Делится на", "concept_b": "Функция вполне аддитивная", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Делится на", "concept_b": "Функция вполне мультипликативная", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Делится на", "concept_b": "Функция мультипликативная", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Делится на", "concept_b": "Частное", "has_relation": true}
+{"paragraph_id": "2.4", "concept_a": "Делится на", "concept_b": "Числа взаимно простые", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Делится на", "concept_b": "Число кратное", "has_relation": true}
+{"paragraph_id": "2.4", "concept_a": "Делится на", "concept_b": "Число простое", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Делится на", "concept_b": "Число совершенное", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Делится на", "concept_b": "Число составное", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Дисциплина имён", "concept_b": "Китайская теорема об остатках", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Дисциплина имён", "concept_b": "Класс вычетов по модулю", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Дисциплина имён", "concept_b": "Комментарии", "has_relation": true}
+{"paragraph_id": "2.4", "concept_a": "Дисциплина имён", "concept_b": "Коэффициент Безу", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Дисциплина имён", "concept_b": "Наибольший общий делитель", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Дисциплина имён", "concept_b": "Наименьшее общее кратное", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Дисциплина имён", "concept_b": "Неполное частное", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Дисциплина имён", "concept_b": "Общее кратное", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Дисциплина имён", "concept_b": "Основание системы остаточных классов", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Дисциплина имён", "concept_b": "Остаток от деления", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Дисциплина имён", "concept_b": "Отношение делимости", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Дисциплина имён", "concept_b": "Отношение толерантности строгой", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Дисциплина имён", "concept_b": "Отступы", "has_relation": true}
+{"paragraph_id": "2.4", "concept_a": "Дисциплина имён", "concept_b": "Признаки делимости", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Дисциплина имён", "concept_b": "Решето Эратосфена", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Дисциплина имён", "concept_b": "Система наименьших неотрицательных вычетов", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Дисциплина имён", "concept_b": "Система остаточных классов", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Дисциплина имён", "concept_b": "Соотношение Безу", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Дисциплина имён", "concept_b": "Сравнение", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Дисциплина имён", "concept_b": "Сравнение по модулю", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Дисциплина имён", "concept_b": "Стиль программирования", "has_relation": true}
+{"paragraph_id": "2.4", "concept_a": "Дисциплина имён", "concept_b": "Теория чисел", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Дисциплина имён", "concept_b": "Теория чисел элементарная", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Дисциплина имён", "concept_b": "Уравнение диофантово", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Дисциплина имён", "concept_b": "Функция Эйлера", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Дисциплина имён", "concept_b": "Функция аддитивная", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Дисциплина имён", "concept_b": "Функция вполне аддитивная", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Дисциплина имён", "concept_b": "Функция вполне мультипликативная", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Дисциплина имён", "concept_b": "Функция мультипликативная", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Дисциплина имён", "concept_b": "Частное", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Дисциплина имён", "concept_b": "Числа взаимно простые", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Дисциплина имён", "concept_b": "Число кратное", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Дисциплина имён", "concept_b": "Число простое", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Дисциплина имён", "concept_b": "Число совершенное", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Дисциплина имён", "concept_b": "Число составное", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Китайская теорема об остатках", "concept_b": "Класс вычетов по модулю", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Китайская теорема об остатках", "concept_b": "Комментарии", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Китайская теорема об остатках", "concept_b": "Коэффициент Безу", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Китайская теорема об остатках", "concept_b": "Наибольший общий делитель", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Китайская теорема об остатках", "concept_b": "Наименьшее общее кратное", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Китайская теорема об остатках", "concept_b": "Неполное частное", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Китайская теорема об остатках", "concept_b": "Общее кратное", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Китайская теорема об остатках", "concept_b": "Основание системы остаточных классов", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Китайская теорема об остатках", "concept_b": "Остаток от деления", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Китайская теорема об остатках", "concept_b": "Отношение делимости", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Китайская теорема об остатках", "concept_b": "Отношение толерантности строгой", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Китайская теорема об остатках", "concept_b": "Отступы", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Китайская теорема об остатках", "concept_b": "Признаки делимости", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Китайская теорема об остатках", "concept_b": "Решето Эратосфена", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Китайская теорема об остатках", "concept_b": "Система наименьших неотрицательных вычетов", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Китайская теорема об остатках", "concept_b": "Система остаточных классов", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Китайская теорема об остатках", "concept_b": "Соотношение Безу", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Китайская теорема об остатках", "concept_b": "Сравнение", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Китайская теорема об остатках", "concept_b": "Сравнение по модулю", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Китайская теорема об остатках", "concept_b": "Стиль программирования", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Китайская теорема об остатках", "concept_b": "Теория чисел", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Китайская теорема об остатках", "concept_b": "Теория чисел элементарная", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Китайская теорема об остатках", "concept_b": "Уравнение диофантово", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Китайская теорема об остатках", "concept_b": "Функция Эйлера", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Китайская теорема об остатках", "concept_b": "Функция аддитивная", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Китайская теорема об остатках", "concept_b": "Функция вполне аддитивная", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Китайская теорема об остатках", "concept_b": "Функция вполне мультипликативная", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Китайская теорема об остатках", "concept_b": "Функция мультипликативная", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Китайская теорема об остатках", "concept_b": "Частное", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Китайская теорема об остатках", "concept_b": "Числа взаимно простые", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Китайская теорема об остатках", "concept_b": "Число кратное", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Китайская теорема об остатках", "concept_b": "Число простое", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Китайская теорема об остатках", "concept_b": "Число совершенное", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Китайская теорема об остатках", "concept_b": "Число составное", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Класс вычетов по модулю", "concept_b": "Комментарии", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Класс вычетов по модулю", "concept_b": "Коэффициент Безу", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Класс вычетов по модулю", "concept_b": "Наибольший общий делитель", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Класс вычетов по модулю", "concept_b": "Наименьшее общее кратное", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Класс вычетов по модулю", "concept_b": "Неполное частное", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Класс вычетов по модулю", "concept_b": "Общее кратное", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Класс вычетов по модулю", "concept_b": "Основание системы остаточных классов", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Класс вычетов по модулю", "concept_b": "Остаток от деления", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Класс вычетов по модулю", "concept_b": "Отношение делимости", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Класс вычетов по модулю", "concept_b": "Отношение толерантности строгой", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Класс вычетов по модулю", "concept_b": "Отступы", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Класс вычетов по модулю", "concept_b": "Признаки делимости", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Класс вычетов по модулю", "concept_b": "Решето Эратосфена", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Класс вычетов по модулю", "concept_b": "Система наименьших неотрицательных вычетов", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Класс вычетов по модулю", "concept_b": "Система остаточных классов", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Класс вычетов по модулю", "concept_b": "Соотношение Безу", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Класс вычетов по модулю", "concept_b": "Сравнение", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Класс вычетов по модулю", "concept_b": "Сравнение по модулю", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Класс вычетов по модулю", "concept_b": "Стиль программирования", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Класс вычетов по модулю", "concept_b": "Теория чисел", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Класс вычетов по модулю", "concept_b": "Теория чисел элементарная", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Класс вычетов по модулю", "concept_b": "Уравнение диофантово", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Класс вычетов по модулю", "concept_b": "Функция Эйлера", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Класс вычетов по модулю", "concept_b": "Функция аддитивная", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Класс вычетов по модулю", "concept_b": "Функция вполне аддитивная", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Класс вычетов по модулю", "concept_b": "Функция вполне мультипликативная", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Класс вычетов по модулю", "concept_b": "Функция мультипликативная", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Класс вычетов по модулю", "concept_b": "Частное", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Класс вычетов по модулю", "concept_b": "Числа взаимно простые", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Класс вычетов по модулю", "concept_b": "Число кратное", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Класс вычетов по модулю", "concept_b": "Число простое", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Класс вычетов по модулю", "concept_b": "Число совершенное", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Класс вычетов по модулю", "concept_b": "Число составное", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Комментарии", "concept_b": "Коэффициент Безу", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Комментарии", "concept_b": "Наибольший общий делитель", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Комментарии", "concept_b": "Наименьшее общее кратное", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Комментарии", "concept_b": "Неполное частное", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Комментарии", "concept_b": "Общее кратное", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Комментарии", "concept_b": "Основание системы остаточных классов", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Комментарии", "concept_b": "Остаток от деления", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Комментарии", "concept_b": "Отношение делимости", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Комментарии", "concept_b": "Отношение толерантности строгой", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Комментарии", "concept_b": "Отступы", "has_relation": true}
+{"paragraph_id": "2.4", "concept_a": "Комментарии", "concept_b": "Признаки делимости", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Комментарии", "concept_b": "Решето Эратосфена", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Комментарии", "concept_b": "Система наименьших неотрицательных вычетов", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Комментарии", "concept_b": "Система остаточных классов", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Комментарии", "concept_b": "Соотношение Безу", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Комментарии", "concept_b": "Сравнение", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Комментарии", "concept_b": "Сравнение по модулю", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Комментарии", "concept_b": "Стиль программирования", "has_relation": true}
+{"paragraph_id": "2.4", "concept_a": "Комментарии", "concept_b": "Теория чисел", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Комментарии", "concept_b": "Теория чисел элементарная", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Комментарии", "concept_b": "Уравнение диофантово", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Комментарии", "concept_b": "Функция Эйлера", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Комментарии", "concept_b": "Функция аддитивная", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Комментарии", "concept_b": "Функция вполне аддитивная", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Комментарии", "concept_b": "Функция вполне мультипликативная", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Комментарии", "concept_b": "Функция мультипликативная", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Комментарии", "concept_b": "Частное", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Комментарии", "concept_b": "Числа взаимно простые", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Комментарии", "concept_b": "Число кратное", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Комментарии", "concept_b": "Число простое", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Комментарии", "concept_b": "Число совершенное", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Комментарии", "concept_b": "Число составное", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Коэффициент Безу", "concept_b": "Наибольший общий делитель", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Коэффициент Безу", "concept_b": "Наименьшее общее кратное", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Коэффициент Безу", "concept_b": "Неполное частное", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Коэффициент Безу", "concept_b": "Общее кратное", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Коэффициент Безу", "concept_b": "Основание системы остаточных классов", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Коэффициент Безу", "concept_b": "Остаток от деления", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Коэффициент Безу", "concept_b": "Отношение делимости", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Коэффициент Безу", "concept_b": "Отношение толерантности строгой", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Коэффициент Безу", "concept_b": "Отступы", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Коэффициент Безу", "concept_b": "Признаки делимости", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Коэффициент Безу", "concept_b": "Решето Эратосфена", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Коэффициент Безу", "concept_b": "Система наименьших неотрицательных вычетов", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Коэффициент Безу", "concept_b": "Система остаточных классов", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Коэффициент Безу", "concept_b": "Соотношение Безу", "has_relation": true}
+{"paragraph_id": "2.4", "concept_a": "Коэффициент Безу", "concept_b": "Сравнение", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Коэффициент Безу", "concept_b": "Сравнение по модулю", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Коэффициент Безу", "concept_b": "Стиль программирования", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Коэффициент Безу", "concept_b": "Теория чисел", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Коэффициент Безу", "concept_b": "Теория чисел элементарная", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Коэффициент Безу", "concept_b": "Уравнение диофантово", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Коэффициент Безу", "concept_b": "Функция Эйлера", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Коэффициент Безу", "concept_b": "Функция аддитивная", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Коэффициент Безу", "concept_b": "Функция вполне аддитивная", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Коэффициент Безу", "concept_b": "Функция вполне мультипликативная", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Коэффициент Безу", "concept_b": "Функция мультипликативная", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Коэффициент Безу", "concept_b": "Частное", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Коэффициент Безу", "concept_b": "Числа взаимно простые", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Коэффициент Безу", "concept_b": "Число кратное", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Коэффициент Безу", "concept_b": "Число простое", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Коэффициент Безу", "concept_b": "Число совершенное", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Коэффициент Безу", "concept_b": "Число составное", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Наибольший общий делитель", "concept_b": "Наименьшее общее кратное", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Наибольший общий делитель", "concept_b": "Неполное частное", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Наибольший общий делитель", "concept_b": "Общее кратное", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Наибольший общий делитель", "concept_b": "Основание системы остаточных классов", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Наибольший общий делитель", "concept_b": "Остаток от деления", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Наибольший общий делитель", "concept_b": "Отношение делимости", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Наибольший общий делитель", "concept_b": "Отношение толерантности строгой", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Наибольший общий делитель", "concept_b": "Отступы", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Наибольший общий делитель", "concept_b": "Признаки делимости", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Наибольший общий делитель", "concept_b": "Решето Эратосфена", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Наибольший общий делитель", "concept_b": "Система наименьших неотрицательных вычетов", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Наибольший общий делитель", "concept_b": "Система остаточных классов", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Наибольший общий делитель", "concept_b": "Соотношение Безу", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Наибольший общий делитель", "concept_b": "Сравнение", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Наибольший общий делитель", "concept_b": "Сравнение по модулю", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Наибольший общий делитель", "concept_b": "Стиль программирования", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Наибольший общий делитель", "concept_b": "Теория чисел", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Наибольший общий делитель", "concept_b": "Теория чисел элементарная", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Наибольший общий делитель", "concept_b": "Уравнение диофантово", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Наибольший общий делитель", "concept_b": "Функция Эйлера", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Наибольший общий делитель", "concept_b": "Функция аддитивная", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Наибольший общий делитель", "concept_b": "Функция вполне аддитивная", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Наибольший общий делитель", "concept_b": "Функция вполне мультипликативная", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Наибольший общий делитель", "concept_b": "Функция мультипликативная", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Наибольший общий делитель", "concept_b": "Частное", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Наибольший общий делитель", "concept_b": "Числа взаимно простые", "has_relation": true}
+{"paragraph_id": "2.4", "concept_a": "Наибольший общий делитель", "concept_b": "Число кратное", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Наибольший общий делитель", "concept_b": "Число простое", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Наибольший общий делитель", "concept_b": "Число совершенное", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Наибольший общий делитель", "concept_b": "Число составное", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Наименьшее общее кратное", "concept_b": "Неполное частное", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Наименьшее общее кратное", "concept_b": "Общее кратное", "has_relation": true}
+{"paragraph_id": "2.4", "concept_a": "Наименьшее общее кратное", "concept_b": "Основание системы остаточных классов", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Наименьшее общее кратное", "concept_b": "Остаток от деления", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Наименьшее общее кратное", "concept_b": "Отношение делимости", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Наименьшее общее кратное", "concept_b": "Отношение толерантности строгой", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Наименьшее общее кратное", "concept_b": "Отступы", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Наименьшее общее кратное", "concept_b": "Признаки делимости", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Наименьшее общее кратное", "concept_b": "Решето Эратосфена", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Наименьшее общее кратное", "concept_b": "Система наименьших неотрицательных вычетов", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Наименьшее общее кратное", "concept_b": "Система остаточных классов", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Наименьшее общее кратное", "concept_b": "Соотношение Безу", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Наименьшее общее кратное", "concept_b": "Сравнение", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Наименьшее общее кратное", "concept_b": "Сравнение по модулю", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Наименьшее общее кратное", "concept_b": "Стиль программирования", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Наименьшее общее кратное", "concept_b": "Теория чисел", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Наименьшее общее кратное", "concept_b": "Теория чисел элементарная", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Наименьшее общее кратное", "concept_b": "Уравнение диофантово", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Наименьшее общее кратное", "concept_b": "Функция Эйлера", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Наименьшее общее кратное", "concept_b": "Функция аддитивная", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Наименьшее общее кратное", "concept_b": "Функция вполне аддитивная", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Наименьшее общее кратное", "concept_b": "Функция вполне мультипликативная", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Наименьшее общее кратное", "concept_b": "Функция мультипликативная", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Наименьшее общее кратное", "concept_b": "Частное", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Наименьшее общее кратное", "concept_b": "Числа взаимно простые", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Наименьшее общее кратное", "concept_b": "Число кратное", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Наименьшее общее кратное", "concept_b": "Число простое", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Наименьшее общее кратное", "concept_b": "Число совершенное", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Наименьшее общее кратное", "concept_b": "Число составное", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Неполное частное", "concept_b": "Общее кратное", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Неполное частное", "concept_b": "Основание системы остаточных классов", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Неполное частное", "concept_b": "Остаток от деления", "has_relation": true}
+{"paragraph_id": "2.4", "concept_a": "Неполное частное", "concept_b": "Отношение делимости", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Неполное частное", "concept_b": "Отношение толерантности строгой", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Неполное частное", "concept_b": "Отступы", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Неполное частное", "concept_b": "Признаки делимости", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Неполное частное", "concept_b": "Решето Эратосфена", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Неполное частное", "concept_b": "Система наименьших неотрицательных вычетов", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Неполное частное", "concept_b": "Система остаточных классов", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Неполное частное", "concept_b": "Соотношение Безу", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Неполное частное", "concept_b": "Сравнение", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Неполное частное", "concept_b": "Сравнение по модулю", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Неполное частное", "concept_b": "Стиль программирования", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Неполное частное", "concept_b": "Теория чисел", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Неполное частное", "concept_b": "Теория чисел элементарная", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Неполное частное", "concept_b": "Уравнение диофантово", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Неполное частное", "concept_b": "Функция Эйлера", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Неполное частное", "concept_b": "Функция аддитивная", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Неполное частное", "concept_b": "Функция вполне аддитивная", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Неполное частное", "concept_b": "Функция вполне мультипликативная", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Неполное частное", "concept_b": "Функция мультипликативная", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Неполное частное", "concept_b": "Частное", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Неполное частное", "concept_b": "Числа взаимно простые", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Неполное частное", "concept_b": "Число кратное", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Неполное частное", "concept_b": "Число простое", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Неполное частное", "concept_b": "Число совершенное", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Неполное частное", "concept_b": "Число составное", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Общее кратное", "concept_b": "Основание системы остаточных классов", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Общее кратное", "concept_b": "Остаток от деления", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Общее кратное", "concept_b": "Отношение делимости", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Общее кратное", "concept_b": "Отношение толерантности строгой", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Общее кратное", "concept_b": "Отступы", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Общее кратное", "concept_b": "Признаки делимости", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Общее кратное", "concept_b": "Решето Эратосфена", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Общее кратное", "concept_b": "Система наименьших неотрицательных вычетов", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Общее кратное", "concept_b": "Система остаточных классов", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Общее кратное", "concept_b": "Соотношение Безу", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Общее кратное", "concept_b": "Сравнение", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Общее кратное", "concept_b": "Сравнение по модулю", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Общее кратное", "concept_b": "Стиль программирования", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Общее кратное", "concept_b": "Теория чисел", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Общее кратное", "concept_b": "Теория чисел элементарная", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Общее кратное", "concept_b": "Уравнение диофантово", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Общее кратное", "concept_b": "Функция Эйлера", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Общее кратное", "concept_b": "Функция аддитивная", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Общее кратное", "concept_b": "Функция вполне аддитивная", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Общее кратное", "concept_b": "Функция вполне мультипликативная", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Общее кратное", "concept_b": "Функция мультипликативная", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Общее кратное", "concept_b": "Частное", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Общее кратное", "concept_b": "Числа взаимно простые", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Общее кратное", "concept_b": "Число кратное", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Общее кратное", "concept_b": "Число простое", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Общее кратное", "concept_b": "Число совершенное", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Общее кратное", "concept_b": "Число составное", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Основание системы остаточных классов", "concept_b": "Остаток от деления", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Основание системы остаточных классов", "concept_b": "Отношение делимости", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Основание системы остаточных классов", "concept_b": "Отношение толерантности строгой", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Основание системы остаточных классов", "concept_b": "Отступы", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Основание системы остаточных классов", "concept_b": "Признаки делимости", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Основание системы остаточных классов", "concept_b": "Решето Эратосфена", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Основание системы остаточных классов", "concept_b": "Система наименьших неотрицательных вычетов", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Основание системы остаточных классов", "concept_b": "Система остаточных классов", "has_relation": true}
+{"paragraph_id": "2.4", "concept_a": "Основание системы остаточных классов", "concept_b": "Соотношение Безу", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Основание системы остаточных классов", "concept_b": "Сравнение", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Основание системы остаточных классов", "concept_b": "Сравнение по модулю", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Основание системы остаточных классов", "concept_b": "Стиль программирования", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Основание системы остаточных классов", "concept_b": "Теория чисел", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Основание системы остаточных классов", "concept_b": "Теория чисел элементарная", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Основание системы остаточных классов", "concept_b": "Уравнение диофантово", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Основание системы остаточных классов", "concept_b": "Функция Эйлера", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Основание системы остаточных классов", "concept_b": "Функция аддитивная", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Основание системы остаточных классов", "concept_b": "Функция вполне аддитивная", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Основание системы остаточных классов", "concept_b": "Функция вполне мультипликативная", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Основание системы остаточных классов", "concept_b": "Функция мультипликативная", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Основание системы остаточных классов", "concept_b": "Частное", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Основание системы остаточных классов", "concept_b": "Числа взаимно простые", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Основание системы остаточных классов", "concept_b": "Число кратное", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Основание системы остаточных классов", "concept_b": "Число простое", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Основание системы остаточных классов", "concept_b": "Число совершенное", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Основание системы остаточных классов", "concept_b": "Число составное", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Остаток от деления", "concept_b": "Отношение делимости", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Остаток от деления", "concept_b": "Отношение толерантности строгой", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Остаток от деления", "concept_b": "Отступы", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Остаток от деления", "concept_b": "Признаки делимости", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Остаток от деления", "concept_b": "Решето Эратосфена", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Остаток от деления", "concept_b": "Система наименьших неотрицательных вычетов", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Остаток от деления", "concept_b": "Система остаточных классов", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Остаток от деления", "concept_b": "Соотношение Безу", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Остаток от деления", "concept_b": "Сравнение", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Остаток от деления", "concept_b": "Сравнение по модулю", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Остаток от деления", "concept_b": "Стиль программирования", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Остаток от деления", "concept_b": "Теория чисел", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Остаток от деления", "concept_b": "Теория чисел элементарная", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Остаток от деления", "concept_b": "Уравнение диофантово", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Остаток от деления", "concept_b": "Функция Эйлера", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Остаток от деления", "concept_b": "Функция аддитивная", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Остаток от деления", "concept_b": "Функция вполне аддитивная", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Остаток от деления", "concept_b": "Функция вполне мультипликативная", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Остаток от деления", "concept_b": "Функция мультипликативная", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Остаток от деления", "concept_b": "Частное", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Остаток от деления", "concept_b": "Числа взаимно простые", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Остаток от деления", "concept_b": "Число кратное", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Остаток от деления", "concept_b": "Число простое", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Остаток от деления", "concept_b": "Число совершенное", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Остаток от деления", "concept_b": "Число составное", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Отношение делимости", "concept_b": "Отношение толерантности строгой", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Отношение делимости", "concept_b": "Отступы", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Отношение делимости", "concept_b": "Признаки делимости", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Отношение делимости", "concept_b": "Решето Эратосфена", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Отношение делимости", "concept_b": "Система наименьших неотрицательных вычетов", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Отношение делимости", "concept_b": "Система остаточных классов", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Отношение делимости", "concept_b": "Соотношение Безу", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Отношение делимости", "concept_b": "Сравнение", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Отношение делимости", "concept_b": "Сравнение по модулю", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Отношение делимости", "concept_b": "Стиль программирования", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Отношение делимости", "concept_b": "Теория чисел", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Отношение делимости", "concept_b": "Теория чисел элементарная", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Отношение делимости", "concept_b": "Уравнение диофантово", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Отношение делимости", "concept_b": "Функция Эйлера", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Отношение делимости", "concept_b": "Функция аддитивная", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Отношение делимости", "concept_b": "Функция вполне аддитивная", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Отношение делимости", "concept_b": "Функция вполне мультипликативная", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Отношение делимости", "concept_b": "Функция мультипликативная", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Отношение делимости", "concept_b": "Частное", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Отношение делимости", "concept_b": "Числа взаимно простые", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Отношение делимости", "concept_b": "Число кратное", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Отношение делимости", "concept_b": "Число простое", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Отношение делимости", "concept_b": "Число совершенное", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Отношение делимости", "concept_b": "Число составное", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Отношение толерантности строгой", "concept_b": "Отступы", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Отношение толерантности строгой", "concept_b": "Признаки делимости", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Отношение толерантности строгой", "concept_b": "Решето Эратосфена", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Отношение толерантности строгой", "concept_b": "Система наименьших неотрицательных вычетов", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Отношение толерантности строгой", "concept_b": "Система остаточных классов", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Отношение толерантности строгой", "concept_b": "Соотношение Безу", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Отношение толерантности строгой", "concept_b": "Сравнение", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Отношение толерантности строгой", "concept_b": "Сравнение по модулю", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Отношение толерантности строгой", "concept_b": "Стиль программирования", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Отношение толерантности строгой", "concept_b": "Теория чисел", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Отношение толерантности строгой", "concept_b": "Теория чисел элементарная", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Отношение толерантности строгой", "concept_b": "Уравнение диофантово", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Отношение толерантности строгой", "concept_b": "Функция Эйлера", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Отношение толерантности строгой", "concept_b": "Функция аддитивная", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Отношение толерантности строгой", "concept_b": "Функция вполне аддитивная", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Отношение толерантности строгой", "concept_b": "Функция вполне мультипликативная", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Отношение толерантности строгой", "concept_b": "Функция мультипликативная", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Отношение толерантности строгой", "concept_b": "Частное", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Отношение толерантности строгой", "concept_b": "Числа взаимно простые", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Отношение толерантности строгой", "concept_b": "Число кратное", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Отношение толерантности строгой", "concept_b": "Число простое", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Отношение толерантности строгой", "concept_b": "Число совершенное", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Отношение толерантности строгой", "concept_b": "Число составное", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Отступы", "concept_b": "Признаки делимости", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Отступы", "concept_b": "Решето Эратосфена", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Отступы", "concept_b": "Система наименьших неотрицательных вычетов", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Отступы", "concept_b": "Система остаточных классов", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Отступы", "concept_b": "Соотношение Безу", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Отступы", "concept_b": "Сравнение", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Отступы", "concept_b": "Сравнение по модулю", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Отступы", "concept_b": "Стиль программирования", "has_relation": true}
+{"paragraph_id": "2.4", "concept_a": "Отступы", "concept_b": "Теория чисел", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Отступы", "concept_b": "Теория чисел элементарная", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Отступы", "concept_b": "Уравнение диофантово", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Отступы", "concept_b": "Функция Эйлера", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Отступы", "concept_b": "Функция аддитивная", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Отступы", "concept_b": "Функция вполне аддитивная", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Отступы", "concept_b": "Функция вполне мультипликативная", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Отступы", "concept_b": "Функция мультипликативная", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Отступы", "concept_b": "Частное", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Отступы", "concept_b": "Числа взаимно простые", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Отступы", "concept_b": "Число кратное", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Отступы", "concept_b": "Число простое", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Отступы", "concept_b": "Число совершенное", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Отступы", "concept_b": "Число составное", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Признаки делимости", "concept_b": "Решето Эратосфена", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Признаки делимости", "concept_b": "Система наименьших неотрицательных вычетов", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Признаки делимости", "concept_b": "Система остаточных классов", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Признаки делимости", "concept_b": "Соотношение Безу", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Признаки делимости", "concept_b": "Сравнение", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Признаки делимости", "concept_b": "Сравнение по модулю", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Признаки делимости", "concept_b": "Стиль программирования", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Признаки делимости", "concept_b": "Теория чисел", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Признаки делимости", "concept_b": "Теория чисел элементарная", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Признаки делимости", "concept_b": "Уравнение диофантово", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Признаки делимости", "concept_b": "Функция Эйлера", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Признаки делимости", "concept_b": "Функция аддитивная", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Признаки делимости", "concept_b": "Функция вполне аддитивная", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Признаки делимости", "concept_b": "Функция вполне мультипликативная", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Признаки делимости", "concept_b": "Функция мультипликативная", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Признаки делимости", "concept_b": "Частное", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Признаки делимости", "concept_b": "Числа взаимно простые", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Признаки делимости", "concept_b": "Число кратное", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Признаки делимости", "concept_b": "Число простое", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Признаки делимости", "concept_b": "Число совершенное", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Признаки делимости", "concept_b": "Число составное", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Решето Эратосфена", "concept_b": "Система наименьших неотрицательных вычетов", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Решето Эратосфена", "concept_b": "Система остаточных классов", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Решето Эратосфена", "concept_b": "Соотношение Безу", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Решето Эратосфена", "concept_b": "Сравнение", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Решето Эратосфена", "concept_b": "Сравнение по модулю", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Решето Эратосфена", "concept_b": "Стиль программирования", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Решето Эратосфена", "concept_b": "Теория чисел", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Решето Эратосфена", "concept_b": "Теория чисел элементарная", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Решето Эратосфена", "concept_b": "Уравнение диофантово", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Решето Эратосфена", "concept_b": "Функция Эйлера", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Решето Эратосфена", "concept_b": "Функция аддитивная", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Решето Эратосфена", "concept_b": "Функция вполне аддитивная", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Решето Эратосфена", "concept_b": "Функция вполне мультипликативная", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Решето Эратосфена", "concept_b": "Функция мультипликативная", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Решето Эратосфена", "concept_b": "Частное", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Решето Эратосфена", "concept_b": "Числа взаимно простые", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Решето Эратосфена", "concept_b": "Число кратное", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Решето Эратосфена", "concept_b": "Число простое", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Решето Эратосфена", "concept_b": "Число совершенное", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Решето Эратосфена", "concept_b": "Число составное", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Система наименьших неотрицательных вычетов", "concept_b": "Система остаточных классов", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Система наименьших неотрицательных вычетов", "concept_b": "Соотношение Безу", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Система наименьших неотрицательных вычетов", "concept_b": "Сравнение", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Система наименьших неотрицательных вычетов", "concept_b": "Сравнение по модулю", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Система наименьших неотрицательных вычетов", "concept_b": "Стиль программирования", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Система наименьших неотрицательных вычетов", "concept_b": "Теория чисел", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Система наименьших неотрицательных вычетов", "concept_b": "Теория чисел элементарная", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Система наименьших неотрицательных вычетов", "concept_b": "Уравнение диофантово", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Система наименьших неотрицательных вычетов", "concept_b": "Функция Эйлера", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Система наименьших неотрицательных вычетов", "concept_b": "Функция аддитивная", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Система наименьших неотрицательных вычетов", "concept_b": "Функция вполне аддитивная", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Система наименьших неотрицательных вычетов", "concept_b": "Функция вполне мультипликативная", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Система наименьших неотрицательных вычетов", "concept_b": "Функция мультипликативная", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Система наименьших неотрицательных вычетов", "concept_b": "Частное", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Система наименьших неотрицательных вычетов", "concept_b": "Числа взаимно простые", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Система наименьших неотрицательных вычетов", "concept_b": "Число кратное", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Система наименьших неотрицательных вычетов", "concept_b": "Число простое", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Система наименьших неотрицательных вычетов", "concept_b": "Число совершенное", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Система наименьших неотрицательных вычетов", "concept_b": "Число составное", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Система остаточных классов", "concept_b": "Соотношение Безу", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Система остаточных классов", "concept_b": "Сравнение", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Система остаточных классов", "concept_b": "Сравнение по модулю", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Система остаточных классов", "concept_b": "Стиль программирования", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Система остаточных классов", "concept_b": "Теория чисел", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Система остаточных классов", "concept_b": "Теория чисел элементарная", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Система остаточных классов", "concept_b": "Уравнение диофантово", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Система остаточных классов", "concept_b": "Функция Эйлера", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Система остаточных классов", "concept_b": "Функция аддитивная", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Система остаточных классов", "concept_b": "Функция вполне аддитивная", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Система остаточных классов", "concept_b": "Функция вполне мультипликативная", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Система остаточных классов", "concept_b": "Функция мультипликативная", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Система остаточных классов", "concept_b": "Частное", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Система остаточных классов", "concept_b": "Числа взаимно простые", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Система остаточных классов", "concept_b": "Число кратное", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Система остаточных классов", "concept_b": "Число простое", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Система остаточных классов", "concept_b": "Число совершенное", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Система остаточных классов", "concept_b": "Число составное", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Соотношение Безу", "concept_b": "Сравнение", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Соотношение Безу", "concept_b": "Сравнение по модулю", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Соотношение Безу", "concept_b": "Стиль программирования", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Соотношение Безу", "concept_b": "Теория чисел", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Соотношение Безу", "concept_b": "Теория чисел элементарная", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Соотношение Безу", "concept_b": "Уравнение диофантово", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Соотношение Безу", "concept_b": "Функция Эйлера", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Соотношение Безу", "concept_b": "Функция аддитивная", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Соотношение Безу", "concept_b": "Функция вполне аддитивная", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Соотношение Безу", "concept_b": "Функция вполне мультипликативная", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Соотношение Безу", "concept_b": "Функция мультипликативная", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Соотношение Безу", "concept_b": "Частное", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Соотношение Безу", "concept_b": "Числа взаимно простые", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Соотношение Безу", "concept_b": "Число кратное", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Соотношение Безу", "concept_b": "Число простое", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Соотношение Безу", "concept_b": "Число совершенное", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Соотношение Безу", "concept_b": "Число составное", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Сравнение", "concept_b": "Сравнение по модулю", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Сравнение", "concept_b": "Стиль программирования", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Сравнение", "concept_b": "Теория чисел", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Сравнение", "concept_b": "Теория чисел элементарная", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Сравнение", "concept_b": "Уравнение диофантово", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Сравнение", "concept_b": "Функция Эйлера", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Сравнение", "concept_b": "Функция аддитивная", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Сравнение", "concept_b": "Функция вполне аддитивная", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Сравнение", "concept_b": "Функция вполне мультипликативная", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Сравнение", "concept_b": "Функция мультипликативная", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Сравнение", "concept_b": "Частное", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Сравнение", "concept_b": "Числа взаимно простые", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Сравнение", "concept_b": "Число кратное", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Сравнение", "concept_b": "Число простое", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Сравнение", "concept_b": "Число совершенное", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Сравнение", "concept_b": "Число составное", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Сравнение по модулю", "concept_b": "Стиль программирования", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Сравнение по модулю", "concept_b": "Теория чисел", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Сравнение по модулю", "concept_b": "Теория чисел элементарная", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Сравнение по модулю", "concept_b": "Уравнение диофантово", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Сравнение по модулю", "concept_b": "Функция Эйлера", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Сравнение по модулю", "concept_b": "Функция аддитивная", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Сравнение по модулю", "concept_b": "Функция вполне аддитивная", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Сравнение по модулю", "concept_b": "Функция вполне мультипликативная", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Сравнение по модулю", "concept_b": "Функция мультипликативная", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Сравнение по модулю", "concept_b": "Частное", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Сравнение по модулю", "concept_b": "Числа взаимно простые", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Сравнение по модулю", "concept_b": "Число кратное", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Сравнение по модулю", "concept_b": "Число простое", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Сравнение по модулю", "concept_b": "Число совершенное", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Сравнение по модулю", "concept_b": "Число составное", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Стиль программирования", "concept_b": "Теория чисел", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Стиль программирования", "concept_b": "Теория чисел элементарная", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Стиль программирования", "concept_b": "Уравнение диофантово", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Стиль программирования", "concept_b": "Функция Эйлера", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Стиль программирования", "concept_b": "Функция аддитивная", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Стиль программирования", "concept_b": "Функция вполне аддитивная", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Стиль программирования", "concept_b": "Функция вполне мультипликативная", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Стиль программирования", "concept_b": "Функция мультипликативная", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Стиль программирования", "concept_b": "Частное", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Стиль программирования", "concept_b": "Числа взаимно простые", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Стиль программирования", "concept_b": "Число кратное", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Стиль программирования", "concept_b": "Число простое", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Стиль программирования", "concept_b": "Число совершенное", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Стиль программирования", "concept_b": "Число составное", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Теория чисел", "concept_b": "Теория чисел элементарная", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Теория чисел", "concept_b": "Уравнение диофантово", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Теория чисел", "concept_b": "Функция Эйлера", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Теория чисел", "concept_b": "Функция аддитивная", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Теория чисел", "concept_b": "Функция вполне аддитивная", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Теория чисел", "concept_b": "Функция вполне мультипликативная", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Теория чисел", "concept_b": "Функция мультипликативная", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Теория чисел", "concept_b": "Частное", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Теория чисел", "concept_b": "Числа взаимно простые", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Теория чисел", "concept_b": "Число кратное", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Теория чисел", "concept_b": "Число простое", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Теория чисел", "concept_b": "Число совершенное", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Теория чисел", "concept_b": "Число составное", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Теория чисел элементарная", "concept_b": "Уравнение диофантово", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Теория чисел элементарная", "concept_b": "Функция Эйлера", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Теория чисел элементарная", "concept_b": "Функция аддитивная", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Теория чисел элементарная", "concept_b": "Функция вполне аддитивная", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Теория чисел элементарная", "concept_b": "Функция вполне мультипликативная", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Теория чисел элементарная", "concept_b": "Функция мультипликативная", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Теория чисел элементарная", "concept_b": "Частное", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Теория чисел элементарная", "concept_b": "Числа взаимно простые", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Теория чисел элементарная", "concept_b": "Число кратное", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Теория чисел элементарная", "concept_b": "Число простое", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Теория чисел элементарная", "concept_b": "Число совершенное", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Теория чисел элементарная", "concept_b": "Число составное", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Уравнение диофантово", "concept_b": "Функция Эйлера", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Уравнение диофантово", "concept_b": "Функция аддитивная", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Уравнение диофантово", "concept_b": "Функция вполне аддитивная", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Уравнение диофантово", "concept_b": "Функция вполне мультипликативная", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Уравнение диофантово", "concept_b": "Функция мультипликативная", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Уравнение диофантово", "concept_b": "Частное", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Уравнение диофантово", "concept_b": "Числа взаимно простые", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Уравнение диофантово", "concept_b": "Число кратное", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Уравнение диофантово", "concept_b": "Число простое", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Уравнение диофантово", "concept_b": "Число совершенное", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Уравнение диофантово", "concept_b": "Число составное", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Функция Эйлера", "concept_b": "Функция аддитивная", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Функция Эйлера", "concept_b": "Функция вполне аддитивная", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Функция Эйлера", "concept_b": "Функция вполне мультипликативная", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Функция Эйлера", "concept_b": "Функция мультипликативная", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Функция Эйлера", "concept_b": "Частное", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Функция Эйлера", "concept_b": "Числа взаимно простые", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Функция Эйлера", "concept_b": "Число кратное", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Функция Эйлера", "concept_b": "Число простое", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Функция Эйлера", "concept_b": "Число совершенное", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Функция Эйлера", "concept_b": "Число составное", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Функция аддитивная", "concept_b": "Функция вполне аддитивная", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Функция аддитивная", "concept_b": "Функция вполне мультипликативная", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Функция аддитивная", "concept_b": "Функция мультипликативная", "has_relation": true}
+{"paragraph_id": "2.4", "concept_a": "Функция аддитивная", "concept_b": "Частное", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Функция аддитивная", "concept_b": "Числа взаимно простые", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Функция аддитивная", "concept_b": "Число кратное", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Функция аддитивная", "concept_b": "Число простое", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Функция аддитивная", "concept_b": "Число совершенное", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Функция аддитивная", "concept_b": "Число составное", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Функция вполне аддитивная", "concept_b": "Функция вполне мультипликативная", "has_relation": true}
+{"paragraph_id": "2.4", "concept_a": "Функция вполне аддитивная", "concept_b": "Функция мультипликативная", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Функция вполне аддитивная", "concept_b": "Частное", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Функция вполне аддитивная", "concept_b": "Числа взаимно простые", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Функция вполне аддитивная", "concept_b": "Число кратное", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Функция вполне аддитивная", "concept_b": "Число простое", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Функция вполне аддитивная", "concept_b": "Число совершенное", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Функция вполне аддитивная", "concept_b": "Число составное", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Функция вполне мультипликативная", "concept_b": "Функция мультипликативная", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Функция вполне мультипликативная", "concept_b": "Частное", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Функция вполне мультипликативная", "concept_b": "Числа взаимно простые", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Функция вполне мультипликативная", "concept_b": "Число кратное", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Функция вполне мультипликативная", "concept_b": "Число простое", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Функция вполне мультипликативная", "concept_b": "Число совершенное", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Функция вполне мультипликативная", "concept_b": "Число составное", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Функция мультипликативная", "concept_b": "Частное", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Функция мультипликативная", "concept_b": "Числа взаимно простые", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Функция мультипликативная", "concept_b": "Число кратное", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Функция мультипликативная", "concept_b": "Число простое", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Функция мультипликативная", "concept_b": "Число совершенное", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Функция мультипликативная", "concept_b": "Число составное", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Частное", "concept_b": "Числа взаимно простые", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Частное", "concept_b": "Число кратное", "has_relation": true}
+{"paragraph_id": "2.4", "concept_a": "Частное", "concept_b": "Число простое", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Частное", "concept_b": "Число совершенное", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Частное", "concept_b": "Число составное", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Числа взаимно простые", "concept_b": "Число кратное", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Числа взаимно простые", "concept_b": "Число простое", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Числа взаимно простые", "concept_b": "Число совершенное", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Числа взаимно простые", "concept_b": "Число составное", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Число кратное", "concept_b": "Число простое", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Число кратное", "concept_b": "Число совершенное", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Число кратное", "concept_b": "Число составное", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Число простое", "concept_b": "Число совершенное", "has_relation": false}
+{"paragraph_id": "2.4", "concept_a": "Число простое", "concept_b": "Число составное", "has_relation": true}
+{"paragraph_id": "2.4", "concept_a": "Число совершенное", "concept_b": "Число составное", "has_relation": false}

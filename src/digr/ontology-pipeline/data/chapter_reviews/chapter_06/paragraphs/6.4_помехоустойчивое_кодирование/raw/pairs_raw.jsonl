@@ -1,0 +1,741 @@
+{"paragraph_id": "6.4", "concept_a": "Аксиома метрики", "concept_b": "Аксиома симметрии", "has_relation": true}
+{"paragraph_id": "6.4", "concept_a": "Аксиома метрики", "concept_b": "Аксиома тождества", "has_relation": true}
+{"paragraph_id": "6.4", "concept_a": "Аксиома метрики", "concept_b": "Бит чётности", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Аксиома метрики", "concept_b": "Битовая шкала ошибок", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Аксиома метрики", "concept_b": "Блок сообщения", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Аксиома метрики", "concept_b": "Дельта-окрестность", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Аксиома метрики", "concept_b": "Дистанция редактирования", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Аксиома метрики", "concept_b": "Достоверность декодирования", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Аксиома метрики", "concept_b": "Канал двоичный симметричный", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Аксиома метрики", "concept_b": "Канал связи с помехами", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Аксиома метрики", "concept_b": "Код Хэмминга", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Аксиома метрики", "concept_b": "Кодирование безызбыточное", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Аксиома метрики", "concept_b": "Кодирование помехоустойчивое", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Аксиома метрики", "concept_b": "Кодирование с исправлением ошибок", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Аксиома метрики", "concept_b": "Кодирование самокорректирующееся", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Аксиома метрики", "concept_b": "Кодирование систематическое", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Аксиома метрики", "concept_b": "Контроль чётности %%", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Аксиома метрики", "concept_b": "Матрица порождающая", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Аксиома метрики", "concept_b": "Матрица проверочная", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Аксиома метрики", "concept_b": "Метрика", "has_relation": true}
+{"paragraph_id": "6.4", "concept_a": "Аксиома метрики", "concept_b": "Мощность кодирования", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Аксиома метрики", "concept_b": "Неравенство треугольника", "has_relation": true}
+{"paragraph_id": "6.4", "concept_a": "Аксиома метрики", "concept_b": "Окрестность метрическая", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Аксиома метрики", "concept_b": "Окрестность ошибок", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Аксиома метрики", "concept_b": "Разряд информационный", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Аксиома метрики", "concept_b": "Разряд контрольный", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Аксиома метрики", "concept_b": "Разряд проверочный", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Аксиома метрики", "concept_b": "Расстояние", "has_relation": true}
+{"paragraph_id": "6.4", "concept_a": "Аксиома метрики", "concept_b": "Расстояние Левенштейна", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Аксиома метрики", "concept_b": "Расстояние Хэмминга", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Аксиома метрики", "concept_b": "Расстояние евклидово", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Аксиома метрики", "concept_b": "Расстояние кодовое", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Аксиома метрики", "concept_b": "Сжатие с потерями", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Аксиома метрики", "concept_b": "Синдром", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Аксиома метрики", "concept_b": "Способность пропускная", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Аксиома метрики", "concept_b": "Теория информации", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Аксиома метрики", "concept_b": "Характеристика канала", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Аксиома метрики", "concept_b": "Шар", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Аксиома симметрии", "concept_b": "Аксиома тождества", "has_relation": true}
+{"paragraph_id": "6.4", "concept_a": "Аксиома симметрии", "concept_b": "Бит чётности", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Аксиома симметрии", "concept_b": "Битовая шкала ошибок", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Аксиома симметрии", "concept_b": "Блок сообщения", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Аксиома симметрии", "concept_b": "Дельта-окрестность", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Аксиома симметрии", "concept_b": "Дистанция редактирования", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Аксиома симметрии", "concept_b": "Достоверность декодирования", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Аксиома симметрии", "concept_b": "Канал двоичный симметричный", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Аксиома симметрии", "concept_b": "Канал связи с помехами", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Аксиома симметрии", "concept_b": "Код Хэмминга", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Аксиома симметрии", "concept_b": "Кодирование безызбыточное", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Аксиома симметрии", "concept_b": "Кодирование помехоустойчивое", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Аксиома симметрии", "concept_b": "Кодирование с исправлением ошибок", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Аксиома симметрии", "concept_b": "Кодирование самокорректирующееся", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Аксиома симметрии", "concept_b": "Кодирование систематическое", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Аксиома симметрии", "concept_b": "Контроль чётности %%", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Аксиома симметрии", "concept_b": "Матрица порождающая", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Аксиома симметрии", "concept_b": "Матрица проверочная", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Аксиома симметрии", "concept_b": "Метрика", "has_relation": true}
+{"paragraph_id": "6.4", "concept_a": "Аксиома симметрии", "concept_b": "Мощность кодирования", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Аксиома симметрии", "concept_b": "Неравенство треугольника", "has_relation": true}
+{"paragraph_id": "6.4", "concept_a": "Аксиома симметрии", "concept_b": "Окрестность метрическая", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Аксиома симметрии", "concept_b": "Окрестность ошибок", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Аксиома симметрии", "concept_b": "Разряд информационный", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Аксиома симметрии", "concept_b": "Разряд контрольный", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Аксиома симметрии", "concept_b": "Разряд проверочный", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Аксиома симметрии", "concept_b": "Расстояние", "has_relation": true}
+{"paragraph_id": "6.4", "concept_a": "Аксиома симметрии", "concept_b": "Расстояние Левенштейна", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Аксиома симметрии", "concept_b": "Расстояние Хэмминга", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Аксиома симметрии", "concept_b": "Расстояние евклидово", "has_relation": true}
+{"paragraph_id": "6.4", "concept_a": "Аксиома симметрии", "concept_b": "Расстояние кодовое", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Аксиома симметрии", "concept_b": "Сжатие с потерями", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Аксиома симметрии", "concept_b": "Синдром", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Аксиома симметрии", "concept_b": "Способность пропускная", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Аксиома симметрии", "concept_b": "Теория информации", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Аксиома симметрии", "concept_b": "Характеристика канала", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Аксиома симметрии", "concept_b": "Шар", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Аксиома тождества", "concept_b": "Бит чётности", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Аксиома тождества", "concept_b": "Битовая шкала ошибок", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Аксиома тождества", "concept_b": "Блок сообщения", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Аксиома тождества", "concept_b": "Дельта-окрестность", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Аксиома тождества", "concept_b": "Дистанция редактирования", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Аксиома тождества", "concept_b": "Достоверность декодирования", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Аксиома тождества", "concept_b": "Канал двоичный симметричный", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Аксиома тождества", "concept_b": "Канал связи с помехами", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Аксиома тождества", "concept_b": "Код Хэмминга", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Аксиома тождества", "concept_b": "Кодирование безызбыточное", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Аксиома тождества", "concept_b": "Кодирование помехоустойчивое", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Аксиома тождества", "concept_b": "Кодирование с исправлением ошибок", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Аксиома тождества", "concept_b": "Кодирование самокорректирующееся", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Аксиома тождества", "concept_b": "Кодирование систематическое", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Аксиома тождества", "concept_b": "Контроль чётности %%", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Аксиома тождества", "concept_b": "Матрица порождающая", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Аксиома тождества", "concept_b": "Матрица проверочная", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Аксиома тождества", "concept_b": "Метрика", "has_relation": true}
+{"paragraph_id": "6.4", "concept_a": "Аксиома тождества", "concept_b": "Мощность кодирования", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Аксиома тождества", "concept_b": "Неравенство треугольника", "has_relation": true}
+{"paragraph_id": "6.4", "concept_a": "Аксиома тождества", "concept_b": "Окрестность метрическая", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Аксиома тождества", "concept_b": "Окрестность ошибок", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Аксиома тождества", "concept_b": "Разряд информационный", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Аксиома тождества", "concept_b": "Разряд контрольный", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Аксиома тождества", "concept_b": "Разряд проверочный", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Аксиома тождества", "concept_b": "Расстояние", "has_relation": true}
+{"paragraph_id": "6.4", "concept_a": "Аксиома тождества", "concept_b": "Расстояние Левенштейна", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Аксиома тождества", "concept_b": "Расстояние Хэмминга", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Аксиома тождества", "concept_b": "Расстояние евклидово", "has_relation": true}
+{"paragraph_id": "6.4", "concept_a": "Аксиома тождества", "concept_b": "Расстояние кодовое", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Аксиома тождества", "concept_b": "Сжатие с потерями", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Аксиома тождества", "concept_b": "Синдром", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Аксиома тождества", "concept_b": "Способность пропускная", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Аксиома тождества", "concept_b": "Теория информации", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Аксиома тождества", "concept_b": "Характеристика канала", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Аксиома тождества", "concept_b": "Шар", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Бит чётности", "concept_b": "Битовая шкала ошибок", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Бит чётности", "concept_b": "Блок сообщения", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Бит чётности", "concept_b": "Дельта-окрестность", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Бит чётности", "concept_b": "Дистанция редактирования", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Бит чётности", "concept_b": "Достоверность декодирования", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Бит чётности", "concept_b": "Канал двоичный симметричный", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Бит чётности", "concept_b": "Канал связи с помехами", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Бит чётности", "concept_b": "Код Хэмминга", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Бит чётности", "concept_b": "Кодирование безызбыточное", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Бит чётности", "concept_b": "Кодирование помехоустойчивое", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Бит чётности", "concept_b": "Кодирование с исправлением ошибок", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Бит чётности", "concept_b": "Кодирование самокорректирующееся", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Бит чётности", "concept_b": "Кодирование систематическое", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Бит чётности", "concept_b": "Контроль чётности %%", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Бит чётности", "concept_b": "Матрица порождающая", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Бит чётности", "concept_b": "Матрица проверочная", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Бит чётности", "concept_b": "Метрика", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Бит чётности", "concept_b": "Мощность кодирования", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Бит чётности", "concept_b": "Неравенство треугольника", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Бит чётности", "concept_b": "Окрестность метрическая", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Бит чётности", "concept_b": "Окрестность ошибок", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Бит чётности", "concept_b": "Разряд информационный", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Бит чётности", "concept_b": "Разряд контрольный", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Бит чётности", "concept_b": "Разряд проверочный", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Бит чётности", "concept_b": "Расстояние", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Бит чётности", "concept_b": "Расстояние Левенштейна", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Бит чётности", "concept_b": "Расстояние Хэмминга", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Бит чётности", "concept_b": "Расстояние евклидово", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Бит чётности", "concept_b": "Расстояние кодовое", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Бит чётности", "concept_b": "Сжатие с потерями", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Бит чётности", "concept_b": "Синдром", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Бит чётности", "concept_b": "Способность пропускная", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Бит чётности", "concept_b": "Теория информации", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Бит чётности", "concept_b": "Характеристика канала", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Бит чётности", "concept_b": "Шар", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Битовая шкала ошибок", "concept_b": "Блок сообщения", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Битовая шкала ошибок", "concept_b": "Дельта-окрестность", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Битовая шкала ошибок", "concept_b": "Дистанция редактирования", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Битовая шкала ошибок", "concept_b": "Достоверность декодирования", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Битовая шкала ошибок", "concept_b": "Канал двоичный симметричный", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Битовая шкала ошибок", "concept_b": "Канал связи с помехами", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Битовая шкала ошибок", "concept_b": "Код Хэмминга", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Битовая шкала ошибок", "concept_b": "Кодирование безызбыточное", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Битовая шкала ошибок", "concept_b": "Кодирование помехоустойчивое", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Битовая шкала ошибок", "concept_b": "Кодирование с исправлением ошибок", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Битовая шкала ошибок", "concept_b": "Кодирование самокорректирующееся", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Битовая шкала ошибок", "concept_b": "Кодирование систематическое", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Битовая шкала ошибок", "concept_b": "Контроль чётности %%", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Битовая шкала ошибок", "concept_b": "Матрица порождающая", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Битовая шкала ошибок", "concept_b": "Матрица проверочная", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Битовая шкала ошибок", "concept_b": "Метрика", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Битовая шкала ошибок", "concept_b": "Мощность кодирования", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Битовая шкала ошибок", "concept_b": "Неравенство треугольника", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Битовая шкала ошибок", "concept_b": "Окрестность метрическая", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Битовая шкала ошибок", "concept_b": "Окрестность ошибок", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Битовая шкала ошибок", "concept_b": "Разряд информационный", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Битовая шкала ошибок", "concept_b": "Разряд контрольный", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Битовая шкала ошибок", "concept_b": "Разряд проверочный", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Битовая шкала ошибок", "concept_b": "Расстояние", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Битовая шкала ошибок", "concept_b": "Расстояние Левенштейна", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Битовая шкала ошибок", "concept_b": "Расстояние Хэмминга", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Битовая шкала ошибок", "concept_b": "Расстояние евклидово", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Битовая шкала ошибок", "concept_b": "Расстояние кодовое", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Битовая шкала ошибок", "concept_b": "Сжатие с потерями", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Битовая шкала ошибок", "concept_b": "Синдром", "has_relation": true}
+{"paragraph_id": "6.4", "concept_a": "Битовая шкала ошибок", "concept_b": "Способность пропускная", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Битовая шкала ошибок", "concept_b": "Теория информации", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Битовая шкала ошибок", "concept_b": "Характеристика канала", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Битовая шкала ошибок", "concept_b": "Шар", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Блок сообщения", "concept_b": "Дельта-окрестность", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Блок сообщения", "concept_b": "Дистанция редактирования", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Блок сообщения", "concept_b": "Достоверность декодирования", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Блок сообщения", "concept_b": "Канал двоичный симметричный", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Блок сообщения", "concept_b": "Канал связи с помехами", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Блок сообщения", "concept_b": "Код Хэмминга", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Блок сообщения", "concept_b": "Кодирование безызбыточное", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Блок сообщения", "concept_b": "Кодирование помехоустойчивое", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Блок сообщения", "concept_b": "Кодирование с исправлением ошибок", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Блок сообщения", "concept_b": "Кодирование самокорректирующееся", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Блок сообщения", "concept_b": "Кодирование систематическое", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Блок сообщения", "concept_b": "Контроль чётности %%", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Блок сообщения", "concept_b": "Матрица порождающая", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Блок сообщения", "concept_b": "Матрица проверочная", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Блок сообщения", "concept_b": "Метрика", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Блок сообщения", "concept_b": "Мощность кодирования", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Блок сообщения", "concept_b": "Неравенство треугольника", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Блок сообщения", "concept_b": "Окрестность метрическая", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Блок сообщения", "concept_b": "Окрестность ошибок", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Блок сообщения", "concept_b": "Разряд информационный", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Блок сообщения", "concept_b": "Разряд контрольный", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Блок сообщения", "concept_b": "Разряд проверочный", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Блок сообщения", "concept_b": "Расстояние", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Блок сообщения", "concept_b": "Расстояние Левенштейна", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Блок сообщения", "concept_b": "Расстояние Хэмминга", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Блок сообщения", "concept_b": "Расстояние евклидово", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Блок сообщения", "concept_b": "Расстояние кодовое", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Блок сообщения", "concept_b": "Сжатие с потерями", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Блок сообщения", "concept_b": "Синдром", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Блок сообщения", "concept_b": "Способность пропускная", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Блок сообщения", "concept_b": "Теория информации", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Блок сообщения", "concept_b": "Характеристика канала", "has_relation": true}
+{"paragraph_id": "6.4", "concept_a": "Блок сообщения", "concept_b": "Шар", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Дельта-окрестность", "concept_b": "Дистанция редактирования", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Дельта-окрестность", "concept_b": "Достоверность декодирования", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Дельта-окрестность", "concept_b": "Канал двоичный симметричный", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Дельта-окрестность", "concept_b": "Канал связи с помехами", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Дельта-окрестность", "concept_b": "Код Хэмминга", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Дельта-окрестность", "concept_b": "Кодирование безызбыточное", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Дельта-окрестность", "concept_b": "Кодирование помехоустойчивое", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Дельта-окрестность", "concept_b": "Кодирование с исправлением ошибок", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Дельта-окрестность", "concept_b": "Кодирование самокорректирующееся", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Дельта-окрестность", "concept_b": "Кодирование систематическое", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Дельта-окрестность", "concept_b": "Контроль чётности %%", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Дельта-окрестность", "concept_b": "Матрица порождающая", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Дельта-окрестность", "concept_b": "Матрица проверочная", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Дельта-окрестность", "concept_b": "Метрика", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Дельта-окрестность", "concept_b": "Мощность кодирования", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Дельта-окрестность", "concept_b": "Неравенство треугольника", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Дельта-окрестность", "concept_b": "Окрестность метрическая", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Дельта-окрестность", "concept_b": "Окрестность ошибок", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Дельта-окрестность", "concept_b": "Разряд информационный", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Дельта-окрестность", "concept_b": "Разряд контрольный", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Дельта-окрестность", "concept_b": "Разряд проверочный", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Дельта-окрестность", "concept_b": "Расстояние", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Дельта-окрестность", "concept_b": "Расстояние Левенштейна", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Дельта-окрестность", "concept_b": "Расстояние Хэмминга", "has_relation": true}
+{"paragraph_id": "6.4", "concept_a": "Дельта-окрестность", "concept_b": "Расстояние евклидово", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Дельта-окрестность", "concept_b": "Расстояние кодовое", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Дельта-окрестность", "concept_b": "Сжатие с потерями", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Дельта-окрестность", "concept_b": "Синдром", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Дельта-окрестность", "concept_b": "Способность пропускная", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Дельта-окрестность", "concept_b": "Теория информации", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Дельта-окрестность", "concept_b": "Характеристика канала", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Дельта-окрестность", "concept_b": "Шар", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Дистанция редактирования", "concept_b": "Достоверность декодирования", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Дистанция редактирования", "concept_b": "Канал двоичный симметричный", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Дистанция редактирования", "concept_b": "Канал связи с помехами", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Дистанция редактирования", "concept_b": "Код Хэмминга", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Дистанция редактирования", "concept_b": "Кодирование безызбыточное", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Дистанция редактирования", "concept_b": "Кодирование помехоустойчивое", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Дистанция редактирования", "concept_b": "Кодирование с исправлением ошибок", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Дистанция редактирования", "concept_b": "Кодирование самокорректирующееся", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Дистанция редактирования", "concept_b": "Кодирование систематическое", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Дистанция редактирования", "concept_b": "Контроль чётности %%", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Дистанция редактирования", "concept_b": "Матрица порождающая", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Дистанция редактирования", "concept_b": "Матрица проверочная", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Дистанция редактирования", "concept_b": "Метрика", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Дистанция редактирования", "concept_b": "Мощность кодирования", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Дистанция редактирования", "concept_b": "Неравенство треугольника", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Дистанция редактирования", "concept_b": "Окрестность метрическая", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Дистанция редактирования", "concept_b": "Окрестность ошибок", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Дистанция редактирования", "concept_b": "Разряд информационный", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Дистанция редактирования", "concept_b": "Разряд контрольный", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Дистанция редактирования", "concept_b": "Разряд проверочный", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Дистанция редактирования", "concept_b": "Расстояние", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Дистанция редактирования", "concept_b": "Расстояние Левенштейна", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Дистанция редактирования", "concept_b": "Расстояние Хэмминга", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Дистанция редактирования", "concept_b": "Расстояние евклидово", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Дистанция редактирования", "concept_b": "Расстояние кодовое", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Дистанция редактирования", "concept_b": "Сжатие с потерями", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Дистанция редактирования", "concept_b": "Синдром", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Дистанция редактирования", "concept_b": "Способность пропускная", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Дистанция редактирования", "concept_b": "Теория информации", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Дистанция редактирования", "concept_b": "Характеристика канала", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Дистанция редактирования", "concept_b": "Шар", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Достоверность декодирования", "concept_b": "Канал двоичный симметричный", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Достоверность декодирования", "concept_b": "Канал связи с помехами", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Достоверность декодирования", "concept_b": "Код Хэмминга", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Достоверность декодирования", "concept_b": "Кодирование безызбыточное", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Достоверность декодирования", "concept_b": "Кодирование помехоустойчивое", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Достоверность декодирования", "concept_b": "Кодирование с исправлением ошибок", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Достоверность декодирования", "concept_b": "Кодирование самокорректирующееся", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Достоверность декодирования", "concept_b": "Кодирование систематическое", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Достоверность декодирования", "concept_b": "Контроль чётности %%", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Достоверность декодирования", "concept_b": "Матрица порождающая", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Достоверность декодирования", "concept_b": "Матрица проверочная", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Достоверность декодирования", "concept_b": "Метрика", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Достоверность декодирования", "concept_b": "Мощность кодирования", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Достоверность декодирования", "concept_b": "Неравенство треугольника", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Достоверность декодирования", "concept_b": "Окрестность метрическая", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Достоверность декодирования", "concept_b": "Окрестность ошибок", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Достоверность декодирования", "concept_b": "Разряд информационный", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Достоверность декодирования", "concept_b": "Разряд контрольный", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Достоверность декодирования", "concept_b": "Разряд проверочный", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Достоверность декодирования", "concept_b": "Расстояние", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Достоверность декодирования", "concept_b": "Расстояние Левенштейна", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Достоверность декодирования", "concept_b": "Расстояние Хэмминга", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Достоверность декодирования", "concept_b": "Расстояние евклидово", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Достоверность декодирования", "concept_b": "Расстояние кодовое", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Достоверность декодирования", "concept_b": "Сжатие с потерями", "has_relation": true}
+{"paragraph_id": "6.4", "concept_a": "Достоверность декодирования", "concept_b": "Синдром", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Достоверность декодирования", "concept_b": "Способность пропускная", "has_relation": true}
+{"paragraph_id": "6.4", "concept_a": "Достоверность декодирования", "concept_b": "Теория информации", "has_relation": true}
+{"paragraph_id": "6.4", "concept_a": "Достоверность декодирования", "concept_b": "Характеристика канала", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Достоверность декодирования", "concept_b": "Шар", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Канал двоичный симметричный", "concept_b": "Канал связи с помехами", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Канал двоичный симметричный", "concept_b": "Код Хэмминга", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Канал двоичный симметричный", "concept_b": "Кодирование безызбыточное", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Канал двоичный симметричный", "concept_b": "Кодирование помехоустойчивое", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Канал двоичный симметричный", "concept_b": "Кодирование с исправлением ошибок", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Канал двоичный симметричный", "concept_b": "Кодирование самокорректирующееся", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Канал двоичный симметричный", "concept_b": "Кодирование систематическое", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Канал двоичный симметричный", "concept_b": "Контроль чётности %%", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Канал двоичный симметричный", "concept_b": "Матрица порождающая", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Канал двоичный симметричный", "concept_b": "Матрица проверочная", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Канал двоичный симметричный", "concept_b": "Метрика", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Канал двоичный симметричный", "concept_b": "Мощность кодирования", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Канал двоичный симметричный", "concept_b": "Неравенство треугольника", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Канал двоичный симметричный", "concept_b": "Окрестность метрическая", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Канал двоичный симметричный", "concept_b": "Окрестность ошибок", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Канал двоичный симметричный", "concept_b": "Разряд информационный", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Канал двоичный симметричный", "concept_b": "Разряд контрольный", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Канал двоичный симметричный", "concept_b": "Разряд проверочный", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Канал двоичный симметричный", "concept_b": "Расстояние", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Канал двоичный симметричный", "concept_b": "Расстояние Левенштейна", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Канал двоичный симметричный", "concept_b": "Расстояние Хэмминга", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Канал двоичный симметричный", "concept_b": "Расстояние евклидово", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Канал двоичный симметричный", "concept_b": "Расстояние кодовое", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Канал двоичный симметричный", "concept_b": "Сжатие с потерями", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Канал двоичный симметричный", "concept_b": "Синдром", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Канал двоичный симметричный", "concept_b": "Способность пропускная", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Канал двоичный симметричный", "concept_b": "Теория информации", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Канал двоичный симметричный", "concept_b": "Характеристика канала", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Канал двоичный симметричный", "concept_b": "Шар", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Канал связи с помехами", "concept_b": "Код Хэмминга", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Канал связи с помехами", "concept_b": "Кодирование безызбыточное", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Канал связи с помехами", "concept_b": "Кодирование помехоустойчивое", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Канал связи с помехами", "concept_b": "Кодирование с исправлением ошибок", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Канал связи с помехами", "concept_b": "Кодирование самокорректирующееся", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Канал связи с помехами", "concept_b": "Кодирование систематическое", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Канал связи с помехами", "concept_b": "Контроль чётности %%", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Канал связи с помехами", "concept_b": "Матрица порождающая", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Канал связи с помехами", "concept_b": "Матрица проверочная", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Канал связи с помехами", "concept_b": "Метрика", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Канал связи с помехами", "concept_b": "Мощность кодирования", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Канал связи с помехами", "concept_b": "Неравенство треугольника", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Канал связи с помехами", "concept_b": "Окрестность метрическая", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Канал связи с помехами", "concept_b": "Окрестность ошибок", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Канал связи с помехами", "concept_b": "Разряд информационный", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Канал связи с помехами", "concept_b": "Разряд контрольный", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Канал связи с помехами", "concept_b": "Разряд проверочный", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Канал связи с помехами", "concept_b": "Расстояние", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Канал связи с помехами", "concept_b": "Расстояние Левенштейна", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Канал связи с помехами", "concept_b": "Расстояние Хэмминга", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Канал связи с помехами", "concept_b": "Расстояние евклидово", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Канал связи с помехами", "concept_b": "Расстояние кодовое", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Канал связи с помехами", "concept_b": "Сжатие с потерями", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Канал связи с помехами", "concept_b": "Синдром", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Канал связи с помехами", "concept_b": "Способность пропускная", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Канал связи с помехами", "concept_b": "Теория информации", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Канал связи с помехами", "concept_b": "Характеристика канала", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Канал связи с помехами", "concept_b": "Шар", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Код Хэмминга", "concept_b": "Кодирование безызбыточное", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Код Хэмминга", "concept_b": "Кодирование помехоустойчивое", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Код Хэмминга", "concept_b": "Кодирование с исправлением ошибок", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Код Хэмминга", "concept_b": "Кодирование самокорректирующееся", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Код Хэмминга", "concept_b": "Кодирование систематическое", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Код Хэмминга", "concept_b": "Контроль чётности %%", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Код Хэмминга", "concept_b": "Матрица порождающая", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Код Хэмминга", "concept_b": "Матрица проверочная", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Код Хэмминга", "concept_b": "Метрика", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Код Хэмминга", "concept_b": "Мощность кодирования", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Код Хэмминга", "concept_b": "Неравенство треугольника", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Код Хэмминга", "concept_b": "Окрестность метрическая", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Код Хэмминга", "concept_b": "Окрестность ошибок", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Код Хэмминга", "concept_b": "Разряд информационный", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Код Хэмминга", "concept_b": "Разряд контрольный", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Код Хэмминга", "concept_b": "Разряд проверочный", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Код Хэмминга", "concept_b": "Расстояние", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Код Хэмминга", "concept_b": "Расстояние Левенштейна", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Код Хэмминга", "concept_b": "Расстояние Хэмминга", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Код Хэмминга", "concept_b": "Расстояние евклидово", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Код Хэмминга", "concept_b": "Расстояние кодовое", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Код Хэмминга", "concept_b": "Сжатие с потерями", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Код Хэмминга", "concept_b": "Синдром", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Код Хэмминга", "concept_b": "Способность пропускная", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Код Хэмминга", "concept_b": "Теория информации", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Код Хэмминга", "concept_b": "Характеристика канала", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Код Хэмминга", "concept_b": "Шар", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Кодирование безызбыточное", "concept_b": "Кодирование помехоустойчивое", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Кодирование безызбыточное", "concept_b": "Кодирование с исправлением ошибок", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Кодирование безызбыточное", "concept_b": "Кодирование самокорректирующееся", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Кодирование безызбыточное", "concept_b": "Кодирование систематическое", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Кодирование безызбыточное", "concept_b": "Контроль чётности %%", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Кодирование безызбыточное", "concept_b": "Матрица порождающая", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Кодирование безызбыточное", "concept_b": "Матрица проверочная", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Кодирование безызбыточное", "concept_b": "Метрика", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Кодирование безызбыточное", "concept_b": "Мощность кодирования", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Кодирование безызбыточное", "concept_b": "Неравенство треугольника", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Кодирование безызбыточное", "concept_b": "Окрестность метрическая", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Кодирование безызбыточное", "concept_b": "Окрестность ошибок", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Кодирование безызбыточное", "concept_b": "Разряд информационный", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Кодирование безызбыточное", "concept_b": "Разряд контрольный", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Кодирование безызбыточное", "concept_b": "Разряд проверочный", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Кодирование безызбыточное", "concept_b": "Расстояние", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Кодирование безызбыточное", "concept_b": "Расстояние Левенштейна", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Кодирование безызбыточное", "concept_b": "Расстояние Хэмминга", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Кодирование безызбыточное", "concept_b": "Расстояние евклидово", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Кодирование безызбыточное", "concept_b": "Расстояние кодовое", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Кодирование безызбыточное", "concept_b": "Сжатие с потерями", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Кодирование безызбыточное", "concept_b": "Синдром", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Кодирование безызбыточное", "concept_b": "Способность пропускная", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Кодирование безызбыточное", "concept_b": "Теория информации", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Кодирование безызбыточное", "concept_b": "Характеристика канала", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Кодирование безызбыточное", "concept_b": "Шар", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Кодирование помехоустойчивое", "concept_b": "Кодирование с исправлением ошибок", "has_relation": true}
+{"paragraph_id": "6.4", "concept_a": "Кодирование помехоустойчивое", "concept_b": "Кодирование самокорректирующееся", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Кодирование помехоустойчивое", "concept_b": "Кодирование систематическое", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Кодирование помехоустойчивое", "concept_b": "Контроль чётности %%", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Кодирование помехоустойчивое", "concept_b": "Матрица порождающая", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Кодирование помехоустойчивое", "concept_b": "Матрица проверочная", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Кодирование помехоустойчивое", "concept_b": "Метрика", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Кодирование помехоустойчивое", "concept_b": "Мощность кодирования", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Кодирование помехоустойчивое", "concept_b": "Неравенство треугольника", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Кодирование помехоустойчивое", "concept_b": "Окрестность метрическая", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Кодирование помехоустойчивое", "concept_b": "Окрестность ошибок", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Кодирование помехоустойчивое", "concept_b": "Разряд информационный", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Кодирование помехоустойчивое", "concept_b": "Разряд контрольный", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Кодирование помехоустойчивое", "concept_b": "Разряд проверочный", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Кодирование помехоустойчивое", "concept_b": "Расстояние", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Кодирование помехоустойчивое", "concept_b": "Расстояние Левенштейна", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Кодирование помехоустойчивое", "concept_b": "Расстояние Хэмминга", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Кодирование помехоустойчивое", "concept_b": "Расстояние евклидово", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Кодирование помехоустойчивое", "concept_b": "Расстояние кодовое", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Кодирование помехоустойчивое", "concept_b": "Сжатие с потерями", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Кодирование помехоустойчивое", "concept_b": "Синдром", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Кодирование помехоустойчивое", "concept_b": "Способность пропускная", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Кодирование помехоустойчивое", "concept_b": "Теория информации", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Кодирование помехоустойчивое", "concept_b": "Характеристика канала", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Кодирование помехоустойчивое", "concept_b": "Шар", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Кодирование с исправлением ошибок", "concept_b": "Кодирование самокорректирующееся", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Кодирование с исправлением ошибок", "concept_b": "Кодирование систематическое", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Кодирование с исправлением ошибок", "concept_b": "Контроль чётности %%", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Кодирование с исправлением ошибок", "concept_b": "Матрица порождающая", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Кодирование с исправлением ошибок", "concept_b": "Матрица проверочная", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Кодирование с исправлением ошибок", "concept_b": "Метрика", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Кодирование с исправлением ошибок", "concept_b": "Мощность кодирования", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Кодирование с исправлением ошибок", "concept_b": "Неравенство треугольника", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Кодирование с исправлением ошибок", "concept_b": "Окрестность метрическая", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Кодирование с исправлением ошибок", "concept_b": "Окрестность ошибок", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Кодирование с исправлением ошибок", "concept_b": "Разряд информационный", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Кодирование с исправлением ошибок", "concept_b": "Разряд контрольный", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Кодирование с исправлением ошибок", "concept_b": "Разряд проверочный", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Кодирование с исправлением ошибок", "concept_b": "Расстояние", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Кодирование с исправлением ошибок", "concept_b": "Расстояние Левенштейна", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Кодирование с исправлением ошибок", "concept_b": "Расстояние Хэмминга", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Кодирование с исправлением ошибок", "concept_b": "Расстояние евклидово", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Кодирование с исправлением ошибок", "concept_b": "Расстояние кодовое", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Кодирование с исправлением ошибок", "concept_b": "Сжатие с потерями", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Кодирование с исправлением ошибок", "concept_b": "Синдром", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Кодирование с исправлением ошибок", "concept_b": "Способность пропускная", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Кодирование с исправлением ошибок", "concept_b": "Теория информации", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Кодирование с исправлением ошибок", "concept_b": "Характеристика канала", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Кодирование с исправлением ошибок", "concept_b": "Шар", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Кодирование самокорректирующееся", "concept_b": "Кодирование систематическое", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Кодирование самокорректирующееся", "concept_b": "Контроль чётности %%", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Кодирование самокорректирующееся", "concept_b": "Матрица порождающая", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Кодирование самокорректирующееся", "concept_b": "Матрица проверочная", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Кодирование самокорректирующееся", "concept_b": "Метрика", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Кодирование самокорректирующееся", "concept_b": "Мощность кодирования", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Кодирование самокорректирующееся", "concept_b": "Неравенство треугольника", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Кодирование самокорректирующееся", "concept_b": "Окрестность метрическая", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Кодирование самокорректирующееся", "concept_b": "Окрестность ошибок", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Кодирование самокорректирующееся", "concept_b": "Разряд информационный", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Кодирование самокорректирующееся", "concept_b": "Разряд контрольный", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Кодирование самокорректирующееся", "concept_b": "Разряд проверочный", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Кодирование самокорректирующееся", "concept_b": "Расстояние", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Кодирование самокорректирующееся", "concept_b": "Расстояние Левенштейна", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Кодирование самокорректирующееся", "concept_b": "Расстояние Хэмминга", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Кодирование самокорректирующееся", "concept_b": "Расстояние евклидово", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Кодирование самокорректирующееся", "concept_b": "Расстояние кодовое", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Кодирование самокорректирующееся", "concept_b": "Сжатие с потерями", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Кодирование самокорректирующееся", "concept_b": "Синдром", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Кодирование самокорректирующееся", "concept_b": "Способность пропускная", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Кодирование самокорректирующееся", "concept_b": "Теория информации", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Кодирование самокорректирующееся", "concept_b": "Характеристика канала", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Кодирование самокорректирующееся", "concept_b": "Шар", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Кодирование систематическое", "concept_b": "Контроль чётности %%", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Кодирование систематическое", "concept_b": "Матрица порождающая", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Кодирование систематическое", "concept_b": "Матрица проверочная", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Кодирование систематическое", "concept_b": "Метрика", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Кодирование систематическое", "concept_b": "Мощность кодирования", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Кодирование систематическое", "concept_b": "Неравенство треугольника", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Кодирование систематическое", "concept_b": "Окрестность метрическая", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Кодирование систематическое", "concept_b": "Окрестность ошибок", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Кодирование систематическое", "concept_b": "Разряд информационный", "has_relation": true}
+{"paragraph_id": "6.4", "concept_a": "Кодирование систематическое", "concept_b": "Разряд контрольный", "has_relation": true}
+{"paragraph_id": "6.4", "concept_a": "Кодирование систематическое", "concept_b": "Разряд проверочный", "has_relation": true}
+{"paragraph_id": "6.4", "concept_a": "Кодирование систематическое", "concept_b": "Расстояние", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Кодирование систематическое", "concept_b": "Расстояние Левенштейна", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Кодирование систематическое", "concept_b": "Расстояние Хэмминга", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Кодирование систематическое", "concept_b": "Расстояние евклидово", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Кодирование систематическое", "concept_b": "Расстояние кодовое", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Кодирование систематическое", "concept_b": "Сжатие с потерями", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Кодирование систематическое", "concept_b": "Синдром", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Кодирование систематическое", "concept_b": "Способность пропускная", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Кодирование систематическое", "concept_b": "Теория информации", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Кодирование систематическое", "concept_b": "Характеристика канала", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Кодирование систематическое", "concept_b": "Шар", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Контроль чётности %%", "concept_b": "Матрица порождающая", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Контроль чётности %%", "concept_b": "Матрица проверочная", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Контроль чётности %%", "concept_b": "Метрика", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Контроль чётности %%", "concept_b": "Мощность кодирования", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Контроль чётности %%", "concept_b": "Неравенство треугольника", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Контроль чётности %%", "concept_b": "Окрестность метрическая", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Контроль чётности %%", "concept_b": "Окрестность ошибок", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Контроль чётности %%", "concept_b": "Разряд информационный", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Контроль чётности %%", "concept_b": "Разряд контрольный", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Контроль чётности %%", "concept_b": "Разряд проверочный", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Контроль чётности %%", "concept_b": "Расстояние", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Контроль чётности %%", "concept_b": "Расстояние Левенштейна", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Контроль чётности %%", "concept_b": "Расстояние Хэмминга", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Контроль чётности %%", "concept_b": "Расстояние евклидово", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Контроль чётности %%", "concept_b": "Расстояние кодовое", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Контроль чётности %%", "concept_b": "Сжатие с потерями", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Контроль чётности %%", "concept_b": "Синдром", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Контроль чётности %%", "concept_b": "Способность пропускная", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Контроль чётности %%", "concept_b": "Теория информации", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Контроль чётности %%", "concept_b": "Характеристика канала", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Контроль чётности %%", "concept_b": "Шар", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Матрица порождающая", "concept_b": "Матрица проверочная", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Матрица порождающая", "concept_b": "Метрика", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Матрица порождающая", "concept_b": "Мощность кодирования", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Матрица порождающая", "concept_b": "Неравенство треугольника", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Матрица порождающая", "concept_b": "Окрестность метрическая", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Матрица порождающая", "concept_b": "Окрестность ошибок", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Матрица порождающая", "concept_b": "Разряд информационный", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Матрица порождающая", "concept_b": "Разряд контрольный", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Матрица порождающая", "concept_b": "Разряд проверочный", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Матрица порождающая", "concept_b": "Расстояние", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Матрица порождающая", "concept_b": "Расстояние Левенштейна", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Матрица порождающая", "concept_b": "Расстояние Хэмминга", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Матрица порождающая", "concept_b": "Расстояние евклидово", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Матрица порождающая", "concept_b": "Расстояние кодовое", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Матрица порождающая", "concept_b": "Сжатие с потерями", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Матрица порождающая", "concept_b": "Синдром", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Матрица порождающая", "concept_b": "Способность пропускная", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Матрица порождающая", "concept_b": "Теория информации", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Матрица порождающая", "concept_b": "Характеристика канала", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Матрица порождающая", "concept_b": "Шар", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Матрица проверочная", "concept_b": "Метрика", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Матрица проверочная", "concept_b": "Мощность кодирования", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Матрица проверочная", "concept_b": "Неравенство треугольника", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Матрица проверочная", "concept_b": "Окрестность метрическая", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Матрица проверочная", "concept_b": "Окрестность ошибок", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Матрица проверочная", "concept_b": "Разряд информационный", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Матрица проверочная", "concept_b": "Разряд контрольный", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Матрица проверочная", "concept_b": "Разряд проверочный", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Матрица проверочная", "concept_b": "Расстояние", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Матрица проверочная", "concept_b": "Расстояние Левенштейна", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Матрица проверочная", "concept_b": "Расстояние Хэмминга", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Матрица проверочная", "concept_b": "Расстояние евклидово", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Матрица проверочная", "concept_b": "Расстояние кодовое", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Матрица проверочная", "concept_b": "Сжатие с потерями", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Матрица проверочная", "concept_b": "Синдром", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Матрица проверочная", "concept_b": "Способность пропускная", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Матрица проверочная", "concept_b": "Теория информации", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Матрица проверочная", "concept_b": "Характеристика канала", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Матрица проверочная", "concept_b": "Шар", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Метрика", "concept_b": "Мощность кодирования", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Метрика", "concept_b": "Неравенство треугольника", "has_relation": true}
+{"paragraph_id": "6.4", "concept_a": "Метрика", "concept_b": "Окрестность метрическая", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Метрика", "concept_b": "Окрестность ошибок", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Метрика", "concept_b": "Разряд информационный", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Метрика", "concept_b": "Разряд контрольный", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Метрика", "concept_b": "Разряд проверочный", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Метрика", "concept_b": "Расстояние", "has_relation": true}
+{"paragraph_id": "6.4", "concept_a": "Метрика", "concept_b": "Расстояние Левенштейна", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Метрика", "concept_b": "Расстояние Хэмминга", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Метрика", "concept_b": "Расстояние евклидово", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Метрика", "concept_b": "Расстояние кодовое", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Метрика", "concept_b": "Сжатие с потерями", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Метрика", "concept_b": "Синдром", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Метрика", "concept_b": "Способность пропускная", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Метрика", "concept_b": "Теория информации", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Метрика", "concept_b": "Характеристика канала", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Метрика", "concept_b": "Шар", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Мощность кодирования", "concept_b": "Неравенство треугольника", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Мощность кодирования", "concept_b": "Окрестность метрическая", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Мощность кодирования", "concept_b": "Окрестность ошибок", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Мощность кодирования", "concept_b": "Разряд информационный", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Мощность кодирования", "concept_b": "Разряд контрольный", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Мощность кодирования", "concept_b": "Разряд проверочный", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Мощность кодирования", "concept_b": "Расстояние", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Мощность кодирования", "concept_b": "Расстояние Левенштейна", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Мощность кодирования", "concept_b": "Расстояние Хэмминга", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Мощность кодирования", "concept_b": "Расстояние евклидово", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Мощность кодирования", "concept_b": "Расстояние кодовое", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Мощность кодирования", "concept_b": "Сжатие с потерями", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Мощность кодирования", "concept_b": "Синдром", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Мощность кодирования", "concept_b": "Способность пропускная", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Мощность кодирования", "concept_b": "Теория информации", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Мощность кодирования", "concept_b": "Характеристика канала", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Мощность кодирования", "concept_b": "Шар", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Неравенство треугольника", "concept_b": "Окрестность метрическая", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Неравенство треугольника", "concept_b": "Окрестность ошибок", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Неравенство треугольника", "concept_b": "Разряд информационный", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Неравенство треугольника", "concept_b": "Разряд контрольный", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Неравенство треугольника", "concept_b": "Разряд проверочный", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Неравенство треугольника", "concept_b": "Расстояние", "has_relation": true}
+{"paragraph_id": "6.4", "concept_a": "Неравенство треугольника", "concept_b": "Расстояние Левенштейна", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Неравенство треугольника", "concept_b": "Расстояние Хэмминга", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Неравенство треугольника", "concept_b": "Расстояние евклидово", "has_relation": true}
+{"paragraph_id": "6.4", "concept_a": "Неравенство треугольника", "concept_b": "Расстояние кодовое", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Неравенство треугольника", "concept_b": "Сжатие с потерями", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Неравенство треугольника", "concept_b": "Синдром", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Неравенство треугольника", "concept_b": "Способность пропускная", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Неравенство треугольника", "concept_b": "Теория информации", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Неравенство треугольника", "concept_b": "Характеристика канала", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Неравенство треугольника", "concept_b": "Шар", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Окрестность метрическая", "concept_b": "Окрестность ошибок", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Окрестность метрическая", "concept_b": "Разряд информационный", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Окрестность метрическая", "concept_b": "Разряд контрольный", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Окрестность метрическая", "concept_b": "Разряд проверочный", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Окрестность метрическая", "concept_b": "Расстояние", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Окрестность метрическая", "concept_b": "Расстояние Левенштейна", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Окрестность метрическая", "concept_b": "Расстояние Хэмминга", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Окрестность метрическая", "concept_b": "Расстояние евклидово", "has_relation": true}
+{"paragraph_id": "6.4", "concept_a": "Окрестность метрическая", "concept_b": "Расстояние кодовое", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Окрестность метрическая", "concept_b": "Сжатие с потерями", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Окрестность метрическая", "concept_b": "Синдром", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Окрестность метрическая", "concept_b": "Способность пропускная", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Окрестность метрическая", "concept_b": "Теория информации", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Окрестность метрическая", "concept_b": "Характеристика канала", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Окрестность метрическая", "concept_b": "Шар", "has_relation": true}
+{"paragraph_id": "6.4", "concept_a": "Окрестность ошибок", "concept_b": "Разряд информационный", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Окрестность ошибок", "concept_b": "Разряд контрольный", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Окрестность ошибок", "concept_b": "Разряд проверочный", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Окрестность ошибок", "concept_b": "Расстояние", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Окрестность ошибок", "concept_b": "Расстояние Левенштейна", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Окрестность ошибок", "concept_b": "Расстояние Хэмминга", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Окрестность ошибок", "concept_b": "Расстояние евклидово", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Окрестность ошибок", "concept_b": "Расстояние кодовое", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Окрестность ошибок", "concept_b": "Сжатие с потерями", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Окрестность ошибок", "concept_b": "Синдром", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Окрестность ошибок", "concept_b": "Способность пропускная", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Окрестность ошибок", "concept_b": "Теория информации", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Окрестность ошибок", "concept_b": "Характеристика канала", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Окрестность ошибок", "concept_b": "Шар", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Разряд информационный", "concept_b": "Разряд контрольный", "has_relation": true}
+{"paragraph_id": "6.4", "concept_a": "Разряд информационный", "concept_b": "Разряд проверочный", "has_relation": true}
+{"paragraph_id": "6.4", "concept_a": "Разряд информационный", "concept_b": "Расстояние", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Разряд информационный", "concept_b": "Расстояние Левенштейна", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Разряд информационный", "concept_b": "Расстояние Хэмминга", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Разряд информационный", "concept_b": "Расстояние евклидово", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Разряд информационный", "concept_b": "Расстояние кодовое", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Разряд информационный", "concept_b": "Сжатие с потерями", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Разряд информационный", "concept_b": "Синдром", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Разряд информационный", "concept_b": "Способность пропускная", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Разряд информационный", "concept_b": "Теория информации", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Разряд информационный", "concept_b": "Характеристика канала", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Разряд информационный", "concept_b": "Шар", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Разряд контрольный", "concept_b": "Разряд проверочный", "has_relation": true}
+{"paragraph_id": "6.4", "concept_a": "Разряд контрольный", "concept_b": "Расстояние", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Разряд контрольный", "concept_b": "Расстояние Левенштейна", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Разряд контрольный", "concept_b": "Расстояние Хэмминга", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Разряд контрольный", "concept_b": "Расстояние евклидово", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Разряд контрольный", "concept_b": "Расстояние кодовое", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Разряд контрольный", "concept_b": "Сжатие с потерями", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Разряд контрольный", "concept_b": "Синдром", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Разряд контрольный", "concept_b": "Способность пропускная", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Разряд контрольный", "concept_b": "Теория информации", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Разряд контрольный", "concept_b": "Характеристика канала", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Разряд контрольный", "concept_b": "Шар", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Разряд проверочный", "concept_b": "Расстояние", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Разряд проверочный", "concept_b": "Расстояние Левенштейна", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Разряд проверочный", "concept_b": "Расстояние Хэмминга", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Разряд проверочный", "concept_b": "Расстояние евклидово", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Разряд проверочный", "concept_b": "Расстояние кодовое", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Разряд проверочный", "concept_b": "Сжатие с потерями", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Разряд проверочный", "concept_b": "Синдром", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Разряд проверочный", "concept_b": "Способность пропускная", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Разряд проверочный", "concept_b": "Теория информации", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Разряд проверочный", "concept_b": "Характеристика канала", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Разряд проверочный", "concept_b": "Шар", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Расстояние", "concept_b": "Расстояние Левенштейна", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Расстояние", "concept_b": "Расстояние Хэмминга", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Расстояние", "concept_b": "Расстояние евклидово", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Расстояние", "concept_b": "Расстояние кодовое", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Расстояние", "concept_b": "Сжатие с потерями", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Расстояние", "concept_b": "Синдром", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Расстояние", "concept_b": "Способность пропускная", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Расстояние", "concept_b": "Теория информации", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Расстояние", "concept_b": "Характеристика канала", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Расстояние", "concept_b": "Шар", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Расстояние Левенштейна", "concept_b": "Расстояние Хэмминга", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Расстояние Левенштейна", "concept_b": "Расстояние евклидово", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Расстояние Левенштейна", "concept_b": "Расстояние кодовое", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Расстояние Левенштейна", "concept_b": "Сжатие с потерями", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Расстояние Левенштейна", "concept_b": "Синдром", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Расстояние Левенштейна", "concept_b": "Способность пропускная", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Расстояние Левенштейна", "concept_b": "Теория информации", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Расстояние Левенштейна", "concept_b": "Характеристика канала", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Расстояние Левенштейна", "concept_b": "Шар", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Расстояние Хэмминга", "concept_b": "Расстояние евклидово", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Расстояние Хэмминга", "concept_b": "Расстояние кодовое", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Расстояние Хэмминга", "concept_b": "Сжатие с потерями", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Расстояние Хэмминга", "concept_b": "Синдром", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Расстояние Хэмминга", "concept_b": "Способность пропускная", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Расстояние Хэмминга", "concept_b": "Теория информации", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Расстояние Хэмминга", "concept_b": "Характеристика канала", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Расстояние Хэмминга", "concept_b": "Шар", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Расстояние евклидово", "concept_b": "Расстояние кодовое", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Расстояние евклидово", "concept_b": "Сжатие с потерями", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Расстояние евклидово", "concept_b": "Синдром", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Расстояние евклидово", "concept_b": "Способность пропускная", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Расстояние евклидово", "concept_b": "Теория информации", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Расстояние евклидово", "concept_b": "Характеристика канала", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Расстояние евклидово", "concept_b": "Шар", "has_relation": true}
+{"paragraph_id": "6.4", "concept_a": "Расстояние кодовое", "concept_b": "Сжатие с потерями", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Расстояние кодовое", "concept_b": "Синдром", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Расстояние кодовое", "concept_b": "Способность пропускная", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Расстояние кодовое", "concept_b": "Теория информации", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Расстояние кодовое", "concept_b": "Характеристика канала", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Расстояние кодовое", "concept_b": "Шар", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Сжатие с потерями", "concept_b": "Синдром", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Сжатие с потерями", "concept_b": "Способность пропускная", "has_relation": true}
+{"paragraph_id": "6.4", "concept_a": "Сжатие с потерями", "concept_b": "Теория информации", "has_relation": true}
+{"paragraph_id": "6.4", "concept_a": "Сжатие с потерями", "concept_b": "Характеристика канала", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Сжатие с потерями", "concept_b": "Шар", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Синдром", "concept_b": "Способность пропускная", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Синдром", "concept_b": "Теория информации", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Синдром", "concept_b": "Характеристика канала", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Синдром", "concept_b": "Шар", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Способность пропускная", "concept_b": "Теория информации", "has_relation": true}
+{"paragraph_id": "6.4", "concept_a": "Способность пропускная", "concept_b": "Характеристика канала", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Способность пропускная", "concept_b": "Шар", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Теория информации", "concept_b": "Характеристика канала", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Теория информации", "concept_b": "Шар", "has_relation": false}
+{"paragraph_id": "6.4", "concept_a": "Характеристика канала", "concept_b": "Шар", "has_relation": false}

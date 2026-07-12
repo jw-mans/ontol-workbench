@@ -1,0 +1,105 @@
+{"paragraph_id": "8.6", "concept_a": "Алгоритм Беллмана--Форда", "concept_b": "Алгоритм Джонсона", "has_relation": false}
+{"paragraph_id": "8.6", "concept_a": "Алгоритм Беллмана--Форда", "concept_b": "Алгоритм определения расстояний от источника", "has_relation": false}
+{"paragraph_id": "8.6", "concept_a": "Алгоритм Беллмана--Форда", "concept_b": "Вес дуги", "has_relation": false}
+{"paragraph_id": "8.6", "concept_a": "Алгоритм Беллмана--Форда", "concept_b": "Граф взвешенный", "has_relation": false}
+{"paragraph_id": "8.6", "concept_a": "Алгоритм Беллмана--Форда", "concept_b": "Длина дуги", "has_relation": false}
+{"paragraph_id": "8.6", "concept_a": "Алгоритм Беллмана--Форда", "concept_b": "Длина кратчайшего пути", "has_relation": false}
+{"paragraph_id": "8.6", "concept_a": "Алгоритм Беллмана--Форда", "concept_b": "Длина пути", "has_relation": false}
+{"paragraph_id": "8.6", "concept_a": "Алгоритм Беллмана--Форда", "concept_b": "Матрица длин дуг", "has_relation": false}
+{"paragraph_id": "8.6", "concept_a": "Алгоритм Беллмана--Форда", "concept_b": "Матрица длин путей", "has_relation": false}
+{"paragraph_id": "8.6", "concept_a": "Алгоритм Беллмана--Форда", "concept_b": "Матрица предшествования", "has_relation": false}
+{"paragraph_id": "8.6", "concept_a": "Алгоритм Беллмана--Форда", "concept_b": "Неравенство треугольника", "has_relation": false}
+{"paragraph_id": "8.6", "concept_a": "Алгоритм Беллмана--Форда", "concept_b": "Ослабление", "has_relation": false}
+{"paragraph_id": "8.6", "concept_a": "Алгоритм Беллмана--Форда", "concept_b": "Рекорд пути", "has_relation": false}
+{"paragraph_id": "8.6", "concept_a": "Алгоритм Беллмана--Форда", "concept_b": "Релаксация", "has_relation": false}
+{"paragraph_id": "8.6", "concept_a": "Алгоритм Джонсона", "concept_b": "Алгоритм определения расстояний от источника", "has_relation": false}
+{"paragraph_id": "8.6", "concept_a": "Алгоритм Джонсона", "concept_b": "Вес дуги", "has_relation": false}
+{"paragraph_id": "8.6", "concept_a": "Алгоритм Джонсона", "concept_b": "Граф взвешенный", "has_relation": false}
+{"paragraph_id": "8.6", "concept_a": "Алгоритм Джонсона", "concept_b": "Длина дуги", "has_relation": false}
+{"paragraph_id": "8.6", "concept_a": "Алгоритм Джонсона", "concept_b": "Длина кратчайшего пути", "has_relation": false}
+{"paragraph_id": "8.6", "concept_a": "Алгоритм Джонсона", "concept_b": "Длина пути", "has_relation": false}
+{"paragraph_id": "8.6", "concept_a": "Алгоритм Джонсона", "concept_b": "Матрица длин дуг", "has_relation": false}
+{"paragraph_id": "8.6", "concept_a": "Алгоритм Джонсона", "concept_b": "Матрица длин путей", "has_relation": false}
+{"paragraph_id": "8.6", "concept_a": "Алгоритм Джонсона", "concept_b": "Матрица предшествования", "has_relation": false}
+{"paragraph_id": "8.6", "concept_a": "Алгоритм Джонсона", "concept_b": "Неравенство треугольника", "has_relation": false}
+{"paragraph_id": "8.6", "concept_a": "Алгоритм Джонсона", "concept_b": "Ослабление", "has_relation": false}
+{"paragraph_id": "8.6", "concept_a": "Алгоритм Джонсона", "concept_b": "Рекорд пути", "has_relation": false}
+{"paragraph_id": "8.6", "concept_a": "Алгоритм Джонсона", "concept_b": "Релаксация", "has_relation": false}
+{"paragraph_id": "8.6", "concept_a": "Алгоритм определения расстояний от источника", "concept_b": "Вес дуги", "has_relation": false}
+{"paragraph_id": "8.6", "concept_a": "Алгоритм определения расстояний от источника", "concept_b": "Граф взвешенный", "has_relation": false}
+{"paragraph_id": "8.6", "concept_a": "Алгоритм определения расстояний от источника", "concept_b": "Длина дуги", "has_relation": false}
+{"paragraph_id": "8.6", "concept_a": "Алгоритм определения расстояний от источника", "concept_b": "Длина кратчайшего пути", "has_relation": false}
+{"paragraph_id": "8.6", "concept_a": "Алгоритм определения расстояний от источника", "concept_b": "Длина пути", "has_relation": false}
+{"paragraph_id": "8.6", "concept_a": "Алгоритм определения расстояний от источника", "concept_b": "Матрица длин дуг", "has_relation": false}
+{"paragraph_id": "8.6", "concept_a": "Алгоритм определения расстояний от источника", "concept_b": "Матрица длин путей", "has_relation": false}
+{"paragraph_id": "8.6", "concept_a": "Алгоритм определения расстояний от источника", "concept_b": "Матрица предшествования", "has_relation": false}
+{"paragraph_id": "8.6", "concept_a": "Алгоритм определения расстояний от источника", "concept_b": "Неравенство треугольника", "has_relation": false}
+{"paragraph_id": "8.6", "concept_a": "Алгоритм определения расстояний от источника", "concept_b": "Ослабление", "has_relation": false}
+{"paragraph_id": "8.6", "concept_a": "Алгоритм определения расстояний от источника", "concept_b": "Рекорд пути", "has_relation": false}
+{"paragraph_id": "8.6", "concept_a": "Алгоритм определения расстояний от источника", "concept_b": "Релаксация", "has_relation": false}
+{"paragraph_id": "8.6", "concept_a": "Вес дуги", "concept_b": "Граф взвешенный", "has_relation": true}
+{"paragraph_id": "8.6", "concept_a": "Вес дуги", "concept_b": "Длина дуги", "has_relation": true}
+{"paragraph_id": "8.6", "concept_a": "Вес дуги", "concept_b": "Длина кратчайшего пути", "has_relation": false}
+{"paragraph_id": "8.6", "concept_a": "Вес дуги", "concept_b": "Длина пути", "has_relation": true}
+{"paragraph_id": "8.6", "concept_a": "Вес дуги", "concept_b": "Матрица длин дуг", "has_relation": false}
+{"paragraph_id": "8.6", "concept_a": "Вес дуги", "concept_b": "Матрица длин путей", "has_relation": false}
+{"paragraph_id": "8.6", "concept_a": "Вес дуги", "concept_b": "Матрица предшествования", "has_relation": false}
+{"paragraph_id": "8.6", "concept_a": "Вес дуги", "concept_b": "Неравенство треугольника", "has_relation": false}
+{"paragraph_id": "8.6", "concept_a": "Вес дуги", "concept_b": "Ослабление", "has_relation": false}
+{"paragraph_id": "8.6", "concept_a": "Вес дуги", "concept_b": "Рекорд пути", "has_relation": false}
+{"paragraph_id": "8.6", "concept_a": "Вес дуги", "concept_b": "Релаксация", "has_relation": false}
+{"paragraph_id": "8.6", "concept_a": "Граф взвешенный", "concept_b": "Длина дуги", "has_relation": true}
+{"paragraph_id": "8.6", "concept_a": "Граф взвешенный", "concept_b": "Длина кратчайшего пути", "has_relation": false}
+{"paragraph_id": "8.6", "concept_a": "Граф взвешенный", "concept_b": "Длина пути", "has_relation": false}
+{"paragraph_id": "8.6", "concept_a": "Граф взвешенный", "concept_b": "Матрица длин дуг", "has_relation": false}
+{"paragraph_id": "8.6", "concept_a": "Граф взвешенный", "concept_b": "Матрица длин путей", "has_relation": false}
+{"paragraph_id": "8.6", "concept_a": "Граф взвешенный", "concept_b": "Матрица предшествования", "has_relation": false}
+{"paragraph_id": "8.6", "concept_a": "Граф взвешенный", "concept_b": "Неравенство треугольника", "has_relation": false}
+{"paragraph_id": "8.6", "concept_a": "Граф взвешенный", "concept_b": "Ослабление", "has_relation": false}
+{"paragraph_id": "8.6", "concept_a": "Граф взвешенный", "concept_b": "Рекорд пути", "has_relation": false}
+{"paragraph_id": "8.6", "concept_a": "Граф взвешенный", "concept_b": "Релаксация", "has_relation": false}
+{"paragraph_id": "8.6", "concept_a": "Длина дуги", "concept_b": "Длина кратчайшего пути", "has_relation": false}
+{"paragraph_id": "8.6", "concept_a": "Длина дуги", "concept_b": "Длина пути", "has_relation": true}
+{"paragraph_id": "8.6", "concept_a": "Длина дуги", "concept_b": "Матрица длин дуг", "has_relation": false}
+{"paragraph_id": "8.6", "concept_a": "Длина дуги", "concept_b": "Матрица длин путей", "has_relation": false}
+{"paragraph_id": "8.6", "concept_a": "Длина дуги", "concept_b": "Матрица предшествования", "has_relation": false}
+{"paragraph_id": "8.6", "concept_a": "Длина дуги", "concept_b": "Неравенство треугольника", "has_relation": false}
+{"paragraph_id": "8.6", "concept_a": "Длина дуги", "concept_b": "Ослабление", "has_relation": false}
+{"paragraph_id": "8.6", "concept_a": "Длина дуги", "concept_b": "Рекорд пути", "has_relation": false}
+{"paragraph_id": "8.6", "concept_a": "Длина дуги", "concept_b": "Релаксация", "has_relation": false}
+{"paragraph_id": "8.6", "concept_a": "Длина кратчайшего пути", "concept_b": "Длина пути", "has_relation": true}
+{"paragraph_id": "8.6", "concept_a": "Длина кратчайшего пути", "concept_b": "Матрица длин дуг", "has_relation": false}
+{"paragraph_id": "8.6", "concept_a": "Длина кратчайшего пути", "concept_b": "Матрица длин путей", "has_relation": false}
+{"paragraph_id": "8.6", "concept_a": "Длина кратчайшего пути", "concept_b": "Матрица предшествования", "has_relation": false}
+{"paragraph_id": "8.6", "concept_a": "Длина кратчайшего пути", "concept_b": "Неравенство треугольника", "has_relation": false}
+{"paragraph_id": "8.6", "concept_a": "Длина кратчайшего пути", "concept_b": "Ослабление", "has_relation": false}
+{"paragraph_id": "8.6", "concept_a": "Длина кратчайшего пути", "concept_b": "Рекорд пути", "has_relation": false}
+{"paragraph_id": "8.6", "concept_a": "Длина кратчайшего пути", "concept_b": "Релаксация", "has_relation": false}
+{"paragraph_id": "8.6", "concept_a": "Длина пути", "concept_b": "Матрица длин дуг", "has_relation": false}
+{"paragraph_id": "8.6", "concept_a": "Длина пути", "concept_b": "Матрица длин путей", "has_relation": false}
+{"paragraph_id": "8.6", "concept_a": "Длина пути", "concept_b": "Матрица предшествования", "has_relation": false}
+{"paragraph_id": "8.6", "concept_a": "Длина пути", "concept_b": "Неравенство треугольника", "has_relation": false}
+{"paragraph_id": "8.6", "concept_a": "Длина пути", "concept_b": "Ослабление", "has_relation": false}
+{"paragraph_id": "8.6", "concept_a": "Длина пути", "concept_b": "Рекорд пути", "has_relation": false}
+{"paragraph_id": "8.6", "concept_a": "Длина пути", "concept_b": "Релаксация", "has_relation": false}
+{"paragraph_id": "8.6", "concept_a": "Матрица длин дуг", "concept_b": "Матрица длин путей", "has_relation": true}
+{"paragraph_id": "8.6", "concept_a": "Матрица длин дуг", "concept_b": "Матрица предшествования", "has_relation": true}
+{"paragraph_id": "8.6", "concept_a": "Матрица длин дуг", "concept_b": "Неравенство треугольника", "has_relation": false}
+{"paragraph_id": "8.6", "concept_a": "Матрица длин дуг", "concept_b": "Ослабление", "has_relation": false}
+{"paragraph_id": "8.6", "concept_a": "Матрица длин дуг", "concept_b": "Рекорд пути", "has_relation": false}
+{"paragraph_id": "8.6", "concept_a": "Матрица длин дуг", "concept_b": "Релаксация", "has_relation": false}
+{"paragraph_id": "8.6", "concept_a": "Матрица длин путей", "concept_b": "Матрица предшествования", "has_relation": true}
+{"paragraph_id": "8.6", "concept_a": "Матрица длин путей", "concept_b": "Неравенство треугольника", "has_relation": false}
+{"paragraph_id": "8.6", "concept_a": "Матрица длин путей", "concept_b": "Ослабление", "has_relation": false}
+{"paragraph_id": "8.6", "concept_a": "Матрица длин путей", "concept_b": "Рекорд пути", "has_relation": false}
+{"paragraph_id": "8.6", "concept_a": "Матрица длин путей", "concept_b": "Релаксация", "has_relation": false}
+{"paragraph_id": "8.6", "concept_a": "Матрица предшествования", "concept_b": "Неравенство треугольника", "has_relation": false}
+{"paragraph_id": "8.6", "concept_a": "Матрица предшествования", "concept_b": "Ослабление", "has_relation": false}
+{"paragraph_id": "8.6", "concept_a": "Матрица предшествования", "concept_b": "Рекорд пути", "has_relation": false}
+{"paragraph_id": "8.6", "concept_a": "Матрица предшествования", "concept_b": "Релаксация", "has_relation": false}
+{"paragraph_id": "8.6", "concept_a": "Неравенство треугольника", "concept_b": "Ослабление", "has_relation": false}
+{"paragraph_id": "8.6", "concept_a": "Неравенство треугольника", "concept_b": "Рекорд пути", "has_relation": false}
+{"paragraph_id": "8.6", "concept_a": "Неравенство треугольника", "concept_b": "Релаксация", "has_relation": false}
+{"paragraph_id": "8.6", "concept_a": "Ослабление", "concept_b": "Рекорд пути", "has_relation": false}
+{"paragraph_id": "8.6", "concept_a": "Ослабление", "concept_b": "Релаксация", "has_relation": true}
+{"paragraph_id": "8.6", "concept_a": "Рекорд пути", "concept_b": "Релаксация", "has_relation": false}

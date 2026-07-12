@@ -1,0 +1,1378 @@
+{"paragraph_id": "1.4", "concept_a": "$n$-ка", "concept_b": "Арность отношения", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "$n$-ка", "concept_b": "Вместимость отношения", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "$n$-ка", "concept_b": "График отношения", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "$n$-ка", "concept_b": "Диагональ прямого произведения", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "$n$-ка", "concept_b": "Длина набора", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "$n$-ка", "concept_b": "Длина цикла", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "$n$-ка", "concept_b": "Композиция отношений", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "$n$-ка", "concept_b": "Кортеж", "has_relation": true}
+{"paragraph_id": "1.4", "concept_a": "$n$-ка", "concept_b": "Матрица булева", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "$n$-ка", "concept_b": "Матрица вычитание", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "$n$-ка", "concept_b": "Матрица дизъюнкция", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "$n$-ка", "concept_b": "Матрица инверсия", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "$n$-ка", "concept_b": "Матрица транспонирование", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "$n$-ка", "concept_b": "Матрица умножение", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "$n$-ка", "concept_b": "Набор", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "$n$-ка", "concept_b": "Область значений отношения", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "$n$-ка", "concept_b": "Область определения отношения", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "$n$-ка", "concept_b": "Область отправления отношения", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "$n$-ка", "concept_b": "Область прибытия отношения", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "$n$-ка", "concept_b": "Объединение множеств дизъюнктивное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "$n$-ка", "concept_b": "Объединение множеств размеченное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "$n$-ка", "concept_b": "Отношение $n$-арное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "$n$-ка", "concept_b": "Отношение $n$-местное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "$n$-ка", "concept_b": "Отношение антирефлексивное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "$n$-ка", "concept_b": "Отношение антисимметричное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "$n$-ка", "concept_b": "Отношение ациклическое", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "$n$-ка", "concept_b": "Отношение бинарное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "$n$-ка", "concept_b": "Отношение дополнительное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "$n$-ка", "concept_b": "Отношение линейное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "$n$-ка", "concept_b": "Отношение на множестве", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "$n$-ка", "concept_b": "Отношение обратное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "$n$-ка", "concept_b": "Отношение полное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "$n$-ка", "concept_b": "Отношение рефлексивное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "$n$-ка", "concept_b": "Отношение симметричное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "$n$-ка", "concept_b": "Отношение тождественное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "$n$-ка", "concept_b": "Отношение транзитивное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "$n$-ка", "concept_b": "Отношение универсальное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "$n$-ка", "concept_b": "Отношение частичное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "$n$-ка", "concept_b": "Петля", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "$n$-ка", "concept_b": "Последовательность конечная", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "$n$-ка", "concept_b": "Произведение декартово", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "$n$-ка", "concept_b": "Произведение прямое", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "$n$-ка", "concept_b": "Прямая сумма множеств", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "$n$-ка", "concept_b": "Равенство упорядоченных пар", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "$n$-ка", "concept_b": "Степень множества", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "$n$-ка", "concept_b": "Степень отношения", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "$n$-ка", "concept_b": "Тег", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "$n$-ка", "concept_b": "Треугольник", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "$n$-ка", "concept_b": "Упорядоченная пара", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "$n$-ка", "concept_b": "Форма записи инфиксная", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "$n$-ка", "concept_b": "Цикл", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "$n$-ка", "concept_b": "Ядро отношения", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Арность отношения", "concept_b": "Вместимость отношения", "has_relation": true}
+{"paragraph_id": "1.4", "concept_a": "Арность отношения", "concept_b": "График отношения", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Арность отношения", "concept_b": "Диагональ прямого произведения", "has_relation": true}
+{"paragraph_id": "1.4", "concept_a": "Арность отношения", "concept_b": "Длина набора", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Арность отношения", "concept_b": "Длина цикла", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Арность отношения", "concept_b": "Композиция отношений", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Арность отношения", "concept_b": "Кортеж", "has_relation": true}
+{"paragraph_id": "1.4", "concept_a": "Арность отношения", "concept_b": "Матрица булева", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Арность отношения", "concept_b": "Матрица вычитание", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Арность отношения", "concept_b": "Матрица дизъюнкция", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Арность отношения", "concept_b": "Матрица инверсия", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Арность отношения", "concept_b": "Матрица транспонирование", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Арность отношения", "concept_b": "Матрица умножение", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Арность отношения", "concept_b": "Набор", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Арность отношения", "concept_b": "Область значений отношения", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Арность отношения", "concept_b": "Область определения отношения", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Арность отношения", "concept_b": "Область отправления отношения", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Арность отношения", "concept_b": "Область прибытия отношения", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Арность отношения", "concept_b": "Объединение множеств дизъюнктивное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Арность отношения", "concept_b": "Объединение множеств размеченное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Арность отношения", "concept_b": "Отношение $n$-арное", "has_relation": true}
+{"paragraph_id": "1.4", "concept_a": "Арность отношения", "concept_b": "Отношение $n$-местное", "has_relation": true}
+{"paragraph_id": "1.4", "concept_a": "Арность отношения", "concept_b": "Отношение антирефлексивное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Арность отношения", "concept_b": "Отношение антисимметричное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Арность отношения", "concept_b": "Отношение ациклическое", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Арность отношения", "concept_b": "Отношение бинарное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Арность отношения", "concept_b": "Отношение дополнительное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Арность отношения", "concept_b": "Отношение линейное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Арность отношения", "concept_b": "Отношение на множестве", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Арность отношения", "concept_b": "Отношение обратное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Арность отношения", "concept_b": "Отношение полное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Арность отношения", "concept_b": "Отношение рефлексивное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Арность отношения", "concept_b": "Отношение симметричное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Арность отношения", "concept_b": "Отношение тождественное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Арность отношения", "concept_b": "Отношение транзитивное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Арность отношения", "concept_b": "Отношение универсальное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Арность отношения", "concept_b": "Отношение частичное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Арность отношения", "concept_b": "Петля", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Арность отношения", "concept_b": "Последовательность конечная", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Арность отношения", "concept_b": "Произведение декартово", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Арность отношения", "concept_b": "Произведение прямое", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Арность отношения", "concept_b": "Прямая сумма множеств", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Арность отношения", "concept_b": "Равенство упорядоченных пар", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Арность отношения", "concept_b": "Степень множества", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Арность отношения", "concept_b": "Степень отношения", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Арность отношения", "concept_b": "Тег", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Арность отношения", "concept_b": "Треугольник", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Арность отношения", "concept_b": "Упорядоченная пара", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Арность отношения", "concept_b": "Форма записи инфиксная", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Арность отношения", "concept_b": "Цикл", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Арность отношения", "concept_b": "Ядро отношения", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Вместимость отношения", "concept_b": "График отношения", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Вместимость отношения", "concept_b": "Диагональ прямого произведения", "has_relation": true}
+{"paragraph_id": "1.4", "concept_a": "Вместимость отношения", "concept_b": "Длина набора", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Вместимость отношения", "concept_b": "Длина цикла", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Вместимость отношения", "concept_b": "Композиция отношений", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Вместимость отношения", "concept_b": "Кортеж", "has_relation": true}
+{"paragraph_id": "1.4", "concept_a": "Вместимость отношения", "concept_b": "Матрица булева", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Вместимость отношения", "concept_b": "Матрица вычитание", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Вместимость отношения", "concept_b": "Матрица дизъюнкция", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Вместимость отношения", "concept_b": "Матрица инверсия", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Вместимость отношения", "concept_b": "Матрица транспонирование", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Вместимость отношения", "concept_b": "Матрица умножение", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Вместимость отношения", "concept_b": "Набор", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Вместимость отношения", "concept_b": "Область значений отношения", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Вместимость отношения", "concept_b": "Область определения отношения", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Вместимость отношения", "concept_b": "Область отправления отношения", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Вместимость отношения", "concept_b": "Область прибытия отношения", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Вместимость отношения", "concept_b": "Объединение множеств дизъюнктивное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Вместимость отношения", "concept_b": "Объединение множеств размеченное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Вместимость отношения", "concept_b": "Отношение $n$-арное", "has_relation": true}
+{"paragraph_id": "1.4", "concept_a": "Вместимость отношения", "concept_b": "Отношение $n$-местное", "has_relation": true}
+{"paragraph_id": "1.4", "concept_a": "Вместимость отношения", "concept_b": "Отношение антирефлексивное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Вместимость отношения", "concept_b": "Отношение антисимметричное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Вместимость отношения", "concept_b": "Отношение ациклическое", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Вместимость отношения", "concept_b": "Отношение бинарное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Вместимость отношения", "concept_b": "Отношение дополнительное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Вместимость отношения", "concept_b": "Отношение линейное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Вместимость отношения", "concept_b": "Отношение на множестве", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Вместимость отношения", "concept_b": "Отношение обратное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Вместимость отношения", "concept_b": "Отношение полное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Вместимость отношения", "concept_b": "Отношение рефлексивное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Вместимость отношения", "concept_b": "Отношение симметричное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Вместимость отношения", "concept_b": "Отношение тождественное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Вместимость отношения", "concept_b": "Отношение транзитивное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Вместимость отношения", "concept_b": "Отношение универсальное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Вместимость отношения", "concept_b": "Отношение частичное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Вместимость отношения", "concept_b": "Петля", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Вместимость отношения", "concept_b": "Последовательность конечная", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Вместимость отношения", "concept_b": "Произведение декартово", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Вместимость отношения", "concept_b": "Произведение прямое", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Вместимость отношения", "concept_b": "Прямая сумма множеств", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Вместимость отношения", "concept_b": "Равенство упорядоченных пар", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Вместимость отношения", "concept_b": "Степень множества", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Вместимость отношения", "concept_b": "Степень отношения", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Вместимость отношения", "concept_b": "Тег", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Вместимость отношения", "concept_b": "Треугольник", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Вместимость отношения", "concept_b": "Упорядоченная пара", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Вместимость отношения", "concept_b": "Форма записи инфиксная", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Вместимость отношения", "concept_b": "Цикл", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Вместимость отношения", "concept_b": "Ядро отношения", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "График отношения", "concept_b": "Диагональ прямого произведения", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "График отношения", "concept_b": "Длина набора", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "График отношения", "concept_b": "Длина цикла", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "График отношения", "concept_b": "Композиция отношений", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "График отношения", "concept_b": "Кортеж", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "График отношения", "concept_b": "Матрица булева", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "График отношения", "concept_b": "Матрица вычитание", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "График отношения", "concept_b": "Матрица дизъюнкция", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "График отношения", "concept_b": "Матрица инверсия", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "График отношения", "concept_b": "Матрица транспонирование", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "График отношения", "concept_b": "Матрица умножение", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "График отношения", "concept_b": "Набор", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "График отношения", "concept_b": "Область значений отношения", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "График отношения", "concept_b": "Область определения отношения", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "График отношения", "concept_b": "Область отправления отношения", "has_relation": true}
+{"paragraph_id": "1.4", "concept_a": "График отношения", "concept_b": "Область прибытия отношения", "has_relation": true}
+{"paragraph_id": "1.4", "concept_a": "График отношения", "concept_b": "Объединение множеств дизъюнктивное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "График отношения", "concept_b": "Объединение множеств размеченное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "График отношения", "concept_b": "Отношение $n$-арное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "График отношения", "concept_b": "Отношение $n$-местное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "График отношения", "concept_b": "Отношение антирефлексивное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "График отношения", "concept_b": "Отношение антисимметричное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "График отношения", "concept_b": "Отношение ациклическое", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "График отношения", "concept_b": "Отношение бинарное", "has_relation": true}
+{"paragraph_id": "1.4", "concept_a": "График отношения", "concept_b": "Отношение дополнительное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "График отношения", "concept_b": "Отношение линейное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "График отношения", "concept_b": "Отношение на множестве", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "График отношения", "concept_b": "Отношение обратное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "График отношения", "concept_b": "Отношение полное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "График отношения", "concept_b": "Отношение рефлексивное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "График отношения", "concept_b": "Отношение симметричное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "График отношения", "concept_b": "Отношение тождественное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "График отношения", "concept_b": "Отношение транзитивное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "График отношения", "concept_b": "Отношение универсальное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "График отношения", "concept_b": "Отношение частичное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "График отношения", "concept_b": "Петля", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "График отношения", "concept_b": "Последовательность конечная", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "График отношения", "concept_b": "Произведение декартово", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "График отношения", "concept_b": "Произведение прямое", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "График отношения", "concept_b": "Прямая сумма множеств", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "График отношения", "concept_b": "Равенство упорядоченных пар", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "График отношения", "concept_b": "Степень множества", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "График отношения", "concept_b": "Степень отношения", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "График отношения", "concept_b": "Тег", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "График отношения", "concept_b": "Треугольник", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "График отношения", "concept_b": "Упорядоченная пара", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "График отношения", "concept_b": "Форма записи инфиксная", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "График отношения", "concept_b": "Цикл", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "График отношения", "concept_b": "Ядро отношения", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Диагональ прямого произведения", "concept_b": "Длина набора", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Диагональ прямого произведения", "concept_b": "Длина цикла", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Диагональ прямого произведения", "concept_b": "Композиция отношений", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Диагональ прямого произведения", "concept_b": "Кортеж", "has_relation": true}
+{"paragraph_id": "1.4", "concept_a": "Диагональ прямого произведения", "concept_b": "Матрица булева", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Диагональ прямого произведения", "concept_b": "Матрица вычитание", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Диагональ прямого произведения", "concept_b": "Матрица дизъюнкция", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Диагональ прямого произведения", "concept_b": "Матрица инверсия", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Диагональ прямого произведения", "concept_b": "Матрица транспонирование", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Диагональ прямого произведения", "concept_b": "Матрица умножение", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Диагональ прямого произведения", "concept_b": "Набор", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Диагональ прямого произведения", "concept_b": "Область значений отношения", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Диагональ прямого произведения", "concept_b": "Область определения отношения", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Диагональ прямого произведения", "concept_b": "Область отправления отношения", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Диагональ прямого произведения", "concept_b": "Область прибытия отношения", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Диагональ прямого произведения", "concept_b": "Объединение множеств дизъюнктивное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Диагональ прямого произведения", "concept_b": "Объединение множеств размеченное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Диагональ прямого произведения", "concept_b": "Отношение $n$-арное", "has_relation": true}
+{"paragraph_id": "1.4", "concept_a": "Диагональ прямого произведения", "concept_b": "Отношение $n$-местное", "has_relation": true}
+{"paragraph_id": "1.4", "concept_a": "Диагональ прямого произведения", "concept_b": "Отношение антирефлексивное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Диагональ прямого произведения", "concept_b": "Отношение антисимметричное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Диагональ прямого произведения", "concept_b": "Отношение ациклическое", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Диагональ прямого произведения", "concept_b": "Отношение бинарное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Диагональ прямого произведения", "concept_b": "Отношение дополнительное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Диагональ прямого произведения", "concept_b": "Отношение линейное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Диагональ прямого произведения", "concept_b": "Отношение на множестве", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Диагональ прямого произведения", "concept_b": "Отношение обратное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Диагональ прямого произведения", "concept_b": "Отношение полное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Диагональ прямого произведения", "concept_b": "Отношение рефлексивное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Диагональ прямого произведения", "concept_b": "Отношение симметричное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Диагональ прямого произведения", "concept_b": "Отношение тождественное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Диагональ прямого произведения", "concept_b": "Отношение транзитивное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Диагональ прямого произведения", "concept_b": "Отношение универсальное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Диагональ прямого произведения", "concept_b": "Отношение частичное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Диагональ прямого произведения", "concept_b": "Петля", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Диагональ прямого произведения", "concept_b": "Последовательность конечная", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Диагональ прямого произведения", "concept_b": "Произведение декартово", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Диагональ прямого произведения", "concept_b": "Произведение прямое", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Диагональ прямого произведения", "concept_b": "Прямая сумма множеств", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Диагональ прямого произведения", "concept_b": "Равенство упорядоченных пар", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Диагональ прямого произведения", "concept_b": "Степень множества", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Диагональ прямого произведения", "concept_b": "Степень отношения", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Диагональ прямого произведения", "concept_b": "Тег", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Диагональ прямого произведения", "concept_b": "Треугольник", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Диагональ прямого произведения", "concept_b": "Упорядоченная пара", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Диагональ прямого произведения", "concept_b": "Форма записи инфиксная", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Диагональ прямого произведения", "concept_b": "Цикл", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Диагональ прямого произведения", "concept_b": "Ядро отношения", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Длина набора", "concept_b": "Длина цикла", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Длина набора", "concept_b": "Композиция отношений", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Длина набора", "concept_b": "Кортеж", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Длина набора", "concept_b": "Матрица булева", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Длина набора", "concept_b": "Матрица вычитание", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Длина набора", "concept_b": "Матрица дизъюнкция", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Длина набора", "concept_b": "Матрица инверсия", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Длина набора", "concept_b": "Матрица транспонирование", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Длина набора", "concept_b": "Матрица умножение", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Длина набора", "concept_b": "Набор", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Длина набора", "concept_b": "Область значений отношения", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Длина набора", "concept_b": "Область определения отношения", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Длина набора", "concept_b": "Область отправления отношения", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Длина набора", "concept_b": "Область прибытия отношения", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Длина набора", "concept_b": "Объединение множеств дизъюнктивное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Длина набора", "concept_b": "Объединение множеств размеченное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Длина набора", "concept_b": "Отношение $n$-арное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Длина набора", "concept_b": "Отношение $n$-местное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Длина набора", "concept_b": "Отношение антирефлексивное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Длина набора", "concept_b": "Отношение антисимметричное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Длина набора", "concept_b": "Отношение ациклическое", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Длина набора", "concept_b": "Отношение бинарное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Длина набора", "concept_b": "Отношение дополнительное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Длина набора", "concept_b": "Отношение линейное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Длина набора", "concept_b": "Отношение на множестве", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Длина набора", "concept_b": "Отношение обратное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Длина набора", "concept_b": "Отношение полное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Длина набора", "concept_b": "Отношение рефлексивное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Длина набора", "concept_b": "Отношение симметричное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Длина набора", "concept_b": "Отношение тождественное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Длина набора", "concept_b": "Отношение транзитивное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Длина набора", "concept_b": "Отношение универсальное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Длина набора", "concept_b": "Отношение частичное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Длина набора", "concept_b": "Петля", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Длина набора", "concept_b": "Последовательность конечная", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Длина набора", "concept_b": "Произведение декартово", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Длина набора", "concept_b": "Произведение прямое", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Длина набора", "concept_b": "Прямая сумма множеств", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Длина набора", "concept_b": "Равенство упорядоченных пар", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Длина набора", "concept_b": "Степень множества", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Длина набора", "concept_b": "Степень отношения", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Длина набора", "concept_b": "Тег", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Длина набора", "concept_b": "Треугольник", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Длина набора", "concept_b": "Упорядоченная пара", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Длина набора", "concept_b": "Форма записи инфиксная", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Длина набора", "concept_b": "Цикл", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Длина набора", "concept_b": "Ядро отношения", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Длина цикла", "concept_b": "Композиция отношений", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Длина цикла", "concept_b": "Кортеж", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Длина цикла", "concept_b": "Матрица булева", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Длина цикла", "concept_b": "Матрица вычитание", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Длина цикла", "concept_b": "Матрица дизъюнкция", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Длина цикла", "concept_b": "Матрица инверсия", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Длина цикла", "concept_b": "Матрица транспонирование", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Длина цикла", "concept_b": "Матрица умножение", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Длина цикла", "concept_b": "Набор", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Длина цикла", "concept_b": "Область значений отношения", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Длина цикла", "concept_b": "Область определения отношения", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Длина цикла", "concept_b": "Область отправления отношения", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Длина цикла", "concept_b": "Область прибытия отношения", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Длина цикла", "concept_b": "Объединение множеств дизъюнктивное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Длина цикла", "concept_b": "Объединение множеств размеченное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Длина цикла", "concept_b": "Отношение $n$-арное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Длина цикла", "concept_b": "Отношение $n$-местное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Длина цикла", "concept_b": "Отношение антирефлексивное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Длина цикла", "concept_b": "Отношение антисимметричное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Длина цикла", "concept_b": "Отношение ациклическое", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Длина цикла", "concept_b": "Отношение бинарное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Длина цикла", "concept_b": "Отношение дополнительное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Длина цикла", "concept_b": "Отношение линейное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Длина цикла", "concept_b": "Отношение на множестве", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Длина цикла", "concept_b": "Отношение обратное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Длина цикла", "concept_b": "Отношение полное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Длина цикла", "concept_b": "Отношение рефлексивное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Длина цикла", "concept_b": "Отношение симметричное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Длина цикла", "concept_b": "Отношение тождественное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Длина цикла", "concept_b": "Отношение транзитивное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Длина цикла", "concept_b": "Отношение универсальное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Длина цикла", "concept_b": "Отношение частичное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Длина цикла", "concept_b": "Петля", "has_relation": true}
+{"paragraph_id": "1.4", "concept_a": "Длина цикла", "concept_b": "Последовательность конечная", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Длина цикла", "concept_b": "Произведение декартово", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Длина цикла", "concept_b": "Произведение прямое", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Длина цикла", "concept_b": "Прямая сумма множеств", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Длина цикла", "concept_b": "Равенство упорядоченных пар", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Длина цикла", "concept_b": "Степень множества", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Длина цикла", "concept_b": "Степень отношения", "has_relation": true}
+{"paragraph_id": "1.4", "concept_a": "Длина цикла", "concept_b": "Тег", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Длина цикла", "concept_b": "Треугольник", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Длина цикла", "concept_b": "Упорядоченная пара", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Длина цикла", "concept_b": "Форма записи инфиксная", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Длина цикла", "concept_b": "Цикл", "has_relation": true}
+{"paragraph_id": "1.4", "concept_a": "Длина цикла", "concept_b": "Ядро отношения", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Композиция отношений", "concept_b": "Кортеж", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Композиция отношений", "concept_b": "Матрица булева", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Композиция отношений", "concept_b": "Матрица вычитание", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Композиция отношений", "concept_b": "Матрица дизъюнкция", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Композиция отношений", "concept_b": "Матрица инверсия", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Композиция отношений", "concept_b": "Матрица транспонирование", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Композиция отношений", "concept_b": "Матрица умножение", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Композиция отношений", "concept_b": "Набор", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Композиция отношений", "concept_b": "Область значений отношения", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Композиция отношений", "concept_b": "Область определения отношения", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Композиция отношений", "concept_b": "Область отправления отношения", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Композиция отношений", "concept_b": "Область прибытия отношения", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Композиция отношений", "concept_b": "Объединение множеств дизъюнктивное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Композиция отношений", "concept_b": "Объединение множеств размеченное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Композиция отношений", "concept_b": "Отношение $n$-арное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Композиция отношений", "concept_b": "Отношение $n$-местное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Композиция отношений", "concept_b": "Отношение антирефлексивное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Композиция отношений", "concept_b": "Отношение антисимметричное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Композиция отношений", "concept_b": "Отношение ациклическое", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Композиция отношений", "concept_b": "Отношение бинарное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Композиция отношений", "concept_b": "Отношение дополнительное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Композиция отношений", "concept_b": "Отношение линейное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Композиция отношений", "concept_b": "Отношение на множестве", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Композиция отношений", "concept_b": "Отношение обратное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Композиция отношений", "concept_b": "Отношение полное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Композиция отношений", "concept_b": "Отношение рефлексивное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Композиция отношений", "concept_b": "Отношение симметричное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Композиция отношений", "concept_b": "Отношение тождественное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Композиция отношений", "concept_b": "Отношение транзитивное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Композиция отношений", "concept_b": "Отношение универсальное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Композиция отношений", "concept_b": "Отношение частичное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Композиция отношений", "concept_b": "Петля", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Композиция отношений", "concept_b": "Последовательность конечная", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Композиция отношений", "concept_b": "Произведение декартово", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Композиция отношений", "concept_b": "Произведение прямое", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Композиция отношений", "concept_b": "Прямая сумма множеств", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Композиция отношений", "concept_b": "Равенство упорядоченных пар", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Композиция отношений", "concept_b": "Степень множества", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Композиция отношений", "concept_b": "Степень отношения", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Композиция отношений", "concept_b": "Тег", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Композиция отношений", "concept_b": "Треугольник", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Композиция отношений", "concept_b": "Упорядоченная пара", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Композиция отношений", "concept_b": "Форма записи инфиксная", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Композиция отношений", "concept_b": "Цикл", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Композиция отношений", "concept_b": "Ядро отношения", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Кортеж", "concept_b": "Матрица булева", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Кортеж", "concept_b": "Матрица вычитание", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Кортеж", "concept_b": "Матрица дизъюнкция", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Кортеж", "concept_b": "Матрица инверсия", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Кортеж", "concept_b": "Матрица транспонирование", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Кортеж", "concept_b": "Матрица умножение", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Кортеж", "concept_b": "Набор", "has_relation": true}
+{"paragraph_id": "1.4", "concept_a": "Кортеж", "concept_b": "Область значений отношения", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Кортеж", "concept_b": "Область определения отношения", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Кортеж", "concept_b": "Область отправления отношения", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Кортеж", "concept_b": "Область прибытия отношения", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Кортеж", "concept_b": "Объединение множеств дизъюнктивное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Кортеж", "concept_b": "Объединение множеств размеченное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Кортеж", "concept_b": "Отношение $n$-арное", "has_relation": true}
+{"paragraph_id": "1.4", "concept_a": "Кортеж", "concept_b": "Отношение $n$-местное", "has_relation": true}
+{"paragraph_id": "1.4", "concept_a": "Кортеж", "concept_b": "Отношение антирефлексивное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Кортеж", "concept_b": "Отношение антисимметричное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Кортеж", "concept_b": "Отношение ациклическое", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Кортеж", "concept_b": "Отношение бинарное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Кортеж", "concept_b": "Отношение дополнительное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Кортеж", "concept_b": "Отношение линейное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Кортеж", "concept_b": "Отношение на множестве", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Кортеж", "concept_b": "Отношение обратное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Кортеж", "concept_b": "Отношение полное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Кортеж", "concept_b": "Отношение рефлексивное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Кортеж", "concept_b": "Отношение симметричное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Кортеж", "concept_b": "Отношение тождественное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Кортеж", "concept_b": "Отношение транзитивное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Кортеж", "concept_b": "Отношение универсальное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Кортеж", "concept_b": "Отношение частичное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Кортеж", "concept_b": "Петля", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Кортеж", "concept_b": "Последовательность конечная", "has_relation": true}
+{"paragraph_id": "1.4", "concept_a": "Кортеж", "concept_b": "Произведение декартово", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Кортеж", "concept_b": "Произведение прямое", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Кортеж", "concept_b": "Прямая сумма множеств", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Кортеж", "concept_b": "Равенство упорядоченных пар", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Кортеж", "concept_b": "Степень множества", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Кортеж", "concept_b": "Степень отношения", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Кортеж", "concept_b": "Тег", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Кортеж", "concept_b": "Треугольник", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Кортеж", "concept_b": "Упорядоченная пара", "has_relation": true}
+{"paragraph_id": "1.4", "concept_a": "Кортеж", "concept_b": "Форма записи инфиксная", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Кортеж", "concept_b": "Цикл", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Кортеж", "concept_b": "Ядро отношения", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Матрица булева", "concept_b": "Матрица вычитание", "has_relation": true}
+{"paragraph_id": "1.4", "concept_a": "Матрица булева", "concept_b": "Матрица дизъюнкция", "has_relation": true}
+{"paragraph_id": "1.4", "concept_a": "Матрица булева", "concept_b": "Матрица инверсия", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Матрица булева", "concept_b": "Матрица транспонирование", "has_relation": true}
+{"paragraph_id": "1.4", "concept_a": "Матрица булева", "concept_b": "Матрица умножение", "has_relation": true}
+{"paragraph_id": "1.4", "concept_a": "Матрица булева", "concept_b": "Набор", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Матрица булева", "concept_b": "Область значений отношения", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Матрица булева", "concept_b": "Область определения отношения", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Матрица булева", "concept_b": "Область отправления отношения", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Матрица булева", "concept_b": "Область прибытия отношения", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Матрица булева", "concept_b": "Объединение множеств дизъюнктивное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Матрица булева", "concept_b": "Объединение множеств размеченное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Матрица булева", "concept_b": "Отношение $n$-арное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Матрица булева", "concept_b": "Отношение $n$-местное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Матрица булева", "concept_b": "Отношение антирефлексивное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Матрица булева", "concept_b": "Отношение антисимметричное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Матрица булева", "concept_b": "Отношение ациклическое", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Матрица булева", "concept_b": "Отношение бинарное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Матрица булева", "concept_b": "Отношение дополнительное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Матрица булева", "concept_b": "Отношение линейное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Матрица булева", "concept_b": "Отношение на множестве", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Матрица булева", "concept_b": "Отношение обратное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Матрица булева", "concept_b": "Отношение полное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Матрица булева", "concept_b": "Отношение рефлексивное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Матрица булева", "concept_b": "Отношение симметричное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Матрица булева", "concept_b": "Отношение тождественное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Матрица булева", "concept_b": "Отношение транзитивное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Матрица булева", "concept_b": "Отношение универсальное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Матрица булева", "concept_b": "Отношение частичное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Матрица булева", "concept_b": "Петля", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Матрица булева", "concept_b": "Последовательность конечная", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Матрица булева", "concept_b": "Произведение декартово", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Матрица булева", "concept_b": "Произведение прямое", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Матрица булева", "concept_b": "Прямая сумма множеств", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Матрица булева", "concept_b": "Равенство упорядоченных пар", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Матрица булева", "concept_b": "Степень множества", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Матрица булева", "concept_b": "Степень отношения", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Матрица булева", "concept_b": "Тег", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Матрица булева", "concept_b": "Треугольник", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Матрица булева", "concept_b": "Упорядоченная пара", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Матрица булева", "concept_b": "Форма записи инфиксная", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Матрица булева", "concept_b": "Цикл", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Матрица булева", "concept_b": "Ядро отношения", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Матрица вычитание", "concept_b": "Матрица дизъюнкция", "has_relation": true}
+{"paragraph_id": "1.4", "concept_a": "Матрица вычитание", "concept_b": "Матрица инверсия", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Матрица вычитание", "concept_b": "Матрица транспонирование", "has_relation": true}
+{"paragraph_id": "1.4", "concept_a": "Матрица вычитание", "concept_b": "Матрица умножение", "has_relation": true}
+{"paragraph_id": "1.4", "concept_a": "Матрица вычитание", "concept_b": "Набор", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Матрица вычитание", "concept_b": "Область значений отношения", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Матрица вычитание", "concept_b": "Область определения отношения", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Матрица вычитание", "concept_b": "Область отправления отношения", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Матрица вычитание", "concept_b": "Область прибытия отношения", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Матрица вычитание", "concept_b": "Объединение множеств дизъюнктивное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Матрица вычитание", "concept_b": "Объединение множеств размеченное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Матрица вычитание", "concept_b": "Отношение $n$-арное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Матрица вычитание", "concept_b": "Отношение $n$-местное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Матрица вычитание", "concept_b": "Отношение антирефлексивное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Матрица вычитание", "concept_b": "Отношение антисимметричное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Матрица вычитание", "concept_b": "Отношение ациклическое", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Матрица вычитание", "concept_b": "Отношение бинарное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Матрица вычитание", "concept_b": "Отношение дополнительное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Матрица вычитание", "concept_b": "Отношение линейное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Матрица вычитание", "concept_b": "Отношение на множестве", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Матрица вычитание", "concept_b": "Отношение обратное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Матрица вычитание", "concept_b": "Отношение полное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Матрица вычитание", "concept_b": "Отношение рефлексивное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Матрица вычитание", "concept_b": "Отношение симметричное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Матрица вычитание", "concept_b": "Отношение тождественное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Матрица вычитание", "concept_b": "Отношение транзитивное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Матрица вычитание", "concept_b": "Отношение универсальное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Матрица вычитание", "concept_b": "Отношение частичное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Матрица вычитание", "concept_b": "Петля", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Матрица вычитание", "concept_b": "Последовательность конечная", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Матрица вычитание", "concept_b": "Произведение декартово", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Матрица вычитание", "concept_b": "Произведение прямое", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Матрица вычитание", "concept_b": "Прямая сумма множеств", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Матрица вычитание", "concept_b": "Равенство упорядоченных пар", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Матрица вычитание", "concept_b": "Степень множества", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Матрица вычитание", "concept_b": "Степень отношения", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Матрица вычитание", "concept_b": "Тег", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Матрица вычитание", "concept_b": "Треугольник", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Матрица вычитание", "concept_b": "Упорядоченная пара", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Матрица вычитание", "concept_b": "Форма записи инфиксная", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Матрица вычитание", "concept_b": "Цикл", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Матрица вычитание", "concept_b": "Ядро отношения", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Матрица дизъюнкция", "concept_b": "Матрица инверсия", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Матрица дизъюнкция", "concept_b": "Матрица транспонирование", "has_relation": true}
+{"paragraph_id": "1.4", "concept_a": "Матрица дизъюнкция", "concept_b": "Матрица умножение", "has_relation": true}
+{"paragraph_id": "1.4", "concept_a": "Матрица дизъюнкция", "concept_b": "Набор", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Матрица дизъюнкция", "concept_b": "Область значений отношения", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Матрица дизъюнкция", "concept_b": "Область определения отношения", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Матрица дизъюнкция", "concept_b": "Область отправления отношения", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Матрица дизъюнкция", "concept_b": "Область прибытия отношения", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Матрица дизъюнкция", "concept_b": "Объединение множеств дизъюнктивное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Матрица дизъюнкция", "concept_b": "Объединение множеств размеченное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Матрица дизъюнкция", "concept_b": "Отношение $n$-арное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Матрица дизъюнкция", "concept_b": "Отношение $n$-местное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Матрица дизъюнкция", "concept_b": "Отношение антирефлексивное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Матрица дизъюнкция", "concept_b": "Отношение антисимметричное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Матрица дизъюнкция", "concept_b": "Отношение ациклическое", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Матрица дизъюнкция", "concept_b": "Отношение бинарное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Матрица дизъюнкция", "concept_b": "Отношение дополнительное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Матрица дизъюнкция", "concept_b": "Отношение линейное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Матрица дизъюнкция", "concept_b": "Отношение на множестве", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Матрица дизъюнкция", "concept_b": "Отношение обратное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Матрица дизъюнкция", "concept_b": "Отношение полное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Матрица дизъюнкция", "concept_b": "Отношение рефлексивное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Матрица дизъюнкция", "concept_b": "Отношение симметричное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Матрица дизъюнкция", "concept_b": "Отношение тождественное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Матрица дизъюнкция", "concept_b": "Отношение транзитивное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Матрица дизъюнкция", "concept_b": "Отношение универсальное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Матрица дизъюнкция", "concept_b": "Отношение частичное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Матрица дизъюнкция", "concept_b": "Петля", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Матрица дизъюнкция", "concept_b": "Последовательность конечная", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Матрица дизъюнкция", "concept_b": "Произведение декартово", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Матрица дизъюнкция", "concept_b": "Произведение прямое", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Матрица дизъюнкция", "concept_b": "Прямая сумма множеств", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Матрица дизъюнкция", "concept_b": "Равенство упорядоченных пар", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Матрица дизъюнкция", "concept_b": "Степень множества", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Матрица дизъюнкция", "concept_b": "Степень отношения", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Матрица дизъюнкция", "concept_b": "Тег", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Матрица дизъюнкция", "concept_b": "Треугольник", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Матрица дизъюнкция", "concept_b": "Упорядоченная пара", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Матрица дизъюнкция", "concept_b": "Форма записи инфиксная", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Матрица дизъюнкция", "concept_b": "Цикл", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Матрица дизъюнкция", "concept_b": "Ядро отношения", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Матрица инверсия", "concept_b": "Матрица транспонирование", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Матрица инверсия", "concept_b": "Матрица умножение", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Матрица инверсия", "concept_b": "Набор", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Матрица инверсия", "concept_b": "Область значений отношения", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Матрица инверсия", "concept_b": "Область определения отношения", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Матрица инверсия", "concept_b": "Область отправления отношения", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Матрица инверсия", "concept_b": "Область прибытия отношения", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Матрица инверсия", "concept_b": "Объединение множеств дизъюнктивное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Матрица инверсия", "concept_b": "Объединение множеств размеченное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Матрица инверсия", "concept_b": "Отношение $n$-арное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Матрица инверсия", "concept_b": "Отношение $n$-местное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Матрица инверсия", "concept_b": "Отношение антирефлексивное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Матрица инверсия", "concept_b": "Отношение антисимметричное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Матрица инверсия", "concept_b": "Отношение ациклическое", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Матрица инверсия", "concept_b": "Отношение бинарное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Матрица инверсия", "concept_b": "Отношение дополнительное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Матрица инверсия", "concept_b": "Отношение линейное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Матрица инверсия", "concept_b": "Отношение на множестве", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Матрица инверсия", "concept_b": "Отношение обратное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Матрица инверсия", "concept_b": "Отношение полное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Матрица инверсия", "concept_b": "Отношение рефлексивное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Матрица инверсия", "concept_b": "Отношение симметричное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Матрица инверсия", "concept_b": "Отношение тождественное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Матрица инверсия", "concept_b": "Отношение транзитивное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Матрица инверсия", "concept_b": "Отношение универсальное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Матрица инверсия", "concept_b": "Отношение частичное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Матрица инверсия", "concept_b": "Петля", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Матрица инверсия", "concept_b": "Последовательность конечная", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Матрица инверсия", "concept_b": "Произведение декартово", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Матрица инверсия", "concept_b": "Произведение прямое", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Матрица инверсия", "concept_b": "Прямая сумма множеств", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Матрица инверсия", "concept_b": "Равенство упорядоченных пар", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Матрица инверсия", "concept_b": "Степень множества", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Матрица инверсия", "concept_b": "Степень отношения", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Матрица инверсия", "concept_b": "Тег", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Матрица инверсия", "concept_b": "Треугольник", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Матрица инверсия", "concept_b": "Упорядоченная пара", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Матрица инверсия", "concept_b": "Форма записи инфиксная", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Матрица инверсия", "concept_b": "Цикл", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Матрица инверсия", "concept_b": "Ядро отношения", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Матрица транспонирование", "concept_b": "Матрица умножение", "has_relation": true}
+{"paragraph_id": "1.4", "concept_a": "Матрица транспонирование", "concept_b": "Набор", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Матрица транспонирование", "concept_b": "Область значений отношения", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Матрица транспонирование", "concept_b": "Область определения отношения", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Матрица транспонирование", "concept_b": "Область отправления отношения", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Матрица транспонирование", "concept_b": "Область прибытия отношения", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Матрица транспонирование", "concept_b": "Объединение множеств дизъюнктивное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Матрица транспонирование", "concept_b": "Объединение множеств размеченное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Матрица транспонирование", "concept_b": "Отношение $n$-арное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Матрица транспонирование", "concept_b": "Отношение $n$-местное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Матрица транспонирование", "concept_b": "Отношение антирефлексивное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Матрица транспонирование", "concept_b": "Отношение антисимметричное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Матрица транспонирование", "concept_b": "Отношение ациклическое", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Матрица транспонирование", "concept_b": "Отношение бинарное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Матрица транспонирование", "concept_b": "Отношение дополнительное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Матрица транспонирование", "concept_b": "Отношение линейное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Матрица транспонирование", "concept_b": "Отношение на множестве", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Матрица транспонирование", "concept_b": "Отношение обратное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Матрица транспонирование", "concept_b": "Отношение полное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Матрица транспонирование", "concept_b": "Отношение рефлексивное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Матрица транспонирование", "concept_b": "Отношение симметричное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Матрица транспонирование", "concept_b": "Отношение тождественное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Матрица транспонирование", "concept_b": "Отношение транзитивное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Матрица транспонирование", "concept_b": "Отношение универсальное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Матрица транспонирование", "concept_b": "Отношение частичное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Матрица транспонирование", "concept_b": "Петля", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Матрица транспонирование", "concept_b": "Последовательность конечная", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Матрица транспонирование", "concept_b": "Произведение декартово", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Матрица транспонирование", "concept_b": "Произведение прямое", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Матрица транспонирование", "concept_b": "Прямая сумма множеств", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Матрица транспонирование", "concept_b": "Равенство упорядоченных пар", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Матрица транспонирование", "concept_b": "Степень множества", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Матрица транспонирование", "concept_b": "Степень отношения", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Матрица транспонирование", "concept_b": "Тег", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Матрица транспонирование", "concept_b": "Треугольник", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Матрица транспонирование", "concept_b": "Упорядоченная пара", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Матрица транспонирование", "concept_b": "Форма записи инфиксная", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Матрица транспонирование", "concept_b": "Цикл", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Матрица транспонирование", "concept_b": "Ядро отношения", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Матрица умножение", "concept_b": "Набор", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Матрица умножение", "concept_b": "Область значений отношения", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Матрица умножение", "concept_b": "Область определения отношения", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Матрица умножение", "concept_b": "Область отправления отношения", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Матрица умножение", "concept_b": "Область прибытия отношения", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Матрица умножение", "concept_b": "Объединение множеств дизъюнктивное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Матрица умножение", "concept_b": "Объединение множеств размеченное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Матрица умножение", "concept_b": "Отношение $n$-арное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Матрица умножение", "concept_b": "Отношение $n$-местное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Матрица умножение", "concept_b": "Отношение антирефлексивное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Матрица умножение", "concept_b": "Отношение антисимметричное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Матрица умножение", "concept_b": "Отношение ациклическое", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Матрица умножение", "concept_b": "Отношение бинарное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Матрица умножение", "concept_b": "Отношение дополнительное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Матрица умножение", "concept_b": "Отношение линейное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Матрица умножение", "concept_b": "Отношение на множестве", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Матрица умножение", "concept_b": "Отношение обратное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Матрица умножение", "concept_b": "Отношение полное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Матрица умножение", "concept_b": "Отношение рефлексивное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Матрица умножение", "concept_b": "Отношение симметричное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Матрица умножение", "concept_b": "Отношение тождественное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Матрица умножение", "concept_b": "Отношение транзитивное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Матрица умножение", "concept_b": "Отношение универсальное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Матрица умножение", "concept_b": "Отношение частичное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Матрица умножение", "concept_b": "Петля", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Матрица умножение", "concept_b": "Последовательность конечная", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Матрица умножение", "concept_b": "Произведение декартово", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Матрица умножение", "concept_b": "Произведение прямое", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Матрица умножение", "concept_b": "Прямая сумма множеств", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Матрица умножение", "concept_b": "Равенство упорядоченных пар", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Матрица умножение", "concept_b": "Степень множества", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Матрица умножение", "concept_b": "Степень отношения", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Матрица умножение", "concept_b": "Тег", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Матрица умножение", "concept_b": "Треугольник", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Матрица умножение", "concept_b": "Упорядоченная пара", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Матрица умножение", "concept_b": "Форма записи инфиксная", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Матрица умножение", "concept_b": "Цикл", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Матрица умножение", "concept_b": "Ядро отношения", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Набор", "concept_b": "Область значений отношения", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Набор", "concept_b": "Область определения отношения", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Набор", "concept_b": "Область отправления отношения", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Набор", "concept_b": "Область прибытия отношения", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Набор", "concept_b": "Объединение множеств дизъюнктивное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Набор", "concept_b": "Объединение множеств размеченное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Набор", "concept_b": "Отношение $n$-арное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Набор", "concept_b": "Отношение $n$-местное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Набор", "concept_b": "Отношение антирефлексивное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Набор", "concept_b": "Отношение антисимметричное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Набор", "concept_b": "Отношение ациклическое", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Набор", "concept_b": "Отношение бинарное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Набор", "concept_b": "Отношение дополнительное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Набор", "concept_b": "Отношение линейное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Набор", "concept_b": "Отношение на множестве", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Набор", "concept_b": "Отношение обратное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Набор", "concept_b": "Отношение полное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Набор", "concept_b": "Отношение рефлексивное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Набор", "concept_b": "Отношение симметричное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Набор", "concept_b": "Отношение тождественное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Набор", "concept_b": "Отношение транзитивное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Набор", "concept_b": "Отношение универсальное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Набор", "concept_b": "Отношение частичное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Набор", "concept_b": "Петля", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Набор", "concept_b": "Последовательность конечная", "has_relation": true}
+{"paragraph_id": "1.4", "concept_a": "Набор", "concept_b": "Произведение декартово", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Набор", "concept_b": "Произведение прямое", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Набор", "concept_b": "Прямая сумма множеств", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Набор", "concept_b": "Равенство упорядоченных пар", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Набор", "concept_b": "Степень множества", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Набор", "concept_b": "Степень отношения", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Набор", "concept_b": "Тег", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Набор", "concept_b": "Треугольник", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Набор", "concept_b": "Упорядоченная пара", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Набор", "concept_b": "Форма записи инфиксная", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Набор", "concept_b": "Цикл", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Набор", "concept_b": "Ядро отношения", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Область значений отношения", "concept_b": "Область определения отношения", "has_relation": true}
+{"paragraph_id": "1.4", "concept_a": "Область значений отношения", "concept_b": "Область отправления отношения", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Область значений отношения", "concept_b": "Область прибытия отношения", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Область значений отношения", "concept_b": "Объединение множеств дизъюнктивное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Область значений отношения", "concept_b": "Объединение множеств размеченное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Область значений отношения", "concept_b": "Отношение $n$-арное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Область значений отношения", "concept_b": "Отношение $n$-местное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Область значений отношения", "concept_b": "Отношение антирефлексивное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Область значений отношения", "concept_b": "Отношение антисимметричное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Область значений отношения", "concept_b": "Отношение ациклическое", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Область значений отношения", "concept_b": "Отношение бинарное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Область значений отношения", "concept_b": "Отношение дополнительное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Область значений отношения", "concept_b": "Отношение линейное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Область значений отношения", "concept_b": "Отношение на множестве", "has_relation": true}
+{"paragraph_id": "1.4", "concept_a": "Область значений отношения", "concept_b": "Отношение обратное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Область значений отношения", "concept_b": "Отношение полное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Область значений отношения", "concept_b": "Отношение рефлексивное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Область значений отношения", "concept_b": "Отношение симметричное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Область значений отношения", "concept_b": "Отношение тождественное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Область значений отношения", "concept_b": "Отношение транзитивное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Область значений отношения", "concept_b": "Отношение универсальное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Область значений отношения", "concept_b": "Отношение частичное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Область значений отношения", "concept_b": "Петля", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Область значений отношения", "concept_b": "Последовательность конечная", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Область значений отношения", "concept_b": "Произведение декартово", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Область значений отношения", "concept_b": "Произведение прямое", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Область значений отношения", "concept_b": "Прямая сумма множеств", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Область значений отношения", "concept_b": "Равенство упорядоченных пар", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Область значений отношения", "concept_b": "Степень множества", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Область значений отношения", "concept_b": "Степень отношения", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Область значений отношения", "concept_b": "Тег", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Область значений отношения", "concept_b": "Треугольник", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Область значений отношения", "concept_b": "Упорядоченная пара", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Область значений отношения", "concept_b": "Форма записи инфиксная", "has_relation": true}
+{"paragraph_id": "1.4", "concept_a": "Область значений отношения", "concept_b": "Цикл", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Область значений отношения", "concept_b": "Ядро отношения", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Область определения отношения", "concept_b": "Область отправления отношения", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Область определения отношения", "concept_b": "Область прибытия отношения", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Область определения отношения", "concept_b": "Объединение множеств дизъюнктивное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Область определения отношения", "concept_b": "Объединение множеств размеченное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Область определения отношения", "concept_b": "Отношение $n$-арное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Область определения отношения", "concept_b": "Отношение $n$-местное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Область определения отношения", "concept_b": "Отношение антирефлексивное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Область определения отношения", "concept_b": "Отношение антисимметричное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Область определения отношения", "concept_b": "Отношение ациклическое", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Область определения отношения", "concept_b": "Отношение бинарное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Область определения отношения", "concept_b": "Отношение дополнительное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Область определения отношения", "concept_b": "Отношение линейное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Область определения отношения", "concept_b": "Отношение на множестве", "has_relation": true}
+{"paragraph_id": "1.4", "concept_a": "Область определения отношения", "concept_b": "Отношение обратное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Область определения отношения", "concept_b": "Отношение полное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Область определения отношения", "concept_b": "Отношение рефлексивное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Область определения отношения", "concept_b": "Отношение симметричное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Область определения отношения", "concept_b": "Отношение тождественное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Область определения отношения", "concept_b": "Отношение транзитивное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Область определения отношения", "concept_b": "Отношение универсальное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Область определения отношения", "concept_b": "Отношение частичное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Область определения отношения", "concept_b": "Петля", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Область определения отношения", "concept_b": "Последовательность конечная", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Область определения отношения", "concept_b": "Произведение декартово", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Область определения отношения", "concept_b": "Произведение прямое", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Область определения отношения", "concept_b": "Прямая сумма множеств", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Область определения отношения", "concept_b": "Равенство упорядоченных пар", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Область определения отношения", "concept_b": "Степень множества", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Область определения отношения", "concept_b": "Степень отношения", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Область определения отношения", "concept_b": "Тег", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Область определения отношения", "concept_b": "Треугольник", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Область определения отношения", "concept_b": "Упорядоченная пара", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Область определения отношения", "concept_b": "Форма записи инфиксная", "has_relation": true}
+{"paragraph_id": "1.4", "concept_a": "Область определения отношения", "concept_b": "Цикл", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Область определения отношения", "concept_b": "Ядро отношения", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Область отправления отношения", "concept_b": "Область прибытия отношения", "has_relation": true}
+{"paragraph_id": "1.4", "concept_a": "Область отправления отношения", "concept_b": "Объединение множеств дизъюнктивное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Область отправления отношения", "concept_b": "Объединение множеств размеченное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Область отправления отношения", "concept_b": "Отношение $n$-арное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Область отправления отношения", "concept_b": "Отношение $n$-местное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Область отправления отношения", "concept_b": "Отношение антирефлексивное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Область отправления отношения", "concept_b": "Отношение антисимметричное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Область отправления отношения", "concept_b": "Отношение ациклическое", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Область отправления отношения", "concept_b": "Отношение бинарное", "has_relation": true}
+{"paragraph_id": "1.4", "concept_a": "Область отправления отношения", "concept_b": "Отношение дополнительное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Область отправления отношения", "concept_b": "Отношение линейное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Область отправления отношения", "concept_b": "Отношение на множестве", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Область отправления отношения", "concept_b": "Отношение обратное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Область отправления отношения", "concept_b": "Отношение полное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Область отправления отношения", "concept_b": "Отношение рефлексивное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Область отправления отношения", "concept_b": "Отношение симметричное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Область отправления отношения", "concept_b": "Отношение тождественное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Область отправления отношения", "concept_b": "Отношение транзитивное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Область отправления отношения", "concept_b": "Отношение универсальное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Область отправления отношения", "concept_b": "Отношение частичное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Область отправления отношения", "concept_b": "Петля", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Область отправления отношения", "concept_b": "Последовательность конечная", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Область отправления отношения", "concept_b": "Произведение декартово", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Область отправления отношения", "concept_b": "Произведение прямое", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Область отправления отношения", "concept_b": "Прямая сумма множеств", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Область отправления отношения", "concept_b": "Равенство упорядоченных пар", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Область отправления отношения", "concept_b": "Степень множества", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Область отправления отношения", "concept_b": "Степень отношения", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Область отправления отношения", "concept_b": "Тег", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Область отправления отношения", "concept_b": "Треугольник", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Область отправления отношения", "concept_b": "Упорядоченная пара", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Область отправления отношения", "concept_b": "Форма записи инфиксная", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Область отправления отношения", "concept_b": "Цикл", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Область отправления отношения", "concept_b": "Ядро отношения", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Область прибытия отношения", "concept_b": "Объединение множеств дизъюнктивное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Область прибытия отношения", "concept_b": "Объединение множеств размеченное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Область прибытия отношения", "concept_b": "Отношение $n$-арное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Область прибытия отношения", "concept_b": "Отношение $n$-местное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Область прибытия отношения", "concept_b": "Отношение антирефлексивное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Область прибытия отношения", "concept_b": "Отношение антисимметричное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Область прибытия отношения", "concept_b": "Отношение ациклическое", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Область прибытия отношения", "concept_b": "Отношение бинарное", "has_relation": true}
+{"paragraph_id": "1.4", "concept_a": "Область прибытия отношения", "concept_b": "Отношение дополнительное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Область прибытия отношения", "concept_b": "Отношение линейное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Область прибытия отношения", "concept_b": "Отношение на множестве", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Область прибытия отношения", "concept_b": "Отношение обратное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Область прибытия отношения", "concept_b": "Отношение полное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Область прибытия отношения", "concept_b": "Отношение рефлексивное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Область прибытия отношения", "concept_b": "Отношение симметричное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Область прибытия отношения", "concept_b": "Отношение тождественное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Область прибытия отношения", "concept_b": "Отношение транзитивное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Область прибытия отношения", "concept_b": "Отношение универсальное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Область прибытия отношения", "concept_b": "Отношение частичное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Область прибытия отношения", "concept_b": "Петля", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Область прибытия отношения", "concept_b": "Последовательность конечная", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Область прибытия отношения", "concept_b": "Произведение декартово", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Область прибытия отношения", "concept_b": "Произведение прямое", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Область прибытия отношения", "concept_b": "Прямая сумма множеств", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Область прибытия отношения", "concept_b": "Равенство упорядоченных пар", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Область прибытия отношения", "concept_b": "Степень множества", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Область прибытия отношения", "concept_b": "Степень отношения", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Область прибытия отношения", "concept_b": "Тег", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Область прибытия отношения", "concept_b": "Треугольник", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Область прибытия отношения", "concept_b": "Упорядоченная пара", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Область прибытия отношения", "concept_b": "Форма записи инфиксная", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Область прибытия отношения", "concept_b": "Цикл", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Область прибытия отношения", "concept_b": "Ядро отношения", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Объединение множеств дизъюнктивное", "concept_b": "Объединение множеств размеченное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Объединение множеств дизъюнктивное", "concept_b": "Отношение $n$-арное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Объединение множеств дизъюнктивное", "concept_b": "Отношение $n$-местное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Объединение множеств дизъюнктивное", "concept_b": "Отношение антирефлексивное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Объединение множеств дизъюнктивное", "concept_b": "Отношение антисимметричное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Объединение множеств дизъюнктивное", "concept_b": "Отношение ациклическое", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Объединение множеств дизъюнктивное", "concept_b": "Отношение бинарное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Объединение множеств дизъюнктивное", "concept_b": "Отношение дополнительное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Объединение множеств дизъюнктивное", "concept_b": "Отношение линейное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Объединение множеств дизъюнктивное", "concept_b": "Отношение на множестве", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Объединение множеств дизъюнктивное", "concept_b": "Отношение обратное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Объединение множеств дизъюнктивное", "concept_b": "Отношение полное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Объединение множеств дизъюнктивное", "concept_b": "Отношение рефлексивное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Объединение множеств дизъюнктивное", "concept_b": "Отношение симметричное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Объединение множеств дизъюнктивное", "concept_b": "Отношение тождественное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Объединение множеств дизъюнктивное", "concept_b": "Отношение транзитивное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Объединение множеств дизъюнктивное", "concept_b": "Отношение универсальное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Объединение множеств дизъюнктивное", "concept_b": "Отношение частичное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Объединение множеств дизъюнктивное", "concept_b": "Петля", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Объединение множеств дизъюнктивное", "concept_b": "Последовательность конечная", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Объединение множеств дизъюнктивное", "concept_b": "Произведение декартово", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Объединение множеств дизъюнктивное", "concept_b": "Произведение прямое", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Объединение множеств дизъюнктивное", "concept_b": "Прямая сумма множеств", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Объединение множеств дизъюнктивное", "concept_b": "Равенство упорядоченных пар", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Объединение множеств дизъюнктивное", "concept_b": "Степень множества", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Объединение множеств дизъюнктивное", "concept_b": "Степень отношения", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Объединение множеств дизъюнктивное", "concept_b": "Тег", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Объединение множеств дизъюнктивное", "concept_b": "Треугольник", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Объединение множеств дизъюнктивное", "concept_b": "Упорядоченная пара", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Объединение множеств дизъюнктивное", "concept_b": "Форма записи инфиксная", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Объединение множеств дизъюнктивное", "concept_b": "Цикл", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Объединение множеств дизъюнктивное", "concept_b": "Ядро отношения", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Объединение множеств размеченное", "concept_b": "Отношение $n$-арное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Объединение множеств размеченное", "concept_b": "Отношение $n$-местное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Объединение множеств размеченное", "concept_b": "Отношение антирефлексивное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Объединение множеств размеченное", "concept_b": "Отношение антисимметричное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Объединение множеств размеченное", "concept_b": "Отношение ациклическое", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Объединение множеств размеченное", "concept_b": "Отношение бинарное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Объединение множеств размеченное", "concept_b": "Отношение дополнительное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Объединение множеств размеченное", "concept_b": "Отношение линейное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Объединение множеств размеченное", "concept_b": "Отношение на множестве", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Объединение множеств размеченное", "concept_b": "Отношение обратное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Объединение множеств размеченное", "concept_b": "Отношение полное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Объединение множеств размеченное", "concept_b": "Отношение рефлексивное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Объединение множеств размеченное", "concept_b": "Отношение симметричное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Объединение множеств размеченное", "concept_b": "Отношение тождественное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Объединение множеств размеченное", "concept_b": "Отношение транзитивное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Объединение множеств размеченное", "concept_b": "Отношение универсальное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Объединение множеств размеченное", "concept_b": "Отношение частичное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Объединение множеств размеченное", "concept_b": "Петля", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Объединение множеств размеченное", "concept_b": "Последовательность конечная", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Объединение множеств размеченное", "concept_b": "Произведение декартово", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Объединение множеств размеченное", "concept_b": "Произведение прямое", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Объединение множеств размеченное", "concept_b": "Прямая сумма множеств", "has_relation": true}
+{"paragraph_id": "1.4", "concept_a": "Объединение множеств размеченное", "concept_b": "Равенство упорядоченных пар", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Объединение множеств размеченное", "concept_b": "Степень множества", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Объединение множеств размеченное", "concept_b": "Степень отношения", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Объединение множеств размеченное", "concept_b": "Тег", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Объединение множеств размеченное", "concept_b": "Треугольник", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Объединение множеств размеченное", "concept_b": "Упорядоченная пара", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Объединение множеств размеченное", "concept_b": "Форма записи инфиксная", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Объединение множеств размеченное", "concept_b": "Цикл", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Объединение множеств размеченное", "concept_b": "Ядро отношения", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Отношение $n$-арное", "concept_b": "Отношение $n$-местное", "has_relation": true}
+{"paragraph_id": "1.4", "concept_a": "Отношение $n$-арное", "concept_b": "Отношение антирефлексивное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Отношение $n$-арное", "concept_b": "Отношение антисимметричное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Отношение $n$-арное", "concept_b": "Отношение ациклическое", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Отношение $n$-арное", "concept_b": "Отношение бинарное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Отношение $n$-арное", "concept_b": "Отношение дополнительное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Отношение $n$-арное", "concept_b": "Отношение линейное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Отношение $n$-арное", "concept_b": "Отношение на множестве", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Отношение $n$-арное", "concept_b": "Отношение обратное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Отношение $n$-арное", "concept_b": "Отношение полное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Отношение $n$-арное", "concept_b": "Отношение рефлексивное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Отношение $n$-арное", "concept_b": "Отношение симметричное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Отношение $n$-арное", "concept_b": "Отношение тождественное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Отношение $n$-арное", "concept_b": "Отношение транзитивное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Отношение $n$-арное", "concept_b": "Отношение универсальное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Отношение $n$-арное", "concept_b": "Отношение частичное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Отношение $n$-арное", "concept_b": "Петля", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Отношение $n$-арное", "concept_b": "Последовательность конечная", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Отношение $n$-арное", "concept_b": "Произведение декартово", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Отношение $n$-арное", "concept_b": "Произведение прямое", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Отношение $n$-арное", "concept_b": "Прямая сумма множеств", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Отношение $n$-арное", "concept_b": "Равенство упорядоченных пар", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Отношение $n$-арное", "concept_b": "Степень множества", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Отношение $n$-арное", "concept_b": "Степень отношения", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Отношение $n$-арное", "concept_b": "Тег", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Отношение $n$-арное", "concept_b": "Треугольник", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Отношение $n$-арное", "concept_b": "Упорядоченная пара", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Отношение $n$-арное", "concept_b": "Форма записи инфиксная", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Отношение $n$-арное", "concept_b": "Цикл", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Отношение $n$-арное", "concept_b": "Ядро отношения", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Отношение $n$-местное", "concept_b": "Отношение антирефлексивное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Отношение $n$-местное", "concept_b": "Отношение антисимметричное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Отношение $n$-местное", "concept_b": "Отношение ациклическое", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Отношение $n$-местное", "concept_b": "Отношение бинарное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Отношение $n$-местное", "concept_b": "Отношение дополнительное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Отношение $n$-местное", "concept_b": "Отношение линейное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Отношение $n$-местное", "concept_b": "Отношение на множестве", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Отношение $n$-местное", "concept_b": "Отношение обратное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Отношение $n$-местное", "concept_b": "Отношение полное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Отношение $n$-местное", "concept_b": "Отношение рефлексивное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Отношение $n$-местное", "concept_b": "Отношение симметричное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Отношение $n$-местное", "concept_b": "Отношение тождественное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Отношение $n$-местное", "concept_b": "Отношение транзитивное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Отношение $n$-местное", "concept_b": "Отношение универсальное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Отношение $n$-местное", "concept_b": "Отношение частичное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Отношение $n$-местное", "concept_b": "Петля", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Отношение $n$-местное", "concept_b": "Последовательность конечная", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Отношение $n$-местное", "concept_b": "Произведение декартово", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Отношение $n$-местное", "concept_b": "Произведение прямое", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Отношение $n$-местное", "concept_b": "Прямая сумма множеств", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Отношение $n$-местное", "concept_b": "Равенство упорядоченных пар", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Отношение $n$-местное", "concept_b": "Степень множества", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Отношение $n$-местное", "concept_b": "Степень отношения", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Отношение $n$-местное", "concept_b": "Тег", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Отношение $n$-местное", "concept_b": "Треугольник", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Отношение $n$-местное", "concept_b": "Упорядоченная пара", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Отношение $n$-местное", "concept_b": "Форма записи инфиксная", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Отношение $n$-местное", "concept_b": "Цикл", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Отношение $n$-местное", "concept_b": "Ядро отношения", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Отношение антирефлексивное", "concept_b": "Отношение антисимметричное", "has_relation": true}
+{"paragraph_id": "1.4", "concept_a": "Отношение антирефлексивное", "concept_b": "Отношение ациклическое", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Отношение антирефлексивное", "concept_b": "Отношение бинарное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Отношение антирефлексивное", "concept_b": "Отношение дополнительное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Отношение антирефлексивное", "concept_b": "Отношение линейное", "has_relation": true}
+{"paragraph_id": "1.4", "concept_a": "Отношение антирефлексивное", "concept_b": "Отношение на множестве", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Отношение антирефлексивное", "concept_b": "Отношение обратное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Отношение антирефлексивное", "concept_b": "Отношение полное", "has_relation": true}
+{"paragraph_id": "1.4", "concept_a": "Отношение антирефлексивное", "concept_b": "Отношение рефлексивное", "has_relation": true}
+{"paragraph_id": "1.4", "concept_a": "Отношение антирефлексивное", "concept_b": "Отношение симметричное", "has_relation": true}
+{"paragraph_id": "1.4", "concept_a": "Отношение антирефлексивное", "concept_b": "Отношение тождественное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Отношение антирефлексивное", "concept_b": "Отношение транзитивное", "has_relation": true}
+{"paragraph_id": "1.4", "concept_a": "Отношение антирефлексивное", "concept_b": "Отношение универсальное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Отношение антирефлексивное", "concept_b": "Отношение частичное", "has_relation": true}
+{"paragraph_id": "1.4", "concept_a": "Отношение антирефлексивное", "concept_b": "Петля", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Отношение антирефлексивное", "concept_b": "Последовательность конечная", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Отношение антирефлексивное", "concept_b": "Произведение декартово", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Отношение антирефлексивное", "concept_b": "Произведение прямое", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Отношение антирефлексивное", "concept_b": "Прямая сумма множеств", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Отношение антирефлексивное", "concept_b": "Равенство упорядоченных пар", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Отношение антирефлексивное", "concept_b": "Степень множества", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Отношение антирефлексивное", "concept_b": "Степень отношения", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Отношение антирефлексивное", "concept_b": "Тег", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Отношение антирефлексивное", "concept_b": "Треугольник", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Отношение антирефлексивное", "concept_b": "Упорядоченная пара", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Отношение антирефлексивное", "concept_b": "Форма записи инфиксная", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Отношение антирефлексивное", "concept_b": "Цикл", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Отношение антирефлексивное", "concept_b": "Ядро отношения", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Отношение антисимметричное", "concept_b": "Отношение ациклическое", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Отношение антисимметричное", "concept_b": "Отношение бинарное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Отношение антисимметричное", "concept_b": "Отношение дополнительное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Отношение антисимметричное", "concept_b": "Отношение линейное", "has_relation": true}
+{"paragraph_id": "1.4", "concept_a": "Отношение антисимметричное", "concept_b": "Отношение на множестве", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Отношение антисимметричное", "concept_b": "Отношение обратное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Отношение антисимметричное", "concept_b": "Отношение полное", "has_relation": true}
+{"paragraph_id": "1.4", "concept_a": "Отношение антисимметричное", "concept_b": "Отношение рефлексивное", "has_relation": true}
+{"paragraph_id": "1.4", "concept_a": "Отношение антисимметричное", "concept_b": "Отношение симметричное", "has_relation": true}
+{"paragraph_id": "1.4", "concept_a": "Отношение антисимметричное", "concept_b": "Отношение тождественное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Отношение антисимметричное", "concept_b": "Отношение транзитивное", "has_relation": true}
+{"paragraph_id": "1.4", "concept_a": "Отношение антисимметричное", "concept_b": "Отношение универсальное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Отношение антисимметричное", "concept_b": "Отношение частичное", "has_relation": true}
+{"paragraph_id": "1.4", "concept_a": "Отношение антисимметричное", "concept_b": "Петля", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Отношение антисимметричное", "concept_b": "Последовательность конечная", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Отношение антисимметричное", "concept_b": "Произведение декартово", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Отношение антисимметричное", "concept_b": "Произведение прямое", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Отношение антисимметричное", "concept_b": "Прямая сумма множеств", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Отношение антисимметричное", "concept_b": "Равенство упорядоченных пар", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Отношение антисимметричное", "concept_b": "Степень множества", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Отношение антисимметричное", "concept_b": "Степень отношения", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Отношение антисимметричное", "concept_b": "Тег", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Отношение антисимметричное", "concept_b": "Треугольник", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Отношение антисимметричное", "concept_b": "Упорядоченная пара", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Отношение антисимметричное", "concept_b": "Форма записи инфиксная", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Отношение антисимметричное", "concept_b": "Цикл", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Отношение антисимметричное", "concept_b": "Ядро отношения", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Отношение ациклическое", "concept_b": "Отношение бинарное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Отношение ациклическое", "concept_b": "Отношение дополнительное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Отношение ациклическое", "concept_b": "Отношение линейное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Отношение ациклическое", "concept_b": "Отношение на множестве", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Отношение ациклическое", "concept_b": "Отношение обратное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Отношение ациклическое", "concept_b": "Отношение полное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Отношение ациклическое", "concept_b": "Отношение рефлексивное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Отношение ациклическое", "concept_b": "Отношение симметричное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Отношение ациклическое", "concept_b": "Отношение тождественное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Отношение ациклическое", "concept_b": "Отношение транзитивное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Отношение ациклическое", "concept_b": "Отношение универсальное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Отношение ациклическое", "concept_b": "Отношение частичное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Отношение ациклическое", "concept_b": "Петля", "has_relation": true}
+{"paragraph_id": "1.4", "concept_a": "Отношение ациклическое", "concept_b": "Последовательность конечная", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Отношение ациклическое", "concept_b": "Произведение декартово", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Отношение ациклическое", "concept_b": "Произведение прямое", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Отношение ациклическое", "concept_b": "Прямая сумма множеств", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Отношение ациклическое", "concept_b": "Равенство упорядоченных пар", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Отношение ациклическое", "concept_b": "Степень множества", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Отношение ациклическое", "concept_b": "Степень отношения", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Отношение ациклическое", "concept_b": "Тег", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Отношение ациклическое", "concept_b": "Треугольник", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Отношение ациклическое", "concept_b": "Упорядоченная пара", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Отношение ациклическое", "concept_b": "Форма записи инфиксная", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Отношение ациклическое", "concept_b": "Цикл", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Отношение ациклическое", "concept_b": "Ядро отношения", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Отношение бинарное", "concept_b": "Отношение дополнительное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Отношение бинарное", "concept_b": "Отношение линейное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Отношение бинарное", "concept_b": "Отношение на множестве", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Отношение бинарное", "concept_b": "Отношение обратное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Отношение бинарное", "concept_b": "Отношение полное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Отношение бинарное", "concept_b": "Отношение рефлексивное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Отношение бинарное", "concept_b": "Отношение симметричное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Отношение бинарное", "concept_b": "Отношение тождественное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Отношение бинарное", "concept_b": "Отношение транзитивное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Отношение бинарное", "concept_b": "Отношение универсальное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Отношение бинарное", "concept_b": "Отношение частичное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Отношение бинарное", "concept_b": "Петля", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Отношение бинарное", "concept_b": "Последовательность конечная", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Отношение бинарное", "concept_b": "Произведение декартово", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Отношение бинарное", "concept_b": "Произведение прямое", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Отношение бинарное", "concept_b": "Прямая сумма множеств", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Отношение бинарное", "concept_b": "Равенство упорядоченных пар", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Отношение бинарное", "concept_b": "Степень множества", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Отношение бинарное", "concept_b": "Степень отношения", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Отношение бинарное", "concept_b": "Тег", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Отношение бинарное", "concept_b": "Треугольник", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Отношение бинарное", "concept_b": "Упорядоченная пара", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Отношение бинарное", "concept_b": "Форма записи инфиксная", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Отношение бинарное", "concept_b": "Цикл", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Отношение бинарное", "concept_b": "Ядро отношения", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Отношение дополнительное", "concept_b": "Отношение линейное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Отношение дополнительное", "concept_b": "Отношение на множестве", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Отношение дополнительное", "concept_b": "Отношение обратное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Отношение дополнительное", "concept_b": "Отношение полное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Отношение дополнительное", "concept_b": "Отношение рефлексивное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Отношение дополнительное", "concept_b": "Отношение симметричное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Отношение дополнительное", "concept_b": "Отношение тождественное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Отношение дополнительное", "concept_b": "Отношение транзитивное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Отношение дополнительное", "concept_b": "Отношение универсальное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Отношение дополнительное", "concept_b": "Отношение частичное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Отношение дополнительное", "concept_b": "Петля", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Отношение дополнительное", "concept_b": "Последовательность конечная", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Отношение дополнительное", "concept_b": "Произведение декартово", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Отношение дополнительное", "concept_b": "Произведение прямое", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Отношение дополнительное", "concept_b": "Прямая сумма множеств", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Отношение дополнительное", "concept_b": "Равенство упорядоченных пар", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Отношение дополнительное", "concept_b": "Степень множества", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Отношение дополнительное", "concept_b": "Степень отношения", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Отношение дополнительное", "concept_b": "Тег", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Отношение дополнительное", "concept_b": "Треугольник", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Отношение дополнительное", "concept_b": "Упорядоченная пара", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Отношение дополнительное", "concept_b": "Форма записи инфиксная", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Отношение дополнительное", "concept_b": "Цикл", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Отношение дополнительное", "concept_b": "Ядро отношения", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Отношение линейное", "concept_b": "Отношение на множестве", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Отношение линейное", "concept_b": "Отношение обратное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Отношение линейное", "concept_b": "Отношение полное", "has_relation": true}
+{"paragraph_id": "1.4", "concept_a": "Отношение линейное", "concept_b": "Отношение рефлексивное", "has_relation": true}
+{"paragraph_id": "1.4", "concept_a": "Отношение линейное", "concept_b": "Отношение симметричное", "has_relation": true}
+{"paragraph_id": "1.4", "concept_a": "Отношение линейное", "concept_b": "Отношение тождественное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Отношение линейное", "concept_b": "Отношение транзитивное", "has_relation": true}
+{"paragraph_id": "1.4", "concept_a": "Отношение линейное", "concept_b": "Отношение универсальное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Отношение линейное", "concept_b": "Отношение частичное", "has_relation": true}
+{"paragraph_id": "1.4", "concept_a": "Отношение линейное", "concept_b": "Петля", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Отношение линейное", "concept_b": "Последовательность конечная", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Отношение линейное", "concept_b": "Произведение декартово", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Отношение линейное", "concept_b": "Произведение прямое", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Отношение линейное", "concept_b": "Прямая сумма множеств", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Отношение линейное", "concept_b": "Равенство упорядоченных пар", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Отношение линейное", "concept_b": "Степень множества", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Отношение линейное", "concept_b": "Степень отношения", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Отношение линейное", "concept_b": "Тег", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Отношение линейное", "concept_b": "Треугольник", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Отношение линейное", "concept_b": "Упорядоченная пара", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Отношение линейное", "concept_b": "Форма записи инфиксная", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Отношение линейное", "concept_b": "Цикл", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Отношение линейное", "concept_b": "Ядро отношения", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Отношение на множестве", "concept_b": "Отношение обратное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Отношение на множестве", "concept_b": "Отношение полное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Отношение на множестве", "concept_b": "Отношение рефлексивное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Отношение на множестве", "concept_b": "Отношение симметричное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Отношение на множестве", "concept_b": "Отношение тождественное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Отношение на множестве", "concept_b": "Отношение транзитивное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Отношение на множестве", "concept_b": "Отношение универсальное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Отношение на множестве", "concept_b": "Отношение частичное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Отношение на множестве", "concept_b": "Петля", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Отношение на множестве", "concept_b": "Последовательность конечная", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Отношение на множестве", "concept_b": "Произведение декартово", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Отношение на множестве", "concept_b": "Произведение прямое", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Отношение на множестве", "concept_b": "Прямая сумма множеств", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Отношение на множестве", "concept_b": "Равенство упорядоченных пар", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Отношение на множестве", "concept_b": "Степень множества", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Отношение на множестве", "concept_b": "Степень отношения", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Отношение на множестве", "concept_b": "Тег", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Отношение на множестве", "concept_b": "Треугольник", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Отношение на множестве", "concept_b": "Упорядоченная пара", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Отношение на множестве", "concept_b": "Форма записи инфиксная", "has_relation": true}
+{"paragraph_id": "1.4", "concept_a": "Отношение на множестве", "concept_b": "Цикл", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Отношение на множестве", "concept_b": "Ядро отношения", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Отношение обратное", "concept_b": "Отношение полное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Отношение обратное", "concept_b": "Отношение рефлексивное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Отношение обратное", "concept_b": "Отношение симметричное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Отношение обратное", "concept_b": "Отношение тождественное", "has_relation": true}
+{"paragraph_id": "1.4", "concept_a": "Отношение обратное", "concept_b": "Отношение транзитивное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Отношение обратное", "concept_b": "Отношение универсальное", "has_relation": true}
+{"paragraph_id": "1.4", "concept_a": "Отношение обратное", "concept_b": "Отношение частичное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Отношение обратное", "concept_b": "Петля", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Отношение обратное", "concept_b": "Последовательность конечная", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Отношение обратное", "concept_b": "Произведение декартово", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Отношение обратное", "concept_b": "Произведение прямое", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Отношение обратное", "concept_b": "Прямая сумма множеств", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Отношение обратное", "concept_b": "Равенство упорядоченных пар", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Отношение обратное", "concept_b": "Степень множества", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Отношение обратное", "concept_b": "Степень отношения", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Отношение обратное", "concept_b": "Тег", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Отношение обратное", "concept_b": "Треугольник", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Отношение обратное", "concept_b": "Упорядоченная пара", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Отношение обратное", "concept_b": "Форма записи инфиксная", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Отношение обратное", "concept_b": "Цикл", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Отношение обратное", "concept_b": "Ядро отношения", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Отношение полное", "concept_b": "Отношение рефлексивное", "has_relation": true}
+{"paragraph_id": "1.4", "concept_a": "Отношение полное", "concept_b": "Отношение симметричное", "has_relation": true}
+{"paragraph_id": "1.4", "concept_a": "Отношение полное", "concept_b": "Отношение тождественное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Отношение полное", "concept_b": "Отношение транзитивное", "has_relation": true}
+{"paragraph_id": "1.4", "concept_a": "Отношение полное", "concept_b": "Отношение универсальное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Отношение полное", "concept_b": "Отношение частичное", "has_relation": true}
+{"paragraph_id": "1.4", "concept_a": "Отношение полное", "concept_b": "Петля", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Отношение полное", "concept_b": "Последовательность конечная", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Отношение полное", "concept_b": "Произведение декартово", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Отношение полное", "concept_b": "Произведение прямое", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Отношение полное", "concept_b": "Прямая сумма множеств", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Отношение полное", "concept_b": "Равенство упорядоченных пар", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Отношение полное", "concept_b": "Степень множества", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Отношение полное", "concept_b": "Степень отношения", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Отношение полное", "concept_b": "Тег", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Отношение полное", "concept_b": "Треугольник", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Отношение полное", "concept_b": "Упорядоченная пара", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Отношение полное", "concept_b": "Форма записи инфиксная", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Отношение полное", "concept_b": "Цикл", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Отношение полное", "concept_b": "Ядро отношения", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Отношение рефлексивное", "concept_b": "Отношение симметричное", "has_relation": true}
+{"paragraph_id": "1.4", "concept_a": "Отношение рефлексивное", "concept_b": "Отношение тождественное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Отношение рефлексивное", "concept_b": "Отношение транзитивное", "has_relation": true}
+{"paragraph_id": "1.4", "concept_a": "Отношение рефлексивное", "concept_b": "Отношение универсальное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Отношение рефлексивное", "concept_b": "Отношение частичное", "has_relation": true}
+{"paragraph_id": "1.4", "concept_a": "Отношение рефлексивное", "concept_b": "Петля", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Отношение рефлексивное", "concept_b": "Последовательность конечная", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Отношение рефлексивное", "concept_b": "Произведение декартово", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Отношение рефлексивное", "concept_b": "Произведение прямое", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Отношение рефлексивное", "concept_b": "Прямая сумма множеств", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Отношение рефлексивное", "concept_b": "Равенство упорядоченных пар", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Отношение рефлексивное", "concept_b": "Степень множества", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Отношение рефлексивное", "concept_b": "Степень отношения", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Отношение рефлексивное", "concept_b": "Тег", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Отношение рефлексивное", "concept_b": "Треугольник", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Отношение рефлексивное", "concept_b": "Упорядоченная пара", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Отношение рефлексивное", "concept_b": "Форма записи инфиксная", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Отношение рефлексивное", "concept_b": "Цикл", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Отношение рефлексивное", "concept_b": "Ядро отношения", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Отношение симметричное", "concept_b": "Отношение тождественное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Отношение симметричное", "concept_b": "Отношение транзитивное", "has_relation": true}
+{"paragraph_id": "1.4", "concept_a": "Отношение симметричное", "concept_b": "Отношение универсальное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Отношение симметричное", "concept_b": "Отношение частичное", "has_relation": true}
+{"paragraph_id": "1.4", "concept_a": "Отношение симметричное", "concept_b": "Петля", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Отношение симметричное", "concept_b": "Последовательность конечная", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Отношение симметричное", "concept_b": "Произведение декартово", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Отношение симметричное", "concept_b": "Произведение прямое", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Отношение симметричное", "concept_b": "Прямая сумма множеств", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Отношение симметричное", "concept_b": "Равенство упорядоченных пар", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Отношение симметричное", "concept_b": "Степень множества", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Отношение симметричное", "concept_b": "Степень отношения", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Отношение симметричное", "concept_b": "Тег", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Отношение симметричное", "concept_b": "Треугольник", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Отношение симметричное", "concept_b": "Упорядоченная пара", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Отношение симметричное", "concept_b": "Форма записи инфиксная", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Отношение симметричное", "concept_b": "Цикл", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Отношение симметричное", "concept_b": "Ядро отношения", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Отношение тождественное", "concept_b": "Отношение транзитивное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Отношение тождественное", "concept_b": "Отношение универсальное", "has_relation": true}
+{"paragraph_id": "1.4", "concept_a": "Отношение тождественное", "concept_b": "Отношение частичное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Отношение тождественное", "concept_b": "Петля", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Отношение тождественное", "concept_b": "Последовательность конечная", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Отношение тождественное", "concept_b": "Произведение декартово", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Отношение тождественное", "concept_b": "Произведение прямое", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Отношение тождественное", "concept_b": "Прямая сумма множеств", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Отношение тождественное", "concept_b": "Равенство упорядоченных пар", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Отношение тождественное", "concept_b": "Степень множества", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Отношение тождественное", "concept_b": "Степень отношения", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Отношение тождественное", "concept_b": "Тег", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Отношение тождественное", "concept_b": "Треугольник", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Отношение тождественное", "concept_b": "Упорядоченная пара", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Отношение тождественное", "concept_b": "Форма записи инфиксная", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Отношение тождественное", "concept_b": "Цикл", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Отношение тождественное", "concept_b": "Ядро отношения", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Отношение транзитивное", "concept_b": "Отношение универсальное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Отношение транзитивное", "concept_b": "Отношение частичное", "has_relation": true}
+{"paragraph_id": "1.4", "concept_a": "Отношение транзитивное", "concept_b": "Петля", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Отношение транзитивное", "concept_b": "Последовательность конечная", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Отношение транзитивное", "concept_b": "Произведение декартово", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Отношение транзитивное", "concept_b": "Произведение прямое", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Отношение транзитивное", "concept_b": "Прямая сумма множеств", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Отношение транзитивное", "concept_b": "Равенство упорядоченных пар", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Отношение транзитивное", "concept_b": "Степень множества", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Отношение транзитивное", "concept_b": "Степень отношения", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Отношение транзитивное", "concept_b": "Тег", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Отношение транзитивное", "concept_b": "Треугольник", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Отношение транзитивное", "concept_b": "Упорядоченная пара", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Отношение транзитивное", "concept_b": "Форма записи инфиксная", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Отношение транзитивное", "concept_b": "Цикл", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Отношение транзитивное", "concept_b": "Ядро отношения", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Отношение универсальное", "concept_b": "Отношение частичное", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Отношение универсальное", "concept_b": "Петля", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Отношение универсальное", "concept_b": "Последовательность конечная", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Отношение универсальное", "concept_b": "Произведение декартово", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Отношение универсальное", "concept_b": "Произведение прямое", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Отношение универсальное", "concept_b": "Прямая сумма множеств", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Отношение универсальное", "concept_b": "Равенство упорядоченных пар", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Отношение универсальное", "concept_b": "Степень множества", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Отношение универсальное", "concept_b": "Степень отношения", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Отношение универсальное", "concept_b": "Тег", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Отношение универсальное", "concept_b": "Треугольник", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Отношение универсальное", "concept_b": "Упорядоченная пара", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Отношение универсальное", "concept_b": "Форма записи инфиксная", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Отношение универсальное", "concept_b": "Цикл", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Отношение универсальное", "concept_b": "Ядро отношения", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Отношение частичное", "concept_b": "Петля", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Отношение частичное", "concept_b": "Последовательность конечная", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Отношение частичное", "concept_b": "Произведение декартово", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Отношение частичное", "concept_b": "Произведение прямое", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Отношение частичное", "concept_b": "Прямая сумма множеств", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Отношение частичное", "concept_b": "Равенство упорядоченных пар", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Отношение частичное", "concept_b": "Степень множества", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Отношение частичное", "concept_b": "Степень отношения", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Отношение частичное", "concept_b": "Тег", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Отношение частичное", "concept_b": "Треугольник", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Отношение частичное", "concept_b": "Упорядоченная пара", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Отношение частичное", "concept_b": "Форма записи инфиксная", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Отношение частичное", "concept_b": "Цикл", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Отношение частичное", "concept_b": "Ядро отношения", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Петля", "concept_b": "Последовательность конечная", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Петля", "concept_b": "Произведение декартово", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Петля", "concept_b": "Произведение прямое", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Петля", "concept_b": "Прямая сумма множеств", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Петля", "concept_b": "Равенство упорядоченных пар", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Петля", "concept_b": "Степень множества", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Петля", "concept_b": "Степень отношения", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Петля", "concept_b": "Тег", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Петля", "concept_b": "Треугольник", "has_relation": true}
+{"paragraph_id": "1.4", "concept_a": "Петля", "concept_b": "Упорядоченная пара", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Петля", "concept_b": "Форма записи инфиксная", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Петля", "concept_b": "Цикл", "has_relation": true}
+{"paragraph_id": "1.4", "concept_a": "Петля", "concept_b": "Ядро отношения", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Последовательность конечная", "concept_b": "Произведение декартово", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Последовательность конечная", "concept_b": "Произведение прямое", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Последовательность конечная", "concept_b": "Прямая сумма множеств", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Последовательность конечная", "concept_b": "Равенство упорядоченных пар", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Последовательность конечная", "concept_b": "Степень множества", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Последовательность конечная", "concept_b": "Степень отношения", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Последовательность конечная", "concept_b": "Тег", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Последовательность конечная", "concept_b": "Треугольник", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Последовательность конечная", "concept_b": "Упорядоченная пара", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Последовательность конечная", "concept_b": "Форма записи инфиксная", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Последовательность конечная", "concept_b": "Цикл", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Последовательность конечная", "concept_b": "Ядро отношения", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Произведение декартово", "concept_b": "Произведение прямое", "has_relation": true}
+{"paragraph_id": "1.4", "concept_a": "Произведение декартово", "concept_b": "Прямая сумма множеств", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Произведение декартово", "concept_b": "Равенство упорядоченных пар", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Произведение декартово", "concept_b": "Степень множества", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Произведение декартово", "concept_b": "Степень отношения", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Произведение декартово", "concept_b": "Тег", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Произведение декартово", "concept_b": "Треугольник", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Произведение декартово", "concept_b": "Упорядоченная пара", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Произведение декартово", "concept_b": "Форма записи инфиксная", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Произведение декартово", "concept_b": "Цикл", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Произведение декартово", "concept_b": "Ядро отношения", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Произведение прямое", "concept_b": "Прямая сумма множеств", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Произведение прямое", "concept_b": "Равенство упорядоченных пар", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Произведение прямое", "concept_b": "Степень множества", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Произведение прямое", "concept_b": "Степень отношения", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Произведение прямое", "concept_b": "Тег", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Произведение прямое", "concept_b": "Треугольник", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Произведение прямое", "concept_b": "Упорядоченная пара", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Произведение прямое", "concept_b": "Форма записи инфиксная", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Произведение прямое", "concept_b": "Цикл", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Произведение прямое", "concept_b": "Ядро отношения", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Прямая сумма множеств", "concept_b": "Равенство упорядоченных пар", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Прямая сумма множеств", "concept_b": "Степень множества", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Прямая сумма множеств", "concept_b": "Степень отношения", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Прямая сумма множеств", "concept_b": "Тег", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Прямая сумма множеств", "concept_b": "Треугольник", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Прямая сумма множеств", "concept_b": "Упорядоченная пара", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Прямая сумма множеств", "concept_b": "Форма записи инфиксная", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Прямая сумма множеств", "concept_b": "Цикл", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Прямая сумма множеств", "concept_b": "Ядро отношения", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Равенство упорядоченных пар", "concept_b": "Степень множества", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Равенство упорядоченных пар", "concept_b": "Степень отношения", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Равенство упорядоченных пар", "concept_b": "Тег", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Равенство упорядоченных пар", "concept_b": "Треугольник", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Равенство упорядоченных пар", "concept_b": "Упорядоченная пара", "has_relation": true}
+{"paragraph_id": "1.4", "concept_a": "Равенство упорядоченных пар", "concept_b": "Форма записи инфиксная", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Равенство упорядоченных пар", "concept_b": "Цикл", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Равенство упорядоченных пар", "concept_b": "Ядро отношения", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Степень множества", "concept_b": "Степень отношения", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Степень множества", "concept_b": "Тег", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Степень множества", "concept_b": "Треугольник", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Степень множества", "concept_b": "Упорядоченная пара", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Степень множества", "concept_b": "Форма записи инфиксная", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Степень множества", "concept_b": "Цикл", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Степень множества", "concept_b": "Ядро отношения", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Степень отношения", "concept_b": "Тег", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Степень отношения", "concept_b": "Треугольник", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Степень отношения", "concept_b": "Упорядоченная пара", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Степень отношения", "concept_b": "Форма записи инфиксная", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Степень отношения", "concept_b": "Цикл", "has_relation": true}
+{"paragraph_id": "1.4", "concept_a": "Степень отношения", "concept_b": "Ядро отношения", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Тег", "concept_b": "Треугольник", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Тег", "concept_b": "Упорядоченная пара", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Тег", "concept_b": "Форма записи инфиксная", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Тег", "concept_b": "Цикл", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Тег", "concept_b": "Ядро отношения", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Треугольник", "concept_b": "Упорядоченная пара", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Треугольник", "concept_b": "Форма записи инфиксная", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Треугольник", "concept_b": "Цикл", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Треугольник", "concept_b": "Ядро отношения", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Упорядоченная пара", "concept_b": "Форма записи инфиксная", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Упорядоченная пара", "concept_b": "Цикл", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Упорядоченная пара", "concept_b": "Ядро отношения", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Форма записи инфиксная", "concept_b": "Цикл", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Форма записи инфиксная", "concept_b": "Ядро отношения", "has_relation": false}
+{"paragraph_id": "1.4", "concept_a": "Цикл", "concept_b": "Ядро отношения", "has_relation": false}

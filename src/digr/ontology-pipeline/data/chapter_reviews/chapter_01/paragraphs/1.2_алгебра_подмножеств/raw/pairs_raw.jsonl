@@ -1,0 +1,1176 @@
+{"paragraph_id": "1.2", "concept_a": "Алгебра", "concept_b": "Алгебра подмножеств", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Алгебра", "concept_b": "Арифметика", "has_relation": true}
+{"paragraph_id": "1.2", "concept_a": "Алгебра", "concept_b": "Ассоциативность пересечения", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Алгебра", "concept_b": "Блок разбиения", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Алгебра", "concept_b": "Булеан", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Алгебра", "concept_b": "Включение множеств", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Алгебра", "concept_b": "Вложение множества", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Алгебра", "concept_b": "Двойственность", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Алгебра", "concept_b": "Диаграмма Венна", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Алгебра", "concept_b": "Дополнение множества", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Алгебра", "concept_b": "Законы де Моргана", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Алгебра", "concept_b": "Идемпотентность пересечения", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Алгебра", "concept_b": "Инволютивность дополнения", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Алгебра", "concept_b": "Коммутативность пересечения", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Алгебра", "concept_b": "Множество бесконечное", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Алгебра", "concept_b": "Множество конечное", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Алгебра", "concept_b": "Множество несчётное", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Алгебра", "concept_b": "Мощность  строго больше", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Алгебра", "concept_b": "Мощность множества", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Алгебра", "concept_b": "Мощность множества конечного", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Алгебра", "concept_b": "Надмножество", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Алгебра", "concept_b": "Надмножество собственное", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Алгебра", "concept_b": "Носитель", "has_relation": true}
+{"paragraph_id": "1.2", "concept_a": "Алгебра", "concept_b": "Нумерация множества", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Алгебра", "concept_b": "Обобщённая континуум-гипотеза \\\\", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Алгебра", "concept_b": "Объединение множеств", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Алгебра", "concept_b": "Операция", "has_relation": true}
+{"paragraph_id": "1.2", "concept_a": "Алгебра", "concept_b": "Операция групповая", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Алгебра", "concept_b": "Операция сравнения", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Алгебра", "concept_b": "Отношение равномощности", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Алгебра", "concept_b": "Парадокс Кантора", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Алгебра", "concept_b": "Пересечение множеств", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Алгебра", "concept_b": "Поглощение", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Алгебра", "concept_b": "Подмножество", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Алгебра", "concept_b": "Подмножество собственное", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Алгебра", "concept_b": "Покрытие", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Алгебра", "concept_b": "Принцип Дирихле", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Алгебра", "concept_b": "Равенство множеств", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Алгебра", "concept_b": "Разбиение", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Алгебра", "concept_b": "Разность множеств", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Алгебра", "concept_b": "Разность симметрическая", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Алгебра", "concept_b": "Семейство дизъюнктное", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Алгебра", "concept_b": "Содержится", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Алгебра", "concept_b": "Стрелка Пирса", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Алгебра", "concept_b": "Трансфинитный", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Алгебра", "concept_b": "Число кардинальное", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Алгебра", "concept_b": "Число треугольное", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Алгебра", "concept_b": "Штрих Шеффера", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Алгебра подмножеств", "concept_b": "Арифметика", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Алгебра подмножеств", "concept_b": "Ассоциативность пересечения", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Алгебра подмножеств", "concept_b": "Блок разбиения", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Алгебра подмножеств", "concept_b": "Булеан", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Алгебра подмножеств", "concept_b": "Включение множеств", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Алгебра подмножеств", "concept_b": "Вложение множества", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Алгебра подмножеств", "concept_b": "Двойственность", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Алгебра подмножеств", "concept_b": "Диаграмма Венна", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Алгебра подмножеств", "concept_b": "Дополнение множества", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Алгебра подмножеств", "concept_b": "Законы де Моргана", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Алгебра подмножеств", "concept_b": "Идемпотентность пересечения", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Алгебра подмножеств", "concept_b": "Инволютивность дополнения", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Алгебра подмножеств", "concept_b": "Коммутативность пересечения", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Алгебра подмножеств", "concept_b": "Множество бесконечное", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Алгебра подмножеств", "concept_b": "Множество конечное", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Алгебра подмножеств", "concept_b": "Множество несчётное", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Алгебра подмножеств", "concept_b": "Мощность  строго больше", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Алгебра подмножеств", "concept_b": "Мощность множества", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Алгебра подмножеств", "concept_b": "Мощность множества конечного", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Алгебра подмножеств", "concept_b": "Надмножество", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Алгебра подмножеств", "concept_b": "Надмножество собственное", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Алгебра подмножеств", "concept_b": "Носитель", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Алгебра подмножеств", "concept_b": "Нумерация множества", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Алгебра подмножеств", "concept_b": "Обобщённая континуум-гипотеза \\\\", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Алгебра подмножеств", "concept_b": "Объединение множеств", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Алгебра подмножеств", "concept_b": "Операция", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Алгебра подмножеств", "concept_b": "Операция групповая", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Алгебра подмножеств", "concept_b": "Операция сравнения", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Алгебра подмножеств", "concept_b": "Отношение равномощности", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Алгебра подмножеств", "concept_b": "Парадокс Кантора", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Алгебра подмножеств", "concept_b": "Пересечение множеств", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Алгебра подмножеств", "concept_b": "Поглощение", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Алгебра подмножеств", "concept_b": "Подмножество", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Алгебра подмножеств", "concept_b": "Подмножество собственное", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Алгебра подмножеств", "concept_b": "Покрытие", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Алгебра подмножеств", "concept_b": "Принцип Дирихле", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Алгебра подмножеств", "concept_b": "Равенство множеств", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Алгебра подмножеств", "concept_b": "Разбиение", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Алгебра подмножеств", "concept_b": "Разность множеств", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Алгебра подмножеств", "concept_b": "Разность симметрическая", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Алгебра подмножеств", "concept_b": "Семейство дизъюнктное", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Алгебра подмножеств", "concept_b": "Содержится", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Алгебра подмножеств", "concept_b": "Стрелка Пирса", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Алгебра подмножеств", "concept_b": "Трансфинитный", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Алгебра подмножеств", "concept_b": "Число кардинальное", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Алгебра подмножеств", "concept_b": "Число треугольное", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Алгебра подмножеств", "concept_b": "Штрих Шеффера", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Арифметика", "concept_b": "Ассоциативность пересечения", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Арифметика", "concept_b": "Блок разбиения", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Арифметика", "concept_b": "Булеан", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Арифметика", "concept_b": "Включение множеств", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Арифметика", "concept_b": "Вложение множества", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Арифметика", "concept_b": "Двойственность", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Арифметика", "concept_b": "Диаграмма Венна", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Арифметика", "concept_b": "Дополнение множества", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Арифметика", "concept_b": "Законы де Моргана", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Арифметика", "concept_b": "Идемпотентность пересечения", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Арифметика", "concept_b": "Инволютивность дополнения", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Арифметика", "concept_b": "Коммутативность пересечения", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Арифметика", "concept_b": "Множество бесконечное", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Арифметика", "concept_b": "Множество конечное", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Арифметика", "concept_b": "Множество несчётное", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Арифметика", "concept_b": "Мощность  строго больше", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Арифметика", "concept_b": "Мощность множества", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Арифметика", "concept_b": "Мощность множества конечного", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Арифметика", "concept_b": "Надмножество", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Арифметика", "concept_b": "Надмножество собственное", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Арифметика", "concept_b": "Носитель", "has_relation": true}
+{"paragraph_id": "1.2", "concept_a": "Арифметика", "concept_b": "Нумерация множества", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Арифметика", "concept_b": "Обобщённая континуум-гипотеза \\\\", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Арифметика", "concept_b": "Объединение множеств", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Арифметика", "concept_b": "Операция", "has_relation": true}
+{"paragraph_id": "1.2", "concept_a": "Арифметика", "concept_b": "Операция групповая", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Арифметика", "concept_b": "Операция сравнения", "has_relation": true}
+{"paragraph_id": "1.2", "concept_a": "Арифметика", "concept_b": "Отношение равномощности", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Арифметика", "concept_b": "Парадокс Кантора", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Арифметика", "concept_b": "Пересечение множеств", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Арифметика", "concept_b": "Поглощение", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Арифметика", "concept_b": "Подмножество", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Арифметика", "concept_b": "Подмножество собственное", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Арифметика", "concept_b": "Покрытие", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Арифметика", "concept_b": "Принцип Дирихле", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Арифметика", "concept_b": "Равенство множеств", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Арифметика", "concept_b": "Разбиение", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Арифметика", "concept_b": "Разность множеств", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Арифметика", "concept_b": "Разность симметрическая", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Арифметика", "concept_b": "Семейство дизъюнктное", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Арифметика", "concept_b": "Содержится", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Арифметика", "concept_b": "Стрелка Пирса", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Арифметика", "concept_b": "Трансфинитный", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Арифметика", "concept_b": "Число кардинальное", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Арифметика", "concept_b": "Число треугольное", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Арифметика", "concept_b": "Штрих Шеффера", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Ассоциативность пересечения", "concept_b": "Блок разбиения", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Ассоциативность пересечения", "concept_b": "Булеан", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Ассоциативность пересечения", "concept_b": "Включение множеств", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Ассоциативность пересечения", "concept_b": "Вложение множества", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Ассоциативность пересечения", "concept_b": "Двойственность", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Ассоциативность пересечения", "concept_b": "Диаграмма Венна", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Ассоциативность пересечения", "concept_b": "Дополнение множества", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Ассоциативность пересечения", "concept_b": "Законы де Моргана", "has_relation": true}
+{"paragraph_id": "1.2", "concept_a": "Ассоциативность пересечения", "concept_b": "Идемпотентность пересечения", "has_relation": true}
+{"paragraph_id": "1.2", "concept_a": "Ассоциативность пересечения", "concept_b": "Инволютивность дополнения", "has_relation": true}
+{"paragraph_id": "1.2", "concept_a": "Ассоциативность пересечения", "concept_b": "Коммутативность пересечения", "has_relation": true}
+{"paragraph_id": "1.2", "concept_a": "Ассоциативность пересечения", "concept_b": "Множество бесконечное", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Ассоциативность пересечения", "concept_b": "Множество конечное", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Ассоциативность пересечения", "concept_b": "Множество несчётное", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Ассоциативность пересечения", "concept_b": "Мощность  строго больше", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Ассоциативность пересечения", "concept_b": "Мощность множества", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Ассоциативность пересечения", "concept_b": "Мощность множества конечного", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Ассоциативность пересечения", "concept_b": "Надмножество", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Ассоциативность пересечения", "concept_b": "Надмножество собственное", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Ассоциативность пересечения", "concept_b": "Носитель", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Ассоциативность пересечения", "concept_b": "Нумерация множества", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Ассоциативность пересечения", "concept_b": "Обобщённая континуум-гипотеза \\\\", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Ассоциативность пересечения", "concept_b": "Объединение множеств", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Ассоциативность пересечения", "concept_b": "Операция", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Ассоциативность пересечения", "concept_b": "Операция групповая", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Ассоциативность пересечения", "concept_b": "Операция сравнения", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Ассоциативность пересечения", "concept_b": "Отношение равномощности", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Ассоциативность пересечения", "concept_b": "Парадокс Кантора", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Ассоциативность пересечения", "concept_b": "Пересечение множеств", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Ассоциативность пересечения", "concept_b": "Поглощение", "has_relation": true}
+{"paragraph_id": "1.2", "concept_a": "Ассоциативность пересечения", "concept_b": "Подмножество", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Ассоциативность пересечения", "concept_b": "Подмножество собственное", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Ассоциативность пересечения", "concept_b": "Покрытие", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Ассоциативность пересечения", "concept_b": "Принцип Дирихле", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Ассоциативность пересечения", "concept_b": "Равенство множеств", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Ассоциативность пересечения", "concept_b": "Разбиение", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Ассоциативность пересечения", "concept_b": "Разность множеств", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Ассоциативность пересечения", "concept_b": "Разность симметрическая", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Ассоциативность пересечения", "concept_b": "Семейство дизъюнктное", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Ассоциативность пересечения", "concept_b": "Содержится", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Ассоциативность пересечения", "concept_b": "Стрелка Пирса", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Ассоциативность пересечения", "concept_b": "Трансфинитный", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Ассоциативность пересечения", "concept_b": "Число кардинальное", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Ассоциативность пересечения", "concept_b": "Число треугольное", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Ассоциативность пересечения", "concept_b": "Штрих Шеффера", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Блок разбиения", "concept_b": "Булеан", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Блок разбиения", "concept_b": "Включение множеств", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Блок разбиения", "concept_b": "Вложение множества", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Блок разбиения", "concept_b": "Двойственность", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Блок разбиения", "concept_b": "Диаграмма Венна", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Блок разбиения", "concept_b": "Дополнение множества", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Блок разбиения", "concept_b": "Законы де Моргана", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Блок разбиения", "concept_b": "Идемпотентность пересечения", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Блок разбиения", "concept_b": "Инволютивность дополнения", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Блок разбиения", "concept_b": "Коммутативность пересечения", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Блок разбиения", "concept_b": "Множество бесконечное", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Блок разбиения", "concept_b": "Множество конечное", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Блок разбиения", "concept_b": "Множество несчётное", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Блок разбиения", "concept_b": "Мощность  строго больше", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Блок разбиения", "concept_b": "Мощность множества", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Блок разбиения", "concept_b": "Мощность множества конечного", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Блок разбиения", "concept_b": "Надмножество", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Блок разбиения", "concept_b": "Надмножество собственное", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Блок разбиения", "concept_b": "Носитель", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Блок разбиения", "concept_b": "Нумерация множества", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Блок разбиения", "concept_b": "Обобщённая континуум-гипотеза \\\\", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Блок разбиения", "concept_b": "Объединение множеств", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Блок разбиения", "concept_b": "Операция", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Блок разбиения", "concept_b": "Операция групповая", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Блок разбиения", "concept_b": "Операция сравнения", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Блок разбиения", "concept_b": "Отношение равномощности", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Блок разбиения", "concept_b": "Парадокс Кантора", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Блок разбиения", "concept_b": "Пересечение множеств", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Блок разбиения", "concept_b": "Поглощение", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Блок разбиения", "concept_b": "Подмножество", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Блок разбиения", "concept_b": "Подмножество собственное", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Блок разбиения", "concept_b": "Покрытие", "has_relation": true}
+{"paragraph_id": "1.2", "concept_a": "Блок разбиения", "concept_b": "Принцип Дирихле", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Блок разбиения", "concept_b": "Равенство множеств", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Блок разбиения", "concept_b": "Разбиение", "has_relation": true}
+{"paragraph_id": "1.2", "concept_a": "Блок разбиения", "concept_b": "Разность множеств", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Блок разбиения", "concept_b": "Разность симметрическая", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Блок разбиения", "concept_b": "Семейство дизъюнктное", "has_relation": true}
+{"paragraph_id": "1.2", "concept_a": "Блок разбиения", "concept_b": "Содержится", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Блок разбиения", "concept_b": "Стрелка Пирса", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Блок разбиения", "concept_b": "Трансфинитный", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Блок разбиения", "concept_b": "Число кардинальное", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Блок разбиения", "concept_b": "Число треугольное", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Блок разбиения", "concept_b": "Штрих Шеффера", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Булеан", "concept_b": "Включение множеств", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Булеан", "concept_b": "Вложение множества", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Булеан", "concept_b": "Двойственность", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Булеан", "concept_b": "Диаграмма Венна", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Булеан", "concept_b": "Дополнение множества", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Булеан", "concept_b": "Законы де Моргана", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Булеан", "concept_b": "Идемпотентность пересечения", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Булеан", "concept_b": "Инволютивность дополнения", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Булеан", "concept_b": "Коммутативность пересечения", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Булеан", "concept_b": "Множество бесконечное", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Булеан", "concept_b": "Множество конечное", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Булеан", "concept_b": "Множество несчётное", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Булеан", "concept_b": "Мощность  строго больше", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Булеан", "concept_b": "Мощность множества", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Булеан", "concept_b": "Мощность множества конечного", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Булеан", "concept_b": "Надмножество", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Булеан", "concept_b": "Надмножество собственное", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Булеан", "concept_b": "Носитель", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Булеан", "concept_b": "Нумерация множества", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Булеан", "concept_b": "Обобщённая континуум-гипотеза \\\\", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Булеан", "concept_b": "Объединение множеств", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Булеан", "concept_b": "Операция", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Булеан", "concept_b": "Операция групповая", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Булеан", "concept_b": "Операция сравнения", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Булеан", "concept_b": "Отношение равномощности", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Булеан", "concept_b": "Парадокс Кантора", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Булеан", "concept_b": "Пересечение множеств", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Булеан", "concept_b": "Поглощение", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Булеан", "concept_b": "Подмножество", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Булеан", "concept_b": "Подмножество собственное", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Булеан", "concept_b": "Покрытие", "has_relation": true}
+{"paragraph_id": "1.2", "concept_a": "Булеан", "concept_b": "Принцип Дирихле", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Булеан", "concept_b": "Равенство множеств", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Булеан", "concept_b": "Разбиение", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Булеан", "concept_b": "Разность множеств", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Булеан", "concept_b": "Разность симметрическая", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Булеан", "concept_b": "Семейство дизъюнктное", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Булеан", "concept_b": "Содержится", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Булеан", "concept_b": "Стрелка Пирса", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Булеан", "concept_b": "Трансфинитный", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Булеан", "concept_b": "Число кардинальное", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Булеан", "concept_b": "Число треугольное", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Булеан", "concept_b": "Штрих Шеффера", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Включение множеств", "concept_b": "Вложение множества", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Включение множеств", "concept_b": "Двойственность", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Включение множеств", "concept_b": "Диаграмма Венна", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Включение множеств", "concept_b": "Дополнение множества", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Включение множеств", "concept_b": "Законы де Моргана", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Включение множеств", "concept_b": "Идемпотентность пересечения", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Включение множеств", "concept_b": "Инволютивность дополнения", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Включение множеств", "concept_b": "Коммутативность пересечения", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Включение множеств", "concept_b": "Множество бесконечное", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Включение множеств", "concept_b": "Множество конечное", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Включение множеств", "concept_b": "Множество несчётное", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Включение множеств", "concept_b": "Мощность  строго больше", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Включение множеств", "concept_b": "Мощность множества", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Включение множеств", "concept_b": "Мощность множества конечного", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Включение множеств", "concept_b": "Надмножество", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Включение множеств", "concept_b": "Надмножество собственное", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Включение множеств", "concept_b": "Носитель", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Включение множеств", "concept_b": "Нумерация множества", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Включение множеств", "concept_b": "Обобщённая континуум-гипотеза \\\\", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Включение множеств", "concept_b": "Объединение множеств", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Включение множеств", "concept_b": "Операция", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Включение множеств", "concept_b": "Операция групповая", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Включение множеств", "concept_b": "Операция сравнения", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Включение множеств", "concept_b": "Отношение равномощности", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Включение множеств", "concept_b": "Парадокс Кантора", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Включение множеств", "concept_b": "Пересечение множеств", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Включение множеств", "concept_b": "Поглощение", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Включение множеств", "concept_b": "Подмножество", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Включение множеств", "concept_b": "Подмножество собственное", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Включение множеств", "concept_b": "Покрытие", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Включение множеств", "concept_b": "Принцип Дирихле", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Включение множеств", "concept_b": "Равенство множеств", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Включение множеств", "concept_b": "Разбиение", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Включение множеств", "concept_b": "Разность множеств", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Включение множеств", "concept_b": "Разность симметрическая", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Включение множеств", "concept_b": "Семейство дизъюнктное", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Включение множеств", "concept_b": "Содержится", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Включение множеств", "concept_b": "Стрелка Пирса", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Включение множеств", "concept_b": "Трансфинитный", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Включение множеств", "concept_b": "Число кардинальное", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Включение множеств", "concept_b": "Число треугольное", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Включение множеств", "concept_b": "Штрих Шеффера", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Вложение множества", "concept_b": "Двойственность", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Вложение множества", "concept_b": "Диаграмма Венна", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Вложение множества", "concept_b": "Дополнение множества", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Вложение множества", "concept_b": "Законы де Моргана", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Вложение множества", "concept_b": "Идемпотентность пересечения", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Вложение множества", "concept_b": "Инволютивность дополнения", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Вложение множества", "concept_b": "Коммутативность пересечения", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Вложение множества", "concept_b": "Множество бесконечное", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Вложение множества", "concept_b": "Множество конечное", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Вложение множества", "concept_b": "Множество несчётное", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Вложение множества", "concept_b": "Мощность  строго больше", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Вложение множества", "concept_b": "Мощность множества", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Вложение множества", "concept_b": "Мощность множества конечного", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Вложение множества", "concept_b": "Надмножество", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Вложение множества", "concept_b": "Надмножество собственное", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Вложение множества", "concept_b": "Носитель", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Вложение множества", "concept_b": "Нумерация множества", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Вложение множества", "concept_b": "Обобщённая континуум-гипотеза \\\\", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Вложение множества", "concept_b": "Объединение множеств", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Вложение множества", "concept_b": "Операция", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Вложение множества", "concept_b": "Операция групповая", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Вложение множества", "concept_b": "Операция сравнения", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Вложение множества", "concept_b": "Отношение равномощности", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Вложение множества", "concept_b": "Парадокс Кантора", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Вложение множества", "concept_b": "Пересечение множеств", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Вложение множества", "concept_b": "Поглощение", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Вложение множества", "concept_b": "Подмножество", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Вложение множества", "concept_b": "Подмножество собственное", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Вложение множества", "concept_b": "Покрытие", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Вложение множества", "concept_b": "Принцип Дирихле", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Вложение множества", "concept_b": "Равенство множеств", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Вложение множества", "concept_b": "Разбиение", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Вложение множества", "concept_b": "Разность множеств", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Вложение множества", "concept_b": "Разность симметрическая", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Вложение множества", "concept_b": "Семейство дизъюнктное", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Вложение множества", "concept_b": "Содержится", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Вложение множества", "concept_b": "Стрелка Пирса", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Вложение множества", "concept_b": "Трансфинитный", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Вложение множества", "concept_b": "Число кардинальное", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Вложение множества", "concept_b": "Число треугольное", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Вложение множества", "concept_b": "Штрих Шеффера", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Двойственность", "concept_b": "Диаграмма Венна", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Двойственность", "concept_b": "Дополнение множества", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Двойственность", "concept_b": "Законы де Моргана", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Двойственность", "concept_b": "Идемпотентность пересечения", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Двойственность", "concept_b": "Инволютивность дополнения", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Двойственность", "concept_b": "Коммутативность пересечения", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Двойственность", "concept_b": "Множество бесконечное", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Двойственность", "concept_b": "Множество конечное", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Двойственность", "concept_b": "Множество несчётное", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Двойственность", "concept_b": "Мощность  строго больше", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Двойственность", "concept_b": "Мощность множества", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Двойственность", "concept_b": "Мощность множества конечного", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Двойственность", "concept_b": "Надмножество", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Двойственность", "concept_b": "Надмножество собственное", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Двойственность", "concept_b": "Носитель", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Двойственность", "concept_b": "Нумерация множества", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Двойственность", "concept_b": "Обобщённая континуум-гипотеза \\\\", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Двойственность", "concept_b": "Объединение множеств", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Двойственность", "concept_b": "Операция", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Двойственность", "concept_b": "Операция групповая", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Двойственность", "concept_b": "Операция сравнения", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Двойственность", "concept_b": "Отношение равномощности", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Двойственность", "concept_b": "Парадокс Кантора", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Двойственность", "concept_b": "Пересечение множеств", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Двойственность", "concept_b": "Поглощение", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Двойственность", "concept_b": "Подмножество", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Двойственность", "concept_b": "Подмножество собственное", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Двойственность", "concept_b": "Покрытие", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Двойственность", "concept_b": "Принцип Дирихле", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Двойственность", "concept_b": "Равенство множеств", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Двойственность", "concept_b": "Разбиение", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Двойственность", "concept_b": "Разность множеств", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Двойственность", "concept_b": "Разность симметрическая", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Двойственность", "concept_b": "Семейство дизъюнктное", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Двойственность", "concept_b": "Содержится", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Двойственность", "concept_b": "Стрелка Пирса", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Двойственность", "concept_b": "Трансфинитный", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Двойственность", "concept_b": "Число кардинальное", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Двойственность", "concept_b": "Число треугольное", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Двойственность", "concept_b": "Штрих Шеффера", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Диаграмма Венна", "concept_b": "Дополнение множества", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Диаграмма Венна", "concept_b": "Законы де Моргана", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Диаграмма Венна", "concept_b": "Идемпотентность пересечения", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Диаграмма Венна", "concept_b": "Инволютивность дополнения", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Диаграмма Венна", "concept_b": "Коммутативность пересечения", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Диаграмма Венна", "concept_b": "Множество бесконечное", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Диаграмма Венна", "concept_b": "Множество конечное", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Диаграмма Венна", "concept_b": "Множество несчётное", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Диаграмма Венна", "concept_b": "Мощность  строго больше", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Диаграмма Венна", "concept_b": "Мощность множества", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Диаграмма Венна", "concept_b": "Мощность множества конечного", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Диаграмма Венна", "concept_b": "Надмножество", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Диаграмма Венна", "concept_b": "Надмножество собственное", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Диаграмма Венна", "concept_b": "Носитель", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Диаграмма Венна", "concept_b": "Нумерация множества", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Диаграмма Венна", "concept_b": "Обобщённая континуум-гипотеза \\\\", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Диаграмма Венна", "concept_b": "Объединение множеств", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Диаграмма Венна", "concept_b": "Операция", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Диаграмма Венна", "concept_b": "Операция групповая", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Диаграмма Венна", "concept_b": "Операция сравнения", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Диаграмма Венна", "concept_b": "Отношение равномощности", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Диаграмма Венна", "concept_b": "Парадокс Кантора", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Диаграмма Венна", "concept_b": "Пересечение множеств", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Диаграмма Венна", "concept_b": "Поглощение", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Диаграмма Венна", "concept_b": "Подмножество", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Диаграмма Венна", "concept_b": "Подмножество собственное", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Диаграмма Венна", "concept_b": "Покрытие", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Диаграмма Венна", "concept_b": "Принцип Дирихле", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Диаграмма Венна", "concept_b": "Равенство множеств", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Диаграмма Венна", "concept_b": "Разбиение", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Диаграмма Венна", "concept_b": "Разность множеств", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Диаграмма Венна", "concept_b": "Разность симметрическая", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Диаграмма Венна", "concept_b": "Семейство дизъюнктное", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Диаграмма Венна", "concept_b": "Содержится", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Диаграмма Венна", "concept_b": "Стрелка Пирса", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Диаграмма Венна", "concept_b": "Трансфинитный", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Диаграмма Венна", "concept_b": "Число кардинальное", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Диаграмма Венна", "concept_b": "Число треугольное", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Диаграмма Венна", "concept_b": "Штрих Шеффера", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Дополнение множества", "concept_b": "Законы де Моргана", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Дополнение множества", "concept_b": "Идемпотентность пересечения", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Дополнение множества", "concept_b": "Инволютивность дополнения", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Дополнение множества", "concept_b": "Коммутативность пересечения", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Дополнение множества", "concept_b": "Множество бесконечное", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Дополнение множества", "concept_b": "Множество конечное", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Дополнение множества", "concept_b": "Множество несчётное", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Дополнение множества", "concept_b": "Мощность  строго больше", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Дополнение множества", "concept_b": "Мощность множества", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Дополнение множества", "concept_b": "Мощность множества конечного", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Дополнение множества", "concept_b": "Надмножество", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Дополнение множества", "concept_b": "Надмножество собственное", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Дополнение множества", "concept_b": "Носитель", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Дополнение множества", "concept_b": "Нумерация множества", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Дополнение множества", "concept_b": "Обобщённая континуум-гипотеза \\\\", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Дополнение множества", "concept_b": "Объединение множеств", "has_relation": true}
+{"paragraph_id": "1.2", "concept_a": "Дополнение множества", "concept_b": "Операция", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Дополнение множества", "concept_b": "Операция групповая", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Дополнение множества", "concept_b": "Операция сравнения", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Дополнение множества", "concept_b": "Отношение равномощности", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Дополнение множества", "concept_b": "Парадокс Кантора", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Дополнение множества", "concept_b": "Пересечение множеств", "has_relation": true}
+{"paragraph_id": "1.2", "concept_a": "Дополнение множества", "concept_b": "Поглощение", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Дополнение множества", "concept_b": "Подмножество", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Дополнение множества", "concept_b": "Подмножество собственное", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Дополнение множества", "concept_b": "Покрытие", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Дополнение множества", "concept_b": "Принцип Дирихле", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Дополнение множества", "concept_b": "Равенство множеств", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Дополнение множества", "concept_b": "Разбиение", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Дополнение множества", "concept_b": "Разность множеств", "has_relation": true}
+{"paragraph_id": "1.2", "concept_a": "Дополнение множества", "concept_b": "Разность симметрическая", "has_relation": true}
+{"paragraph_id": "1.2", "concept_a": "Дополнение множества", "concept_b": "Семейство дизъюнктное", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Дополнение множества", "concept_b": "Содержится", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Дополнение множества", "concept_b": "Стрелка Пирса", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Дополнение множества", "concept_b": "Трансфинитный", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Дополнение множества", "concept_b": "Число кардинальное", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Дополнение множества", "concept_b": "Число треугольное", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Дополнение множества", "concept_b": "Штрих Шеффера", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Законы де Моргана", "concept_b": "Идемпотентность пересечения", "has_relation": true}
+{"paragraph_id": "1.2", "concept_a": "Законы де Моргана", "concept_b": "Инволютивность дополнения", "has_relation": true}
+{"paragraph_id": "1.2", "concept_a": "Законы де Моргана", "concept_b": "Коммутативность пересечения", "has_relation": true}
+{"paragraph_id": "1.2", "concept_a": "Законы де Моргана", "concept_b": "Множество бесконечное", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Законы де Моргана", "concept_b": "Множество конечное", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Законы де Моргана", "concept_b": "Множество несчётное", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Законы де Моргана", "concept_b": "Мощность  строго больше", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Законы де Моргана", "concept_b": "Мощность множества", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Законы де Моргана", "concept_b": "Мощность множества конечного", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Законы де Моргана", "concept_b": "Надмножество", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Законы де Моргана", "concept_b": "Надмножество собственное", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Законы де Моргана", "concept_b": "Носитель", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Законы де Моргана", "concept_b": "Нумерация множества", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Законы де Моргана", "concept_b": "Обобщённая континуум-гипотеза \\\\", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Законы де Моргана", "concept_b": "Объединение множеств", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Законы де Моргана", "concept_b": "Операция", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Законы де Моргана", "concept_b": "Операция групповая", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Законы де Моргана", "concept_b": "Операция сравнения", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Законы де Моргана", "concept_b": "Отношение равномощности", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Законы де Моргана", "concept_b": "Парадокс Кантора", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Законы де Моргана", "concept_b": "Пересечение множеств", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Законы де Моргана", "concept_b": "Поглощение", "has_relation": true}
+{"paragraph_id": "1.2", "concept_a": "Законы де Моргана", "concept_b": "Подмножество", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Законы де Моргана", "concept_b": "Подмножество собственное", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Законы де Моргана", "concept_b": "Покрытие", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Законы де Моргана", "concept_b": "Принцип Дирихле", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Законы де Моргана", "concept_b": "Равенство множеств", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Законы де Моргана", "concept_b": "Разбиение", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Законы де Моргана", "concept_b": "Разность множеств", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Законы де Моргана", "concept_b": "Разность симметрическая", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Законы де Моргана", "concept_b": "Семейство дизъюнктное", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Законы де Моргана", "concept_b": "Содержится", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Законы де Моргана", "concept_b": "Стрелка Пирса", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Законы де Моргана", "concept_b": "Трансфинитный", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Законы де Моргана", "concept_b": "Число кардинальное", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Законы де Моргана", "concept_b": "Число треугольное", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Законы де Моргана", "concept_b": "Штрих Шеффера", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Идемпотентность пересечения", "concept_b": "Инволютивность дополнения", "has_relation": true}
+{"paragraph_id": "1.2", "concept_a": "Идемпотентность пересечения", "concept_b": "Коммутативность пересечения", "has_relation": true}
+{"paragraph_id": "1.2", "concept_a": "Идемпотентность пересечения", "concept_b": "Множество бесконечное", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Идемпотентность пересечения", "concept_b": "Множество конечное", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Идемпотентность пересечения", "concept_b": "Множество несчётное", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Идемпотентность пересечения", "concept_b": "Мощность  строго больше", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Идемпотентность пересечения", "concept_b": "Мощность множества", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Идемпотентность пересечения", "concept_b": "Мощность множества конечного", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Идемпотентность пересечения", "concept_b": "Надмножество", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Идемпотентность пересечения", "concept_b": "Надмножество собственное", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Идемпотентность пересечения", "concept_b": "Носитель", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Идемпотентность пересечения", "concept_b": "Нумерация множества", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Идемпотентность пересечения", "concept_b": "Обобщённая континуум-гипотеза \\\\", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Идемпотентность пересечения", "concept_b": "Объединение множеств", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Идемпотентность пересечения", "concept_b": "Операция", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Идемпотентность пересечения", "concept_b": "Операция групповая", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Идемпотентность пересечения", "concept_b": "Операция сравнения", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Идемпотентность пересечения", "concept_b": "Отношение равномощности", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Идемпотентность пересечения", "concept_b": "Парадокс Кантора", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Идемпотентность пересечения", "concept_b": "Пересечение множеств", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Идемпотентность пересечения", "concept_b": "Поглощение", "has_relation": true}
+{"paragraph_id": "1.2", "concept_a": "Идемпотентность пересечения", "concept_b": "Подмножество", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Идемпотентность пересечения", "concept_b": "Подмножество собственное", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Идемпотентность пересечения", "concept_b": "Покрытие", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Идемпотентность пересечения", "concept_b": "Принцип Дирихле", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Идемпотентность пересечения", "concept_b": "Равенство множеств", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Идемпотентность пересечения", "concept_b": "Разбиение", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Идемпотентность пересечения", "concept_b": "Разность множеств", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Идемпотентность пересечения", "concept_b": "Разность симметрическая", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Идемпотентность пересечения", "concept_b": "Семейство дизъюнктное", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Идемпотентность пересечения", "concept_b": "Содержится", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Идемпотентность пересечения", "concept_b": "Стрелка Пирса", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Идемпотентность пересечения", "concept_b": "Трансфинитный", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Идемпотентность пересечения", "concept_b": "Число кардинальное", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Идемпотентность пересечения", "concept_b": "Число треугольное", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Идемпотентность пересечения", "concept_b": "Штрих Шеффера", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Инволютивность дополнения", "concept_b": "Коммутативность пересечения", "has_relation": true}
+{"paragraph_id": "1.2", "concept_a": "Инволютивность дополнения", "concept_b": "Множество бесконечное", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Инволютивность дополнения", "concept_b": "Множество конечное", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Инволютивность дополнения", "concept_b": "Множество несчётное", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Инволютивность дополнения", "concept_b": "Мощность  строго больше", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Инволютивность дополнения", "concept_b": "Мощность множества", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Инволютивность дополнения", "concept_b": "Мощность множества конечного", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Инволютивность дополнения", "concept_b": "Надмножество", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Инволютивность дополнения", "concept_b": "Надмножество собственное", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Инволютивность дополнения", "concept_b": "Носитель", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Инволютивность дополнения", "concept_b": "Нумерация множества", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Инволютивность дополнения", "concept_b": "Обобщённая континуум-гипотеза \\\\", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Инволютивность дополнения", "concept_b": "Объединение множеств", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Инволютивность дополнения", "concept_b": "Операция", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Инволютивность дополнения", "concept_b": "Операция групповая", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Инволютивность дополнения", "concept_b": "Операция сравнения", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Инволютивность дополнения", "concept_b": "Отношение равномощности", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Инволютивность дополнения", "concept_b": "Парадокс Кантора", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Инволютивность дополнения", "concept_b": "Пересечение множеств", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Инволютивность дополнения", "concept_b": "Поглощение", "has_relation": true}
+{"paragraph_id": "1.2", "concept_a": "Инволютивность дополнения", "concept_b": "Подмножество", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Инволютивность дополнения", "concept_b": "Подмножество собственное", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Инволютивность дополнения", "concept_b": "Покрытие", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Инволютивность дополнения", "concept_b": "Принцип Дирихле", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Инволютивность дополнения", "concept_b": "Равенство множеств", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Инволютивность дополнения", "concept_b": "Разбиение", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Инволютивность дополнения", "concept_b": "Разность множеств", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Инволютивность дополнения", "concept_b": "Разность симметрическая", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Инволютивность дополнения", "concept_b": "Семейство дизъюнктное", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Инволютивность дополнения", "concept_b": "Содержится", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Инволютивность дополнения", "concept_b": "Стрелка Пирса", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Инволютивность дополнения", "concept_b": "Трансфинитный", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Инволютивность дополнения", "concept_b": "Число кардинальное", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Инволютивность дополнения", "concept_b": "Число треугольное", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Инволютивность дополнения", "concept_b": "Штрих Шеффера", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Коммутативность пересечения", "concept_b": "Множество бесконечное", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Коммутативность пересечения", "concept_b": "Множество конечное", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Коммутативность пересечения", "concept_b": "Множество несчётное", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Коммутативность пересечения", "concept_b": "Мощность  строго больше", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Коммутативность пересечения", "concept_b": "Мощность множества", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Коммутативность пересечения", "concept_b": "Мощность множества конечного", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Коммутативность пересечения", "concept_b": "Надмножество", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Коммутативность пересечения", "concept_b": "Надмножество собственное", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Коммутативность пересечения", "concept_b": "Носитель", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Коммутативность пересечения", "concept_b": "Нумерация множества", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Коммутативность пересечения", "concept_b": "Обобщённая континуум-гипотеза \\\\", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Коммутативность пересечения", "concept_b": "Объединение множеств", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Коммутативность пересечения", "concept_b": "Операция", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Коммутативность пересечения", "concept_b": "Операция групповая", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Коммутативность пересечения", "concept_b": "Операция сравнения", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Коммутативность пересечения", "concept_b": "Отношение равномощности", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Коммутативность пересечения", "concept_b": "Парадокс Кантора", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Коммутативность пересечения", "concept_b": "Пересечение множеств", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Коммутативность пересечения", "concept_b": "Поглощение", "has_relation": true}
+{"paragraph_id": "1.2", "concept_a": "Коммутативность пересечения", "concept_b": "Подмножество", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Коммутативность пересечения", "concept_b": "Подмножество собственное", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Коммутативность пересечения", "concept_b": "Покрытие", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Коммутативность пересечения", "concept_b": "Принцип Дирихле", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Коммутативность пересечения", "concept_b": "Равенство множеств", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Коммутативность пересечения", "concept_b": "Разбиение", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Коммутативность пересечения", "concept_b": "Разность множеств", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Коммутативность пересечения", "concept_b": "Разность симметрическая", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Коммутативность пересечения", "concept_b": "Семейство дизъюнктное", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Коммутативность пересечения", "concept_b": "Содержится", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Коммутативность пересечения", "concept_b": "Стрелка Пирса", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Коммутативность пересечения", "concept_b": "Трансфинитный", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Коммутативность пересечения", "concept_b": "Число кардинальное", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Коммутативность пересечения", "concept_b": "Число треугольное", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Коммутативность пересечения", "concept_b": "Штрих Шеффера", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Множество бесконечное", "concept_b": "Множество конечное", "has_relation": true}
+{"paragraph_id": "1.2", "concept_a": "Множество бесконечное", "concept_b": "Множество несчётное", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Множество бесконечное", "concept_b": "Мощность  строго больше", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Множество бесконечное", "concept_b": "Мощность множества", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Множество бесконечное", "concept_b": "Мощность множества конечного", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Множество бесконечное", "concept_b": "Надмножество", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Множество бесконечное", "concept_b": "Надмножество собственное", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Множество бесконечное", "concept_b": "Носитель", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Множество бесконечное", "concept_b": "Нумерация множества", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Множество бесконечное", "concept_b": "Обобщённая континуум-гипотеза \\\\", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Множество бесконечное", "concept_b": "Объединение множеств", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Множество бесконечное", "concept_b": "Операция", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Множество бесконечное", "concept_b": "Операция групповая", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Множество бесконечное", "concept_b": "Операция сравнения", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Множество бесконечное", "concept_b": "Отношение равномощности", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Множество бесконечное", "concept_b": "Парадокс Кантора", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Множество бесконечное", "concept_b": "Пересечение множеств", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Множество бесконечное", "concept_b": "Поглощение", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Множество бесконечное", "concept_b": "Подмножество", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Множество бесконечное", "concept_b": "Подмножество собственное", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Множество бесконечное", "concept_b": "Покрытие", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Множество бесконечное", "concept_b": "Принцип Дирихле", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Множество бесконечное", "concept_b": "Равенство множеств", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Множество бесконечное", "concept_b": "Разбиение", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Множество бесконечное", "concept_b": "Разность множеств", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Множество бесконечное", "concept_b": "Разность симметрическая", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Множество бесконечное", "concept_b": "Семейство дизъюнктное", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Множество бесконечное", "concept_b": "Содержится", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Множество бесконечное", "concept_b": "Стрелка Пирса", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Множество бесконечное", "concept_b": "Трансфинитный", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Множество бесконечное", "concept_b": "Число кардинальное", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Множество бесконечное", "concept_b": "Число треугольное", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Множество бесконечное", "concept_b": "Штрих Шеффера", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Множество конечное", "concept_b": "Множество несчётное", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Множество конечное", "concept_b": "Мощность  строго больше", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Множество конечное", "concept_b": "Мощность множества", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Множество конечное", "concept_b": "Мощность множества конечного", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Множество конечное", "concept_b": "Надмножество", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Множество конечное", "concept_b": "Надмножество собственное", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Множество конечное", "concept_b": "Носитель", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Множество конечное", "concept_b": "Нумерация множества", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Множество конечное", "concept_b": "Обобщённая континуум-гипотеза \\\\", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Множество конечное", "concept_b": "Объединение множеств", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Множество конечное", "concept_b": "Операция", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Множество конечное", "concept_b": "Операция групповая", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Множество конечное", "concept_b": "Операция сравнения", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Множество конечное", "concept_b": "Отношение равномощности", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Множество конечное", "concept_b": "Парадокс Кантора", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Множество конечное", "concept_b": "Пересечение множеств", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Множество конечное", "concept_b": "Поглощение", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Множество конечное", "concept_b": "Подмножество", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Множество конечное", "concept_b": "Подмножество собственное", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Множество конечное", "concept_b": "Покрытие", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Множество конечное", "concept_b": "Принцип Дирихле", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Множество конечное", "concept_b": "Равенство множеств", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Множество конечное", "concept_b": "Разбиение", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Множество конечное", "concept_b": "Разность множеств", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Множество конечное", "concept_b": "Разность симметрическая", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Множество конечное", "concept_b": "Семейство дизъюнктное", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Множество конечное", "concept_b": "Содержится", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Множество конечное", "concept_b": "Стрелка Пирса", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Множество конечное", "concept_b": "Трансфинитный", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Множество конечное", "concept_b": "Число кардинальное", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Множество конечное", "concept_b": "Число треугольное", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Множество конечное", "concept_b": "Штрих Шеффера", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Множество несчётное", "concept_b": "Мощность  строго больше", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Множество несчётное", "concept_b": "Мощность множества", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Множество несчётное", "concept_b": "Мощность множества конечного", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Множество несчётное", "concept_b": "Надмножество", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Множество несчётное", "concept_b": "Надмножество собственное", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Множество несчётное", "concept_b": "Носитель", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Множество несчётное", "concept_b": "Нумерация множества", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Множество несчётное", "concept_b": "Обобщённая континуум-гипотеза \\\\", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Множество несчётное", "concept_b": "Объединение множеств", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Множество несчётное", "concept_b": "Операция", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Множество несчётное", "concept_b": "Операция групповая", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Множество несчётное", "concept_b": "Операция сравнения", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Множество несчётное", "concept_b": "Отношение равномощности", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Множество несчётное", "concept_b": "Парадокс Кантора", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Множество несчётное", "concept_b": "Пересечение множеств", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Множество несчётное", "concept_b": "Поглощение", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Множество несчётное", "concept_b": "Подмножество", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Множество несчётное", "concept_b": "Подмножество собственное", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Множество несчётное", "concept_b": "Покрытие", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Множество несчётное", "concept_b": "Принцип Дирихле", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Множество несчётное", "concept_b": "Равенство множеств", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Множество несчётное", "concept_b": "Разбиение", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Множество несчётное", "concept_b": "Разность множеств", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Множество несчётное", "concept_b": "Разность симметрическая", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Множество несчётное", "concept_b": "Семейство дизъюнктное", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Множество несчётное", "concept_b": "Содержится", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Множество несчётное", "concept_b": "Стрелка Пирса", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Множество несчётное", "concept_b": "Трансфинитный", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Множество несчётное", "concept_b": "Число кардинальное", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Множество несчётное", "concept_b": "Число треугольное", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Множество несчётное", "concept_b": "Штрих Шеффера", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Мощность  строго больше", "concept_b": "Мощность множества", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Мощность  строго больше", "concept_b": "Мощность множества конечного", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Мощность  строго больше", "concept_b": "Надмножество", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Мощность  строго больше", "concept_b": "Надмножество собственное", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Мощность  строго больше", "concept_b": "Носитель", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Мощность  строго больше", "concept_b": "Нумерация множества", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Мощность  строго больше", "concept_b": "Обобщённая континуум-гипотеза \\\\", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Мощность  строго больше", "concept_b": "Объединение множеств", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Мощность  строго больше", "concept_b": "Операция", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Мощность  строго больше", "concept_b": "Операция групповая", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Мощность  строго больше", "concept_b": "Операция сравнения", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Мощность  строго больше", "concept_b": "Отношение равномощности", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Мощность  строго больше", "concept_b": "Парадокс Кантора", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Мощность  строго больше", "concept_b": "Пересечение множеств", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Мощность  строго больше", "concept_b": "Поглощение", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Мощность  строго больше", "concept_b": "Подмножество", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Мощность  строго больше", "concept_b": "Подмножество собственное", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Мощность  строго больше", "concept_b": "Покрытие", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Мощность  строго больше", "concept_b": "Принцип Дирихле", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Мощность  строго больше", "concept_b": "Равенство множеств", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Мощность  строго больше", "concept_b": "Разбиение", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Мощность  строго больше", "concept_b": "Разность множеств", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Мощность  строго больше", "concept_b": "Разность симметрическая", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Мощность  строго больше", "concept_b": "Семейство дизъюнктное", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Мощность  строго больше", "concept_b": "Содержится", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Мощность  строго больше", "concept_b": "Стрелка Пирса", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Мощность  строго больше", "concept_b": "Трансфинитный", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Мощность  строго больше", "concept_b": "Число кардинальное", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Мощность  строго больше", "concept_b": "Число треугольное", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Мощность  строго больше", "concept_b": "Штрих Шеффера", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Мощность множества", "concept_b": "Мощность множества конечного", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Мощность множества", "concept_b": "Надмножество", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Мощность множества", "concept_b": "Надмножество собственное", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Мощность множества", "concept_b": "Носитель", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Мощность множества", "concept_b": "Нумерация множества", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Мощность множества", "concept_b": "Обобщённая континуум-гипотеза \\\\", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Мощность множества", "concept_b": "Объединение множеств", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Мощность множества", "concept_b": "Операция", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Мощность множества", "concept_b": "Операция групповая", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Мощность множества", "concept_b": "Операция сравнения", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Мощность множества", "concept_b": "Отношение равномощности", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Мощность множества", "concept_b": "Парадокс Кантора", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Мощность множества", "concept_b": "Пересечение множеств", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Мощность множества", "concept_b": "Поглощение", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Мощность множества", "concept_b": "Подмножество", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Мощность множества", "concept_b": "Подмножество собственное", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Мощность множества", "concept_b": "Покрытие", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Мощность множества", "concept_b": "Принцип Дирихле", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Мощность множества", "concept_b": "Равенство множеств", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Мощность множества", "concept_b": "Разбиение", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Мощность множества", "concept_b": "Разность множеств", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Мощность множества", "concept_b": "Разность симметрическая", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Мощность множества", "concept_b": "Семейство дизъюнктное", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Мощность множества", "concept_b": "Содержится", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Мощность множества", "concept_b": "Стрелка Пирса", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Мощность множества", "concept_b": "Трансфинитный", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Мощность множества", "concept_b": "Число кардинальное", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Мощность множества", "concept_b": "Число треугольное", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Мощность множества", "concept_b": "Штрих Шеффера", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Мощность множества конечного", "concept_b": "Надмножество", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Мощность множества конечного", "concept_b": "Надмножество собственное", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Мощность множества конечного", "concept_b": "Носитель", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Мощность множества конечного", "concept_b": "Нумерация множества", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Мощность множества конечного", "concept_b": "Обобщённая континуум-гипотеза \\\\", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Мощность множества конечного", "concept_b": "Объединение множеств", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Мощность множества конечного", "concept_b": "Операция", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Мощность множества конечного", "concept_b": "Операция групповая", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Мощность множества конечного", "concept_b": "Операция сравнения", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Мощность множества конечного", "concept_b": "Отношение равномощности", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Мощность множества конечного", "concept_b": "Парадокс Кантора", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Мощность множества конечного", "concept_b": "Пересечение множеств", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Мощность множества конечного", "concept_b": "Поглощение", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Мощность множества конечного", "concept_b": "Подмножество", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Мощность множества конечного", "concept_b": "Подмножество собственное", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Мощность множества конечного", "concept_b": "Покрытие", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Мощность множества конечного", "concept_b": "Принцип Дирихле", "has_relation": true}
+{"paragraph_id": "1.2", "concept_a": "Мощность множества конечного", "concept_b": "Равенство множеств", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Мощность множества конечного", "concept_b": "Разбиение", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Мощность множества конечного", "concept_b": "Разность множеств", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Мощность множества конечного", "concept_b": "Разность симметрическая", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Мощность множества конечного", "concept_b": "Семейство дизъюнктное", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Мощность множества конечного", "concept_b": "Содержится", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Мощность множества конечного", "concept_b": "Стрелка Пирса", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Мощность множества конечного", "concept_b": "Трансфинитный", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Мощность множества конечного", "concept_b": "Число кардинальное", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Мощность множества конечного", "concept_b": "Число треугольное", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Мощность множества конечного", "concept_b": "Штрих Шеффера", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Надмножество", "concept_b": "Надмножество собственное", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Надмножество", "concept_b": "Носитель", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Надмножество", "concept_b": "Нумерация множества", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Надмножество", "concept_b": "Обобщённая континуум-гипотеза \\\\", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Надмножество", "concept_b": "Объединение множеств", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Надмножество", "concept_b": "Операция", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Надмножество", "concept_b": "Операция групповая", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Надмножество", "concept_b": "Операция сравнения", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Надмножество", "concept_b": "Отношение равномощности", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Надмножество", "concept_b": "Парадокс Кантора", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Надмножество", "concept_b": "Пересечение множеств", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Надмножество", "concept_b": "Поглощение", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Надмножество", "concept_b": "Подмножество", "has_relation": true}
+{"paragraph_id": "1.2", "concept_a": "Надмножество", "concept_b": "Подмножество собственное", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Надмножество", "concept_b": "Покрытие", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Надмножество", "concept_b": "Принцип Дирихле", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Надмножество", "concept_b": "Равенство множеств", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Надмножество", "concept_b": "Разбиение", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Надмножество", "concept_b": "Разность множеств", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Надмножество", "concept_b": "Разность симметрическая", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Надмножество", "concept_b": "Семейство дизъюнктное", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Надмножество", "concept_b": "Содержится", "has_relation": true}
+{"paragraph_id": "1.2", "concept_a": "Надмножество", "concept_b": "Стрелка Пирса", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Надмножество", "concept_b": "Трансфинитный", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Надмножество", "concept_b": "Число кардинальное", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Надмножество", "concept_b": "Число треугольное", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Надмножество", "concept_b": "Штрих Шеффера", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Надмножество собственное", "concept_b": "Носитель", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Надмножество собственное", "concept_b": "Нумерация множества", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Надмножество собственное", "concept_b": "Обобщённая континуум-гипотеза \\\\", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Надмножество собственное", "concept_b": "Объединение множеств", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Надмножество собственное", "concept_b": "Операция", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Надмножество собственное", "concept_b": "Операция групповая", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Надмножество собственное", "concept_b": "Операция сравнения", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Надмножество собственное", "concept_b": "Отношение равномощности", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Надмножество собственное", "concept_b": "Парадокс Кантора", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Надмножество собственное", "concept_b": "Пересечение множеств", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Надмножество собственное", "concept_b": "Поглощение", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Надмножество собственное", "concept_b": "Подмножество", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Надмножество собственное", "concept_b": "Подмножество собственное", "has_relation": true}
+{"paragraph_id": "1.2", "concept_a": "Надмножество собственное", "concept_b": "Покрытие", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Надмножество собственное", "concept_b": "Принцип Дирихле", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Надмножество собственное", "concept_b": "Равенство множеств", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Надмножество собственное", "concept_b": "Разбиение", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Надмножество собственное", "concept_b": "Разность множеств", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Надмножество собственное", "concept_b": "Разность симметрическая", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Надмножество собственное", "concept_b": "Семейство дизъюнктное", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Надмножество собственное", "concept_b": "Содержится", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Надмножество собственное", "concept_b": "Стрелка Пирса", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Надмножество собственное", "concept_b": "Трансфинитный", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Надмножество собственное", "concept_b": "Число кардинальное", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Надмножество собственное", "concept_b": "Число треугольное", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Надмножество собственное", "concept_b": "Штрих Шеффера", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Носитель", "concept_b": "Нумерация множества", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Носитель", "concept_b": "Обобщённая континуум-гипотеза \\\\", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Носитель", "concept_b": "Объединение множеств", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Носитель", "concept_b": "Операция", "has_relation": true}
+{"paragraph_id": "1.2", "concept_a": "Носитель", "concept_b": "Операция групповая", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Носитель", "concept_b": "Операция сравнения", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Носитель", "concept_b": "Отношение равномощности", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Носитель", "concept_b": "Парадокс Кантора", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Носитель", "concept_b": "Пересечение множеств", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Носитель", "concept_b": "Поглощение", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Носитель", "concept_b": "Подмножество", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Носитель", "concept_b": "Подмножество собственное", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Носитель", "concept_b": "Покрытие", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Носитель", "concept_b": "Принцип Дирихле", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Носитель", "concept_b": "Равенство множеств", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Носитель", "concept_b": "Разбиение", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Носитель", "concept_b": "Разность множеств", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Носитель", "concept_b": "Разность симметрическая", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Носитель", "concept_b": "Семейство дизъюнктное", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Носитель", "concept_b": "Содержится", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Носитель", "concept_b": "Стрелка Пирса", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Носитель", "concept_b": "Трансфинитный", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Носитель", "concept_b": "Число кардинальное", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Носитель", "concept_b": "Число треугольное", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Носитель", "concept_b": "Штрих Шеффера", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Нумерация множества", "concept_b": "Обобщённая континуум-гипотеза \\\\", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Нумерация множества", "concept_b": "Объединение множеств", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Нумерация множества", "concept_b": "Операция", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Нумерация множества", "concept_b": "Операция групповая", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Нумерация множества", "concept_b": "Операция сравнения", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Нумерация множества", "concept_b": "Отношение равномощности", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Нумерация множества", "concept_b": "Парадокс Кантора", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Нумерация множества", "concept_b": "Пересечение множеств", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Нумерация множества", "concept_b": "Поглощение", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Нумерация множества", "concept_b": "Подмножество", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Нумерация множества", "concept_b": "Подмножество собственное", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Нумерация множества", "concept_b": "Покрытие", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Нумерация множества", "concept_b": "Принцип Дирихле", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Нумерация множества", "concept_b": "Равенство множеств", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Нумерация множества", "concept_b": "Разбиение", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Нумерация множества", "concept_b": "Разность множеств", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Нумерация множества", "concept_b": "Разность симметрическая", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Нумерация множества", "concept_b": "Семейство дизъюнктное", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Нумерация множества", "concept_b": "Содержится", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Нумерация множества", "concept_b": "Стрелка Пирса", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Нумерация множества", "concept_b": "Трансфинитный", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Нумерация множества", "concept_b": "Число кардинальное", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Нумерация множества", "concept_b": "Число треугольное", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Нумерация множества", "concept_b": "Штрих Шеффера", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Обобщённая континуум-гипотеза \\\\", "concept_b": "Объединение множеств", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Обобщённая континуум-гипотеза \\\\", "concept_b": "Операция", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Обобщённая континуум-гипотеза \\\\", "concept_b": "Операция групповая", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Обобщённая континуум-гипотеза \\\\", "concept_b": "Операция сравнения", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Обобщённая континуум-гипотеза \\\\", "concept_b": "Отношение равномощности", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Обобщённая континуум-гипотеза \\\\", "concept_b": "Парадокс Кантора", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Обобщённая континуум-гипотеза \\\\", "concept_b": "Пересечение множеств", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Обобщённая континуум-гипотеза \\\\", "concept_b": "Поглощение", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Обобщённая континуум-гипотеза \\\\", "concept_b": "Подмножество", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Обобщённая континуум-гипотеза \\\\", "concept_b": "Подмножество собственное", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Обобщённая континуум-гипотеза \\\\", "concept_b": "Покрытие", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Обобщённая континуум-гипотеза \\\\", "concept_b": "Принцип Дирихле", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Обобщённая континуум-гипотеза \\\\", "concept_b": "Равенство множеств", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Обобщённая континуум-гипотеза \\\\", "concept_b": "Разбиение", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Обобщённая континуум-гипотеза \\\\", "concept_b": "Разность множеств", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Обобщённая континуум-гипотеза \\\\", "concept_b": "Разность симметрическая", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Обобщённая континуум-гипотеза \\\\", "concept_b": "Семейство дизъюнктное", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Обобщённая континуум-гипотеза \\\\", "concept_b": "Содержится", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Обобщённая континуум-гипотеза \\\\", "concept_b": "Стрелка Пирса", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Обобщённая континуум-гипотеза \\\\", "concept_b": "Трансфинитный", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Обобщённая континуум-гипотеза \\\\", "concept_b": "Число кардинальное", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Обобщённая континуум-гипотеза \\\\", "concept_b": "Число треугольное", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Обобщённая континуум-гипотеза \\\\", "concept_b": "Штрих Шеффера", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Объединение множеств", "concept_b": "Операция", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Объединение множеств", "concept_b": "Операция групповая", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Объединение множеств", "concept_b": "Операция сравнения", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Объединение множеств", "concept_b": "Отношение равномощности", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Объединение множеств", "concept_b": "Парадокс Кантора", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Объединение множеств", "concept_b": "Пересечение множеств", "has_relation": true}
+{"paragraph_id": "1.2", "concept_a": "Объединение множеств", "concept_b": "Поглощение", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Объединение множеств", "concept_b": "Подмножество", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Объединение множеств", "concept_b": "Подмножество собственное", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Объединение множеств", "concept_b": "Покрытие", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Объединение множеств", "concept_b": "Принцип Дирихле", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Объединение множеств", "concept_b": "Равенство множеств", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Объединение множеств", "concept_b": "Разбиение", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Объединение множеств", "concept_b": "Разность множеств", "has_relation": true}
+{"paragraph_id": "1.2", "concept_a": "Объединение множеств", "concept_b": "Разность симметрическая", "has_relation": true}
+{"paragraph_id": "1.2", "concept_a": "Объединение множеств", "concept_b": "Семейство дизъюнктное", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Объединение множеств", "concept_b": "Содержится", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Объединение множеств", "concept_b": "Стрелка Пирса", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Объединение множеств", "concept_b": "Трансфинитный", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Объединение множеств", "concept_b": "Число кардинальное", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Объединение множеств", "concept_b": "Число треугольное", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Объединение множеств", "concept_b": "Штрих Шеффера", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Операция", "concept_b": "Операция групповая", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Операция", "concept_b": "Операция сравнения", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Операция", "concept_b": "Отношение равномощности", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Операция", "concept_b": "Парадокс Кантора", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Операция", "concept_b": "Пересечение множеств", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Операция", "concept_b": "Поглощение", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Операция", "concept_b": "Подмножество", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Операция", "concept_b": "Подмножество собственное", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Операция", "concept_b": "Покрытие", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Операция", "concept_b": "Принцип Дирихле", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Операция", "concept_b": "Равенство множеств", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Операция", "concept_b": "Разбиение", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Операция", "concept_b": "Разность множеств", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Операция", "concept_b": "Разность симметрическая", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Операция", "concept_b": "Семейство дизъюнктное", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Операция", "concept_b": "Содержится", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Операция", "concept_b": "Стрелка Пирса", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Операция", "concept_b": "Трансфинитный", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Операция", "concept_b": "Число кардинальное", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Операция", "concept_b": "Число треугольное", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Операция", "concept_b": "Штрих Шеффера", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Операция групповая", "concept_b": "Операция сравнения", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Операция групповая", "concept_b": "Отношение равномощности", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Операция групповая", "concept_b": "Парадокс Кантора", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Операция групповая", "concept_b": "Пересечение множеств", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Операция групповая", "concept_b": "Поглощение", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Операция групповая", "concept_b": "Подмножество", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Операция групповая", "concept_b": "Подмножество собственное", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Операция групповая", "concept_b": "Покрытие", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Операция групповая", "concept_b": "Принцип Дирихле", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Операция групповая", "concept_b": "Равенство множеств", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Операция групповая", "concept_b": "Разбиение", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Операция групповая", "concept_b": "Разность множеств", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Операция групповая", "concept_b": "Разность симметрическая", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Операция групповая", "concept_b": "Семейство дизъюнктное", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Операция групповая", "concept_b": "Содержится", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Операция групповая", "concept_b": "Стрелка Пирса", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Операция групповая", "concept_b": "Трансфинитный", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Операция групповая", "concept_b": "Число кардинальное", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Операция групповая", "concept_b": "Число треугольное", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Операция групповая", "concept_b": "Штрих Шеффера", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Операция сравнения", "concept_b": "Отношение равномощности", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Операция сравнения", "concept_b": "Парадокс Кантора", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Операция сравнения", "concept_b": "Пересечение множеств", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Операция сравнения", "concept_b": "Поглощение", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Операция сравнения", "concept_b": "Подмножество", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Операция сравнения", "concept_b": "Подмножество собственное", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Операция сравнения", "concept_b": "Покрытие", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Операция сравнения", "concept_b": "Принцип Дирихле", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Операция сравнения", "concept_b": "Равенство множеств", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Операция сравнения", "concept_b": "Разбиение", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Операция сравнения", "concept_b": "Разность множеств", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Операция сравнения", "concept_b": "Разность симметрическая", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Операция сравнения", "concept_b": "Семейство дизъюнктное", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Операция сравнения", "concept_b": "Содержится", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Операция сравнения", "concept_b": "Стрелка Пирса", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Операция сравнения", "concept_b": "Трансфинитный", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Операция сравнения", "concept_b": "Число кардинальное", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Операция сравнения", "concept_b": "Число треугольное", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Операция сравнения", "concept_b": "Штрих Шеффера", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Отношение равномощности", "concept_b": "Парадокс Кантора", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Отношение равномощности", "concept_b": "Пересечение множеств", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Отношение равномощности", "concept_b": "Поглощение", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Отношение равномощности", "concept_b": "Подмножество", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Отношение равномощности", "concept_b": "Подмножество собственное", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Отношение равномощности", "concept_b": "Покрытие", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Отношение равномощности", "concept_b": "Принцип Дирихле", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Отношение равномощности", "concept_b": "Равенство множеств", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Отношение равномощности", "concept_b": "Разбиение", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Отношение равномощности", "concept_b": "Разность множеств", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Отношение равномощности", "concept_b": "Разность симметрическая", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Отношение равномощности", "concept_b": "Семейство дизъюнктное", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Отношение равномощности", "concept_b": "Содержится", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Отношение равномощности", "concept_b": "Стрелка Пирса", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Отношение равномощности", "concept_b": "Трансфинитный", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Отношение равномощности", "concept_b": "Число кардинальное", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Отношение равномощности", "concept_b": "Число треугольное", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Отношение равномощности", "concept_b": "Штрих Шеффера", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Парадокс Кантора", "concept_b": "Пересечение множеств", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Парадокс Кантора", "concept_b": "Поглощение", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Парадокс Кантора", "concept_b": "Подмножество", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Парадокс Кантора", "concept_b": "Подмножество собственное", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Парадокс Кантора", "concept_b": "Покрытие", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Парадокс Кантора", "concept_b": "Принцип Дирихле", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Парадокс Кантора", "concept_b": "Равенство множеств", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Парадокс Кантора", "concept_b": "Разбиение", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Парадокс Кантора", "concept_b": "Разность множеств", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Парадокс Кантора", "concept_b": "Разность симметрическая", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Парадокс Кантора", "concept_b": "Семейство дизъюнктное", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Парадокс Кантора", "concept_b": "Содержится", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Парадокс Кантора", "concept_b": "Стрелка Пирса", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Парадокс Кантора", "concept_b": "Трансфинитный", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Парадокс Кантора", "concept_b": "Число кардинальное", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Парадокс Кантора", "concept_b": "Число треугольное", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Парадокс Кантора", "concept_b": "Штрих Шеффера", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Пересечение множеств", "concept_b": "Поглощение", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Пересечение множеств", "concept_b": "Подмножество", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Пересечение множеств", "concept_b": "Подмножество собственное", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Пересечение множеств", "concept_b": "Покрытие", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Пересечение множеств", "concept_b": "Принцип Дирихле", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Пересечение множеств", "concept_b": "Равенство множеств", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Пересечение множеств", "concept_b": "Разбиение", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Пересечение множеств", "concept_b": "Разность множеств", "has_relation": true}
+{"paragraph_id": "1.2", "concept_a": "Пересечение множеств", "concept_b": "Разность симметрическая", "has_relation": true}
+{"paragraph_id": "1.2", "concept_a": "Пересечение множеств", "concept_b": "Семейство дизъюнктное", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Пересечение множеств", "concept_b": "Содержится", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Пересечение множеств", "concept_b": "Стрелка Пирса", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Пересечение множеств", "concept_b": "Трансфинитный", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Пересечение множеств", "concept_b": "Число кардинальное", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Пересечение множеств", "concept_b": "Число треугольное", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Пересечение множеств", "concept_b": "Штрих Шеффера", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Поглощение", "concept_b": "Подмножество", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Поглощение", "concept_b": "Подмножество собственное", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Поглощение", "concept_b": "Покрытие", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Поглощение", "concept_b": "Принцип Дирихле", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Поглощение", "concept_b": "Равенство множеств", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Поглощение", "concept_b": "Разбиение", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Поглощение", "concept_b": "Разность множеств", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Поглощение", "concept_b": "Разность симметрическая", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Поглощение", "concept_b": "Семейство дизъюнктное", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Поглощение", "concept_b": "Содержится", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Поглощение", "concept_b": "Стрелка Пирса", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Поглощение", "concept_b": "Трансфинитный", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Поглощение", "concept_b": "Число кардинальное", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Поглощение", "concept_b": "Число треугольное", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Поглощение", "concept_b": "Штрих Шеффера", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Подмножество", "concept_b": "Подмножество собственное", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Подмножество", "concept_b": "Покрытие", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Подмножество", "concept_b": "Принцип Дирихле", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Подмножество", "concept_b": "Равенство множеств", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Подмножество", "concept_b": "Разбиение", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Подмножество", "concept_b": "Разность множеств", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Подмножество", "concept_b": "Разность симметрическая", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Подмножество", "concept_b": "Семейство дизъюнктное", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Подмножество", "concept_b": "Содержится", "has_relation": true}
+{"paragraph_id": "1.2", "concept_a": "Подмножество", "concept_b": "Стрелка Пирса", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Подмножество", "concept_b": "Трансфинитный", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Подмножество", "concept_b": "Число кардинальное", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Подмножество", "concept_b": "Число треугольное", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Подмножество", "concept_b": "Штрих Шеффера", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Подмножество собственное", "concept_b": "Покрытие", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Подмножество собственное", "concept_b": "Принцип Дирихле", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Подмножество собственное", "concept_b": "Равенство множеств", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Подмножество собственное", "concept_b": "Разбиение", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Подмножество собственное", "concept_b": "Разность множеств", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Подмножество собственное", "concept_b": "Разность симметрическая", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Подмножество собственное", "concept_b": "Семейство дизъюнктное", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Подмножество собственное", "concept_b": "Содержится", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Подмножество собственное", "concept_b": "Стрелка Пирса", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Подмножество собственное", "concept_b": "Трансфинитный", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Подмножество собственное", "concept_b": "Число кардинальное", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Подмножество собственное", "concept_b": "Число треугольное", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Подмножество собственное", "concept_b": "Штрих Шеффера", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Покрытие", "concept_b": "Принцип Дирихле", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Покрытие", "concept_b": "Равенство множеств", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Покрытие", "concept_b": "Разбиение", "has_relation": true}
+{"paragraph_id": "1.2", "concept_a": "Покрытие", "concept_b": "Разность множеств", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Покрытие", "concept_b": "Разность симметрическая", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Покрытие", "concept_b": "Семейство дизъюнктное", "has_relation": true}
+{"paragraph_id": "1.2", "concept_a": "Покрытие", "concept_b": "Содержится", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Покрытие", "concept_b": "Стрелка Пирса", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Покрытие", "concept_b": "Трансфинитный", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Покрытие", "concept_b": "Число кардинальное", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Покрытие", "concept_b": "Число треугольное", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Покрытие", "concept_b": "Штрих Шеффера", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Принцип Дирихле", "concept_b": "Равенство множеств", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Принцип Дирихле", "concept_b": "Разбиение", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Принцип Дирихле", "concept_b": "Разность множеств", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Принцип Дирихле", "concept_b": "Разность симметрическая", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Принцип Дирихле", "concept_b": "Семейство дизъюнктное", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Принцип Дирихле", "concept_b": "Содержится", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Принцип Дирихле", "concept_b": "Стрелка Пирса", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Принцип Дирихле", "concept_b": "Трансфинитный", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Принцип Дирихле", "concept_b": "Число кардинальное", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Принцип Дирихле", "concept_b": "Число треугольное", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Принцип Дирихле", "concept_b": "Штрих Шеффера", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Равенство множеств", "concept_b": "Разбиение", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Равенство множеств", "concept_b": "Разность множеств", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Равенство множеств", "concept_b": "Разность симметрическая", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Равенство множеств", "concept_b": "Семейство дизъюнктное", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Равенство множеств", "concept_b": "Содержится", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Равенство множеств", "concept_b": "Стрелка Пирса", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Равенство множеств", "concept_b": "Трансфинитный", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Равенство множеств", "concept_b": "Число кардинальное", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Равенство множеств", "concept_b": "Число треугольное", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Равенство множеств", "concept_b": "Штрих Шеффера", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Разбиение", "concept_b": "Разность множеств", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Разбиение", "concept_b": "Разность симметрическая", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Разбиение", "concept_b": "Семейство дизъюнктное", "has_relation": true}
+{"paragraph_id": "1.2", "concept_a": "Разбиение", "concept_b": "Содержится", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Разбиение", "concept_b": "Стрелка Пирса", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Разбиение", "concept_b": "Трансфинитный", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Разбиение", "concept_b": "Число кардинальное", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Разбиение", "concept_b": "Число треугольное", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Разбиение", "concept_b": "Штрих Шеффера", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Разность множеств", "concept_b": "Разность симметрическая", "has_relation": true}
+{"paragraph_id": "1.2", "concept_a": "Разность множеств", "concept_b": "Семейство дизъюнктное", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Разность множеств", "concept_b": "Содержится", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Разность множеств", "concept_b": "Стрелка Пирса", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Разность множеств", "concept_b": "Трансфинитный", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Разность множеств", "concept_b": "Число кардинальное", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Разность множеств", "concept_b": "Число треугольное", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Разность множеств", "concept_b": "Штрих Шеффера", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Разность симметрическая", "concept_b": "Семейство дизъюнктное", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Разность симметрическая", "concept_b": "Содержится", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Разность симметрическая", "concept_b": "Стрелка Пирса", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Разность симметрическая", "concept_b": "Трансфинитный", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Разность симметрическая", "concept_b": "Число кардинальное", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Разность симметрическая", "concept_b": "Число треугольное", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Разность симметрическая", "concept_b": "Штрих Шеффера", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Семейство дизъюнктное", "concept_b": "Содержится", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Семейство дизъюнктное", "concept_b": "Стрелка Пирса", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Семейство дизъюнктное", "concept_b": "Трансфинитный", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Семейство дизъюнктное", "concept_b": "Число кардинальное", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Семейство дизъюнктное", "concept_b": "Число треугольное", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Семейство дизъюнктное", "concept_b": "Штрих Шеффера", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Содержится", "concept_b": "Стрелка Пирса", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Содержится", "concept_b": "Трансфинитный", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Содержится", "concept_b": "Число кардинальное", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Содержится", "concept_b": "Число треугольное", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Содержится", "concept_b": "Штрих Шеффера", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Стрелка Пирса", "concept_b": "Трансфинитный", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Стрелка Пирса", "concept_b": "Число кардинальное", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Стрелка Пирса", "concept_b": "Число треугольное", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Стрелка Пирса", "concept_b": "Штрих Шеффера", "has_relation": true}
+{"paragraph_id": "1.2", "concept_a": "Трансфинитный", "concept_b": "Число кардинальное", "has_relation": true}
+{"paragraph_id": "1.2", "concept_a": "Трансфинитный", "concept_b": "Число треугольное", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Трансфинитный", "concept_b": "Штрих Шеффера", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Число кардинальное", "concept_b": "Число треугольное", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Число кардинальное", "concept_b": "Штрих Шеффера", "has_relation": false}
+{"paragraph_id": "1.2", "concept_a": "Число треугольное", "concept_b": "Штрих Шеффера", "has_relation": false}

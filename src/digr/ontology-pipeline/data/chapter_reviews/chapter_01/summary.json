@@ -1,0 +1,204 @@
+{
+  "chapter": "1",
+  "paragraphs": [
+    "1.1",
+    "1.2",
+    "1.3",
+    "1.4",
+    "1.5",
+    "1.6",
+    "1.7",
+    "1.8",
+    "1.9"
+  ],
+  "ground_truth_source": "src/digr/ontology-pipeline/data/dm_reference_ontologies/chapter_01",
+  "ignored_concepts": [
+    "bool",
+    "Объект",
+    "Парадокс",
+    "Парадокс Рассела",
+    "Структура",
+    "Указатель",
+    "Элементами семейства являются множества"
+  ],
+  "chapter_concepts": 338,
+  "raw_unique_relations": 506,
+  "textbook_relations_in_chapter_scope": 100,
+  "textbook_unique_relation_pairs_in_chapter_scope": 95,
+  "category_counts": {
+    "found_on_diagram_correct": 8,
+    "found_on_diagram_wrong_direction": 8,
+    "found_on_diagram_wrong_type": 9,
+    "found_on_diagram_wrong_direction_and_type": 4,
+    "found_not_on_diagram_accepted": 462,
+    "found_not_on_diagram_rejected": 15,
+    "not_found_from_diagram": 76
+  },
+  "corrected_relations": 486,
+  "rendered": false,
+  "render_error": "Обнаружен циклический архитектурный антипаттерн взаимосвязи иерархий (a^+ b^+ a^+ b^+) для класса 'Алгебра'\nОбнаружен циклический архитектурный антипаттерн взаимосвязи иерархий (a^+ b^+ a^+ b^+) для класса 'Алфавит'\nОбнаружен циклический архитектурный антипаттерн взаимосвязи иерархий (a^+ b^+ a^+ b^+) для класса 'Буква'\nОбнаружен циклический архитектурный антипаттерн взаимосвязи иерархий (a^+ b^+ a^+ b^+) для класса 'Кортеж'\nОбнаружен циклический архитектурный антипаттерн взаимосвязи иерархий (a^+ b^+ a^+ b^+) для класса 'Множество'\nОбнаружен циклический архитектурный антипаттерн взаимосвязи иерархий (a^+ b^+ a^+ b^+) для класса 'МножествоПустое'\nОбнаружен циклический архитектурный антипаттерн взаимосвязи иерархий (a^+ b^+ a^+ b^+) для класса 'ОбластьЗначенийФункции'\nОбнаружен циклический архитектурный антипаттерн взаимосвязи иерархий (a^+ b^+ a^+ b^+) для класса 'ПродолжениеФункции'\nОбнаружен циклический архитектурный антипаттерн взаимосвязи иерархий (a^+ b^+ a^+ b^+) для класса 'Разбиение'\nОбнаружен циклический архитектурный антипаттерн взаимосвязи иерархий (a^+ b^+ a^+ b^+) для класса 'СемействоМножеств'\nОбнаружен циклический архитектурный антипаттерн взаимосвязи иерархий (a^+ b^+ a^+ b^+) для класса 'СужениеФункции'\nОбнаружен циклический архитектурный антипаттерн взаимосвязи иерархий (a^+ b^+ a^+ b^+) для класса 'ФункцияТотальная'\nОбнаружен циклический архитектурный антипаттерн взаимосвязи иерархий (a^+ b^+ a^+ b^+) для класса 'ЧислоВещественное'\nОбнаружен циклический архитектурный антипаттерн взаимосвязи иерархий (a^+ b^+ a^+ b^+) для класса 'ЧислоНатуральное'\nОбнаружен циклический архитектурный антипаттерн взаимосвязи иерархий (a^+ b^+ a^+ b^+) для класса 'ЧислоПростое'",
+  "paragraph_reviews": [
+    {
+      "paragraph_id": "1.1",
+      "paragraph_title": "1.1. Множества",
+      "folder": "1.1_множества",
+      "relations_reviewed": 100,
+      "corrected_relations": 87,
+      "category_counts": {
+        "found_on_diagram_correct": 4,
+        "found_on_diagram_wrong_direction": 3,
+        "found_on_diagram_wrong_type": 5,
+        "found_on_diagram_wrong_direction_and_type": 2,
+        "found_not_on_diagram_accepted": 78,
+        "found_not_on_diagram_rejected": 1,
+        "not_found_from_diagram": 7
+      },
+      "rendered": false,
+      "render_error": "Обнаружен циклический архитектурный антипаттерн взаимосвязи иерархий (a^+ b^+ a^+ b^+) для класса 'Алфавит'\nОбнаружен циклический архитектурный антипаттерн взаимосвязи иерархий (a^+ b^+ a^+ b^+) для класса 'Буква'\nОбнаружен циклический архитектурный антипаттерн взаимосвязи иерархий (a^+ b^+ a^+ b^+) для класса 'Множество'\nОбнаружен циклический архитектурный антипаттерн взаимосвязи иерархий (a^+ b^+ a^+ b^+) для класса 'МножествоПустое'\nОбнаружен циклический архитектурный антипаттерн взаимосвязи иерархий (a^+ b^+ a^+ b^+) для класса 'СемействоМножеств'\nОбнаружен циклический архитектурный антипаттерн взаимосвязи иерархий (a^+ b^+ a^+ b^+) для класса 'ЧислоВещественное'\nОбнаружен циклический архитектурный антипаттерн взаимосвязи иерархий (a^+ b^+ a^+ b^+) для класса 'ЧислоНатуральное'\nОбнаружен циклический архитектурный антипаттерн взаимосвязи иерархий (a^+ b^+ a^+ b^+) для класса 'ЧислоПростое'"
+    },
+    {
+      "paragraph_id": "1.2",
+      "paragraph_title": "1.2. Алгебра подмножеств",
+      "folder": "1.2_алгебра_подмножеств",
+      "relations_reviewed": 52,
+      "corrected_relations": 47,
+      "category_counts": {
+        "found_on_diagram_correct": 1,
+        "found_on_diagram_wrong_direction": 0,
+        "found_on_diagram_wrong_type": 1,
+        "found_on_diagram_wrong_direction_and_type": 0,
+        "found_not_on_diagram_accepted": 45,
+        "found_not_on_diagram_rejected": 0,
+        "not_found_from_diagram": 5
+      },
+      "rendered": false,
+      "render_error": "Обнаружен циклический архитектурный антипаттерн взаимосвязи иерархий (a^+ b^+ a^+ b^+) для класса 'Алгебра'\nОбнаружен циклический архитектурный антипаттерн взаимосвязи иерархий (a^+ b^+ a^+ b^+) для класса 'Разбиение'"
+    },
+    {
+      "paragraph_id": "1.3",
+      "paragraph_title": "1.3. Представление множеств в программах",
+      "folder": "1.3_представление_множеств_в_программах",
+      "relations_reviewed": 91,
+      "corrected_relations": 86,
+      "category_counts": {
+        "found_on_diagram_correct": 0,
+        "found_on_diagram_wrong_direction": 0,
+        "found_on_diagram_wrong_type": 1,
+        "found_on_diagram_wrong_direction_and_type": 0,
+        "found_not_on_diagram_accepted": 85,
+        "found_not_on_diagram_rejected": 1,
+        "not_found_from_diagram": 4
+      },
+      "rendered": true,
+      "render_error": null
+    },
+    {
+      "paragraph_id": "1.4",
+      "paragraph_title": "1.4. Отношения",
+      "folder": "1.4_отношения",
+      "relations_reviewed": 97,
+      "corrected_relations": 83,
+      "category_counts": {
+        "found_on_diagram_correct": 1,
+        "found_on_diagram_wrong_direction": 0,
+        "found_on_diagram_wrong_type": 1,
+        "found_on_diagram_wrong_direction_and_type": 0,
+        "found_not_on_diagram_accepted": 81,
+        "found_not_on_diagram_rejected": 0,
+        "not_found_from_diagram": 14
+      },
+      "rendered": false,
+      "render_error": "Обнаружен циклический архитектурный антипаттерн взаимосвязи иерархий (a^+ b^+ a^+ b^+) для класса 'Кортеж'"
+    },
+    {
+      "paragraph_id": "1.5",
+      "paragraph_title": "1.5. Замыкание и сокращение отношений",
+      "folder": "1.5_замыкание_и_сокращение_отношений",
+      "relations_reviewed": 11,
+      "corrected_relations": 5,
+      "category_counts": {
+        "found_on_diagram_correct": 0,
+        "found_on_diagram_wrong_direction": 0,
+        "found_on_diagram_wrong_type": 0,
+        "found_on_diagram_wrong_direction_and_type": 0,
+        "found_not_on_diagram_accepted": 5,
+        "found_not_on_diagram_rejected": 0,
+        "not_found_from_diagram": 6
+      },
+      "rendered": true,
+      "render_error": null
+    },
+    {
+      "paragraph_id": "1.6",
+      "paragraph_title": "1.6. Функции",
+      "folder": "1.6_функции",
+      "relations_reviewed": 87,
+      "corrected_relations": 76,
+      "category_counts": {
+        "found_on_diagram_correct": 0,
+        "found_on_diagram_wrong_direction": 0,
+        "found_on_diagram_wrong_type": 1,
+        "found_on_diagram_wrong_direction_and_type": 1,
+        "found_not_on_diagram_accepted": 74,
+        "found_not_on_diagram_rejected": 1,
+        "not_found_from_diagram": 10
+      },
+      "rendered": false,
+      "render_error": "Обнаружен циклический архитектурный антипаттерн взаимосвязи иерархий (a^+ b^+ a^+ b^+) для класса 'ОбластьЗначенийФункции'\nОбнаружен циклический архитектурный антипаттерн взаимосвязи иерархий (a^+ b^+ a^+ b^+) для класса 'ПродолжениеФункции'\nОбнаружен циклический архитектурный антипаттерн взаимосвязи иерархий (a^+ b^+ a^+ b^+) для класса 'СужениеФункции'\nОбнаружен циклический архитектурный антипаттерн взаимосвязи иерархий (a^+ b^+ a^+ b^+) для класса 'ФункцияТотальная'"
+    },
+    {
+      "paragraph_id": "1.7",
+      "paragraph_title": "1.7. Отношения эквивалентности",
+      "folder": "1.7_отношения_эквивалентности",
+      "relations_reviewed": 30,
+      "corrected_relations": 11,
+      "category_counts": {
+        "found_on_diagram_correct": 1,
+        "found_on_diagram_wrong_direction": 0,
+        "found_on_diagram_wrong_type": 0,
+        "found_on_diagram_wrong_direction_and_type": 0,
+        "found_not_on_diagram_accepted": 10,
+        "found_not_on_diagram_rejected": 10,
+        "not_found_from_diagram": 9
+      },
+      "rendered": true,
+      "render_error": null
+    },
+    {
+      "paragraph_id": "1.8",
+      "paragraph_title": "1.8. Отношения порядка",
+      "folder": "1.8_отношения_порядка",
+      "relations_reviewed": 58,
+      "corrected_relations": 41,
+      "category_counts": {
+        "found_on_diagram_correct": 0,
+        "found_on_diagram_wrong_direction": 2,
+        "found_on_diagram_wrong_type": 0,
+        "found_on_diagram_wrong_direction_and_type": 0,
+        "found_not_on_diagram_accepted": 39,
+        "found_not_on_diagram_rejected": 2,
+        "not_found_from_diagram": 15
+      },
+      "rendered": true,
+      "render_error": null
+    },
+    {
+      "paragraph_id": "1.9",
+      "paragraph_title": "1.9. Характеристические функции",
+      "folder": "1.9_характеристические_функции",
+      "relations_reviewed": 57,
+      "corrected_relations": 51,
+      "category_counts": {
+        "found_on_diagram_correct": 1,
+        "found_on_diagram_wrong_direction": 3,
+        "found_on_diagram_wrong_type": 0,
+        "found_on_diagram_wrong_direction_and_type": 1,
+        "found_not_on_diagram_accepted": 46,
+        "found_not_on_diagram_rejected": 0,
+        "not_found_from_diagram": 6
+      },
+      "rendered": true,
+      "render_error": null
+    }
+  ]
+}

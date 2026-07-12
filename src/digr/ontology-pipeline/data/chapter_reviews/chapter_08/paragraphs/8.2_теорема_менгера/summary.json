@@ -1,0 +1,18 @@
+{
+  "paragraph_id": "8.2",
+  "paragraph_title": "8.2. Теорема Менгера",
+  "folder": "8.2_теорема_менгера",
+  "relations_reviewed": 11,
+  "corrected_relations": 1,
+  "category_counts": {
+    "found_on_diagram_correct": 0,
+    "found_on_diagram_wrong_direction": 0,
+    "found_on_diagram_wrong_type": 0,
+    "found_on_diagram_wrong_direction_and_type": 0,
+    "found_not_on_diagram_accepted": 1,
+    "found_not_on_diagram_rejected": 0,
+    "not_found_from_diagram": 10
+  },
+  "rendered": true,
+  "render_error": null
+}

@@ -1,0 +1,21 @@
+{"paragraph_id": "9.1", "concept_a": "Граф ациклический", "concept_b": "Граф древочисленный", "has_relation": false}
+{"paragraph_id": "9.1", "concept_a": "Граф ациклический", "concept_b": "Граф субциклический", "has_relation": false}
+{"paragraph_id": "9.1", "concept_a": "Граф ациклический", "concept_b": "Дерево", "has_relation": true}
+{"paragraph_id": "9.1", "concept_a": "Граф ациклический", "concept_b": "Дерево свободное", "has_relation": true}
+{"paragraph_id": "9.1", "concept_a": "Граф ациклический", "concept_b": "Лес", "has_relation": true}
+{"paragraph_id": "9.1", "concept_a": "Граф ациклический", "concept_b": "Хорда", "has_relation": false}
+{"paragraph_id": "9.1", "concept_a": "Граф древочисленный", "concept_b": "Граф субциклический", "has_relation": true}
+{"paragraph_id": "9.1", "concept_a": "Граф древочисленный", "concept_b": "Дерево", "has_relation": false}
+{"paragraph_id": "9.1", "concept_a": "Граф древочисленный", "concept_b": "Дерево свободное", "has_relation": false}
+{"paragraph_id": "9.1", "concept_a": "Граф древочисленный", "concept_b": "Лес", "has_relation": false}
+{"paragraph_id": "9.1", "concept_a": "Граф древочисленный", "concept_b": "Хорда", "has_relation": false}
+{"paragraph_id": "9.1", "concept_a": "Граф субциклический", "concept_b": "Дерево", "has_relation": false}
+{"paragraph_id": "9.1", "concept_a": "Граф субциклический", "concept_b": "Дерево свободное", "has_relation": false}
+{"paragraph_id": "9.1", "concept_a": "Граф субциклический", "concept_b": "Лес", "has_relation": false}
+{"paragraph_id": "9.1", "concept_a": "Граф субциклический", "concept_b": "Хорда", "has_relation": false}
+{"paragraph_id": "9.1", "concept_a": "Дерево", "concept_b": "Дерево свободное", "has_relation": true}
+{"paragraph_id": "9.1", "concept_a": "Дерево", "concept_b": "Лес", "has_relation": true}
+{"paragraph_id": "9.1", "concept_a": "Дерево", "concept_b": "Хорда", "has_relation": false}
+{"paragraph_id": "9.1", "concept_a": "Дерево свободное", "concept_b": "Лес", "has_relation": true}
+{"paragraph_id": "9.1", "concept_a": "Дерево свободное", "concept_b": "Хорда", "has_relation": false}
+{"paragraph_id": "9.1", "concept_a": "Лес", "concept_b": "Хорда", "has_relation": false}

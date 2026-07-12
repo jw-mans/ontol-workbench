@@ -1,0 +1,1081 @@
+{"paragraph_id": "7.2", "concept_a": "Валентность вершины", "concept_b": "Вершина висячая", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Валентность вершины", "concept_b": "Вершина изолированная", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Валентность вершины", "concept_b": "Вершина концевая", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Валентность вершины", "concept_b": "Вершина откладывание", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Валентность вершины", "concept_b": "Вершина связанная", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Валентность вершины", "concept_b": "Вершина центральная", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Валентность вершины", "concept_b": "Граф ациклический", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Валентность вершины", "concept_b": "Граф вполне несвязный", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Валентность вершины", "concept_b": "Граф геодезический", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Валентность вершины", "concept_b": "Граф несвязный", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Валентность вершины", "concept_b": "Граф регулярный", "has_relation": true}
+{"paragraph_id": "7.2", "concept_a": "Валентность вершины", "concept_b": "Граф связный", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Валентность вершины", "concept_b": "Диаметр графа", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Валентность вершины", "concept_b": "Длина маршрута", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Валентность вершины", "concept_b": "Длина цикла", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Валентность вершины", "concept_b": "Изграф", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Валентность вершины", "concept_b": "Компонента связности", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Валентность вершины", "concept_b": "Конец цепи", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Валентность вершины", "concept_b": "Контур", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Валентность вершины", "concept_b": "Маршрут", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Валентность вершины", "concept_b": "Маршрут замкнутый", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Валентность вершины", "concept_b": "Маршрут открытый", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Валентность вершины", "concept_b": "Подграф", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Валентность вершины", "concept_b": "Подграф остовный", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Валентность вершины", "concept_b": "Подграф правильный", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Валентность вершины", "concept_b": "Подграф собственный", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Валентность вершины", "concept_b": "Полустепень захода", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Валентность вершины", "concept_b": "Полустепень исхода", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Валентность вершины", "concept_b": "Последовательность графовая", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Валентность вершины", "concept_b": "Последовательность остаточная", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Валентность вершины", "concept_b": "Последовательность степенная", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Валентность вершины", "concept_b": "Путь", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Валентность вершины", "concept_b": "Радиус графа", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Валентность вершины", "concept_b": "Расстояние", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Валентность вершины", "concept_b": "Степень вершины", "has_relation": true}
+{"paragraph_id": "7.2", "concept_a": "Валентность вершины", "concept_b": "Степень вершины максимальная", "has_relation": true}
+{"paragraph_id": "7.2", "concept_a": "Валентность вершины", "concept_b": "Степень вершины минимальная", "has_relation": true}
+{"paragraph_id": "7.2", "concept_a": "Валентность вершины", "concept_b": "Центр графа", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Валентность вершины", "concept_b": "Цепь", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Валентность вершины", "concept_b": "Цепь Геодезическая", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Валентность вершины", "concept_b": "Цепь простая", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Валентность вершины", "concept_b": "Цикл", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Валентность вершины", "concept_b": "Цикл простой", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Валентность вершины", "concept_b": "Часть графа", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Валентность вершины", "concept_b": "Эксцентриситет вершины", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Валентность вершины", "concept_b": "Ярус", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Вершина висячая", "concept_b": "Вершина изолированная", "has_relation": true}
+{"paragraph_id": "7.2", "concept_a": "Вершина висячая", "concept_b": "Вершина концевая", "has_relation": true}
+{"paragraph_id": "7.2", "concept_a": "Вершина висячая", "concept_b": "Вершина откладывание", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Вершина висячая", "concept_b": "Вершина связанная", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Вершина висячая", "concept_b": "Вершина центральная", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Вершина висячая", "concept_b": "Граф ациклический", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Вершина висячая", "concept_b": "Граф вполне несвязный", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Вершина висячая", "concept_b": "Граф геодезический", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Вершина висячая", "concept_b": "Граф несвязный", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Вершина висячая", "concept_b": "Граф регулярный", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Вершина висячая", "concept_b": "Граф связный", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Вершина висячая", "concept_b": "Диаметр графа", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Вершина висячая", "concept_b": "Длина маршрута", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Вершина висячая", "concept_b": "Длина цикла", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Вершина висячая", "concept_b": "Изграф", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Вершина висячая", "concept_b": "Компонента связности", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Вершина висячая", "concept_b": "Конец цепи", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Вершина висячая", "concept_b": "Контур", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Вершина висячая", "concept_b": "Маршрут", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Вершина висячая", "concept_b": "Маршрут замкнутый", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Вершина висячая", "concept_b": "Маршрут открытый", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Вершина висячая", "concept_b": "Подграф", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Вершина висячая", "concept_b": "Подграф остовный", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Вершина висячая", "concept_b": "Подграф правильный", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Вершина висячая", "concept_b": "Подграф собственный", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Вершина висячая", "concept_b": "Полустепень захода", "has_relation": true}
+{"paragraph_id": "7.2", "concept_a": "Вершина висячая", "concept_b": "Полустепень исхода", "has_relation": true}
+{"paragraph_id": "7.2", "concept_a": "Вершина висячая", "concept_b": "Последовательность графовая", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Вершина висячая", "concept_b": "Последовательность остаточная", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Вершина висячая", "concept_b": "Последовательность степенная", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Вершина висячая", "concept_b": "Путь", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Вершина висячая", "concept_b": "Радиус графа", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Вершина висячая", "concept_b": "Расстояние", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Вершина висячая", "concept_b": "Степень вершины", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Вершина висячая", "concept_b": "Степень вершины максимальная", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Вершина висячая", "concept_b": "Степень вершины минимальная", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Вершина висячая", "concept_b": "Центр графа", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Вершина висячая", "concept_b": "Цепь", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Вершина висячая", "concept_b": "Цепь Геодезическая", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Вершина висячая", "concept_b": "Цепь простая", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Вершина висячая", "concept_b": "Цикл", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Вершина висячая", "concept_b": "Цикл простой", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Вершина висячая", "concept_b": "Часть графа", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Вершина висячая", "concept_b": "Эксцентриситет вершины", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Вершина висячая", "concept_b": "Ярус", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Вершина изолированная", "concept_b": "Вершина концевая", "has_relation": true}
+{"paragraph_id": "7.2", "concept_a": "Вершина изолированная", "concept_b": "Вершина откладывание", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Вершина изолированная", "concept_b": "Вершина связанная", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Вершина изолированная", "concept_b": "Вершина центральная", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Вершина изолированная", "concept_b": "Граф ациклический", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Вершина изолированная", "concept_b": "Граф вполне несвязный", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Вершина изолированная", "concept_b": "Граф геодезический", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Вершина изолированная", "concept_b": "Граф несвязный", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Вершина изолированная", "concept_b": "Граф регулярный", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Вершина изолированная", "concept_b": "Граф связный", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Вершина изолированная", "concept_b": "Диаметр графа", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Вершина изолированная", "concept_b": "Длина маршрута", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Вершина изолированная", "concept_b": "Длина цикла", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Вершина изолированная", "concept_b": "Изграф", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Вершина изолированная", "concept_b": "Компонента связности", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Вершина изолированная", "concept_b": "Конец цепи", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Вершина изолированная", "concept_b": "Контур", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Вершина изолированная", "concept_b": "Маршрут", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Вершина изолированная", "concept_b": "Маршрут замкнутый", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Вершина изолированная", "concept_b": "Маршрут открытый", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Вершина изолированная", "concept_b": "Подграф", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Вершина изолированная", "concept_b": "Подграф остовный", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Вершина изолированная", "concept_b": "Подграф правильный", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Вершина изолированная", "concept_b": "Подграф собственный", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Вершина изолированная", "concept_b": "Полустепень захода", "has_relation": true}
+{"paragraph_id": "7.2", "concept_a": "Вершина изолированная", "concept_b": "Полустепень исхода", "has_relation": true}
+{"paragraph_id": "7.2", "concept_a": "Вершина изолированная", "concept_b": "Последовательность графовая", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Вершина изолированная", "concept_b": "Последовательность остаточная", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Вершина изолированная", "concept_b": "Последовательность степенная", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Вершина изолированная", "concept_b": "Путь", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Вершина изолированная", "concept_b": "Радиус графа", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Вершина изолированная", "concept_b": "Расстояние", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Вершина изолированная", "concept_b": "Степень вершины", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Вершина изолированная", "concept_b": "Степень вершины максимальная", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Вершина изолированная", "concept_b": "Степень вершины минимальная", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Вершина изолированная", "concept_b": "Центр графа", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Вершина изолированная", "concept_b": "Цепь", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Вершина изолированная", "concept_b": "Цепь Геодезическая", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Вершина изолированная", "concept_b": "Цепь простая", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Вершина изолированная", "concept_b": "Цикл", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Вершина изолированная", "concept_b": "Цикл простой", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Вершина изолированная", "concept_b": "Часть графа", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Вершина изолированная", "concept_b": "Эксцентриситет вершины", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Вершина изолированная", "concept_b": "Ярус", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Вершина концевая", "concept_b": "Вершина откладывание", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Вершина концевая", "concept_b": "Вершина связанная", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Вершина концевая", "concept_b": "Вершина центральная", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Вершина концевая", "concept_b": "Граф ациклический", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Вершина концевая", "concept_b": "Граф вполне несвязный", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Вершина концевая", "concept_b": "Граф геодезический", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Вершина концевая", "concept_b": "Граф несвязный", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Вершина концевая", "concept_b": "Граф регулярный", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Вершина концевая", "concept_b": "Граф связный", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Вершина концевая", "concept_b": "Диаметр графа", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Вершина концевая", "concept_b": "Длина маршрута", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Вершина концевая", "concept_b": "Длина цикла", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Вершина концевая", "concept_b": "Изграф", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Вершина концевая", "concept_b": "Компонента связности", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Вершина концевая", "concept_b": "Конец цепи", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Вершина концевая", "concept_b": "Контур", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Вершина концевая", "concept_b": "Маршрут", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Вершина концевая", "concept_b": "Маршрут замкнутый", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Вершина концевая", "concept_b": "Маршрут открытый", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Вершина концевая", "concept_b": "Подграф", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Вершина концевая", "concept_b": "Подграф остовный", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Вершина концевая", "concept_b": "Подграф правильный", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Вершина концевая", "concept_b": "Подграф собственный", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Вершина концевая", "concept_b": "Полустепень захода", "has_relation": true}
+{"paragraph_id": "7.2", "concept_a": "Вершина концевая", "concept_b": "Полустепень исхода", "has_relation": true}
+{"paragraph_id": "7.2", "concept_a": "Вершина концевая", "concept_b": "Последовательность графовая", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Вершина концевая", "concept_b": "Последовательность остаточная", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Вершина концевая", "concept_b": "Последовательность степенная", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Вершина концевая", "concept_b": "Путь", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Вершина концевая", "concept_b": "Радиус графа", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Вершина концевая", "concept_b": "Расстояние", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Вершина концевая", "concept_b": "Степень вершины", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Вершина концевая", "concept_b": "Степень вершины максимальная", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Вершина концевая", "concept_b": "Степень вершины минимальная", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Вершина концевая", "concept_b": "Центр графа", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Вершина концевая", "concept_b": "Цепь", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Вершина концевая", "concept_b": "Цепь Геодезическая", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Вершина концевая", "concept_b": "Цепь простая", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Вершина концевая", "concept_b": "Цикл", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Вершина концевая", "concept_b": "Цикл простой", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Вершина концевая", "concept_b": "Часть графа", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Вершина концевая", "concept_b": "Эксцентриситет вершины", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Вершина концевая", "concept_b": "Ярус", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Вершина откладывание", "concept_b": "Вершина связанная", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Вершина откладывание", "concept_b": "Вершина центральная", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Вершина откладывание", "concept_b": "Граф ациклический", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Вершина откладывание", "concept_b": "Граф вполне несвязный", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Вершина откладывание", "concept_b": "Граф геодезический", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Вершина откладывание", "concept_b": "Граф несвязный", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Вершина откладывание", "concept_b": "Граф регулярный", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Вершина откладывание", "concept_b": "Граф связный", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Вершина откладывание", "concept_b": "Диаметр графа", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Вершина откладывание", "concept_b": "Длина маршрута", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Вершина откладывание", "concept_b": "Длина цикла", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Вершина откладывание", "concept_b": "Изграф", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Вершина откладывание", "concept_b": "Компонента связности", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Вершина откладывание", "concept_b": "Конец цепи", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Вершина откладывание", "concept_b": "Контур", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Вершина откладывание", "concept_b": "Маршрут", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Вершина откладывание", "concept_b": "Маршрут замкнутый", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Вершина откладывание", "concept_b": "Маршрут открытый", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Вершина откладывание", "concept_b": "Подграф", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Вершина откладывание", "concept_b": "Подграф остовный", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Вершина откладывание", "concept_b": "Подграф правильный", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Вершина откладывание", "concept_b": "Подграф собственный", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Вершина откладывание", "concept_b": "Полустепень захода", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Вершина откладывание", "concept_b": "Полустепень исхода", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Вершина откладывание", "concept_b": "Последовательность графовая", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Вершина откладывание", "concept_b": "Последовательность остаточная", "has_relation": true}
+{"paragraph_id": "7.2", "concept_a": "Вершина откладывание", "concept_b": "Последовательность степенная", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Вершина откладывание", "concept_b": "Путь", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Вершина откладывание", "concept_b": "Радиус графа", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Вершина откладывание", "concept_b": "Расстояние", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Вершина откладывание", "concept_b": "Степень вершины", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Вершина откладывание", "concept_b": "Степень вершины максимальная", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Вершина откладывание", "concept_b": "Степень вершины минимальная", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Вершина откладывание", "concept_b": "Центр графа", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Вершина откладывание", "concept_b": "Цепь", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Вершина откладывание", "concept_b": "Цепь Геодезическая", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Вершина откладывание", "concept_b": "Цепь простая", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Вершина откладывание", "concept_b": "Цикл", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Вершина откладывание", "concept_b": "Цикл простой", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Вершина откладывание", "concept_b": "Часть графа", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Вершина откладывание", "concept_b": "Эксцентриситет вершины", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Вершина откладывание", "concept_b": "Ярус", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Вершина связанная", "concept_b": "Вершина центральная", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Вершина связанная", "concept_b": "Граф ациклический", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Вершина связанная", "concept_b": "Граф вполне несвязный", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Вершина связанная", "concept_b": "Граф геодезический", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Вершина связанная", "concept_b": "Граф несвязный", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Вершина связанная", "concept_b": "Граф регулярный", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Вершина связанная", "concept_b": "Граф связный", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Вершина связанная", "concept_b": "Диаметр графа", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Вершина связанная", "concept_b": "Длина маршрута", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Вершина связанная", "concept_b": "Длина цикла", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Вершина связанная", "concept_b": "Изграф", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Вершина связанная", "concept_b": "Компонента связности", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Вершина связанная", "concept_b": "Конец цепи", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Вершина связанная", "concept_b": "Контур", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Вершина связанная", "concept_b": "Маршрут", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Вершина связанная", "concept_b": "Маршрут замкнутый", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Вершина связанная", "concept_b": "Маршрут открытый", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Вершина связанная", "concept_b": "Подграф", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Вершина связанная", "concept_b": "Подграф остовный", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Вершина связанная", "concept_b": "Подграф правильный", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Вершина связанная", "concept_b": "Подграф собственный", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Вершина связанная", "concept_b": "Полустепень захода", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Вершина связанная", "concept_b": "Полустепень исхода", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Вершина связанная", "concept_b": "Последовательность графовая", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Вершина связанная", "concept_b": "Последовательность остаточная", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Вершина связанная", "concept_b": "Последовательность степенная", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Вершина связанная", "concept_b": "Путь", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Вершина связанная", "concept_b": "Радиус графа", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Вершина связанная", "concept_b": "Расстояние", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Вершина связанная", "concept_b": "Степень вершины", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Вершина связанная", "concept_b": "Степень вершины максимальная", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Вершина связанная", "concept_b": "Степень вершины минимальная", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Вершина связанная", "concept_b": "Центр графа", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Вершина связанная", "concept_b": "Цепь", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Вершина связанная", "concept_b": "Цепь Геодезическая", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Вершина связанная", "concept_b": "Цепь простая", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Вершина связанная", "concept_b": "Цикл", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Вершина связанная", "concept_b": "Цикл простой", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Вершина связанная", "concept_b": "Часть графа", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Вершина связанная", "concept_b": "Эксцентриситет вершины", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Вершина связанная", "concept_b": "Ярус", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Вершина центральная", "concept_b": "Граф ациклический", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Вершина центральная", "concept_b": "Граф вполне несвязный", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Вершина центральная", "concept_b": "Граф геодезический", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Вершина центральная", "concept_b": "Граф несвязный", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Вершина центральная", "concept_b": "Граф регулярный", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Вершина центральная", "concept_b": "Граф связный", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Вершина центральная", "concept_b": "Диаметр графа", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Вершина центральная", "concept_b": "Длина маршрута", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Вершина центральная", "concept_b": "Длина цикла", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Вершина центральная", "concept_b": "Изграф", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Вершина центральная", "concept_b": "Компонента связности", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Вершина центральная", "concept_b": "Конец цепи", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Вершина центральная", "concept_b": "Контур", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Вершина центральная", "concept_b": "Маршрут", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Вершина центральная", "concept_b": "Маршрут замкнутый", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Вершина центральная", "concept_b": "Маршрут открытый", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Вершина центральная", "concept_b": "Подграф", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Вершина центральная", "concept_b": "Подграф остовный", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Вершина центральная", "concept_b": "Подграф правильный", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Вершина центральная", "concept_b": "Подграф собственный", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Вершина центральная", "concept_b": "Полустепень захода", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Вершина центральная", "concept_b": "Полустепень исхода", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Вершина центральная", "concept_b": "Последовательность графовая", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Вершина центральная", "concept_b": "Последовательность остаточная", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Вершина центральная", "concept_b": "Последовательность степенная", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Вершина центральная", "concept_b": "Путь", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Вершина центральная", "concept_b": "Радиус графа", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Вершина центральная", "concept_b": "Расстояние", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Вершина центральная", "concept_b": "Степень вершины", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Вершина центральная", "concept_b": "Степень вершины максимальная", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Вершина центральная", "concept_b": "Степень вершины минимальная", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Вершина центральная", "concept_b": "Центр графа", "has_relation": true}
+{"paragraph_id": "7.2", "concept_a": "Вершина центральная", "concept_b": "Цепь", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Вершина центральная", "concept_b": "Цепь Геодезическая", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Вершина центральная", "concept_b": "Цепь простая", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Вершина центральная", "concept_b": "Цикл", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Вершина центральная", "concept_b": "Цикл простой", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Вершина центральная", "concept_b": "Часть графа", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Вершина центральная", "concept_b": "Эксцентриситет вершины", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Вершина центральная", "concept_b": "Ярус", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Граф ациклический", "concept_b": "Граф вполне несвязный", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Граф ациклический", "concept_b": "Граф геодезический", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Граф ациклический", "concept_b": "Граф несвязный", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Граф ациклический", "concept_b": "Граф регулярный", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Граф ациклический", "concept_b": "Граф связный", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Граф ациклический", "concept_b": "Диаметр графа", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Граф ациклический", "concept_b": "Длина маршрута", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Граф ациклический", "concept_b": "Длина цикла", "has_relation": true}
+{"paragraph_id": "7.2", "concept_a": "Граф ациклический", "concept_b": "Изграф", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Граф ациклический", "concept_b": "Компонента связности", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Граф ациклический", "concept_b": "Конец цепи", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Граф ациклический", "concept_b": "Контур", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Граф ациклический", "concept_b": "Маршрут", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Граф ациклический", "concept_b": "Маршрут замкнутый", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Граф ациклический", "concept_b": "Маршрут открытый", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Граф ациклический", "concept_b": "Подграф", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Граф ациклический", "concept_b": "Подграф остовный", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Граф ациклический", "concept_b": "Подграф правильный", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Граф ациклический", "concept_b": "Подграф собственный", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Граф ациклический", "concept_b": "Полустепень захода", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Граф ациклический", "concept_b": "Полустепень исхода", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Граф ациклический", "concept_b": "Последовательность графовая", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Граф ациклический", "concept_b": "Последовательность остаточная", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Граф ациклический", "concept_b": "Последовательность степенная", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Граф ациклический", "concept_b": "Путь", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Граф ациклический", "concept_b": "Радиус графа", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Граф ациклический", "concept_b": "Расстояние", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Граф ациклический", "concept_b": "Степень вершины", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Граф ациклический", "concept_b": "Степень вершины максимальная", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Граф ациклический", "concept_b": "Степень вершины минимальная", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Граф ациклический", "concept_b": "Центр графа", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Граф ациклический", "concept_b": "Цепь", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Граф ациклический", "concept_b": "Цепь Геодезическая", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Граф ациклический", "concept_b": "Цепь простая", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Граф ациклический", "concept_b": "Цикл", "has_relation": true}
+{"paragraph_id": "7.2", "concept_a": "Граф ациклический", "concept_b": "Цикл простой", "has_relation": true}
+{"paragraph_id": "7.2", "concept_a": "Граф ациклический", "concept_b": "Часть графа", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Граф ациклический", "concept_b": "Эксцентриситет вершины", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Граф ациклический", "concept_b": "Ярус", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Граф вполне несвязный", "concept_b": "Граф геодезический", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Граф вполне несвязный", "concept_b": "Граф несвязный", "has_relation": true}
+{"paragraph_id": "7.2", "concept_a": "Граф вполне несвязный", "concept_b": "Граф регулярный", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Граф вполне несвязный", "concept_b": "Граф связный", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Граф вполне несвязный", "concept_b": "Диаметр графа", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Граф вполне несвязный", "concept_b": "Длина маршрута", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Граф вполне несвязный", "concept_b": "Длина цикла", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Граф вполне несвязный", "concept_b": "Изграф", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Граф вполне несвязный", "concept_b": "Компонента связности", "has_relation": true}
+{"paragraph_id": "7.2", "concept_a": "Граф вполне несвязный", "concept_b": "Конец цепи", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Граф вполне несвязный", "concept_b": "Контур", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Граф вполне несвязный", "concept_b": "Маршрут", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Граф вполне несвязный", "concept_b": "Маршрут замкнутый", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Граф вполне несвязный", "concept_b": "Маршрут открытый", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Граф вполне несвязный", "concept_b": "Подграф", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Граф вполне несвязный", "concept_b": "Подграф остовный", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Граф вполне несвязный", "concept_b": "Подграф правильный", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Граф вполне несвязный", "concept_b": "Подграф собственный", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Граф вполне несвязный", "concept_b": "Полустепень захода", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Граф вполне несвязный", "concept_b": "Полустепень исхода", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Граф вполне несвязный", "concept_b": "Последовательность графовая", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Граф вполне несвязный", "concept_b": "Последовательность остаточная", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Граф вполне несвязный", "concept_b": "Последовательность степенная", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Граф вполне несвязный", "concept_b": "Путь", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Граф вполне несвязный", "concept_b": "Радиус графа", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Граф вполне несвязный", "concept_b": "Расстояние", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Граф вполне несвязный", "concept_b": "Степень вершины", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Граф вполне несвязный", "concept_b": "Степень вершины максимальная", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Граф вполне несвязный", "concept_b": "Степень вершины минимальная", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Граф вполне несвязный", "concept_b": "Центр графа", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Граф вполне несвязный", "concept_b": "Цепь", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Граф вполне несвязный", "concept_b": "Цепь Геодезическая", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Граф вполне несвязный", "concept_b": "Цепь простая", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Граф вполне несвязный", "concept_b": "Цикл", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Граф вполне несвязный", "concept_b": "Цикл простой", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Граф вполне несвязный", "concept_b": "Часть графа", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Граф вполне несвязный", "concept_b": "Эксцентриситет вершины", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Граф вполне несвязный", "concept_b": "Ярус", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Граф геодезический", "concept_b": "Граф несвязный", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Граф геодезический", "concept_b": "Граф регулярный", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Граф геодезический", "concept_b": "Граф связный", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Граф геодезический", "concept_b": "Диаметр графа", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Граф геодезический", "concept_b": "Длина маршрута", "has_relation": true}
+{"paragraph_id": "7.2", "concept_a": "Граф геодезический", "concept_b": "Длина цикла", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Граф геодезический", "concept_b": "Изграф", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Граф геодезический", "concept_b": "Компонента связности", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Граф геодезический", "concept_b": "Конец цепи", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Граф геодезический", "concept_b": "Контур", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Граф геодезический", "concept_b": "Маршрут", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Граф геодезический", "concept_b": "Маршрут замкнутый", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Граф геодезический", "concept_b": "Маршрут открытый", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Граф геодезический", "concept_b": "Подграф", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Граф геодезический", "concept_b": "Подграф остовный", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Граф геодезический", "concept_b": "Подграф правильный", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Граф геодезический", "concept_b": "Подграф собственный", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Граф геодезический", "concept_b": "Полустепень захода", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Граф геодезический", "concept_b": "Полустепень исхода", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Граф геодезический", "concept_b": "Последовательность графовая", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Граф геодезический", "concept_b": "Последовательность остаточная", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Граф геодезический", "concept_b": "Последовательность степенная", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Граф геодезический", "concept_b": "Путь", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Граф геодезический", "concept_b": "Радиус графа", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Граф геодезический", "concept_b": "Расстояние", "has_relation": true}
+{"paragraph_id": "7.2", "concept_a": "Граф геодезический", "concept_b": "Степень вершины", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Граф геодезический", "concept_b": "Степень вершины максимальная", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Граф геодезический", "concept_b": "Степень вершины минимальная", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Граф геодезический", "concept_b": "Центр графа", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Граф геодезический", "concept_b": "Цепь", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Граф геодезический", "concept_b": "Цепь Геодезическая", "has_relation": true}
+{"paragraph_id": "7.2", "concept_a": "Граф геодезический", "concept_b": "Цепь простая", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Граф геодезический", "concept_b": "Цикл", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Граф геодезический", "concept_b": "Цикл простой", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Граф геодезический", "concept_b": "Часть графа", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Граф геодезический", "concept_b": "Эксцентриситет вершины", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Граф геодезический", "concept_b": "Ярус", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Граф несвязный", "concept_b": "Граф регулярный", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Граф несвязный", "concept_b": "Граф связный", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Граф несвязный", "concept_b": "Диаметр графа", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Граф несвязный", "concept_b": "Длина маршрута", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Граф несвязный", "concept_b": "Длина цикла", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Граф несвязный", "concept_b": "Изграф", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Граф несвязный", "concept_b": "Компонента связности", "has_relation": true}
+{"paragraph_id": "7.2", "concept_a": "Граф несвязный", "concept_b": "Конец цепи", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Граф несвязный", "concept_b": "Контур", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Граф несвязный", "concept_b": "Маршрут", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Граф несвязный", "concept_b": "Маршрут замкнутый", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Граф несвязный", "concept_b": "Маршрут открытый", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Граф несвязный", "concept_b": "Подграф", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Граф несвязный", "concept_b": "Подграф остовный", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Граф несвязный", "concept_b": "Подграф правильный", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Граф несвязный", "concept_b": "Подграф собственный", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Граф несвязный", "concept_b": "Полустепень захода", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Граф несвязный", "concept_b": "Полустепень исхода", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Граф несвязный", "concept_b": "Последовательность графовая", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Граф несвязный", "concept_b": "Последовательность остаточная", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Граф несвязный", "concept_b": "Последовательность степенная", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Граф несвязный", "concept_b": "Путь", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Граф несвязный", "concept_b": "Радиус графа", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Граф несвязный", "concept_b": "Расстояние", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Граф несвязный", "concept_b": "Степень вершины", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Граф несвязный", "concept_b": "Степень вершины максимальная", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Граф несвязный", "concept_b": "Степень вершины минимальная", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Граф несвязный", "concept_b": "Центр графа", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Граф несвязный", "concept_b": "Цепь", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Граф несвязный", "concept_b": "Цепь Геодезическая", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Граф несвязный", "concept_b": "Цепь простая", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Граф несвязный", "concept_b": "Цикл", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Граф несвязный", "concept_b": "Цикл простой", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Граф несвязный", "concept_b": "Часть графа", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Граф несвязный", "concept_b": "Эксцентриситет вершины", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Граф несвязный", "concept_b": "Ярус", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Граф регулярный", "concept_b": "Граф связный", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Граф регулярный", "concept_b": "Диаметр графа", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Граф регулярный", "concept_b": "Длина маршрута", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Граф регулярный", "concept_b": "Длина цикла", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Граф регулярный", "concept_b": "Изграф", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Граф регулярный", "concept_b": "Компонента связности", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Граф регулярный", "concept_b": "Конец цепи", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Граф регулярный", "concept_b": "Контур", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Граф регулярный", "concept_b": "Маршрут", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Граф регулярный", "concept_b": "Маршрут замкнутый", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Граф регулярный", "concept_b": "Маршрут открытый", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Граф регулярный", "concept_b": "Подграф", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Граф регулярный", "concept_b": "Подграф остовный", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Граф регулярный", "concept_b": "Подграф правильный", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Граф регулярный", "concept_b": "Подграф собственный", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Граф регулярный", "concept_b": "Полустепень захода", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Граф регулярный", "concept_b": "Полустепень исхода", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Граф регулярный", "concept_b": "Последовательность графовая", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Граф регулярный", "concept_b": "Последовательность остаточная", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Граф регулярный", "concept_b": "Последовательность степенная", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Граф регулярный", "concept_b": "Путь", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Граф регулярный", "concept_b": "Радиус графа", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Граф регулярный", "concept_b": "Расстояние", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Граф регулярный", "concept_b": "Степень вершины", "has_relation": true}
+{"paragraph_id": "7.2", "concept_a": "Граф регулярный", "concept_b": "Степень вершины максимальная", "has_relation": true}
+{"paragraph_id": "7.2", "concept_a": "Граф регулярный", "concept_b": "Степень вершины минимальная", "has_relation": true}
+{"paragraph_id": "7.2", "concept_a": "Граф регулярный", "concept_b": "Центр графа", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Граф регулярный", "concept_b": "Цепь", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Граф регулярный", "concept_b": "Цепь Геодезическая", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Граф регулярный", "concept_b": "Цепь простая", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Граф регулярный", "concept_b": "Цикл", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Граф регулярный", "concept_b": "Цикл простой", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Граф регулярный", "concept_b": "Часть графа", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Граф регулярный", "concept_b": "Эксцентриситет вершины", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Граф регулярный", "concept_b": "Ярус", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Граф связный", "concept_b": "Диаметр графа", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Граф связный", "concept_b": "Длина маршрута", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Граф связный", "concept_b": "Длина цикла", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Граф связный", "concept_b": "Изграф", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Граф связный", "concept_b": "Компонента связности", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Граф связный", "concept_b": "Конец цепи", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Граф связный", "concept_b": "Контур", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Граф связный", "concept_b": "Маршрут", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Граф связный", "concept_b": "Маршрут замкнутый", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Граф связный", "concept_b": "Маршрут открытый", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Граф связный", "concept_b": "Подграф", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Граф связный", "concept_b": "Подграф остовный", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Граф связный", "concept_b": "Подграф правильный", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Граф связный", "concept_b": "Подграф собственный", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Граф связный", "concept_b": "Полустепень захода", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Граф связный", "concept_b": "Полустепень исхода", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Граф связный", "concept_b": "Последовательность графовая", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Граф связный", "concept_b": "Последовательность остаточная", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Граф связный", "concept_b": "Последовательность степенная", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Граф связный", "concept_b": "Путь", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Граф связный", "concept_b": "Радиус графа", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Граф связный", "concept_b": "Расстояние", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Граф связный", "concept_b": "Степень вершины", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Граф связный", "concept_b": "Степень вершины максимальная", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Граф связный", "concept_b": "Степень вершины минимальная", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Граф связный", "concept_b": "Центр графа", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Граф связный", "concept_b": "Цепь", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Граф связный", "concept_b": "Цепь Геодезическая", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Граф связный", "concept_b": "Цепь простая", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Граф связный", "concept_b": "Цикл", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Граф связный", "concept_b": "Цикл простой", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Граф связный", "concept_b": "Часть графа", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Граф связный", "concept_b": "Эксцентриситет вершины", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Граф связный", "concept_b": "Ярус", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Диаметр графа", "concept_b": "Длина маршрута", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Диаметр графа", "concept_b": "Длина цикла", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Диаметр графа", "concept_b": "Изграф", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Диаметр графа", "concept_b": "Компонента связности", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Диаметр графа", "concept_b": "Конец цепи", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Диаметр графа", "concept_b": "Контур", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Диаметр графа", "concept_b": "Маршрут", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Диаметр графа", "concept_b": "Маршрут замкнутый", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Диаметр графа", "concept_b": "Маршрут открытый", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Диаметр графа", "concept_b": "Подграф", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Диаметр графа", "concept_b": "Подграф остовный", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Диаметр графа", "concept_b": "Подграф правильный", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Диаметр графа", "concept_b": "Подграф собственный", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Диаметр графа", "concept_b": "Полустепень захода", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Диаметр графа", "concept_b": "Полустепень исхода", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Диаметр графа", "concept_b": "Последовательность графовая", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Диаметр графа", "concept_b": "Последовательность остаточная", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Диаметр графа", "concept_b": "Последовательность степенная", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Диаметр графа", "concept_b": "Путь", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Диаметр графа", "concept_b": "Радиус графа", "has_relation": true}
+{"paragraph_id": "7.2", "concept_a": "Диаметр графа", "concept_b": "Расстояние", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Диаметр графа", "concept_b": "Степень вершины", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Диаметр графа", "concept_b": "Степень вершины максимальная", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Диаметр графа", "concept_b": "Степень вершины минимальная", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Диаметр графа", "concept_b": "Центр графа", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Диаметр графа", "concept_b": "Цепь", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Диаметр графа", "concept_b": "Цепь Геодезическая", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Диаметр графа", "concept_b": "Цепь простая", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Диаметр графа", "concept_b": "Цикл", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Диаметр графа", "concept_b": "Цикл простой", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Диаметр графа", "concept_b": "Часть графа", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Диаметр графа", "concept_b": "Эксцентриситет вершины", "has_relation": true}
+{"paragraph_id": "7.2", "concept_a": "Диаметр графа", "concept_b": "Ярус", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Длина маршрута", "concept_b": "Длина цикла", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Длина маршрута", "concept_b": "Изграф", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Длина маршрута", "concept_b": "Компонента связности", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Длина маршрута", "concept_b": "Конец цепи", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Длина маршрута", "concept_b": "Контур", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Длина маршрута", "concept_b": "Маршрут", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Длина маршрута", "concept_b": "Маршрут замкнутый", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Длина маршрута", "concept_b": "Маршрут открытый", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Длина маршрута", "concept_b": "Подграф", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Длина маршрута", "concept_b": "Подграф остовный", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Длина маршрута", "concept_b": "Подграф правильный", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Длина маршрута", "concept_b": "Подграф собственный", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Длина маршрута", "concept_b": "Полустепень захода", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Длина маршрута", "concept_b": "Полустепень исхода", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Длина маршрута", "concept_b": "Последовательность графовая", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Длина маршрута", "concept_b": "Последовательность остаточная", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Длина маршрута", "concept_b": "Последовательность степенная", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Длина маршрута", "concept_b": "Путь", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Длина маршрута", "concept_b": "Радиус графа", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Длина маршрута", "concept_b": "Расстояние", "has_relation": true}
+{"paragraph_id": "7.2", "concept_a": "Длина маршрута", "concept_b": "Степень вершины", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Длина маршрута", "concept_b": "Степень вершины максимальная", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Длина маршрута", "concept_b": "Степень вершины минимальная", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Длина маршрута", "concept_b": "Центр графа", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Длина маршрута", "concept_b": "Цепь", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Длина маршрута", "concept_b": "Цепь Геодезическая", "has_relation": true}
+{"paragraph_id": "7.2", "concept_a": "Длина маршрута", "concept_b": "Цепь простая", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Длина маршрута", "concept_b": "Цикл", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Длина маршрута", "concept_b": "Цикл простой", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Длина маршрута", "concept_b": "Часть графа", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Длина маршрута", "concept_b": "Эксцентриситет вершины", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Длина маршрута", "concept_b": "Ярус", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Длина цикла", "concept_b": "Изграф", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Длина цикла", "concept_b": "Компонента связности", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Длина цикла", "concept_b": "Конец цепи", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Длина цикла", "concept_b": "Контур", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Длина цикла", "concept_b": "Маршрут", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Длина цикла", "concept_b": "Маршрут замкнутый", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Длина цикла", "concept_b": "Маршрут открытый", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Длина цикла", "concept_b": "Подграф", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Длина цикла", "concept_b": "Подграф остовный", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Длина цикла", "concept_b": "Подграф правильный", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Длина цикла", "concept_b": "Подграф собственный", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Длина цикла", "concept_b": "Полустепень захода", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Длина цикла", "concept_b": "Полустепень исхода", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Длина цикла", "concept_b": "Последовательность графовая", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Длина цикла", "concept_b": "Последовательность остаточная", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Длина цикла", "concept_b": "Последовательность степенная", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Длина цикла", "concept_b": "Путь", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Длина цикла", "concept_b": "Радиус графа", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Длина цикла", "concept_b": "Расстояние", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Длина цикла", "concept_b": "Степень вершины", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Длина цикла", "concept_b": "Степень вершины максимальная", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Длина цикла", "concept_b": "Степень вершины минимальная", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Длина цикла", "concept_b": "Центр графа", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Длина цикла", "concept_b": "Цепь", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Длина цикла", "concept_b": "Цепь Геодезическая", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Длина цикла", "concept_b": "Цепь простая", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Длина цикла", "concept_b": "Цикл", "has_relation": true}
+{"paragraph_id": "7.2", "concept_a": "Длина цикла", "concept_b": "Цикл простой", "has_relation": true}
+{"paragraph_id": "7.2", "concept_a": "Длина цикла", "concept_b": "Часть графа", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Длина цикла", "concept_b": "Эксцентриситет вершины", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Длина цикла", "concept_b": "Ярус", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Изграф", "concept_b": "Компонента связности", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Изграф", "concept_b": "Конец цепи", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Изграф", "concept_b": "Контур", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Изграф", "concept_b": "Маршрут", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Изграф", "concept_b": "Маршрут замкнутый", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Изграф", "concept_b": "Маршрут открытый", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Изграф", "concept_b": "Подграф", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Изграф", "concept_b": "Подграф остовный", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Изграф", "concept_b": "Подграф правильный", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Изграф", "concept_b": "Подграф собственный", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Изграф", "concept_b": "Полустепень захода", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Изграф", "concept_b": "Полустепень исхода", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Изграф", "concept_b": "Последовательность графовая", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Изграф", "concept_b": "Последовательность остаточная", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Изграф", "concept_b": "Последовательность степенная", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Изграф", "concept_b": "Путь", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Изграф", "concept_b": "Радиус графа", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Изграф", "concept_b": "Расстояние", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Изграф", "concept_b": "Степень вершины", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Изграф", "concept_b": "Степень вершины максимальная", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Изграф", "concept_b": "Степень вершины минимальная", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Изграф", "concept_b": "Центр графа", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Изграф", "concept_b": "Цепь", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Изграф", "concept_b": "Цепь Геодезическая", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Изграф", "concept_b": "Цепь простая", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Изграф", "concept_b": "Цикл", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Изграф", "concept_b": "Цикл простой", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Изграф", "concept_b": "Часть графа", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Изграф", "concept_b": "Эксцентриситет вершины", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Изграф", "concept_b": "Ярус", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Компонента связности", "concept_b": "Конец цепи", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Компонента связности", "concept_b": "Контур", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Компонента связности", "concept_b": "Маршрут", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Компонента связности", "concept_b": "Маршрут замкнутый", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Компонента связности", "concept_b": "Маршрут открытый", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Компонента связности", "concept_b": "Подграф", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Компонента связности", "concept_b": "Подграф остовный", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Компонента связности", "concept_b": "Подграф правильный", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Компонента связности", "concept_b": "Подграф собственный", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Компонента связности", "concept_b": "Полустепень захода", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Компонента связности", "concept_b": "Полустепень исхода", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Компонента связности", "concept_b": "Последовательность графовая", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Компонента связности", "concept_b": "Последовательность остаточная", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Компонента связности", "concept_b": "Последовательность степенная", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Компонента связности", "concept_b": "Путь", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Компонента связности", "concept_b": "Радиус графа", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Компонента связности", "concept_b": "Расстояние", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Компонента связности", "concept_b": "Степень вершины", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Компонента связности", "concept_b": "Степень вершины максимальная", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Компонента связности", "concept_b": "Степень вершины минимальная", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Компонента связности", "concept_b": "Центр графа", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Компонента связности", "concept_b": "Цепь", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Компонента связности", "concept_b": "Цепь Геодезическая", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Компонента связности", "concept_b": "Цепь простая", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Компонента связности", "concept_b": "Цикл", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Компонента связности", "concept_b": "Цикл простой", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Компонента связности", "concept_b": "Часть графа", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Компонента связности", "concept_b": "Эксцентриситет вершины", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Компонента связности", "concept_b": "Ярус", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Конец цепи", "concept_b": "Контур", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Конец цепи", "concept_b": "Маршрут", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Конец цепи", "concept_b": "Маршрут замкнутый", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Конец цепи", "concept_b": "Маршрут открытый", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Конец цепи", "concept_b": "Подграф", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Конец цепи", "concept_b": "Подграф остовный", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Конец цепи", "concept_b": "Подграф правильный", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Конец цепи", "concept_b": "Подграф собственный", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Конец цепи", "concept_b": "Полустепень захода", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Конец цепи", "concept_b": "Полустепень исхода", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Конец цепи", "concept_b": "Последовательность графовая", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Конец цепи", "concept_b": "Последовательность остаточная", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Конец цепи", "concept_b": "Последовательность степенная", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Конец цепи", "concept_b": "Путь", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Конец цепи", "concept_b": "Радиус графа", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Конец цепи", "concept_b": "Расстояние", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Конец цепи", "concept_b": "Степень вершины", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Конец цепи", "concept_b": "Степень вершины максимальная", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Конец цепи", "concept_b": "Степень вершины минимальная", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Конец цепи", "concept_b": "Центр графа", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Конец цепи", "concept_b": "Цепь", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Конец цепи", "concept_b": "Цепь Геодезическая", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Конец цепи", "concept_b": "Цепь простая", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Конец цепи", "concept_b": "Цикл", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Конец цепи", "concept_b": "Цикл простой", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Конец цепи", "concept_b": "Часть графа", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Конец цепи", "concept_b": "Эксцентриситет вершины", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Конец цепи", "concept_b": "Ярус", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Контур", "concept_b": "Маршрут", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Контур", "concept_b": "Маршрут замкнутый", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Контур", "concept_b": "Маршрут открытый", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Контур", "concept_b": "Подграф", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Контур", "concept_b": "Подграф остовный", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Контур", "concept_b": "Подграф правильный", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Контур", "concept_b": "Подграф собственный", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Контур", "concept_b": "Полустепень захода", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Контур", "concept_b": "Полустепень исхода", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Контур", "concept_b": "Последовательность графовая", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Контур", "concept_b": "Последовательность остаточная", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Контур", "concept_b": "Последовательность степенная", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Контур", "concept_b": "Путь", "has_relation": true}
+{"paragraph_id": "7.2", "concept_a": "Контур", "concept_b": "Радиус графа", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Контур", "concept_b": "Расстояние", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Контур", "concept_b": "Степень вершины", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Контур", "concept_b": "Степень вершины максимальная", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Контур", "concept_b": "Степень вершины минимальная", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Контур", "concept_b": "Центр графа", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Контур", "concept_b": "Цепь", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Контур", "concept_b": "Цепь Геодезическая", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Контур", "concept_b": "Цепь простая", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Контур", "concept_b": "Цикл", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Контур", "concept_b": "Цикл простой", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Контур", "concept_b": "Часть графа", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Контур", "concept_b": "Эксцентриситет вершины", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Контур", "concept_b": "Ярус", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Маршрут", "concept_b": "Маршрут замкнутый", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Маршрут", "concept_b": "Маршрут открытый", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Маршрут", "concept_b": "Подграф", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Маршрут", "concept_b": "Подграф остовный", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Маршрут", "concept_b": "Подграф правильный", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Маршрут", "concept_b": "Подграф собственный", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Маршрут", "concept_b": "Полустепень захода", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Маршрут", "concept_b": "Полустепень исхода", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Маршрут", "concept_b": "Последовательность графовая", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Маршрут", "concept_b": "Последовательность остаточная", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Маршрут", "concept_b": "Последовательность степенная", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Маршрут", "concept_b": "Путь", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Маршрут", "concept_b": "Радиус графа", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Маршрут", "concept_b": "Расстояние", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Маршрут", "concept_b": "Степень вершины", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Маршрут", "concept_b": "Степень вершины максимальная", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Маршрут", "concept_b": "Степень вершины минимальная", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Маршрут", "concept_b": "Центр графа", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Маршрут", "concept_b": "Цепь", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Маршрут", "concept_b": "Цепь Геодезическая", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Маршрут", "concept_b": "Цепь простая", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Маршрут", "concept_b": "Цикл", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Маршрут", "concept_b": "Цикл простой", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Маршрут", "concept_b": "Часть графа", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Маршрут", "concept_b": "Эксцентриситет вершины", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Маршрут", "concept_b": "Ярус", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Маршрут замкнутый", "concept_b": "Маршрут открытый", "has_relation": true}
+{"paragraph_id": "7.2", "concept_a": "Маршрут замкнутый", "concept_b": "Подграф", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Маршрут замкнутый", "concept_b": "Подграф остовный", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Маршрут замкнутый", "concept_b": "Подграф правильный", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Маршрут замкнутый", "concept_b": "Подграф собственный", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Маршрут замкнутый", "concept_b": "Полустепень захода", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Маршрут замкнутый", "concept_b": "Полустепень исхода", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Маршрут замкнутый", "concept_b": "Последовательность графовая", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Маршрут замкнутый", "concept_b": "Последовательность остаточная", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Маршрут замкнутый", "concept_b": "Последовательность степенная", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Маршрут замкнутый", "concept_b": "Путь", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Маршрут замкнутый", "concept_b": "Радиус графа", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Маршрут замкнутый", "concept_b": "Расстояние", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Маршрут замкнутый", "concept_b": "Степень вершины", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Маршрут замкнутый", "concept_b": "Степень вершины максимальная", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Маршрут замкнутый", "concept_b": "Степень вершины минимальная", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Маршрут замкнутый", "concept_b": "Центр графа", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Маршрут замкнутый", "concept_b": "Цепь", "has_relation": true}
+{"paragraph_id": "7.2", "concept_a": "Маршрут замкнутый", "concept_b": "Цепь Геодезическая", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Маршрут замкнутый", "concept_b": "Цепь простая", "has_relation": true}
+{"paragraph_id": "7.2", "concept_a": "Маршрут замкнутый", "concept_b": "Цикл", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Маршрут замкнутый", "concept_b": "Цикл простой", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Маршрут замкнутый", "concept_b": "Часть графа", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Маршрут замкнутый", "concept_b": "Эксцентриситет вершины", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Маршрут замкнутый", "concept_b": "Ярус", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Маршрут открытый", "concept_b": "Подграф", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Маршрут открытый", "concept_b": "Подграф остовный", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Маршрут открытый", "concept_b": "Подграф правильный", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Маршрут открытый", "concept_b": "Подграф собственный", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Маршрут открытый", "concept_b": "Полустепень захода", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Маршрут открытый", "concept_b": "Полустепень исхода", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Маршрут открытый", "concept_b": "Последовательность графовая", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Маршрут открытый", "concept_b": "Последовательность остаточная", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Маршрут открытый", "concept_b": "Последовательность степенная", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Маршрут открытый", "concept_b": "Путь", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Маршрут открытый", "concept_b": "Радиус графа", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Маршрут открытый", "concept_b": "Расстояние", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Маршрут открытый", "concept_b": "Степень вершины", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Маршрут открытый", "concept_b": "Степень вершины максимальная", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Маршрут открытый", "concept_b": "Степень вершины минимальная", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Маршрут открытый", "concept_b": "Центр графа", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Маршрут открытый", "concept_b": "Цепь", "has_relation": true}
+{"paragraph_id": "7.2", "concept_a": "Маршрут открытый", "concept_b": "Цепь Геодезическая", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Маршрут открытый", "concept_b": "Цепь простая", "has_relation": true}
+{"paragraph_id": "7.2", "concept_a": "Маршрут открытый", "concept_b": "Цикл", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Маршрут открытый", "concept_b": "Цикл простой", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Маршрут открытый", "concept_b": "Часть графа", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Маршрут открытый", "concept_b": "Эксцентриситет вершины", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Маршрут открытый", "concept_b": "Ярус", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Подграф", "concept_b": "Подграф остовный", "has_relation": true}
+{"paragraph_id": "7.2", "concept_a": "Подграф", "concept_b": "Подграф правильный", "has_relation": true}
+{"paragraph_id": "7.2", "concept_a": "Подграф", "concept_b": "Подграф собственный", "has_relation": true}
+{"paragraph_id": "7.2", "concept_a": "Подграф", "concept_b": "Полустепень захода", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Подграф", "concept_b": "Полустепень исхода", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Подграф", "concept_b": "Последовательность графовая", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Подграф", "concept_b": "Последовательность остаточная", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Подграф", "concept_b": "Последовательность степенная", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Подграф", "concept_b": "Путь", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Подграф", "concept_b": "Радиус графа", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Подграф", "concept_b": "Расстояние", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Подграф", "concept_b": "Степень вершины", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Подграф", "concept_b": "Степень вершины максимальная", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Подграф", "concept_b": "Степень вершины минимальная", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Подграф", "concept_b": "Центр графа", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Подграф", "concept_b": "Цепь", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Подграф", "concept_b": "Цепь Геодезическая", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Подграф", "concept_b": "Цепь простая", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Подграф", "concept_b": "Цикл", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Подграф", "concept_b": "Цикл простой", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Подграф", "concept_b": "Часть графа", "has_relation": true}
+{"paragraph_id": "7.2", "concept_a": "Подграф", "concept_b": "Эксцентриситет вершины", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Подграф", "concept_b": "Ярус", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Подграф остовный", "concept_b": "Подграф правильный", "has_relation": true}
+{"paragraph_id": "7.2", "concept_a": "Подграф остовный", "concept_b": "Подграф собственный", "has_relation": true}
+{"paragraph_id": "7.2", "concept_a": "Подграф остовный", "concept_b": "Полустепень захода", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Подграф остовный", "concept_b": "Полустепень исхода", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Подграф остовный", "concept_b": "Последовательность графовая", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Подграф остовный", "concept_b": "Последовательность остаточная", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Подграф остовный", "concept_b": "Последовательность степенная", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Подграф остовный", "concept_b": "Путь", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Подграф остовный", "concept_b": "Радиус графа", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Подграф остовный", "concept_b": "Расстояние", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Подграф остовный", "concept_b": "Степень вершины", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Подграф остовный", "concept_b": "Степень вершины максимальная", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Подграф остовный", "concept_b": "Степень вершины минимальная", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Подграф остовный", "concept_b": "Центр графа", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Подграф остовный", "concept_b": "Цепь", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Подграф остовный", "concept_b": "Цепь Геодезическая", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Подграф остовный", "concept_b": "Цепь простая", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Подграф остовный", "concept_b": "Цикл", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Подграф остовный", "concept_b": "Цикл простой", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Подграф остовный", "concept_b": "Часть графа", "has_relation": true}
+{"paragraph_id": "7.2", "concept_a": "Подграф остовный", "concept_b": "Эксцентриситет вершины", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Подграф остовный", "concept_b": "Ярус", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Подграф правильный", "concept_b": "Подграф собственный", "has_relation": true}
+{"paragraph_id": "7.2", "concept_a": "Подграф правильный", "concept_b": "Полустепень захода", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Подграф правильный", "concept_b": "Полустепень исхода", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Подграф правильный", "concept_b": "Последовательность графовая", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Подграф правильный", "concept_b": "Последовательность остаточная", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Подграф правильный", "concept_b": "Последовательность степенная", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Подграф правильный", "concept_b": "Путь", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Подграф правильный", "concept_b": "Радиус графа", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Подграф правильный", "concept_b": "Расстояние", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Подграф правильный", "concept_b": "Степень вершины", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Подграф правильный", "concept_b": "Степень вершины максимальная", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Подграф правильный", "concept_b": "Степень вершины минимальная", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Подграф правильный", "concept_b": "Центр графа", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Подграф правильный", "concept_b": "Цепь", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Подграф правильный", "concept_b": "Цепь Геодезическая", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Подграф правильный", "concept_b": "Цепь простая", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Подграф правильный", "concept_b": "Цикл", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Подграф правильный", "concept_b": "Цикл простой", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Подграф правильный", "concept_b": "Часть графа", "has_relation": true}
+{"paragraph_id": "7.2", "concept_a": "Подграф правильный", "concept_b": "Эксцентриситет вершины", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Подграф правильный", "concept_b": "Ярус", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Подграф собственный", "concept_b": "Полустепень захода", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Подграф собственный", "concept_b": "Полустепень исхода", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Подграф собственный", "concept_b": "Последовательность графовая", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Подграф собственный", "concept_b": "Последовательность остаточная", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Подграф собственный", "concept_b": "Последовательность степенная", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Подграф собственный", "concept_b": "Путь", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Подграф собственный", "concept_b": "Радиус графа", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Подграф собственный", "concept_b": "Расстояние", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Подграф собственный", "concept_b": "Степень вершины", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Подграф собственный", "concept_b": "Степень вершины максимальная", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Подграф собственный", "concept_b": "Степень вершины минимальная", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Подграф собственный", "concept_b": "Центр графа", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Подграф собственный", "concept_b": "Цепь", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Подграф собственный", "concept_b": "Цепь Геодезическая", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Подграф собственный", "concept_b": "Цепь простая", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Подграф собственный", "concept_b": "Цикл", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Подграф собственный", "concept_b": "Цикл простой", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Подграф собственный", "concept_b": "Часть графа", "has_relation": true}
+{"paragraph_id": "7.2", "concept_a": "Подграф собственный", "concept_b": "Эксцентриситет вершины", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Подграф собственный", "concept_b": "Ярус", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Полустепень захода", "concept_b": "Полустепень исхода", "has_relation": true}
+{"paragraph_id": "7.2", "concept_a": "Полустепень захода", "concept_b": "Последовательность графовая", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Полустепень захода", "concept_b": "Последовательность остаточная", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Полустепень захода", "concept_b": "Последовательность степенная", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Полустепень захода", "concept_b": "Путь", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Полустепень захода", "concept_b": "Радиус графа", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Полустепень захода", "concept_b": "Расстояние", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Полустепень захода", "concept_b": "Степень вершины", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Полустепень захода", "concept_b": "Степень вершины максимальная", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Полустепень захода", "concept_b": "Степень вершины минимальная", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Полустепень захода", "concept_b": "Центр графа", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Полустепень захода", "concept_b": "Цепь", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Полустепень захода", "concept_b": "Цепь Геодезическая", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Полустепень захода", "concept_b": "Цепь простая", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Полустепень захода", "concept_b": "Цикл", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Полустепень захода", "concept_b": "Цикл простой", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Полустепень захода", "concept_b": "Часть графа", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Полустепень захода", "concept_b": "Эксцентриситет вершины", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Полустепень захода", "concept_b": "Ярус", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Полустепень исхода", "concept_b": "Последовательность графовая", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Полустепень исхода", "concept_b": "Последовательность остаточная", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Полустепень исхода", "concept_b": "Последовательность степенная", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Полустепень исхода", "concept_b": "Путь", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Полустепень исхода", "concept_b": "Радиус графа", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Полустепень исхода", "concept_b": "Расстояние", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Полустепень исхода", "concept_b": "Степень вершины", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Полустепень исхода", "concept_b": "Степень вершины максимальная", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Полустепень исхода", "concept_b": "Степень вершины минимальная", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Полустепень исхода", "concept_b": "Центр графа", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Полустепень исхода", "concept_b": "Цепь", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Полустепень исхода", "concept_b": "Цепь Геодезическая", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Полустепень исхода", "concept_b": "Цепь простая", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Полустепень исхода", "concept_b": "Цикл", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Полустепень исхода", "concept_b": "Цикл простой", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Полустепень исхода", "concept_b": "Часть графа", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Полустепень исхода", "concept_b": "Эксцентриситет вершины", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Полустепень исхода", "concept_b": "Ярус", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Последовательность графовая", "concept_b": "Последовательность остаточная", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Последовательность графовая", "concept_b": "Последовательность степенная", "has_relation": true}
+{"paragraph_id": "7.2", "concept_a": "Последовательность графовая", "concept_b": "Путь", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Последовательность графовая", "concept_b": "Радиус графа", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Последовательность графовая", "concept_b": "Расстояние", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Последовательность графовая", "concept_b": "Степень вершины", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Последовательность графовая", "concept_b": "Степень вершины максимальная", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Последовательность графовая", "concept_b": "Степень вершины минимальная", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Последовательность графовая", "concept_b": "Центр графа", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Последовательность графовая", "concept_b": "Цепь", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Последовательность графовая", "concept_b": "Цепь Геодезическая", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Последовательность графовая", "concept_b": "Цепь простая", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Последовательность графовая", "concept_b": "Цикл", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Последовательность графовая", "concept_b": "Цикл простой", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Последовательность графовая", "concept_b": "Часть графа", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Последовательность графовая", "concept_b": "Эксцентриситет вершины", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Последовательность графовая", "concept_b": "Ярус", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Последовательность остаточная", "concept_b": "Последовательность степенная", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Последовательность остаточная", "concept_b": "Путь", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Последовательность остаточная", "concept_b": "Радиус графа", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Последовательность остаточная", "concept_b": "Расстояние", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Последовательность остаточная", "concept_b": "Степень вершины", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Последовательность остаточная", "concept_b": "Степень вершины максимальная", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Последовательность остаточная", "concept_b": "Степень вершины минимальная", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Последовательность остаточная", "concept_b": "Центр графа", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Последовательность остаточная", "concept_b": "Цепь", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Последовательность остаточная", "concept_b": "Цепь Геодезическая", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Последовательность остаточная", "concept_b": "Цепь простая", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Последовательность остаточная", "concept_b": "Цикл", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Последовательность остаточная", "concept_b": "Цикл простой", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Последовательность остаточная", "concept_b": "Часть графа", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Последовательность остаточная", "concept_b": "Эксцентриситет вершины", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Последовательность остаточная", "concept_b": "Ярус", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Последовательность степенная", "concept_b": "Путь", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Последовательность степенная", "concept_b": "Радиус графа", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Последовательность степенная", "concept_b": "Расстояние", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Последовательность степенная", "concept_b": "Степень вершины", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Последовательность степенная", "concept_b": "Степень вершины максимальная", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Последовательность степенная", "concept_b": "Степень вершины минимальная", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Последовательность степенная", "concept_b": "Центр графа", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Последовательность степенная", "concept_b": "Цепь", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Последовательность степенная", "concept_b": "Цепь Геодезическая", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Последовательность степенная", "concept_b": "Цепь простая", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Последовательность степенная", "concept_b": "Цикл", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Последовательность степенная", "concept_b": "Цикл простой", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Последовательность степенная", "concept_b": "Часть графа", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Последовательность степенная", "concept_b": "Эксцентриситет вершины", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Последовательность степенная", "concept_b": "Ярус", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Путь", "concept_b": "Радиус графа", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Путь", "concept_b": "Расстояние", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Путь", "concept_b": "Степень вершины", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Путь", "concept_b": "Степень вершины максимальная", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Путь", "concept_b": "Степень вершины минимальная", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Путь", "concept_b": "Центр графа", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Путь", "concept_b": "Цепь", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Путь", "concept_b": "Цепь Геодезическая", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Путь", "concept_b": "Цепь простая", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Путь", "concept_b": "Цикл", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Путь", "concept_b": "Цикл простой", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Путь", "concept_b": "Часть графа", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Путь", "concept_b": "Эксцентриситет вершины", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Путь", "concept_b": "Ярус", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Радиус графа", "concept_b": "Расстояние", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Радиус графа", "concept_b": "Степень вершины", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Радиус графа", "concept_b": "Степень вершины максимальная", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Радиус графа", "concept_b": "Степень вершины минимальная", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Радиус графа", "concept_b": "Центр графа", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Радиус графа", "concept_b": "Цепь", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Радиус графа", "concept_b": "Цепь Геодезическая", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Радиус графа", "concept_b": "Цепь простая", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Радиус графа", "concept_b": "Цикл", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Радиус графа", "concept_b": "Цикл простой", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Радиус графа", "concept_b": "Часть графа", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Радиус графа", "concept_b": "Эксцентриситет вершины", "has_relation": true}
+{"paragraph_id": "7.2", "concept_a": "Радиус графа", "concept_b": "Ярус", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Расстояние", "concept_b": "Степень вершины", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Расстояние", "concept_b": "Степень вершины максимальная", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Расстояние", "concept_b": "Степень вершины минимальная", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Расстояние", "concept_b": "Центр графа", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Расстояние", "concept_b": "Цепь", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Расстояние", "concept_b": "Цепь Геодезическая", "has_relation": true}
+{"paragraph_id": "7.2", "concept_a": "Расстояние", "concept_b": "Цепь простая", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Расстояние", "concept_b": "Цикл", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Расстояние", "concept_b": "Цикл простой", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Расстояние", "concept_b": "Часть графа", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Расстояние", "concept_b": "Эксцентриситет вершины", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Расстояние", "concept_b": "Ярус", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Степень вершины", "concept_b": "Степень вершины максимальная", "has_relation": true}
+{"paragraph_id": "7.2", "concept_a": "Степень вершины", "concept_b": "Степень вершины минимальная", "has_relation": true}
+{"paragraph_id": "7.2", "concept_a": "Степень вершины", "concept_b": "Центр графа", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Степень вершины", "concept_b": "Цепь", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Степень вершины", "concept_b": "Цепь Геодезическая", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Степень вершины", "concept_b": "Цепь простая", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Степень вершины", "concept_b": "Цикл", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Степень вершины", "concept_b": "Цикл простой", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Степень вершины", "concept_b": "Часть графа", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Степень вершины", "concept_b": "Эксцентриситет вершины", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Степень вершины", "concept_b": "Ярус", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Степень вершины максимальная", "concept_b": "Степень вершины минимальная", "has_relation": true}
+{"paragraph_id": "7.2", "concept_a": "Степень вершины максимальная", "concept_b": "Центр графа", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Степень вершины максимальная", "concept_b": "Цепь", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Степень вершины максимальная", "concept_b": "Цепь Геодезическая", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Степень вершины максимальная", "concept_b": "Цепь простая", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Степень вершины максимальная", "concept_b": "Цикл", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Степень вершины максимальная", "concept_b": "Цикл простой", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Степень вершины максимальная", "concept_b": "Часть графа", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Степень вершины максимальная", "concept_b": "Эксцентриситет вершины", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Степень вершины максимальная", "concept_b": "Ярус", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Степень вершины минимальная", "concept_b": "Центр графа", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Степень вершины минимальная", "concept_b": "Цепь", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Степень вершины минимальная", "concept_b": "Цепь Геодезическая", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Степень вершины минимальная", "concept_b": "Цепь простая", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Степень вершины минимальная", "concept_b": "Цикл", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Степень вершины минимальная", "concept_b": "Цикл простой", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Степень вершины минимальная", "concept_b": "Часть графа", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Степень вершины минимальная", "concept_b": "Эксцентриситет вершины", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Степень вершины минимальная", "concept_b": "Ярус", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Центр графа", "concept_b": "Цепь", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Центр графа", "concept_b": "Цепь Геодезическая", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Центр графа", "concept_b": "Цепь простая", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Центр графа", "concept_b": "Цикл", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Центр графа", "concept_b": "Цикл простой", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Центр графа", "concept_b": "Часть графа", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Центр графа", "concept_b": "Эксцентриситет вершины", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Центр графа", "concept_b": "Ярус", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Цепь", "concept_b": "Цепь Геодезическая", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Цепь", "concept_b": "Цепь простая", "has_relation": true}
+{"paragraph_id": "7.2", "concept_a": "Цепь", "concept_b": "Цикл", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Цепь", "concept_b": "Цикл простой", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Цепь", "concept_b": "Часть графа", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Цепь", "concept_b": "Эксцентриситет вершины", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Цепь", "concept_b": "Ярус", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Цепь Геодезическая", "concept_b": "Цепь простая", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Цепь Геодезическая", "concept_b": "Цикл", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Цепь Геодезическая", "concept_b": "Цикл простой", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Цепь Геодезическая", "concept_b": "Часть графа", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Цепь Геодезическая", "concept_b": "Эксцентриситет вершины", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Цепь Геодезическая", "concept_b": "Ярус", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Цепь простая", "concept_b": "Цикл", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Цепь простая", "concept_b": "Цикл простой", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Цепь простая", "concept_b": "Часть графа", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Цепь простая", "concept_b": "Эксцентриситет вершины", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Цепь простая", "concept_b": "Ярус", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Цикл", "concept_b": "Цикл простой", "has_relation": true}
+{"paragraph_id": "7.2", "concept_a": "Цикл", "concept_b": "Часть графа", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Цикл", "concept_b": "Эксцентриситет вершины", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Цикл", "concept_b": "Ярус", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Цикл простой", "concept_b": "Часть графа", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Цикл простой", "concept_b": "Эксцентриситет вершины", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Цикл простой", "concept_b": "Ярус", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Часть графа", "concept_b": "Эксцентриситет вершины", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Часть графа", "concept_b": "Ярус", "has_relation": false}
+{"paragraph_id": "7.2", "concept_a": "Эксцентриситет вершины", "concept_b": "Ярус", "has_relation": false}

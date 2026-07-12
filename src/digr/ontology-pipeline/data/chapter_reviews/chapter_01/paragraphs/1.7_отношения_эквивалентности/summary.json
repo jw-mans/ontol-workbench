@@ -1,0 +1,18 @@
+{
+  "paragraph_id": "1.7",
+  "paragraph_title": "1.7. Отношения эквивалентности",
+  "folder": "1.7_отношения_эквивалентности",
+  "relations_reviewed": 30,
+  "corrected_relations": 11,
+  "category_counts": {
+    "found_on_diagram_correct": 1,
+    "found_on_diagram_wrong_direction": 0,
+    "found_on_diagram_wrong_type": 0,
+    "found_on_diagram_wrong_direction_and_type": 0,
+    "found_not_on_diagram_accepted": 10,
+    "found_not_on_diagram_rejected": 10,
+    "not_found_from_diagram": 9
+  },
+  "rendered": true,
+  "render_error": null
+}

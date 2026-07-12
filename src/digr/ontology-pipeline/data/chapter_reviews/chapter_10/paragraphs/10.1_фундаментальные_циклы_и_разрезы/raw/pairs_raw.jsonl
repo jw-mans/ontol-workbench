@@ -1,0 +1,153 @@
+{"paragraph_id": "10.1", "concept_a": "Базис пространства коциклов", "concept_b": "Базис пространства циклов", "has_relation": true}
+{"paragraph_id": "10.1", "concept_a": "Базис пространства коциклов", "concept_b": "Вектор циклический", "has_relation": false}
+{"paragraph_id": "10.1", "concept_a": "Базис пространства коциклов", "concept_b": "Кодерево", "has_relation": false}
+{"paragraph_id": "10.1", "concept_a": "Базис пространства коциклов", "concept_b": "Коцикл", "has_relation": false}
+{"paragraph_id": "10.1", "concept_a": "Базис пространства коциклов", "concept_b": "Разрез", "has_relation": false}
+{"paragraph_id": "10.1", "concept_a": "Базис пространства коциклов", "concept_b": "Разрез правильный", "has_relation": false}
+{"paragraph_id": "10.1", "concept_a": "Базис пространства коциклов", "concept_b": "Разрез простой", "has_relation": false}
+{"paragraph_id": "10.1", "concept_a": "Базис пространства коциклов", "concept_b": "Разрез фундаментальный", "has_relation": false}
+{"paragraph_id": "10.1", "concept_a": "Базис пространства коциклов", "concept_b": "Ранг коциклический", "has_relation": false}
+{"paragraph_id": "10.1", "concept_a": "Базис пространства коциклов", "concept_b": "Ранг циклический", "has_relation": false}
+{"paragraph_id": "10.1", "concept_a": "Базис пространства коциклов", "concept_b": "Система разрезов фундаментальная", "has_relation": false}
+{"paragraph_id": "10.1", "concept_a": "Базис пространства коциклов", "concept_b": "Система циклов фундаментальная", "has_relation": false}
+{"paragraph_id": "10.1", "concept_a": "Базис пространства коциклов", "concept_b": "Хорда", "has_relation": false}
+{"paragraph_id": "10.1", "concept_a": "Базис пространства коциклов", "concept_b": "Цикл простой", "has_relation": false}
+{"paragraph_id": "10.1", "concept_a": "Базис пространства коциклов", "concept_b": "Цикл фундаментальный", "has_relation": false}
+{"paragraph_id": "10.1", "concept_a": "Базис пространства коциклов", "concept_b": "Число коцикломатическое", "has_relation": false}
+{"paragraph_id": "10.1", "concept_a": "Базис пространства коциклов", "concept_b": "Число цикломатическое", "has_relation": false}
+{"paragraph_id": "10.1", "concept_a": "Базис пространства циклов", "concept_b": "Вектор циклический", "has_relation": false}
+{"paragraph_id": "10.1", "concept_a": "Базис пространства циклов", "concept_b": "Кодерево", "has_relation": false}
+{"paragraph_id": "10.1", "concept_a": "Базис пространства циклов", "concept_b": "Коцикл", "has_relation": false}
+{"paragraph_id": "10.1", "concept_a": "Базис пространства циклов", "concept_b": "Разрез", "has_relation": false}
+{"paragraph_id": "10.1", "concept_a": "Базис пространства циклов", "concept_b": "Разрез правильный", "has_relation": false}
+{"paragraph_id": "10.1", "concept_a": "Базис пространства циклов", "concept_b": "Разрез простой", "has_relation": false}
+{"paragraph_id": "10.1", "concept_a": "Базис пространства циклов", "concept_b": "Разрез фундаментальный", "has_relation": false}
+{"paragraph_id": "10.1", "concept_a": "Базис пространства циклов", "concept_b": "Ранг коциклический", "has_relation": false}
+{"paragraph_id": "10.1", "concept_a": "Базис пространства циклов", "concept_b": "Ранг циклический", "has_relation": false}
+{"paragraph_id": "10.1", "concept_a": "Базис пространства циклов", "concept_b": "Система разрезов фундаментальная", "has_relation": false}
+{"paragraph_id": "10.1", "concept_a": "Базис пространства циклов", "concept_b": "Система циклов фундаментальная", "has_relation": false}
+{"paragraph_id": "10.1", "concept_a": "Базис пространства циклов", "concept_b": "Хорда", "has_relation": false}
+{"paragraph_id": "10.1", "concept_a": "Базис пространства циклов", "concept_b": "Цикл простой", "has_relation": false}
+{"paragraph_id": "10.1", "concept_a": "Базис пространства циклов", "concept_b": "Цикл фундаментальный", "has_relation": false}
+{"paragraph_id": "10.1", "concept_a": "Базис пространства циклов", "concept_b": "Число коцикломатическое", "has_relation": false}
+{"paragraph_id": "10.1", "concept_a": "Базис пространства циклов", "concept_b": "Число цикломатическое", "has_relation": false}
+{"paragraph_id": "10.1", "concept_a": "Вектор циклический", "concept_b": "Кодерево", "has_relation": false}
+{"paragraph_id": "10.1", "concept_a": "Вектор циклический", "concept_b": "Коцикл", "has_relation": false}
+{"paragraph_id": "10.1", "concept_a": "Вектор циклический", "concept_b": "Разрез", "has_relation": false}
+{"paragraph_id": "10.1", "concept_a": "Вектор циклический", "concept_b": "Разрез правильный", "has_relation": false}
+{"paragraph_id": "10.1", "concept_a": "Вектор циклический", "concept_b": "Разрез простой", "has_relation": false}
+{"paragraph_id": "10.1", "concept_a": "Вектор циклический", "concept_b": "Разрез фундаментальный", "has_relation": false}
+{"paragraph_id": "10.1", "concept_a": "Вектор циклический", "concept_b": "Ранг коциклический", "has_relation": false}
+{"paragraph_id": "10.1", "concept_a": "Вектор циклический", "concept_b": "Ранг циклический", "has_relation": false}
+{"paragraph_id": "10.1", "concept_a": "Вектор циклический", "concept_b": "Система разрезов фундаментальная", "has_relation": false}
+{"paragraph_id": "10.1", "concept_a": "Вектор циклический", "concept_b": "Система циклов фундаментальная", "has_relation": false}
+{"paragraph_id": "10.1", "concept_a": "Вектор циклический", "concept_b": "Хорда", "has_relation": false}
+{"paragraph_id": "10.1", "concept_a": "Вектор циклический", "concept_b": "Цикл простой", "has_relation": false}
+{"paragraph_id": "10.1", "concept_a": "Вектор циклический", "concept_b": "Цикл фундаментальный", "has_relation": false}
+{"paragraph_id": "10.1", "concept_a": "Вектор циклический", "concept_b": "Число коцикломатическое", "has_relation": false}
+{"paragraph_id": "10.1", "concept_a": "Вектор циклический", "concept_b": "Число цикломатическое", "has_relation": false}
+{"paragraph_id": "10.1", "concept_a": "Кодерево", "concept_b": "Коцикл", "has_relation": false}
+{"paragraph_id": "10.1", "concept_a": "Кодерево", "concept_b": "Разрез", "has_relation": false}
+{"paragraph_id": "10.1", "concept_a": "Кодерево", "concept_b": "Разрез правильный", "has_relation": false}
+{"paragraph_id": "10.1", "concept_a": "Кодерево", "concept_b": "Разрез простой", "has_relation": false}
+{"paragraph_id": "10.1", "concept_a": "Кодерево", "concept_b": "Разрез фундаментальный", "has_relation": false}
+{"paragraph_id": "10.1", "concept_a": "Кодерево", "concept_b": "Ранг коциклический", "has_relation": false}
+{"paragraph_id": "10.1", "concept_a": "Кодерево", "concept_b": "Ранг циклический", "has_relation": true}
+{"paragraph_id": "10.1", "concept_a": "Кодерево", "concept_b": "Система разрезов фундаментальная", "has_relation": false}
+{"paragraph_id": "10.1", "concept_a": "Кодерево", "concept_b": "Система циклов фундаментальная", "has_relation": true}
+{"paragraph_id": "10.1", "concept_a": "Кодерево", "concept_b": "Хорда", "has_relation": true}
+{"paragraph_id": "10.1", "concept_a": "Кодерево", "concept_b": "Цикл простой", "has_relation": false}
+{"paragraph_id": "10.1", "concept_a": "Кодерево", "concept_b": "Цикл фундаментальный", "has_relation": true}
+{"paragraph_id": "10.1", "concept_a": "Кодерево", "concept_b": "Число коцикломатическое", "has_relation": false}
+{"paragraph_id": "10.1", "concept_a": "Кодерево", "concept_b": "Число цикломатическое", "has_relation": true}
+{"paragraph_id": "10.1", "concept_a": "Коцикл", "concept_b": "Разрез", "has_relation": false}
+{"paragraph_id": "10.1", "concept_a": "Коцикл", "concept_b": "Разрез правильный", "has_relation": false}
+{"paragraph_id": "10.1", "concept_a": "Коцикл", "concept_b": "Разрез простой", "has_relation": false}
+{"paragraph_id": "10.1", "concept_a": "Коцикл", "concept_b": "Разрез фундаментальный", "has_relation": true}
+{"paragraph_id": "10.1", "concept_a": "Коцикл", "concept_b": "Ранг коциклический", "has_relation": true}
+{"paragraph_id": "10.1", "concept_a": "Коцикл", "concept_b": "Ранг циклический", "has_relation": false}
+{"paragraph_id": "10.1", "concept_a": "Коцикл", "concept_b": "Система разрезов фундаментальная", "has_relation": true}
+{"paragraph_id": "10.1", "concept_a": "Коцикл", "concept_b": "Система циклов фундаментальная", "has_relation": false}
+{"paragraph_id": "10.1", "concept_a": "Коцикл", "concept_b": "Хорда", "has_relation": false}
+{"paragraph_id": "10.1", "concept_a": "Коцикл", "concept_b": "Цикл простой", "has_relation": false}
+{"paragraph_id": "10.1", "concept_a": "Коцикл", "concept_b": "Цикл фундаментальный", "has_relation": false}
+{"paragraph_id": "10.1", "concept_a": "Коцикл", "concept_b": "Число коцикломатическое", "has_relation": false}
+{"paragraph_id": "10.1", "concept_a": "Коцикл", "concept_b": "Число цикломатическое", "has_relation": false}
+{"paragraph_id": "10.1", "concept_a": "Разрез", "concept_b": "Разрез правильный", "has_relation": false}
+{"paragraph_id": "10.1", "concept_a": "Разрез", "concept_b": "Разрез простой", "has_relation": false}
+{"paragraph_id": "10.1", "concept_a": "Разрез", "concept_b": "Разрез фундаментальный", "has_relation": false}
+{"paragraph_id": "10.1", "concept_a": "Разрез", "concept_b": "Ранг коциклический", "has_relation": false}
+{"paragraph_id": "10.1", "concept_a": "Разрез", "concept_b": "Ранг циклический", "has_relation": false}
+{"paragraph_id": "10.1", "concept_a": "Разрез", "concept_b": "Система разрезов фундаментальная", "has_relation": false}
+{"paragraph_id": "10.1", "concept_a": "Разрез", "concept_b": "Система циклов фундаментальная", "has_relation": false}
+{"paragraph_id": "10.1", "concept_a": "Разрез", "concept_b": "Хорда", "has_relation": false}
+{"paragraph_id": "10.1", "concept_a": "Разрез", "concept_b": "Цикл простой", "has_relation": true}
+{"paragraph_id": "10.1", "concept_a": "Разрез", "concept_b": "Цикл фундаментальный", "has_relation": false}
+{"paragraph_id": "10.1", "concept_a": "Разрез", "concept_b": "Число коцикломатическое", "has_relation": false}
+{"paragraph_id": "10.1", "concept_a": "Разрез", "concept_b": "Число цикломатическое", "has_relation": false}
+{"paragraph_id": "10.1", "concept_a": "Разрез правильный", "concept_b": "Разрез простой", "has_relation": false}
+{"paragraph_id": "10.1", "concept_a": "Разрез правильный", "concept_b": "Разрез фундаментальный", "has_relation": false}
+{"paragraph_id": "10.1", "concept_a": "Разрез правильный", "concept_b": "Ранг коциклический", "has_relation": false}
+{"paragraph_id": "10.1", "concept_a": "Разрез правильный", "concept_b": "Ранг циклический", "has_relation": false}
+{"paragraph_id": "10.1", "concept_a": "Разрез правильный", "concept_b": "Система разрезов фундаментальная", "has_relation": false}
+{"paragraph_id": "10.1", "concept_a": "Разрез правильный", "concept_b": "Система циклов фундаментальная", "has_relation": false}
+{"paragraph_id": "10.1", "concept_a": "Разрез правильный", "concept_b": "Хорда", "has_relation": false}
+{"paragraph_id": "10.1", "concept_a": "Разрез правильный", "concept_b": "Цикл простой", "has_relation": false}
+{"paragraph_id": "10.1", "concept_a": "Разрез правильный", "concept_b": "Цикл фундаментальный", "has_relation": false}
+{"paragraph_id": "10.1", "concept_a": "Разрез правильный", "concept_b": "Число коцикломатическое", "has_relation": false}
+{"paragraph_id": "10.1", "concept_a": "Разрез правильный", "concept_b": "Число цикломатическое", "has_relation": false}
+{"paragraph_id": "10.1", "concept_a": "Разрез простой", "concept_b": "Разрез фундаментальный", "has_relation": false}
+{"paragraph_id": "10.1", "concept_a": "Разрез простой", "concept_b": "Ранг коциклический", "has_relation": false}
+{"paragraph_id": "10.1", "concept_a": "Разрез простой", "concept_b": "Ранг циклический", "has_relation": false}
+{"paragraph_id": "10.1", "concept_a": "Разрез простой", "concept_b": "Система разрезов фундаментальная", "has_relation": false}
+{"paragraph_id": "10.1", "concept_a": "Разрез простой", "concept_b": "Система циклов фундаментальная", "has_relation": false}
+{"paragraph_id": "10.1", "concept_a": "Разрез простой", "concept_b": "Хорда", "has_relation": false}
+{"paragraph_id": "10.1", "concept_a": "Разрез простой", "concept_b": "Цикл простой", "has_relation": false}
+{"paragraph_id": "10.1", "concept_a": "Разрез простой", "concept_b": "Цикл фундаментальный", "has_relation": false}
+{"paragraph_id": "10.1", "concept_a": "Разрез простой", "concept_b": "Число коцикломатическое", "has_relation": false}
+{"paragraph_id": "10.1", "concept_a": "Разрез простой", "concept_b": "Число цикломатическое", "has_relation": false}
+{"paragraph_id": "10.1", "concept_a": "Разрез фундаментальный", "concept_b": "Ранг коциклический", "has_relation": true}
+{"paragraph_id": "10.1", "concept_a": "Разрез фундаментальный", "concept_b": "Ранг циклический", "has_relation": false}
+{"paragraph_id": "10.1", "concept_a": "Разрез фундаментальный", "concept_b": "Система разрезов фундаментальная", "has_relation": true}
+{"paragraph_id": "10.1", "concept_a": "Разрез фундаментальный", "concept_b": "Система циклов фундаментальная", "has_relation": false}
+{"paragraph_id": "10.1", "concept_a": "Разрез фундаментальный", "concept_b": "Хорда", "has_relation": false}
+{"paragraph_id": "10.1", "concept_a": "Разрез фундаментальный", "concept_b": "Цикл простой", "has_relation": false}
+{"paragraph_id": "10.1", "concept_a": "Разрез фундаментальный", "concept_b": "Цикл фундаментальный", "has_relation": false}
+{"paragraph_id": "10.1", "concept_a": "Разрез фундаментальный", "concept_b": "Число коцикломатическое", "has_relation": true}
+{"paragraph_id": "10.1", "concept_a": "Разрез фундаментальный", "concept_b": "Число цикломатическое", "has_relation": false}
+{"paragraph_id": "10.1", "concept_a": "Ранг коциклический", "concept_b": "Ранг циклический", "has_relation": false}
+{"paragraph_id": "10.1", "concept_a": "Ранг коциклический", "concept_b": "Система разрезов фундаментальная", "has_relation": true}
+{"paragraph_id": "10.1", "concept_a": "Ранг коциклический", "concept_b": "Система циклов фундаментальная", "has_relation": false}
+{"paragraph_id": "10.1", "concept_a": "Ранг коциклический", "concept_b": "Хорда", "has_relation": false}
+{"paragraph_id": "10.1", "concept_a": "Ранг коциклический", "concept_b": "Цикл простой", "has_relation": false}
+{"paragraph_id": "10.1", "concept_a": "Ранг коциклический", "concept_b": "Цикл фундаментальный", "has_relation": false}
+{"paragraph_id": "10.1", "concept_a": "Ранг коциклический", "concept_b": "Число коцикломатическое", "has_relation": true}
+{"paragraph_id": "10.1", "concept_a": "Ранг коциклический", "concept_b": "Число цикломатическое", "has_relation": false}
+{"paragraph_id": "10.1", "concept_a": "Ранг циклический", "concept_b": "Система разрезов фундаментальная", "has_relation": false}
+{"paragraph_id": "10.1", "concept_a": "Ранг циклический", "concept_b": "Система циклов фундаментальная", "has_relation": true}
+{"paragraph_id": "10.1", "concept_a": "Ранг циклический", "concept_b": "Хорда", "has_relation": true}
+{"paragraph_id": "10.1", "concept_a": "Ранг циклический", "concept_b": "Цикл простой", "has_relation": false}
+{"paragraph_id": "10.1", "concept_a": "Ранг циклический", "concept_b": "Цикл фундаментальный", "has_relation": true}
+{"paragraph_id": "10.1", "concept_a": "Ранг циклический", "concept_b": "Число коцикломатическое", "has_relation": false}
+{"paragraph_id": "10.1", "concept_a": "Ранг циклический", "concept_b": "Число цикломатическое", "has_relation": true}
+{"paragraph_id": "10.1", "concept_a": "Система разрезов фундаментальная", "concept_b": "Система циклов фундаментальная", "has_relation": false}
+{"paragraph_id": "10.1", "concept_a": "Система разрезов фундаментальная", "concept_b": "Хорда", "has_relation": false}
+{"paragraph_id": "10.1", "concept_a": "Система разрезов фундаментальная", "concept_b": "Цикл простой", "has_relation": false}
+{"paragraph_id": "10.1", "concept_a": "Система разрезов фундаментальная", "concept_b": "Цикл фундаментальный", "has_relation": false}
+{"paragraph_id": "10.1", "concept_a": "Система разрезов фундаментальная", "concept_b": "Число коцикломатическое", "has_relation": true}
+{"paragraph_id": "10.1", "concept_a": "Система разрезов фундаментальная", "concept_b": "Число цикломатическое", "has_relation": false}
+{"paragraph_id": "10.1", "concept_a": "Система циклов фундаментальная", "concept_b": "Хорда", "has_relation": true}
+{"paragraph_id": "10.1", "concept_a": "Система циклов фундаментальная", "concept_b": "Цикл простой", "has_relation": false}
+{"paragraph_id": "10.1", "concept_a": "Система циклов фундаментальная", "concept_b": "Цикл фундаментальный", "has_relation": true}
+{"paragraph_id": "10.1", "concept_a": "Система циклов фундаментальная", "concept_b": "Число коцикломатическое", "has_relation": false}
+{"paragraph_id": "10.1", "concept_a": "Система циклов фундаментальная", "concept_b": "Число цикломатическое", "has_relation": true}
+{"paragraph_id": "10.1", "concept_a": "Хорда", "concept_b": "Цикл простой", "has_relation": false}
+{"paragraph_id": "10.1", "concept_a": "Хорда", "concept_b": "Цикл фундаментальный", "has_relation": true}
+{"paragraph_id": "10.1", "concept_a": "Хорда", "concept_b": "Число коцикломатическое", "has_relation": false}
+{"paragraph_id": "10.1", "concept_a": "Хорда", "concept_b": "Число цикломатическое", "has_relation": true}
+{"paragraph_id": "10.1", "concept_a": "Цикл простой", "concept_b": "Цикл фундаментальный", "has_relation": false}
+{"paragraph_id": "10.1", "concept_a": "Цикл простой", "concept_b": "Число коцикломатическое", "has_relation": false}
+{"paragraph_id": "10.1", "concept_a": "Цикл простой", "concept_b": "Число цикломатическое", "has_relation": false}
+{"paragraph_id": "10.1", "concept_a": "Цикл фундаментальный", "concept_b": "Число коцикломатическое", "has_relation": false}
+{"paragraph_id": "10.1", "concept_a": "Цикл фундаментальный", "concept_b": "Число цикломатическое", "has_relation": true}
+{"paragraph_id": "10.1", "concept_a": "Число коцикломатическое", "concept_b": "Число цикломатическое", "has_relation": false}

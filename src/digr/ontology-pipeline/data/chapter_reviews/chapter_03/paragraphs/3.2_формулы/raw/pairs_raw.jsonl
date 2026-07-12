@@ -1,0 +1,36 @@
+{"paragraph_id": "3.2", "concept_a": "Алгоритм интерпретации", "concept_b": "Базис", "has_relation": false}
+{"paragraph_id": "3.2", "concept_a": "Алгоритм интерпретации", "concept_b": "Операция внешняя", "has_relation": false}
+{"paragraph_id": "3.2", "concept_a": "Алгоритм интерпретации", "concept_b": "Операция главная", "has_relation": false}
+{"paragraph_id": "3.2", "concept_a": "Алгоритм интерпретации", "concept_b": "Побочный эффект", "has_relation": false}
+{"paragraph_id": "3.2", "concept_a": "Алгоритм интерпретации", "concept_b": "Подформула", "has_relation": false}
+{"paragraph_id": "3.2", "concept_a": "Алгоритм интерпретации", "concept_b": "Реализация функции", "has_relation": false}
+{"paragraph_id": "3.2", "concept_a": "Алгоритм интерпретации", "concept_b": "Смешанные вычисления \\\\", "has_relation": false}
+{"paragraph_id": "3.2", "concept_a": "Алгоритм интерпретации", "concept_b": "Формула", "has_relation": true}
+{"paragraph_id": "3.2", "concept_a": "Базис", "concept_b": "Операция внешняя", "has_relation": true}
+{"paragraph_id": "3.2", "concept_a": "Базис", "concept_b": "Операция главная", "has_relation": true}
+{"paragraph_id": "3.2", "concept_a": "Базис", "concept_b": "Побочный эффект", "has_relation": false}
+{"paragraph_id": "3.2", "concept_a": "Базис", "concept_b": "Подформула", "has_relation": true}
+{"paragraph_id": "3.2", "concept_a": "Базис", "concept_b": "Реализация функции", "has_relation": false}
+{"paragraph_id": "3.2", "concept_a": "Базис", "concept_b": "Смешанные вычисления \\\\", "has_relation": false}
+{"paragraph_id": "3.2", "concept_a": "Базис", "concept_b": "Формула", "has_relation": true}
+{"paragraph_id": "3.2", "concept_a": "Операция внешняя", "concept_b": "Операция главная", "has_relation": true}
+{"paragraph_id": "3.2", "concept_a": "Операция внешняя", "concept_b": "Побочный эффект", "has_relation": false}
+{"paragraph_id": "3.2", "concept_a": "Операция внешняя", "concept_b": "Подформула", "has_relation": true}
+{"paragraph_id": "3.2", "concept_a": "Операция внешняя", "concept_b": "Реализация функции", "has_relation": false}
+{"paragraph_id": "3.2", "concept_a": "Операция внешняя", "concept_b": "Смешанные вычисления \\\\", "has_relation": false}
+{"paragraph_id": "3.2", "concept_a": "Операция внешняя", "concept_b": "Формула", "has_relation": true}
+{"paragraph_id": "3.2", "concept_a": "Операция главная", "concept_b": "Побочный эффект", "has_relation": false}
+{"paragraph_id": "3.2", "concept_a": "Операция главная", "concept_b": "Подформула", "has_relation": true}
+{"paragraph_id": "3.2", "concept_a": "Операция главная", "concept_b": "Реализация функции", "has_relation": false}
+{"paragraph_id": "3.2", "concept_a": "Операция главная", "concept_b": "Смешанные вычисления \\\\", "has_relation": false}
+{"paragraph_id": "3.2", "concept_a": "Операция главная", "concept_b": "Формула", "has_relation": true}
+{"paragraph_id": "3.2", "concept_a": "Побочный эффект", "concept_b": "Подформула", "has_relation": false}
+{"paragraph_id": "3.2", "concept_a": "Побочный эффект", "concept_b": "Реализация функции", "has_relation": false}
+{"paragraph_id": "3.2", "concept_a": "Побочный эффект", "concept_b": "Смешанные вычисления \\\\", "has_relation": true}
+{"paragraph_id": "3.2", "concept_a": "Побочный эффект", "concept_b": "Формула", "has_relation": false}
+{"paragraph_id": "3.2", "concept_a": "Подформула", "concept_b": "Реализация функции", "has_relation": false}
+{"paragraph_id": "3.2", "concept_a": "Подформула", "concept_b": "Смешанные вычисления \\\\", "has_relation": false}
+{"paragraph_id": "3.2", "concept_a": "Подформула", "concept_b": "Формула", "has_relation": true}
+{"paragraph_id": "3.2", "concept_a": "Реализация функции", "concept_b": "Смешанные вычисления \\\\", "has_relation": false}
+{"paragraph_id": "3.2", "concept_a": "Реализация функции", "concept_b": "Формула", "has_relation": false}
+{"paragraph_id": "3.2", "concept_a": "Смешанные вычисления \\\\", "concept_b": "Формула", "has_relation": false}

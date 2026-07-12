@@ -1,0 +1,18 @@
+{
+  "paragraph_id": "1.4",
+  "paragraph_title": "1.4. Отношения",
+  "folder": "1.4_отношения",
+  "relations_reviewed": 97,
+  "corrected_relations": 83,
+  "category_counts": {
+    "found_on_diagram_correct": 1,
+    "found_on_diagram_wrong_direction": 0,
+    "found_on_diagram_wrong_type": 1,
+    "found_on_diagram_wrong_direction_and_type": 0,
+    "found_not_on_diagram_accepted": 81,
+    "found_not_on_diagram_rejected": 0,
+    "not_found_from_diagram": 14
+  },
+  "rendered": false,
+  "render_error": "Обнаружен циклический архитектурный антипаттерн взаимосвязи иерархий (a^+ b^+ a^+ b^+) для класса 'Кортеж'"
+}

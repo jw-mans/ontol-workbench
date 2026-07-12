@@ -1,0 +1,18 @@
+{
+  "paragraph_id": "7.2",
+  "paragraph_title": "7.2. Элементы графов",
+  "folder": "7.2_элементы_графов",
+  "relations_reviewed": 75,
+  "corrected_relations": 57,
+  "category_counts": {
+    "found_on_diagram_correct": 0,
+    "found_on_diagram_wrong_direction": 4,
+    "found_on_diagram_wrong_type": 0,
+    "found_on_diagram_wrong_direction_and_type": 0,
+    "found_not_on_diagram_accepted": 53,
+    "found_not_on_diagram_rejected": 1,
+    "not_found_from_diagram": 17
+  },
+  "rendered": true,
+  "render_error": null
+}

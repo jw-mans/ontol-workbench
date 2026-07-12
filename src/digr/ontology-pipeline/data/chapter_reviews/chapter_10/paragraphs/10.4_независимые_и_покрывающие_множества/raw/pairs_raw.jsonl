@@ -1,0 +1,231 @@
+{"paragraph_id": "10.4", "concept_a": "Вершина покрывающая", "concept_b": "Множество вершин внутренне устойчивое", "has_relation": false}
+{"paragraph_id": "10.4", "concept_a": "Вершина покрывающая", "concept_b": "Множество вершин независимое", "has_relation": false}
+{"paragraph_id": "10.4", "concept_a": "Вершина покрывающая", "concept_b": "Множество вершин независимое  максимальное (maximal", "has_relation": false}
+{"paragraph_id": "10.4", "concept_a": "Вершина покрывающая", "concept_b": "Множество вершин независимое  наибольшее (maximum", "has_relation": false}
+{"paragraph_id": "10.4", "concept_a": "Вершина покрывающая", "concept_b": "Множество рёбер независимое", "has_relation": false}
+{"paragraph_id": "10.4", "concept_a": "Вершина покрывающая", "concept_b": "Неравенство Коши-Буняковского \\\\", "has_relation": false}
+{"paragraph_id": "10.4", "concept_a": "Вершина покрывающая", "concept_b": "Паросочетание", "has_relation": false}
+{"paragraph_id": "10.4", "concept_a": "Вершина покрывающая", "concept_b": "Паросочетание  максимальное", "has_relation": false}
+{"paragraph_id": "10.4", "concept_a": "Вершина покрывающая", "concept_b": "Паросочетание  наибольшее", "has_relation": false}
+{"paragraph_id": "10.4", "concept_a": "Вершина покрывающая", "concept_b": "Покрытие вершинное", "has_relation": false}
+{"paragraph_id": "10.4", "concept_a": "Вершина покрывающая", "concept_b": "Покрытие минимальное вершинное", "has_relation": false}
+{"paragraph_id": "10.4", "concept_a": "Вершина покрывающая", "concept_b": "Покрытие минимальное рёберное", "has_relation": false}
+{"paragraph_id": "10.4", "concept_a": "Вершина покрывающая", "concept_b": "Покрытие наименьшее вершинное", "has_relation": false}
+{"paragraph_id": "10.4", "concept_a": "Вершина покрывающая", "concept_b": "Покрытие наименьшее рёберное", "has_relation": false}
+{"paragraph_id": "10.4", "concept_a": "Вершина покрывающая", "concept_b": "Покрытие рёберное", "has_relation": false}
+{"paragraph_id": "10.4", "concept_a": "Вершина покрывающая", "concept_b": "Ребро покрывающее", "has_relation": false}
+{"paragraph_id": "10.4", "concept_a": "Вершина покрывающая", "concept_b": "Число вершинного покрытия", "has_relation": false}
+{"paragraph_id": "10.4", "concept_a": "Вершина покрывающая", "concept_b": "Число независимости вершинное", "has_relation": false}
+{"paragraph_id": "10.4", "concept_a": "Вершина покрывающая", "concept_b": "Число независимости рёберное", "has_relation": false}
+{"paragraph_id": "10.4", "concept_a": "Вершина покрывающая", "concept_b": "Число рёберного покрытия", "has_relation": false}
+{"paragraph_id": "10.4", "concept_a": "Вершина покрывающая", "concept_b": "среднюю степень", "has_relation": false}
+{"paragraph_id": "10.4", "concept_a": "Множество вершин внутренне устойчивое", "concept_b": "Множество вершин независимое", "has_relation": true}
+{"paragraph_id": "10.4", "concept_a": "Множество вершин внутренне устойчивое", "concept_b": "Множество вершин независимое  максимальное (maximal", "has_relation": true}
+{"paragraph_id": "10.4", "concept_a": "Множество вершин внутренне устойчивое", "concept_b": "Множество вершин независимое  наибольшее (maximum", "has_relation": true}
+{"paragraph_id": "10.4", "concept_a": "Множество вершин внутренне устойчивое", "concept_b": "Множество рёбер независимое", "has_relation": false}
+{"paragraph_id": "10.4", "concept_a": "Множество вершин внутренне устойчивое", "concept_b": "Неравенство Коши-Буняковского \\\\", "has_relation": false}
+{"paragraph_id": "10.4", "concept_a": "Множество вершин внутренне устойчивое", "concept_b": "Паросочетание", "has_relation": false}
+{"paragraph_id": "10.4", "concept_a": "Множество вершин внутренне устойчивое", "concept_b": "Паросочетание  максимальное", "has_relation": false}
+{"paragraph_id": "10.4", "concept_a": "Множество вершин внутренне устойчивое", "concept_b": "Паросочетание  наибольшее", "has_relation": false}
+{"paragraph_id": "10.4", "concept_a": "Множество вершин внутренне устойчивое", "concept_b": "Покрытие вершинное", "has_relation": false}
+{"paragraph_id": "10.4", "concept_a": "Множество вершин внутренне устойчивое", "concept_b": "Покрытие минимальное вершинное", "has_relation": false}
+{"paragraph_id": "10.4", "concept_a": "Множество вершин внутренне устойчивое", "concept_b": "Покрытие минимальное рёберное", "has_relation": false}
+{"paragraph_id": "10.4", "concept_a": "Множество вершин внутренне устойчивое", "concept_b": "Покрытие наименьшее вершинное", "has_relation": false}
+{"paragraph_id": "10.4", "concept_a": "Множество вершин внутренне устойчивое", "concept_b": "Покрытие наименьшее рёберное", "has_relation": false}
+{"paragraph_id": "10.4", "concept_a": "Множество вершин внутренне устойчивое", "concept_b": "Покрытие рёберное", "has_relation": false}
+{"paragraph_id": "10.4", "concept_a": "Множество вершин внутренне устойчивое", "concept_b": "Ребро покрывающее", "has_relation": false}
+{"paragraph_id": "10.4", "concept_a": "Множество вершин внутренне устойчивое", "concept_b": "Число вершинного покрытия", "has_relation": false}
+{"paragraph_id": "10.4", "concept_a": "Множество вершин внутренне устойчивое", "concept_b": "Число независимости вершинное", "has_relation": true}
+{"paragraph_id": "10.4", "concept_a": "Множество вершин внутренне устойчивое", "concept_b": "Число независимости рёберное", "has_relation": false}
+{"paragraph_id": "10.4", "concept_a": "Множество вершин внутренне устойчивое", "concept_b": "Число рёберного покрытия", "has_relation": false}
+{"paragraph_id": "10.4", "concept_a": "Множество вершин внутренне устойчивое", "concept_b": "среднюю степень", "has_relation": false}
+{"paragraph_id": "10.4", "concept_a": "Множество вершин независимое", "concept_b": "Множество вершин независимое  максимальное (maximal", "has_relation": true}
+{"paragraph_id": "10.4", "concept_a": "Множество вершин независимое", "concept_b": "Множество вершин независимое  наибольшее (maximum", "has_relation": true}
+{"paragraph_id": "10.4", "concept_a": "Множество вершин независимое", "concept_b": "Множество рёбер независимое", "has_relation": false}
+{"paragraph_id": "10.4", "concept_a": "Множество вершин независимое", "concept_b": "Неравенство Коши-Буняковского \\\\", "has_relation": false}
+{"paragraph_id": "10.4", "concept_a": "Множество вершин независимое", "concept_b": "Паросочетание", "has_relation": false}
+{"paragraph_id": "10.4", "concept_a": "Множество вершин независимое", "concept_b": "Паросочетание  максимальное", "has_relation": false}
+{"paragraph_id": "10.4", "concept_a": "Множество вершин независимое", "concept_b": "Паросочетание  наибольшее", "has_relation": false}
+{"paragraph_id": "10.4", "concept_a": "Множество вершин независимое", "concept_b": "Покрытие вершинное", "has_relation": false}
+{"paragraph_id": "10.4", "concept_a": "Множество вершин независимое", "concept_b": "Покрытие минимальное вершинное", "has_relation": false}
+{"paragraph_id": "10.4", "concept_a": "Множество вершин независимое", "concept_b": "Покрытие минимальное рёберное", "has_relation": false}
+{"paragraph_id": "10.4", "concept_a": "Множество вершин независимое", "concept_b": "Покрытие наименьшее вершинное", "has_relation": false}
+{"paragraph_id": "10.4", "concept_a": "Множество вершин независимое", "concept_b": "Покрытие наименьшее рёберное", "has_relation": false}
+{"paragraph_id": "10.4", "concept_a": "Множество вершин независимое", "concept_b": "Покрытие рёберное", "has_relation": false}
+{"paragraph_id": "10.4", "concept_a": "Множество вершин независимое", "concept_b": "Ребро покрывающее", "has_relation": false}
+{"paragraph_id": "10.4", "concept_a": "Множество вершин независимое", "concept_b": "Число вершинного покрытия", "has_relation": false}
+{"paragraph_id": "10.4", "concept_a": "Множество вершин независимое", "concept_b": "Число независимости вершинное", "has_relation": true}
+{"paragraph_id": "10.4", "concept_a": "Множество вершин независимое", "concept_b": "Число независимости рёберное", "has_relation": false}
+{"paragraph_id": "10.4", "concept_a": "Множество вершин независимое", "concept_b": "Число рёберного покрытия", "has_relation": false}
+{"paragraph_id": "10.4", "concept_a": "Множество вершин независимое", "concept_b": "среднюю степень", "has_relation": false}
+{"paragraph_id": "10.4", "concept_a": "Множество вершин независимое  максимальное (maximal", "concept_b": "Множество вершин независимое  наибольшее (maximum", "has_relation": true}
+{"paragraph_id": "10.4", "concept_a": "Множество вершин независимое  максимальное (maximal", "concept_b": "Множество рёбер независимое", "has_relation": false}
+{"paragraph_id": "10.4", "concept_a": "Множество вершин независимое  максимальное (maximal", "concept_b": "Неравенство Коши-Буняковского \\\\", "has_relation": false}
+{"paragraph_id": "10.4", "concept_a": "Множество вершин независимое  максимальное (maximal", "concept_b": "Паросочетание", "has_relation": false}
+{"paragraph_id": "10.4", "concept_a": "Множество вершин независимое  максимальное (maximal", "concept_b": "Паросочетание  максимальное", "has_relation": false}
+{"paragraph_id": "10.4", "concept_a": "Множество вершин независимое  максимальное (maximal", "concept_b": "Паросочетание  наибольшее", "has_relation": false}
+{"paragraph_id": "10.4", "concept_a": "Множество вершин независимое  максимальное (maximal", "concept_b": "Покрытие вершинное", "has_relation": false}
+{"paragraph_id": "10.4", "concept_a": "Множество вершин независимое  максимальное (maximal", "concept_b": "Покрытие минимальное вершинное", "has_relation": false}
+{"paragraph_id": "10.4", "concept_a": "Множество вершин независимое  максимальное (maximal", "concept_b": "Покрытие минимальное рёберное", "has_relation": false}
+{"paragraph_id": "10.4", "concept_a": "Множество вершин независимое  максимальное (maximal", "concept_b": "Покрытие наименьшее вершинное", "has_relation": false}
+{"paragraph_id": "10.4", "concept_a": "Множество вершин независимое  максимальное (maximal", "concept_b": "Покрытие наименьшее рёберное", "has_relation": false}
+{"paragraph_id": "10.4", "concept_a": "Множество вершин независимое  максимальное (maximal", "concept_b": "Покрытие рёберное", "has_relation": false}
+{"paragraph_id": "10.4", "concept_a": "Множество вершин независимое  максимальное (maximal", "concept_b": "Ребро покрывающее", "has_relation": false}
+{"paragraph_id": "10.4", "concept_a": "Множество вершин независимое  максимальное (maximal", "concept_b": "Число вершинного покрытия", "has_relation": false}
+{"paragraph_id": "10.4", "concept_a": "Множество вершин независимое  максимальное (maximal", "concept_b": "Число независимости вершинное", "has_relation": true}
+{"paragraph_id": "10.4", "concept_a": "Множество вершин независимое  максимальное (maximal", "concept_b": "Число независимости рёберное", "has_relation": false}
+{"paragraph_id": "10.4", "concept_a": "Множество вершин независимое  максимальное (maximal", "concept_b": "Число рёберного покрытия", "has_relation": false}
+{"paragraph_id": "10.4", "concept_a": "Множество вершин независимое  максимальное (maximal", "concept_b": "среднюю степень", "has_relation": false}
+{"paragraph_id": "10.4", "concept_a": "Множество вершин независимое  наибольшее (maximum", "concept_b": "Множество рёбер независимое", "has_relation": false}
+{"paragraph_id": "10.4", "concept_a": "Множество вершин независимое  наибольшее (maximum", "concept_b": "Неравенство Коши-Буняковского \\\\", "has_relation": false}
+{"paragraph_id": "10.4", "concept_a": "Множество вершин независимое  наибольшее (maximum", "concept_b": "Паросочетание", "has_relation": false}
+{"paragraph_id": "10.4", "concept_a": "Множество вершин независимое  наибольшее (maximum", "concept_b": "Паросочетание  максимальное", "has_relation": false}
+{"paragraph_id": "10.4", "concept_a": "Множество вершин независимое  наибольшее (maximum", "concept_b": "Паросочетание  наибольшее", "has_relation": false}
+{"paragraph_id": "10.4", "concept_a": "Множество вершин независимое  наибольшее (maximum", "concept_b": "Покрытие вершинное", "has_relation": false}
+{"paragraph_id": "10.4", "concept_a": "Множество вершин независимое  наибольшее (maximum", "concept_b": "Покрытие минимальное вершинное", "has_relation": false}
+{"paragraph_id": "10.4", "concept_a": "Множество вершин независимое  наибольшее (maximum", "concept_b": "Покрытие минимальное рёберное", "has_relation": false}
+{"paragraph_id": "10.4", "concept_a": "Множество вершин независимое  наибольшее (maximum", "concept_b": "Покрытие наименьшее вершинное", "has_relation": false}
+{"paragraph_id": "10.4", "concept_a": "Множество вершин независимое  наибольшее (maximum", "concept_b": "Покрытие наименьшее рёберное", "has_relation": false}
+{"paragraph_id": "10.4", "concept_a": "Множество вершин независимое  наибольшее (maximum", "concept_b": "Покрытие рёберное", "has_relation": false}
+{"paragraph_id": "10.4", "concept_a": "Множество вершин независимое  наибольшее (maximum", "concept_b": "Ребро покрывающее", "has_relation": false}
+{"paragraph_id": "10.4", "concept_a": "Множество вершин независимое  наибольшее (maximum", "concept_b": "Число вершинного покрытия", "has_relation": false}
+{"paragraph_id": "10.4", "concept_a": "Множество вершин независимое  наибольшее (maximum", "concept_b": "Число независимости вершинное", "has_relation": true}
+{"paragraph_id": "10.4", "concept_a": "Множество вершин независимое  наибольшее (maximum", "concept_b": "Число независимости рёберное", "has_relation": false}
+{"paragraph_id": "10.4", "concept_a": "Множество вершин независимое  наибольшее (maximum", "concept_b": "Число рёберного покрытия", "has_relation": false}
+{"paragraph_id": "10.4", "concept_a": "Множество вершин независимое  наибольшее (maximum", "concept_b": "среднюю степень", "has_relation": false}
+{"paragraph_id": "10.4", "concept_a": "Множество рёбер независимое", "concept_b": "Неравенство Коши-Буняковского \\\\", "has_relation": false}
+{"paragraph_id": "10.4", "concept_a": "Множество рёбер независимое", "concept_b": "Паросочетание", "has_relation": true}
+{"paragraph_id": "10.4", "concept_a": "Множество рёбер независимое", "concept_b": "Паросочетание  максимальное", "has_relation": true}
+{"paragraph_id": "10.4", "concept_a": "Множество рёбер независимое", "concept_b": "Паросочетание  наибольшее", "has_relation": true}
+{"paragraph_id": "10.4", "concept_a": "Множество рёбер независимое", "concept_b": "Покрытие вершинное", "has_relation": false}
+{"paragraph_id": "10.4", "concept_a": "Множество рёбер независимое", "concept_b": "Покрытие минимальное вершинное", "has_relation": false}
+{"paragraph_id": "10.4", "concept_a": "Множество рёбер независимое", "concept_b": "Покрытие минимальное рёберное", "has_relation": false}
+{"paragraph_id": "10.4", "concept_a": "Множество рёбер независимое", "concept_b": "Покрытие наименьшее вершинное", "has_relation": false}
+{"paragraph_id": "10.4", "concept_a": "Множество рёбер независимое", "concept_b": "Покрытие наименьшее рёберное", "has_relation": false}
+{"paragraph_id": "10.4", "concept_a": "Множество рёбер независимое", "concept_b": "Покрытие рёберное", "has_relation": false}
+{"paragraph_id": "10.4", "concept_a": "Множество рёбер независимое", "concept_b": "Ребро покрывающее", "has_relation": false}
+{"paragraph_id": "10.4", "concept_a": "Множество рёбер независимое", "concept_b": "Число вершинного покрытия", "has_relation": false}
+{"paragraph_id": "10.4", "concept_a": "Множество рёбер независимое", "concept_b": "Число независимости вершинное", "has_relation": false}
+{"paragraph_id": "10.4", "concept_a": "Множество рёбер независимое", "concept_b": "Число независимости рёберное", "has_relation": true}
+{"paragraph_id": "10.4", "concept_a": "Множество рёбер независимое", "concept_b": "Число рёберного покрытия", "has_relation": false}
+{"paragraph_id": "10.4", "concept_a": "Множество рёбер независимое", "concept_b": "среднюю степень", "has_relation": false}
+{"paragraph_id": "10.4", "concept_a": "Неравенство Коши-Буняковского \\\\", "concept_b": "Паросочетание", "has_relation": false}
+{"paragraph_id": "10.4", "concept_a": "Неравенство Коши-Буняковского \\\\", "concept_b": "Паросочетание  максимальное", "has_relation": false}
+{"paragraph_id": "10.4", "concept_a": "Неравенство Коши-Буняковского \\\\", "concept_b": "Паросочетание  наибольшее", "has_relation": false}
+{"paragraph_id": "10.4", "concept_a": "Неравенство Коши-Буняковского \\\\", "concept_b": "Покрытие вершинное", "has_relation": false}
+{"paragraph_id": "10.4", "concept_a": "Неравенство Коши-Буняковского \\\\", "concept_b": "Покрытие минимальное вершинное", "has_relation": false}
+{"paragraph_id": "10.4", "concept_a": "Неравенство Коши-Буняковского \\\\", "concept_b": "Покрытие минимальное рёберное", "has_relation": false}
+{"paragraph_id": "10.4", "concept_a": "Неравенство Коши-Буняковского \\\\", "concept_b": "Покрытие наименьшее вершинное", "has_relation": false}
+{"paragraph_id": "10.4", "concept_a": "Неравенство Коши-Буняковского \\\\", "concept_b": "Покрытие наименьшее рёберное", "has_relation": false}
+{"paragraph_id": "10.4", "concept_a": "Неравенство Коши-Буняковского \\\\", "concept_b": "Покрытие рёберное", "has_relation": false}
+{"paragraph_id": "10.4", "concept_a": "Неравенство Коши-Буняковского \\\\", "concept_b": "Ребро покрывающее", "has_relation": false}
+{"paragraph_id": "10.4", "concept_a": "Неравенство Коши-Буняковского \\\\", "concept_b": "Число вершинного покрытия", "has_relation": false}
+{"paragraph_id": "10.4", "concept_a": "Неравенство Коши-Буняковского \\\\", "concept_b": "Число независимости вершинное", "has_relation": false}
+{"paragraph_id": "10.4", "concept_a": "Неравенство Коши-Буняковского \\\\", "concept_b": "Число независимости рёберное", "has_relation": false}
+{"paragraph_id": "10.4", "concept_a": "Неравенство Коши-Буняковского \\\\", "concept_b": "Число рёберного покрытия", "has_relation": false}
+{"paragraph_id": "10.4", "concept_a": "Неравенство Коши-Буняковского \\\\", "concept_b": "среднюю степень", "has_relation": true}
+{"paragraph_id": "10.4", "concept_a": "Паросочетание", "concept_b": "Паросочетание  максимальное", "has_relation": true}
+{"paragraph_id": "10.4", "concept_a": "Паросочетание", "concept_b": "Паросочетание  наибольшее", "has_relation": true}
+{"paragraph_id": "10.4", "concept_a": "Паросочетание", "concept_b": "Покрытие вершинное", "has_relation": false}
+{"paragraph_id": "10.4", "concept_a": "Паросочетание", "concept_b": "Покрытие минимальное вершинное", "has_relation": false}
+{"paragraph_id": "10.4", "concept_a": "Паросочетание", "concept_b": "Покрытие минимальное рёберное", "has_relation": false}
+{"paragraph_id": "10.4", "concept_a": "Паросочетание", "concept_b": "Покрытие наименьшее вершинное", "has_relation": false}
+{"paragraph_id": "10.4", "concept_a": "Паросочетание", "concept_b": "Покрытие наименьшее рёберное", "has_relation": false}
+{"paragraph_id": "10.4", "concept_a": "Паросочетание", "concept_b": "Покрытие рёберное", "has_relation": false}
+{"paragraph_id": "10.4", "concept_a": "Паросочетание", "concept_b": "Ребро покрывающее", "has_relation": false}
+{"paragraph_id": "10.4", "concept_a": "Паросочетание", "concept_b": "Число вершинного покрытия", "has_relation": false}
+{"paragraph_id": "10.4", "concept_a": "Паросочетание", "concept_b": "Число независимости вершинное", "has_relation": false}
+{"paragraph_id": "10.4", "concept_a": "Паросочетание", "concept_b": "Число независимости рёберное", "has_relation": true}
+{"paragraph_id": "10.4", "concept_a": "Паросочетание", "concept_b": "Число рёберного покрытия", "has_relation": false}
+{"paragraph_id": "10.4", "concept_a": "Паросочетание", "concept_b": "среднюю степень", "has_relation": false}
+{"paragraph_id": "10.4", "concept_a": "Паросочетание  максимальное", "concept_b": "Паросочетание  наибольшее", "has_relation": true}
+{"paragraph_id": "10.4", "concept_a": "Паросочетание  максимальное", "concept_b": "Покрытие вершинное", "has_relation": false}
+{"paragraph_id": "10.4", "concept_a": "Паросочетание  максимальное", "concept_b": "Покрытие минимальное вершинное", "has_relation": false}
+{"paragraph_id": "10.4", "concept_a": "Паросочетание  максимальное", "concept_b": "Покрытие минимальное рёберное", "has_relation": false}
+{"paragraph_id": "10.4", "concept_a": "Паросочетание  максимальное", "concept_b": "Покрытие наименьшее вершинное", "has_relation": false}
+{"paragraph_id": "10.4", "concept_a": "Паросочетание  максимальное", "concept_b": "Покрытие наименьшее рёберное", "has_relation": false}
+{"paragraph_id": "10.4", "concept_a": "Паросочетание  максимальное", "concept_b": "Покрытие рёберное", "has_relation": false}
+{"paragraph_id": "10.4", "concept_a": "Паросочетание  максимальное", "concept_b": "Ребро покрывающее", "has_relation": false}
+{"paragraph_id": "10.4", "concept_a": "Паросочетание  максимальное", "concept_b": "Число вершинного покрытия", "has_relation": false}
+{"paragraph_id": "10.4", "concept_a": "Паросочетание  максимальное", "concept_b": "Число независимости вершинное", "has_relation": false}
+{"paragraph_id": "10.4", "concept_a": "Паросочетание  максимальное", "concept_b": "Число независимости рёберное", "has_relation": true}
+{"paragraph_id": "10.4", "concept_a": "Паросочетание  максимальное", "concept_b": "Число рёберного покрытия", "has_relation": false}
+{"paragraph_id": "10.4", "concept_a": "Паросочетание  максимальное", "concept_b": "среднюю степень", "has_relation": false}
+{"paragraph_id": "10.4", "concept_a": "Паросочетание  наибольшее", "concept_b": "Покрытие вершинное", "has_relation": false}
+{"paragraph_id": "10.4", "concept_a": "Паросочетание  наибольшее", "concept_b": "Покрытие минимальное вершинное", "has_relation": false}
+{"paragraph_id": "10.4", "concept_a": "Паросочетание  наибольшее", "concept_b": "Покрытие минимальное рёберное", "has_relation": false}
+{"paragraph_id": "10.4", "concept_a": "Паросочетание  наибольшее", "concept_b": "Покрытие наименьшее вершинное", "has_relation": false}
+{"paragraph_id": "10.4", "concept_a": "Паросочетание  наибольшее", "concept_b": "Покрытие наименьшее рёберное", "has_relation": false}
+{"paragraph_id": "10.4", "concept_a": "Паросочетание  наибольшее", "concept_b": "Покрытие рёберное", "has_relation": false}
+{"paragraph_id": "10.4", "concept_a": "Паросочетание  наибольшее", "concept_b": "Ребро покрывающее", "has_relation": false}
+{"paragraph_id": "10.4", "concept_a": "Паросочетание  наибольшее", "concept_b": "Число вершинного покрытия", "has_relation": false}
+{"paragraph_id": "10.4", "concept_a": "Паросочетание  наибольшее", "concept_b": "Число независимости вершинное", "has_relation": false}
+{"paragraph_id": "10.4", "concept_a": "Паросочетание  наибольшее", "concept_b": "Число независимости рёберное", "has_relation": true}
+{"paragraph_id": "10.4", "concept_a": "Паросочетание  наибольшее", "concept_b": "Число рёберного покрытия", "has_relation": false}
+{"paragraph_id": "10.4", "concept_a": "Паросочетание  наибольшее", "concept_b": "среднюю степень", "has_relation": false}
+{"paragraph_id": "10.4", "concept_a": "Покрытие вершинное", "concept_b": "Покрытие минимальное вершинное", "has_relation": true}
+{"paragraph_id": "10.4", "concept_a": "Покрытие вершинное", "concept_b": "Покрытие минимальное рёберное", "has_relation": false}
+{"paragraph_id": "10.4", "concept_a": "Покрытие вершинное", "concept_b": "Покрытие наименьшее вершинное", "has_relation": true}
+{"paragraph_id": "10.4", "concept_a": "Покрытие вершинное", "concept_b": "Покрытие наименьшее рёберное", "has_relation": false}
+{"paragraph_id": "10.4", "concept_a": "Покрытие вершинное", "concept_b": "Покрытие рёберное", "has_relation": false}
+{"paragraph_id": "10.4", "concept_a": "Покрытие вершинное", "concept_b": "Ребро покрывающее", "has_relation": false}
+{"paragraph_id": "10.4", "concept_a": "Покрытие вершинное", "concept_b": "Число вершинного покрытия", "has_relation": true}
+{"paragraph_id": "10.4", "concept_a": "Покрытие вершинное", "concept_b": "Число независимости вершинное", "has_relation": false}
+{"paragraph_id": "10.4", "concept_a": "Покрытие вершинное", "concept_b": "Число независимости рёберное", "has_relation": false}
+{"paragraph_id": "10.4", "concept_a": "Покрытие вершинное", "concept_b": "Число рёберного покрытия", "has_relation": false}
+{"paragraph_id": "10.4", "concept_a": "Покрытие вершинное", "concept_b": "среднюю степень", "has_relation": false}
+{"paragraph_id": "10.4", "concept_a": "Покрытие минимальное вершинное", "concept_b": "Покрытие минимальное рёберное", "has_relation": false}
+{"paragraph_id": "10.4", "concept_a": "Покрытие минимальное вершинное", "concept_b": "Покрытие наименьшее вершинное", "has_relation": true}
+{"paragraph_id": "10.4", "concept_a": "Покрытие минимальное вершинное", "concept_b": "Покрытие наименьшее рёберное", "has_relation": false}
+{"paragraph_id": "10.4", "concept_a": "Покрытие минимальное вершинное", "concept_b": "Покрытие рёберное", "has_relation": false}
+{"paragraph_id": "10.4", "concept_a": "Покрытие минимальное вершинное", "concept_b": "Ребро покрывающее", "has_relation": false}
+{"paragraph_id": "10.4", "concept_a": "Покрытие минимальное вершинное", "concept_b": "Число вершинного покрытия", "has_relation": true}
+{"paragraph_id": "10.4", "concept_a": "Покрытие минимальное вершинное", "concept_b": "Число независимости вершинное", "has_relation": false}
+{"paragraph_id": "10.4", "concept_a": "Покрытие минимальное вершинное", "concept_b": "Число независимости рёберное", "has_relation": false}
+{"paragraph_id": "10.4", "concept_a": "Покрытие минимальное вершинное", "concept_b": "Число рёберного покрытия", "has_relation": false}
+{"paragraph_id": "10.4", "concept_a": "Покрытие минимальное вершинное", "concept_b": "среднюю степень", "has_relation": false}
+{"paragraph_id": "10.4", "concept_a": "Покрытие минимальное рёберное", "concept_b": "Покрытие наименьшее вершинное", "has_relation": false}
+{"paragraph_id": "10.4", "concept_a": "Покрытие минимальное рёберное", "concept_b": "Покрытие наименьшее рёберное", "has_relation": true}
+{"paragraph_id": "10.4", "concept_a": "Покрытие минимальное рёберное", "concept_b": "Покрытие рёберное", "has_relation": true}
+{"paragraph_id": "10.4", "concept_a": "Покрытие минимальное рёберное", "concept_b": "Ребро покрывающее", "has_relation": false}
+{"paragraph_id": "10.4", "concept_a": "Покрытие минимальное рёберное", "concept_b": "Число вершинного покрытия", "has_relation": false}
+{"paragraph_id": "10.4", "concept_a": "Покрытие минимальное рёберное", "concept_b": "Число независимости вершинное", "has_relation": false}
+{"paragraph_id": "10.4", "concept_a": "Покрытие минимальное рёберное", "concept_b": "Число независимости рёберное", "has_relation": false}
+{"paragraph_id": "10.4", "concept_a": "Покрытие минимальное рёберное", "concept_b": "Число рёберного покрытия", "has_relation": true}
+{"paragraph_id": "10.4", "concept_a": "Покрытие минимальное рёберное", "concept_b": "среднюю степень", "has_relation": false}
+{"paragraph_id": "10.4", "concept_a": "Покрытие наименьшее вершинное", "concept_b": "Покрытие наименьшее рёберное", "has_relation": false}
+{"paragraph_id": "10.4", "concept_a": "Покрытие наименьшее вершинное", "concept_b": "Покрытие рёберное", "has_relation": false}
+{"paragraph_id": "10.4", "concept_a": "Покрытие наименьшее вершинное", "concept_b": "Ребро покрывающее", "has_relation": false}
+{"paragraph_id": "10.4", "concept_a": "Покрытие наименьшее вершинное", "concept_b": "Число вершинного покрытия", "has_relation": true}
+{"paragraph_id": "10.4", "concept_a": "Покрытие наименьшее вершинное", "concept_b": "Число независимости вершинное", "has_relation": false}
+{"paragraph_id": "10.4", "concept_a": "Покрытие наименьшее вершинное", "concept_b": "Число независимости рёберное", "has_relation": false}
+{"paragraph_id": "10.4", "concept_a": "Покрытие наименьшее вершинное", "concept_b": "Число рёберного покрытия", "has_relation": false}
+{"paragraph_id": "10.4", "concept_a": "Покрытие наименьшее вершинное", "concept_b": "среднюю степень", "has_relation": false}
+{"paragraph_id": "10.4", "concept_a": "Покрытие наименьшее рёберное", "concept_b": "Покрытие рёберное", "has_relation": true}
+{"paragraph_id": "10.4", "concept_a": "Покрытие наименьшее рёберное", "concept_b": "Ребро покрывающее", "has_relation": false}
+{"paragraph_id": "10.4", "concept_a": "Покрытие наименьшее рёберное", "concept_b": "Число вершинного покрытия", "has_relation": false}
+{"paragraph_id": "10.4", "concept_a": "Покрытие наименьшее рёберное", "concept_b": "Число независимости вершинное", "has_relation": false}
+{"paragraph_id": "10.4", "concept_a": "Покрытие наименьшее рёберное", "concept_b": "Число независимости рёберное", "has_relation": false}
+{"paragraph_id": "10.4", "concept_a": "Покрытие наименьшее рёберное", "concept_b": "Число рёберного покрытия", "has_relation": true}
+{"paragraph_id": "10.4", "concept_a": "Покрытие наименьшее рёберное", "concept_b": "среднюю степень", "has_relation": false}
+{"paragraph_id": "10.4", "concept_a": "Покрытие рёберное", "concept_b": "Ребро покрывающее", "has_relation": false}
+{"paragraph_id": "10.4", "concept_a": "Покрытие рёберное", "concept_b": "Число вершинного покрытия", "has_relation": false}
+{"paragraph_id": "10.4", "concept_a": "Покрытие рёберное", "concept_b": "Число независимости вершинное", "has_relation": false}
+{"paragraph_id": "10.4", "concept_a": "Покрытие рёберное", "concept_b": "Число независимости рёберное", "has_relation": false}
+{"paragraph_id": "10.4", "concept_a": "Покрытие рёберное", "concept_b": "Число рёберного покрытия", "has_relation": true}
+{"paragraph_id": "10.4", "concept_a": "Покрытие рёберное", "concept_b": "среднюю степень", "has_relation": false}
+{"paragraph_id": "10.4", "concept_a": "Ребро покрывающее", "concept_b": "Число вершинного покрытия", "has_relation": false}
+{"paragraph_id": "10.4", "concept_a": "Ребро покрывающее", "concept_b": "Число независимости вершинное", "has_relation": false}
+{"paragraph_id": "10.4", "concept_a": "Ребро покрывающее", "concept_b": "Число независимости рёберное", "has_relation": false}
+{"paragraph_id": "10.4", "concept_a": "Ребро покрывающее", "concept_b": "Число рёберного покрытия", "has_relation": false}
+{"paragraph_id": "10.4", "concept_a": "Ребро покрывающее", "concept_b": "среднюю степень", "has_relation": false}
+{"paragraph_id": "10.4", "concept_a": "Число вершинного покрытия", "concept_b": "Число независимости вершинное", "has_relation": false}
+{"paragraph_id": "10.4", "concept_a": "Число вершинного покрытия", "concept_b": "Число независимости рёберное", "has_relation": false}
+{"paragraph_id": "10.4", "concept_a": "Число вершинного покрытия", "concept_b": "Число рёберного покрытия", "has_relation": false}
+{"paragraph_id": "10.4", "concept_a": "Число вершинного покрытия", "concept_b": "среднюю степень", "has_relation": false}
+{"paragraph_id": "10.4", "concept_a": "Число независимости вершинное", "concept_b": "Число независимости рёберное", "has_relation": false}
+{"paragraph_id": "10.4", "concept_a": "Число независимости вершинное", "concept_b": "Число рёберного покрытия", "has_relation": false}
+{"paragraph_id": "10.4", "concept_a": "Число независимости вершинное", "concept_b": "среднюю степень", "has_relation": false}
+{"paragraph_id": "10.4", "concept_a": "Число независимости рёберное", "concept_b": "Число рёберного покрытия", "has_relation": false}
+{"paragraph_id": "10.4", "concept_a": "Число независимости рёберное", "concept_b": "среднюю степень", "has_relation": false}
+{"paragraph_id": "10.4", "concept_a": "Число рёберного покрытия", "concept_b": "среднюю степень", "has_relation": false}

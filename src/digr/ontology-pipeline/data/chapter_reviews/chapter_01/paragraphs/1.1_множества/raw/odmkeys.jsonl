@@ -1,0 +1,45 @@
+{"paragraph_id": "1.1", "paragraph_title": "1.1. Множества", "index": "Множество", "surface": "Множество", "plain": "множество", "start": 47548, "end": 47583, "line": 1465}
+{"paragraph_id": "1.1", "paragraph_title": "1.1. Множества", "index": "Элемент множества", "surface": "элементами", "plain": "элемент множества", "start": 47691, "end": 47748, "line": 1468}
+{"paragraph_id": "1.1", "paragraph_title": "1.1. Множества", "index": "Число натуральное", "surface": "натуральных", "plain": "число натуральное", "start": 47978, "end": 48036, "line": 1475}
+{"paragraph_id": "1.1", "paragraph_title": "1.1. Множества", "index": "Число простое", "surface": "простых", "plain": "число простое", "start": 48084, "end": 48132, "line": 1477}
+{"paragraph_id": "1.1", "paragraph_title": "1.1. Множества", "index": "Число целое", "surface": "целых", "plain": "число целое", "start": 48185, "end": 48231, "line": 1479}
+{"paragraph_id": "1.1", "paragraph_title": "1.1. Множества", "index": "Число вещественное", "surface": "вещественных", "plain": "число вещественное", "start": 48298, "end": 48355, "line": 1481}
+{"paragraph_id": "1.1", "paragraph_title": "1.1. Множества", "index": "Принадлежность", "surface": "принадлежности", "plain": "принадлежность", "start": 48451, "end": 48503, "line": 1489}
+{"paragraph_id": "1.1", "paragraph_title": "1.1. Множества", "index": "Множество пустое", "surface": "пустым", "plain": "множество пустое", "start": 48677, "end": 48724, "line": 1496}
+{"paragraph_id": "1.1", "paragraph_title": "1.1. Множества", "index": "Семейство множеств", "surface": "семейством", "plain": "семейство множеств", "start": 48896, "end": 48954, "line": 1502}
+{"paragraph_id": "1.1", "paragraph_title": "1.1. Множества", "index": "Класс", "surface": "классом", "plain": "класс", "start": 50144, "end": 50175, "line": 1532}
+{"paragraph_id": "1.1", "paragraph_title": "1.1. Множества", "index": "Множество заданное характеристическим предикатом", "surface": "характеристический предикат", "plain": "множество заданное характеристическим предикатом", "start": 50659, "end": 50791, "line": 1549}
+{"paragraph_id": "1.1", "paragraph_title": "1.1. Множества", "index": "Множество заданное перечислением элементов", "surface": "перечисление элементов", "plain": "множество заданное перечислением элементов", "start": 50810, "end": 50918, "line": 1551}
+{"paragraph_id": "1.1", "paragraph_title": "1.1. Множества", "index": "Множество заданное характеристическим предикатом", "surface": "характеристический предикат", "plain": "множество заданное характеристическим предикатом", "start": 50963, "end": 51095, "line": 1555}
+{"paragraph_id": "1.1", "paragraph_title": "1.1. Множества", "index": "x\\Assign f", "surface": "порождающая процедура} {Множество (set)!заданное (defined by)!порождающей процедурой (generating procedure)}: \\> $M\\Assign\\Set{x", "plain": "x\\assign f", "start": 51135, "end": 51284, "line": 1559}
+{"paragraph_id": "1.1", "paragraph_title": "1.1. Множества", "index": "Множество конечное", "surface": "конечные", "plain": "множество конечное", "start": 52317, "end": 52369, "line": 1604}
+{"paragraph_id": "1.1", "paragraph_title": "1.1. Множества", "index": "Множество бесконечное", "surface": "Бесконечные", "plain": "множество бесконечное", "start": 52381, "end": 52441, "line": 1605}
+{"paragraph_id": "1.1", "paragraph_title": "1.1. Множества", "index": "Операция добавления элемента", "surface": "добавить", "plain": "операция добавления элемента", "start": 52698, "end": 52777, "line": 1616}
+{"paragraph_id": "1.1", "paragraph_title": "1.1. Множества", "index": "Операция удаления элемента", "surface": "удалить", "plain": "операция удаления элемента", "start": 52868, "end": 52945, "line": 1621}
+{"paragraph_id": "1.1", "paragraph_title": "1.1. Множества", "index": "Парадокс", "surface": "парадокс", "plain": "парадокс", "start": 53948, "end": 53985, "line": 1656}
+{"paragraph_id": "1.1", "paragraph_title": "1.1. Множества", "index": "Универсум", "surface": "универсум", "plain": "универсум", "start": 54198, "end": 54238, "line": 1667}
+{"paragraph_id": "1.1", "paragraph_title": "1.1. Множества", "index": "Аксиома регулярности", "surface": "аксиомой регулярности", "plain": "аксиома регулярности", "start": 54844, "end": 54920, "line": 1683}
+{"paragraph_id": "1.1", "paragraph_title": "1.1. Множества", "index": "Мультимножество", "surface": "Мультимножеством", "plain": "мультимножество", "start": 55600, "end": 55653, "line": 1701}
+{"paragraph_id": "1.1", "paragraph_title": "1.1. Множества", "index": "Показатель элемента", "surface": "показателем", "plain": "показатель элемента", "start": 56360, "end": 56420, "line": 1722}
+{"paragraph_id": "1.1", "paragraph_title": "1.1. Множества", "index": "Носитель мультимножества", "surface": "носителем", "plain": "носитель мультимножества", "start": 56455, "end": 56523, "line": 1723}
+{"paragraph_id": "1.1", "paragraph_title": "1.1. Множества", "index": "Мощность мультимножества", "surface": "мощностью", "plain": "мощность мультимножества", "start": 56554, "end": 56626, "line": 1725}
+{"paragraph_id": "1.1", "paragraph_title": "1.1. Множества", "index": "Состав мультимножества", "surface": "составом", "plain": "состав мультимножества", "start": 56691, "end": 56757, "line": 1727}
+{"paragraph_id": "1.1", "paragraph_title": "1.1. Множества", "index": "Индикатор", "surface": "индикатором", "plain": "индикатор", "start": 57094, "end": 57137, "line": 1739}
+{"paragraph_id": "1.1", "paragraph_title": "1.1. Множества", "index": "Последовательность", "surface": "последовательностью", "plain": "последовательность", "start": 57819, "end": 57878, "line": 1760}
+{"paragraph_id": "1.1", "paragraph_title": "1.1. Множества", "index": "Вектор", "surface": "вектором", "plain": "вектор", "start": 58539, "end": 58573, "line": 1777}
+{"paragraph_id": "1.1", "paragraph_title": "1.1. Множества", "index": "Тип", "surface": "типом", "plain": "тип", "start": 58863, "end": 58889, "line": 1789}
+{"paragraph_id": "1.1", "paragraph_title": "1.1. Множества", "index": "Буква", "surface": "буквы", "plain": "буква", "start": 59210, "end": 59240, "line": 1798}
+{"paragraph_id": "1.1", "paragraph_title": "1.1. Множества", "index": "Символ", "surface": "символы", "plain": "символ", "start": 59247, "end": 59280, "line": 1799}
+{"paragraph_id": "1.1", "paragraph_title": "1.1. Множества", "index": "Алфавит", "surface": "алфавитом", "plain": "алфавит", "start": 59323, "end": 59361, "line": 1800}
+{"paragraph_id": "1.1", "paragraph_title": "1.1. Множества", "index": "Слово", "surface": "словом", "plain": "слово", "start": 59426, "end": 59455, "line": 1803}
+{"paragraph_id": "1.1", "paragraph_title": "1.1. Множества", "index": "Цепочка", "surface": "цепочкой", "plain": "цепочка", "start": 59462, "end": 59497, "line": 1804}
+{"paragraph_id": "1.1", "paragraph_title": "1.1. Множества", "index": "Вхождение", "surface": "вхождением", "plain": "вхождение", "start": 59624, "end": 59667, "line": 1807}
+{"paragraph_id": "1.1", "paragraph_title": "1.1. Множества", "index": "Длина слова", "surface": "длиной", "plain": "длина слова", "start": 59771, "end": 59818, "line": 1811}
+{"paragraph_id": "1.1", "paragraph_title": "1.1. Множества", "index": "Слово пустое", "surface": "Пустое слово", "plain": "слово пустое", "start": 59860, "end": 59910, "line": 1813}
+{"paragraph_id": "1.1", "paragraph_title": "1.1. Множества", "index": "Операция конкатенации", "surface": "конкатенации", "plain": "операция конкатенации", "start": 60380, "end": 60455, "line": 1829}
+{"paragraph_id": "1.1", "paragraph_title": "1.1. Множества", "index": "Операция сцепления", "surface": "сцепления", "plain": "операция сцепления", "start": 60462, "end": 60531, "line": 1830}
+{"paragraph_id": "1.1", "paragraph_title": "1.1. Множества", "index": "Слово начало", "surface": "началом", "plain": "слово начало", "start": 60791, "end": 60837, "line": 1839}
+{"paragraph_id": "1.1", "paragraph_title": "1.1. Множества", "index": "Префикс", "surface": "префиксом", "plain": "префикс", "start": 60844, "end": 60880, "line": 1840}
+{"paragraph_id": "1.1", "paragraph_title": "1.1. Множества", "index": "Слово окончание", "surface": "окончанием", "plain": "слово окончание", "start": 60916, "end": 60969, "line": 1841}
+{"paragraph_id": "1.1", "paragraph_title": "1.1. Множества", "index": "Постфикс", "surface": "постфиксом", "plain": "постфикс", "start": 60975, "end": 61014, "line": 1841}
+{"paragraph_id": "1.1", "paragraph_title": "1.1. Множества", "index": "Язык", "surface": "языком", "plain": "язык", "start": 62014, "end": 62046, "line": 1871}

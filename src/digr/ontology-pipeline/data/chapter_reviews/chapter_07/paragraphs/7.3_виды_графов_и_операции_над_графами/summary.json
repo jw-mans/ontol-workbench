@@ -1,0 +1,18 @@
+{
+  "paragraph_id": "7.3",
+  "paragraph_title": "7.3. Виды графов и операции над графами",
+  "folder": "7.3_виды_графов_и_операции_над_графами",
+  "relations_reviewed": 58,
+  "corrected_relations": 37,
+  "category_counts": {
+    "found_on_diagram_correct": 0,
+    "found_on_diagram_wrong_direction": 0,
+    "found_on_diagram_wrong_type": 0,
+    "found_on_diagram_wrong_direction_and_type": 0,
+    "found_not_on_diagram_accepted": 37,
+    "found_not_on_diagram_rejected": 0,
+    "not_found_from_diagram": 21
+  },
+  "rendered": true,
+  "render_error": null
+}

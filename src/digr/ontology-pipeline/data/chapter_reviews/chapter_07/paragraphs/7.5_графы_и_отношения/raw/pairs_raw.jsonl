@@ -1,0 +1,36 @@
+{"paragraph_id": "7.5", "concept_a": "Вершина достижимая", "concept_b": "Граф инциденций", "has_relation": false}
+{"paragraph_id": "7.5", "concept_a": "Вершина достижимая", "concept_b": "Дерево  И/ИЛИ", "has_relation": false}
+{"paragraph_id": "7.5", "concept_a": "Вершина достижимая", "concept_b": "Дерево игровое", "has_relation": false}
+{"paragraph_id": "7.5", "concept_a": "Вершина достижимая", "concept_b": "Искусственный интеллект символический", "has_relation": false}
+{"paragraph_id": "7.5", "concept_a": "Вершина достижимая", "concept_b": "Орграф обратный", "has_relation": false}
+{"paragraph_id": "7.5", "concept_a": "Вершина достижимая", "concept_b": "нетривиальными", "has_relation": false}
+{"paragraph_id": "7.5", "concept_a": "Вершина достижимая", "concept_b": "собственными", "has_relation": false}
+{"paragraph_id": "7.5", "concept_a": "Вершина достижимая", "concept_b": "тривиальными", "has_relation": false}
+{"paragraph_id": "7.5", "concept_a": "Граф инциденций", "concept_b": "Дерево  И/ИЛИ", "has_relation": false}
+{"paragraph_id": "7.5", "concept_a": "Граф инциденций", "concept_b": "Дерево игровое", "has_relation": false}
+{"paragraph_id": "7.5", "concept_a": "Граф инциденций", "concept_b": "Искусственный интеллект символический", "has_relation": false}
+{"paragraph_id": "7.5", "concept_a": "Граф инциденций", "concept_b": "Орграф обратный", "has_relation": false}
+{"paragraph_id": "7.5", "concept_a": "Граф инциденций", "concept_b": "нетривиальными", "has_relation": false}
+{"paragraph_id": "7.5", "concept_a": "Граф инциденций", "concept_b": "собственными", "has_relation": false}
+{"paragraph_id": "7.5", "concept_a": "Граф инциденций", "concept_b": "тривиальными", "has_relation": false}
+{"paragraph_id": "7.5", "concept_a": "Дерево  И/ИЛИ", "concept_b": "Дерево игровое", "has_relation": true}
+{"paragraph_id": "7.5", "concept_a": "Дерево  И/ИЛИ", "concept_b": "Искусственный интеллект символический", "has_relation": true}
+{"paragraph_id": "7.5", "concept_a": "Дерево  И/ИЛИ", "concept_b": "Орграф обратный", "has_relation": false}
+{"paragraph_id": "7.5", "concept_a": "Дерево  И/ИЛИ", "concept_b": "нетривиальными", "has_relation": false}
+{"paragraph_id": "7.5", "concept_a": "Дерево  И/ИЛИ", "concept_b": "собственными", "has_relation": false}
+{"paragraph_id": "7.5", "concept_a": "Дерево  И/ИЛИ", "concept_b": "тривиальными", "has_relation": false}
+{"paragraph_id": "7.5", "concept_a": "Дерево игровое", "concept_b": "Искусственный интеллект символический", "has_relation": true}
+{"paragraph_id": "7.5", "concept_a": "Дерево игровое", "concept_b": "Орграф обратный", "has_relation": false}
+{"paragraph_id": "7.5", "concept_a": "Дерево игровое", "concept_b": "нетривиальными", "has_relation": false}
+{"paragraph_id": "7.5", "concept_a": "Дерево игровое", "concept_b": "собственными", "has_relation": false}
+{"paragraph_id": "7.5", "concept_a": "Дерево игровое", "concept_b": "тривиальными", "has_relation": false}
+{"paragraph_id": "7.5", "concept_a": "Искусственный интеллект символический", "concept_b": "Орграф обратный", "has_relation": false}
+{"paragraph_id": "7.5", "concept_a": "Искусственный интеллект символический", "concept_b": "нетривиальными", "has_relation": false}
+{"paragraph_id": "7.5", "concept_a": "Искусственный интеллект символический", "concept_b": "собственными", "has_relation": false}
+{"paragraph_id": "7.5", "concept_a": "Искусственный интеллект символический", "concept_b": "тривиальными", "has_relation": false}
+{"paragraph_id": "7.5", "concept_a": "Орграф обратный", "concept_b": "нетривиальными", "has_relation": false}
+{"paragraph_id": "7.5", "concept_a": "Орграф обратный", "concept_b": "собственными", "has_relation": false}
+{"paragraph_id": "7.5", "concept_a": "Орграф обратный", "concept_b": "тривиальными", "has_relation": false}
+{"paragraph_id": "7.5", "concept_a": "нетривиальными", "concept_b": "собственными", "has_relation": false}
+{"paragraph_id": "7.5", "concept_a": "нетривиальными", "concept_b": "тривиальными", "has_relation": false}
+{"paragraph_id": "7.5", "concept_a": "собственными", "concept_b": "тривиальными", "has_relation": false}

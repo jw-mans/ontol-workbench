@@ -1,0 +1,990 @@
+{"paragraph_id": "2.2", "concept_a": "\\leadsto", "concept_b": "Алгоритм Кнута--Бендикса", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "\\leadsto", "concept_b": "Группа", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "\\leadsto", "concept_b": "Группа абелева", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "\\leadsto", "concept_b": "Группа коммутативная", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "\\leadsto", "concept_b": "Группоид", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "\\leadsto", "concept_b": "Действие группы на множестве", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "\\leadsto", "concept_b": "Единица моноида", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "\\leadsto", "concept_b": "Замена переменной", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "\\leadsto", "concept_b": "Квазигруппа", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "\\leadsto", "concept_b": "Квазигруппа полностью антисимметричная", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "\\leadsto", "concept_b": "Композиция подстановок", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "\\leadsto", "concept_b": "Лупа", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "\\leadsto", "concept_b": "Магма", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "\\leadsto", "concept_b": "Моноид", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "\\leadsto", "concept_b": "Нуль группы", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "\\leadsto", "concept_b": "Операция конкатенации", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "\\leadsto", "concept_b": "Орбита элемента", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "\\leadsto", "concept_b": "Отношение переписывания", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "\\leadsto", "concept_b": "Отношение редукции", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "\\leadsto", "concept_b": "Переписывание термов", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "\\leadsto", "concept_b": "Переписывание термов за один шаг", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "\\leadsto", "concept_b": "Подстановка", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "\\leadsto", "concept_b": "Полугруппа", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "\\leadsto", "concept_b": "Полугруппа свободная", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "\\leadsto", "concept_b": "Порядок группы", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "\\leadsto", "concept_b": "Преобразование над множеством", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "\\leadsto", "concept_b": "Проблема алгоритмически неразрешимая \\\\", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "\\leadsto", "concept_b": "Свойство Чёрча--Россера", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "\\leadsto", "concept_b": "Система  подстановок термов остановочная", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "\\leadsto", "concept_b": "Система подстановок термов", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "\\leadsto", "concept_b": "Система подстановок термов конфлюэнтная", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "\\leadsto", "concept_b": "Система подстановок термов терминирующая", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "\\leadsto", "concept_b": "Соотношение определяющее", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "\\leadsto", "concept_b": "Теорема Маркова--Поста %", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "\\leadsto", "concept_b": "Терм", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "\\leadsto", "concept_b": "Терм не редуцируемый", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "\\leadsto", "concept_b": "Терм редуцируемый", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "\\leadsto", "concept_b": "Траектория элемента", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "\\leadsto", "concept_b": "Унар", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "\\leadsto", "concept_b": "Форма нормальная  терма", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "\\leadsto", "concept_b": "Форма общая нормальная  терма", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "\\leadsto", "concept_b": "Элемент % нейтральный", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "\\leadsto", "concept_b": "Элемент нейтральный", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "\\leadsto", "concept_b": "Элемент обратный %", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Алгоритм Кнута--Бендикса", "concept_b": "Группа", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Алгоритм Кнута--Бендикса", "concept_b": "Группа абелева", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Алгоритм Кнута--Бендикса", "concept_b": "Группа коммутативная", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Алгоритм Кнута--Бендикса", "concept_b": "Группоид", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Алгоритм Кнута--Бендикса", "concept_b": "Действие группы на множестве", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Алгоритм Кнута--Бендикса", "concept_b": "Единица моноида", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Алгоритм Кнута--Бендикса", "concept_b": "Замена переменной", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Алгоритм Кнута--Бендикса", "concept_b": "Квазигруппа", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Алгоритм Кнута--Бендикса", "concept_b": "Квазигруппа полностью антисимметричная", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Алгоритм Кнута--Бендикса", "concept_b": "Композиция подстановок", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Алгоритм Кнута--Бендикса", "concept_b": "Лупа", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Алгоритм Кнута--Бендикса", "concept_b": "Магма", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Алгоритм Кнута--Бендикса", "concept_b": "Моноид", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Алгоритм Кнута--Бендикса", "concept_b": "Нуль группы", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Алгоритм Кнута--Бендикса", "concept_b": "Операция конкатенации", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Алгоритм Кнута--Бендикса", "concept_b": "Орбита элемента", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Алгоритм Кнута--Бендикса", "concept_b": "Отношение переписывания", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Алгоритм Кнута--Бендикса", "concept_b": "Отношение редукции", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Алгоритм Кнута--Бендикса", "concept_b": "Переписывание термов", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Алгоритм Кнута--Бендикса", "concept_b": "Переписывание термов за один шаг", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Алгоритм Кнута--Бендикса", "concept_b": "Подстановка", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Алгоритм Кнута--Бендикса", "concept_b": "Полугруппа", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Алгоритм Кнута--Бендикса", "concept_b": "Полугруппа свободная", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Алгоритм Кнута--Бендикса", "concept_b": "Порядок группы", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Алгоритм Кнута--Бендикса", "concept_b": "Преобразование над множеством", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Алгоритм Кнута--Бендикса", "concept_b": "Проблема алгоритмически неразрешимая \\\\", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Алгоритм Кнута--Бендикса", "concept_b": "Свойство Чёрча--Россера", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Алгоритм Кнута--Бендикса", "concept_b": "Система  подстановок термов остановочная", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Алгоритм Кнута--Бендикса", "concept_b": "Система подстановок термов", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Алгоритм Кнута--Бендикса", "concept_b": "Система подстановок термов конфлюэнтная", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Алгоритм Кнута--Бендикса", "concept_b": "Система подстановок термов терминирующая", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Алгоритм Кнута--Бендикса", "concept_b": "Соотношение определяющее", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Алгоритм Кнута--Бендикса", "concept_b": "Теорема Маркова--Поста %", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Алгоритм Кнута--Бендикса", "concept_b": "Терм", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Алгоритм Кнута--Бендикса", "concept_b": "Терм не редуцируемый", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Алгоритм Кнута--Бендикса", "concept_b": "Терм редуцируемый", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Алгоритм Кнута--Бендикса", "concept_b": "Траектория элемента", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Алгоритм Кнута--Бендикса", "concept_b": "Унар", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Алгоритм Кнута--Бендикса", "concept_b": "Форма нормальная  терма", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Алгоритм Кнута--Бендикса", "concept_b": "Форма общая нормальная  терма", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Алгоритм Кнута--Бендикса", "concept_b": "Элемент % нейтральный", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Алгоритм Кнута--Бендикса", "concept_b": "Элемент нейтральный", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Алгоритм Кнута--Бендикса", "concept_b": "Элемент обратный %", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Группа", "concept_b": "Группа абелева", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Группа", "concept_b": "Группа коммутативная", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Группа", "concept_b": "Группоид", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Группа", "concept_b": "Действие группы на множестве", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Группа", "concept_b": "Единица моноида", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Группа", "concept_b": "Замена переменной", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Группа", "concept_b": "Квазигруппа", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Группа", "concept_b": "Квазигруппа полностью антисимметричная", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Группа", "concept_b": "Композиция подстановок", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Группа", "concept_b": "Лупа", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Группа", "concept_b": "Магма", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Группа", "concept_b": "Моноид", "has_relation": true}
+{"paragraph_id": "2.2", "concept_a": "Группа", "concept_b": "Нуль группы", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Группа", "concept_b": "Операция конкатенации", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Группа", "concept_b": "Орбита элемента", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Группа", "concept_b": "Отношение переписывания", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Группа", "concept_b": "Отношение редукции", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Группа", "concept_b": "Переписывание термов", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Группа", "concept_b": "Переписывание термов за один шаг", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Группа", "concept_b": "Подстановка", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Группа", "concept_b": "Полугруппа", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Группа", "concept_b": "Полугруппа свободная", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Группа", "concept_b": "Порядок группы", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Группа", "concept_b": "Преобразование над множеством", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Группа", "concept_b": "Проблема алгоритмически неразрешимая \\\\", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Группа", "concept_b": "Свойство Чёрча--Россера", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Группа", "concept_b": "Система  подстановок термов остановочная", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Группа", "concept_b": "Система подстановок термов", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Группа", "concept_b": "Система подстановок термов конфлюэнтная", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Группа", "concept_b": "Система подстановок термов терминирующая", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Группа", "concept_b": "Соотношение определяющее", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Группа", "concept_b": "Теорема Маркова--Поста %", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Группа", "concept_b": "Терм", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Группа", "concept_b": "Терм не редуцируемый", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Группа", "concept_b": "Терм редуцируемый", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Группа", "concept_b": "Траектория элемента", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Группа", "concept_b": "Унар", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Группа", "concept_b": "Форма нормальная  терма", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Группа", "concept_b": "Форма общая нормальная  терма", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Группа", "concept_b": "Элемент % нейтральный", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Группа", "concept_b": "Элемент нейтральный", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Группа", "concept_b": "Элемент обратный %", "has_relation": true}
+{"paragraph_id": "2.2", "concept_a": "Группа абелева", "concept_b": "Группа коммутативная", "has_relation": true}
+{"paragraph_id": "2.2", "concept_a": "Группа абелева", "concept_b": "Группоид", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Группа абелева", "concept_b": "Действие группы на множестве", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Группа абелева", "concept_b": "Единица моноида", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Группа абелева", "concept_b": "Замена переменной", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Группа абелева", "concept_b": "Квазигруппа", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Группа абелева", "concept_b": "Квазигруппа полностью антисимметричная", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Группа абелева", "concept_b": "Композиция подстановок", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Группа абелева", "concept_b": "Лупа", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Группа абелева", "concept_b": "Магма", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Группа абелева", "concept_b": "Моноид", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Группа абелева", "concept_b": "Нуль группы", "has_relation": true}
+{"paragraph_id": "2.2", "concept_a": "Группа абелева", "concept_b": "Операция конкатенации", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Группа абелева", "concept_b": "Орбита элемента", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Группа абелева", "concept_b": "Отношение переписывания", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Группа абелева", "concept_b": "Отношение редукции", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Группа абелева", "concept_b": "Переписывание термов", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Группа абелева", "concept_b": "Переписывание термов за один шаг", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Группа абелева", "concept_b": "Подстановка", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Группа абелева", "concept_b": "Полугруппа", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Группа абелева", "concept_b": "Полугруппа свободная", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Группа абелева", "concept_b": "Порядок группы", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Группа абелева", "concept_b": "Преобразование над множеством", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Группа абелева", "concept_b": "Проблема алгоритмически неразрешимая \\\\", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Группа абелева", "concept_b": "Свойство Чёрча--Россера", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Группа абелева", "concept_b": "Система  подстановок термов остановочная", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Группа абелева", "concept_b": "Система подстановок термов", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Группа абелева", "concept_b": "Система подстановок термов конфлюэнтная", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Группа абелева", "concept_b": "Система подстановок термов терминирующая", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Группа абелева", "concept_b": "Соотношение определяющее", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Группа абелева", "concept_b": "Теорема Маркова--Поста %", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Группа абелева", "concept_b": "Терм", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Группа абелева", "concept_b": "Терм не редуцируемый", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Группа абелева", "concept_b": "Терм редуцируемый", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Группа абелева", "concept_b": "Траектория элемента", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Группа абелева", "concept_b": "Унар", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Группа абелева", "concept_b": "Форма нормальная  терма", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Группа абелева", "concept_b": "Форма общая нормальная  терма", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Группа абелева", "concept_b": "Элемент % нейтральный", "has_relation": true}
+{"paragraph_id": "2.2", "concept_a": "Группа абелева", "concept_b": "Элемент нейтральный", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Группа абелева", "concept_b": "Элемент обратный %", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Группа коммутативная", "concept_b": "Группоид", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Группа коммутативная", "concept_b": "Действие группы на множестве", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Группа коммутативная", "concept_b": "Единица моноида", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Группа коммутативная", "concept_b": "Замена переменной", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Группа коммутативная", "concept_b": "Квазигруппа", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Группа коммутативная", "concept_b": "Квазигруппа полностью антисимметричная", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Группа коммутативная", "concept_b": "Композиция подстановок", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Группа коммутативная", "concept_b": "Лупа", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Группа коммутативная", "concept_b": "Магма", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Группа коммутативная", "concept_b": "Моноид", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Группа коммутативная", "concept_b": "Нуль группы", "has_relation": true}
+{"paragraph_id": "2.2", "concept_a": "Группа коммутативная", "concept_b": "Операция конкатенации", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Группа коммутативная", "concept_b": "Орбита элемента", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Группа коммутативная", "concept_b": "Отношение переписывания", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Группа коммутативная", "concept_b": "Отношение редукции", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Группа коммутативная", "concept_b": "Переписывание термов", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Группа коммутативная", "concept_b": "Переписывание термов за один шаг", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Группа коммутативная", "concept_b": "Подстановка", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Группа коммутативная", "concept_b": "Полугруппа", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Группа коммутативная", "concept_b": "Полугруппа свободная", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Группа коммутативная", "concept_b": "Порядок группы", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Группа коммутативная", "concept_b": "Преобразование над множеством", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Группа коммутативная", "concept_b": "Проблема алгоритмически неразрешимая \\\\", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Группа коммутативная", "concept_b": "Свойство Чёрча--Россера", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Группа коммутативная", "concept_b": "Система  подстановок термов остановочная", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Группа коммутативная", "concept_b": "Система подстановок термов", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Группа коммутативная", "concept_b": "Система подстановок термов конфлюэнтная", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Группа коммутативная", "concept_b": "Система подстановок термов терминирующая", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Группа коммутативная", "concept_b": "Соотношение определяющее", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Группа коммутативная", "concept_b": "Теорема Маркова--Поста %", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Группа коммутативная", "concept_b": "Терм", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Группа коммутативная", "concept_b": "Терм не редуцируемый", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Группа коммутативная", "concept_b": "Терм редуцируемый", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Группа коммутативная", "concept_b": "Траектория элемента", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Группа коммутативная", "concept_b": "Унар", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Группа коммутативная", "concept_b": "Форма нормальная  терма", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Группа коммутативная", "concept_b": "Форма общая нормальная  терма", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Группа коммутативная", "concept_b": "Элемент % нейтральный", "has_relation": true}
+{"paragraph_id": "2.2", "concept_a": "Группа коммутативная", "concept_b": "Элемент нейтральный", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Группа коммутативная", "concept_b": "Элемент обратный %", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Группоид", "concept_b": "Действие группы на множестве", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Группоид", "concept_b": "Единица моноида", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Группоид", "concept_b": "Замена переменной", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Группоид", "concept_b": "Квазигруппа", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Группоид", "concept_b": "Квазигруппа полностью антисимметричная", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Группоид", "concept_b": "Композиция подстановок", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Группоид", "concept_b": "Лупа", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Группоид", "concept_b": "Магма", "has_relation": true}
+{"paragraph_id": "2.2", "concept_a": "Группоид", "concept_b": "Моноид", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Группоид", "concept_b": "Нуль группы", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Группоид", "concept_b": "Операция конкатенации", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Группоид", "concept_b": "Орбита элемента", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Группоид", "concept_b": "Отношение переписывания", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Группоид", "concept_b": "Отношение редукции", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Группоид", "concept_b": "Переписывание термов", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Группоид", "concept_b": "Переписывание термов за один шаг", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Группоид", "concept_b": "Подстановка", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Группоид", "concept_b": "Полугруппа", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Группоид", "concept_b": "Полугруппа свободная", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Группоид", "concept_b": "Порядок группы", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Группоид", "concept_b": "Преобразование над множеством", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Группоид", "concept_b": "Проблема алгоритмически неразрешимая \\\\", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Группоид", "concept_b": "Свойство Чёрча--Россера", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Группоид", "concept_b": "Система  подстановок термов остановочная", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Группоид", "concept_b": "Система подстановок термов", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Группоид", "concept_b": "Система подстановок термов конфлюэнтная", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Группоид", "concept_b": "Система подстановок термов терминирующая", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Группоид", "concept_b": "Соотношение определяющее", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Группоид", "concept_b": "Теорема Маркова--Поста %", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Группоид", "concept_b": "Терм", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Группоид", "concept_b": "Терм не редуцируемый", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Группоид", "concept_b": "Терм редуцируемый", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Группоид", "concept_b": "Траектория элемента", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Группоид", "concept_b": "Унар", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Группоид", "concept_b": "Форма нормальная  терма", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Группоид", "concept_b": "Форма общая нормальная  терма", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Группоид", "concept_b": "Элемент % нейтральный", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Группоид", "concept_b": "Элемент нейтральный", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Группоид", "concept_b": "Элемент обратный %", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Действие группы на множестве", "concept_b": "Единица моноида", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Действие группы на множестве", "concept_b": "Замена переменной", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Действие группы на множестве", "concept_b": "Квазигруппа", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Действие группы на множестве", "concept_b": "Квазигруппа полностью антисимметричная", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Действие группы на множестве", "concept_b": "Композиция подстановок", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Действие группы на множестве", "concept_b": "Лупа", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Действие группы на множестве", "concept_b": "Магма", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Действие группы на множестве", "concept_b": "Моноид", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Действие группы на множестве", "concept_b": "Нуль группы", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Действие группы на множестве", "concept_b": "Операция конкатенации", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Действие группы на множестве", "concept_b": "Орбита элемента", "has_relation": true}
+{"paragraph_id": "2.2", "concept_a": "Действие группы на множестве", "concept_b": "Отношение переписывания", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Действие группы на множестве", "concept_b": "Отношение редукции", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Действие группы на множестве", "concept_b": "Переписывание термов", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Действие группы на множестве", "concept_b": "Переписывание термов за один шаг", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Действие группы на множестве", "concept_b": "Подстановка", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Действие группы на множестве", "concept_b": "Полугруппа", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Действие группы на множестве", "concept_b": "Полугруппа свободная", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Действие группы на множестве", "concept_b": "Порядок группы", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Действие группы на множестве", "concept_b": "Преобразование над множеством", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Действие группы на множестве", "concept_b": "Проблема алгоритмически неразрешимая \\\\", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Действие группы на множестве", "concept_b": "Свойство Чёрча--Россера", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Действие группы на множестве", "concept_b": "Система  подстановок термов остановочная", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Действие группы на множестве", "concept_b": "Система подстановок термов", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Действие группы на множестве", "concept_b": "Система подстановок термов конфлюэнтная", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Действие группы на множестве", "concept_b": "Система подстановок термов терминирующая", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Действие группы на множестве", "concept_b": "Соотношение определяющее", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Действие группы на множестве", "concept_b": "Теорема Маркова--Поста %", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Действие группы на множестве", "concept_b": "Терм", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Действие группы на множестве", "concept_b": "Терм не редуцируемый", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Действие группы на множестве", "concept_b": "Терм редуцируемый", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Действие группы на множестве", "concept_b": "Траектория элемента", "has_relation": true}
+{"paragraph_id": "2.2", "concept_a": "Действие группы на множестве", "concept_b": "Унар", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Действие группы на множестве", "concept_b": "Форма нормальная  терма", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Действие группы на множестве", "concept_b": "Форма общая нормальная  терма", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Действие группы на множестве", "concept_b": "Элемент % нейтральный", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Действие группы на множестве", "concept_b": "Элемент нейтральный", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Действие группы на множестве", "concept_b": "Элемент обратный %", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Единица моноида", "concept_b": "Замена переменной", "has_relation": true}
+{"paragraph_id": "2.2", "concept_a": "Единица моноида", "concept_b": "Квазигруппа", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Единица моноида", "concept_b": "Квазигруппа полностью антисимметричная", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Единица моноида", "concept_b": "Композиция подстановок", "has_relation": true}
+{"paragraph_id": "2.2", "concept_a": "Единица моноида", "concept_b": "Лупа", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Единица моноида", "concept_b": "Магма", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Единица моноида", "concept_b": "Моноид", "has_relation": true}
+{"paragraph_id": "2.2", "concept_a": "Единица моноида", "concept_b": "Нуль группы", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Единица моноида", "concept_b": "Операция конкатенации", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Единица моноида", "concept_b": "Орбита элемента", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Единица моноида", "concept_b": "Отношение переписывания", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Единица моноида", "concept_b": "Отношение редукции", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Единица моноида", "concept_b": "Переписывание термов", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Единица моноида", "concept_b": "Переписывание термов за один шаг", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Единица моноида", "concept_b": "Подстановка", "has_relation": true}
+{"paragraph_id": "2.2", "concept_a": "Единица моноида", "concept_b": "Полугруппа", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Единица моноида", "concept_b": "Полугруппа свободная", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Единица моноида", "concept_b": "Порядок группы", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Единица моноида", "concept_b": "Преобразование над множеством", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Единица моноида", "concept_b": "Проблема алгоритмически неразрешимая \\\\", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Единица моноида", "concept_b": "Свойство Чёрча--Россера", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Единица моноида", "concept_b": "Система  подстановок термов остановочная", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Единица моноида", "concept_b": "Система подстановок термов", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Единица моноида", "concept_b": "Система подстановок термов конфлюэнтная", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Единица моноида", "concept_b": "Система подстановок термов терминирующая", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Единица моноида", "concept_b": "Соотношение определяющее", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Единица моноида", "concept_b": "Теорема Маркова--Поста %", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Единица моноида", "concept_b": "Терм", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Единица моноида", "concept_b": "Терм не редуцируемый", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Единица моноида", "concept_b": "Терм редуцируемый", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Единица моноида", "concept_b": "Траектория элемента", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Единица моноида", "concept_b": "Унар", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Единица моноида", "concept_b": "Форма нормальная  терма", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Единица моноида", "concept_b": "Форма общая нормальная  терма", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Единица моноида", "concept_b": "Элемент % нейтральный", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Единица моноида", "concept_b": "Элемент нейтральный", "has_relation": true}
+{"paragraph_id": "2.2", "concept_a": "Единица моноида", "concept_b": "Элемент обратный %", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Замена переменной", "concept_b": "Квазигруппа", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Замена переменной", "concept_b": "Квазигруппа полностью антисимметричная", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Замена переменной", "concept_b": "Композиция подстановок", "has_relation": true}
+{"paragraph_id": "2.2", "concept_a": "Замена переменной", "concept_b": "Лупа", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Замена переменной", "concept_b": "Магма", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Замена переменной", "concept_b": "Моноид", "has_relation": true}
+{"paragraph_id": "2.2", "concept_a": "Замена переменной", "concept_b": "Нуль группы", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Замена переменной", "concept_b": "Операция конкатенации", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Замена переменной", "concept_b": "Орбита элемента", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Замена переменной", "concept_b": "Отношение переписывания", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Замена переменной", "concept_b": "Отношение редукции", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Замена переменной", "concept_b": "Переписывание термов", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Замена переменной", "concept_b": "Переписывание термов за один шаг", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Замена переменной", "concept_b": "Подстановка", "has_relation": true}
+{"paragraph_id": "2.2", "concept_a": "Замена переменной", "concept_b": "Полугруппа", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Замена переменной", "concept_b": "Полугруппа свободная", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Замена переменной", "concept_b": "Порядок группы", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Замена переменной", "concept_b": "Преобразование над множеством", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Замена переменной", "concept_b": "Проблема алгоритмически неразрешимая \\\\", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Замена переменной", "concept_b": "Свойство Чёрча--Россера", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Замена переменной", "concept_b": "Система  подстановок термов остановочная", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Замена переменной", "concept_b": "Система подстановок термов", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Замена переменной", "concept_b": "Система подстановок термов конфлюэнтная", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Замена переменной", "concept_b": "Система подстановок термов терминирующая", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Замена переменной", "concept_b": "Соотношение определяющее", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Замена переменной", "concept_b": "Теорема Маркова--Поста %", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Замена переменной", "concept_b": "Терм", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Замена переменной", "concept_b": "Терм не редуцируемый", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Замена переменной", "concept_b": "Терм редуцируемый", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Замена переменной", "concept_b": "Траектория элемента", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Замена переменной", "concept_b": "Унар", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Замена переменной", "concept_b": "Форма нормальная  терма", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Замена переменной", "concept_b": "Форма общая нормальная  терма", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Замена переменной", "concept_b": "Элемент % нейтральный", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Замена переменной", "concept_b": "Элемент нейтральный", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Замена переменной", "concept_b": "Элемент обратный %", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Квазигруппа", "concept_b": "Квазигруппа полностью антисимметричная", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Квазигруппа", "concept_b": "Композиция подстановок", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Квазигруппа", "concept_b": "Лупа", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Квазигруппа", "concept_b": "Магма", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Квазигруппа", "concept_b": "Моноид", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Квазигруппа", "concept_b": "Нуль группы", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Квазигруппа", "concept_b": "Операция конкатенации", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Квазигруппа", "concept_b": "Орбита элемента", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Квазигруппа", "concept_b": "Отношение переписывания", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Квазигруппа", "concept_b": "Отношение редукции", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Квазигруппа", "concept_b": "Переписывание термов", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Квазигруппа", "concept_b": "Переписывание термов за один шаг", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Квазигруппа", "concept_b": "Подстановка", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Квазигруппа", "concept_b": "Полугруппа", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Квазигруппа", "concept_b": "Полугруппа свободная", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Квазигруппа", "concept_b": "Порядок группы", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Квазигруппа", "concept_b": "Преобразование над множеством", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Квазигруппа", "concept_b": "Проблема алгоритмически неразрешимая \\\\", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Квазигруппа", "concept_b": "Свойство Чёрча--Россера", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Квазигруппа", "concept_b": "Система  подстановок термов остановочная", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Квазигруппа", "concept_b": "Система подстановок термов", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Квазигруппа", "concept_b": "Система подстановок термов конфлюэнтная", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Квазигруппа", "concept_b": "Система подстановок термов терминирующая", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Квазигруппа", "concept_b": "Соотношение определяющее", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Квазигруппа", "concept_b": "Теорема Маркова--Поста %", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Квазигруппа", "concept_b": "Терм", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Квазигруппа", "concept_b": "Терм не редуцируемый", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Квазигруппа", "concept_b": "Терм редуцируемый", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Квазигруппа", "concept_b": "Траектория элемента", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Квазигруппа", "concept_b": "Унар", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Квазигруппа", "concept_b": "Форма нормальная  терма", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Квазигруппа", "concept_b": "Форма общая нормальная  терма", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Квазигруппа", "concept_b": "Элемент % нейтральный", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Квазигруппа", "concept_b": "Элемент нейтральный", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Квазигруппа", "concept_b": "Элемент обратный %", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Квазигруппа полностью антисимметричная", "concept_b": "Композиция подстановок", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Квазигруппа полностью антисимметричная", "concept_b": "Лупа", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Квазигруппа полностью антисимметричная", "concept_b": "Магма", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Квазигруппа полностью антисимметричная", "concept_b": "Моноид", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Квазигруппа полностью антисимметричная", "concept_b": "Нуль группы", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Квазигруппа полностью антисимметричная", "concept_b": "Операция конкатенации", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Квазигруппа полностью антисимметричная", "concept_b": "Орбита элемента", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Квазигруппа полностью антисимметричная", "concept_b": "Отношение переписывания", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Квазигруппа полностью антисимметричная", "concept_b": "Отношение редукции", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Квазигруппа полностью антисимметричная", "concept_b": "Переписывание термов", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Квазигруппа полностью антисимметричная", "concept_b": "Переписывание термов за один шаг", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Квазигруппа полностью антисимметричная", "concept_b": "Подстановка", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Квазигруппа полностью антисимметричная", "concept_b": "Полугруппа", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Квазигруппа полностью антисимметричная", "concept_b": "Полугруппа свободная", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Квазигруппа полностью антисимметричная", "concept_b": "Порядок группы", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Квазигруппа полностью антисимметричная", "concept_b": "Преобразование над множеством", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Квазигруппа полностью антисимметричная", "concept_b": "Проблема алгоритмически неразрешимая \\\\", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Квазигруппа полностью антисимметричная", "concept_b": "Свойство Чёрча--Россера", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Квазигруппа полностью антисимметричная", "concept_b": "Система  подстановок термов остановочная", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Квазигруппа полностью антисимметричная", "concept_b": "Система подстановок термов", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Квазигруппа полностью антисимметричная", "concept_b": "Система подстановок термов конфлюэнтная", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Квазигруппа полностью антисимметричная", "concept_b": "Система подстановок термов терминирующая", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Квазигруппа полностью антисимметричная", "concept_b": "Соотношение определяющее", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Квазигруппа полностью антисимметричная", "concept_b": "Теорема Маркова--Поста %", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Квазигруппа полностью антисимметричная", "concept_b": "Терм", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Квазигруппа полностью антисимметричная", "concept_b": "Терм не редуцируемый", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Квазигруппа полностью антисимметричная", "concept_b": "Терм редуцируемый", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Квазигруппа полностью антисимметричная", "concept_b": "Траектория элемента", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Квазигруппа полностью антисимметричная", "concept_b": "Унар", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Квазигруппа полностью антисимметричная", "concept_b": "Форма нормальная  терма", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Квазигруппа полностью антисимметричная", "concept_b": "Форма общая нормальная  терма", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Квазигруппа полностью антисимметричная", "concept_b": "Элемент % нейтральный", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Квазигруппа полностью антисимметричная", "concept_b": "Элемент нейтральный", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Квазигруппа полностью антисимметричная", "concept_b": "Элемент обратный %", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Композиция подстановок", "concept_b": "Лупа", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Композиция подстановок", "concept_b": "Магма", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Композиция подстановок", "concept_b": "Моноид", "has_relation": true}
+{"paragraph_id": "2.2", "concept_a": "Композиция подстановок", "concept_b": "Нуль группы", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Композиция подстановок", "concept_b": "Операция конкатенации", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Композиция подстановок", "concept_b": "Орбита элемента", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Композиция подстановок", "concept_b": "Отношение переписывания", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Композиция подстановок", "concept_b": "Отношение редукции", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Композиция подстановок", "concept_b": "Переписывание термов", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Композиция подстановок", "concept_b": "Переписывание термов за один шаг", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Композиция подстановок", "concept_b": "Подстановка", "has_relation": true}
+{"paragraph_id": "2.2", "concept_a": "Композиция подстановок", "concept_b": "Полугруппа", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Композиция подстановок", "concept_b": "Полугруппа свободная", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Композиция подстановок", "concept_b": "Порядок группы", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Композиция подстановок", "concept_b": "Преобразование над множеством", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Композиция подстановок", "concept_b": "Проблема алгоритмически неразрешимая \\\\", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Композиция подстановок", "concept_b": "Свойство Чёрча--Россера", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Композиция подстановок", "concept_b": "Система  подстановок термов остановочная", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Композиция подстановок", "concept_b": "Система подстановок термов", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Композиция подстановок", "concept_b": "Система подстановок термов конфлюэнтная", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Композиция подстановок", "concept_b": "Система подстановок термов терминирующая", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Композиция подстановок", "concept_b": "Соотношение определяющее", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Композиция подстановок", "concept_b": "Теорема Маркова--Поста %", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Композиция подстановок", "concept_b": "Терм", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Композиция подстановок", "concept_b": "Терм не редуцируемый", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Композиция подстановок", "concept_b": "Терм редуцируемый", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Композиция подстановок", "concept_b": "Траектория элемента", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Композиция подстановок", "concept_b": "Унар", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Композиция подстановок", "concept_b": "Форма нормальная  терма", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Композиция подстановок", "concept_b": "Форма общая нормальная  терма", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Композиция подстановок", "concept_b": "Элемент % нейтральный", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Композиция подстановок", "concept_b": "Элемент нейтральный", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Композиция подстановок", "concept_b": "Элемент обратный %", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Лупа", "concept_b": "Магма", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Лупа", "concept_b": "Моноид", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Лупа", "concept_b": "Нуль группы", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Лупа", "concept_b": "Операция конкатенации", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Лупа", "concept_b": "Орбита элемента", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Лупа", "concept_b": "Отношение переписывания", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Лупа", "concept_b": "Отношение редукции", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Лупа", "concept_b": "Переписывание термов", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Лупа", "concept_b": "Переписывание термов за один шаг", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Лупа", "concept_b": "Подстановка", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Лупа", "concept_b": "Полугруппа", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Лупа", "concept_b": "Полугруппа свободная", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Лупа", "concept_b": "Порядок группы", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Лупа", "concept_b": "Преобразование над множеством", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Лупа", "concept_b": "Проблема алгоритмически неразрешимая \\\\", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Лупа", "concept_b": "Свойство Чёрча--Россера", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Лупа", "concept_b": "Система  подстановок термов остановочная", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Лупа", "concept_b": "Система подстановок термов", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Лупа", "concept_b": "Система подстановок термов конфлюэнтная", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Лупа", "concept_b": "Система подстановок термов терминирующая", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Лупа", "concept_b": "Соотношение определяющее", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Лупа", "concept_b": "Теорема Маркова--Поста %", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Лупа", "concept_b": "Терм", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Лупа", "concept_b": "Терм не редуцируемый", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Лупа", "concept_b": "Терм редуцируемый", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Лупа", "concept_b": "Траектория элемента", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Лупа", "concept_b": "Унар", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Лупа", "concept_b": "Форма нормальная  терма", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Лупа", "concept_b": "Форма общая нормальная  терма", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Лупа", "concept_b": "Элемент % нейтральный", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Лупа", "concept_b": "Элемент нейтральный", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Лупа", "concept_b": "Элемент обратный %", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Магма", "concept_b": "Моноид", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Магма", "concept_b": "Нуль группы", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Магма", "concept_b": "Операция конкатенации", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Магма", "concept_b": "Орбита элемента", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Магма", "concept_b": "Отношение переписывания", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Магма", "concept_b": "Отношение редукции", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Магма", "concept_b": "Переписывание термов", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Магма", "concept_b": "Переписывание термов за один шаг", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Магма", "concept_b": "Подстановка", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Магма", "concept_b": "Полугруппа", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Магма", "concept_b": "Полугруппа свободная", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Магма", "concept_b": "Порядок группы", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Магма", "concept_b": "Преобразование над множеством", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Магма", "concept_b": "Проблема алгоритмически неразрешимая \\\\", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Магма", "concept_b": "Свойство Чёрча--Россера", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Магма", "concept_b": "Система  подстановок термов остановочная", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Магма", "concept_b": "Система подстановок термов", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Магма", "concept_b": "Система подстановок термов конфлюэнтная", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Магма", "concept_b": "Система подстановок термов терминирующая", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Магма", "concept_b": "Соотношение определяющее", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Магма", "concept_b": "Теорема Маркова--Поста %", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Магма", "concept_b": "Терм", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Магма", "concept_b": "Терм не редуцируемый", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Магма", "concept_b": "Терм редуцируемый", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Магма", "concept_b": "Траектория элемента", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Магма", "concept_b": "Унар", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Магма", "concept_b": "Форма нормальная  терма", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Магма", "concept_b": "Форма общая нормальная  терма", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Магма", "concept_b": "Элемент % нейтральный", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Магма", "concept_b": "Элемент нейтральный", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Магма", "concept_b": "Элемент обратный %", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Моноид", "concept_b": "Нуль группы", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Моноид", "concept_b": "Операция конкатенации", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Моноид", "concept_b": "Орбита элемента", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Моноид", "concept_b": "Отношение переписывания", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Моноид", "concept_b": "Отношение редукции", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Моноид", "concept_b": "Переписывание термов", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Моноид", "concept_b": "Переписывание термов за один шаг", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Моноид", "concept_b": "Подстановка", "has_relation": true}
+{"paragraph_id": "2.2", "concept_a": "Моноид", "concept_b": "Полугруппа", "has_relation": true}
+{"paragraph_id": "2.2", "concept_a": "Моноид", "concept_b": "Полугруппа свободная", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Моноид", "concept_b": "Порядок группы", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Моноид", "concept_b": "Преобразование над множеством", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Моноид", "concept_b": "Проблема алгоритмически неразрешимая \\\\", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Моноид", "concept_b": "Свойство Чёрча--Россера", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Моноид", "concept_b": "Система  подстановок термов остановочная", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Моноид", "concept_b": "Система подстановок термов", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Моноид", "concept_b": "Система подстановок термов конфлюэнтная", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Моноид", "concept_b": "Система подстановок термов терминирующая", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Моноид", "concept_b": "Соотношение определяющее", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Моноид", "concept_b": "Теорема Маркова--Поста %", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Моноид", "concept_b": "Терм", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Моноид", "concept_b": "Терм не редуцируемый", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Моноид", "concept_b": "Терм редуцируемый", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Моноид", "concept_b": "Траектория элемента", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Моноид", "concept_b": "Унар", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Моноид", "concept_b": "Форма нормальная  терма", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Моноид", "concept_b": "Форма общая нормальная  терма", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Моноид", "concept_b": "Элемент % нейтральный", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Моноид", "concept_b": "Элемент нейтральный", "has_relation": true}
+{"paragraph_id": "2.2", "concept_a": "Моноид", "concept_b": "Элемент обратный %", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Нуль группы", "concept_b": "Операция конкатенации", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Нуль группы", "concept_b": "Орбита элемента", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Нуль группы", "concept_b": "Отношение переписывания", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Нуль группы", "concept_b": "Отношение редукции", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Нуль группы", "concept_b": "Переписывание термов", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Нуль группы", "concept_b": "Переписывание термов за один шаг", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Нуль группы", "concept_b": "Подстановка", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Нуль группы", "concept_b": "Полугруппа", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Нуль группы", "concept_b": "Полугруппа свободная", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Нуль группы", "concept_b": "Порядок группы", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Нуль группы", "concept_b": "Преобразование над множеством", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Нуль группы", "concept_b": "Проблема алгоритмически неразрешимая \\\\", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Нуль группы", "concept_b": "Свойство Чёрча--Россера", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Нуль группы", "concept_b": "Система  подстановок термов остановочная", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Нуль группы", "concept_b": "Система подстановок термов", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Нуль группы", "concept_b": "Система подстановок термов конфлюэнтная", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Нуль группы", "concept_b": "Система подстановок термов терминирующая", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Нуль группы", "concept_b": "Соотношение определяющее", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Нуль группы", "concept_b": "Теорема Маркова--Поста %", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Нуль группы", "concept_b": "Терм", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Нуль группы", "concept_b": "Терм не редуцируемый", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Нуль группы", "concept_b": "Терм редуцируемый", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Нуль группы", "concept_b": "Траектория элемента", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Нуль группы", "concept_b": "Унар", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Нуль группы", "concept_b": "Форма нормальная  терма", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Нуль группы", "concept_b": "Форма общая нормальная  терма", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Нуль группы", "concept_b": "Элемент % нейтральный", "has_relation": true}
+{"paragraph_id": "2.2", "concept_a": "Нуль группы", "concept_b": "Элемент нейтральный", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Нуль группы", "concept_b": "Элемент обратный %", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Операция конкатенации", "concept_b": "Орбита элемента", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Операция конкатенации", "concept_b": "Отношение переписывания", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Операция конкатенации", "concept_b": "Отношение редукции", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Операция конкатенации", "concept_b": "Переписывание термов", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Операция конкатенации", "concept_b": "Переписывание термов за один шаг", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Операция конкатенации", "concept_b": "Подстановка", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Операция конкатенации", "concept_b": "Полугруппа", "has_relation": true}
+{"paragraph_id": "2.2", "concept_a": "Операция конкатенации", "concept_b": "Полугруппа свободная", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Операция конкатенации", "concept_b": "Порядок группы", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Операция конкатенации", "concept_b": "Преобразование над множеством", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Операция конкатенации", "concept_b": "Проблема алгоритмически неразрешимая \\\\", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Операция конкатенации", "concept_b": "Свойство Чёрча--Россера", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Операция конкатенации", "concept_b": "Система  подстановок термов остановочная", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Операция конкатенации", "concept_b": "Система подстановок термов", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Операция конкатенации", "concept_b": "Система подстановок термов конфлюэнтная", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Операция конкатенации", "concept_b": "Система подстановок термов терминирующая", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Операция конкатенации", "concept_b": "Соотношение определяющее", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Операция конкатенации", "concept_b": "Теорема Маркова--Поста %", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Операция конкатенации", "concept_b": "Терм", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Операция конкатенации", "concept_b": "Терм не редуцируемый", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Операция конкатенации", "concept_b": "Терм редуцируемый", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Операция конкатенации", "concept_b": "Траектория элемента", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Операция конкатенации", "concept_b": "Унар", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Операция конкатенации", "concept_b": "Форма нормальная  терма", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Операция конкатенации", "concept_b": "Форма общая нормальная  терма", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Операция конкатенации", "concept_b": "Элемент % нейтральный", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Операция конкатенации", "concept_b": "Элемент нейтральный", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Операция конкатенации", "concept_b": "Элемент обратный %", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Орбита элемента", "concept_b": "Отношение переписывания", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Орбита элемента", "concept_b": "Отношение редукции", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Орбита элемента", "concept_b": "Переписывание термов", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Орбита элемента", "concept_b": "Переписывание термов за один шаг", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Орбита элемента", "concept_b": "Подстановка", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Орбита элемента", "concept_b": "Полугруппа", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Орбита элемента", "concept_b": "Полугруппа свободная", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Орбита элемента", "concept_b": "Порядок группы", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Орбита элемента", "concept_b": "Преобразование над множеством", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Орбита элемента", "concept_b": "Проблема алгоритмически неразрешимая \\\\", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Орбита элемента", "concept_b": "Свойство Чёрча--Россера", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Орбита элемента", "concept_b": "Система  подстановок термов остановочная", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Орбита элемента", "concept_b": "Система подстановок термов", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Орбита элемента", "concept_b": "Система подстановок термов конфлюэнтная", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Орбита элемента", "concept_b": "Система подстановок термов терминирующая", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Орбита элемента", "concept_b": "Соотношение определяющее", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Орбита элемента", "concept_b": "Теорема Маркова--Поста %", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Орбита элемента", "concept_b": "Терм", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Орбита элемента", "concept_b": "Терм не редуцируемый", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Орбита элемента", "concept_b": "Терм редуцируемый", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Орбита элемента", "concept_b": "Траектория элемента", "has_relation": true}
+{"paragraph_id": "2.2", "concept_a": "Орбита элемента", "concept_b": "Унар", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Орбита элемента", "concept_b": "Форма нормальная  терма", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Орбита элемента", "concept_b": "Форма общая нормальная  терма", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Орбита элемента", "concept_b": "Элемент % нейтральный", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Орбита элемента", "concept_b": "Элемент нейтральный", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Орбита элемента", "concept_b": "Элемент обратный %", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Отношение переписывания", "concept_b": "Отношение редукции", "has_relation": true}
+{"paragraph_id": "2.2", "concept_a": "Отношение переписывания", "concept_b": "Переписывание термов", "has_relation": true}
+{"paragraph_id": "2.2", "concept_a": "Отношение переписывания", "concept_b": "Переписывание термов за один шаг", "has_relation": true}
+{"paragraph_id": "2.2", "concept_a": "Отношение переписывания", "concept_b": "Подстановка", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Отношение переписывания", "concept_b": "Полугруппа", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Отношение переписывания", "concept_b": "Полугруппа свободная", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Отношение переписывания", "concept_b": "Порядок группы", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Отношение переписывания", "concept_b": "Преобразование над множеством", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Отношение переписывания", "concept_b": "Проблема алгоритмически неразрешимая \\\\", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Отношение переписывания", "concept_b": "Свойство Чёрча--Россера", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Отношение переписывания", "concept_b": "Система  подстановок термов остановочная", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Отношение переписывания", "concept_b": "Система подстановок термов", "has_relation": true}
+{"paragraph_id": "2.2", "concept_a": "Отношение переписывания", "concept_b": "Система подстановок термов конфлюэнтная", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Отношение переписывания", "concept_b": "Система подстановок термов терминирующая", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Отношение переписывания", "concept_b": "Соотношение определяющее", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Отношение переписывания", "concept_b": "Теорема Маркова--Поста %", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Отношение переписывания", "concept_b": "Терм", "has_relation": true}
+{"paragraph_id": "2.2", "concept_a": "Отношение переписывания", "concept_b": "Терм не редуцируемый", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Отношение переписывания", "concept_b": "Терм редуцируемый", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Отношение переписывания", "concept_b": "Траектория элемента", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Отношение переписывания", "concept_b": "Унар", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Отношение переписывания", "concept_b": "Форма нормальная  терма", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Отношение переписывания", "concept_b": "Форма общая нормальная  терма", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Отношение переписывания", "concept_b": "Элемент % нейтральный", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Отношение переписывания", "concept_b": "Элемент нейтральный", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Отношение переписывания", "concept_b": "Элемент обратный %", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Отношение редукции", "concept_b": "Переписывание термов", "has_relation": true}
+{"paragraph_id": "2.2", "concept_a": "Отношение редукции", "concept_b": "Переписывание термов за один шаг", "has_relation": true}
+{"paragraph_id": "2.2", "concept_a": "Отношение редукции", "concept_b": "Подстановка", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Отношение редукции", "concept_b": "Полугруппа", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Отношение редукции", "concept_b": "Полугруппа свободная", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Отношение редукции", "concept_b": "Порядок группы", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Отношение редукции", "concept_b": "Преобразование над множеством", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Отношение редукции", "concept_b": "Проблема алгоритмически неразрешимая \\\\", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Отношение редукции", "concept_b": "Свойство Чёрча--Россера", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Отношение редукции", "concept_b": "Система  подстановок термов остановочная", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Отношение редукции", "concept_b": "Система подстановок термов", "has_relation": true}
+{"paragraph_id": "2.2", "concept_a": "Отношение редукции", "concept_b": "Система подстановок термов конфлюэнтная", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Отношение редукции", "concept_b": "Система подстановок термов терминирующая", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Отношение редукции", "concept_b": "Соотношение определяющее", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Отношение редукции", "concept_b": "Теорема Маркова--Поста %", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Отношение редукции", "concept_b": "Терм", "has_relation": true}
+{"paragraph_id": "2.2", "concept_a": "Отношение редукции", "concept_b": "Терм не редуцируемый", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Отношение редукции", "concept_b": "Терм редуцируемый", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Отношение редукции", "concept_b": "Траектория элемента", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Отношение редукции", "concept_b": "Унар", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Отношение редукции", "concept_b": "Форма нормальная  терма", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Отношение редукции", "concept_b": "Форма общая нормальная  терма", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Отношение редукции", "concept_b": "Элемент % нейтральный", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Отношение редукции", "concept_b": "Элемент нейтральный", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Отношение редукции", "concept_b": "Элемент обратный %", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Переписывание термов", "concept_b": "Переписывание термов за один шаг", "has_relation": true}
+{"paragraph_id": "2.2", "concept_a": "Переписывание термов", "concept_b": "Подстановка", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Переписывание термов", "concept_b": "Полугруппа", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Переписывание термов", "concept_b": "Полугруппа свободная", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Переписывание термов", "concept_b": "Порядок группы", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Переписывание термов", "concept_b": "Преобразование над множеством", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Переписывание термов", "concept_b": "Проблема алгоритмически неразрешимая \\\\", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Переписывание термов", "concept_b": "Свойство Чёрча--Россера", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Переписывание термов", "concept_b": "Система  подстановок термов остановочная", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Переписывание термов", "concept_b": "Система подстановок термов", "has_relation": true}
+{"paragraph_id": "2.2", "concept_a": "Переписывание термов", "concept_b": "Система подстановок термов конфлюэнтная", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Переписывание термов", "concept_b": "Система подстановок термов терминирующая", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Переписывание термов", "concept_b": "Соотношение определяющее", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Переписывание термов", "concept_b": "Теорема Маркова--Поста %", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Переписывание термов", "concept_b": "Терм", "has_relation": true}
+{"paragraph_id": "2.2", "concept_a": "Переписывание термов", "concept_b": "Терм не редуцируемый", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Переписывание термов", "concept_b": "Терм редуцируемый", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Переписывание термов", "concept_b": "Траектория элемента", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Переписывание термов", "concept_b": "Унар", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Переписывание термов", "concept_b": "Форма нормальная  терма", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Переписывание термов", "concept_b": "Форма общая нормальная  терма", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Переписывание термов", "concept_b": "Элемент % нейтральный", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Переписывание термов", "concept_b": "Элемент нейтральный", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Переписывание термов", "concept_b": "Элемент обратный %", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Переписывание термов за один шаг", "concept_b": "Подстановка", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Переписывание термов за один шаг", "concept_b": "Полугруппа", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Переписывание термов за один шаг", "concept_b": "Полугруппа свободная", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Переписывание термов за один шаг", "concept_b": "Порядок группы", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Переписывание термов за один шаг", "concept_b": "Преобразование над множеством", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Переписывание термов за один шаг", "concept_b": "Проблема алгоритмически неразрешимая \\\\", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Переписывание термов за один шаг", "concept_b": "Свойство Чёрча--Россера", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Переписывание термов за один шаг", "concept_b": "Система  подстановок термов остановочная", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Переписывание термов за один шаг", "concept_b": "Система подстановок термов", "has_relation": true}
+{"paragraph_id": "2.2", "concept_a": "Переписывание термов за один шаг", "concept_b": "Система подстановок термов конфлюэнтная", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Переписывание термов за один шаг", "concept_b": "Система подстановок термов терминирующая", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Переписывание термов за один шаг", "concept_b": "Соотношение определяющее", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Переписывание термов за один шаг", "concept_b": "Теорема Маркова--Поста %", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Переписывание термов за один шаг", "concept_b": "Терм", "has_relation": true}
+{"paragraph_id": "2.2", "concept_a": "Переписывание термов за один шаг", "concept_b": "Терм не редуцируемый", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Переписывание термов за один шаг", "concept_b": "Терм редуцируемый", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Переписывание термов за один шаг", "concept_b": "Траектория элемента", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Переписывание термов за один шаг", "concept_b": "Унар", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Переписывание термов за один шаг", "concept_b": "Форма нормальная  терма", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Переписывание термов за один шаг", "concept_b": "Форма общая нормальная  терма", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Переписывание термов за один шаг", "concept_b": "Элемент % нейтральный", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Переписывание термов за один шаг", "concept_b": "Элемент нейтральный", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Переписывание термов за один шаг", "concept_b": "Элемент обратный %", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Подстановка", "concept_b": "Полугруппа", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Подстановка", "concept_b": "Полугруппа свободная", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Подстановка", "concept_b": "Порядок группы", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Подстановка", "concept_b": "Преобразование над множеством", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Подстановка", "concept_b": "Проблема алгоритмически неразрешимая \\\\", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Подстановка", "concept_b": "Свойство Чёрча--Россера", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Подстановка", "concept_b": "Система  подстановок термов остановочная", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Подстановка", "concept_b": "Система подстановок термов", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Подстановка", "concept_b": "Система подстановок термов конфлюэнтная", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Подстановка", "concept_b": "Система подстановок термов терминирующая", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Подстановка", "concept_b": "Соотношение определяющее", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Подстановка", "concept_b": "Теорема Маркова--Поста %", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Подстановка", "concept_b": "Терм", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Подстановка", "concept_b": "Терм не редуцируемый", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Подстановка", "concept_b": "Терм редуцируемый", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Подстановка", "concept_b": "Траектория элемента", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Подстановка", "concept_b": "Унар", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Подстановка", "concept_b": "Форма нормальная  терма", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Подстановка", "concept_b": "Форма общая нормальная  терма", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Подстановка", "concept_b": "Элемент % нейтральный", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Подстановка", "concept_b": "Элемент нейтральный", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Подстановка", "concept_b": "Элемент обратный %", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Полугруппа", "concept_b": "Полугруппа свободная", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Полугруппа", "concept_b": "Порядок группы", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Полугруппа", "concept_b": "Преобразование над множеством", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Полугруппа", "concept_b": "Проблема алгоритмически неразрешимая \\\\", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Полугруппа", "concept_b": "Свойство Чёрча--Россера", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Полугруппа", "concept_b": "Система  подстановок термов остановочная", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Полугруппа", "concept_b": "Система подстановок термов", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Полугруппа", "concept_b": "Система подстановок термов конфлюэнтная", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Полугруппа", "concept_b": "Система подстановок термов терминирующая", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Полугруппа", "concept_b": "Соотношение определяющее", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Полугруппа", "concept_b": "Теорема Маркова--Поста %", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Полугруппа", "concept_b": "Терм", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Полугруппа", "concept_b": "Терм не редуцируемый", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Полугруппа", "concept_b": "Терм редуцируемый", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Полугруппа", "concept_b": "Траектория элемента", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Полугруппа", "concept_b": "Унар", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Полугруппа", "concept_b": "Форма нормальная  терма", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Полугруппа", "concept_b": "Форма общая нормальная  терма", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Полугруппа", "concept_b": "Элемент % нейтральный", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Полугруппа", "concept_b": "Элемент нейтральный", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Полугруппа", "concept_b": "Элемент обратный %", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Полугруппа свободная", "concept_b": "Порядок группы", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Полугруппа свободная", "concept_b": "Преобразование над множеством", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Полугруппа свободная", "concept_b": "Проблема алгоритмически неразрешимая \\\\", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Полугруппа свободная", "concept_b": "Свойство Чёрча--Россера", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Полугруппа свободная", "concept_b": "Система  подстановок термов остановочная", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Полугруппа свободная", "concept_b": "Система подстановок термов", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Полугруппа свободная", "concept_b": "Система подстановок термов конфлюэнтная", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Полугруппа свободная", "concept_b": "Система подстановок термов терминирующая", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Полугруппа свободная", "concept_b": "Соотношение определяющее", "has_relation": true}
+{"paragraph_id": "2.2", "concept_a": "Полугруппа свободная", "concept_b": "Теорема Маркова--Поста %", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Полугруппа свободная", "concept_b": "Терм", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Полугруппа свободная", "concept_b": "Терм не редуцируемый", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Полугруппа свободная", "concept_b": "Терм редуцируемый", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Полугруппа свободная", "concept_b": "Траектория элемента", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Полугруппа свободная", "concept_b": "Унар", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Полугруппа свободная", "concept_b": "Форма нормальная  терма", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Полугруппа свободная", "concept_b": "Форма общая нормальная  терма", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Полугруппа свободная", "concept_b": "Элемент % нейтральный", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Полугруппа свободная", "concept_b": "Элемент нейтральный", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Полугруппа свободная", "concept_b": "Элемент обратный %", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Порядок группы", "concept_b": "Преобразование над множеством", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Порядок группы", "concept_b": "Проблема алгоритмически неразрешимая \\\\", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Порядок группы", "concept_b": "Свойство Чёрча--Россера", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Порядок группы", "concept_b": "Система  подстановок термов остановочная", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Порядок группы", "concept_b": "Система подстановок термов", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Порядок группы", "concept_b": "Система подстановок термов конфлюэнтная", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Порядок группы", "concept_b": "Система подстановок термов терминирующая", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Порядок группы", "concept_b": "Соотношение определяющее", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Порядок группы", "concept_b": "Теорема Маркова--Поста %", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Порядок группы", "concept_b": "Терм", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Порядок группы", "concept_b": "Терм не редуцируемый", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Порядок группы", "concept_b": "Терм редуцируемый", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Порядок группы", "concept_b": "Траектория элемента", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Порядок группы", "concept_b": "Унар", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Порядок группы", "concept_b": "Форма нормальная  терма", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Порядок группы", "concept_b": "Форма общая нормальная  терма", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Порядок группы", "concept_b": "Элемент % нейтральный", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Порядок группы", "concept_b": "Элемент нейтральный", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Порядок группы", "concept_b": "Элемент обратный %", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Преобразование над множеством", "concept_b": "Проблема алгоритмически неразрешимая \\\\", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Преобразование над множеством", "concept_b": "Свойство Чёрча--Россера", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Преобразование над множеством", "concept_b": "Система  подстановок термов остановочная", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Преобразование над множеством", "concept_b": "Система подстановок термов", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Преобразование над множеством", "concept_b": "Система подстановок термов конфлюэнтная", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Преобразование над множеством", "concept_b": "Система подстановок термов терминирующая", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Преобразование над множеством", "concept_b": "Соотношение определяющее", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Преобразование над множеством", "concept_b": "Теорема Маркова--Поста %", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Преобразование над множеством", "concept_b": "Терм", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Преобразование над множеством", "concept_b": "Терм не редуцируемый", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Преобразование над множеством", "concept_b": "Терм редуцируемый", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Преобразование над множеством", "concept_b": "Траектория элемента", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Преобразование над множеством", "concept_b": "Унар", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Преобразование над множеством", "concept_b": "Форма нормальная  терма", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Преобразование над множеством", "concept_b": "Форма общая нормальная  терма", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Преобразование над множеством", "concept_b": "Элемент % нейтральный", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Преобразование над множеством", "concept_b": "Элемент нейтральный", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Преобразование над множеством", "concept_b": "Элемент обратный %", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Проблема алгоритмически неразрешимая \\\\", "concept_b": "Свойство Чёрча--Россера", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Проблема алгоритмически неразрешимая \\\\", "concept_b": "Система  подстановок термов остановочная", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Проблема алгоритмически неразрешимая \\\\", "concept_b": "Система подстановок термов", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Проблема алгоритмически неразрешимая \\\\", "concept_b": "Система подстановок термов конфлюэнтная", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Проблема алгоритмически неразрешимая \\\\", "concept_b": "Система подстановок термов терминирующая", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Проблема алгоритмически неразрешимая \\\\", "concept_b": "Соотношение определяющее", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Проблема алгоритмически неразрешимая \\\\", "concept_b": "Теорема Маркова--Поста %", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Проблема алгоритмически неразрешимая \\\\", "concept_b": "Терм", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Проблема алгоритмически неразрешимая \\\\", "concept_b": "Терм не редуцируемый", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Проблема алгоритмически неразрешимая \\\\", "concept_b": "Терм редуцируемый", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Проблема алгоритмически неразрешимая \\\\", "concept_b": "Траектория элемента", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Проблема алгоритмически неразрешимая \\\\", "concept_b": "Унар", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Проблема алгоритмически неразрешимая \\\\", "concept_b": "Форма нормальная  терма", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Проблема алгоритмически неразрешимая \\\\", "concept_b": "Форма общая нормальная  терма", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Проблема алгоритмически неразрешимая \\\\", "concept_b": "Элемент % нейтральный", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Проблема алгоритмически неразрешимая \\\\", "concept_b": "Элемент нейтральный", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Проблема алгоритмически неразрешимая \\\\", "concept_b": "Элемент обратный %", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Свойство Чёрча--Россера", "concept_b": "Система  подстановок термов остановочная", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Свойство Чёрча--Россера", "concept_b": "Система подстановок термов", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Свойство Чёрча--Россера", "concept_b": "Система подстановок термов конфлюэнтная", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Свойство Чёрча--Россера", "concept_b": "Система подстановок термов терминирующая", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Свойство Чёрча--Россера", "concept_b": "Соотношение определяющее", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Свойство Чёрча--Россера", "concept_b": "Теорема Маркова--Поста %", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Свойство Чёрча--Россера", "concept_b": "Терм", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Свойство Чёрча--Россера", "concept_b": "Терм не редуцируемый", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Свойство Чёрча--Россера", "concept_b": "Терм редуцируемый", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Свойство Чёрча--Россера", "concept_b": "Траектория элемента", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Свойство Чёрча--Россера", "concept_b": "Унар", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Свойство Чёрча--Россера", "concept_b": "Форма нормальная  терма", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Свойство Чёрча--Россера", "concept_b": "Форма общая нормальная  терма", "has_relation": true}
+{"paragraph_id": "2.2", "concept_a": "Свойство Чёрча--Россера", "concept_b": "Элемент % нейтральный", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Свойство Чёрча--Россера", "concept_b": "Элемент нейтральный", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Свойство Чёрча--Россера", "concept_b": "Элемент обратный %", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Система  подстановок термов остановочная", "concept_b": "Система подстановок термов", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Система  подстановок термов остановочная", "concept_b": "Система подстановок термов конфлюэнтная", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Система  подстановок термов остановочная", "concept_b": "Система подстановок термов терминирующая", "has_relation": true}
+{"paragraph_id": "2.2", "concept_a": "Система  подстановок термов остановочная", "concept_b": "Соотношение определяющее", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Система  подстановок термов остановочная", "concept_b": "Теорема Маркова--Поста %", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Система  подстановок термов остановочная", "concept_b": "Терм", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Система  подстановок термов остановочная", "concept_b": "Терм не редуцируемый", "has_relation": true}
+{"paragraph_id": "2.2", "concept_a": "Система  подстановок термов остановочная", "concept_b": "Терм редуцируемый", "has_relation": true}
+{"paragraph_id": "2.2", "concept_a": "Система  подстановок термов остановочная", "concept_b": "Траектория элемента", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Система  подстановок термов остановочная", "concept_b": "Унар", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Система  подстановок термов остановочная", "concept_b": "Форма нормальная  терма", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Система  подстановок термов остановочная", "concept_b": "Форма общая нормальная  терма", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Система  подстановок термов остановочная", "concept_b": "Элемент % нейтральный", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Система  подстановок термов остановочная", "concept_b": "Элемент нейтральный", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Система  подстановок термов остановочная", "concept_b": "Элемент обратный %", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Система подстановок термов", "concept_b": "Система подстановок термов конфлюэнтная", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Система подстановок термов", "concept_b": "Система подстановок термов терминирующая", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Система подстановок термов", "concept_b": "Соотношение определяющее", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Система подстановок термов", "concept_b": "Теорема Маркова--Поста %", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Система подстановок термов", "concept_b": "Терм", "has_relation": true}
+{"paragraph_id": "2.2", "concept_a": "Система подстановок термов", "concept_b": "Терм не редуцируемый", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Система подстановок термов", "concept_b": "Терм редуцируемый", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Система подстановок термов", "concept_b": "Траектория элемента", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Система подстановок термов", "concept_b": "Унар", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Система подстановок термов", "concept_b": "Форма нормальная  терма", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Система подстановок термов", "concept_b": "Форма общая нормальная  терма", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Система подстановок термов", "concept_b": "Элемент % нейтральный", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Система подстановок термов", "concept_b": "Элемент нейтральный", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Система подстановок термов", "concept_b": "Элемент обратный %", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Система подстановок термов конфлюэнтная", "concept_b": "Система подстановок термов терминирующая", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Система подстановок термов конфлюэнтная", "concept_b": "Соотношение определяющее", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Система подстановок термов конфлюэнтная", "concept_b": "Теорема Маркова--Поста %", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Система подстановок термов конфлюэнтная", "concept_b": "Терм", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Система подстановок термов конфлюэнтная", "concept_b": "Терм не редуцируемый", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Система подстановок термов конфлюэнтная", "concept_b": "Терм редуцируемый", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Система подстановок термов конфлюэнтная", "concept_b": "Траектория элемента", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Система подстановок термов конфлюэнтная", "concept_b": "Унар", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Система подстановок термов конфлюэнтная", "concept_b": "Форма нормальная  терма", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Система подстановок термов конфлюэнтная", "concept_b": "Форма общая нормальная  терма", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Система подстановок термов конфлюэнтная", "concept_b": "Элемент % нейтральный", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Система подстановок термов конфлюэнтная", "concept_b": "Элемент нейтральный", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Система подстановок термов конфлюэнтная", "concept_b": "Элемент обратный %", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Система подстановок термов терминирующая", "concept_b": "Соотношение определяющее", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Система подстановок термов терминирующая", "concept_b": "Теорема Маркова--Поста %", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Система подстановок термов терминирующая", "concept_b": "Терм", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Система подстановок термов терминирующая", "concept_b": "Терм не редуцируемый", "has_relation": true}
+{"paragraph_id": "2.2", "concept_a": "Система подстановок термов терминирующая", "concept_b": "Терм редуцируемый", "has_relation": true}
+{"paragraph_id": "2.2", "concept_a": "Система подстановок термов терминирующая", "concept_b": "Траектория элемента", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Система подстановок термов терминирующая", "concept_b": "Унар", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Система подстановок термов терминирующая", "concept_b": "Форма нормальная  терма", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Система подстановок термов терминирующая", "concept_b": "Форма общая нормальная  терма", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Система подстановок термов терминирующая", "concept_b": "Элемент % нейтральный", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Система подстановок термов терминирующая", "concept_b": "Элемент нейтральный", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Система подстановок термов терминирующая", "concept_b": "Элемент обратный %", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Соотношение определяющее", "concept_b": "Теорема Маркова--Поста %", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Соотношение определяющее", "concept_b": "Терм", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Соотношение определяющее", "concept_b": "Терм не редуцируемый", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Соотношение определяющее", "concept_b": "Терм редуцируемый", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Соотношение определяющее", "concept_b": "Траектория элемента", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Соотношение определяющее", "concept_b": "Унар", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Соотношение определяющее", "concept_b": "Форма нормальная  терма", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Соотношение определяющее", "concept_b": "Форма общая нормальная  терма", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Соотношение определяющее", "concept_b": "Элемент % нейтральный", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Соотношение определяющее", "concept_b": "Элемент нейтральный", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Соотношение определяющее", "concept_b": "Элемент обратный %", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Теорема Маркова--Поста %", "concept_b": "Терм", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Теорема Маркова--Поста %", "concept_b": "Терм не редуцируемый", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Теорема Маркова--Поста %", "concept_b": "Терм редуцируемый", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Теорема Маркова--Поста %", "concept_b": "Траектория элемента", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Теорема Маркова--Поста %", "concept_b": "Унар", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Теорема Маркова--Поста %", "concept_b": "Форма нормальная  терма", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Теорема Маркова--Поста %", "concept_b": "Форма общая нормальная  терма", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Теорема Маркова--Поста %", "concept_b": "Элемент % нейтральный", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Теорема Маркова--Поста %", "concept_b": "Элемент нейтральный", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Теорема Маркова--Поста %", "concept_b": "Элемент обратный %", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Терм", "concept_b": "Терм не редуцируемый", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Терм", "concept_b": "Терм редуцируемый", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Терм", "concept_b": "Траектория элемента", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Терм", "concept_b": "Унар", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Терм", "concept_b": "Форма нормальная  терма", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Терм", "concept_b": "Форма общая нормальная  терма", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Терм", "concept_b": "Элемент % нейтральный", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Терм", "concept_b": "Элемент нейтральный", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Терм", "concept_b": "Элемент обратный %", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Терм не редуцируемый", "concept_b": "Терм редуцируемый", "has_relation": true}
+{"paragraph_id": "2.2", "concept_a": "Терм не редуцируемый", "concept_b": "Траектория элемента", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Терм не редуцируемый", "concept_b": "Унар", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Терм не редуцируемый", "concept_b": "Форма нормальная  терма", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Терм не редуцируемый", "concept_b": "Форма общая нормальная  терма", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Терм не редуцируемый", "concept_b": "Элемент % нейтральный", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Терм не редуцируемый", "concept_b": "Элемент нейтральный", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Терм не редуцируемый", "concept_b": "Элемент обратный %", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Терм редуцируемый", "concept_b": "Траектория элемента", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Терм редуцируемый", "concept_b": "Унар", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Терм редуцируемый", "concept_b": "Форма нормальная  терма", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Терм редуцируемый", "concept_b": "Форма общая нормальная  терма", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Терм редуцируемый", "concept_b": "Элемент % нейтральный", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Терм редуцируемый", "concept_b": "Элемент нейтральный", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Терм редуцируемый", "concept_b": "Элемент обратный %", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Траектория элемента", "concept_b": "Унар", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Траектория элемента", "concept_b": "Форма нормальная  терма", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Траектория элемента", "concept_b": "Форма общая нормальная  терма", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Траектория элемента", "concept_b": "Элемент % нейтральный", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Траектория элемента", "concept_b": "Элемент нейтральный", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Траектория элемента", "concept_b": "Элемент обратный %", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Унар", "concept_b": "Форма нормальная  терма", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Унар", "concept_b": "Форма общая нормальная  терма", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Унар", "concept_b": "Элемент % нейтральный", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Унар", "concept_b": "Элемент нейтральный", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Унар", "concept_b": "Элемент обратный %", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Форма нормальная  терма", "concept_b": "Форма общая нормальная  терма", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Форма нормальная  терма", "concept_b": "Элемент % нейтральный", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Форма нормальная  терма", "concept_b": "Элемент нейтральный", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Форма нормальная  терма", "concept_b": "Элемент обратный %", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Форма общая нормальная  терма", "concept_b": "Элемент % нейтральный", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Форма общая нормальная  терма", "concept_b": "Элемент нейтральный", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Форма общая нормальная  терма", "concept_b": "Элемент обратный %", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Элемент % нейтральный", "concept_b": "Элемент нейтральный", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Элемент % нейтральный", "concept_b": "Элемент обратный %", "has_relation": false}
+{"paragraph_id": "2.2", "concept_a": "Элемент нейтральный", "concept_b": "Элемент обратный %", "has_relation": false}

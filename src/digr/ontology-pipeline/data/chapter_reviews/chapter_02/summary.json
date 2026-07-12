@@ -1,0 +1,147 @@
+{
+  "chapter": "2",
+  "paragraphs": [
+    "2.1",
+    "2.2",
+    "2.3",
+    "2.4",
+    "2.6",
+    "2.7"
+  ],
+  "ground_truth_source": "src/digr/ontology-pipeline/data/dm_reference_ontologies/chapter_02",
+  "ignored_concepts": [
+    "bool",
+    "Объект",
+    "Парадокс",
+    "Парадокс Рассела",
+    "Структура",
+    "Указатель",
+    "Элементами семейства являются множества"
+  ],
+  "chapter_concepts": 165,
+  "raw_unique_relations": 134,
+  "textbook_relations_in_chapter_scope": 71,
+  "textbook_unique_relation_pairs_in_chapter_scope": 71,
+  "category_counts": {
+    "found_on_diagram_correct": 6,
+    "found_on_diagram_wrong_direction": 0,
+    "found_on_diagram_wrong_type": 2,
+    "found_on_diagram_wrong_direction_and_type": 0,
+    "found_not_on_diagram_accepted": 126,
+    "found_not_on_diagram_rejected": 0,
+    "not_found_from_diagram": 63
+  },
+  "corrected_relations": 134,
+  "rendered": true,
+  "render_error": null,
+  "paragraph_reviews": [
+    {
+      "paragraph_id": "2.1",
+      "paragraph_title": "2.1. Алгебры и морфизмы",
+      "folder": "2.1_алгебры_и_морфизмы",
+      "relations_reviewed": 63,
+      "corrected_relations": 46,
+      "category_counts": {
+        "found_on_diagram_correct": 4,
+        "found_on_diagram_wrong_direction": 0,
+        "found_on_diagram_wrong_type": 1,
+        "found_on_diagram_wrong_direction_and_type": 0,
+        "found_not_on_diagram_accepted": 41,
+        "found_not_on_diagram_rejected": 0,
+        "not_found_from_diagram": 17
+      },
+      "rendered": true,
+      "render_error": null
+    },
+    {
+      "paragraph_id": "2.2",
+      "paragraph_title": "2.2. Алгебры с одной операцией",
+      "folder": "2.2_алгебры_с_одной_операцией",
+      "relations_reviewed": 52,
+      "corrected_relations": 49,
+      "category_counts": {
+        "found_on_diagram_correct": 2,
+        "found_on_diagram_wrong_direction": 0,
+        "found_on_diagram_wrong_type": 0,
+        "found_on_diagram_wrong_direction_and_type": 0,
+        "found_not_on_diagram_accepted": 47,
+        "found_not_on_diagram_rejected": 0,
+        "not_found_from_diagram": 3
+      },
+      "rendered": true,
+      "render_error": null
+    },
+    {
+      "paragraph_id": "2.3",
+      "paragraph_title": "2.3. Алгебры с двумя операциями",
+      "folder": "2.3_алгебры_с_двумя_операциями",
+      "relations_reviewed": 5,
+      "corrected_relations": 2,
+      "category_counts": {
+        "found_on_diagram_correct": 0,
+        "found_on_diagram_wrong_direction": 0,
+        "found_on_diagram_wrong_type": 0,
+        "found_on_diagram_wrong_direction_and_type": 0,
+        "found_not_on_diagram_accepted": 2,
+        "found_not_on_diagram_rejected": 0,
+        "not_found_from_diagram": 3
+      },
+      "rendered": true,
+      "render_error": null
+    },
+    {
+      "paragraph_id": "2.4",
+      "paragraph_title": "2.4. Элементарная теория чисел",
+      "folder": "2.4_элементарная_теория_чисел",
+      "relations_reviewed": 44,
+      "corrected_relations": 29,
+      "category_counts": {
+        "found_on_diagram_correct": 0,
+        "found_on_diagram_wrong_direction": 0,
+        "found_on_diagram_wrong_type": 1,
+        "found_on_diagram_wrong_direction_and_type": 0,
+        "found_not_on_diagram_accepted": 28,
+        "found_not_on_diagram_rejected": 0,
+        "not_found_from_diagram": 15
+      },
+      "rendered": true,
+      "render_error": null
+    },
+    {
+      "paragraph_id": "2.6",
+      "paragraph_title": "2.6. Решётки",
+      "folder": "2.6_решётки",
+      "relations_reviewed": 17,
+      "corrected_relations": 4,
+      "category_counts": {
+        "found_on_diagram_correct": 0,
+        "found_on_diagram_wrong_direction": 0,
+        "found_on_diagram_wrong_type": 0,
+        "found_on_diagram_wrong_direction_and_type": 0,
+        "found_not_on_diagram_accepted": 4,
+        "found_not_on_diagram_rejected": 0,
+        "not_found_from_diagram": 13
+      },
+      "rendered": true,
+      "render_error": null
+    },
+    {
+      "paragraph_id": "2.7",
+      "paragraph_title": "2.7. Матроиды и жадные алгоритмы",
+      "folder": "2.7_матроиды_и_жадные_алгоритмы",
+      "relations_reviewed": 4,
+      "corrected_relations": 4,
+      "category_counts": {
+        "found_on_diagram_correct": 0,
+        "found_on_diagram_wrong_direction": 0,
+        "found_on_diagram_wrong_type": 0,
+        "found_on_diagram_wrong_direction_and_type": 0,
+        "found_not_on_diagram_accepted": 4,
+        "found_not_on_diagram_rejected": 0,
+        "not_found_from_diagram": 0
+      },
+      "rendered": true,
+      "render_error": null
+    }
+  ]
+}

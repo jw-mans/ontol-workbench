@@ -1,0 +1,946 @@
+{"paragraph_id": "1.1", "concept_a": "x\\Assign f", "concept_b": "Аксиома регулярности", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "x\\Assign f", "concept_b": "Алфавит", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "x\\Assign f", "concept_b": "Буква", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "x\\Assign f", "concept_b": "Вектор", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "x\\Assign f", "concept_b": "Вхождение", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "x\\Assign f", "concept_b": "Длина слова", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "x\\Assign f", "concept_b": "Индикатор", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "x\\Assign f", "concept_b": "Класс", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "x\\Assign f", "concept_b": "Множество", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "x\\Assign f", "concept_b": "Множество бесконечное", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "x\\Assign f", "concept_b": "Множество заданное перечислением элементов", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "x\\Assign f", "concept_b": "Множество заданное характеристическим предикатом", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "x\\Assign f", "concept_b": "Множество конечное", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "x\\Assign f", "concept_b": "Множество пустое", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "x\\Assign f", "concept_b": "Мощность мультимножества", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "x\\Assign f", "concept_b": "Мультимножество", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "x\\Assign f", "concept_b": "Носитель мультимножества", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "x\\Assign f", "concept_b": "Операция добавления элемента", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "x\\Assign f", "concept_b": "Операция конкатенации", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "x\\Assign f", "concept_b": "Операция сцепления", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "x\\Assign f", "concept_b": "Операция удаления элемента", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "x\\Assign f", "concept_b": "Парадокс", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "x\\Assign f", "concept_b": "Показатель элемента", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "x\\Assign f", "concept_b": "Последовательность", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "x\\Assign f", "concept_b": "Постфикс", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "x\\Assign f", "concept_b": "Префикс", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "x\\Assign f", "concept_b": "Принадлежность", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "x\\Assign f", "concept_b": "Семейство множеств", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "x\\Assign f", "concept_b": "Символ", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "x\\Assign f", "concept_b": "Слово", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "x\\Assign f", "concept_b": "Слово начало", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "x\\Assign f", "concept_b": "Слово окончание", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "x\\Assign f", "concept_b": "Слово пустое", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "x\\Assign f", "concept_b": "Состав мультимножества", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "x\\Assign f", "concept_b": "Тип", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "x\\Assign f", "concept_b": "Универсум", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "x\\Assign f", "concept_b": "Цепочка", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "x\\Assign f", "concept_b": "Число вещественное", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "x\\Assign f", "concept_b": "Число натуральное", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "x\\Assign f", "concept_b": "Число простое", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "x\\Assign f", "concept_b": "Число целое", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "x\\Assign f", "concept_b": "Элемент множества", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "x\\Assign f", "concept_b": "Язык", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Аксиома регулярности", "concept_b": "Алфавит", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Аксиома регулярности", "concept_b": "Буква", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Аксиома регулярности", "concept_b": "Вектор", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Аксиома регулярности", "concept_b": "Вхождение", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Аксиома регулярности", "concept_b": "Длина слова", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Аксиома регулярности", "concept_b": "Индикатор", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Аксиома регулярности", "concept_b": "Класс", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Аксиома регулярности", "concept_b": "Множество", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Аксиома регулярности", "concept_b": "Множество бесконечное", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Аксиома регулярности", "concept_b": "Множество заданное перечислением элементов", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Аксиома регулярности", "concept_b": "Множество заданное характеристическим предикатом", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Аксиома регулярности", "concept_b": "Множество конечное", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Аксиома регулярности", "concept_b": "Множество пустое", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Аксиома регулярности", "concept_b": "Мощность мультимножества", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Аксиома регулярности", "concept_b": "Мультимножество", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Аксиома регулярности", "concept_b": "Носитель мультимножества", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Аксиома регулярности", "concept_b": "Операция добавления элемента", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Аксиома регулярности", "concept_b": "Операция конкатенации", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Аксиома регулярности", "concept_b": "Операция сцепления", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Аксиома регулярности", "concept_b": "Операция удаления элемента", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Аксиома регулярности", "concept_b": "Парадокс", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Аксиома регулярности", "concept_b": "Показатель элемента", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Аксиома регулярности", "concept_b": "Последовательность", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Аксиома регулярности", "concept_b": "Постфикс", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Аксиома регулярности", "concept_b": "Префикс", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Аксиома регулярности", "concept_b": "Принадлежность", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Аксиома регулярности", "concept_b": "Семейство множеств", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Аксиома регулярности", "concept_b": "Символ", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Аксиома регулярности", "concept_b": "Слово", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Аксиома регулярности", "concept_b": "Слово начало", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Аксиома регулярности", "concept_b": "Слово окончание", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Аксиома регулярности", "concept_b": "Слово пустое", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Аксиома регулярности", "concept_b": "Состав мультимножества", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Аксиома регулярности", "concept_b": "Тип", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Аксиома регулярности", "concept_b": "Универсум", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Аксиома регулярности", "concept_b": "Цепочка", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Аксиома регулярности", "concept_b": "Число вещественное", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Аксиома регулярности", "concept_b": "Число натуральное", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Аксиома регулярности", "concept_b": "Число простое", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Аксиома регулярности", "concept_b": "Число целое", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Аксиома регулярности", "concept_b": "Элемент множества", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Аксиома регулярности", "concept_b": "Язык", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Алфавит", "concept_b": "Буква", "has_relation": true}
+{"paragraph_id": "1.1", "concept_a": "Алфавит", "concept_b": "Вектор", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Алфавит", "concept_b": "Вхождение", "has_relation": true}
+{"paragraph_id": "1.1", "concept_a": "Алфавит", "concept_b": "Длина слова", "has_relation": true}
+{"paragraph_id": "1.1", "concept_a": "Алфавит", "concept_b": "Индикатор", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Алфавит", "concept_b": "Класс", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Алфавит", "concept_b": "Множество", "has_relation": true}
+{"paragraph_id": "1.1", "concept_a": "Алфавит", "concept_b": "Множество бесконечное", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Алфавит", "concept_b": "Множество заданное перечислением элементов", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Алфавит", "concept_b": "Множество заданное характеристическим предикатом", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Алфавит", "concept_b": "Множество конечное", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Алфавит", "concept_b": "Множество пустое", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Алфавит", "concept_b": "Мощность мультимножества", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Алфавит", "concept_b": "Мультимножество", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Алфавит", "concept_b": "Носитель мультимножества", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Алфавит", "concept_b": "Операция добавления элемента", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Алфавит", "concept_b": "Операция конкатенации", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Алфавит", "concept_b": "Операция сцепления", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Алфавит", "concept_b": "Операция удаления элемента", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Алфавит", "concept_b": "Парадокс", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Алфавит", "concept_b": "Показатель элемента", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Алфавит", "concept_b": "Последовательность", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Алфавит", "concept_b": "Постфикс", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Алфавит", "concept_b": "Префикс", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Алфавит", "concept_b": "Принадлежность", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Алфавит", "concept_b": "Семейство множеств", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Алфавит", "concept_b": "Символ", "has_relation": true}
+{"paragraph_id": "1.1", "concept_a": "Алфавит", "concept_b": "Слово", "has_relation": true}
+{"paragraph_id": "1.1", "concept_a": "Алфавит", "concept_b": "Слово начало", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Алфавит", "concept_b": "Слово окончание", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Алфавит", "concept_b": "Слово пустое", "has_relation": true}
+{"paragraph_id": "1.1", "concept_a": "Алфавит", "concept_b": "Состав мультимножества", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Алфавит", "concept_b": "Тип", "has_relation": true}
+{"paragraph_id": "1.1", "concept_a": "Алфавит", "concept_b": "Универсум", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Алфавит", "concept_b": "Цепочка", "has_relation": true}
+{"paragraph_id": "1.1", "concept_a": "Алфавит", "concept_b": "Число вещественное", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Алфавит", "concept_b": "Число натуральное", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Алфавит", "concept_b": "Число простое", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Алфавит", "concept_b": "Число целое", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Алфавит", "concept_b": "Элемент множества", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Алфавит", "concept_b": "Язык", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Буква", "concept_b": "Вектор", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Буква", "concept_b": "Вхождение", "has_relation": true}
+{"paragraph_id": "1.1", "concept_a": "Буква", "concept_b": "Длина слова", "has_relation": true}
+{"paragraph_id": "1.1", "concept_a": "Буква", "concept_b": "Индикатор", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Буква", "concept_b": "Класс", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Буква", "concept_b": "Множество", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Буква", "concept_b": "Множество бесконечное", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Буква", "concept_b": "Множество заданное перечислением элементов", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Буква", "concept_b": "Множество заданное характеристическим предикатом", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Буква", "concept_b": "Множество конечное", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Буква", "concept_b": "Множество пустое", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Буква", "concept_b": "Мощность мультимножества", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Буква", "concept_b": "Мультимножество", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Буква", "concept_b": "Носитель мультимножества", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Буква", "concept_b": "Операция добавления элемента", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Буква", "concept_b": "Операция конкатенации", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Буква", "concept_b": "Операция сцепления", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Буква", "concept_b": "Операция удаления элемента", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Буква", "concept_b": "Парадокс", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Буква", "concept_b": "Показатель элемента", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Буква", "concept_b": "Последовательность", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Буква", "concept_b": "Постфикс", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Буква", "concept_b": "Префикс", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Буква", "concept_b": "Принадлежность", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Буква", "concept_b": "Семейство множеств", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Буква", "concept_b": "Символ", "has_relation": true}
+{"paragraph_id": "1.1", "concept_a": "Буква", "concept_b": "Слово", "has_relation": true}
+{"paragraph_id": "1.1", "concept_a": "Буква", "concept_b": "Слово начало", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Буква", "concept_b": "Слово окончание", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Буква", "concept_b": "Слово пустое", "has_relation": true}
+{"paragraph_id": "1.1", "concept_a": "Буква", "concept_b": "Состав мультимножества", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Буква", "concept_b": "Тип", "has_relation": true}
+{"paragraph_id": "1.1", "concept_a": "Буква", "concept_b": "Универсум", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Буква", "concept_b": "Цепочка", "has_relation": true}
+{"paragraph_id": "1.1", "concept_a": "Буква", "concept_b": "Число вещественное", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Буква", "concept_b": "Число натуральное", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Буква", "concept_b": "Число простое", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Буква", "concept_b": "Число целое", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Буква", "concept_b": "Элемент множества", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Буква", "concept_b": "Язык", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Вектор", "concept_b": "Вхождение", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Вектор", "concept_b": "Длина слова", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Вектор", "concept_b": "Индикатор", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Вектор", "concept_b": "Класс", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Вектор", "concept_b": "Множество", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Вектор", "concept_b": "Множество бесконечное", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Вектор", "concept_b": "Множество заданное перечислением элементов", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Вектор", "concept_b": "Множество заданное характеристическим предикатом", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Вектор", "concept_b": "Множество конечное", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Вектор", "concept_b": "Множество пустое", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Вектор", "concept_b": "Мощность мультимножества", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Вектор", "concept_b": "Мультимножество", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Вектор", "concept_b": "Носитель мультимножества", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Вектор", "concept_b": "Операция добавления элемента", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Вектор", "concept_b": "Операция конкатенации", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Вектор", "concept_b": "Операция сцепления", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Вектор", "concept_b": "Операция удаления элемента", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Вектор", "concept_b": "Парадокс", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Вектор", "concept_b": "Показатель элемента", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Вектор", "concept_b": "Последовательность", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Вектор", "concept_b": "Постфикс", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Вектор", "concept_b": "Префикс", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Вектор", "concept_b": "Принадлежность", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Вектор", "concept_b": "Семейство множеств", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Вектор", "concept_b": "Символ", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Вектор", "concept_b": "Слово", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Вектор", "concept_b": "Слово начало", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Вектор", "concept_b": "Слово окончание", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Вектор", "concept_b": "Слово пустое", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Вектор", "concept_b": "Состав мультимножества", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Вектор", "concept_b": "Тип", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Вектор", "concept_b": "Универсум", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Вектор", "concept_b": "Цепочка", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Вектор", "concept_b": "Число вещественное", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Вектор", "concept_b": "Число натуральное", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Вектор", "concept_b": "Число простое", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Вектор", "concept_b": "Число целое", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Вектор", "concept_b": "Элемент множества", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Вектор", "concept_b": "Язык", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Вхождение", "concept_b": "Длина слова", "has_relation": true}
+{"paragraph_id": "1.1", "concept_a": "Вхождение", "concept_b": "Индикатор", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Вхождение", "concept_b": "Класс", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Вхождение", "concept_b": "Множество", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Вхождение", "concept_b": "Множество бесконечное", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Вхождение", "concept_b": "Множество заданное перечислением элементов", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Вхождение", "concept_b": "Множество заданное характеристическим предикатом", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Вхождение", "concept_b": "Множество конечное", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Вхождение", "concept_b": "Множество пустое", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Вхождение", "concept_b": "Мощность мультимножества", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Вхождение", "concept_b": "Мультимножество", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Вхождение", "concept_b": "Носитель мультимножества", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Вхождение", "concept_b": "Операция добавления элемента", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Вхождение", "concept_b": "Операция конкатенации", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Вхождение", "concept_b": "Операция сцепления", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Вхождение", "concept_b": "Операция удаления элемента", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Вхождение", "concept_b": "Парадокс", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Вхождение", "concept_b": "Показатель элемента", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Вхождение", "concept_b": "Последовательность", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Вхождение", "concept_b": "Постфикс", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Вхождение", "concept_b": "Префикс", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Вхождение", "concept_b": "Принадлежность", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Вхождение", "concept_b": "Семейство множеств", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Вхождение", "concept_b": "Символ", "has_relation": true}
+{"paragraph_id": "1.1", "concept_a": "Вхождение", "concept_b": "Слово", "has_relation": true}
+{"paragraph_id": "1.1", "concept_a": "Вхождение", "concept_b": "Слово начало", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Вхождение", "concept_b": "Слово окончание", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Вхождение", "concept_b": "Слово пустое", "has_relation": true}
+{"paragraph_id": "1.1", "concept_a": "Вхождение", "concept_b": "Состав мультимножества", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Вхождение", "concept_b": "Тип", "has_relation": true}
+{"paragraph_id": "1.1", "concept_a": "Вхождение", "concept_b": "Универсум", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Вхождение", "concept_b": "Цепочка", "has_relation": true}
+{"paragraph_id": "1.1", "concept_a": "Вхождение", "concept_b": "Число вещественное", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Вхождение", "concept_b": "Число натуральное", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Вхождение", "concept_b": "Число простое", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Вхождение", "concept_b": "Число целое", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Вхождение", "concept_b": "Элемент множества", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Вхождение", "concept_b": "Язык", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Длина слова", "concept_b": "Индикатор", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Длина слова", "concept_b": "Класс", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Длина слова", "concept_b": "Множество", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Длина слова", "concept_b": "Множество бесконечное", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Длина слова", "concept_b": "Множество заданное перечислением элементов", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Длина слова", "concept_b": "Множество заданное характеристическим предикатом", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Длина слова", "concept_b": "Множество конечное", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Длина слова", "concept_b": "Множество пустое", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Длина слова", "concept_b": "Мощность мультимножества", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Длина слова", "concept_b": "Мультимножество", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Длина слова", "concept_b": "Носитель мультимножества", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Длина слова", "concept_b": "Операция добавления элемента", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Длина слова", "concept_b": "Операция конкатенации", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Длина слова", "concept_b": "Операция сцепления", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Длина слова", "concept_b": "Операция удаления элемента", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Длина слова", "concept_b": "Парадокс", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Длина слова", "concept_b": "Показатель элемента", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Длина слова", "concept_b": "Последовательность", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Длина слова", "concept_b": "Постфикс", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Длина слова", "concept_b": "Префикс", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Длина слова", "concept_b": "Принадлежность", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Длина слова", "concept_b": "Семейство множеств", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Длина слова", "concept_b": "Символ", "has_relation": true}
+{"paragraph_id": "1.1", "concept_a": "Длина слова", "concept_b": "Слово", "has_relation": true}
+{"paragraph_id": "1.1", "concept_a": "Длина слова", "concept_b": "Слово начало", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Длина слова", "concept_b": "Слово окончание", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Длина слова", "concept_b": "Слово пустое", "has_relation": true}
+{"paragraph_id": "1.1", "concept_a": "Длина слова", "concept_b": "Состав мультимножества", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Длина слова", "concept_b": "Тип", "has_relation": true}
+{"paragraph_id": "1.1", "concept_a": "Длина слова", "concept_b": "Универсум", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Длина слова", "concept_b": "Цепочка", "has_relation": true}
+{"paragraph_id": "1.1", "concept_a": "Длина слова", "concept_b": "Число вещественное", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Длина слова", "concept_b": "Число натуральное", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Длина слова", "concept_b": "Число простое", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Длина слова", "concept_b": "Число целое", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Длина слова", "concept_b": "Элемент множества", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Длина слова", "concept_b": "Язык", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Индикатор", "concept_b": "Класс", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Индикатор", "concept_b": "Множество", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Индикатор", "concept_b": "Множество бесконечное", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Индикатор", "concept_b": "Множество заданное перечислением элементов", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Индикатор", "concept_b": "Множество заданное характеристическим предикатом", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Индикатор", "concept_b": "Множество конечное", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Индикатор", "concept_b": "Множество пустое", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Индикатор", "concept_b": "Мощность мультимножества", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Индикатор", "concept_b": "Мультимножество", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Индикатор", "concept_b": "Носитель мультимножества", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Индикатор", "concept_b": "Операция добавления элемента", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Индикатор", "concept_b": "Операция конкатенации", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Индикатор", "concept_b": "Операция сцепления", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Индикатор", "concept_b": "Операция удаления элемента", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Индикатор", "concept_b": "Парадокс", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Индикатор", "concept_b": "Показатель элемента", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Индикатор", "concept_b": "Последовательность", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Индикатор", "concept_b": "Постфикс", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Индикатор", "concept_b": "Префикс", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Индикатор", "concept_b": "Принадлежность", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Индикатор", "concept_b": "Семейство множеств", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Индикатор", "concept_b": "Символ", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Индикатор", "concept_b": "Слово", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Индикатор", "concept_b": "Слово начало", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Индикатор", "concept_b": "Слово окончание", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Индикатор", "concept_b": "Слово пустое", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Индикатор", "concept_b": "Состав мультимножества", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Индикатор", "concept_b": "Тип", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Индикатор", "concept_b": "Универсум", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Индикатор", "concept_b": "Цепочка", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Индикатор", "concept_b": "Число вещественное", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Индикатор", "concept_b": "Число натуральное", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Индикатор", "concept_b": "Число простое", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Индикатор", "concept_b": "Число целое", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Индикатор", "concept_b": "Элемент множества", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Индикатор", "concept_b": "Язык", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Класс", "concept_b": "Множество", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Класс", "concept_b": "Множество бесконечное", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Класс", "concept_b": "Множество заданное перечислением элементов", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Класс", "concept_b": "Множество заданное характеристическим предикатом", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Класс", "concept_b": "Множество конечное", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Класс", "concept_b": "Множество пустое", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Класс", "concept_b": "Мощность мультимножества", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Класс", "concept_b": "Мультимножество", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Класс", "concept_b": "Носитель мультимножества", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Класс", "concept_b": "Операция добавления элемента", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Класс", "concept_b": "Операция конкатенации", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Класс", "concept_b": "Операция сцепления", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Класс", "concept_b": "Операция удаления элемента", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Класс", "concept_b": "Парадокс", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Класс", "concept_b": "Показатель элемента", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Класс", "concept_b": "Последовательность", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Класс", "concept_b": "Постфикс", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Класс", "concept_b": "Префикс", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Класс", "concept_b": "Принадлежность", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Класс", "concept_b": "Семейство множеств", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Класс", "concept_b": "Символ", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Класс", "concept_b": "Слово", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Класс", "concept_b": "Слово начало", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Класс", "concept_b": "Слово окончание", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Класс", "concept_b": "Слово пустое", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Класс", "concept_b": "Состав мультимножества", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Класс", "concept_b": "Тип", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Класс", "concept_b": "Универсум", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Класс", "concept_b": "Цепочка", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Класс", "concept_b": "Число вещественное", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Класс", "concept_b": "Число натуральное", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Класс", "concept_b": "Число простое", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Класс", "concept_b": "Число целое", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Класс", "concept_b": "Элемент множества", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Класс", "concept_b": "Язык", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Множество", "concept_b": "Множество бесконечное", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Множество", "concept_b": "Множество заданное перечислением элементов", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Множество", "concept_b": "Множество заданное характеристическим предикатом", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Множество", "concept_b": "Множество конечное", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Множество", "concept_b": "Множество пустое", "has_relation": true}
+{"paragraph_id": "1.1", "concept_a": "Множество", "concept_b": "Мощность мультимножества", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Множество", "concept_b": "Мультимножество", "has_relation": true}
+{"paragraph_id": "1.1", "concept_a": "Множество", "concept_b": "Носитель мультимножества", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Множество", "concept_b": "Операция добавления элемента", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Множество", "concept_b": "Операция конкатенации", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Множество", "concept_b": "Операция сцепления", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Множество", "concept_b": "Операция удаления элемента", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Множество", "concept_b": "Парадокс", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Множество", "concept_b": "Показатель элемента", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Множество", "concept_b": "Последовательность", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Множество", "concept_b": "Постфикс", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Множество", "concept_b": "Префикс", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Множество", "concept_b": "Принадлежность", "has_relation": true}
+{"paragraph_id": "1.1", "concept_a": "Множество", "concept_b": "Семейство множеств", "has_relation": true}
+{"paragraph_id": "1.1", "concept_a": "Множество", "concept_b": "Символ", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Множество", "concept_b": "Слово", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Множество", "concept_b": "Слово начало", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Множество", "concept_b": "Слово окончание", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Множество", "concept_b": "Слово пустое", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Множество", "concept_b": "Состав мультимножества", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Множество", "concept_b": "Тип", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Множество", "concept_b": "Универсум", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Множество", "concept_b": "Цепочка", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Множество", "concept_b": "Число вещественное", "has_relation": true}
+{"paragraph_id": "1.1", "concept_a": "Множество", "concept_b": "Число натуральное", "has_relation": true}
+{"paragraph_id": "1.1", "concept_a": "Множество", "concept_b": "Число простое", "has_relation": true}
+{"paragraph_id": "1.1", "concept_a": "Множество", "concept_b": "Число целое", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Множество", "concept_b": "Элемент множества", "has_relation": true}
+{"paragraph_id": "1.1", "concept_a": "Множество", "concept_b": "Язык", "has_relation": true}
+{"paragraph_id": "1.1", "concept_a": "Множество бесконечное", "concept_b": "Множество заданное перечислением элементов", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Множество бесконечное", "concept_b": "Множество заданное характеристическим предикатом", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Множество бесконечное", "concept_b": "Множество конечное", "has_relation": true}
+{"paragraph_id": "1.1", "concept_a": "Множество бесконечное", "concept_b": "Множество пустое", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Множество бесконечное", "concept_b": "Мощность мультимножества", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Множество бесконечное", "concept_b": "Мультимножество", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Множество бесконечное", "concept_b": "Носитель мультимножества", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Множество бесконечное", "concept_b": "Операция добавления элемента", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Множество бесконечное", "concept_b": "Операция конкатенации", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Множество бесконечное", "concept_b": "Операция сцепления", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Множество бесконечное", "concept_b": "Операция удаления элемента", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Множество бесконечное", "concept_b": "Парадокс", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Множество бесконечное", "concept_b": "Показатель элемента", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Множество бесконечное", "concept_b": "Последовательность", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Множество бесконечное", "concept_b": "Постфикс", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Множество бесконечное", "concept_b": "Префикс", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Множество бесконечное", "concept_b": "Принадлежность", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Множество бесконечное", "concept_b": "Семейство множеств", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Множество бесконечное", "concept_b": "Символ", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Множество бесконечное", "concept_b": "Слово", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Множество бесконечное", "concept_b": "Слово начало", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Множество бесконечное", "concept_b": "Слово окончание", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Множество бесконечное", "concept_b": "Слово пустое", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Множество бесконечное", "concept_b": "Состав мультимножества", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Множество бесконечное", "concept_b": "Тип", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Множество бесконечное", "concept_b": "Универсум", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Множество бесконечное", "concept_b": "Цепочка", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Множество бесконечное", "concept_b": "Число вещественное", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Множество бесконечное", "concept_b": "Число натуральное", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Множество бесконечное", "concept_b": "Число простое", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Множество бесконечное", "concept_b": "Число целое", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Множество бесконечное", "concept_b": "Элемент множества", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Множество бесконечное", "concept_b": "Язык", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Множество заданное перечислением элементов", "concept_b": "Множество заданное характеристическим предикатом", "has_relation": true}
+{"paragraph_id": "1.1", "concept_a": "Множество заданное перечислением элементов", "concept_b": "Множество конечное", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Множество заданное перечислением элементов", "concept_b": "Множество пустое", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Множество заданное перечислением элементов", "concept_b": "Мощность мультимножества", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Множество заданное перечислением элементов", "concept_b": "Мультимножество", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Множество заданное перечислением элементов", "concept_b": "Носитель мультимножества", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Множество заданное перечислением элементов", "concept_b": "Операция добавления элемента", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Множество заданное перечислением элементов", "concept_b": "Операция конкатенации", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Множество заданное перечислением элементов", "concept_b": "Операция сцепления", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Множество заданное перечислением элементов", "concept_b": "Операция удаления элемента", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Множество заданное перечислением элементов", "concept_b": "Парадокс", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Множество заданное перечислением элементов", "concept_b": "Показатель элемента", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Множество заданное перечислением элементов", "concept_b": "Последовательность", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Множество заданное перечислением элементов", "concept_b": "Постфикс", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Множество заданное перечислением элементов", "concept_b": "Префикс", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Множество заданное перечислением элементов", "concept_b": "Принадлежность", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Множество заданное перечислением элементов", "concept_b": "Семейство множеств", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Множество заданное перечислением элементов", "concept_b": "Символ", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Множество заданное перечислением элементов", "concept_b": "Слово", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Множество заданное перечислением элементов", "concept_b": "Слово начало", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Множество заданное перечислением элементов", "concept_b": "Слово окончание", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Множество заданное перечислением элементов", "concept_b": "Слово пустое", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Множество заданное перечислением элементов", "concept_b": "Состав мультимножества", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Множество заданное перечислением элементов", "concept_b": "Тип", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Множество заданное перечислением элементов", "concept_b": "Универсум", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Множество заданное перечислением элементов", "concept_b": "Цепочка", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Множество заданное перечислением элементов", "concept_b": "Число вещественное", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Множество заданное перечислением элементов", "concept_b": "Число натуральное", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Множество заданное перечислением элементов", "concept_b": "Число простое", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Множество заданное перечислением элементов", "concept_b": "Число целое", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Множество заданное перечислением элементов", "concept_b": "Элемент множества", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Множество заданное перечислением элементов", "concept_b": "Язык", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Множество заданное характеристическим предикатом", "concept_b": "Множество конечное", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Множество заданное характеристическим предикатом", "concept_b": "Множество пустое", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Множество заданное характеристическим предикатом", "concept_b": "Мощность мультимножества", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Множество заданное характеристическим предикатом", "concept_b": "Мультимножество", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Множество заданное характеристическим предикатом", "concept_b": "Носитель мультимножества", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Множество заданное характеристическим предикатом", "concept_b": "Операция добавления элемента", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Множество заданное характеристическим предикатом", "concept_b": "Операция конкатенации", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Множество заданное характеристическим предикатом", "concept_b": "Операция сцепления", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Множество заданное характеристическим предикатом", "concept_b": "Операция удаления элемента", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Множество заданное характеристическим предикатом", "concept_b": "Парадокс", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Множество заданное характеристическим предикатом", "concept_b": "Показатель элемента", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Множество заданное характеристическим предикатом", "concept_b": "Последовательность", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Множество заданное характеристическим предикатом", "concept_b": "Постфикс", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Множество заданное характеристическим предикатом", "concept_b": "Префикс", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Множество заданное характеристическим предикатом", "concept_b": "Принадлежность", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Множество заданное характеристическим предикатом", "concept_b": "Семейство множеств", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Множество заданное характеристическим предикатом", "concept_b": "Символ", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Множество заданное характеристическим предикатом", "concept_b": "Слово", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Множество заданное характеристическим предикатом", "concept_b": "Слово начало", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Множество заданное характеристическим предикатом", "concept_b": "Слово окончание", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Множество заданное характеристическим предикатом", "concept_b": "Слово пустое", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Множество заданное характеристическим предикатом", "concept_b": "Состав мультимножества", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Множество заданное характеристическим предикатом", "concept_b": "Тип", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Множество заданное характеристическим предикатом", "concept_b": "Универсум", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Множество заданное характеристическим предикатом", "concept_b": "Цепочка", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Множество заданное характеристическим предикатом", "concept_b": "Число вещественное", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Множество заданное характеристическим предикатом", "concept_b": "Число натуральное", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Множество заданное характеристическим предикатом", "concept_b": "Число простое", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Множество заданное характеристическим предикатом", "concept_b": "Число целое", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Множество заданное характеристическим предикатом", "concept_b": "Элемент множества", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Множество заданное характеристическим предикатом", "concept_b": "Язык", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Множество конечное", "concept_b": "Множество пустое", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Множество конечное", "concept_b": "Мощность мультимножества", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Множество конечное", "concept_b": "Мультимножество", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Множество конечное", "concept_b": "Носитель мультимножества", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Множество конечное", "concept_b": "Операция добавления элемента", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Множество конечное", "concept_b": "Операция конкатенации", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Множество конечное", "concept_b": "Операция сцепления", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Множество конечное", "concept_b": "Операция удаления элемента", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Множество конечное", "concept_b": "Парадокс", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Множество конечное", "concept_b": "Показатель элемента", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Множество конечное", "concept_b": "Последовательность", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Множество конечное", "concept_b": "Постфикс", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Множество конечное", "concept_b": "Префикс", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Множество конечное", "concept_b": "Принадлежность", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Множество конечное", "concept_b": "Семейство множеств", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Множество конечное", "concept_b": "Символ", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Множество конечное", "concept_b": "Слово", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Множество конечное", "concept_b": "Слово начало", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Множество конечное", "concept_b": "Слово окончание", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Множество конечное", "concept_b": "Слово пустое", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Множество конечное", "concept_b": "Состав мультимножества", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Множество конечное", "concept_b": "Тип", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Множество конечное", "concept_b": "Универсум", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Множество конечное", "concept_b": "Цепочка", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Множество конечное", "concept_b": "Число вещественное", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Множество конечное", "concept_b": "Число натуральное", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Множество конечное", "concept_b": "Число простое", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Множество конечное", "concept_b": "Число целое", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Множество конечное", "concept_b": "Элемент множества", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Множество конечное", "concept_b": "Язык", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Множество пустое", "concept_b": "Мощность мультимножества", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Множество пустое", "concept_b": "Мультимножество", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Множество пустое", "concept_b": "Носитель мультимножества", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Множество пустое", "concept_b": "Операция добавления элемента", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Множество пустое", "concept_b": "Операция конкатенации", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Множество пустое", "concept_b": "Операция сцепления", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Множество пустое", "concept_b": "Операция удаления элемента", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Множество пустое", "concept_b": "Парадокс", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Множество пустое", "concept_b": "Показатель элемента", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Множество пустое", "concept_b": "Последовательность", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Множество пустое", "concept_b": "Постфикс", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Множество пустое", "concept_b": "Префикс", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Множество пустое", "concept_b": "Принадлежность", "has_relation": true}
+{"paragraph_id": "1.1", "concept_a": "Множество пустое", "concept_b": "Семейство множеств", "has_relation": true}
+{"paragraph_id": "1.1", "concept_a": "Множество пустое", "concept_b": "Символ", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Множество пустое", "concept_b": "Слово", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Множество пустое", "concept_b": "Слово начало", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Множество пустое", "concept_b": "Слово окончание", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Множество пустое", "concept_b": "Слово пустое", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Множество пустое", "concept_b": "Состав мультимножества", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Множество пустое", "concept_b": "Тип", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Множество пустое", "concept_b": "Универсум", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Множество пустое", "concept_b": "Цепочка", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Множество пустое", "concept_b": "Число вещественное", "has_relation": true}
+{"paragraph_id": "1.1", "concept_a": "Множество пустое", "concept_b": "Число натуральное", "has_relation": true}
+{"paragraph_id": "1.1", "concept_a": "Множество пустое", "concept_b": "Число простое", "has_relation": true}
+{"paragraph_id": "1.1", "concept_a": "Множество пустое", "concept_b": "Число целое", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Множество пустое", "concept_b": "Элемент множества", "has_relation": true}
+{"paragraph_id": "1.1", "concept_a": "Множество пустое", "concept_b": "Язык", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Мощность мультимножества", "concept_b": "Мультимножество", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Мощность мультимножества", "concept_b": "Носитель мультимножества", "has_relation": true}
+{"paragraph_id": "1.1", "concept_a": "Мощность мультимножества", "concept_b": "Операция добавления элемента", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Мощность мультимножества", "concept_b": "Операция конкатенации", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Мощность мультимножества", "concept_b": "Операция сцепления", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Мощность мультимножества", "concept_b": "Операция удаления элемента", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Мощность мультимножества", "concept_b": "Парадокс", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Мощность мультимножества", "concept_b": "Показатель элемента", "has_relation": true}
+{"paragraph_id": "1.1", "concept_a": "Мощность мультимножества", "concept_b": "Последовательность", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Мощность мультимножества", "concept_b": "Постфикс", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Мощность мультимножества", "concept_b": "Префикс", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Мощность мультимножества", "concept_b": "Принадлежность", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Мощность мультимножества", "concept_b": "Семейство множеств", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Мощность мультимножества", "concept_b": "Символ", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Мощность мультимножества", "concept_b": "Слово", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Мощность мультимножества", "concept_b": "Слово начало", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Мощность мультимножества", "concept_b": "Слово окончание", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Мощность мультимножества", "concept_b": "Слово пустое", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Мощность мультимножества", "concept_b": "Состав мультимножества", "has_relation": true}
+{"paragraph_id": "1.1", "concept_a": "Мощность мультимножества", "concept_b": "Тип", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Мощность мультимножества", "concept_b": "Универсум", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Мощность мультимножества", "concept_b": "Цепочка", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Мощность мультимножества", "concept_b": "Число вещественное", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Мощность мультимножества", "concept_b": "Число натуральное", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Мощность мультимножества", "concept_b": "Число простое", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Мощность мультимножества", "concept_b": "Число целое", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Мощность мультимножества", "concept_b": "Элемент множества", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Мощность мультимножества", "concept_b": "Язык", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Мультимножество", "concept_b": "Носитель мультимножества", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Мультимножество", "concept_b": "Операция добавления элемента", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Мультимножество", "concept_b": "Операция конкатенации", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Мультимножество", "concept_b": "Операция сцепления", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Мультимножество", "concept_b": "Операция удаления элемента", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Мультимножество", "concept_b": "Парадокс", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Мультимножество", "concept_b": "Показатель элемента", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Мультимножество", "concept_b": "Последовательность", "has_relation": true}
+{"paragraph_id": "1.1", "concept_a": "Мультимножество", "concept_b": "Постфикс", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Мультимножество", "concept_b": "Префикс", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Мультимножество", "concept_b": "Принадлежность", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Мультимножество", "concept_b": "Семейство множеств", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Мультимножество", "concept_b": "Символ", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Мультимножество", "concept_b": "Слово", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Мультимножество", "concept_b": "Слово начало", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Мультимножество", "concept_b": "Слово окончание", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Мультимножество", "concept_b": "Слово пустое", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Мультимножество", "concept_b": "Состав мультимножества", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Мультимножество", "concept_b": "Тип", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Мультимножество", "concept_b": "Универсум", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Мультимножество", "concept_b": "Цепочка", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Мультимножество", "concept_b": "Число вещественное", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Мультимножество", "concept_b": "Число натуральное", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Мультимножество", "concept_b": "Число простое", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Мультимножество", "concept_b": "Число целое", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Мультимножество", "concept_b": "Элемент множества", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Мультимножество", "concept_b": "Язык", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Носитель мультимножества", "concept_b": "Операция добавления элемента", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Носитель мультимножества", "concept_b": "Операция конкатенации", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Носитель мультимножества", "concept_b": "Операция сцепления", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Носитель мультимножества", "concept_b": "Операция удаления элемента", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Носитель мультимножества", "concept_b": "Парадокс", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Носитель мультимножества", "concept_b": "Показатель элемента", "has_relation": true}
+{"paragraph_id": "1.1", "concept_a": "Носитель мультимножества", "concept_b": "Последовательность", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Носитель мультимножества", "concept_b": "Постфикс", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Носитель мультимножества", "concept_b": "Префикс", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Носитель мультимножества", "concept_b": "Принадлежность", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Носитель мультимножества", "concept_b": "Семейство множеств", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Носитель мультимножества", "concept_b": "Символ", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Носитель мультимножества", "concept_b": "Слово", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Носитель мультимножества", "concept_b": "Слово начало", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Носитель мультимножества", "concept_b": "Слово окончание", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Носитель мультимножества", "concept_b": "Слово пустое", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Носитель мультимножества", "concept_b": "Состав мультимножества", "has_relation": true}
+{"paragraph_id": "1.1", "concept_a": "Носитель мультимножества", "concept_b": "Тип", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Носитель мультимножества", "concept_b": "Универсум", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Носитель мультимножества", "concept_b": "Цепочка", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Носитель мультимножества", "concept_b": "Число вещественное", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Носитель мультимножества", "concept_b": "Число натуральное", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Носитель мультимножества", "concept_b": "Число простое", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Носитель мультимножества", "concept_b": "Число целое", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Носитель мультимножества", "concept_b": "Элемент множества", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Носитель мультимножества", "concept_b": "Язык", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Операция добавления элемента", "concept_b": "Операция конкатенации", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Операция добавления элемента", "concept_b": "Операция сцепления", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Операция добавления элемента", "concept_b": "Операция удаления элемента", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Операция добавления элемента", "concept_b": "Парадокс", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Операция добавления элемента", "concept_b": "Показатель элемента", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Операция добавления элемента", "concept_b": "Последовательность", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Операция добавления элемента", "concept_b": "Постфикс", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Операция добавления элемента", "concept_b": "Префикс", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Операция добавления элемента", "concept_b": "Принадлежность", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Операция добавления элемента", "concept_b": "Семейство множеств", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Операция добавления элемента", "concept_b": "Символ", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Операция добавления элемента", "concept_b": "Слово", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Операция добавления элемента", "concept_b": "Слово начало", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Операция добавления элемента", "concept_b": "Слово окончание", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Операция добавления элемента", "concept_b": "Слово пустое", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Операция добавления элемента", "concept_b": "Состав мультимножества", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Операция добавления элемента", "concept_b": "Тип", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Операция добавления элемента", "concept_b": "Универсум", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Операция добавления элемента", "concept_b": "Цепочка", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Операция добавления элемента", "concept_b": "Число вещественное", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Операция добавления элемента", "concept_b": "Число натуральное", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Операция добавления элемента", "concept_b": "Число простое", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Операция добавления элемента", "concept_b": "Число целое", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Операция добавления элемента", "concept_b": "Элемент множества", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Операция добавления элемента", "concept_b": "Язык", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Операция конкатенации", "concept_b": "Операция сцепления", "has_relation": true}
+{"paragraph_id": "1.1", "concept_a": "Операция конкатенации", "concept_b": "Операция удаления элемента", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Операция конкатенации", "concept_b": "Парадокс", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Операция конкатенации", "concept_b": "Показатель элемента", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Операция конкатенации", "concept_b": "Последовательность", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Операция конкатенации", "concept_b": "Постфикс", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Операция конкатенации", "concept_b": "Префикс", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Операция конкатенации", "concept_b": "Принадлежность", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Операция конкатенации", "concept_b": "Семейство множеств", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Операция конкатенации", "concept_b": "Символ", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Операция конкатенации", "concept_b": "Слово", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Операция конкатенации", "concept_b": "Слово начало", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Операция конкатенации", "concept_b": "Слово окончание", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Операция конкатенации", "concept_b": "Слово пустое", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Операция конкатенации", "concept_b": "Состав мультимножества", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Операция конкатенации", "concept_b": "Тип", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Операция конкатенации", "concept_b": "Универсум", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Операция конкатенации", "concept_b": "Цепочка", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Операция конкатенации", "concept_b": "Число вещественное", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Операция конкатенации", "concept_b": "Число натуральное", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Операция конкатенации", "concept_b": "Число простое", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Операция конкатенации", "concept_b": "Число целое", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Операция конкатенации", "concept_b": "Элемент множества", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Операция конкатенации", "concept_b": "Язык", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Операция сцепления", "concept_b": "Операция удаления элемента", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Операция сцепления", "concept_b": "Парадокс", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Операция сцепления", "concept_b": "Показатель элемента", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Операция сцепления", "concept_b": "Последовательность", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Операция сцепления", "concept_b": "Постфикс", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Операция сцепления", "concept_b": "Префикс", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Операция сцепления", "concept_b": "Принадлежность", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Операция сцепления", "concept_b": "Семейство множеств", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Операция сцепления", "concept_b": "Символ", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Операция сцепления", "concept_b": "Слово", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Операция сцепления", "concept_b": "Слово начало", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Операция сцепления", "concept_b": "Слово окончание", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Операция сцепления", "concept_b": "Слово пустое", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Операция сцепления", "concept_b": "Состав мультимножества", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Операция сцепления", "concept_b": "Тип", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Операция сцепления", "concept_b": "Универсум", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Операция сцепления", "concept_b": "Цепочка", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Операция сцепления", "concept_b": "Число вещественное", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Операция сцепления", "concept_b": "Число натуральное", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Операция сцепления", "concept_b": "Число простое", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Операция сцепления", "concept_b": "Число целое", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Операция сцепления", "concept_b": "Элемент множества", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Операция сцепления", "concept_b": "Язык", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Операция удаления элемента", "concept_b": "Парадокс", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Операция удаления элемента", "concept_b": "Показатель элемента", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Операция удаления элемента", "concept_b": "Последовательность", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Операция удаления элемента", "concept_b": "Постфикс", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Операция удаления элемента", "concept_b": "Префикс", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Операция удаления элемента", "concept_b": "Принадлежность", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Операция удаления элемента", "concept_b": "Семейство множеств", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Операция удаления элемента", "concept_b": "Символ", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Операция удаления элемента", "concept_b": "Слово", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Операция удаления элемента", "concept_b": "Слово начало", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Операция удаления элемента", "concept_b": "Слово окончание", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Операция удаления элемента", "concept_b": "Слово пустое", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Операция удаления элемента", "concept_b": "Состав мультимножества", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Операция удаления элемента", "concept_b": "Тип", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Операция удаления элемента", "concept_b": "Универсум", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Операция удаления элемента", "concept_b": "Цепочка", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Операция удаления элемента", "concept_b": "Число вещественное", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Операция удаления элемента", "concept_b": "Число натуральное", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Операция удаления элемента", "concept_b": "Число простое", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Операция удаления элемента", "concept_b": "Число целое", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Операция удаления элемента", "concept_b": "Элемент множества", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Операция удаления элемента", "concept_b": "Язык", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Парадокс", "concept_b": "Показатель элемента", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Парадокс", "concept_b": "Последовательность", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Парадокс", "concept_b": "Постфикс", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Парадокс", "concept_b": "Префикс", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Парадокс", "concept_b": "Принадлежность", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Парадокс", "concept_b": "Семейство множеств", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Парадокс", "concept_b": "Символ", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Парадокс", "concept_b": "Слово", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Парадокс", "concept_b": "Слово начало", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Парадокс", "concept_b": "Слово окончание", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Парадокс", "concept_b": "Слово пустое", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Парадокс", "concept_b": "Состав мультимножества", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Парадокс", "concept_b": "Тип", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Парадокс", "concept_b": "Универсум", "has_relation": true}
+{"paragraph_id": "1.1", "concept_a": "Парадокс", "concept_b": "Цепочка", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Парадокс", "concept_b": "Число вещественное", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Парадокс", "concept_b": "Число натуральное", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Парадокс", "concept_b": "Число простое", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Парадокс", "concept_b": "Число целое", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Парадокс", "concept_b": "Элемент множества", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Парадокс", "concept_b": "Язык", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Показатель элемента", "concept_b": "Последовательность", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Показатель элемента", "concept_b": "Постфикс", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Показатель элемента", "concept_b": "Префикс", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Показатель элемента", "concept_b": "Принадлежность", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Показатель элемента", "concept_b": "Семейство множеств", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Показатель элемента", "concept_b": "Символ", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Показатель элемента", "concept_b": "Слово", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Показатель элемента", "concept_b": "Слово начало", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Показатель элемента", "concept_b": "Слово окончание", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Показатель элемента", "concept_b": "Слово пустое", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Показатель элемента", "concept_b": "Состав мультимножества", "has_relation": true}
+{"paragraph_id": "1.1", "concept_a": "Показатель элемента", "concept_b": "Тип", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Показатель элемента", "concept_b": "Универсум", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Показатель элемента", "concept_b": "Цепочка", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Показатель элемента", "concept_b": "Число вещественное", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Показатель элемента", "concept_b": "Число натуральное", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Показатель элемента", "concept_b": "Число простое", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Показатель элемента", "concept_b": "Число целое", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Показатель элемента", "concept_b": "Элемент множества", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Показатель элемента", "concept_b": "Язык", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Последовательность", "concept_b": "Постфикс", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Последовательность", "concept_b": "Префикс", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Последовательность", "concept_b": "Принадлежность", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Последовательность", "concept_b": "Семейство множеств", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Последовательность", "concept_b": "Символ", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Последовательность", "concept_b": "Слово", "has_relation": true}
+{"paragraph_id": "1.1", "concept_a": "Последовательность", "concept_b": "Слово начало", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Последовательность", "concept_b": "Слово окончание", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Последовательность", "concept_b": "Слово пустое", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Последовательность", "concept_b": "Состав мультимножества", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Последовательность", "concept_b": "Тип", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Последовательность", "concept_b": "Универсум", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Последовательность", "concept_b": "Цепочка", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Последовательность", "concept_b": "Число вещественное", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Последовательность", "concept_b": "Число натуральное", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Последовательность", "concept_b": "Число простое", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Последовательность", "concept_b": "Число целое", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Последовательность", "concept_b": "Элемент множества", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Последовательность", "concept_b": "Язык", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Постфикс", "concept_b": "Префикс", "has_relation": true}
+{"paragraph_id": "1.1", "concept_a": "Постфикс", "concept_b": "Принадлежность", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Постфикс", "concept_b": "Семейство множеств", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Постфикс", "concept_b": "Символ", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Постфикс", "concept_b": "Слово", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Постфикс", "concept_b": "Слово начало", "has_relation": true}
+{"paragraph_id": "1.1", "concept_a": "Постфикс", "concept_b": "Слово окончание", "has_relation": true}
+{"paragraph_id": "1.1", "concept_a": "Постфикс", "concept_b": "Слово пустое", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Постфикс", "concept_b": "Состав мультимножества", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Постфикс", "concept_b": "Тип", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Постфикс", "concept_b": "Универсум", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Постфикс", "concept_b": "Цепочка", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Постфикс", "concept_b": "Число вещественное", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Постфикс", "concept_b": "Число натуральное", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Постфикс", "concept_b": "Число простое", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Постфикс", "concept_b": "Число целое", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Постфикс", "concept_b": "Элемент множества", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Постфикс", "concept_b": "Язык", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Префикс", "concept_b": "Принадлежность", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Префикс", "concept_b": "Семейство множеств", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Префикс", "concept_b": "Символ", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Префикс", "concept_b": "Слово", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Префикс", "concept_b": "Слово начало", "has_relation": true}
+{"paragraph_id": "1.1", "concept_a": "Префикс", "concept_b": "Слово окончание", "has_relation": true}
+{"paragraph_id": "1.1", "concept_a": "Префикс", "concept_b": "Слово пустое", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Префикс", "concept_b": "Состав мультимножества", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Префикс", "concept_b": "Тип", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Префикс", "concept_b": "Универсум", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Префикс", "concept_b": "Цепочка", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Префикс", "concept_b": "Число вещественное", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Префикс", "concept_b": "Число натуральное", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Префикс", "concept_b": "Число простое", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Префикс", "concept_b": "Число целое", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Префикс", "concept_b": "Элемент множества", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Префикс", "concept_b": "Язык", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Принадлежность", "concept_b": "Семейство множеств", "has_relation": true}
+{"paragraph_id": "1.1", "concept_a": "Принадлежность", "concept_b": "Символ", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Принадлежность", "concept_b": "Слово", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Принадлежность", "concept_b": "Слово начало", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Принадлежность", "concept_b": "Слово окончание", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Принадлежность", "concept_b": "Слово пустое", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Принадлежность", "concept_b": "Состав мультимножества", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Принадлежность", "concept_b": "Тип", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Принадлежность", "concept_b": "Универсум", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Принадлежность", "concept_b": "Цепочка", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Принадлежность", "concept_b": "Число вещественное", "has_relation": true}
+{"paragraph_id": "1.1", "concept_a": "Принадлежность", "concept_b": "Число натуральное", "has_relation": true}
+{"paragraph_id": "1.1", "concept_a": "Принадлежность", "concept_b": "Число простое", "has_relation": true}
+{"paragraph_id": "1.1", "concept_a": "Принадлежность", "concept_b": "Число целое", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Принадлежность", "concept_b": "Элемент множества", "has_relation": true}
+{"paragraph_id": "1.1", "concept_a": "Принадлежность", "concept_b": "Язык", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Семейство множеств", "concept_b": "Символ", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Семейство множеств", "concept_b": "Слово", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Семейство множеств", "concept_b": "Слово начало", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Семейство множеств", "concept_b": "Слово окончание", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Семейство множеств", "concept_b": "Слово пустое", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Семейство множеств", "concept_b": "Состав мультимножества", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Семейство множеств", "concept_b": "Тип", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Семейство множеств", "concept_b": "Универсум", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Семейство множеств", "concept_b": "Цепочка", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Семейство множеств", "concept_b": "Число вещественное", "has_relation": true}
+{"paragraph_id": "1.1", "concept_a": "Семейство множеств", "concept_b": "Число натуральное", "has_relation": true}
+{"paragraph_id": "1.1", "concept_a": "Семейство множеств", "concept_b": "Число простое", "has_relation": true}
+{"paragraph_id": "1.1", "concept_a": "Семейство множеств", "concept_b": "Число целое", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Семейство множеств", "concept_b": "Элемент множества", "has_relation": true}
+{"paragraph_id": "1.1", "concept_a": "Семейство множеств", "concept_b": "Язык", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Символ", "concept_b": "Слово", "has_relation": true}
+{"paragraph_id": "1.1", "concept_a": "Символ", "concept_b": "Слово начало", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Символ", "concept_b": "Слово окончание", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Символ", "concept_b": "Слово пустое", "has_relation": true}
+{"paragraph_id": "1.1", "concept_a": "Символ", "concept_b": "Состав мультимножества", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Символ", "concept_b": "Тип", "has_relation": true}
+{"paragraph_id": "1.1", "concept_a": "Символ", "concept_b": "Универсум", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Символ", "concept_b": "Цепочка", "has_relation": true}
+{"paragraph_id": "1.1", "concept_a": "Символ", "concept_b": "Число вещественное", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Символ", "concept_b": "Число натуральное", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Символ", "concept_b": "Число простое", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Символ", "concept_b": "Число целое", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Символ", "concept_b": "Элемент множества", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Символ", "concept_b": "Язык", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Слово", "concept_b": "Слово начало", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Слово", "concept_b": "Слово окончание", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Слово", "concept_b": "Слово пустое", "has_relation": true}
+{"paragraph_id": "1.1", "concept_a": "Слово", "concept_b": "Состав мультимножества", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Слово", "concept_b": "Тип", "has_relation": true}
+{"paragraph_id": "1.1", "concept_a": "Слово", "concept_b": "Универсум", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Слово", "concept_b": "Цепочка", "has_relation": true}
+{"paragraph_id": "1.1", "concept_a": "Слово", "concept_b": "Число вещественное", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Слово", "concept_b": "Число натуральное", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Слово", "concept_b": "Число простое", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Слово", "concept_b": "Число целое", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Слово", "concept_b": "Элемент множества", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Слово", "concept_b": "Язык", "has_relation": true}
+{"paragraph_id": "1.1", "concept_a": "Слово начало", "concept_b": "Слово окончание", "has_relation": true}
+{"paragraph_id": "1.1", "concept_a": "Слово начало", "concept_b": "Слово пустое", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Слово начало", "concept_b": "Состав мультимножества", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Слово начало", "concept_b": "Тип", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Слово начало", "concept_b": "Универсум", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Слово начало", "concept_b": "Цепочка", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Слово начало", "concept_b": "Число вещественное", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Слово начало", "concept_b": "Число натуральное", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Слово начало", "concept_b": "Число простое", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Слово начало", "concept_b": "Число целое", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Слово начало", "concept_b": "Элемент множества", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Слово начало", "concept_b": "Язык", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Слово окончание", "concept_b": "Слово пустое", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Слово окончание", "concept_b": "Состав мультимножества", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Слово окончание", "concept_b": "Тип", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Слово окончание", "concept_b": "Универсум", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Слово окончание", "concept_b": "Цепочка", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Слово окончание", "concept_b": "Число вещественное", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Слово окончание", "concept_b": "Число натуральное", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Слово окончание", "concept_b": "Число простое", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Слово окончание", "concept_b": "Число целое", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Слово окончание", "concept_b": "Элемент множества", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Слово окончание", "concept_b": "Язык", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Слово пустое", "concept_b": "Состав мультимножества", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Слово пустое", "concept_b": "Тип", "has_relation": true}
+{"paragraph_id": "1.1", "concept_a": "Слово пустое", "concept_b": "Универсум", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Слово пустое", "concept_b": "Цепочка", "has_relation": true}
+{"paragraph_id": "1.1", "concept_a": "Слово пустое", "concept_b": "Число вещественное", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Слово пустое", "concept_b": "Число натуральное", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Слово пустое", "concept_b": "Число простое", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Слово пустое", "concept_b": "Число целое", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Слово пустое", "concept_b": "Элемент множества", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Слово пустое", "concept_b": "Язык", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Состав мультимножества", "concept_b": "Тип", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Состав мультимножества", "concept_b": "Универсум", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Состав мультимножества", "concept_b": "Цепочка", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Состав мультимножества", "concept_b": "Число вещественное", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Состав мультимножества", "concept_b": "Число натуральное", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Состав мультимножества", "concept_b": "Число простое", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Состав мультимножества", "concept_b": "Число целое", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Состав мультимножества", "concept_b": "Элемент множества", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Состав мультимножества", "concept_b": "Язык", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Тип", "concept_b": "Универсум", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Тип", "concept_b": "Цепочка", "has_relation": true}
+{"paragraph_id": "1.1", "concept_a": "Тип", "concept_b": "Число вещественное", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Тип", "concept_b": "Число натуральное", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Тип", "concept_b": "Число простое", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Тип", "concept_b": "Число целое", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Тип", "concept_b": "Элемент множества", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Тип", "concept_b": "Язык", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Универсум", "concept_b": "Цепочка", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Универсум", "concept_b": "Число вещественное", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Универсум", "concept_b": "Число натуральное", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Универсум", "concept_b": "Число простое", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Универсум", "concept_b": "Число целое", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Универсум", "concept_b": "Элемент множества", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Универсум", "concept_b": "Язык", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Цепочка", "concept_b": "Число вещественное", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Цепочка", "concept_b": "Число натуральное", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Цепочка", "concept_b": "Число простое", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Цепочка", "concept_b": "Число целое", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Цепочка", "concept_b": "Элемент множества", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Цепочка", "concept_b": "Язык", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Число вещественное", "concept_b": "Число натуральное", "has_relation": true}
+{"paragraph_id": "1.1", "concept_a": "Число вещественное", "concept_b": "Число простое", "has_relation": true}
+{"paragraph_id": "1.1", "concept_a": "Число вещественное", "concept_b": "Число целое", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Число вещественное", "concept_b": "Элемент множества", "has_relation": true}
+{"paragraph_id": "1.1", "concept_a": "Число вещественное", "concept_b": "Язык", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Число натуральное", "concept_b": "Число простое", "has_relation": true}
+{"paragraph_id": "1.1", "concept_a": "Число натуральное", "concept_b": "Число целое", "has_relation": true}
+{"paragraph_id": "1.1", "concept_a": "Число натуральное", "concept_b": "Элемент множества", "has_relation": true}
+{"paragraph_id": "1.1", "concept_a": "Число натуральное", "concept_b": "Язык", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Число простое", "concept_b": "Число целое", "has_relation": true}
+{"paragraph_id": "1.1", "concept_a": "Число простое", "concept_b": "Элемент множества", "has_relation": true}
+{"paragraph_id": "1.1", "concept_a": "Число простое", "concept_b": "Язык", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Число целое", "concept_b": "Элемент множества", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Число целое", "concept_b": "Язык", "has_relation": false}
+{"paragraph_id": "1.1", "concept_a": "Элемент множества", "concept_b": "Язык", "has_relation": false}

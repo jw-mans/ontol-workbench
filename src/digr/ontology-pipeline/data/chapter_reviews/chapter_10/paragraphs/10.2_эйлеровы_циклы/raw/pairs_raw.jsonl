@@ -1,0 +1,15 @@
+{"paragraph_id": "10.2", "concept_a": "Алгоритм построения эйлерова цикла", "concept_b": "Граф нумерованный", "has_relation": false}
+{"paragraph_id": "10.2", "concept_a": "Алгоритм построения эйлерова цикла", "concept_b": "Граф полуэйлеров", "has_relation": false}
+{"paragraph_id": "10.2", "concept_a": "Алгоритм построения эйлерова цикла", "concept_b": "Граф эйлеров", "has_relation": false}
+{"paragraph_id": "10.2", "concept_a": "Алгоритм построения эйлерова цикла", "concept_b": "Цепь эйлерова", "has_relation": false}
+{"paragraph_id": "10.2", "concept_a": "Алгоритм построения эйлерова цикла", "concept_b": "Цикл эйлеров", "has_relation": false}
+{"paragraph_id": "10.2", "concept_a": "Граф нумерованный", "concept_b": "Граф полуэйлеров", "has_relation": false}
+{"paragraph_id": "10.2", "concept_a": "Граф нумерованный", "concept_b": "Граф эйлеров", "has_relation": false}
+{"paragraph_id": "10.2", "concept_a": "Граф нумерованный", "concept_b": "Цепь эйлерова", "has_relation": false}
+{"paragraph_id": "10.2", "concept_a": "Граф нумерованный", "concept_b": "Цикл эйлеров", "has_relation": false}
+{"paragraph_id": "10.2", "concept_a": "Граф полуэйлеров", "concept_b": "Граф эйлеров", "has_relation": true}
+{"paragraph_id": "10.2", "concept_a": "Граф полуэйлеров", "concept_b": "Цепь эйлерова", "has_relation": true}
+{"paragraph_id": "10.2", "concept_a": "Граф полуэйлеров", "concept_b": "Цикл эйлеров", "has_relation": true}
+{"paragraph_id": "10.2", "concept_a": "Граф эйлеров", "concept_b": "Цепь эйлерова", "has_relation": true}
+{"paragraph_id": "10.2", "concept_a": "Граф эйлеров", "concept_b": "Цикл эйлеров", "has_relation": true}
+{"paragraph_id": "10.2", "concept_a": "Цепь эйлерова", "concept_b": "Цикл эйлеров", "has_relation": true}

@@ -1,0 +1,15 @@
+{"paragraph_id": "10.7", "concept_a": "Алгоритм последовательного раскрашивания", "concept_b": "Алгоритм приближённый", "has_relation": false}
+{"paragraph_id": "10.7", "concept_a": "Алгоритм последовательного раскрашивания", "concept_b": "Класс одноцветный", "has_relation": false}
+{"paragraph_id": "10.7", "concept_a": "Алгоритм последовательного раскрашивания", "concept_b": "Полином хроматический", "has_relation": false}
+{"paragraph_id": "10.7", "concept_a": "Алгоритм последовательного раскрашивания", "concept_b": "Раскраска графа", "has_relation": false}
+{"paragraph_id": "10.7", "concept_a": "Алгоритм последовательного раскрашивания", "concept_b": "Число хроматическое", "has_relation": false}
+{"paragraph_id": "10.7", "concept_a": "Алгоритм приближённый", "concept_b": "Класс одноцветный", "has_relation": false}
+{"paragraph_id": "10.7", "concept_a": "Алгоритм приближённый", "concept_b": "Полином хроматический", "has_relation": false}
+{"paragraph_id": "10.7", "concept_a": "Алгоритм приближённый", "concept_b": "Раскраска графа", "has_relation": false}
+{"paragraph_id": "10.7", "concept_a": "Алгоритм приближённый", "concept_b": "Число хроматическое", "has_relation": false}
+{"paragraph_id": "10.7", "concept_a": "Класс одноцветный", "concept_b": "Полином хроматический", "has_relation": false}
+{"paragraph_id": "10.7", "concept_a": "Класс одноцветный", "concept_b": "Раскраска графа", "has_relation": false}
+{"paragraph_id": "10.7", "concept_a": "Класс одноцветный", "concept_b": "Число хроматическое", "has_relation": true}
+{"paragraph_id": "10.7", "concept_a": "Полином хроматический", "concept_b": "Раскраска графа", "has_relation": false}
+{"paragraph_id": "10.7", "concept_a": "Полином хроматический", "concept_b": "Число хроматическое", "has_relation": false}
+{"paragraph_id": "10.7", "concept_a": "Раскраска графа", "concept_b": "Число хроматическое", "has_relation": false}

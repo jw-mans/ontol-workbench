@@ -1,0 +1,28 @@
+{"paragraph_id": "6.3", "concept_a": "Алгоритм Фано", "concept_b": "Алгоритм Хаффмена", "has_relation": false}
+{"paragraph_id": "6.3", "concept_a": "Алгоритм Фано", "concept_b": "Длина кодирования)", "has_relation": false}
+{"paragraph_id": "6.3", "concept_a": "Алгоритм Фано", "concept_b": "Кодирование оптимальное", "has_relation": false}
+{"paragraph_id": "6.3", "concept_a": "Алгоритм Фано", "concept_b": "Кодирование равномерное", "has_relation": false}
+{"paragraph_id": "6.3", "concept_a": "Алгоритм Фано", "concept_b": "Кодирование с минимальной избыточностью", "has_relation": false}
+{"paragraph_id": "6.3", "concept_a": "Алгоритм Фано", "concept_b": "Кодирование цена", "has_relation": false}
+{"paragraph_id": "6.3", "concept_a": "Алгоритм Фано", "concept_b": "Медиана множества", "has_relation": false}
+{"paragraph_id": "6.3", "concept_a": "Алгоритм Хаффмена", "concept_b": "Длина кодирования)", "has_relation": false}
+{"paragraph_id": "6.3", "concept_a": "Алгоритм Хаффмена", "concept_b": "Кодирование оптимальное", "has_relation": false}
+{"paragraph_id": "6.3", "concept_a": "Алгоритм Хаффмена", "concept_b": "Кодирование равномерное", "has_relation": false}
+{"paragraph_id": "6.3", "concept_a": "Алгоритм Хаффмена", "concept_b": "Кодирование с минимальной избыточностью", "has_relation": false}
+{"paragraph_id": "6.3", "concept_a": "Алгоритм Хаффмена", "concept_b": "Кодирование цена", "has_relation": false}
+{"paragraph_id": "6.3", "concept_a": "Алгоритм Хаффмена", "concept_b": "Медиана множества", "has_relation": false}
+{"paragraph_id": "6.3", "concept_a": "Длина кодирования)", "concept_b": "Кодирование оптимальное", "has_relation": false}
+{"paragraph_id": "6.3", "concept_a": "Длина кодирования)", "concept_b": "Кодирование равномерное", "has_relation": false}
+{"paragraph_id": "6.3", "concept_a": "Длина кодирования)", "concept_b": "Кодирование с минимальной избыточностью", "has_relation": false}
+{"paragraph_id": "6.3", "concept_a": "Длина кодирования)", "concept_b": "Кодирование цена", "has_relation": true}
+{"paragraph_id": "6.3", "concept_a": "Длина кодирования)", "concept_b": "Медиана множества", "has_relation": false}
+{"paragraph_id": "6.3", "concept_a": "Кодирование оптимальное", "concept_b": "Кодирование равномерное", "has_relation": true}
+{"paragraph_id": "6.3", "concept_a": "Кодирование оптимальное", "concept_b": "Кодирование с минимальной избыточностью", "has_relation": true}
+{"paragraph_id": "6.3", "concept_a": "Кодирование оптимальное", "concept_b": "Кодирование цена", "has_relation": false}
+{"paragraph_id": "6.3", "concept_a": "Кодирование оптимальное", "concept_b": "Медиана множества", "has_relation": false}
+{"paragraph_id": "6.3", "concept_a": "Кодирование равномерное", "concept_b": "Кодирование с минимальной избыточностью", "has_relation": true}
+{"paragraph_id": "6.3", "concept_a": "Кодирование равномерное", "concept_b": "Кодирование цена", "has_relation": false}
+{"paragraph_id": "6.3", "concept_a": "Кодирование равномерное", "concept_b": "Медиана множества", "has_relation": false}
+{"paragraph_id": "6.3", "concept_a": "Кодирование с минимальной избыточностью", "concept_b": "Кодирование цена", "has_relation": false}
+{"paragraph_id": "6.3", "concept_a": "Кодирование с минимальной избыточностью", "concept_b": "Медиана множества", "has_relation": false}
+{"paragraph_id": "6.3", "concept_a": "Кодирование цена", "concept_b": "Медиана множества", "has_relation": false}

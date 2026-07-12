@@ -1,0 +1,666 @@
+{"paragraph_id": "1.6", "concept_a": "\\A{i\\ge m", "concept_b": "Аргумент функции", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "\\A{i\\ge m", "concept_b": "Биекция", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "\\A{i\\ge m", "concept_b": "Запись префиксная", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "\\A{i\\ge m", "concept_b": "Значение функции", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "\\A{i\\ge m", "concept_b": "Инъекция", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "\\A{i\\ge m", "concept_b": "Область значений функции", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "\\A{i\\ge m", "concept_b": "Область определения функции", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "\\A{i\\ge m", "concept_b": "Область отправления функции", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "\\A{i\\ge m", "concept_b": "Область прибытия функции", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "\\A{i\\ge m", "concept_b": "Образ", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "\\A{i\\ge m", "concept_b": "Оператор возврата", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "\\A{i\\ge m", "concept_b": "Отношение однозначное", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "\\A{i\\ge m", "concept_b": "Отношение функциональное", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "\\A{i\\ge m", "concept_b": "Период", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "\\A{i\\ge m", "concept_b": "Последовательность периодическая", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "\\A{i\\ge m", "concept_b": "Преобразование", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "\\A{i\\ge m", "concept_b": "Продолжение функции", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "\\A{i\\ge m", "concept_b": "Прообраз", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "\\A{i\\ge m", "concept_b": "Связь", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "\\A{i\\ge m", "concept_b": "Степень функции", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "\\A{i\\ge m", "concept_b": "Степень элемента", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "\\A{i\\ge m", "concept_b": "Сужение функции", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "\\A{i\\ge m", "concept_b": "Суперпозиция", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "\\A{i\\ge m", "concept_b": "Сюръекция", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "\\A{i\\ge m", "concept_b": "Функция", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "\\A{i\\ge m", "concept_b": "Функция $n$-местная", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "\\A{i\\ge m", "concept_b": "Функция биективная", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "\\A{i\\ge m", "concept_b": "Функция взаимно-однозначная", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "\\A{i\\ge m", "concept_b": "Функция инъективная", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "\\A{i\\ge m", "concept_b": "Функция многозначная", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "\\A{i\\ge m", "concept_b": "Функция обратная", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "\\A{i\\ge m", "concept_b": "Функция перехода к образам", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "\\A{i\\ge m", "concept_b": "Функция перехода к прообразам", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "\\A{i\\ge m", "concept_b": "Функция сюръективная", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "\\A{i\\ge m", "concept_b": "Функция тотальная", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "\\A{i\\ge m", "concept_b": "Функция частичная", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Аргумент функции", "concept_b": "Биекция", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Аргумент функции", "concept_b": "Запись префиксная", "has_relation": true}
+{"paragraph_id": "1.6", "concept_a": "Аргумент функции", "concept_b": "Значение функции", "has_relation": true}
+{"paragraph_id": "1.6", "concept_a": "Аргумент функции", "concept_b": "Инъекция", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Аргумент функции", "concept_b": "Область значений функции", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Аргумент функции", "concept_b": "Область определения функции", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Аргумент функции", "concept_b": "Область отправления функции", "has_relation": true}
+{"paragraph_id": "1.6", "concept_a": "Аргумент функции", "concept_b": "Область прибытия функции", "has_relation": true}
+{"paragraph_id": "1.6", "concept_a": "Аргумент функции", "concept_b": "Образ", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Аргумент функции", "concept_b": "Оператор возврата", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Аргумент функции", "concept_b": "Отношение однозначное", "has_relation": true}
+{"paragraph_id": "1.6", "concept_a": "Аргумент функции", "concept_b": "Отношение функциональное", "has_relation": true}
+{"paragraph_id": "1.6", "concept_a": "Аргумент функции", "concept_b": "Период", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Аргумент функции", "concept_b": "Последовательность периодическая", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Аргумент функции", "concept_b": "Преобразование", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Аргумент функции", "concept_b": "Продолжение функции", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Аргумент функции", "concept_b": "Прообраз", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Аргумент функции", "concept_b": "Связь", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Аргумент функции", "concept_b": "Степень функции", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Аргумент функции", "concept_b": "Степень элемента", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Аргумент функции", "concept_b": "Сужение функции", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Аргумент функции", "concept_b": "Суперпозиция", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Аргумент функции", "concept_b": "Сюръекция", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Аргумент функции", "concept_b": "Функция", "has_relation": true}
+{"paragraph_id": "1.6", "concept_a": "Аргумент функции", "concept_b": "Функция $n$-местная", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Аргумент функции", "concept_b": "Функция биективная", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Аргумент функции", "concept_b": "Функция взаимно-однозначная", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Аргумент функции", "concept_b": "Функция инъективная", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Аргумент функции", "concept_b": "Функция многозначная", "has_relation": true}
+{"paragraph_id": "1.6", "concept_a": "Аргумент функции", "concept_b": "Функция обратная", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Аргумент функции", "concept_b": "Функция перехода к образам", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Аргумент функции", "concept_b": "Функция перехода к прообразам", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Аргумент функции", "concept_b": "Функция сюръективная", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Аргумент функции", "concept_b": "Функция тотальная", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Аргумент функции", "concept_b": "Функция частичная", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Биекция", "concept_b": "Запись префиксная", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Биекция", "concept_b": "Значение функции", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Биекция", "concept_b": "Инъекция", "has_relation": true}
+{"paragraph_id": "1.6", "concept_a": "Биекция", "concept_b": "Область значений функции", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Биекция", "concept_b": "Область определения функции", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Биекция", "concept_b": "Область отправления функции", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Биекция", "concept_b": "Область прибытия функции", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Биекция", "concept_b": "Образ", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Биекция", "concept_b": "Оператор возврата", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Биекция", "concept_b": "Отношение однозначное", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Биекция", "concept_b": "Отношение функциональное", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Биекция", "concept_b": "Период", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Биекция", "concept_b": "Последовательность периодическая", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Биекция", "concept_b": "Преобразование", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Биекция", "concept_b": "Продолжение функции", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Биекция", "concept_b": "Прообраз", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Биекция", "concept_b": "Связь", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Биекция", "concept_b": "Степень функции", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Биекция", "concept_b": "Степень элемента", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Биекция", "concept_b": "Сужение функции", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Биекция", "concept_b": "Суперпозиция", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Биекция", "concept_b": "Сюръекция", "has_relation": true}
+{"paragraph_id": "1.6", "concept_a": "Биекция", "concept_b": "Функция", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Биекция", "concept_b": "Функция $n$-местная", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Биекция", "concept_b": "Функция биективная", "has_relation": true}
+{"paragraph_id": "1.6", "concept_a": "Биекция", "concept_b": "Функция взаимно-однозначная", "has_relation": true}
+{"paragraph_id": "1.6", "concept_a": "Биекция", "concept_b": "Функция инъективная", "has_relation": true}
+{"paragraph_id": "1.6", "concept_a": "Биекция", "concept_b": "Функция многозначная", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Биекция", "concept_b": "Функция обратная", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Биекция", "concept_b": "Функция перехода к образам", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Биекция", "concept_b": "Функция перехода к прообразам", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Биекция", "concept_b": "Функция сюръективная", "has_relation": true}
+{"paragraph_id": "1.6", "concept_a": "Биекция", "concept_b": "Функция тотальная", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Биекция", "concept_b": "Функция частичная", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Запись префиксная", "concept_b": "Значение функции", "has_relation": true}
+{"paragraph_id": "1.6", "concept_a": "Запись префиксная", "concept_b": "Инъекция", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Запись префиксная", "concept_b": "Область значений функции", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Запись префиксная", "concept_b": "Область определения функции", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Запись префиксная", "concept_b": "Область отправления функции", "has_relation": true}
+{"paragraph_id": "1.6", "concept_a": "Запись префиксная", "concept_b": "Область прибытия функции", "has_relation": true}
+{"paragraph_id": "1.6", "concept_a": "Запись префиксная", "concept_b": "Образ", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Запись префиксная", "concept_b": "Оператор возврата", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Запись префиксная", "concept_b": "Отношение однозначное", "has_relation": true}
+{"paragraph_id": "1.6", "concept_a": "Запись префиксная", "concept_b": "Отношение функциональное", "has_relation": true}
+{"paragraph_id": "1.6", "concept_a": "Запись префиксная", "concept_b": "Период", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Запись префиксная", "concept_b": "Последовательность периодическая", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Запись префиксная", "concept_b": "Преобразование", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Запись префиксная", "concept_b": "Продолжение функции", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Запись префиксная", "concept_b": "Прообраз", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Запись префиксная", "concept_b": "Связь", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Запись префиксная", "concept_b": "Степень функции", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Запись префиксная", "concept_b": "Степень элемента", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Запись префиксная", "concept_b": "Сужение функции", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Запись префиксная", "concept_b": "Суперпозиция", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Запись префиксная", "concept_b": "Сюръекция", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Запись префиксная", "concept_b": "Функция", "has_relation": true}
+{"paragraph_id": "1.6", "concept_a": "Запись префиксная", "concept_b": "Функция $n$-местная", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Запись префиксная", "concept_b": "Функция биективная", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Запись префиксная", "concept_b": "Функция взаимно-однозначная", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Запись префиксная", "concept_b": "Функция инъективная", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Запись префиксная", "concept_b": "Функция многозначная", "has_relation": true}
+{"paragraph_id": "1.6", "concept_a": "Запись префиксная", "concept_b": "Функция обратная", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Запись префиксная", "concept_b": "Функция перехода к образам", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Запись префиксная", "concept_b": "Функция перехода к прообразам", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Запись префиксная", "concept_b": "Функция сюръективная", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Запись префиксная", "concept_b": "Функция тотальная", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Запись префиксная", "concept_b": "Функция частичная", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Значение функции", "concept_b": "Инъекция", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Значение функции", "concept_b": "Область значений функции", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Значение функции", "concept_b": "Область определения функции", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Значение функции", "concept_b": "Область отправления функции", "has_relation": true}
+{"paragraph_id": "1.6", "concept_a": "Значение функции", "concept_b": "Область прибытия функции", "has_relation": true}
+{"paragraph_id": "1.6", "concept_a": "Значение функции", "concept_b": "Образ", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Значение функции", "concept_b": "Оператор возврата", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Значение функции", "concept_b": "Отношение однозначное", "has_relation": true}
+{"paragraph_id": "1.6", "concept_a": "Значение функции", "concept_b": "Отношение функциональное", "has_relation": true}
+{"paragraph_id": "1.6", "concept_a": "Значение функции", "concept_b": "Период", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Значение функции", "concept_b": "Последовательность периодическая", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Значение функции", "concept_b": "Преобразование", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Значение функции", "concept_b": "Продолжение функции", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Значение функции", "concept_b": "Прообраз", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Значение функции", "concept_b": "Связь", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Значение функции", "concept_b": "Степень функции", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Значение функции", "concept_b": "Степень элемента", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Значение функции", "concept_b": "Сужение функции", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Значение функции", "concept_b": "Суперпозиция", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Значение функции", "concept_b": "Сюръекция", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Значение функции", "concept_b": "Функция", "has_relation": true}
+{"paragraph_id": "1.6", "concept_a": "Значение функции", "concept_b": "Функция $n$-местная", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Значение функции", "concept_b": "Функция биективная", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Значение функции", "concept_b": "Функция взаимно-однозначная", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Значение функции", "concept_b": "Функция инъективная", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Значение функции", "concept_b": "Функция многозначная", "has_relation": true}
+{"paragraph_id": "1.6", "concept_a": "Значение функции", "concept_b": "Функция обратная", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Значение функции", "concept_b": "Функция перехода к образам", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Значение функции", "concept_b": "Функция перехода к прообразам", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Значение функции", "concept_b": "Функция сюръективная", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Значение функции", "concept_b": "Функция тотальная", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Значение функции", "concept_b": "Функция частичная", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Инъекция", "concept_b": "Область значений функции", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Инъекция", "concept_b": "Область определения функции", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Инъекция", "concept_b": "Область отправления функции", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Инъекция", "concept_b": "Область прибытия функции", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Инъекция", "concept_b": "Образ", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Инъекция", "concept_b": "Оператор возврата", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Инъекция", "concept_b": "Отношение однозначное", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Инъекция", "concept_b": "Отношение функциональное", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Инъекция", "concept_b": "Период", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Инъекция", "concept_b": "Последовательность периодическая", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Инъекция", "concept_b": "Преобразование", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Инъекция", "concept_b": "Продолжение функции", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Инъекция", "concept_b": "Прообраз", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Инъекция", "concept_b": "Связь", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Инъекция", "concept_b": "Степень функции", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Инъекция", "concept_b": "Степень элемента", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Инъекция", "concept_b": "Сужение функции", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Инъекция", "concept_b": "Суперпозиция", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Инъекция", "concept_b": "Сюръекция", "has_relation": true}
+{"paragraph_id": "1.6", "concept_a": "Инъекция", "concept_b": "Функция", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Инъекция", "concept_b": "Функция $n$-местная", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Инъекция", "concept_b": "Функция биективная", "has_relation": true}
+{"paragraph_id": "1.6", "concept_a": "Инъекция", "concept_b": "Функция взаимно-однозначная", "has_relation": true}
+{"paragraph_id": "1.6", "concept_a": "Инъекция", "concept_b": "Функция инъективная", "has_relation": true}
+{"paragraph_id": "1.6", "concept_a": "Инъекция", "concept_b": "Функция многозначная", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Инъекция", "concept_b": "Функция обратная", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Инъекция", "concept_b": "Функция перехода к образам", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Инъекция", "concept_b": "Функция перехода к прообразам", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Инъекция", "concept_b": "Функция сюръективная", "has_relation": true}
+{"paragraph_id": "1.6", "concept_a": "Инъекция", "concept_b": "Функция тотальная", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Инъекция", "concept_b": "Функция частичная", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Область значений функции", "concept_b": "Область определения функции", "has_relation": true}
+{"paragraph_id": "1.6", "concept_a": "Область значений функции", "concept_b": "Область отправления функции", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Область значений функции", "concept_b": "Область прибытия функции", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Область значений функции", "concept_b": "Образ", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Область значений функции", "concept_b": "Оператор возврата", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Область значений функции", "concept_b": "Отношение однозначное", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Область значений функции", "concept_b": "Отношение функциональное", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Область значений функции", "concept_b": "Период", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Область значений функции", "concept_b": "Последовательность периодическая", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Область значений функции", "concept_b": "Преобразование", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Область значений функции", "concept_b": "Продолжение функции", "has_relation": true}
+{"paragraph_id": "1.6", "concept_a": "Область значений функции", "concept_b": "Прообраз", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Область значений функции", "concept_b": "Связь", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Область значений функции", "concept_b": "Степень функции", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Область значений функции", "concept_b": "Степень элемента", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Область значений функции", "concept_b": "Сужение функции", "has_relation": true}
+{"paragraph_id": "1.6", "concept_a": "Область значений функции", "concept_b": "Суперпозиция", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Область значений функции", "concept_b": "Сюръекция", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Область значений функции", "concept_b": "Функция", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Область значений функции", "concept_b": "Функция $n$-местная", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Область значений функции", "concept_b": "Функция биективная", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Область значений функции", "concept_b": "Функция взаимно-однозначная", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Область значений функции", "concept_b": "Функция инъективная", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Область значений функции", "concept_b": "Функция многозначная", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Область значений функции", "concept_b": "Функция обратная", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Область значений функции", "concept_b": "Функция перехода к образам", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Область значений функции", "concept_b": "Функция перехода к прообразам", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Область значений функции", "concept_b": "Функция сюръективная", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Область значений функции", "concept_b": "Функция тотальная", "has_relation": true}
+{"paragraph_id": "1.6", "concept_a": "Область значений функции", "concept_b": "Функция частичная", "has_relation": true}
+{"paragraph_id": "1.6", "concept_a": "Область определения функции", "concept_b": "Область отправления функции", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Область определения функции", "concept_b": "Область прибытия функции", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Область определения функции", "concept_b": "Образ", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Область определения функции", "concept_b": "Оператор возврата", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Область определения функции", "concept_b": "Отношение однозначное", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Область определения функции", "concept_b": "Отношение функциональное", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Область определения функции", "concept_b": "Период", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Область определения функции", "concept_b": "Последовательность периодическая", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Область определения функции", "concept_b": "Преобразование", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Область определения функции", "concept_b": "Продолжение функции", "has_relation": true}
+{"paragraph_id": "1.6", "concept_a": "Область определения функции", "concept_b": "Прообраз", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Область определения функции", "concept_b": "Связь", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Область определения функции", "concept_b": "Степень функции", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Область определения функции", "concept_b": "Степень элемента", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Область определения функции", "concept_b": "Сужение функции", "has_relation": true}
+{"paragraph_id": "1.6", "concept_a": "Область определения функции", "concept_b": "Суперпозиция", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Область определения функции", "concept_b": "Сюръекция", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Область определения функции", "concept_b": "Функция", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Область определения функции", "concept_b": "Функция $n$-местная", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Область определения функции", "concept_b": "Функция биективная", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Область определения функции", "concept_b": "Функция взаимно-однозначная", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Область определения функции", "concept_b": "Функция инъективная", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Область определения функции", "concept_b": "Функция многозначная", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Область определения функции", "concept_b": "Функция обратная", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Область определения функции", "concept_b": "Функция перехода к образам", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Область определения функции", "concept_b": "Функция перехода к прообразам", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Область определения функции", "concept_b": "Функция сюръективная", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Область определения функции", "concept_b": "Функция тотальная", "has_relation": true}
+{"paragraph_id": "1.6", "concept_a": "Область определения функции", "concept_b": "Функция частичная", "has_relation": true}
+{"paragraph_id": "1.6", "concept_a": "Область отправления функции", "concept_b": "Область прибытия функции", "has_relation": true}
+{"paragraph_id": "1.6", "concept_a": "Область отправления функции", "concept_b": "Образ", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Область отправления функции", "concept_b": "Оператор возврата", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Область отправления функции", "concept_b": "Отношение однозначное", "has_relation": true}
+{"paragraph_id": "1.6", "concept_a": "Область отправления функции", "concept_b": "Отношение функциональное", "has_relation": true}
+{"paragraph_id": "1.6", "concept_a": "Область отправления функции", "concept_b": "Период", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Область отправления функции", "concept_b": "Последовательность периодическая", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Область отправления функции", "concept_b": "Преобразование", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Область отправления функции", "concept_b": "Продолжение функции", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Область отправления функции", "concept_b": "Прообраз", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Область отправления функции", "concept_b": "Связь", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Область отправления функции", "concept_b": "Степень функции", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Область отправления функции", "concept_b": "Степень элемента", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Область отправления функции", "concept_b": "Сужение функции", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Область отправления функции", "concept_b": "Суперпозиция", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Область отправления функции", "concept_b": "Сюръекция", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Область отправления функции", "concept_b": "Функция", "has_relation": true}
+{"paragraph_id": "1.6", "concept_a": "Область отправления функции", "concept_b": "Функция $n$-местная", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Область отправления функции", "concept_b": "Функция биективная", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Область отправления функции", "concept_b": "Функция взаимно-однозначная", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Область отправления функции", "concept_b": "Функция инъективная", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Область отправления функции", "concept_b": "Функция многозначная", "has_relation": true}
+{"paragraph_id": "1.6", "concept_a": "Область отправления функции", "concept_b": "Функция обратная", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Область отправления функции", "concept_b": "Функция перехода к образам", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Область отправления функции", "concept_b": "Функция перехода к прообразам", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Область отправления функции", "concept_b": "Функция сюръективная", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Область отправления функции", "concept_b": "Функция тотальная", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Область отправления функции", "concept_b": "Функция частичная", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Область прибытия функции", "concept_b": "Образ", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Область прибытия функции", "concept_b": "Оператор возврата", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Область прибытия функции", "concept_b": "Отношение однозначное", "has_relation": true}
+{"paragraph_id": "1.6", "concept_a": "Область прибытия функции", "concept_b": "Отношение функциональное", "has_relation": true}
+{"paragraph_id": "1.6", "concept_a": "Область прибытия функции", "concept_b": "Период", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Область прибытия функции", "concept_b": "Последовательность периодическая", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Область прибытия функции", "concept_b": "Преобразование", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Область прибытия функции", "concept_b": "Продолжение функции", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Область прибытия функции", "concept_b": "Прообраз", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Область прибытия функции", "concept_b": "Связь", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Область прибытия функции", "concept_b": "Степень функции", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Область прибытия функции", "concept_b": "Степень элемента", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Область прибытия функции", "concept_b": "Сужение функции", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Область прибытия функции", "concept_b": "Суперпозиция", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Область прибытия функции", "concept_b": "Сюръекция", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Область прибытия функции", "concept_b": "Функция", "has_relation": true}
+{"paragraph_id": "1.6", "concept_a": "Область прибытия функции", "concept_b": "Функция $n$-местная", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Область прибытия функции", "concept_b": "Функция биективная", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Область прибытия функции", "concept_b": "Функция взаимно-однозначная", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Область прибытия функции", "concept_b": "Функция инъективная", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Область прибытия функции", "concept_b": "Функция многозначная", "has_relation": true}
+{"paragraph_id": "1.6", "concept_a": "Область прибытия функции", "concept_b": "Функция обратная", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Область прибытия функции", "concept_b": "Функция перехода к образам", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Область прибытия функции", "concept_b": "Функция перехода к прообразам", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Область прибытия функции", "concept_b": "Функция сюръективная", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Область прибытия функции", "concept_b": "Функция тотальная", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Область прибытия функции", "concept_b": "Функция частичная", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Образ", "concept_b": "Оператор возврата", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Образ", "concept_b": "Отношение однозначное", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Образ", "concept_b": "Отношение функциональное", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Образ", "concept_b": "Период", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Образ", "concept_b": "Последовательность периодическая", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Образ", "concept_b": "Преобразование", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Образ", "concept_b": "Продолжение функции", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Образ", "concept_b": "Прообраз", "has_relation": true}
+{"paragraph_id": "1.6", "concept_a": "Образ", "concept_b": "Связь", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Образ", "concept_b": "Степень функции", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Образ", "concept_b": "Степень элемента", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Образ", "concept_b": "Сужение функции", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Образ", "concept_b": "Суперпозиция", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Образ", "concept_b": "Сюръекция", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Образ", "concept_b": "Функция", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Образ", "concept_b": "Функция $n$-местная", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Образ", "concept_b": "Функция биективная", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Образ", "concept_b": "Функция взаимно-однозначная", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Образ", "concept_b": "Функция инъективная", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Образ", "concept_b": "Функция многозначная", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Образ", "concept_b": "Функция обратная", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Образ", "concept_b": "Функция перехода к образам", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Образ", "concept_b": "Функция перехода к прообразам", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Образ", "concept_b": "Функция сюръективная", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Образ", "concept_b": "Функция тотальная", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Образ", "concept_b": "Функция частичная", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Оператор возврата", "concept_b": "Отношение однозначное", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Оператор возврата", "concept_b": "Отношение функциональное", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Оператор возврата", "concept_b": "Период", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Оператор возврата", "concept_b": "Последовательность периодическая", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Оператор возврата", "concept_b": "Преобразование", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Оператор возврата", "concept_b": "Продолжение функции", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Оператор возврата", "concept_b": "Прообраз", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Оператор возврата", "concept_b": "Связь", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Оператор возврата", "concept_b": "Степень функции", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Оператор возврата", "concept_b": "Степень элемента", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Оператор возврата", "concept_b": "Сужение функции", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Оператор возврата", "concept_b": "Суперпозиция", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Оператор возврата", "concept_b": "Сюръекция", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Оператор возврата", "concept_b": "Функция", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Оператор возврата", "concept_b": "Функция $n$-местная", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Оператор возврата", "concept_b": "Функция биективная", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Оператор возврата", "concept_b": "Функция взаимно-однозначная", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Оператор возврата", "concept_b": "Функция инъективная", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Оператор возврата", "concept_b": "Функция многозначная", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Оператор возврата", "concept_b": "Функция обратная", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Оператор возврата", "concept_b": "Функция перехода к образам", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Оператор возврата", "concept_b": "Функция перехода к прообразам", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Оператор возврата", "concept_b": "Функция сюръективная", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Оператор возврата", "concept_b": "Функция тотальная", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Оператор возврата", "concept_b": "Функция частичная", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Отношение однозначное", "concept_b": "Отношение функциональное", "has_relation": true}
+{"paragraph_id": "1.6", "concept_a": "Отношение однозначное", "concept_b": "Период", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Отношение однозначное", "concept_b": "Последовательность периодическая", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Отношение однозначное", "concept_b": "Преобразование", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Отношение однозначное", "concept_b": "Продолжение функции", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Отношение однозначное", "concept_b": "Прообраз", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Отношение однозначное", "concept_b": "Связь", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Отношение однозначное", "concept_b": "Степень функции", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Отношение однозначное", "concept_b": "Степень элемента", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Отношение однозначное", "concept_b": "Сужение функции", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Отношение однозначное", "concept_b": "Суперпозиция", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Отношение однозначное", "concept_b": "Сюръекция", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Отношение однозначное", "concept_b": "Функция", "has_relation": true}
+{"paragraph_id": "1.6", "concept_a": "Отношение однозначное", "concept_b": "Функция $n$-местная", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Отношение однозначное", "concept_b": "Функция биективная", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Отношение однозначное", "concept_b": "Функция взаимно-однозначная", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Отношение однозначное", "concept_b": "Функция инъективная", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Отношение однозначное", "concept_b": "Функция многозначная", "has_relation": true}
+{"paragraph_id": "1.6", "concept_a": "Отношение однозначное", "concept_b": "Функция обратная", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Отношение однозначное", "concept_b": "Функция перехода к образам", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Отношение однозначное", "concept_b": "Функция перехода к прообразам", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Отношение однозначное", "concept_b": "Функция сюръективная", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Отношение однозначное", "concept_b": "Функция тотальная", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Отношение однозначное", "concept_b": "Функция частичная", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Отношение функциональное", "concept_b": "Период", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Отношение функциональное", "concept_b": "Последовательность периодическая", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Отношение функциональное", "concept_b": "Преобразование", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Отношение функциональное", "concept_b": "Продолжение функции", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Отношение функциональное", "concept_b": "Прообраз", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Отношение функциональное", "concept_b": "Связь", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Отношение функциональное", "concept_b": "Степень функции", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Отношение функциональное", "concept_b": "Степень элемента", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Отношение функциональное", "concept_b": "Сужение функции", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Отношение функциональное", "concept_b": "Суперпозиция", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Отношение функциональное", "concept_b": "Сюръекция", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Отношение функциональное", "concept_b": "Функция", "has_relation": true}
+{"paragraph_id": "1.6", "concept_a": "Отношение функциональное", "concept_b": "Функция $n$-местная", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Отношение функциональное", "concept_b": "Функция биективная", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Отношение функциональное", "concept_b": "Функция взаимно-однозначная", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Отношение функциональное", "concept_b": "Функция инъективная", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Отношение функциональное", "concept_b": "Функция многозначная", "has_relation": true}
+{"paragraph_id": "1.6", "concept_a": "Отношение функциональное", "concept_b": "Функция обратная", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Отношение функциональное", "concept_b": "Функция перехода к образам", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Отношение функциональное", "concept_b": "Функция перехода к прообразам", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Отношение функциональное", "concept_b": "Функция сюръективная", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Отношение функциональное", "concept_b": "Функция тотальная", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Отношение функциональное", "concept_b": "Функция частичная", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Период", "concept_b": "Последовательность периодическая", "has_relation": true}
+{"paragraph_id": "1.6", "concept_a": "Период", "concept_b": "Преобразование", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Период", "concept_b": "Продолжение функции", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Период", "concept_b": "Прообраз", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Период", "concept_b": "Связь", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Период", "concept_b": "Степень функции", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Период", "concept_b": "Степень элемента", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Период", "concept_b": "Сужение функции", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Период", "concept_b": "Суперпозиция", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Период", "concept_b": "Сюръекция", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Период", "concept_b": "Функция", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Период", "concept_b": "Функция $n$-местная", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Период", "concept_b": "Функция биективная", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Период", "concept_b": "Функция взаимно-однозначная", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Период", "concept_b": "Функция инъективная", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Период", "concept_b": "Функция многозначная", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Период", "concept_b": "Функция обратная", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Период", "concept_b": "Функция перехода к образам", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Период", "concept_b": "Функция перехода к прообразам", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Период", "concept_b": "Функция сюръективная", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Период", "concept_b": "Функция тотальная", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Период", "concept_b": "Функция частичная", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Последовательность периодическая", "concept_b": "Преобразование", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Последовательность периодическая", "concept_b": "Продолжение функции", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Последовательность периодическая", "concept_b": "Прообраз", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Последовательность периодическая", "concept_b": "Связь", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Последовательность периодическая", "concept_b": "Степень функции", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Последовательность периодическая", "concept_b": "Степень элемента", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Последовательность периодическая", "concept_b": "Сужение функции", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Последовательность периодическая", "concept_b": "Суперпозиция", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Последовательность периодическая", "concept_b": "Сюръекция", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Последовательность периодическая", "concept_b": "Функция", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Последовательность периодическая", "concept_b": "Функция $n$-местная", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Последовательность периодическая", "concept_b": "Функция биективная", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Последовательность периодическая", "concept_b": "Функция взаимно-однозначная", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Последовательность периодическая", "concept_b": "Функция инъективная", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Последовательность периодическая", "concept_b": "Функция многозначная", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Последовательность периодическая", "concept_b": "Функция обратная", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Последовательность периодическая", "concept_b": "Функция перехода к образам", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Последовательность периодическая", "concept_b": "Функция перехода к прообразам", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Последовательность периодическая", "concept_b": "Функция сюръективная", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Последовательность периодическая", "concept_b": "Функция тотальная", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Последовательность периодическая", "concept_b": "Функция частичная", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Преобразование", "concept_b": "Продолжение функции", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Преобразование", "concept_b": "Прообраз", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Преобразование", "concept_b": "Связь", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Преобразование", "concept_b": "Степень функции", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Преобразование", "concept_b": "Степень элемента", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Преобразование", "concept_b": "Сужение функции", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Преобразование", "concept_b": "Суперпозиция", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Преобразование", "concept_b": "Сюръекция", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Преобразование", "concept_b": "Функция", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Преобразование", "concept_b": "Функция $n$-местная", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Преобразование", "concept_b": "Функция биективная", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Преобразование", "concept_b": "Функция взаимно-однозначная", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Преобразование", "concept_b": "Функция инъективная", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Преобразование", "concept_b": "Функция многозначная", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Преобразование", "concept_b": "Функция обратная", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Преобразование", "concept_b": "Функция перехода к образам", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Преобразование", "concept_b": "Функция перехода к прообразам", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Преобразование", "concept_b": "Функция сюръективная", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Преобразование", "concept_b": "Функция тотальная", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Преобразование", "concept_b": "Функция частичная", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Продолжение функции", "concept_b": "Прообраз", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Продолжение функции", "concept_b": "Связь", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Продолжение функции", "concept_b": "Степень функции", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Продолжение функции", "concept_b": "Степень элемента", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Продолжение функции", "concept_b": "Сужение функции", "has_relation": true}
+{"paragraph_id": "1.6", "concept_a": "Продолжение функции", "concept_b": "Суперпозиция", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Продолжение функции", "concept_b": "Сюръекция", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Продолжение функции", "concept_b": "Функция", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Продолжение функции", "concept_b": "Функция $n$-местная", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Продолжение функции", "concept_b": "Функция биективная", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Продолжение функции", "concept_b": "Функция взаимно-однозначная", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Продолжение функции", "concept_b": "Функция инъективная", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Продолжение функции", "concept_b": "Функция многозначная", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Продолжение функции", "concept_b": "Функция обратная", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Продолжение функции", "concept_b": "Функция перехода к образам", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Продолжение функции", "concept_b": "Функция перехода к прообразам", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Продолжение функции", "concept_b": "Функция сюръективная", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Продолжение функции", "concept_b": "Функция тотальная", "has_relation": true}
+{"paragraph_id": "1.6", "concept_a": "Продолжение функции", "concept_b": "Функция частичная", "has_relation": true}
+{"paragraph_id": "1.6", "concept_a": "Прообраз", "concept_b": "Связь", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Прообраз", "concept_b": "Степень функции", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Прообраз", "concept_b": "Степень элемента", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Прообраз", "concept_b": "Сужение функции", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Прообраз", "concept_b": "Суперпозиция", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Прообраз", "concept_b": "Сюръекция", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Прообраз", "concept_b": "Функция", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Прообраз", "concept_b": "Функция $n$-местная", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Прообраз", "concept_b": "Функция биективная", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Прообраз", "concept_b": "Функция взаимно-однозначная", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Прообраз", "concept_b": "Функция инъективная", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Прообраз", "concept_b": "Функция многозначная", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Прообраз", "concept_b": "Функция обратная", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Прообраз", "concept_b": "Функция перехода к образам", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Прообраз", "concept_b": "Функция перехода к прообразам", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Прообраз", "concept_b": "Функция сюръективная", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Прообраз", "concept_b": "Функция тотальная", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Прообраз", "concept_b": "Функция частичная", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Связь", "concept_b": "Степень функции", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Связь", "concept_b": "Степень элемента", "has_relation": true}
+{"paragraph_id": "1.6", "concept_a": "Связь", "concept_b": "Сужение функции", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Связь", "concept_b": "Суперпозиция", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Связь", "concept_b": "Сюръекция", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Связь", "concept_b": "Функция", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Связь", "concept_b": "Функция $n$-местная", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Связь", "concept_b": "Функция биективная", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Связь", "concept_b": "Функция взаимно-однозначная", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Связь", "concept_b": "Функция инъективная", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Связь", "concept_b": "Функция многозначная", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Связь", "concept_b": "Функция обратная", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Связь", "concept_b": "Функция перехода к образам", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Связь", "concept_b": "Функция перехода к прообразам", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Связь", "concept_b": "Функция сюръективная", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Связь", "concept_b": "Функция тотальная", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Связь", "concept_b": "Функция частичная", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Степень функции", "concept_b": "Степень элемента", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Степень функции", "concept_b": "Сужение функции", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Степень функции", "concept_b": "Суперпозиция", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Степень функции", "concept_b": "Сюръекция", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Степень функции", "concept_b": "Функция", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Степень функции", "concept_b": "Функция $n$-местная", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Степень функции", "concept_b": "Функция биективная", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Степень функции", "concept_b": "Функция взаимно-однозначная", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Степень функции", "concept_b": "Функция инъективная", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Степень функции", "concept_b": "Функция многозначная", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Степень функции", "concept_b": "Функция обратная", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Степень функции", "concept_b": "Функция перехода к образам", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Степень функции", "concept_b": "Функция перехода к прообразам", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Степень функции", "concept_b": "Функция сюръективная", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Степень функции", "concept_b": "Функция тотальная", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Степень функции", "concept_b": "Функция частичная", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Степень элемента", "concept_b": "Сужение функции", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Степень элемента", "concept_b": "Суперпозиция", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Степень элемента", "concept_b": "Сюръекция", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Степень элемента", "concept_b": "Функция", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Степень элемента", "concept_b": "Функция $n$-местная", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Степень элемента", "concept_b": "Функция биективная", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Степень элемента", "concept_b": "Функция взаимно-однозначная", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Степень элемента", "concept_b": "Функция инъективная", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Степень элемента", "concept_b": "Функция многозначная", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Степень элемента", "concept_b": "Функция обратная", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Степень элемента", "concept_b": "Функция перехода к образам", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Степень элемента", "concept_b": "Функция перехода к прообразам", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Степень элемента", "concept_b": "Функция сюръективная", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Степень элемента", "concept_b": "Функция тотальная", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Степень элемента", "concept_b": "Функция частичная", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Сужение функции", "concept_b": "Суперпозиция", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Сужение функции", "concept_b": "Сюръекция", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Сужение функции", "concept_b": "Функция", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Сужение функции", "concept_b": "Функция $n$-местная", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Сужение функции", "concept_b": "Функция биективная", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Сужение функции", "concept_b": "Функция взаимно-однозначная", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Сужение функции", "concept_b": "Функция инъективная", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Сужение функции", "concept_b": "Функция многозначная", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Сужение функции", "concept_b": "Функция обратная", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Сужение функции", "concept_b": "Функция перехода к образам", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Сужение функции", "concept_b": "Функция перехода к прообразам", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Сужение функции", "concept_b": "Функция сюръективная", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Сужение функции", "concept_b": "Функция тотальная", "has_relation": true}
+{"paragraph_id": "1.6", "concept_a": "Сужение функции", "concept_b": "Функция частичная", "has_relation": true}
+{"paragraph_id": "1.6", "concept_a": "Суперпозиция", "concept_b": "Сюръекция", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Суперпозиция", "concept_b": "Функция", "has_relation": true}
+{"paragraph_id": "1.6", "concept_a": "Суперпозиция", "concept_b": "Функция $n$-местная", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Суперпозиция", "concept_b": "Функция биективная", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Суперпозиция", "concept_b": "Функция взаимно-однозначная", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Суперпозиция", "concept_b": "Функция инъективная", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Суперпозиция", "concept_b": "Функция многозначная", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Суперпозиция", "concept_b": "Функция обратная", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Суперпозиция", "concept_b": "Функция перехода к образам", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Суперпозиция", "concept_b": "Функция перехода к прообразам", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Суперпозиция", "concept_b": "Функция сюръективная", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Суперпозиция", "concept_b": "Функция тотальная", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Суперпозиция", "concept_b": "Функция частичная", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Сюръекция", "concept_b": "Функция", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Сюръекция", "concept_b": "Функция $n$-местная", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Сюръекция", "concept_b": "Функция биективная", "has_relation": true}
+{"paragraph_id": "1.6", "concept_a": "Сюръекция", "concept_b": "Функция взаимно-однозначная", "has_relation": true}
+{"paragraph_id": "1.6", "concept_a": "Сюръекция", "concept_b": "Функция инъективная", "has_relation": true}
+{"paragraph_id": "1.6", "concept_a": "Сюръекция", "concept_b": "Функция многозначная", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Сюръекция", "concept_b": "Функция обратная", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Сюръекция", "concept_b": "Функция перехода к образам", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Сюръекция", "concept_b": "Функция перехода к прообразам", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Сюръекция", "concept_b": "Функция сюръективная", "has_relation": true}
+{"paragraph_id": "1.6", "concept_a": "Сюръекция", "concept_b": "Функция тотальная", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Сюръекция", "concept_b": "Функция частичная", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Функция", "concept_b": "Функция $n$-местная", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Функция", "concept_b": "Функция биективная", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Функция", "concept_b": "Функция взаимно-однозначная", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Функция", "concept_b": "Функция инъективная", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Функция", "concept_b": "Функция многозначная", "has_relation": true}
+{"paragraph_id": "1.6", "concept_a": "Функция", "concept_b": "Функция обратная", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Функция", "concept_b": "Функция перехода к образам", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Функция", "concept_b": "Функция перехода к прообразам", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Функция", "concept_b": "Функция сюръективная", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Функция", "concept_b": "Функция тотальная", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Функция", "concept_b": "Функция частичная", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Функция $n$-местная", "concept_b": "Функция биективная", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Функция $n$-местная", "concept_b": "Функция взаимно-однозначная", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Функция $n$-местная", "concept_b": "Функция инъективная", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Функция $n$-местная", "concept_b": "Функция многозначная", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Функция $n$-местная", "concept_b": "Функция обратная", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Функция $n$-местная", "concept_b": "Функция перехода к образам", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Функция $n$-местная", "concept_b": "Функция перехода к прообразам", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Функция $n$-местная", "concept_b": "Функция сюръективная", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Функция $n$-местная", "concept_b": "Функция тотальная", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Функция $n$-местная", "concept_b": "Функция частичная", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Функция биективная", "concept_b": "Функция взаимно-однозначная", "has_relation": true}
+{"paragraph_id": "1.6", "concept_a": "Функция биективная", "concept_b": "Функция инъективная", "has_relation": true}
+{"paragraph_id": "1.6", "concept_a": "Функция биективная", "concept_b": "Функция многозначная", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Функция биективная", "concept_b": "Функция обратная", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Функция биективная", "concept_b": "Функция перехода к образам", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Функция биективная", "concept_b": "Функция перехода к прообразам", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Функция биективная", "concept_b": "Функция сюръективная", "has_relation": true}
+{"paragraph_id": "1.6", "concept_a": "Функция биективная", "concept_b": "Функция тотальная", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Функция биективная", "concept_b": "Функция частичная", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Функция взаимно-однозначная", "concept_b": "Функция инъективная", "has_relation": true}
+{"paragraph_id": "1.6", "concept_a": "Функция взаимно-однозначная", "concept_b": "Функция многозначная", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Функция взаимно-однозначная", "concept_b": "Функция обратная", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Функция взаимно-однозначная", "concept_b": "Функция перехода к образам", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Функция взаимно-однозначная", "concept_b": "Функция перехода к прообразам", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Функция взаимно-однозначная", "concept_b": "Функция сюръективная", "has_relation": true}
+{"paragraph_id": "1.6", "concept_a": "Функция взаимно-однозначная", "concept_b": "Функция тотальная", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Функция взаимно-однозначная", "concept_b": "Функция частичная", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Функция инъективная", "concept_b": "Функция многозначная", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Функция инъективная", "concept_b": "Функция обратная", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Функция инъективная", "concept_b": "Функция перехода к образам", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Функция инъективная", "concept_b": "Функция перехода к прообразам", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Функция инъективная", "concept_b": "Функция сюръективная", "has_relation": true}
+{"paragraph_id": "1.6", "concept_a": "Функция инъективная", "concept_b": "Функция тотальная", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Функция инъективная", "concept_b": "Функция частичная", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Функция многозначная", "concept_b": "Функция обратная", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Функция многозначная", "concept_b": "Функция перехода к образам", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Функция многозначная", "concept_b": "Функция перехода к прообразам", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Функция многозначная", "concept_b": "Функция сюръективная", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Функция многозначная", "concept_b": "Функция тотальная", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Функция многозначная", "concept_b": "Функция частичная", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Функция обратная", "concept_b": "Функция перехода к образам", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Функция обратная", "concept_b": "Функция перехода к прообразам", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Функция обратная", "concept_b": "Функция сюръективная", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Функция обратная", "concept_b": "Функция тотальная", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Функция обратная", "concept_b": "Функция частичная", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Функция перехода к образам", "concept_b": "Функция перехода к прообразам", "has_relation": true}
+{"paragraph_id": "1.6", "concept_a": "Функция перехода к образам", "concept_b": "Функция сюръективная", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Функция перехода к образам", "concept_b": "Функция тотальная", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Функция перехода к образам", "concept_b": "Функция частичная", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Функция перехода к прообразам", "concept_b": "Функция сюръективная", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Функция перехода к прообразам", "concept_b": "Функция тотальная", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Функция перехода к прообразам", "concept_b": "Функция частичная", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Функция сюръективная", "concept_b": "Функция тотальная", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Функция сюръективная", "concept_b": "Функция частичная", "has_relation": false}
+{"paragraph_id": "1.6", "concept_a": "Функция тотальная", "concept_b": "Функция частичная", "has_relation": true}

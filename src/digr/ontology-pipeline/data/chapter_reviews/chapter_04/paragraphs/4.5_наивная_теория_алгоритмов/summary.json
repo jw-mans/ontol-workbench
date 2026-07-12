@@ -1,0 +1,18 @@
+{
+  "paragraph_id": "4.5",
+  "paragraph_title": "4.5. Наивная теория алгоритмов",
+  "folder": "4.5_наивная_теория_алгоритмов",
+  "relations_reviewed": 85,
+  "corrected_relations": 71,
+  "category_counts": {
+    "found_on_diagram_correct": 3,
+    "found_on_diagram_wrong_direction": 0,
+    "found_on_diagram_wrong_type": 3,
+    "found_on_diagram_wrong_direction_and_type": 0,
+    "found_not_on_diagram_accepted": 65,
+    "found_not_on_diagram_rejected": 0,
+    "not_found_from_diagram": 14
+  },
+  "rendered": false,
+  "render_error": "Обнаружен циклический архитектурный антипаттерн взаимосвязи иерархий (a^+ b^+ a^+ b^+) для класса 'Дедуктика'"
+}

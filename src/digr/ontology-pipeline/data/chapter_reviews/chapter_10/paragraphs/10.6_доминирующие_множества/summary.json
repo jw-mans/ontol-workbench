@@ -1,0 +1,18 @@
+{
+  "paragraph_id": "10.6",
+  "paragraph_title": "10.6. Доминирующие множества",
+  "folder": "10.6_доминирующие_множества",
+  "relations_reviewed": 19,
+  "corrected_relations": 19,
+  "category_counts": {
+    "found_on_diagram_correct": 0,
+    "found_on_diagram_wrong_direction": 0,
+    "found_on_diagram_wrong_type": 0,
+    "found_on_diagram_wrong_direction_and_type": 0,
+    "found_not_on_diagram_accepted": 19,
+    "found_not_on_diagram_rejected": 0,
+    "not_found_from_diagram": 0
+  },
+  "rendered": true,
+  "render_error": null
+}

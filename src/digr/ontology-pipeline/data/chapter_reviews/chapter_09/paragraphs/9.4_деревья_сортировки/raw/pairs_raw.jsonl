@@ -1,0 +1,231 @@
+{"paragraph_id": "9.4", "concept_a": "Алгоритм вставки узла в дерево сортировки", "concept_b": "Алгоритм поиска бинарного", "has_relation": false}
+{"paragraph_id": "9.4", "concept_a": "Алгоритм вставки узла в дерево сортировки", "concept_b": "Алгоритм удаления узла из дерева сортировки", "has_relation": false}
+{"paragraph_id": "9.4", "concept_a": "Алгоритм вставки узла в дерево сортировки", "concept_b": "Дерево поиска", "has_relation": false}
+{"paragraph_id": "9.4", "concept_a": "Алгоритм вставки узла в дерево сортировки", "concept_b": "Дерево сортировки", "has_relation": false}
+{"paragraph_id": "9.4", "concept_a": "Алгоритм вставки узла в дерево сортировки", "concept_b": "Дерево упорядочивания", "has_relation": false}
+{"paragraph_id": "9.4", "concept_a": "Алгоритм вставки узла в дерево сортировки", "concept_b": "Запись", "has_relation": false}
+{"paragraph_id": "9.4", "concept_a": "Алгоритм вставки узла в дерево сортировки", "concept_b": "Ключ ассоциативной памяти", "has_relation": false}
+{"paragraph_id": "9.4", "concept_a": "Алгоритм вставки узла в дерево сортировки", "concept_b": "Коллизия", "has_relation": false}
+{"paragraph_id": "9.4", "concept_a": "Алгоритм вставки узла в дерево сортировки", "concept_b": "Массив ассоциативный массив", "has_relation": false}
+{"paragraph_id": "9.4", "concept_a": "Алгоритм вставки узла в дерево сортировки", "concept_b": "Многозначная ассоциация", "has_relation": false}
+{"paragraph_id": "9.4", "concept_a": "Алгоритм вставки узла в дерево сортировки", "concept_b": "Обфускация", "has_relation": false}
+{"paragraph_id": "9.4", "concept_a": "Алгоритм вставки узла в дерево сортировки", "concept_b": "Память ассоциативная \\\\", "has_relation": false}
+{"paragraph_id": "9.4", "concept_a": "Алгоритм вставки узла в дерево сортировки", "concept_b": "Парадокс дней рождения", "has_relation": false}
+{"paragraph_id": "9.4", "concept_a": "Алгоритм вставки узла в дерево сортировки", "concept_b": "Поиск бинарный", "has_relation": false}
+{"paragraph_id": "9.4", "concept_a": "Алгоритм вставки узла в дерево сортировки", "concept_b": "Поиск двоичный", "has_relation": false}
+{"paragraph_id": "9.4", "concept_a": "Алгоритм вставки узла в дерево сортировки", "concept_b": "Прямой доступ", "has_relation": false}
+{"paragraph_id": "9.4", "concept_a": "Алгоритм вставки узла в дерево сортировки", "concept_b": "Словарь", "has_relation": false}
+{"paragraph_id": "9.4", "concept_a": "Алгоритм вставки узла в дерево сортировки", "concept_b": "Таблица расстановки", "has_relation": false}
+{"paragraph_id": "9.4", "concept_a": "Алгоритм вставки узла в дерево сортировки", "concept_b": "Таблица хэш", "has_relation": false}
+{"paragraph_id": "9.4", "concept_a": "Алгоритм вставки узла в дерево сортировки", "concept_b": "Функция хэш", "has_relation": false}
+{"paragraph_id": "9.4", "concept_a": "Алгоритм вставки узла в дерево сортировки", "concept_b": "Хэш", "has_relation": false}
+{"paragraph_id": "9.4", "concept_a": "Алгоритм поиска бинарного", "concept_b": "Алгоритм удаления узла из дерева сортировки", "has_relation": false}
+{"paragraph_id": "9.4", "concept_a": "Алгоритм поиска бинарного", "concept_b": "Дерево поиска", "has_relation": false}
+{"paragraph_id": "9.4", "concept_a": "Алгоритм поиска бинарного", "concept_b": "Дерево сортировки", "has_relation": false}
+{"paragraph_id": "9.4", "concept_a": "Алгоритм поиска бинарного", "concept_b": "Дерево упорядочивания", "has_relation": false}
+{"paragraph_id": "9.4", "concept_a": "Алгоритм поиска бинарного", "concept_b": "Запись", "has_relation": false}
+{"paragraph_id": "9.4", "concept_a": "Алгоритм поиска бинарного", "concept_b": "Ключ ассоциативной памяти", "has_relation": false}
+{"paragraph_id": "9.4", "concept_a": "Алгоритм поиска бинарного", "concept_b": "Коллизия", "has_relation": false}
+{"paragraph_id": "9.4", "concept_a": "Алгоритм поиска бинарного", "concept_b": "Массив ассоциативный массив", "has_relation": false}
+{"paragraph_id": "9.4", "concept_a": "Алгоритм поиска бинарного", "concept_b": "Многозначная ассоциация", "has_relation": false}
+{"paragraph_id": "9.4", "concept_a": "Алгоритм поиска бинарного", "concept_b": "Обфускация", "has_relation": false}
+{"paragraph_id": "9.4", "concept_a": "Алгоритм поиска бинарного", "concept_b": "Память ассоциативная \\\\", "has_relation": false}
+{"paragraph_id": "9.4", "concept_a": "Алгоритм поиска бинарного", "concept_b": "Парадокс дней рождения", "has_relation": false}
+{"paragraph_id": "9.4", "concept_a": "Алгоритм поиска бинарного", "concept_b": "Поиск бинарный", "has_relation": true}
+{"paragraph_id": "9.4", "concept_a": "Алгоритм поиска бинарного", "concept_b": "Поиск двоичный", "has_relation": true}
+{"paragraph_id": "9.4", "concept_a": "Алгоритм поиска бинарного", "concept_b": "Прямой доступ", "has_relation": false}
+{"paragraph_id": "9.4", "concept_a": "Алгоритм поиска бинарного", "concept_b": "Словарь", "has_relation": false}
+{"paragraph_id": "9.4", "concept_a": "Алгоритм поиска бинарного", "concept_b": "Таблица расстановки", "has_relation": false}
+{"paragraph_id": "9.4", "concept_a": "Алгоритм поиска бинарного", "concept_b": "Таблица хэш", "has_relation": false}
+{"paragraph_id": "9.4", "concept_a": "Алгоритм поиска бинарного", "concept_b": "Функция хэш", "has_relation": false}
+{"paragraph_id": "9.4", "concept_a": "Алгоритм поиска бинарного", "concept_b": "Хэш", "has_relation": false}
+{"paragraph_id": "9.4", "concept_a": "Алгоритм удаления узла из дерева сортировки", "concept_b": "Дерево поиска", "has_relation": false}
+{"paragraph_id": "9.4", "concept_a": "Алгоритм удаления узла из дерева сортировки", "concept_b": "Дерево сортировки", "has_relation": false}
+{"paragraph_id": "9.4", "concept_a": "Алгоритм удаления узла из дерева сортировки", "concept_b": "Дерево упорядочивания", "has_relation": false}
+{"paragraph_id": "9.4", "concept_a": "Алгоритм удаления узла из дерева сортировки", "concept_b": "Запись", "has_relation": false}
+{"paragraph_id": "9.4", "concept_a": "Алгоритм удаления узла из дерева сортировки", "concept_b": "Ключ ассоциативной памяти", "has_relation": false}
+{"paragraph_id": "9.4", "concept_a": "Алгоритм удаления узла из дерева сортировки", "concept_b": "Коллизия", "has_relation": false}
+{"paragraph_id": "9.4", "concept_a": "Алгоритм удаления узла из дерева сортировки", "concept_b": "Массив ассоциативный массив", "has_relation": false}
+{"paragraph_id": "9.4", "concept_a": "Алгоритм удаления узла из дерева сортировки", "concept_b": "Многозначная ассоциация", "has_relation": false}
+{"paragraph_id": "9.4", "concept_a": "Алгоритм удаления узла из дерева сортировки", "concept_b": "Обфускация", "has_relation": false}
+{"paragraph_id": "9.4", "concept_a": "Алгоритм удаления узла из дерева сортировки", "concept_b": "Память ассоциативная \\\\", "has_relation": false}
+{"paragraph_id": "9.4", "concept_a": "Алгоритм удаления узла из дерева сортировки", "concept_b": "Парадокс дней рождения", "has_relation": false}
+{"paragraph_id": "9.4", "concept_a": "Алгоритм удаления узла из дерева сортировки", "concept_b": "Поиск бинарный", "has_relation": false}
+{"paragraph_id": "9.4", "concept_a": "Алгоритм удаления узла из дерева сортировки", "concept_b": "Поиск двоичный", "has_relation": false}
+{"paragraph_id": "9.4", "concept_a": "Алгоритм удаления узла из дерева сортировки", "concept_b": "Прямой доступ", "has_relation": false}
+{"paragraph_id": "9.4", "concept_a": "Алгоритм удаления узла из дерева сортировки", "concept_b": "Словарь", "has_relation": false}
+{"paragraph_id": "9.4", "concept_a": "Алгоритм удаления узла из дерева сортировки", "concept_b": "Таблица расстановки", "has_relation": false}
+{"paragraph_id": "9.4", "concept_a": "Алгоритм удаления узла из дерева сортировки", "concept_b": "Таблица хэш", "has_relation": false}
+{"paragraph_id": "9.4", "concept_a": "Алгоритм удаления узла из дерева сортировки", "concept_b": "Функция хэш", "has_relation": false}
+{"paragraph_id": "9.4", "concept_a": "Алгоритм удаления узла из дерева сортировки", "concept_b": "Хэш", "has_relation": false}
+{"paragraph_id": "9.4", "concept_a": "Дерево поиска", "concept_b": "Дерево сортировки", "has_relation": true}
+{"paragraph_id": "9.4", "concept_a": "Дерево поиска", "concept_b": "Дерево упорядочивания", "has_relation": true}
+{"paragraph_id": "9.4", "concept_a": "Дерево поиска", "concept_b": "Запись", "has_relation": false}
+{"paragraph_id": "9.4", "concept_a": "Дерево поиска", "concept_b": "Ключ ассоциативной памяти", "has_relation": false}
+{"paragraph_id": "9.4", "concept_a": "Дерево поиска", "concept_b": "Коллизия", "has_relation": false}
+{"paragraph_id": "9.4", "concept_a": "Дерево поиска", "concept_b": "Массив ассоциативный массив", "has_relation": false}
+{"paragraph_id": "9.4", "concept_a": "Дерево поиска", "concept_b": "Многозначная ассоциация", "has_relation": false}
+{"paragraph_id": "9.4", "concept_a": "Дерево поиска", "concept_b": "Обфускация", "has_relation": false}
+{"paragraph_id": "9.4", "concept_a": "Дерево поиска", "concept_b": "Память ассоциативная \\\\", "has_relation": false}
+{"paragraph_id": "9.4", "concept_a": "Дерево поиска", "concept_b": "Парадокс дней рождения", "has_relation": false}
+{"paragraph_id": "9.4", "concept_a": "Дерево поиска", "concept_b": "Поиск бинарный", "has_relation": false}
+{"paragraph_id": "9.4", "concept_a": "Дерево поиска", "concept_b": "Поиск двоичный", "has_relation": false}
+{"paragraph_id": "9.4", "concept_a": "Дерево поиска", "concept_b": "Прямой доступ", "has_relation": false}
+{"paragraph_id": "9.4", "concept_a": "Дерево поиска", "concept_b": "Словарь", "has_relation": false}
+{"paragraph_id": "9.4", "concept_a": "Дерево поиска", "concept_b": "Таблица расстановки", "has_relation": true}
+{"paragraph_id": "9.4", "concept_a": "Дерево поиска", "concept_b": "Таблица хэш", "has_relation": false}
+{"paragraph_id": "9.4", "concept_a": "Дерево поиска", "concept_b": "Функция хэш", "has_relation": false}
+{"paragraph_id": "9.4", "concept_a": "Дерево поиска", "concept_b": "Хэш", "has_relation": false}
+{"paragraph_id": "9.4", "concept_a": "Дерево сортировки", "concept_b": "Дерево упорядочивания", "has_relation": true}
+{"paragraph_id": "9.4", "concept_a": "Дерево сортировки", "concept_b": "Запись", "has_relation": false}
+{"paragraph_id": "9.4", "concept_a": "Дерево сортировки", "concept_b": "Ключ ассоциативной памяти", "has_relation": false}
+{"paragraph_id": "9.4", "concept_a": "Дерево сортировки", "concept_b": "Коллизия", "has_relation": false}
+{"paragraph_id": "9.4", "concept_a": "Дерево сортировки", "concept_b": "Массив ассоциативный массив", "has_relation": false}
+{"paragraph_id": "9.4", "concept_a": "Дерево сортировки", "concept_b": "Многозначная ассоциация", "has_relation": false}
+{"paragraph_id": "9.4", "concept_a": "Дерево сортировки", "concept_b": "Обфускация", "has_relation": false}
+{"paragraph_id": "9.4", "concept_a": "Дерево сортировки", "concept_b": "Память ассоциативная \\\\", "has_relation": false}
+{"paragraph_id": "9.4", "concept_a": "Дерево сортировки", "concept_b": "Парадокс дней рождения", "has_relation": false}
+{"paragraph_id": "9.4", "concept_a": "Дерево сортировки", "concept_b": "Поиск бинарный", "has_relation": false}
+{"paragraph_id": "9.4", "concept_a": "Дерево сортировки", "concept_b": "Поиск двоичный", "has_relation": false}
+{"paragraph_id": "9.4", "concept_a": "Дерево сортировки", "concept_b": "Прямой доступ", "has_relation": false}
+{"paragraph_id": "9.4", "concept_a": "Дерево сортировки", "concept_b": "Словарь", "has_relation": false}
+{"paragraph_id": "9.4", "concept_a": "Дерево сортировки", "concept_b": "Таблица расстановки", "has_relation": true}
+{"paragraph_id": "9.4", "concept_a": "Дерево сортировки", "concept_b": "Таблица хэш", "has_relation": true}
+{"paragraph_id": "9.4", "concept_a": "Дерево сортировки", "concept_b": "Функция хэш", "has_relation": false}
+{"paragraph_id": "9.4", "concept_a": "Дерево сортировки", "concept_b": "Хэш", "has_relation": false}
+{"paragraph_id": "9.4", "concept_a": "Дерево упорядочивания", "concept_b": "Запись", "has_relation": false}
+{"paragraph_id": "9.4", "concept_a": "Дерево упорядочивания", "concept_b": "Ключ ассоциативной памяти", "has_relation": false}
+{"paragraph_id": "9.4", "concept_a": "Дерево упорядочивания", "concept_b": "Коллизия", "has_relation": false}
+{"paragraph_id": "9.4", "concept_a": "Дерево упорядочивания", "concept_b": "Массив ассоциативный массив", "has_relation": false}
+{"paragraph_id": "9.4", "concept_a": "Дерево упорядочивания", "concept_b": "Многозначная ассоциация", "has_relation": false}
+{"paragraph_id": "9.4", "concept_a": "Дерево упорядочивания", "concept_b": "Обфускация", "has_relation": false}
+{"paragraph_id": "9.4", "concept_a": "Дерево упорядочивания", "concept_b": "Память ассоциативная \\\\", "has_relation": false}
+{"paragraph_id": "9.4", "concept_a": "Дерево упорядочивания", "concept_b": "Парадокс дней рождения", "has_relation": false}
+{"paragraph_id": "9.4", "concept_a": "Дерево упорядочивания", "concept_b": "Поиск бинарный", "has_relation": false}
+{"paragraph_id": "9.4", "concept_a": "Дерево упорядочивания", "concept_b": "Поиск двоичный", "has_relation": false}
+{"paragraph_id": "9.4", "concept_a": "Дерево упорядочивания", "concept_b": "Прямой доступ", "has_relation": false}
+{"paragraph_id": "9.4", "concept_a": "Дерево упорядочивания", "concept_b": "Словарь", "has_relation": false}
+{"paragraph_id": "9.4", "concept_a": "Дерево упорядочивания", "concept_b": "Таблица расстановки", "has_relation": true}
+{"paragraph_id": "9.4", "concept_a": "Дерево упорядочивания", "concept_b": "Таблица хэш", "has_relation": false}
+{"paragraph_id": "9.4", "concept_a": "Дерево упорядочивания", "concept_b": "Функция хэш", "has_relation": false}
+{"paragraph_id": "9.4", "concept_a": "Дерево упорядочивания", "concept_b": "Хэш", "has_relation": false}
+{"paragraph_id": "9.4", "concept_a": "Запись", "concept_b": "Ключ ассоциативной памяти", "has_relation": true}
+{"paragraph_id": "9.4", "concept_a": "Запись", "concept_b": "Коллизия", "has_relation": false}
+{"paragraph_id": "9.4", "concept_a": "Запись", "concept_b": "Массив ассоциативный массив", "has_relation": true}
+{"paragraph_id": "9.4", "concept_a": "Запись", "concept_b": "Многозначная ассоциация", "has_relation": false}
+{"paragraph_id": "9.4", "concept_a": "Запись", "concept_b": "Обфускация", "has_relation": false}
+{"paragraph_id": "9.4", "concept_a": "Запись", "concept_b": "Память ассоциативная \\\\", "has_relation": true}
+{"paragraph_id": "9.4", "concept_a": "Запись", "concept_b": "Парадокс дней рождения", "has_relation": false}
+{"paragraph_id": "9.4", "concept_a": "Запись", "concept_b": "Поиск бинарный", "has_relation": false}
+{"paragraph_id": "9.4", "concept_a": "Запись", "concept_b": "Поиск двоичный", "has_relation": false}
+{"paragraph_id": "9.4", "concept_a": "Запись", "concept_b": "Прямой доступ", "has_relation": false}
+{"paragraph_id": "9.4", "concept_a": "Запись", "concept_b": "Словарь", "has_relation": true}
+{"paragraph_id": "9.4", "concept_a": "Запись", "concept_b": "Таблица расстановки", "has_relation": false}
+{"paragraph_id": "9.4", "concept_a": "Запись", "concept_b": "Таблица хэш", "has_relation": false}
+{"paragraph_id": "9.4", "concept_a": "Запись", "concept_b": "Функция хэш", "has_relation": false}
+{"paragraph_id": "9.4", "concept_a": "Запись", "concept_b": "Хэш", "has_relation": false}
+{"paragraph_id": "9.4", "concept_a": "Ключ ассоциативной памяти", "concept_b": "Коллизия", "has_relation": false}
+{"paragraph_id": "9.4", "concept_a": "Ключ ассоциативной памяти", "concept_b": "Массив ассоциативный массив", "has_relation": true}
+{"paragraph_id": "9.4", "concept_a": "Ключ ассоциативной памяти", "concept_b": "Многозначная ассоциация", "has_relation": false}
+{"paragraph_id": "9.4", "concept_a": "Ключ ассоциативной памяти", "concept_b": "Обфускация", "has_relation": false}
+{"paragraph_id": "9.4", "concept_a": "Ключ ассоциативной памяти", "concept_b": "Память ассоциативная \\\\", "has_relation": true}
+{"paragraph_id": "9.4", "concept_a": "Ключ ассоциативной памяти", "concept_b": "Парадокс дней рождения", "has_relation": false}
+{"paragraph_id": "9.4", "concept_a": "Ключ ассоциативной памяти", "concept_b": "Поиск бинарный", "has_relation": false}
+{"paragraph_id": "9.4", "concept_a": "Ключ ассоциативной памяти", "concept_b": "Поиск двоичный", "has_relation": false}
+{"paragraph_id": "9.4", "concept_a": "Ключ ассоциативной памяти", "concept_b": "Прямой доступ", "has_relation": false}
+{"paragraph_id": "9.4", "concept_a": "Ключ ассоциативной памяти", "concept_b": "Словарь", "has_relation": true}
+{"paragraph_id": "9.4", "concept_a": "Ключ ассоциативной памяти", "concept_b": "Таблица расстановки", "has_relation": false}
+{"paragraph_id": "9.4", "concept_a": "Ключ ассоциативной памяти", "concept_b": "Таблица хэш", "has_relation": false}
+{"paragraph_id": "9.4", "concept_a": "Ключ ассоциативной памяти", "concept_b": "Функция хэш", "has_relation": false}
+{"paragraph_id": "9.4", "concept_a": "Ключ ассоциативной памяти", "concept_b": "Хэш", "has_relation": false}
+{"paragraph_id": "9.4", "concept_a": "Коллизия", "concept_b": "Массив ассоциативный массив", "has_relation": false}
+{"paragraph_id": "9.4", "concept_a": "Коллизия", "concept_b": "Многозначная ассоциация", "has_relation": false}
+{"paragraph_id": "9.4", "concept_a": "Коллизия", "concept_b": "Обфускация", "has_relation": false}
+{"paragraph_id": "9.4", "concept_a": "Коллизия", "concept_b": "Память ассоциативная \\\\", "has_relation": false}
+{"paragraph_id": "9.4", "concept_a": "Коллизия", "concept_b": "Парадокс дней рождения", "has_relation": false}
+{"paragraph_id": "9.4", "concept_a": "Коллизия", "concept_b": "Поиск бинарный", "has_relation": false}
+{"paragraph_id": "9.4", "concept_a": "Коллизия", "concept_b": "Поиск двоичный", "has_relation": false}
+{"paragraph_id": "9.4", "concept_a": "Коллизия", "concept_b": "Прямой доступ", "has_relation": false}
+{"paragraph_id": "9.4", "concept_a": "Коллизия", "concept_b": "Словарь", "has_relation": false}
+{"paragraph_id": "9.4", "concept_a": "Коллизия", "concept_b": "Таблица расстановки", "has_relation": false}
+{"paragraph_id": "9.4", "concept_a": "Коллизия", "concept_b": "Таблица хэш", "has_relation": false}
+{"paragraph_id": "9.4", "concept_a": "Коллизия", "concept_b": "Функция хэш", "has_relation": true}
+{"paragraph_id": "9.4", "concept_a": "Коллизия", "concept_b": "Хэш", "has_relation": false}
+{"paragraph_id": "9.4", "concept_a": "Массив ассоциативный массив", "concept_b": "Многозначная ассоциация", "has_relation": false}
+{"paragraph_id": "9.4", "concept_a": "Массив ассоциативный массив", "concept_b": "Обфускация", "has_relation": false}
+{"paragraph_id": "9.4", "concept_a": "Массив ассоциативный массив", "concept_b": "Память ассоциативная \\\\", "has_relation": true}
+{"paragraph_id": "9.4", "concept_a": "Массив ассоциативный массив", "concept_b": "Парадокс дней рождения", "has_relation": false}
+{"paragraph_id": "9.4", "concept_a": "Массив ассоциативный массив", "concept_b": "Поиск бинарный", "has_relation": false}
+{"paragraph_id": "9.4", "concept_a": "Массив ассоциативный массив", "concept_b": "Поиск двоичный", "has_relation": false}
+{"paragraph_id": "9.4", "concept_a": "Массив ассоциативный массив", "concept_b": "Прямой доступ", "has_relation": false}
+{"paragraph_id": "9.4", "concept_a": "Массив ассоциативный массив", "concept_b": "Словарь", "has_relation": true}
+{"paragraph_id": "9.4", "concept_a": "Массив ассоциативный массив", "concept_b": "Таблица расстановки", "has_relation": false}
+{"paragraph_id": "9.4", "concept_a": "Массив ассоциативный массив", "concept_b": "Таблица хэш", "has_relation": false}
+{"paragraph_id": "9.4", "concept_a": "Массив ассоциативный массив", "concept_b": "Функция хэш", "has_relation": false}
+{"paragraph_id": "9.4", "concept_a": "Массив ассоциативный массив", "concept_b": "Хэш", "has_relation": false}
+{"paragraph_id": "9.4", "concept_a": "Многозначная ассоциация", "concept_b": "Обфускация", "has_relation": false}
+{"paragraph_id": "9.4", "concept_a": "Многозначная ассоциация", "concept_b": "Память ассоциативная \\\\", "has_relation": false}
+{"paragraph_id": "9.4", "concept_a": "Многозначная ассоциация", "concept_b": "Парадокс дней рождения", "has_relation": false}
+{"paragraph_id": "9.4", "concept_a": "Многозначная ассоциация", "concept_b": "Поиск бинарный", "has_relation": false}
+{"paragraph_id": "9.4", "concept_a": "Многозначная ассоциация", "concept_b": "Поиск двоичный", "has_relation": false}
+{"paragraph_id": "9.4", "concept_a": "Многозначная ассоциация", "concept_b": "Прямой доступ", "has_relation": false}
+{"paragraph_id": "9.4", "concept_a": "Многозначная ассоциация", "concept_b": "Словарь", "has_relation": false}
+{"paragraph_id": "9.4", "concept_a": "Многозначная ассоциация", "concept_b": "Таблица расстановки", "has_relation": false}
+{"paragraph_id": "9.4", "concept_a": "Многозначная ассоциация", "concept_b": "Таблица хэш", "has_relation": false}
+{"paragraph_id": "9.4", "concept_a": "Многозначная ассоциация", "concept_b": "Функция хэш", "has_relation": false}
+{"paragraph_id": "9.4", "concept_a": "Многозначная ассоциация", "concept_b": "Хэш", "has_relation": false}
+{"paragraph_id": "9.4", "concept_a": "Обфускация", "concept_b": "Память ассоциативная \\\\", "has_relation": false}
+{"paragraph_id": "9.4", "concept_a": "Обфускация", "concept_b": "Парадокс дней рождения", "has_relation": false}
+{"paragraph_id": "9.4", "concept_a": "Обфускация", "concept_b": "Поиск бинарный", "has_relation": false}
+{"paragraph_id": "9.4", "concept_a": "Обфускация", "concept_b": "Поиск двоичный", "has_relation": false}
+{"paragraph_id": "9.4", "concept_a": "Обфускация", "concept_b": "Прямой доступ", "has_relation": false}
+{"paragraph_id": "9.4", "concept_a": "Обфускация", "concept_b": "Словарь", "has_relation": false}
+{"paragraph_id": "9.4", "concept_a": "Обфускация", "concept_b": "Таблица расстановки", "has_relation": false}
+{"paragraph_id": "9.4", "concept_a": "Обфускация", "concept_b": "Таблица хэш", "has_relation": false}
+{"paragraph_id": "9.4", "concept_a": "Обфускация", "concept_b": "Функция хэш", "has_relation": false}
+{"paragraph_id": "9.4", "concept_a": "Обфускация", "concept_b": "Хэш", "has_relation": false}
+{"paragraph_id": "9.4", "concept_a": "Память ассоциативная \\\\", "concept_b": "Парадокс дней рождения", "has_relation": false}
+{"paragraph_id": "9.4", "concept_a": "Память ассоциативная \\\\", "concept_b": "Поиск бинарный", "has_relation": false}
+{"paragraph_id": "9.4", "concept_a": "Память ассоциативная \\\\", "concept_b": "Поиск двоичный", "has_relation": false}
+{"paragraph_id": "9.4", "concept_a": "Память ассоциативная \\\\", "concept_b": "Прямой доступ", "has_relation": false}
+{"paragraph_id": "9.4", "concept_a": "Память ассоциативная \\\\", "concept_b": "Словарь", "has_relation": true}
+{"paragraph_id": "9.4", "concept_a": "Память ассоциативная \\\\", "concept_b": "Таблица расстановки", "has_relation": false}
+{"paragraph_id": "9.4", "concept_a": "Память ассоциативная \\\\", "concept_b": "Таблица хэш", "has_relation": false}
+{"paragraph_id": "9.4", "concept_a": "Память ассоциативная \\\\", "concept_b": "Функция хэш", "has_relation": false}
+{"paragraph_id": "9.4", "concept_a": "Память ассоциативная \\\\", "concept_b": "Хэш", "has_relation": false}
+{"paragraph_id": "9.4", "concept_a": "Парадокс дней рождения", "concept_b": "Поиск бинарный", "has_relation": false}
+{"paragraph_id": "9.4", "concept_a": "Парадокс дней рождения", "concept_b": "Поиск двоичный", "has_relation": false}
+{"paragraph_id": "9.4", "concept_a": "Парадокс дней рождения", "concept_b": "Прямой доступ", "has_relation": false}
+{"paragraph_id": "9.4", "concept_a": "Парадокс дней рождения", "concept_b": "Словарь", "has_relation": false}
+{"paragraph_id": "9.4", "concept_a": "Парадокс дней рождения", "concept_b": "Таблица расстановки", "has_relation": false}
+{"paragraph_id": "9.4", "concept_a": "Парадокс дней рождения", "concept_b": "Таблица хэш", "has_relation": false}
+{"paragraph_id": "9.4", "concept_a": "Парадокс дней рождения", "concept_b": "Функция хэш", "has_relation": false}
+{"paragraph_id": "9.4", "concept_a": "Парадокс дней рождения", "concept_b": "Хэш", "has_relation": false}
+{"paragraph_id": "9.4", "concept_a": "Поиск бинарный", "concept_b": "Поиск двоичный", "has_relation": true}
+{"paragraph_id": "9.4", "concept_a": "Поиск бинарный", "concept_b": "Прямой доступ", "has_relation": false}
+{"paragraph_id": "9.4", "concept_a": "Поиск бинарный", "concept_b": "Словарь", "has_relation": false}
+{"paragraph_id": "9.4", "concept_a": "Поиск бинарный", "concept_b": "Таблица расстановки", "has_relation": false}
+{"paragraph_id": "9.4", "concept_a": "Поиск бинарный", "concept_b": "Таблица хэш", "has_relation": false}
+{"paragraph_id": "9.4", "concept_a": "Поиск бинарный", "concept_b": "Функция хэш", "has_relation": false}
+{"paragraph_id": "9.4", "concept_a": "Поиск бинарный", "concept_b": "Хэш", "has_relation": false}
+{"paragraph_id": "9.4", "concept_a": "Поиск двоичный", "concept_b": "Прямой доступ", "has_relation": false}
+{"paragraph_id": "9.4", "concept_a": "Поиск двоичный", "concept_b": "Словарь", "has_relation": false}
+{"paragraph_id": "9.4", "concept_a": "Поиск двоичный", "concept_b": "Таблица расстановки", "has_relation": false}
+{"paragraph_id": "9.4", "concept_a": "Поиск двоичный", "concept_b": "Таблица хэш", "has_relation": false}
+{"paragraph_id": "9.4", "concept_a": "Поиск двоичный", "concept_b": "Функция хэш", "has_relation": false}
+{"paragraph_id": "9.4", "concept_a": "Поиск двоичный", "concept_b": "Хэш", "has_relation": false}
+{"paragraph_id": "9.4", "concept_a": "Прямой доступ", "concept_b": "Словарь", "has_relation": false}
+{"paragraph_id": "9.4", "concept_a": "Прямой доступ", "concept_b": "Таблица расстановки", "has_relation": false}
+{"paragraph_id": "9.4", "concept_a": "Прямой доступ", "concept_b": "Таблица хэш", "has_relation": false}
+{"paragraph_id": "9.4", "concept_a": "Прямой доступ", "concept_b": "Функция хэш", "has_relation": false}
+{"paragraph_id": "9.4", "concept_a": "Прямой доступ", "concept_b": "Хэш", "has_relation": false}
+{"paragraph_id": "9.4", "concept_a": "Словарь", "concept_b": "Таблица расстановки", "has_relation": false}
+{"paragraph_id": "9.4", "concept_a": "Словарь", "concept_b": "Таблица хэш", "has_relation": false}
+{"paragraph_id": "9.4", "concept_a": "Словарь", "concept_b": "Функция хэш", "has_relation": false}
+{"paragraph_id": "9.4", "concept_a": "Словарь", "concept_b": "Хэш", "has_relation": false}
+{"paragraph_id": "9.4", "concept_a": "Таблица расстановки", "concept_b": "Таблица хэш", "has_relation": true}
+{"paragraph_id": "9.4", "concept_a": "Таблица расстановки", "concept_b": "Функция хэш", "has_relation": true}
+{"paragraph_id": "9.4", "concept_a": "Таблица расстановки", "concept_b": "Хэш", "has_relation": false}
+{"paragraph_id": "9.4", "concept_a": "Таблица хэш", "concept_b": "Функция хэш", "has_relation": false}
+{"paragraph_id": "9.4", "concept_a": "Таблица хэш", "concept_b": "Хэш", "has_relation": false}
+{"paragraph_id": "9.4", "concept_a": "Функция хэш", "concept_b": "Хэш", "has_relation": true}

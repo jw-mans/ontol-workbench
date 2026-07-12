@@ -1,0 +1,71 @@
+{
+  "chapter": "3",
+  "paragraphs": [
+    "3.2",
+    "3.6"
+  ],
+  "ground_truth_source": "src/digr/ontology-pipeline/data/dm_reference_ontologies/chapter_03",
+  "ignored_concepts": [
+    "bool",
+    "Объект",
+    "Парадокс",
+    "Парадокс Рассела",
+    "Структура",
+    "Указатель",
+    "Элементами семейства являются множества"
+  ],
+  "chapter_concepts": 15,
+  "raw_unique_relations": 18,
+  "textbook_relations_in_chapter_scope": 20,
+  "textbook_unique_relation_pairs_in_chapter_scope": 19,
+  "category_counts": {
+    "found_on_diagram_correct": 0,
+    "found_on_diagram_wrong_direction": 0,
+    "found_on_diagram_wrong_type": 0,
+    "found_on_diagram_wrong_direction_and_type": 0,
+    "found_not_on_diagram_accepted": 18,
+    "found_not_on_diagram_rejected": 0,
+    "not_found_from_diagram": 20
+  },
+  "corrected_relations": 18,
+  "rendered": true,
+  "render_error": null,
+  "paragraph_reviews": [
+    {
+      "paragraph_id": "3.2",
+      "paragraph_title": "3.2. Формулы",
+      "folder": "3.2_формулы",
+      "relations_reviewed": 12,
+      "corrected_relations": 12,
+      "category_counts": {
+        "found_on_diagram_correct": 0,
+        "found_on_diagram_wrong_direction": 0,
+        "found_on_diagram_wrong_type": 0,
+        "found_on_diagram_wrong_direction_and_type": 0,
+        "found_not_on_diagram_accepted": 12,
+        "found_not_on_diagram_rejected": 0,
+        "not_found_from_diagram": 0
+      },
+      "rendered": true,
+      "render_error": null
+    },
+    {
+      "paragraph_id": "3.6",
+      "paragraph_title": "3.6. Полные системы булевых функций",
+      "folder": "3.6_полные_системы_булевых_функций",
+      "relations_reviewed": 6,
+      "corrected_relations": 6,
+      "category_counts": {
+        "found_on_diagram_correct": 0,
+        "found_on_diagram_wrong_direction": 0,
+        "found_on_diagram_wrong_type": 0,
+        "found_on_diagram_wrong_direction_and_type": 0,
+        "found_not_on_diagram_accepted": 6,
+        "found_not_on_diagram_rejected": 0,
+        "not_found_from_diagram": 0
+      },
+      "rendered": true,
+      "render_error": null
+    }
+  ]
+}

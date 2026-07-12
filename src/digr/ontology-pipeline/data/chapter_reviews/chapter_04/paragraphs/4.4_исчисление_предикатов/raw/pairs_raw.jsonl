@@ -1,0 +1,253 @@
+{"paragraph_id": "4.4", "concept_a": "Атом", "concept_b": "Вхождение переменной свободное", "has_relation": false}
+{"paragraph_id": "4.4", "concept_a": "Атом", "concept_b": "Вхождение переменной связанное", "has_relation": false}
+{"paragraph_id": "4.4", "concept_a": "Атом", "concept_b": "Исчисление предикатов высшего порядка", "has_relation": false}
+{"paragraph_id": "4.4", "concept_a": "Атом", "concept_b": "Исчисление предикатов первого порядка", "has_relation": false}
+{"paragraph_id": "4.4", "concept_a": "Атом", "concept_b": "Исчисление предикатов прикладное", "has_relation": false}
+{"paragraph_id": "4.4", "concept_a": "Атом", "concept_b": "Исчисление предикатов чистое", "has_relation": false}
+{"paragraph_id": "4.4", "concept_a": "Атом", "concept_b": "Квантор всеобщности", "has_relation": false}
+{"paragraph_id": "4.4", "concept_a": "Атом", "concept_b": "Квантор существования", "has_relation": false}
+{"paragraph_id": "4.4", "concept_a": "Атом", "concept_b": "Константа предметная", "has_relation": false}
+{"paragraph_id": "4.4", "concept_a": "Атом", "concept_b": "Литерал", "has_relation": false}
+{"paragraph_id": "4.4", "concept_a": "Атом", "concept_b": "Область действия квантора", "has_relation": false}
+{"paragraph_id": "4.4", "concept_a": "Атом", "concept_b": "Переменная предметная", "has_relation": false}
+{"paragraph_id": "4.4", "concept_a": "Атом", "concept_b": "Переменная связанная", "has_relation": false}
+{"paragraph_id": "4.4", "concept_a": "Атом", "concept_b": "Предикат", "has_relation": false}
+{"paragraph_id": "4.4", "concept_a": "Атом", "concept_b": "Предикат $n$-местный", "has_relation": false}
+{"paragraph_id": "4.4", "concept_a": "Атом", "concept_b": "Предикат n-местный", "has_relation": false}
+{"paragraph_id": "4.4", "concept_a": "Атом", "concept_b": "Терм", "has_relation": true}
+{"paragraph_id": "4.4", "concept_a": "Атом", "concept_b": "Терм свободный для переменной в формуле", "has_relation": false}
+{"paragraph_id": "4.4", "concept_a": "Атом", "concept_b": "Формула атомарная", "has_relation": true}
+{"paragraph_id": "4.4", "concept_a": "Атом", "concept_b": "Формула замкнутая", "has_relation": false}
+{"paragraph_id": "4.4", "concept_a": "Атом", "concept_b": "Функциональный символ", "has_relation": false}
+{"paragraph_id": "4.4", "concept_a": "Атом", "concept_b": "Функциональный символ $n$-местный", "has_relation": false}
+{"paragraph_id": "4.4", "concept_a": "Вхождение переменной свободное", "concept_b": "Вхождение переменной связанное", "has_relation": true}
+{"paragraph_id": "4.4", "concept_a": "Вхождение переменной свободное", "concept_b": "Исчисление предикатов высшего порядка", "has_relation": false}
+{"paragraph_id": "4.4", "concept_a": "Вхождение переменной свободное", "concept_b": "Исчисление предикатов первого порядка", "has_relation": false}
+{"paragraph_id": "4.4", "concept_a": "Вхождение переменной свободное", "concept_b": "Исчисление предикатов прикладное", "has_relation": false}
+{"paragraph_id": "4.4", "concept_a": "Вхождение переменной свободное", "concept_b": "Исчисление предикатов чистое", "has_relation": false}
+{"paragraph_id": "4.4", "concept_a": "Вхождение переменной свободное", "concept_b": "Квантор всеобщности", "has_relation": false}
+{"paragraph_id": "4.4", "concept_a": "Вхождение переменной свободное", "concept_b": "Квантор существования", "has_relation": false}
+{"paragraph_id": "4.4", "concept_a": "Вхождение переменной свободное", "concept_b": "Константа предметная", "has_relation": false}
+{"paragraph_id": "4.4", "concept_a": "Вхождение переменной свободное", "concept_b": "Литерал", "has_relation": false}
+{"paragraph_id": "4.4", "concept_a": "Вхождение переменной свободное", "concept_b": "Область действия квантора", "has_relation": false}
+{"paragraph_id": "4.4", "concept_a": "Вхождение переменной свободное", "concept_b": "Переменная предметная", "has_relation": false}
+{"paragraph_id": "4.4", "concept_a": "Вхождение переменной свободное", "concept_b": "Переменная связанная", "has_relation": true}
+{"paragraph_id": "4.4", "concept_a": "Вхождение переменной свободное", "concept_b": "Предикат", "has_relation": false}
+{"paragraph_id": "4.4", "concept_a": "Вхождение переменной свободное", "concept_b": "Предикат $n$-местный", "has_relation": false}
+{"paragraph_id": "4.4", "concept_a": "Вхождение переменной свободное", "concept_b": "Предикат n-местный", "has_relation": false}
+{"paragraph_id": "4.4", "concept_a": "Вхождение переменной свободное", "concept_b": "Терм", "has_relation": false}
+{"paragraph_id": "4.4", "concept_a": "Вхождение переменной свободное", "concept_b": "Терм свободный для переменной в формуле", "has_relation": false}
+{"paragraph_id": "4.4", "concept_a": "Вхождение переменной свободное", "concept_b": "Формула атомарная", "has_relation": false}
+{"paragraph_id": "4.4", "concept_a": "Вхождение переменной свободное", "concept_b": "Формула замкнутая", "has_relation": false}
+{"paragraph_id": "4.4", "concept_a": "Вхождение переменной свободное", "concept_b": "Функциональный символ", "has_relation": false}
+{"paragraph_id": "4.4", "concept_a": "Вхождение переменной свободное", "concept_b": "Функциональный символ $n$-местный", "has_relation": false}
+{"paragraph_id": "4.4", "concept_a": "Вхождение переменной связанное", "concept_b": "Исчисление предикатов высшего порядка", "has_relation": false}
+{"paragraph_id": "4.4", "concept_a": "Вхождение переменной связанное", "concept_b": "Исчисление предикатов первого порядка", "has_relation": false}
+{"paragraph_id": "4.4", "concept_a": "Вхождение переменной связанное", "concept_b": "Исчисление предикатов прикладное", "has_relation": false}
+{"paragraph_id": "4.4", "concept_a": "Вхождение переменной связанное", "concept_b": "Исчисление предикатов чистое", "has_relation": false}
+{"paragraph_id": "4.4", "concept_a": "Вхождение переменной связанное", "concept_b": "Квантор всеобщности", "has_relation": false}
+{"paragraph_id": "4.4", "concept_a": "Вхождение переменной связанное", "concept_b": "Квантор существования", "has_relation": false}
+{"paragraph_id": "4.4", "concept_a": "Вхождение переменной связанное", "concept_b": "Константа предметная", "has_relation": false}
+{"paragraph_id": "4.4", "concept_a": "Вхождение переменной связанное", "concept_b": "Литерал", "has_relation": false}
+{"paragraph_id": "4.4", "concept_a": "Вхождение переменной связанное", "concept_b": "Область действия квантора", "has_relation": false}
+{"paragraph_id": "4.4", "concept_a": "Вхождение переменной связанное", "concept_b": "Переменная предметная", "has_relation": false}
+{"paragraph_id": "4.4", "concept_a": "Вхождение переменной связанное", "concept_b": "Переменная связанная", "has_relation": true}
+{"paragraph_id": "4.4", "concept_a": "Вхождение переменной связанное", "concept_b": "Предикат", "has_relation": false}
+{"paragraph_id": "4.4", "concept_a": "Вхождение переменной связанное", "concept_b": "Предикат $n$-местный", "has_relation": false}
+{"paragraph_id": "4.4", "concept_a": "Вхождение переменной связанное", "concept_b": "Предикат n-местный", "has_relation": false}
+{"paragraph_id": "4.4", "concept_a": "Вхождение переменной связанное", "concept_b": "Терм", "has_relation": false}
+{"paragraph_id": "4.4", "concept_a": "Вхождение переменной связанное", "concept_b": "Терм свободный для переменной в формуле", "has_relation": false}
+{"paragraph_id": "4.4", "concept_a": "Вхождение переменной связанное", "concept_b": "Формула атомарная", "has_relation": false}
+{"paragraph_id": "4.4", "concept_a": "Вхождение переменной связанное", "concept_b": "Формула замкнутая", "has_relation": false}
+{"paragraph_id": "4.4", "concept_a": "Вхождение переменной связанное", "concept_b": "Функциональный символ", "has_relation": false}
+{"paragraph_id": "4.4", "concept_a": "Вхождение переменной связанное", "concept_b": "Функциональный символ $n$-местный", "has_relation": false}
+{"paragraph_id": "4.4", "concept_a": "Исчисление предикатов высшего порядка", "concept_b": "Исчисление предикатов первого порядка", "has_relation": true}
+{"paragraph_id": "4.4", "concept_a": "Исчисление предикатов высшего порядка", "concept_b": "Исчисление предикатов прикладное", "has_relation": true}
+{"paragraph_id": "4.4", "concept_a": "Исчисление предикатов высшего порядка", "concept_b": "Исчисление предикатов чистое", "has_relation": true}
+{"paragraph_id": "4.4", "concept_a": "Исчисление предикатов высшего порядка", "concept_b": "Квантор всеобщности", "has_relation": false}
+{"paragraph_id": "4.4", "concept_a": "Исчисление предикатов высшего порядка", "concept_b": "Квантор существования", "has_relation": false}
+{"paragraph_id": "4.4", "concept_a": "Исчисление предикатов высшего порядка", "concept_b": "Константа предметная", "has_relation": false}
+{"paragraph_id": "4.4", "concept_a": "Исчисление предикатов высшего порядка", "concept_b": "Литерал", "has_relation": false}
+{"paragraph_id": "4.4", "concept_a": "Исчисление предикатов высшего порядка", "concept_b": "Область действия квантора", "has_relation": false}
+{"paragraph_id": "4.4", "concept_a": "Исчисление предикатов высшего порядка", "concept_b": "Переменная предметная", "has_relation": false}
+{"paragraph_id": "4.4", "concept_a": "Исчисление предикатов высшего порядка", "concept_b": "Переменная связанная", "has_relation": false}
+{"paragraph_id": "4.4", "concept_a": "Исчисление предикатов высшего порядка", "concept_b": "Предикат", "has_relation": false}
+{"paragraph_id": "4.4", "concept_a": "Исчисление предикатов высшего порядка", "concept_b": "Предикат $n$-местный", "has_relation": false}
+{"paragraph_id": "4.4", "concept_a": "Исчисление предикатов высшего порядка", "concept_b": "Предикат n-местный", "has_relation": false}
+{"paragraph_id": "4.4", "concept_a": "Исчисление предикатов высшего порядка", "concept_b": "Терм", "has_relation": false}
+{"paragraph_id": "4.4", "concept_a": "Исчисление предикатов высшего порядка", "concept_b": "Терм свободный для переменной в формуле", "has_relation": false}
+{"paragraph_id": "4.4", "concept_a": "Исчисление предикатов высшего порядка", "concept_b": "Формула атомарная", "has_relation": false}
+{"paragraph_id": "4.4", "concept_a": "Исчисление предикатов высшего порядка", "concept_b": "Формула замкнутая", "has_relation": false}
+{"paragraph_id": "4.4", "concept_a": "Исчисление предикатов высшего порядка", "concept_b": "Функциональный символ", "has_relation": false}
+{"paragraph_id": "4.4", "concept_a": "Исчисление предикатов высшего порядка", "concept_b": "Функциональный символ $n$-местный", "has_relation": false}
+{"paragraph_id": "4.4", "concept_a": "Исчисление предикатов первого порядка", "concept_b": "Исчисление предикатов прикладное", "has_relation": true}
+{"paragraph_id": "4.4", "concept_a": "Исчисление предикатов первого порядка", "concept_b": "Исчисление предикатов чистое", "has_relation": true}
+{"paragraph_id": "4.4", "concept_a": "Исчисление предикатов первого порядка", "concept_b": "Квантор всеобщности", "has_relation": true}
+{"paragraph_id": "4.4", "concept_a": "Исчисление предикатов первого порядка", "concept_b": "Квантор существования", "has_relation": true}
+{"paragraph_id": "4.4", "concept_a": "Исчисление предикатов первого порядка", "concept_b": "Константа предметная", "has_relation": true}
+{"paragraph_id": "4.4", "concept_a": "Исчисление предикатов первого порядка", "concept_b": "Литерал", "has_relation": false}
+{"paragraph_id": "4.4", "concept_a": "Исчисление предикатов первого порядка", "concept_b": "Область действия квантора", "has_relation": false}
+{"paragraph_id": "4.4", "concept_a": "Исчисление предикатов первого порядка", "concept_b": "Переменная предметная", "has_relation": true}
+{"paragraph_id": "4.4", "concept_a": "Исчисление предикатов первого порядка", "concept_b": "Переменная связанная", "has_relation": false}
+{"paragraph_id": "4.4", "concept_a": "Исчисление предикатов первого порядка", "concept_b": "Предикат", "has_relation": true}
+{"paragraph_id": "4.4", "concept_a": "Исчисление предикатов первого порядка", "concept_b": "Предикат $n$-местный", "has_relation": true}
+{"paragraph_id": "4.4", "concept_a": "Исчисление предикатов первого порядка", "concept_b": "Предикат n-местный", "has_relation": true}
+{"paragraph_id": "4.4", "concept_a": "Исчисление предикатов первого порядка", "concept_b": "Терм", "has_relation": false}
+{"paragraph_id": "4.4", "concept_a": "Исчисление предикатов первого порядка", "concept_b": "Терм свободный для переменной в формуле", "has_relation": false}
+{"paragraph_id": "4.4", "concept_a": "Исчисление предикатов первого порядка", "concept_b": "Формула атомарная", "has_relation": false}
+{"paragraph_id": "4.4", "concept_a": "Исчисление предикатов первого порядка", "concept_b": "Формула замкнутая", "has_relation": false}
+{"paragraph_id": "4.4", "concept_a": "Исчисление предикатов первого порядка", "concept_b": "Функциональный символ", "has_relation": true}
+{"paragraph_id": "4.4", "concept_a": "Исчисление предикатов первого порядка", "concept_b": "Функциональный символ $n$-местный", "has_relation": true}
+{"paragraph_id": "4.4", "concept_a": "Исчисление предикатов прикладное", "concept_b": "Исчисление предикатов чистое", "has_relation": true}
+{"paragraph_id": "4.4", "concept_a": "Исчисление предикатов прикладное", "concept_b": "Квантор всеобщности", "has_relation": false}
+{"paragraph_id": "4.4", "concept_a": "Исчисление предикатов прикладное", "concept_b": "Квантор существования", "has_relation": false}
+{"paragraph_id": "4.4", "concept_a": "Исчисление предикатов прикладное", "concept_b": "Константа предметная", "has_relation": false}
+{"paragraph_id": "4.4", "concept_a": "Исчисление предикатов прикладное", "concept_b": "Литерал", "has_relation": false}
+{"paragraph_id": "4.4", "concept_a": "Исчисление предикатов прикладное", "concept_b": "Область действия квантора", "has_relation": false}
+{"paragraph_id": "4.4", "concept_a": "Исчисление предикатов прикладное", "concept_b": "Переменная предметная", "has_relation": false}
+{"paragraph_id": "4.4", "concept_a": "Исчисление предикатов прикладное", "concept_b": "Переменная связанная", "has_relation": false}
+{"paragraph_id": "4.4", "concept_a": "Исчисление предикатов прикладное", "concept_b": "Предикат", "has_relation": false}
+{"paragraph_id": "4.4", "concept_a": "Исчисление предикатов прикладное", "concept_b": "Предикат $n$-местный", "has_relation": false}
+{"paragraph_id": "4.4", "concept_a": "Исчисление предикатов прикладное", "concept_b": "Предикат n-местный", "has_relation": false}
+{"paragraph_id": "4.4", "concept_a": "Исчисление предикатов прикладное", "concept_b": "Терм", "has_relation": false}
+{"paragraph_id": "4.4", "concept_a": "Исчисление предикатов прикладное", "concept_b": "Терм свободный для переменной в формуле", "has_relation": false}
+{"paragraph_id": "4.4", "concept_a": "Исчисление предикатов прикладное", "concept_b": "Формула атомарная", "has_relation": false}
+{"paragraph_id": "4.4", "concept_a": "Исчисление предикатов прикладное", "concept_b": "Формула замкнутая", "has_relation": false}
+{"paragraph_id": "4.4", "concept_a": "Исчисление предикатов прикладное", "concept_b": "Функциональный символ", "has_relation": false}
+{"paragraph_id": "4.4", "concept_a": "Исчисление предикатов прикладное", "concept_b": "Функциональный символ $n$-местный", "has_relation": false}
+{"paragraph_id": "4.4", "concept_a": "Исчисление предикатов чистое", "concept_b": "Квантор всеобщности", "has_relation": true}
+{"paragraph_id": "4.4", "concept_a": "Исчисление предикатов чистое", "concept_b": "Квантор существования", "has_relation": true}
+{"paragraph_id": "4.4", "concept_a": "Исчисление предикатов чистое", "concept_b": "Константа предметная", "has_relation": true}
+{"paragraph_id": "4.4", "concept_a": "Исчисление предикатов чистое", "concept_b": "Литерал", "has_relation": false}
+{"paragraph_id": "4.4", "concept_a": "Исчисление предикатов чистое", "concept_b": "Область действия квантора", "has_relation": false}
+{"paragraph_id": "4.4", "concept_a": "Исчисление предикатов чистое", "concept_b": "Переменная предметная", "has_relation": true}
+{"paragraph_id": "4.4", "concept_a": "Исчисление предикатов чистое", "concept_b": "Переменная связанная", "has_relation": false}
+{"paragraph_id": "4.4", "concept_a": "Исчисление предикатов чистое", "concept_b": "Предикат", "has_relation": true}
+{"paragraph_id": "4.4", "concept_a": "Исчисление предикатов чистое", "concept_b": "Предикат $n$-местный", "has_relation": true}
+{"paragraph_id": "4.4", "concept_a": "Исчисление предикатов чистое", "concept_b": "Предикат n-местный", "has_relation": true}
+{"paragraph_id": "4.4", "concept_a": "Исчисление предикатов чистое", "concept_b": "Терм", "has_relation": false}
+{"paragraph_id": "4.4", "concept_a": "Исчисление предикатов чистое", "concept_b": "Терм свободный для переменной в формуле", "has_relation": false}
+{"paragraph_id": "4.4", "concept_a": "Исчисление предикатов чистое", "concept_b": "Формула атомарная", "has_relation": false}
+{"paragraph_id": "4.4", "concept_a": "Исчисление предикатов чистое", "concept_b": "Формула замкнутая", "has_relation": false}
+{"paragraph_id": "4.4", "concept_a": "Исчисление предикатов чистое", "concept_b": "Функциональный символ", "has_relation": true}
+{"paragraph_id": "4.4", "concept_a": "Исчисление предикатов чистое", "concept_b": "Функциональный символ $n$-местный", "has_relation": true}
+{"paragraph_id": "4.4", "concept_a": "Квантор всеобщности", "concept_b": "Квантор существования", "has_relation": true}
+{"paragraph_id": "4.4", "concept_a": "Квантор всеобщности", "concept_b": "Константа предметная", "has_relation": true}
+{"paragraph_id": "4.4", "concept_a": "Квантор всеобщности", "concept_b": "Литерал", "has_relation": false}
+{"paragraph_id": "4.4", "concept_a": "Квантор всеобщности", "concept_b": "Область действия квантора", "has_relation": false}
+{"paragraph_id": "4.4", "concept_a": "Квантор всеобщности", "concept_b": "Переменная предметная", "has_relation": true}
+{"paragraph_id": "4.4", "concept_a": "Квантор всеобщности", "concept_b": "Переменная связанная", "has_relation": false}
+{"paragraph_id": "4.4", "concept_a": "Квантор всеобщности", "concept_b": "Предикат", "has_relation": true}
+{"paragraph_id": "4.4", "concept_a": "Квантор всеобщности", "concept_b": "Предикат $n$-местный", "has_relation": true}
+{"paragraph_id": "4.4", "concept_a": "Квантор всеобщности", "concept_b": "Предикат n-местный", "has_relation": true}
+{"paragraph_id": "4.4", "concept_a": "Квантор всеобщности", "concept_b": "Терм", "has_relation": false}
+{"paragraph_id": "4.4", "concept_a": "Квантор всеобщности", "concept_b": "Терм свободный для переменной в формуле", "has_relation": false}
+{"paragraph_id": "4.4", "concept_a": "Квантор всеобщности", "concept_b": "Формула атомарная", "has_relation": false}
+{"paragraph_id": "4.4", "concept_a": "Квантор всеобщности", "concept_b": "Формула замкнутая", "has_relation": false}
+{"paragraph_id": "4.4", "concept_a": "Квантор всеобщности", "concept_b": "Функциональный символ", "has_relation": true}
+{"paragraph_id": "4.4", "concept_a": "Квантор всеобщности", "concept_b": "Функциональный символ $n$-местный", "has_relation": true}
+{"paragraph_id": "4.4", "concept_a": "Квантор существования", "concept_b": "Константа предметная", "has_relation": true}
+{"paragraph_id": "4.4", "concept_a": "Квантор существования", "concept_b": "Литерал", "has_relation": false}
+{"paragraph_id": "4.4", "concept_a": "Квантор существования", "concept_b": "Область действия квантора", "has_relation": false}
+{"paragraph_id": "4.4", "concept_a": "Квантор существования", "concept_b": "Переменная предметная", "has_relation": true}
+{"paragraph_id": "4.4", "concept_a": "Квантор существования", "concept_b": "Переменная связанная", "has_relation": false}
+{"paragraph_id": "4.4", "concept_a": "Квантор существования", "concept_b": "Предикат", "has_relation": true}
+{"paragraph_id": "4.4", "concept_a": "Квантор существования", "concept_b": "Предикат $n$-местный", "has_relation": true}
+{"paragraph_id": "4.4", "concept_a": "Квантор существования", "concept_b": "Предикат n-местный", "has_relation": true}
+{"paragraph_id": "4.4", "concept_a": "Квантор существования", "concept_b": "Терм", "has_relation": false}
+{"paragraph_id": "4.4", "concept_a": "Квантор существования", "concept_b": "Терм свободный для переменной в формуле", "has_relation": false}
+{"paragraph_id": "4.4", "concept_a": "Квантор существования", "concept_b": "Формула атомарная", "has_relation": false}
+{"paragraph_id": "4.4", "concept_a": "Квантор существования", "concept_b": "Формула замкнутая", "has_relation": false}
+{"paragraph_id": "4.4", "concept_a": "Квантор существования", "concept_b": "Функциональный символ", "has_relation": true}
+{"paragraph_id": "4.4", "concept_a": "Квантор существования", "concept_b": "Функциональный символ $n$-местный", "has_relation": true}
+{"paragraph_id": "4.4", "concept_a": "Константа предметная", "concept_b": "Литерал", "has_relation": false}
+{"paragraph_id": "4.4", "concept_a": "Константа предметная", "concept_b": "Область действия квантора", "has_relation": false}
+{"paragraph_id": "4.4", "concept_a": "Константа предметная", "concept_b": "Переменная предметная", "has_relation": true}
+{"paragraph_id": "4.4", "concept_a": "Константа предметная", "concept_b": "Переменная связанная", "has_relation": false}
+{"paragraph_id": "4.4", "concept_a": "Константа предметная", "concept_b": "Предикат", "has_relation": true}
+{"paragraph_id": "4.4", "concept_a": "Константа предметная", "concept_b": "Предикат $n$-местный", "has_relation": true}
+{"paragraph_id": "4.4", "concept_a": "Константа предметная", "concept_b": "Предикат n-местный", "has_relation": true}
+{"paragraph_id": "4.4", "concept_a": "Константа предметная", "concept_b": "Терм", "has_relation": false}
+{"paragraph_id": "4.4", "concept_a": "Константа предметная", "concept_b": "Терм свободный для переменной в формуле", "has_relation": false}
+{"paragraph_id": "4.4", "concept_a": "Константа предметная", "concept_b": "Формула атомарная", "has_relation": false}
+{"paragraph_id": "4.4", "concept_a": "Константа предметная", "concept_b": "Формула замкнутая", "has_relation": false}
+{"paragraph_id": "4.4", "concept_a": "Константа предметная", "concept_b": "Функциональный символ", "has_relation": true}
+{"paragraph_id": "4.4", "concept_a": "Константа предметная", "concept_b": "Функциональный символ $n$-местный", "has_relation": true}
+{"paragraph_id": "4.4", "concept_a": "Литерал", "concept_b": "Область действия квантора", "has_relation": true}
+{"paragraph_id": "4.4", "concept_a": "Литерал", "concept_b": "Переменная предметная", "has_relation": false}
+{"paragraph_id": "4.4", "concept_a": "Литерал", "concept_b": "Переменная связанная", "has_relation": false}
+{"paragraph_id": "4.4", "concept_a": "Литерал", "concept_b": "Предикат", "has_relation": false}
+{"paragraph_id": "4.4", "concept_a": "Литерал", "concept_b": "Предикат $n$-местный", "has_relation": false}
+{"paragraph_id": "4.4", "concept_a": "Литерал", "concept_b": "Предикат n-местный", "has_relation": false}
+{"paragraph_id": "4.4", "concept_a": "Литерал", "concept_b": "Терм", "has_relation": false}
+{"paragraph_id": "4.4", "concept_a": "Литерал", "concept_b": "Терм свободный для переменной в формуле", "has_relation": true}
+{"paragraph_id": "4.4", "concept_a": "Литерал", "concept_b": "Формула атомарная", "has_relation": false}
+{"paragraph_id": "4.4", "concept_a": "Литерал", "concept_b": "Формула замкнутая", "has_relation": false}
+{"paragraph_id": "4.4", "concept_a": "Литерал", "concept_b": "Функциональный символ", "has_relation": false}
+{"paragraph_id": "4.4", "concept_a": "Литерал", "concept_b": "Функциональный символ $n$-местный", "has_relation": false}
+{"paragraph_id": "4.4", "concept_a": "Область действия квантора", "concept_b": "Переменная предметная", "has_relation": false}
+{"paragraph_id": "4.4", "concept_a": "Область действия квантора", "concept_b": "Переменная связанная", "has_relation": false}
+{"paragraph_id": "4.4", "concept_a": "Область действия квантора", "concept_b": "Предикат", "has_relation": false}
+{"paragraph_id": "4.4", "concept_a": "Область действия квантора", "concept_b": "Предикат $n$-местный", "has_relation": false}
+{"paragraph_id": "4.4", "concept_a": "Область действия квантора", "concept_b": "Предикат n-местный", "has_relation": false}
+{"paragraph_id": "4.4", "concept_a": "Область действия квантора", "concept_b": "Терм", "has_relation": false}
+{"paragraph_id": "4.4", "concept_a": "Область действия квантора", "concept_b": "Терм свободный для переменной в формуле", "has_relation": true}
+{"paragraph_id": "4.4", "concept_a": "Область действия квантора", "concept_b": "Формула атомарная", "has_relation": false}
+{"paragraph_id": "4.4", "concept_a": "Область действия квантора", "concept_b": "Формула замкнутая", "has_relation": false}
+{"paragraph_id": "4.4", "concept_a": "Область действия квантора", "concept_b": "Функциональный символ", "has_relation": false}
+{"paragraph_id": "4.4", "concept_a": "Область действия квантора", "concept_b": "Функциональный символ $n$-местный", "has_relation": false}
+{"paragraph_id": "4.4", "concept_a": "Переменная предметная", "concept_b": "Переменная связанная", "has_relation": false}
+{"paragraph_id": "4.4", "concept_a": "Переменная предметная", "concept_b": "Предикат", "has_relation": true}
+{"paragraph_id": "4.4", "concept_a": "Переменная предметная", "concept_b": "Предикат $n$-местный", "has_relation": true}
+{"paragraph_id": "4.4", "concept_a": "Переменная предметная", "concept_b": "Предикат n-местный", "has_relation": true}
+{"paragraph_id": "4.4", "concept_a": "Переменная предметная", "concept_b": "Терм", "has_relation": false}
+{"paragraph_id": "4.4", "concept_a": "Переменная предметная", "concept_b": "Терм свободный для переменной в формуле", "has_relation": false}
+{"paragraph_id": "4.4", "concept_a": "Переменная предметная", "concept_b": "Формула атомарная", "has_relation": false}
+{"paragraph_id": "4.4", "concept_a": "Переменная предметная", "concept_b": "Формула замкнутая", "has_relation": false}
+{"paragraph_id": "4.4", "concept_a": "Переменная предметная", "concept_b": "Функциональный символ", "has_relation": true}
+{"paragraph_id": "4.4", "concept_a": "Переменная предметная", "concept_b": "Функциональный символ $n$-местный", "has_relation": true}
+{"paragraph_id": "4.4", "concept_a": "Переменная связанная", "concept_b": "Предикат", "has_relation": false}
+{"paragraph_id": "4.4", "concept_a": "Переменная связанная", "concept_b": "Предикат $n$-местный", "has_relation": false}
+{"paragraph_id": "4.4", "concept_a": "Переменная связанная", "concept_b": "Предикат n-местный", "has_relation": false}
+{"paragraph_id": "4.4", "concept_a": "Переменная связанная", "concept_b": "Терм", "has_relation": false}
+{"paragraph_id": "4.4", "concept_a": "Переменная связанная", "concept_b": "Терм свободный для переменной в формуле", "has_relation": false}
+{"paragraph_id": "4.4", "concept_a": "Переменная связанная", "concept_b": "Формула атомарная", "has_relation": false}
+{"paragraph_id": "4.4", "concept_a": "Переменная связанная", "concept_b": "Формула замкнутая", "has_relation": false}
+{"paragraph_id": "4.4", "concept_a": "Переменная связанная", "concept_b": "Функциональный символ", "has_relation": false}
+{"paragraph_id": "4.4", "concept_a": "Переменная связанная", "concept_b": "Функциональный символ $n$-местный", "has_relation": false}
+{"paragraph_id": "4.4", "concept_a": "Предикат", "concept_b": "Предикат $n$-местный", "has_relation": true}
+{"paragraph_id": "4.4", "concept_a": "Предикат", "concept_b": "Предикат n-местный", "has_relation": true}
+{"paragraph_id": "4.4", "concept_a": "Предикат", "concept_b": "Терм", "has_relation": false}
+{"paragraph_id": "4.4", "concept_a": "Предикат", "concept_b": "Терм свободный для переменной в формуле", "has_relation": false}
+{"paragraph_id": "4.4", "concept_a": "Предикат", "concept_b": "Формула атомарная", "has_relation": false}
+{"paragraph_id": "4.4", "concept_a": "Предикат", "concept_b": "Формула замкнутая", "has_relation": false}
+{"paragraph_id": "4.4", "concept_a": "Предикат", "concept_b": "Функциональный символ", "has_relation": true}
+{"paragraph_id": "4.4", "concept_a": "Предикат", "concept_b": "Функциональный символ $n$-местный", "has_relation": true}
+{"paragraph_id": "4.4", "concept_a": "Предикат $n$-местный", "concept_b": "Предикат n-местный", "has_relation": true}
+{"paragraph_id": "4.4", "concept_a": "Предикат $n$-местный", "concept_b": "Терм", "has_relation": false}
+{"paragraph_id": "4.4", "concept_a": "Предикат $n$-местный", "concept_b": "Терм свободный для переменной в формуле", "has_relation": false}
+{"paragraph_id": "4.4", "concept_a": "Предикат $n$-местный", "concept_b": "Формула атомарная", "has_relation": false}
+{"paragraph_id": "4.4", "concept_a": "Предикат $n$-местный", "concept_b": "Формула замкнутая", "has_relation": false}
+{"paragraph_id": "4.4", "concept_a": "Предикат $n$-местный", "concept_b": "Функциональный символ", "has_relation": true}
+{"paragraph_id": "4.4", "concept_a": "Предикат $n$-местный", "concept_b": "Функциональный символ $n$-местный", "has_relation": true}
+{"paragraph_id": "4.4", "concept_a": "Предикат n-местный", "concept_b": "Терм", "has_relation": false}
+{"paragraph_id": "4.4", "concept_a": "Предикат n-местный", "concept_b": "Терм свободный для переменной в формуле", "has_relation": false}
+{"paragraph_id": "4.4", "concept_a": "Предикат n-местный", "concept_b": "Формула атомарная", "has_relation": false}
+{"paragraph_id": "4.4", "concept_a": "Предикат n-местный", "concept_b": "Формула замкнутая", "has_relation": false}
+{"paragraph_id": "4.4", "concept_a": "Предикат n-местный", "concept_b": "Функциональный символ", "has_relation": true}
+{"paragraph_id": "4.4", "concept_a": "Предикат n-местный", "concept_b": "Функциональный символ $n$-местный", "has_relation": true}
+{"paragraph_id": "4.4", "concept_a": "Терм", "concept_b": "Терм свободный для переменной в формуле", "has_relation": false}
+{"paragraph_id": "4.4", "concept_a": "Терм", "concept_b": "Формула атомарная", "has_relation": true}
+{"paragraph_id": "4.4", "concept_a": "Терм", "concept_b": "Формула замкнутая", "has_relation": false}
+{"paragraph_id": "4.4", "concept_a": "Терм", "concept_b": "Функциональный символ", "has_relation": false}
+{"paragraph_id": "4.4", "concept_a": "Терм", "concept_b": "Функциональный символ $n$-местный", "has_relation": false}
+{"paragraph_id": "4.4", "concept_a": "Терм свободный для переменной в формуле", "concept_b": "Формула атомарная", "has_relation": false}
+{"paragraph_id": "4.4", "concept_a": "Терм свободный для переменной в формуле", "concept_b": "Формула замкнутая", "has_relation": false}
+{"paragraph_id": "4.4", "concept_a": "Терм свободный для переменной в формуле", "concept_b": "Функциональный символ", "has_relation": false}
+{"paragraph_id": "4.4", "concept_a": "Терм свободный для переменной в формуле", "concept_b": "Функциональный символ $n$-местный", "has_relation": false}
+{"paragraph_id": "4.4", "concept_a": "Формула атомарная", "concept_b": "Формула замкнутая", "has_relation": false}
+{"paragraph_id": "4.4", "concept_a": "Формула атомарная", "concept_b": "Функциональный символ", "has_relation": false}
+{"paragraph_id": "4.4", "concept_a": "Формула атомарная", "concept_b": "Функциональный символ $n$-местный", "has_relation": false}
+{"paragraph_id": "4.4", "concept_a": "Формула замкнутая", "concept_b": "Функциональный символ", "has_relation": false}
+{"paragraph_id": "4.4", "concept_a": "Формула замкнутая", "concept_b": "Функциональный символ $n$-местный", "has_relation": false}
+{"paragraph_id": "4.4", "concept_a": "Функциональный символ", "concept_b": "Функциональный символ $n$-местный", "has_relation": true}

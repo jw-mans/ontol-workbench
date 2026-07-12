@@ -1,0 +1,18 @@
+{
+  "paragraph_id": "7.1",
+  "paragraph_title": "7.1. Определения графов",
+  "folder": "7.1_определения_графов",
+  "relations_reviewed": 83,
+  "corrected_relations": 63,
+  "category_counts": {
+    "found_on_diagram_correct": 0,
+    "found_on_diagram_wrong_direction": 0,
+    "found_on_diagram_wrong_type": 2,
+    "found_on_diagram_wrong_direction_and_type": 0,
+    "found_not_on_diagram_accepted": 61,
+    "found_not_on_diagram_rejected": 0,
+    "not_found_from_diagram": 20
+  },
+  "rendered": false,
+  "render_error": "Обнаружен циклический архитектурный антипаттерн взаимосвязи иерархий (a^+ b^+ a^+ b^+) для класса 'Дуга'"
+}

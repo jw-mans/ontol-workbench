@@ -1,0 +1,561 @@
+{"paragraph_id": "6.5", "concept_a": "Алгоритм Лемпела-Зива", "concept_b": "Вычет", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Алгоритм Лемпела-Зива", "concept_b": "Гамма шифра", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Алгоритм Лемпела-Зива", "concept_b": "Дешифрация", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Алгоритм Лемпела-Зива", "concept_b": "Дешифрование", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Алгоритм Лемпела-Зива", "concept_b": "Зашифровка", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Алгоритм Лемпела-Зива", "concept_b": "Ключ шифра", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Алгоритм Лемпела-Зива", "concept_b": "Коэффициент сжатия", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Алгоритм Лемпела-Зива", "concept_b": "Криптография", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Алгоритм Лемпела-Зива", "concept_b": "Криптостойкость", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Алгоритм Лемпела-Зива", "concept_b": "Отношение сравнимости чисел", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Алгоритм Лемпела-Зива", "concept_b": "Поиск полнотекстовый", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Алгоритм Лемпела-Зива", "concept_b": "Расшифровка", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Алгоритм Лемпела-Зива", "concept_b": "Расшифровывание", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Алгоритм Лемпела-Зива", "concept_b": "Сжатие", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Алгоритм Лемпела-Зива", "concept_b": "Сжатие адаптивное", "has_relation": true}
+{"paragraph_id": "6.5", "concept_a": "Алгоритм Лемпела-Зива", "concept_b": "Словарь", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Алгоритм Лемпела-Зива", "concept_b": "Слово", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Алгоритм Лемпела-Зива", "concept_b": "Сообщение шифрованное", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Алгоритм Лемпела-Зива", "concept_b": "Сравнение по %модулю", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Алгоритм Лемпела-Зива", "concept_b": "Тайнопись", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Алгоритм Лемпела-Зива", "concept_b": "Упаковка", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Алгоритм Лемпела-Зива", "concept_b": "Функция Эйлера", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Алгоритм Лемпела-Зива", "concept_b": "Цифровая подпись", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Алгоритм Лемпела-Зива", "concept_b": "Число взаимно простое", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Алгоритм Лемпела-Зива", "concept_b": "Число псевдослучайное", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Алгоритм Лемпела-Зива", "concept_b": "Шифр", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Алгоритм Лемпела-Зива", "concept_b": "Шифр надёжный", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Алгоритм Лемпела-Зива", "concept_b": "Шифр раскрытие", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Алгоритм Лемпела-Зива", "concept_b": "Шифр с открытым ключом", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Алгоритм Лемпела-Зива", "concept_b": "Шифр симметричный", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Алгоритм Лемпела-Зива", "concept_b": "Шифрование", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Алгоритм Лемпела-Зива", "concept_b": "Шифровка", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Алгоритм Лемпела-Зива", "concept_b": "Электронная подпись", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Вычет", "concept_b": "Гамма шифра", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Вычет", "concept_b": "Дешифрация", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Вычет", "concept_b": "Дешифрование", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Вычет", "concept_b": "Зашифровка", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Вычет", "concept_b": "Ключ шифра", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Вычет", "concept_b": "Коэффициент сжатия", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Вычет", "concept_b": "Криптография", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Вычет", "concept_b": "Криптостойкость", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Вычет", "concept_b": "Отношение сравнимости чисел", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Вычет", "concept_b": "Поиск полнотекстовый", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Вычет", "concept_b": "Расшифровка", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Вычет", "concept_b": "Расшифровывание", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Вычет", "concept_b": "Сжатие", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Вычет", "concept_b": "Сжатие адаптивное", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Вычет", "concept_b": "Словарь", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Вычет", "concept_b": "Слово", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Вычет", "concept_b": "Сообщение шифрованное", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Вычет", "concept_b": "Сравнение по %модулю", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Вычет", "concept_b": "Тайнопись", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Вычет", "concept_b": "Упаковка", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Вычет", "concept_b": "Функция Эйлера", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Вычет", "concept_b": "Цифровая подпись", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Вычет", "concept_b": "Число взаимно простое", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Вычет", "concept_b": "Число псевдослучайное", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Вычет", "concept_b": "Шифр", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Вычет", "concept_b": "Шифр надёжный", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Вычет", "concept_b": "Шифр раскрытие", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Вычет", "concept_b": "Шифр с открытым ключом", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Вычет", "concept_b": "Шифр симметричный", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Вычет", "concept_b": "Шифрование", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Вычет", "concept_b": "Шифровка", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Вычет", "concept_b": "Электронная подпись", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Гамма шифра", "concept_b": "Дешифрация", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Гамма шифра", "concept_b": "Дешифрование", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Гамма шифра", "concept_b": "Зашифровка", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Гамма шифра", "concept_b": "Ключ шифра", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Гамма шифра", "concept_b": "Коэффициент сжатия", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Гамма шифра", "concept_b": "Криптография", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Гамма шифра", "concept_b": "Криптостойкость", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Гамма шифра", "concept_b": "Отношение сравнимости чисел", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Гамма шифра", "concept_b": "Поиск полнотекстовый", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Гамма шифра", "concept_b": "Расшифровка", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Гамма шифра", "concept_b": "Расшифровывание", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Гамма шифра", "concept_b": "Сжатие", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Гамма шифра", "concept_b": "Сжатие адаптивное", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Гамма шифра", "concept_b": "Словарь", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Гамма шифра", "concept_b": "Слово", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Гамма шифра", "concept_b": "Сообщение шифрованное", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Гамма шифра", "concept_b": "Сравнение по %модулю", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Гамма шифра", "concept_b": "Тайнопись", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Гамма шифра", "concept_b": "Упаковка", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Гамма шифра", "concept_b": "Функция Эйлера", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Гамма шифра", "concept_b": "Цифровая подпись", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Гамма шифра", "concept_b": "Число взаимно простое", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Гамма шифра", "concept_b": "Число псевдослучайное", "has_relation": true}
+{"paragraph_id": "6.5", "concept_a": "Гамма шифра", "concept_b": "Шифр", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Гамма шифра", "concept_b": "Шифр надёжный", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Гамма шифра", "concept_b": "Шифр раскрытие", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Гамма шифра", "concept_b": "Шифр с открытым ключом", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Гамма шифра", "concept_b": "Шифр симметричный", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Гамма шифра", "concept_b": "Шифрование", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Гамма шифра", "concept_b": "Шифровка", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Гамма шифра", "concept_b": "Электронная подпись", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Дешифрация", "concept_b": "Дешифрование", "has_relation": true}
+{"paragraph_id": "6.5", "concept_a": "Дешифрация", "concept_b": "Зашифровка", "has_relation": true}
+{"paragraph_id": "6.5", "concept_a": "Дешифрация", "concept_b": "Ключ шифра", "has_relation": true}
+{"paragraph_id": "6.5", "concept_a": "Дешифрация", "concept_b": "Коэффициент сжатия", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Дешифрация", "concept_b": "Криптография", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Дешифрация", "concept_b": "Криптостойкость", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Дешифрация", "concept_b": "Отношение сравнимости чисел", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Дешифрация", "concept_b": "Поиск полнотекстовый", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Дешифрация", "concept_b": "Расшифровка", "has_relation": true}
+{"paragraph_id": "6.5", "concept_a": "Дешифрация", "concept_b": "Расшифровывание", "has_relation": true}
+{"paragraph_id": "6.5", "concept_a": "Дешифрация", "concept_b": "Сжатие", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Дешифрация", "concept_b": "Сжатие адаптивное", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Дешифрация", "concept_b": "Словарь", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Дешифрация", "concept_b": "Слово", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Дешифрация", "concept_b": "Сообщение шифрованное", "has_relation": true}
+{"paragraph_id": "6.5", "concept_a": "Дешифрация", "concept_b": "Сравнение по %модулю", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Дешифрация", "concept_b": "Тайнопись", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Дешифрация", "concept_b": "Упаковка", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Дешифрация", "concept_b": "Функция Эйлера", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Дешифрация", "concept_b": "Цифровая подпись", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Дешифрация", "concept_b": "Число взаимно простое", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Дешифрация", "concept_b": "Число псевдослучайное", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Дешифрация", "concept_b": "Шифр", "has_relation": true}
+{"paragraph_id": "6.5", "concept_a": "Дешифрация", "concept_b": "Шифр надёжный", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Дешифрация", "concept_b": "Шифр раскрытие", "has_relation": true}
+{"paragraph_id": "6.5", "concept_a": "Дешифрация", "concept_b": "Шифр с открытым ключом", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Дешифрация", "concept_b": "Шифр симметричный", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Дешифрация", "concept_b": "Шифрование", "has_relation": true}
+{"paragraph_id": "6.5", "concept_a": "Дешифрация", "concept_b": "Шифровка", "has_relation": true}
+{"paragraph_id": "6.5", "concept_a": "Дешифрация", "concept_b": "Электронная подпись", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Дешифрование", "concept_b": "Зашифровка", "has_relation": true}
+{"paragraph_id": "6.5", "concept_a": "Дешифрование", "concept_b": "Ключ шифра", "has_relation": true}
+{"paragraph_id": "6.5", "concept_a": "Дешифрование", "concept_b": "Коэффициент сжатия", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Дешифрование", "concept_b": "Криптография", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Дешифрование", "concept_b": "Криптостойкость", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Дешифрование", "concept_b": "Отношение сравнимости чисел", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Дешифрование", "concept_b": "Поиск полнотекстовый", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Дешифрование", "concept_b": "Расшифровка", "has_relation": true}
+{"paragraph_id": "6.5", "concept_a": "Дешифрование", "concept_b": "Расшифровывание", "has_relation": true}
+{"paragraph_id": "6.5", "concept_a": "Дешифрование", "concept_b": "Сжатие", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Дешифрование", "concept_b": "Сжатие адаптивное", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Дешифрование", "concept_b": "Словарь", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Дешифрование", "concept_b": "Слово", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Дешифрование", "concept_b": "Сообщение шифрованное", "has_relation": true}
+{"paragraph_id": "6.5", "concept_a": "Дешифрование", "concept_b": "Сравнение по %модулю", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Дешифрование", "concept_b": "Тайнопись", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Дешифрование", "concept_b": "Упаковка", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Дешифрование", "concept_b": "Функция Эйлера", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Дешифрование", "concept_b": "Цифровая подпись", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Дешифрование", "concept_b": "Число взаимно простое", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Дешифрование", "concept_b": "Число псевдослучайное", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Дешифрование", "concept_b": "Шифр", "has_relation": true}
+{"paragraph_id": "6.5", "concept_a": "Дешифрование", "concept_b": "Шифр надёжный", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Дешифрование", "concept_b": "Шифр раскрытие", "has_relation": true}
+{"paragraph_id": "6.5", "concept_a": "Дешифрование", "concept_b": "Шифр с открытым ключом", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Дешифрование", "concept_b": "Шифр симметричный", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Дешифрование", "concept_b": "Шифрование", "has_relation": true}
+{"paragraph_id": "6.5", "concept_a": "Дешифрование", "concept_b": "Шифровка", "has_relation": true}
+{"paragraph_id": "6.5", "concept_a": "Дешифрование", "concept_b": "Электронная подпись", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Зашифровка", "concept_b": "Ключ шифра", "has_relation": true}
+{"paragraph_id": "6.5", "concept_a": "Зашифровка", "concept_b": "Коэффициент сжатия", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Зашифровка", "concept_b": "Криптография", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Зашифровка", "concept_b": "Криптостойкость", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Зашифровка", "concept_b": "Отношение сравнимости чисел", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Зашифровка", "concept_b": "Поиск полнотекстовый", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Зашифровка", "concept_b": "Расшифровка", "has_relation": true}
+{"paragraph_id": "6.5", "concept_a": "Зашифровка", "concept_b": "Расшифровывание", "has_relation": true}
+{"paragraph_id": "6.5", "concept_a": "Зашифровка", "concept_b": "Сжатие", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Зашифровка", "concept_b": "Сжатие адаптивное", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Зашифровка", "concept_b": "Словарь", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Зашифровка", "concept_b": "Слово", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Зашифровка", "concept_b": "Сообщение шифрованное", "has_relation": true}
+{"paragraph_id": "6.5", "concept_a": "Зашифровка", "concept_b": "Сравнение по %модулю", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Зашифровка", "concept_b": "Тайнопись", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Зашифровка", "concept_b": "Упаковка", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Зашифровка", "concept_b": "Функция Эйлера", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Зашифровка", "concept_b": "Цифровая подпись", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Зашифровка", "concept_b": "Число взаимно простое", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Зашифровка", "concept_b": "Число псевдослучайное", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Зашифровка", "concept_b": "Шифр", "has_relation": true}
+{"paragraph_id": "6.5", "concept_a": "Зашифровка", "concept_b": "Шифр надёжный", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Зашифровка", "concept_b": "Шифр раскрытие", "has_relation": true}
+{"paragraph_id": "6.5", "concept_a": "Зашифровка", "concept_b": "Шифр с открытым ключом", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Зашифровка", "concept_b": "Шифр симметричный", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Зашифровка", "concept_b": "Шифрование", "has_relation": true}
+{"paragraph_id": "6.5", "concept_a": "Зашифровка", "concept_b": "Шифровка", "has_relation": true}
+{"paragraph_id": "6.5", "concept_a": "Зашифровка", "concept_b": "Электронная подпись", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Ключ шифра", "concept_b": "Коэффициент сжатия", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Ключ шифра", "concept_b": "Криптография", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Ключ шифра", "concept_b": "Криптостойкость", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Ключ шифра", "concept_b": "Отношение сравнимости чисел", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Ключ шифра", "concept_b": "Поиск полнотекстовый", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Ключ шифра", "concept_b": "Расшифровка", "has_relation": true}
+{"paragraph_id": "6.5", "concept_a": "Ключ шифра", "concept_b": "Расшифровывание", "has_relation": true}
+{"paragraph_id": "6.5", "concept_a": "Ключ шифра", "concept_b": "Сжатие", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Ключ шифра", "concept_b": "Сжатие адаптивное", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Ключ шифра", "concept_b": "Словарь", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Ключ шифра", "concept_b": "Слово", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Ключ шифра", "concept_b": "Сообщение шифрованное", "has_relation": true}
+{"paragraph_id": "6.5", "concept_a": "Ключ шифра", "concept_b": "Сравнение по %модулю", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Ключ шифра", "concept_b": "Тайнопись", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Ключ шифра", "concept_b": "Упаковка", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Ключ шифра", "concept_b": "Функция Эйлера", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Ключ шифра", "concept_b": "Цифровая подпись", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Ключ шифра", "concept_b": "Число взаимно простое", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Ключ шифра", "concept_b": "Число псевдослучайное", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Ключ шифра", "concept_b": "Шифр", "has_relation": true}
+{"paragraph_id": "6.5", "concept_a": "Ключ шифра", "concept_b": "Шифр надёжный", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Ключ шифра", "concept_b": "Шифр раскрытие", "has_relation": true}
+{"paragraph_id": "6.5", "concept_a": "Ключ шифра", "concept_b": "Шифр с открытым ключом", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Ключ шифра", "concept_b": "Шифр симметричный", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Ключ шифра", "concept_b": "Шифрование", "has_relation": true}
+{"paragraph_id": "6.5", "concept_a": "Ключ шифра", "concept_b": "Шифровка", "has_relation": true}
+{"paragraph_id": "6.5", "concept_a": "Ключ шифра", "concept_b": "Электронная подпись", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Коэффициент сжатия", "concept_b": "Криптография", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Коэффициент сжатия", "concept_b": "Криптостойкость", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Коэффициент сжатия", "concept_b": "Отношение сравнимости чисел", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Коэффициент сжатия", "concept_b": "Поиск полнотекстовый", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Коэффициент сжатия", "concept_b": "Расшифровка", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Коэффициент сжатия", "concept_b": "Расшифровывание", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Коэффициент сжатия", "concept_b": "Сжатие", "has_relation": true}
+{"paragraph_id": "6.5", "concept_a": "Коэффициент сжатия", "concept_b": "Сжатие адаптивное", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Коэффициент сжатия", "concept_b": "Словарь", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Коэффициент сжатия", "concept_b": "Слово", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Коэффициент сжатия", "concept_b": "Сообщение шифрованное", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Коэффициент сжатия", "concept_b": "Сравнение по %модулю", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Коэффициент сжатия", "concept_b": "Тайнопись", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Коэффициент сжатия", "concept_b": "Упаковка", "has_relation": true}
+{"paragraph_id": "6.5", "concept_a": "Коэффициент сжатия", "concept_b": "Функция Эйлера", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Коэффициент сжатия", "concept_b": "Цифровая подпись", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Коэффициент сжатия", "concept_b": "Число взаимно простое", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Коэффициент сжатия", "concept_b": "Число псевдослучайное", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Коэффициент сжатия", "concept_b": "Шифр", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Коэффициент сжатия", "concept_b": "Шифр надёжный", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Коэффициент сжатия", "concept_b": "Шифр раскрытие", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Коэффициент сжатия", "concept_b": "Шифр с открытым ключом", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Коэффициент сжатия", "concept_b": "Шифр симметричный", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Коэффициент сжатия", "concept_b": "Шифрование", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Коэффициент сжатия", "concept_b": "Шифровка", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Коэффициент сжатия", "concept_b": "Электронная подпись", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Криптография", "concept_b": "Криптостойкость", "has_relation": true}
+{"paragraph_id": "6.5", "concept_a": "Криптография", "concept_b": "Отношение сравнимости чисел", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Криптография", "concept_b": "Поиск полнотекстовый", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Криптография", "concept_b": "Расшифровка", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Криптография", "concept_b": "Расшифровывание", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Криптография", "concept_b": "Сжатие", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Криптография", "concept_b": "Сжатие адаптивное", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Криптография", "concept_b": "Словарь", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Криптография", "concept_b": "Слово", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Криптография", "concept_b": "Сообщение шифрованное", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Криптография", "concept_b": "Сравнение по %модулю", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Криптография", "concept_b": "Тайнопись", "has_relation": true}
+{"paragraph_id": "6.5", "concept_a": "Криптография", "concept_b": "Упаковка", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Криптография", "concept_b": "Функция Эйлера", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Криптография", "concept_b": "Цифровая подпись", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Криптография", "concept_b": "Число взаимно простое", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Криптография", "concept_b": "Число псевдослучайное", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Криптография", "concept_b": "Шифр", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Криптография", "concept_b": "Шифр надёжный", "has_relation": true}
+{"paragraph_id": "6.5", "concept_a": "Криптография", "concept_b": "Шифр раскрытие", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Криптография", "concept_b": "Шифр с открытым ключом", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Криптография", "concept_b": "Шифр симметричный", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Криптография", "concept_b": "Шифрование", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Криптография", "concept_b": "Шифровка", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Криптография", "concept_b": "Электронная подпись", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Криптостойкость", "concept_b": "Отношение сравнимости чисел", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Криптостойкость", "concept_b": "Поиск полнотекстовый", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Криптостойкость", "concept_b": "Расшифровка", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Криптостойкость", "concept_b": "Расшифровывание", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Криптостойкость", "concept_b": "Сжатие", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Криптостойкость", "concept_b": "Сжатие адаптивное", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Криптостойкость", "concept_b": "Словарь", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Криптостойкость", "concept_b": "Слово", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Криптостойкость", "concept_b": "Сообщение шифрованное", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Криптостойкость", "concept_b": "Сравнение по %модулю", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Криптостойкость", "concept_b": "Тайнопись", "has_relation": true}
+{"paragraph_id": "6.5", "concept_a": "Криптостойкость", "concept_b": "Упаковка", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Криптостойкость", "concept_b": "Функция Эйлера", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Криптостойкость", "concept_b": "Цифровая подпись", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Криптостойкость", "concept_b": "Число взаимно простое", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Криптостойкость", "concept_b": "Число псевдослучайное", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Криптостойкость", "concept_b": "Шифр", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Криптостойкость", "concept_b": "Шифр надёжный", "has_relation": true}
+{"paragraph_id": "6.5", "concept_a": "Криптостойкость", "concept_b": "Шифр раскрытие", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Криптостойкость", "concept_b": "Шифр с открытым ключом", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Криптостойкость", "concept_b": "Шифр симметричный", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Криптостойкость", "concept_b": "Шифрование", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Криптостойкость", "concept_b": "Шифровка", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Криптостойкость", "concept_b": "Электронная подпись", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Отношение сравнимости чисел", "concept_b": "Поиск полнотекстовый", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Отношение сравнимости чисел", "concept_b": "Расшифровка", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Отношение сравнимости чисел", "concept_b": "Расшифровывание", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Отношение сравнимости чисел", "concept_b": "Сжатие", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Отношение сравнимости чисел", "concept_b": "Сжатие адаптивное", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Отношение сравнимости чисел", "concept_b": "Словарь", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Отношение сравнимости чисел", "concept_b": "Слово", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Отношение сравнимости чисел", "concept_b": "Сообщение шифрованное", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Отношение сравнимости чисел", "concept_b": "Сравнение по %модулю", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Отношение сравнимости чисел", "concept_b": "Тайнопись", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Отношение сравнимости чисел", "concept_b": "Упаковка", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Отношение сравнимости чисел", "concept_b": "Функция Эйлера", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Отношение сравнимости чисел", "concept_b": "Цифровая подпись", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Отношение сравнимости чисел", "concept_b": "Число взаимно простое", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Отношение сравнимости чисел", "concept_b": "Число псевдослучайное", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Отношение сравнимости чисел", "concept_b": "Шифр", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Отношение сравнимости чисел", "concept_b": "Шифр надёжный", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Отношение сравнимости чисел", "concept_b": "Шифр раскрытие", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Отношение сравнимости чисел", "concept_b": "Шифр с открытым ключом", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Отношение сравнимости чисел", "concept_b": "Шифр симметричный", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Отношение сравнимости чисел", "concept_b": "Шифрование", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Отношение сравнимости чисел", "concept_b": "Шифровка", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Отношение сравнимости чисел", "concept_b": "Электронная подпись", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Поиск полнотекстовый", "concept_b": "Расшифровка", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Поиск полнотекстовый", "concept_b": "Расшифровывание", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Поиск полнотекстовый", "concept_b": "Сжатие", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Поиск полнотекстовый", "concept_b": "Сжатие адаптивное", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Поиск полнотекстовый", "concept_b": "Словарь", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Поиск полнотекстовый", "concept_b": "Слово", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Поиск полнотекстовый", "concept_b": "Сообщение шифрованное", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Поиск полнотекстовый", "concept_b": "Сравнение по %модулю", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Поиск полнотекстовый", "concept_b": "Тайнопись", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Поиск полнотекстовый", "concept_b": "Упаковка", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Поиск полнотекстовый", "concept_b": "Функция Эйлера", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Поиск полнотекстовый", "concept_b": "Цифровая подпись", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Поиск полнотекстовый", "concept_b": "Число взаимно простое", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Поиск полнотекстовый", "concept_b": "Число псевдослучайное", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Поиск полнотекстовый", "concept_b": "Шифр", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Поиск полнотекстовый", "concept_b": "Шифр надёжный", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Поиск полнотекстовый", "concept_b": "Шифр раскрытие", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Поиск полнотекстовый", "concept_b": "Шифр с открытым ключом", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Поиск полнотекстовый", "concept_b": "Шифр симметричный", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Поиск полнотекстовый", "concept_b": "Шифрование", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Поиск полнотекстовый", "concept_b": "Шифровка", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Поиск полнотекстовый", "concept_b": "Электронная подпись", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Расшифровка", "concept_b": "Расшифровывание", "has_relation": true}
+{"paragraph_id": "6.5", "concept_a": "Расшифровка", "concept_b": "Сжатие", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Расшифровка", "concept_b": "Сжатие адаптивное", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Расшифровка", "concept_b": "Словарь", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Расшифровка", "concept_b": "Слово", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Расшифровка", "concept_b": "Сообщение шифрованное", "has_relation": true}
+{"paragraph_id": "6.5", "concept_a": "Расшифровка", "concept_b": "Сравнение по %модулю", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Расшифровка", "concept_b": "Тайнопись", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Расшифровка", "concept_b": "Упаковка", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Расшифровка", "concept_b": "Функция Эйлера", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Расшифровка", "concept_b": "Цифровая подпись", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Расшифровка", "concept_b": "Число взаимно простое", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Расшифровка", "concept_b": "Число псевдослучайное", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Расшифровка", "concept_b": "Шифр", "has_relation": true}
+{"paragraph_id": "6.5", "concept_a": "Расшифровка", "concept_b": "Шифр надёжный", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Расшифровка", "concept_b": "Шифр раскрытие", "has_relation": true}
+{"paragraph_id": "6.5", "concept_a": "Расшифровка", "concept_b": "Шифр с открытым ключом", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Расшифровка", "concept_b": "Шифр симметричный", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Расшифровка", "concept_b": "Шифрование", "has_relation": true}
+{"paragraph_id": "6.5", "concept_a": "Расшифровка", "concept_b": "Шифровка", "has_relation": true}
+{"paragraph_id": "6.5", "concept_a": "Расшифровка", "concept_b": "Электронная подпись", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Расшифровывание", "concept_b": "Сжатие", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Расшифровывание", "concept_b": "Сжатие адаптивное", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Расшифровывание", "concept_b": "Словарь", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Расшифровывание", "concept_b": "Слово", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Расшифровывание", "concept_b": "Сообщение шифрованное", "has_relation": true}
+{"paragraph_id": "6.5", "concept_a": "Расшифровывание", "concept_b": "Сравнение по %модулю", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Расшифровывание", "concept_b": "Тайнопись", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Расшифровывание", "concept_b": "Упаковка", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Расшифровывание", "concept_b": "Функция Эйлера", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Расшифровывание", "concept_b": "Цифровая подпись", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Расшифровывание", "concept_b": "Число взаимно простое", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Расшифровывание", "concept_b": "Число псевдослучайное", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Расшифровывание", "concept_b": "Шифр", "has_relation": true}
+{"paragraph_id": "6.5", "concept_a": "Расшифровывание", "concept_b": "Шифр надёжный", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Расшифровывание", "concept_b": "Шифр раскрытие", "has_relation": true}
+{"paragraph_id": "6.5", "concept_a": "Расшифровывание", "concept_b": "Шифр с открытым ключом", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Расшифровывание", "concept_b": "Шифр симметричный", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Расшифровывание", "concept_b": "Шифрование", "has_relation": true}
+{"paragraph_id": "6.5", "concept_a": "Расшифровывание", "concept_b": "Шифровка", "has_relation": true}
+{"paragraph_id": "6.5", "concept_a": "Расшифровывание", "concept_b": "Электронная подпись", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Сжатие", "concept_b": "Сжатие адаптивное", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Сжатие", "concept_b": "Словарь", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Сжатие", "concept_b": "Слово", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Сжатие", "concept_b": "Сообщение шифрованное", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Сжатие", "concept_b": "Сравнение по %модулю", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Сжатие", "concept_b": "Тайнопись", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Сжатие", "concept_b": "Упаковка", "has_relation": true}
+{"paragraph_id": "6.5", "concept_a": "Сжатие", "concept_b": "Функция Эйлера", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Сжатие", "concept_b": "Цифровая подпись", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Сжатие", "concept_b": "Число взаимно простое", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Сжатие", "concept_b": "Число псевдослучайное", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Сжатие", "concept_b": "Шифр", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Сжатие", "concept_b": "Шифр надёжный", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Сжатие", "concept_b": "Шифр раскрытие", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Сжатие", "concept_b": "Шифр с открытым ключом", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Сжатие", "concept_b": "Шифр симметричный", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Сжатие", "concept_b": "Шифрование", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Сжатие", "concept_b": "Шифровка", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Сжатие", "concept_b": "Электронная подпись", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Сжатие адаптивное", "concept_b": "Словарь", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Сжатие адаптивное", "concept_b": "Слово", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Сжатие адаптивное", "concept_b": "Сообщение шифрованное", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Сжатие адаптивное", "concept_b": "Сравнение по %модулю", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Сжатие адаптивное", "concept_b": "Тайнопись", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Сжатие адаптивное", "concept_b": "Упаковка", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Сжатие адаптивное", "concept_b": "Функция Эйлера", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Сжатие адаптивное", "concept_b": "Цифровая подпись", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Сжатие адаптивное", "concept_b": "Число взаимно простое", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Сжатие адаптивное", "concept_b": "Число псевдослучайное", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Сжатие адаптивное", "concept_b": "Шифр", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Сжатие адаптивное", "concept_b": "Шифр надёжный", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Сжатие адаптивное", "concept_b": "Шифр раскрытие", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Сжатие адаптивное", "concept_b": "Шифр с открытым ключом", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Сжатие адаптивное", "concept_b": "Шифр симметричный", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Сжатие адаптивное", "concept_b": "Шифрование", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Сжатие адаптивное", "concept_b": "Шифровка", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Сжатие адаптивное", "concept_b": "Электронная подпись", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Словарь", "concept_b": "Слово", "has_relation": true}
+{"paragraph_id": "6.5", "concept_a": "Словарь", "concept_b": "Сообщение шифрованное", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Словарь", "concept_b": "Сравнение по %модулю", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Словарь", "concept_b": "Тайнопись", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Словарь", "concept_b": "Упаковка", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Словарь", "concept_b": "Функция Эйлера", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Словарь", "concept_b": "Цифровая подпись", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Словарь", "concept_b": "Число взаимно простое", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Словарь", "concept_b": "Число псевдослучайное", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Словарь", "concept_b": "Шифр", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Словарь", "concept_b": "Шифр надёжный", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Словарь", "concept_b": "Шифр раскрытие", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Словарь", "concept_b": "Шифр с открытым ключом", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Словарь", "concept_b": "Шифр симметричный", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Словарь", "concept_b": "Шифрование", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Словарь", "concept_b": "Шифровка", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Словарь", "concept_b": "Электронная подпись", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Слово", "concept_b": "Сообщение шифрованное", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Слово", "concept_b": "Сравнение по %модулю", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Слово", "concept_b": "Тайнопись", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Слово", "concept_b": "Упаковка", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Слово", "concept_b": "Функция Эйлера", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Слово", "concept_b": "Цифровая подпись", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Слово", "concept_b": "Число взаимно простое", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Слово", "concept_b": "Число псевдослучайное", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Слово", "concept_b": "Шифр", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Слово", "concept_b": "Шифр надёжный", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Слово", "concept_b": "Шифр раскрытие", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Слово", "concept_b": "Шифр с открытым ключом", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Слово", "concept_b": "Шифр симметричный", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Слово", "concept_b": "Шифрование", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Слово", "concept_b": "Шифровка", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Слово", "concept_b": "Электронная подпись", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Сообщение шифрованное", "concept_b": "Сравнение по %модулю", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Сообщение шифрованное", "concept_b": "Тайнопись", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Сообщение шифрованное", "concept_b": "Упаковка", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Сообщение шифрованное", "concept_b": "Функция Эйлера", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Сообщение шифрованное", "concept_b": "Цифровая подпись", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Сообщение шифрованное", "concept_b": "Число взаимно простое", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Сообщение шифрованное", "concept_b": "Число псевдослучайное", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Сообщение шифрованное", "concept_b": "Шифр", "has_relation": true}
+{"paragraph_id": "6.5", "concept_a": "Сообщение шифрованное", "concept_b": "Шифр надёжный", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Сообщение шифрованное", "concept_b": "Шифр раскрытие", "has_relation": true}
+{"paragraph_id": "6.5", "concept_a": "Сообщение шифрованное", "concept_b": "Шифр с открытым ключом", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Сообщение шифрованное", "concept_b": "Шифр симметричный", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Сообщение шифрованное", "concept_b": "Шифрование", "has_relation": true}
+{"paragraph_id": "6.5", "concept_a": "Сообщение шифрованное", "concept_b": "Шифровка", "has_relation": true}
+{"paragraph_id": "6.5", "concept_a": "Сообщение шифрованное", "concept_b": "Электронная подпись", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Сравнение по %модулю", "concept_b": "Тайнопись", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Сравнение по %модулю", "concept_b": "Упаковка", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Сравнение по %модулю", "concept_b": "Функция Эйлера", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Сравнение по %модулю", "concept_b": "Цифровая подпись", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Сравнение по %модулю", "concept_b": "Число взаимно простое", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Сравнение по %модулю", "concept_b": "Число псевдослучайное", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Сравнение по %модулю", "concept_b": "Шифр", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Сравнение по %модулю", "concept_b": "Шифр надёжный", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Сравнение по %модулю", "concept_b": "Шифр раскрытие", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Сравнение по %модулю", "concept_b": "Шифр с открытым ключом", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Сравнение по %модулю", "concept_b": "Шифр симметричный", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Сравнение по %модулю", "concept_b": "Шифрование", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Сравнение по %модулю", "concept_b": "Шифровка", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Сравнение по %модулю", "concept_b": "Электронная подпись", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Тайнопись", "concept_b": "Упаковка", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Тайнопись", "concept_b": "Функция Эйлера", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Тайнопись", "concept_b": "Цифровая подпись", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Тайнопись", "concept_b": "Число взаимно простое", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Тайнопись", "concept_b": "Число псевдослучайное", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Тайнопись", "concept_b": "Шифр", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Тайнопись", "concept_b": "Шифр надёжный", "has_relation": true}
+{"paragraph_id": "6.5", "concept_a": "Тайнопись", "concept_b": "Шифр раскрытие", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Тайнопись", "concept_b": "Шифр с открытым ключом", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Тайнопись", "concept_b": "Шифр симметричный", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Тайнопись", "concept_b": "Шифрование", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Тайнопись", "concept_b": "Шифровка", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Тайнопись", "concept_b": "Электронная подпись", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Упаковка", "concept_b": "Функция Эйлера", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Упаковка", "concept_b": "Цифровая подпись", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Упаковка", "concept_b": "Число взаимно простое", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Упаковка", "concept_b": "Число псевдослучайное", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Упаковка", "concept_b": "Шифр", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Упаковка", "concept_b": "Шифр надёжный", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Упаковка", "concept_b": "Шифр раскрытие", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Упаковка", "concept_b": "Шифр с открытым ключом", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Упаковка", "concept_b": "Шифр симметричный", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Упаковка", "concept_b": "Шифрование", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Упаковка", "concept_b": "Шифровка", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Упаковка", "concept_b": "Электронная подпись", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Функция Эйлера", "concept_b": "Цифровая подпись", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Функция Эйлера", "concept_b": "Число взаимно простое", "has_relation": true}
+{"paragraph_id": "6.5", "concept_a": "Функция Эйлера", "concept_b": "Число псевдослучайное", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Функция Эйлера", "concept_b": "Шифр", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Функция Эйлера", "concept_b": "Шифр надёжный", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Функция Эйлера", "concept_b": "Шифр раскрытие", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Функция Эйлера", "concept_b": "Шифр с открытым ключом", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Функция Эйлера", "concept_b": "Шифр симметричный", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Функция Эйлера", "concept_b": "Шифрование", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Функция Эйлера", "concept_b": "Шифровка", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Функция Эйлера", "concept_b": "Электронная подпись", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Цифровая подпись", "concept_b": "Число взаимно простое", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Цифровая подпись", "concept_b": "Число псевдослучайное", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Цифровая подпись", "concept_b": "Шифр", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Цифровая подпись", "concept_b": "Шифр надёжный", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Цифровая подпись", "concept_b": "Шифр раскрытие", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Цифровая подпись", "concept_b": "Шифр с открытым ключом", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Цифровая подпись", "concept_b": "Шифр симметричный", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Цифровая подпись", "concept_b": "Шифрование", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Цифровая подпись", "concept_b": "Шифровка", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Цифровая подпись", "concept_b": "Электронная подпись", "has_relation": true}
+{"paragraph_id": "6.5", "concept_a": "Число взаимно простое", "concept_b": "Число псевдослучайное", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Число взаимно простое", "concept_b": "Шифр", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Число взаимно простое", "concept_b": "Шифр надёжный", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Число взаимно простое", "concept_b": "Шифр раскрытие", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Число взаимно простое", "concept_b": "Шифр с открытым ключом", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Число взаимно простое", "concept_b": "Шифр симметричный", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Число взаимно простое", "concept_b": "Шифрование", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Число взаимно простое", "concept_b": "Шифровка", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Число взаимно простое", "concept_b": "Электронная подпись", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Число псевдослучайное", "concept_b": "Шифр", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Число псевдослучайное", "concept_b": "Шифр надёжный", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Число псевдослучайное", "concept_b": "Шифр раскрытие", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Число псевдослучайное", "concept_b": "Шифр с открытым ключом", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Число псевдослучайное", "concept_b": "Шифр симметричный", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Число псевдослучайное", "concept_b": "Шифрование", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Число псевдослучайное", "concept_b": "Шифровка", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Число псевдослучайное", "concept_b": "Электронная подпись", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Шифр", "concept_b": "Шифр надёжный", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Шифр", "concept_b": "Шифр раскрытие", "has_relation": true}
+{"paragraph_id": "6.5", "concept_a": "Шифр", "concept_b": "Шифр с открытым ключом", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Шифр", "concept_b": "Шифр симметричный", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Шифр", "concept_b": "Шифрование", "has_relation": true}
+{"paragraph_id": "6.5", "concept_a": "Шифр", "concept_b": "Шифровка", "has_relation": true}
+{"paragraph_id": "6.5", "concept_a": "Шифр", "concept_b": "Электронная подпись", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Шифр надёжный", "concept_b": "Шифр раскрытие", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Шифр надёжный", "concept_b": "Шифр с открытым ключом", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Шифр надёжный", "concept_b": "Шифр симметричный", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Шифр надёжный", "concept_b": "Шифрование", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Шифр надёжный", "concept_b": "Шифровка", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Шифр надёжный", "concept_b": "Электронная подпись", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Шифр раскрытие", "concept_b": "Шифр с открытым ключом", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Шифр раскрытие", "concept_b": "Шифр симметричный", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Шифр раскрытие", "concept_b": "Шифрование", "has_relation": true}
+{"paragraph_id": "6.5", "concept_a": "Шифр раскрытие", "concept_b": "Шифровка", "has_relation": true}
+{"paragraph_id": "6.5", "concept_a": "Шифр раскрытие", "concept_b": "Электронная подпись", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Шифр с открытым ключом", "concept_b": "Шифр симметричный", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Шифр с открытым ключом", "concept_b": "Шифрование", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Шифр с открытым ключом", "concept_b": "Шифровка", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Шифр с открытым ключом", "concept_b": "Электронная подпись", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Шифр симметричный", "concept_b": "Шифрование", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Шифр симметричный", "concept_b": "Шифровка", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Шифр симметричный", "concept_b": "Электронная подпись", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Шифрование", "concept_b": "Шифровка", "has_relation": true}
+{"paragraph_id": "6.5", "concept_a": "Шифрование", "concept_b": "Электронная подпись", "has_relation": false}
+{"paragraph_id": "6.5", "concept_a": "Шифровка", "concept_b": "Электронная подпись", "has_relation": false}

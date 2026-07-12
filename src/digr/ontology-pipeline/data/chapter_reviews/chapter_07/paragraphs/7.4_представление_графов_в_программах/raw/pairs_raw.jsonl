@@ -1,0 +1,36 @@
+{"paragraph_id": "7.4", "concept_a": "Алгоритм поиска в глубину", "concept_b": "Алгоритм поиска в ширину", "has_relation": true}
+{"paragraph_id": "7.4", "concept_a": "Алгоритм поиска в глубину", "concept_b": "Массив дуг", "has_relation": false}
+{"paragraph_id": "7.4", "concept_a": "Алгоритм поиска в глубину", "concept_b": "Массив рёбер", "has_relation": false}
+{"paragraph_id": "7.4", "concept_a": "Алгоритм поиска в глубину", "concept_b": "Матрица инциденций", "has_relation": false}
+{"paragraph_id": "7.4", "concept_a": "Алгоритм поиска в глубину", "concept_b": "Матрица смежности", "has_relation": false}
+{"paragraph_id": "7.4", "concept_a": "Алгоритм поиска в глубину", "concept_b": "Поиск в глубину", "has_relation": true}
+{"paragraph_id": "7.4", "concept_a": "Алгоритм поиска в глубину", "concept_b": "Поиск в ширину", "has_relation": true}
+{"paragraph_id": "7.4", "concept_a": "Алгоритм поиска в глубину", "concept_b": "Список смежности", "has_relation": false}
+{"paragraph_id": "7.4", "concept_a": "Алгоритм поиска в ширину", "concept_b": "Массив дуг", "has_relation": false}
+{"paragraph_id": "7.4", "concept_a": "Алгоритм поиска в ширину", "concept_b": "Массив рёбер", "has_relation": false}
+{"paragraph_id": "7.4", "concept_a": "Алгоритм поиска в ширину", "concept_b": "Матрица инциденций", "has_relation": false}
+{"paragraph_id": "7.4", "concept_a": "Алгоритм поиска в ширину", "concept_b": "Матрица смежности", "has_relation": false}
+{"paragraph_id": "7.4", "concept_a": "Алгоритм поиска в ширину", "concept_b": "Поиск в глубину", "has_relation": true}
+{"paragraph_id": "7.4", "concept_a": "Алгоритм поиска в ширину", "concept_b": "Поиск в ширину", "has_relation": true}
+{"paragraph_id": "7.4", "concept_a": "Алгоритм поиска в ширину", "concept_b": "Список смежности", "has_relation": false}
+{"paragraph_id": "7.4", "concept_a": "Массив дуг", "concept_b": "Массив рёбер", "has_relation": true}
+{"paragraph_id": "7.4", "concept_a": "Массив дуг", "concept_b": "Матрица инциденций", "has_relation": false}
+{"paragraph_id": "7.4", "concept_a": "Массив дуг", "concept_b": "Матрица смежности", "has_relation": false}
+{"paragraph_id": "7.4", "concept_a": "Массив дуг", "concept_b": "Поиск в глубину", "has_relation": false}
+{"paragraph_id": "7.4", "concept_a": "Массив дуг", "concept_b": "Поиск в ширину", "has_relation": false}
+{"paragraph_id": "7.4", "concept_a": "Массив дуг", "concept_b": "Список смежности", "has_relation": false}
+{"paragraph_id": "7.4", "concept_a": "Массив рёбер", "concept_b": "Матрица инциденций", "has_relation": false}
+{"paragraph_id": "7.4", "concept_a": "Массив рёбер", "concept_b": "Матрица смежности", "has_relation": false}
+{"paragraph_id": "7.4", "concept_a": "Массив рёбер", "concept_b": "Поиск в глубину", "has_relation": false}
+{"paragraph_id": "7.4", "concept_a": "Массив рёбер", "concept_b": "Поиск в ширину", "has_relation": false}
+{"paragraph_id": "7.4", "concept_a": "Массив рёбер", "concept_b": "Список смежности", "has_relation": false}
+{"paragraph_id": "7.4", "concept_a": "Матрица инциденций", "concept_b": "Матрица смежности", "has_relation": false}
+{"paragraph_id": "7.4", "concept_a": "Матрица инциденций", "concept_b": "Поиск в глубину", "has_relation": false}
+{"paragraph_id": "7.4", "concept_a": "Матрица инциденций", "concept_b": "Поиск в ширину", "has_relation": false}
+{"paragraph_id": "7.4", "concept_a": "Матрица инциденций", "concept_b": "Список смежности", "has_relation": false}
+{"paragraph_id": "7.4", "concept_a": "Матрица смежности", "concept_b": "Поиск в глубину", "has_relation": false}
+{"paragraph_id": "7.4", "concept_a": "Матрица смежности", "concept_b": "Поиск в ширину", "has_relation": false}
+{"paragraph_id": "7.4", "concept_a": "Матрица смежности", "concept_b": "Список смежности", "has_relation": false}
+{"paragraph_id": "7.4", "concept_a": "Поиск в глубину", "concept_b": "Поиск в ширину", "has_relation": true}
+{"paragraph_id": "7.4", "concept_a": "Поиск в глубину", "concept_b": "Список смежности", "has_relation": false}
+{"paragraph_id": "7.4", "concept_a": "Поиск в ширину", "concept_b": "Список смежности", "has_relation": false}

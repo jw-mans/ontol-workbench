@@ -1,0 +1,18 @@
+{
+  "paragraph_id": "5.3",
+  "paragraph_title": "5.3. Биномиальные коэффициенты",
+  "folder": "5.3_биномиальные_коэффициенты",
+  "relations_reviewed": 9,
+  "corrected_relations": 2,
+  "category_counts": {
+    "found_on_diagram_correct": 0,
+    "found_on_diagram_wrong_direction": 0,
+    "found_on_diagram_wrong_type": 1,
+    "found_on_diagram_wrong_direction_and_type": 0,
+    "found_not_on_diagram_accepted": 1,
+    "found_not_on_diagram_rejected": 0,
+    "not_found_from_diagram": 7
+  },
+  "rendered": true,
+  "render_error": null
+}

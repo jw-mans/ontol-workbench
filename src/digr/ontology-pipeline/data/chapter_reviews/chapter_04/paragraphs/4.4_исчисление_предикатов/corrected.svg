@@ -1,0 +1,903 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="3895" height="1239" viewBox="0 0 3895 1239" class="uml-diagram" data-theme="light" data-title="Диаграмма TDL">
+
+    <defs>
+      <linearGradient id="uml-yellow-title-gradient" x1="0%" y1="0%" x2="0%" y2="100%">
+        <stop offset="0%" stop-color="#f0c955"/>
+        <stop offset="50%" stop-color="#ffebc2"/>
+        <stop offset="100%" stop-color="#f0c955"/>
+      </linearGradient>
+
+      <linearGradient id="uml-yellow-section-gradient" x1="0%" y1="0%" x2="0%" y2="100%">
+        <stop offset="0%" stop-color="#f5d56b"/>
+        <stop offset="50%" stop-color="#fff1cf"/>
+        <stop offset="100%" stop-color="#f0c955"/>
+      </linearGradient>
+
+      <marker id="diamond-empty" markerWidth="12" markerHeight="8" viewBox="0 0 12 8" refX="0" refY="4" orient="auto" markerUnits="userSpaceOnUse">
+        <path class="uml-marker uml-marker-hollow" d="M 0 4 L 6 0 L 12 4 L 6 8 Z" fill="white" stroke="#181818" stroke-width="1"/>
+      </marker>
+
+      <marker id="diamond-filled" markerWidth="12" markerHeight="8" viewBox="0 0 12 8" refX="0" refY="4" orient="auto" markerUnits="userSpaceOnUse">
+        <path class="uml-marker uml-marker-filled" d="M 0 4 L 6 0 L 12 4 L 6 8 Z" fill="#181818" stroke="#181818" stroke-width="1"/>
+      </marker>
+
+      <marker id="diamond-empty-end" markerWidth="12" markerHeight="8" viewBox="0 0 12 8" refX="12" refY="4" orient="auto" markerUnits="userSpaceOnUse">
+        <path class="uml-marker uml-marker-hollow" d="M 0 4 L 6 0 L 12 4 L 6 8 Z" fill="white" stroke="#181818" stroke-width="1"/>
+      </marker>
+
+      <marker id="diamond-filled-end" markerWidth="12" markerHeight="8" viewBox="0 0 12 8" refX="12" refY="4" orient="auto" markerUnits="userSpaceOnUse">
+        <path class="uml-marker uml-marker-filled" d="M 0 4 L 6 0 L 12 4 L 6 8 Z" fill="#181818" stroke="#181818" stroke-width="1"/>
+      </marker>
+
+      <marker id="arrow-filled" markerWidth="9" markerHeight="8" viewBox="0 0 9 8" refX="9" refY="4" orient="auto" markerUnits="userSpaceOnUse">
+        <path class="uml-marker uml-marker-filled" d="M 9 4 L 0 0 L 4 4 L 0 8 Z" fill="#181818" stroke="#181818" stroke-width="1"/>
+      </marker>
+
+      <marker id="triangle-empty" markerWidth="18" markerHeight="12" viewBox="0 0 18 12" refX="18" refY="6" orient="auto" markerUnits="userSpaceOnUse">
+        <path class="uml-marker uml-marker-hollow" d="M 18 6 L 0 0 L 0 12 Z" fill="white" stroke="#181818" stroke-width="1"/>
+      </marker>
+    </defs>
+    
+<style id="uml-theme-light" type="text/css"><![CDATA[
+svg.uml-diagram {
+  background: #ffffff;
+}
+
+.uml-class-title {
+  fill: #e5e5e5;
+}
+
+.uml-class-section,
+.uml-enum-body {
+  fill: #eeeeee;
+}
+
+.uml-class-outline,
+.uml-class-title,
+.uml-class-section,
+.uml-enum-body,
+.uml-enum-title,
+.uml-template-box {
+  stroke: #999999;
+  stroke-width: 1;
+}
+
+.uml-class-title-text,
+.uml-feature-text,
+.uml-template-text,
+.uml-edge-label,
+.uml-multiplicity {
+  fill: #000000;
+}
+
+.uml-kind-badge-c {
+  fill: #b8d9bf;
+  stroke: #3e7d4a;
+}
+
+.uml-kind-badge-e {
+  fill: #f29b86;
+  stroke: #9d3f2f;
+}
+
+.uml-kind-badge-i {
+  fill: #c9d7ff;
+  stroke: #4a61a8;
+}
+
+.uml-kind-badge-d {
+  fill: #d9c7f2;
+  stroke: #6f4aa8;
+}
+
+.uml-kind-badge-text {
+  fill: #000000;
+}
+
+.uml-attribute-bullet {
+  fill: #ffffff;
+  stroke: #3aa76d;
+}
+
+.uml-operation-bullet {
+  fill: #3aa76d;
+  stroke: #2a7d50;
+}
+
+.uml-edge-line {
+  stroke: #181818;
+  stroke-width: 1;
+}
+
+.uml-marker-filled {
+  fill: #181818;
+  stroke: #181818;
+}
+
+.uml-marker-hollow {
+  fill: #ffffff;
+  stroke: #181818;
+}
+
+]]></style>
+
+<g class="uml-edge"
+   data-type="generalization"
+   data-src="Атом"
+   data-tgt="Терм"
+   data-substitutable="true">
+  <path class="uml-edge-line" d="M143.7,53.8 C129.9,71.6 107.3,100.6 93.5,118.3" fill="none" stroke="#181818" stroke-width="1.0" marker-end="url(#triangle-empty)"/>
+</g>
+
+
+<g class="uml-edge"
+   data-type="generalization"
+   data-src="Атом"
+   data-tgt="ФормулаАтомарная"
+   data-substitutable="true">
+  <path class="uml-edge-line" d="M160.4,53.8 C166.6,75.4 175.9,116.0 170.6,150.5 C167.1,173.7 158.1,199.4 151.9,215.2" fill="none" stroke="#181818" stroke-width="1.0" marker-end="url(#triangle-empty)"/>
+</g>
+
+
+<g class="uml-edge"
+   data-type="generalization"
+   data-src="ВхождениеПеременнойСвободное"
+   data-tgt="ВхождениеПеременнойСвязанное"
+   data-substitutable="true">
+  <path class="uml-edge-line" d="M545.7,54.0 C523.0,71.7 486.2,100.4 463.5,118.1" fill="none" stroke="#181818" stroke-width="1.0" marker-end="url(#triangle-empty)"/>
+</g>
+
+
+<g class="uml-edge"
+   data-type="generalization"
+   data-src="ВхождениеПеременнойСвободное"
+   data-tgt="ПеременнаяСвязанная"
+   data-substitutable="true">
+  <path class="uml-edge-line" d="M576.5,53.8 C590.8,75.6 612.5,117.0 598.6,150.5 C587.2,178.1 561.1,201.1 541.8,215.3" fill="none" stroke="#181818" stroke-width="1.0" marker-end="url(#triangle-empty)"/>
+</g>
+
+
+<g class="uml-edge"
+   data-type="generalization"
+   data-src="ВхождениеПеременнойСвязанное"
+   data-tgt="ПеременнаяСвязанная"
+   data-substitutable="true">
+  <path class="uml-edge-line" d="M455.7,150.8 C469.7,168.5 492.6,197.6 506.6,215.3" fill="none" stroke="#181818" stroke-width="1.0" marker-end="url(#triangle-empty)"/>
+</g>
+
+
+<g class="uml-edge"
+   data-type="generalization"
+   data-src="ИсчислениеПредикатовВысшегоПорядка"
+   data-tgt="ИсчислениеПредикатовПервогоПорядка"
+   data-substitutable="true">
+  <path class="uml-edge-line" d="M1144.3,53.2 C1324.7,71.1 1627.8,101.1 1808.1,118.9" fill="none" stroke="#181818" stroke-width="1.0" marker-end="url(#triangle-empty)"/>
+</g>
+
+
+<g class="uml-edge"
+   data-type="generalization"
+   data-src="ИсчислениеПредикатовВысшегоПорядка"
+   data-tgt="ИсчислениеПредикатовПрикладное"
+   data-substitutable="true">
+  <path class="uml-edge-line" d="M996.6,54.0 C996.6,89.9 996.6,179.0 996.6,215.1" fill="none" stroke="#181818" stroke-width="1.0" marker-end="url(#triangle-empty)"/>
+</g>
+
+
+<g class="uml-edge"
+   data-type="generalization"
+   data-src="ИсчислениеПредикатовВысшегоПорядка"
+   data-tgt="ИсчислениеПредикатовЧистое"
+   data-substitutable="true">
+  <path class="uml-edge-line" d="M968.1,54.0 C909.8,87.5 786.6,170.3 834.6,247.5 C855.2,280.7 894.1,300.5 928.6,312.1" fill="none" stroke="#181818" stroke-width="1.0" marker-end="url(#triangle-empty)"/>
+</g>
+
+
+<g class="uml-edge"
+   data-type="generalization"
+   data-src="ИсчислениеПредикатовПервогоПорядка"
+   data-tgt="ИсчислениеПредикатовПрикладное"
+   data-substitutable="true">
+  <path class="uml-edge-line" d="M1807.9,150.2 C1622.7,168.5 1307.9,199.7 1129.8,217.3" fill="none" stroke="#181818" stroke-width="1.0" marker-end="url(#triangle-empty)"/>
+</g>
+
+
+<g class="uml-edge"
+   data-type="generalization"
+   data-src="ИсчислениеПредикатовПервогоПорядка"
+   data-tgt="ИсчислениеПредикатовЧистое"
+   data-substitutable="true">
+  <path class="uml-edge-line" d="M1808.0,143.0 C1672.3,152.3 1466.1,172.6 1291.6,215.5 C1193.2,239.8 1083.0,287.4 1029.4,312.0" fill="none" stroke="#181818" stroke-width="1.0" marker-end="url(#triangle-empty)"/>
+</g>
+
+
+<g class="uml-edge"
+   data-type="generalization"
+   data-src="ИсчислениеПредикатовПервогоПорядка"
+   data-tgt="КванторВсеобщности"
+   data-substitutable="true">
+  <path class="uml-edge-line" d="M1950.2,150.7 C1932.2,200.5 1875.2,359.0 1857.1,409.1" fill="none" stroke="#181818" stroke-width="1.0" marker-end="url(#triangle-empty)"/>
+</g>
+
+
+<g class="uml-edge"
+   data-type="generalization"
+   data-src="ИсчислениеПредикатовПервогоПорядка"
+   data-tgt="КванторСуществования"
+   data-substitutable="true">
+  <path class="uml-edge-line" d="M1998.1,151.0 C2029.9,164.2 2072.9,185.9 2102.6,215.5 C2193.8,306.6 2248.9,457.9 2264.8,506.1" fill="none" stroke="#181818" stroke-width="1.0" marker-end="url(#triangle-empty)"/>
+</g>
+
+
+<g class="uml-edge"
+   data-type="generalization"
+   data-src="ИсчислениеПредикатовПервогоПорядка"
+   data-tgt="КонстантаПредметная"
+   data-substitutable="true">
+  <path class="uml-edge-line" d="M1970.8,151.0 C1999.5,181.7 2058.6,254.1 2058.6,327.5 C2058.6,327.5 2058.6,327.5 2058.6,426.5 C2058.6,493.7 2033.1,571.1 2021.4,603.2" fill="none" stroke="#181818" stroke-width="1.0" marker-end="url(#triangle-empty)"/>
+</g>
+
+
+<g class="uml-edge"
+   data-type="generalization"
+   data-src="ИсчислениеПредикатовПервогоПорядка"
+   data-tgt="ПеременнаяПредметная"
+   data-substitutable="true">
+  <path class="uml-edge-line" d="M1941.5,150.8 C1865.7,232.4 1507.8,618.1 1431.8,700.0" fill="none" stroke="#181818" stroke-width="1.0" marker-end="url(#triangle-empty)"/>
+</g>
+
+
+<g class="uml-edge"
+   data-type="generalization"
+   data-src="ИсчислениеПредикатовПервогоПорядка"
+   data-tgt="Предикат"
+   data-substitutable="true">
+  <path class="uml-edge-line" d="M1930.3,150.9 C1841.9,205.1 1541.5,395.8 1337.6,603.4 C1300.0,641.7 1282.5,649.4 1265.6,700.4 C1254.6,733.8 1267.3,775.2 1275.9,797.1" fill="none" stroke="#181818" stroke-width="1.0" marker-end="url(#triangle-empty)"/>
+</g>
+
+
+<g class="uml-edge"
+   data-type="generalization"
+   data-src="ИсчислениеПредикатовПервогоПорядка"
+   data-tgt="ПредикатNМестный"
+   data-substitutable="true">
+  <path class="uml-edge-line" d="M2103.4,147.1 C2395.5,171.9 3018.6,235.6 3018.6,327.5 C3018.6,327.5 3018.6,327.5 3018.6,523.4 C3018.6,752.0 2201.2,868.3 1934.6,900.1" fill="none" stroke="#181818" stroke-width="1.0" marker-end="url(#triangle-empty)"/>
+</g>
+
+
+<g class="uml-edge"
+   data-type="generalization"
+   data-src="ИсчислениеПредикатовПервогоПорядка"
+   data-tgt="ПредикатNМестный2"
+   data-substitutable="true">
+  <path class="uml-edge-line" d="M2103.2,136.5 C2276.3,140.6 2571.0,156.6 2816.6,215.5 C2930.1,242.8 2994.1,216.6 3060.6,312.5 C3254.6,592.2 2913.2,787.1 2602.6,926.3 C2515.9,965.1 2408.6,986.0 2335.0,996.5" fill="none" stroke="#181818" stroke-width="1.0" marker-end="url(#triangle-empty)"/>
+</g>
+
+
+<g class="uml-edge"
+   data-type="generalization"
+   data-src="ИсчислениеПредикатовПервогоПорядка"
+   data-tgt="ФункциональныйСимвол"
+   data-substitutable="true">
+  <path class="uml-edge-line" d="M2103.2,136.5 C2276.3,140.6 2571.0,156.6 2816.6,215.5 C2930.1,242.8 2957.3,258.2 3060.6,312.5 C3208.3,390.2 3372.6,354.5 3372.6,521.4 C3372.6,521.4 3372.6,521.4 3372.6,911.3 C3372.6,1035.8 2447.7,1086.1 2141.1,1099.4" fill="none" stroke="#181818" stroke-width="1.0" marker-end="url(#triangle-empty)"/>
+</g>
+
+
+<g class="uml-edge"
+   data-type="generalization"
+   data-src="ИсчислениеПредикатовПервогоПорядка"
+   data-tgt="ФункциональныйСимволNМестный"
+   data-substitutable="true">
+  <path class="uml-edge-line" d="M2103.5,138.7 C2488.2,148.8 3490.6,188.6 3490.6,327.5 C3490.6,327.5 3490.6,327.5 3490.6,1008.3 C3490.6,1152.4 2427.7,1189.4 2056.6,1197.9" fill="none" stroke="#181818" stroke-width="1.0" marker-end="url(#triangle-empty)"/>
+</g>
+
+
+<g class="uml-edge"
+   data-type="generalization"
+   data-src="ИсчислениеПредикатовПрикладное"
+   data-tgt="ИсчислениеПредикатовЧистое"
+   data-substitutable="true">
+  <path class="uml-edge-line" d="M996.6,247.8 C996.6,265.5 996.6,294.6 996.6,312.3" fill="none" stroke="#181818" stroke-width="1.0" marker-end="url(#triangle-empty)"/>
+</g>
+
+
+<g class="uml-edge"
+   data-type="generalization"
+   data-src="ИсчислениеПредикатовЧистое"
+   data-tgt="КванторВсеобщности"
+   data-substitutable="true">
+  <path class="uml-edge-line" d="M1115.5,342.7 C1288.6,361.9 1606.2,397.2 1761.5,414.4" fill="none" stroke="#181818" stroke-width="1.0" marker-end="url(#triangle-empty)"/>
+</g>
+
+
+<g class="uml-edge"
+   data-type="generalization"
+   data-src="ИсчислениеПредикатовЧистое"
+   data-tgt="КванторСуществования"
+   data-substitutable="true">
+  <path class="uml-edge-line" d="M1115.5,328.8 C1300.6,330.0 1667.8,341.7 1970.6,409.5 C2071.5,432.0 2184.1,481.1 2237.8,506.1" fill="none" stroke="#181818" stroke-width="1.0" marker-end="url(#triangle-empty)"/>
+</g>
+
+
+<g class="uml-edge"
+   data-type="generalization"
+   data-src="ИсчислениеПредикатовЧистое"
+   data-tgt="КонстантаПредметная"
+   data-substitutable="true">
+  <path class="uml-edge-line" d="M1051.0,344.9 C1227.8,395.0 1784.3,552.8 1961.1,602.9" fill="none" stroke="#181818" stroke-width="1.0" marker-end="url(#triangle-empty)"/>
+</g>
+
+
+<g class="uml-edge"
+   data-type="generalization"
+   data-src="ИсчислениеПредикатовЧистое"
+   data-tgt="ПеременнаяПредметная"
+   data-substitutable="true">
+  <path class="uml-edge-line" d="M1013.4,344.9 C1081.0,406.8 1333.1,637.9 1400.8,700.0" fill="none" stroke="#181818" stroke-width="1.0" marker-end="url(#triangle-empty)"/>
+</g>
+
+
+<g class="uml-edge"
+   data-type="generalization"
+   data-src="ИсчислениеПредикатовЧистое"
+   data-tgt="Предикат"
+   data-substitutable="true">
+  <path class="uml-edge-line" d="M996.6,344.9 C996.6,377.5 996.6,455.8 996.6,521.4 C996.6,521.4 996.6,521.4 996.6,620.4 C996.6,728.2 1138.4,779.3 1222.3,800.2" fill="none" stroke="#181818" stroke-width="1.0" marker-end="url(#triangle-empty)"/>
+</g>
+
+
+<g class="uml-edge"
+   data-type="generalization"
+   data-src="ИсчислениеПредикатовЧистое"
+   data-tgt="ПредикатNМестный"
+   data-substitutable="true">
+  <path class="uml-edge-line" d="M978.7,344.9 C945.7,375.2 878.6,445.9 878.6,521.4 C878.6,521.4 878.6,521.4 878.6,620.4 C878.6,699.7 951.7,688.2 1017.6,732.3 C1091.8,782.1 1108.6,801.9 1193.6,829.3 C1393.1,893.7 1641.8,907.0 1768.7,909.2" fill="none" stroke="#181818" stroke-width="1.0" marker-end="url(#triangle-empty)"/>
+</g>
+
+
+<g class="uml-edge"
+   data-type="generalization"
+   data-src="ИсчислениеПредикатовЧистое"
+   data-tgt="ПредикатNМестный2"
+   data-substitutable="true">
+  <path class="uml-edge-line" d="M877.8,344.4 C774.9,364.6 642.6,412.0 642.6,521.4 C642.6,521.4 642.6,521.4 642.6,620.4 C642.6,935.7 1828.0,994.1 2162.0,1004.2" fill="none" stroke="#181818" stroke-width="1.0" marker-end="url(#triangle-empty)"/>
+</g>
+
+
+<g class="uml-edge"
+   data-type="generalization"
+   data-src="ИсчислениеПредикатовЧистое"
+   data-tgt="ФункциональныйСимвол"
+   data-substitutable="true">
+  <path class="uml-edge-line" d="M877.8,343.8 C810.8,355.2 727.1,375.2 658.6,409.5 C589.2,444.2 524.6,443.8 524.6,521.4 C524.6,521.4 524.6,521.4 524.6,814.3 C524.6,959.6 1611.0,1065.8 1946.3,1095.1" fill="none" stroke="#181818" stroke-width="1.0" marker-end="url(#triangle-empty)"/>
+</g>
+
+
+<g class="uml-edge"
+   data-type="generalization"
+   data-src="ИсчислениеПредикатовЧистое"
+   data-tgt="ФункциональныйСимволNМестный"
+   data-substitutable="true">
+  <path class="uml-edge-line" d="M877.6,343.7 C705.2,367.7 406.6,423.3 406.6,521.4 C406.6,521.4 406.6,521.4 406.6,1008.3 C406.6,1148.8 1439.5,1188.0 1804.6,1197.5" fill="none" stroke="#181818" stroke-width="1.0" marker-end="url(#triangle-empty)"/>
+</g>
+
+
+<g class="uml-edge"
+   data-type="generalization"
+   data-src="КванторВсеобщности"
+   data-tgt="КонстантаПредметная"
+   data-substitutable="true">
+  <path class="uml-edge-line" d="M1864.8,441.8 C1895.5,477.8 1971.6,566.9 2002.4,602.9" fill="none" stroke="#181818" stroke-width="1.0" marker-end="url(#triangle-empty)"/>
+</g>
+
+
+<g class="uml-edge"
+   data-type="generalization"
+   data-src="КванторВсеобщности"
+   data-tgt="ПеременнаяПредметная"
+   data-substitutable="true">
+  <path class="uml-edge-line" d="M1828.6,441.8 C1753.5,491.8 1516.2,649.7 1440.8,699.9" fill="none" stroke="#181818" stroke-width="1.0" marker-end="url(#triangle-empty)"/>
+</g>
+
+
+<g class="uml-edge"
+   data-type="generalization"
+   data-src="КванторВсеобщности"
+   data-tgt="Предикат"
+   data-substitutable="true">
+  <path class="uml-edge-line" d="M1761.6,441.8 C1633.0,468.9 1400.3,538.7 1291.6,700.4 C1271.8,729.8 1275.6,774.0 1279.5,797.1" fill="none" stroke="#181818" stroke-width="1.0" marker-end="url(#triangle-empty)"/>
+</g>
+
+
+<g class="uml-edge"
+   data-type="generalization"
+   data-src="КванторВсеобщности"
+   data-tgt="ПредикатNМестный"
+   data-substitutable="true">
+  <path class="uml-edge-line" d="M1851.6,441.7 C1851.6,514.0 1851.6,821.7 1851.6,894.0" fill="none" stroke="#181818" stroke-width="1.0" marker-end="url(#triangle-empty)"/>
+</g>
+
+
+<g class="uml-edge"
+   data-type="generalization"
+   data-src="КванторВсеобщности"
+   data-tgt="ФункциональныйСимвол"
+   data-substitutable="true">
+  <path class="uml-edge-line" d="M1941.7,433.9 C2233.9,460.4 3136.6,562.4 3136.6,812.3 C3136.6,812.3 3136.6,812.3 3136.6,911.3 C3136.6,1049.9 2980.4,991.2 2845.6,1023.2 C2596.3,1082.5 2293.3,1097.9 2141.0,1101.9" fill="none" stroke="#181818" stroke-width="1.0" marker-end="url(#triangle-empty)"/>
+</g>
+
+
+<g class="uml-edge"
+   data-type="generalization"
+   data-src="КванторВсеобщности"
+   data-tgt="ФункциональныйСимволNМестный"
+   data-substitutable="true">
+  <path class="uml-edge-line" d="M1763.2,441.9 C1484.5,493.2 642.6,667.9 642.6,909.3 C642.6,909.3 642.6,909.3 642.6,1008.3 C642.6,1124.9 1480.2,1178.2 1804.5,1194.5" fill="none" stroke="#181818" stroke-width="1.0" marker-end="url(#triangle-empty)"/>
+</g>
+
+
+<g class="uml-edge"
+   data-type="generalization"
+   data-src="КванторСуществования"
+   data-tgt="КонстантаПредметная"
+   data-substitutable="true">
+  <path class="uml-edge-line" d="M2228.2,538.9 C2181.0,556.6 2104.2,585.3 2057.0,602.9" fill="none" stroke="#181818" stroke-width="1.0" marker-end="url(#triangle-empty)"/>
+</g>
+
+
+<g class="uml-edge"
+   data-type="generalization"
+   data-src="КванторСуществования"
+   data-tgt="ПеременнаяПредметная"
+   data-substitutable="true">
+  <path class="uml-edge-line" d="M2194.6,538.9 C2118.6,554.7 1997.8,580.1 1893.6,603.4 C1745.7,636.5 1572.7,677.9 1481.4,699.9" fill="none" stroke="#181818" stroke-width="1.0" marker-end="url(#triangle-empty)"/>
+</g>
+
+
+<g class="uml-edge"
+   data-type="generalization"
+   data-src="КванторСуществования"
+   data-tgt="ФункциональныйСимвол"
+   data-substitutable="true">
+  <path class="uml-edge-line" d="M2366.8,525.1 C2543.8,533.9 2900.6,580.4 2900.6,812.3 C2900.6,812.3 2900.6,812.3 2900.6,911.3 C2900.6,1065.5 2365.7,1095.8 2141.1,1101.8" fill="none" stroke="#181818" stroke-width="1.0" marker-end="url(#triangle-empty)"/>
+</g>
+
+
+<g class="uml-edge"
+   data-type="generalization"
+   data-src="КванторСуществования"
+   data-tgt="ФункциональныйСимволNМестный"
+   data-substitutable="true">
+  <path class="uml-edge-line" d="M2366.8,532.2 C2615.2,555.9 3254.6,625.5 3254.6,715.4 C3254.6,715.4 3254.6,715.4 3254.6,1008.3 C3254.6,1128.6 2387.4,1179.9 2056.7,1195.0" fill="none" stroke="#181818" stroke-width="1.0" marker-end="url(#triangle-empty)"/>
+</g>
+
+
+<g class="uml-edge"
+   data-type="generalization"
+   data-src="КонстантаПредметная"
+   data-tgt="ПеременнаяПредметная"
+   data-substitutable="true">
+  <path class="uml-edge-line" d="M1921.8,635.3 C1810.9,652.9 1627.1,682.1 1514.7,699.9" fill="none" stroke="#181818" stroke-width="1.0" marker-end="url(#triangle-empty)"/>
+</g>
+
+
+<g class="uml-edge"
+   data-type="generalization"
+   data-src="КонстантаПредметная"
+   data-tgt="Предикат"
+   data-substitutable="true">
+  <path class="uml-edge-line" d="M1956.6,635.9 C1819.1,671.9 1478.9,760.9 1341.6,796.9" fill="none" stroke="#181818" stroke-width="1.0" marker-end="url(#triangle-empty)"/>
+</g>
+
+
+<g class="uml-edge"
+   data-type="generalization"
+   data-src="КонстантаПредметная"
+   data-tgt="ПредикатNМестный"
+   data-substitutable="true">
+  <path class="uml-edge-line" d="M2007.0,635.5 C1978.8,685.3 1888.8,843.9 1860.3,894.0" fill="none" stroke="#181818" stroke-width="1.0" marker-end="url(#triangle-empty)"/>
+</g>
+
+
+<g class="uml-edge"
+   data-type="generalization"
+   data-src="КонстантаПредметная"
+   data-tgt="ПредикатNМестный2"
+   data-substitutable="true">
+  <path class="uml-edge-line" d="M2042.4,635.8 C2065.2,650.0 2097.6,673.1 2118.6,700.4 C2193.2,797.3 2233.4,943.5 2245.0,990.9" fill="none" stroke="#181818" stroke-width="1.0" marker-end="url(#triangle-empty)"/>
+</g>
+
+
+<g class="uml-edge"
+   data-type="generalization"
+   data-src="КонстантаПредметная"
+   data-tgt="ФункциональныйСимвол"
+   data-substitutable="true">
+  <path class="uml-edge-line" d="M2023.8,635.8 C2040.0,667.8 2074.6,744.0 2074.6,812.3 C2074.6,812.3 2074.6,812.3 2074.6,911.3 C2074.6,977.8 2056.2,1055.6 2047.8,1087.9" fill="none" stroke="#181818" stroke-width="1.0" marker-end="url(#triangle-empty)"/>
+</g>
+
+
+<g class="uml-edge"
+   data-type="generalization"
+   data-src="КонстантаПредметная"
+   data-tgt="ФункциональныйСимволNМестный"
+   data-substitutable="true">
+  <path class="uml-edge-line" d="M2109.1,627.3 C2358.1,648.1 3018.6,721.1 3018.6,909.3 C3018.6,909.3 3018.6,909.3 3018.6,1008.3 C3018.6,1105.0 2343.3,1168.4 2056.8,1191.0" fill="none" stroke="#181818" stroke-width="1.0" marker-end="url(#triangle-empty)"/>
+</g>
+
+
+<g class="uml-edge"
+   data-type="generalization"
+   data-src="Литерал"
+   data-tgt="ОбластьДействияКвантора"
+   data-substitutable="true">
+  <path class="uml-edge-line" d="M3709.9,53.8 C3691.6,71.6 3661.6,100.6 3643.3,118.3" fill="none" stroke="#181818" stroke-width="1.0" marker-end="url(#triangle-empty)"/>
+</g>
+
+
+<g class="uml-edge"
+   data-type="generalization"
+   data-src="Литерал"
+   data-tgt="ТермСвободныйДляПеременнойВФормуле"
+   data-substitutable="true">
+  <path class="uml-edge-line" d="M3736.8,53.8 C3751.0,75.1 3772.8,115.0 3764.6,150.5 C3759.1,174.5 3745.4,199.5 3735.8,215.1" fill="none" stroke="#181818" stroke-width="1.0" marker-end="url(#triangle-empty)"/>
+</g>
+
+
+<g class="uml-edge"
+   data-type="generalization"
+   data-src="ОбластьДействияКвантора"
+   data-tgt="ТермСвободныйДляПеременнойВФормуле"
+   data-substitutable="true">
+  <path class="uml-edge-line" d="M3643.4,150.8 C3661.7,168.5 3691.6,197.6 3709.9,215.3" fill="none" stroke="#181818" stroke-width="1.0" marker-end="url(#triangle-empty)"/>
+</g>
+
+
+<g class="uml-edge"
+   data-type="generalization"
+   data-src="ПеременнаяПредметная"
+   data-tgt="Предикат"
+   data-substitutable="true">
+  <path class="uml-edge-line" d="M1395.6,732.8 C1370.5,750.5 1329.7,779.2 1304.6,796.9" fill="none" stroke="#181818" stroke-width="1.0" marker-end="url(#triangle-empty)"/>
+</g>
+
+
+<g class="uml-edge"
+   data-type="generalization"
+   data-src="ПеременнаяПредметная"
+   data-tgt="ПредикатNМестный"
+   data-substitutable="true">
+  <path class="uml-edge-line" d="M1461.3,732.7 C1504.0,748.0 1570.4,772.7 1626.6,797.3 C1698.5,828.9 1780.5,871.4 1822.9,893.9" fill="none" stroke="#181818" stroke-width="1.0" marker-end="url(#triangle-empty)"/>
+</g>
+
+
+<g class="uml-edge"
+   data-type="generalization"
+   data-src="ПеременнаяПредметная"
+   data-tgt="ПредикатNМестный2"
+   data-substitutable="true">
+  <path class="uml-edge-line" d="M1435.3,732.8 C1481.7,772.3 1611.7,877.3 1739.6,926.3 C1881.2,980.5 2058.4,998.0 2162.0,1003.6" fill="none" stroke="#181818" stroke-width="1.0" marker-end="url(#triangle-empty)"/>
+</g>
+
+
+<g class="uml-edge"
+   data-type="generalization"
+   data-src="ПеременнаяПредметная"
+   data-tgt="ФункциональныйСимвол"
+   data-substitutable="true">
+  <path class="uml-edge-line" d="M1427.1,732.8 C1441.8,755.8 1471.6,799.4 1504.6,829.3 C1656.7,967.5 1891.3,1054.5 1993.4,1087.8" fill="none" stroke="#181818" stroke-width="1.0" marker-end="url(#triangle-empty)"/>
+</g>
+
+
+<g class="uml-edge"
+   data-type="generalization"
+   data-src="ПеременнаяПредметная"
+   data-tgt="ФункциональныйСимволNМестный"
+   data-substitutable="true">
+  <path class="uml-edge-line" d="M1320.2,726.6 C1273.8,736.5 1222.3,756.6 1193.6,797.3 C1144.2,867.5 1106.1,805.2 1299.6,1023.2 C1348.9,1078.8 1366.9,1092.0 1435.6,1120.2 C1554.9,1169.2 1701.8,1188.3 1804.5,1195.7" fill="none" stroke="#181818" stroke-width="1.0" marker-end="url(#triangle-empty)"/>
+</g>
+
+
+<g class="uml-edge"
+   data-type="generalization"
+   data-src="Предикат"
+   data-tgt="ПредикатNМестный"
+   data-substitutable="true">
+  <path class="uml-edge-line" d="M1343.0,824.4 C1445.2,841.5 1652.7,876.1 1768.5,895.4" fill="none" stroke="#181818" stroke-width="1.0" marker-end="url(#triangle-empty)"/>
+</g>
+
+
+<g class="uml-edge"
+   data-type="generalization"
+   data-src="Предикат"
+   data-tgt="ПредикатNМестный2"
+   data-substitutable="true">
+  <path class="uml-edge-line" d="M1321.2,829.7 C1383.5,854.0 1510.8,901.0 1622.6,926.3 C1812.6,969.3 2040.5,991.1 2162.1,1000.5" fill="none" stroke="#181818" stroke-width="1.0" marker-end="url(#triangle-empty)"/>
+</g>
+
+
+<g class="uml-edge"
+   data-type="generalization"
+   data-src="Предикат"
+   data-tgt="ФункциональныйСимвол"
+   data-substitutable="true">
+  <path class="uml-edge-line" d="M1285.2,829.6 C1292.6,869.2 1318.4,975.1 1386.6,1023.2 C1474.5,1085.4 1785.7,1099.4 1946.2,1102.5" fill="none" stroke="#181818" stroke-width="1.0" marker-end="url(#triangle-empty)"/>
+</g>
+
+
+<g class="uml-edge"
+   data-type="generalization"
+   data-src="Предикат"
+   data-tgt="ФункциональныйСимволNМестный"
+   data-substitutable="true">
+  <path class="uml-edge-line" d="M1281.5,829.8 C1279.6,869.3 1280.7,974.3 1340.6,1023.2 C1474.7,1132.8 1675.1,1174.5 1804.3,1190.4" fill="none" stroke="#181818" stroke-width="1.0" marker-end="url(#triangle-empty)"/>
+</g>
+
+
+<g class="uml-edge"
+   data-type="generalization"
+   data-src="ПредикатNМестный"
+   data-tgt="ПредикатNМестный2"
+   data-substitutable="true">
+  <path class="uml-edge-line" d="M1916.3,926.8 C1990.1,944.4 2110.2,973.1 2184.0,990.8" fill="none" stroke="#181818" stroke-width="1.0" marker-end="url(#triangle-empty)"/>
+</g>
+
+
+<g class="uml-edge"
+   data-type="generalization"
+   data-src="ПредикатNМестный"
+   data-tgt="ФункциональныйСимвол"
+   data-substitutable="true">
+  <path class="uml-edge-line" d="M1867.0,926.7 C1902.9,962.6 1992.1,1051.8 2028.1,1087.8" fill="none" stroke="#181818" stroke-width="1.0" marker-end="url(#triangle-empty)"/>
+</g>
+
+
+<g class="uml-edge"
+   data-type="generalization"
+   data-src="ПредикатNМестный"
+   data-tgt="ФункциональныйСимволNМестный"
+   data-substitutable="true">
+  <path class="uml-edge-line" d="M1855.8,926.4 C1869.4,976.2 1912.7,1134.8 1926.4,1184.9" fill="none" stroke="#181818" stroke-width="1.0" marker-end="url(#triangle-empty)"/>
+</g>
+
+
+<g class="uml-edge"
+   data-type="generalization"
+   data-src="ПредикатNМестный2"
+   data-tgt="ФункциональныйСимвол"
+   data-substitutable="true">
+  <path class="uml-edge-line" d="M2215.2,1023.7 C2177.1,1041.4 2115.1,1070.1 2077.0,1087.8" fill="none" stroke="#181818" stroke-width="1.0" marker-end="url(#triangle-empty)"/>
+</g>
+
+
+<g class="uml-edge"
+   data-type="generalization"
+   data-src="ПредикатNМестный2"
+   data-tgt="ФункциональныйСимволNМестный"
+   data-substitutable="true">
+  <path class="uml-edge-line" d="M2241.7,1023.7 C2230.2,1047.7 2204.7,1094.1 2169.6,1120.2 C2125.4,1153.1 2066.8,1173.0 2018.7,1184.7" fill="none" stroke="#181818" stroke-width="1.0" marker-end="url(#triangle-empty)"/>
+</g>
+
+
+<g class="uml-edge"
+   data-type="generalization"
+   data-src="Терм"
+   data-tgt="ФормулаАтомарная"
+   data-substitutable="true">
+  <path class="uml-edge-line" d="M91.9,150.8 C103.8,168.5 123.4,197.6 135.3,215.3" fill="none" stroke="#181818" stroke-width="1.0" marker-end="url(#triangle-empty)"/>
+</g>
+
+
+<g class="uml-edge"
+   data-type="generalization"
+   data-src="ФункциональныйСимвол"
+   data-tgt="ФункциональныйСимволNМестный"
+   data-substitutable="true">
+  <path class="uml-edge-line" d="M2025.2,1120.7 C2004.2,1138.4 1970.0,1167.1 1949.0,1184.7" fill="none" stroke="#181818" stroke-width="1.0" marker-end="url(#triangle-empty)"/>
+</g>
+
+
+<g class="uml-edge"
+   data-type="dependency"
+   data-src="КванторВсеобщности"
+   data-tgt="КванторСуществования"
+   data-stereotype="">
+  <path class="uml-edge-line" d="M1919.7,441.9 C1997.4,459.6 2123.8,488.3 2201.5,506.0" fill="none" stroke="#181818" stroke-width="1.0" stroke-dasharray="7,7" marker-end="url(#arrow-filled)"/>
+  
+</g>
+
+
+<g class="uml-edge"
+   data-type="dependency"
+   data-src="КванторВсеобщности"
+   data-tgt="ПредикатNМестный2"
+   data-stereotype="">
+  <path class="uml-edge-line" d="M1941.7,427.9 C2052.1,432.3 2243.2,448.6 2395.6,506.4 C2469.1,534.4 2491.7,544.3 2543.6,603.4 C2638.3,711.2 2653.4,835.1 2542.6,926.3 C2484.0,974.5 2398.7,993.8 2335.1,1001.4" fill="none" stroke="#181818" stroke-width="1.0" stroke-dasharray="7,7" marker-end="url(#arrow-filled)"/>
+  
+</g>
+
+
+<g class="uml-edge"
+   data-type="dependency"
+   data-src="КванторСуществования"
+   data-tgt="Предикат"
+   data-stereotype="">
+  <path class="uml-edge-line" d="M2256.3,538.8 C2234.2,563.3 2187.4,610.7 2137.6,635.4 C1862.4,771.4 1487.6,802.9 1343.0,810.2" fill="none" stroke="#181818" stroke-width="1.0" stroke-dasharray="7,7" marker-end="url(#arrow-filled)"/>
+  
+</g>
+
+
+<g class="uml-edge"
+   data-type="dependency"
+   data-src="КванторСуществования"
+   data-tgt="ПредикатNМестный"
+   data-stereotype="">
+  <path class="uml-edge-line" d="M2263.2,538.7 C2253.2,561.5 2232.2,604.8 2205.6,635.4 C2102.3,754.1 1940.9,856.4 1878.0,894.0" fill="none" stroke="#181818" stroke-width="1.0" stroke-dasharray="7,7" marker-end="url(#arrow-filled)"/>
+  
+</g>
+
+
+<g class="uml-edge"
+   data-type="dependency"
+   data-src="КванторСуществования"
+   data-tgt="ПредикатNМестный2"
+   data-stereotype="">
+  <path class="uml-edge-line" d="M2337.7,538.9 C2419.8,561.9 2546.6,614.0 2546.6,715.4 C2546.6,715.4 2546.6,715.4 2546.6,814.3 C2546.6,918.3 2416.7,968.7 2328.5,990.9" fill="none" stroke="#181818" stroke-width="1.0" stroke-dasharray="7,7" marker-end="url(#arrow-filled)"/>
+  
+</g>
+
+<g transform="translate(95,21)" class="uml-class" data-id="Атом" data-name="Атом" data-type="class" data-class-kind="class" data-visibility="" data-stereotype="" data-abstract="false" data-multiplicity="" data-attributes-count="0" data-operations-count="0" data-tagged-values-count="0" data-template-parameters-count="0">
+<rect class="uml-class-title" x="0" y="0" width="120" height="32" fill="#e5e5e5"/>
+<rect class="uml-class-outline uml-class-title-outline" x="0" y="0" width="120" height="32" stroke="#999999" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+<circle class="uml-kind-badge uml-kind-badge-c" cx="19" cy="16.0" r="11" fill="#b8d9bf" stroke="#3e7d4a" stroke-width="1.5"/><text class="uml-kind-badge-text" x="19" y="20.0" text-anchor="middle" font-family="Arial" font-size="12" font-weight="700" fill="black">C</text>
+<text class="uml-class-title-text" x="38" y="20" text-anchor="start" fill="black" font-family="Arial" font-size="12" font-weight="500">Атом</text>
+<rect class="uml-bbox" x="0" y="0" width="120" height="32" fill="none" stroke="none" pointer-events="all"/>
+</g>
+<g transform="translate(439,21)" class="uml-class" data-id="ВхождениеПеременнойСвободное" data-name="ВхождениеПеременнойСвободное" data-type="class" data-class-kind="class" data-visibility="" data-stereotype="" data-abstract="false" data-multiplicity="" data-attributes-count="0" data-operations-count="0" data-tagged-values-count="0" data-template-parameters-count="0">
+<rect class="uml-class-title" x="0" y="0" width="251.6" height="32" fill="#e5e5e5"/>
+<rect class="uml-class-outline uml-class-title-outline" x="0" y="0" width="251.6" height="32" stroke="#999999" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+<circle class="uml-kind-badge uml-kind-badge-c" cx="19" cy="16.0" r="11" fill="#b8d9bf" stroke="#3e7d4a" stroke-width="1.5"/><text class="uml-kind-badge-text" x="19" y="20.0" text-anchor="middle" font-family="Arial" font-size="12" font-weight="700" fill="black">C</text>
+<text class="uml-class-title-text" x="38" y="20" text-anchor="start" fill="black" font-family="Arial" font-size="12" font-weight="500">ВхождениеПеременнойСвободное</text>
+<rect class="uml-bbox" x="0" y="0" width="251.6" height="32" fill="none" stroke="none" pointer-events="all"/>
+</g>
+<g transform="translate(317,118)" class="uml-class" data-id="ВхождениеПеременнойСвязанное" data-name="ВхождениеПеременнойСвязанное" data-type="class" data-class-kind="class" data-visibility="" data-stereotype="" data-abstract="false" data-multiplicity="" data-attributes-count="0" data-operations-count="0" data-tagged-values-count="0" data-template-parameters-count="0">
+<rect class="uml-class-title" x="0" y="0" width="251.6" height="32" fill="#e5e5e5"/>
+<rect class="uml-class-outline uml-class-title-outline" x="0" y="0" width="251.6" height="32" stroke="#999999" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+<circle class="uml-kind-badge uml-kind-badge-c" cx="19" cy="16.0" r="11" fill="#b8d9bf" stroke="#3e7d4a" stroke-width="1.5"/><text class="uml-kind-badge-text" x="19" y="20.0" text-anchor="middle" font-family="Arial" font-size="12" font-weight="700" fill="black">C</text>
+<text class="uml-class-title-text" x="38" y="20" text-anchor="start" fill="black" font-family="Arial" font-size="12" font-weight="500">ВхождениеПеременнойСвязанное</text>
+<rect class="uml-bbox" x="0" y="0" width="251.6" height="32" fill="none" stroke="none" pointer-events="all"/>
+</g>
+<g transform="translate(849,21)" class="uml-class" data-id="ИсчислениеПредикатовВысшегоПорядка" data-name="ИсчислениеПредикатовВысшегоПорядка" data-type="class" data-class-kind="class" data-visibility="" data-stereotype="" data-abstract="false" data-multiplicity="" data-attributes-count="0" data-operations-count="0" data-tagged-values-count="0" data-template-parameters-count="0">
+<rect class="uml-class-title" x="0" y="0" width="294.8" height="32" fill="#e5e5e5"/>
+<rect class="uml-class-outline uml-class-title-outline" x="0" y="0" width="294.8" height="32" stroke="#999999" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+<circle class="uml-kind-badge uml-kind-badge-c" cx="19" cy="16.0" r="11" fill="#b8d9bf" stroke="#3e7d4a" stroke-width="1.5"/><text class="uml-kind-badge-text" x="19" y="20.0" text-anchor="middle" font-family="Arial" font-size="12" font-weight="700" fill="black">C</text>
+<text class="uml-class-title-text" x="38" y="20" text-anchor="start" fill="black" font-family="Arial" font-size="12" font-weight="500">ИсчислениеПредикатовВысшегоПорядка</text>
+<rect class="uml-bbox" x="0" y="0" width="294.8" height="32" fill="none" stroke="none" pointer-events="all"/>
+</g>
+<g transform="translate(1808,118)" class="uml-class" data-id="ИсчислениеПредикатовПервогоПорядка" data-name="ИсчислениеПредикатовПервогоПорядка" data-type="class" data-class-kind="class" data-visibility="" data-stereotype="" data-abstract="false" data-multiplicity="" data-attributes-count="0" data-operations-count="0" data-tagged-values-count="0" data-template-parameters-count="0">
+<rect class="uml-class-title" x="0" y="0" width="294.8" height="32" fill="#e5e5e5"/>
+<rect class="uml-class-outline uml-class-title-outline" x="0" y="0" width="294.8" height="32" stroke="#999999" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+<circle class="uml-kind-badge uml-kind-badge-c" cx="19" cy="16.0" r="11" fill="#b8d9bf" stroke="#3e7d4a" stroke-width="1.5"/><text class="uml-kind-badge-text" x="19" y="20.0" text-anchor="middle" font-family="Arial" font-size="12" font-weight="700" fill="black">C</text>
+<text class="uml-class-title-text" x="38" y="20" text-anchor="start" fill="black" font-family="Arial" font-size="12" font-weight="500">ИсчислениеПредикатовПервогоПорядка</text>
+<rect class="uml-bbox" x="0" y="0" width="294.8" height="32" fill="none" stroke="none" pointer-events="all"/>
+</g>
+<g transform="translate(863,215)" class="uml-class" data-id="ИсчислениеПредикатовПрикладное" data-name="ИсчислениеПредикатовПрикладное" data-type="class" data-class-kind="class" data-visibility="" data-stereotype="" data-abstract="false" data-multiplicity="" data-attributes-count="0" data-operations-count="0" data-tagged-values-count="0" data-template-parameters-count="0">
+<rect class="uml-class-title" x="0" y="0" width="266.0" height="32" fill="#e5e5e5"/>
+<rect class="uml-class-outline uml-class-title-outline" x="0" y="0" width="266.0" height="32" stroke="#999999" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+<circle class="uml-kind-badge uml-kind-badge-c" cx="19" cy="16.0" r="11" fill="#b8d9bf" stroke="#3e7d4a" stroke-width="1.5"/><text class="uml-kind-badge-text" x="19" y="20.0" text-anchor="middle" font-family="Arial" font-size="12" font-weight="700" fill="black">C</text>
+<text class="uml-class-title-text" x="38" y="20" text-anchor="start" fill="black" font-family="Arial" font-size="12" font-weight="500">ИсчислениеПредикатовПрикладное</text>
+<rect class="uml-bbox" x="0" y="0" width="266.0" height="32" fill="none" stroke="none" pointer-events="all"/>
+</g>
+<g transform="translate(878,312)" class="uml-class" data-id="ИсчислениеПредикатовЧистое" data-name="ИсчислениеПредикатовЧистое" data-type="class" data-class-kind="class" data-visibility="" data-stereotype="" data-abstract="false" data-multiplicity="" data-attributes-count="0" data-operations-count="0" data-tagged-values-count="0" data-template-parameters-count="0">
+<rect class="uml-class-title" x="0" y="0" width="237.20000000000002" height="32" fill="#e5e5e5"/>
+<rect class="uml-class-outline uml-class-title-outline" x="0" y="0" width="237.20000000000002" height="32" stroke="#999999" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+<circle class="uml-kind-badge uml-kind-badge-c" cx="19" cy="16.0" r="11" fill="#b8d9bf" stroke="#3e7d4a" stroke-width="1.5"/><text class="uml-kind-badge-text" x="19" y="20.0" text-anchor="middle" font-family="Arial" font-size="12" font-weight="700" fill="black">C</text>
+<text class="uml-class-title-text" x="38" y="20" text-anchor="start" fill="black" font-family="Arial" font-size="12" font-weight="500">ИсчислениеПредикатовЧистое</text>
+<rect class="uml-bbox" x="0" y="0" width="237.20000000000002" height="32" fill="none" stroke="none" pointer-events="all"/>
+</g>
+<g transform="translate(1761,409)" class="uml-class" data-id="КванторВсеобщности" data-name="КванторВсеобщности" data-type="class" data-class-kind="class" data-visibility="" data-stereotype="" data-abstract="false" data-multiplicity="" data-attributes-count="0" data-operations-count="0" data-tagged-values-count="0" data-template-parameters-count="0">
+<rect class="uml-class-title" x="0" y="0" width="179.6" height="32" fill="#e5e5e5"/>
+<rect class="uml-class-outline uml-class-title-outline" x="0" y="0" width="179.6" height="32" stroke="#999999" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+<circle class="uml-kind-badge uml-kind-badge-c" cx="19" cy="16.0" r="11" fill="#b8d9bf" stroke="#3e7d4a" stroke-width="1.5"/><text class="uml-kind-badge-text" x="19" y="20.0" text-anchor="middle" font-family="Arial" font-size="12" font-weight="700" fill="black">C</text>
+<text class="uml-class-title-text" x="38" y="20" text-anchor="start" fill="black" font-family="Arial" font-size="12" font-weight="500">КванторВсеобщности</text>
+<rect class="uml-bbox" x="0" y="0" width="179.6" height="32" fill="none" stroke="none" pointer-events="all"/>
+</g>
+<g transform="translate(2172,506)" class="uml-class" data-id="КванторСуществования" data-name="КванторСуществования" data-type="class" data-class-kind="class" data-visibility="" data-stereotype="" data-abstract="false" data-multiplicity="" data-attributes-count="0" data-operations-count="0" data-tagged-values-count="0" data-template-parameters-count="0">
+<rect class="uml-class-title" x="0" y="0" width="194.0" height="32" fill="#e5e5e5"/>
+<rect class="uml-class-outline uml-class-title-outline" x="0" y="0" width="194.0" height="32" stroke="#999999" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+<circle class="uml-kind-badge uml-kind-badge-c" cx="19" cy="16.0" r="11" fill="#b8d9bf" stroke="#3e7d4a" stroke-width="1.5"/><text class="uml-kind-badge-text" x="19" y="20.0" text-anchor="middle" font-family="Arial" font-size="12" font-weight="700" fill="black">C</text>
+<text class="uml-class-title-text" x="38" y="20" text-anchor="start" fill="black" font-family="Arial" font-size="12" font-weight="500">КванторСуществования</text>
+<rect class="uml-bbox" x="0" y="0" width="194.0" height="32" fill="none" stroke="none" pointer-events="all"/>
+</g>
+<g transform="translate(1922,603)" class="uml-class" data-id="КонстантаПредметная" data-name="КонстантаПредметная" data-type="class" data-class-kind="class" data-visibility="" data-stereotype="" data-abstract="false" data-multiplicity="" data-attributes-count="0" data-operations-count="0" data-tagged-values-count="0" data-template-parameters-count="0">
+<rect class="uml-class-title" x="0" y="0" width="186.8" height="32" fill="#e5e5e5"/>
+<rect class="uml-class-outline uml-class-title-outline" x="0" y="0" width="186.8" height="32" stroke="#999999" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+<circle class="uml-kind-badge uml-kind-badge-c" cx="19" cy="16.0" r="11" fill="#b8d9bf" stroke="#3e7d4a" stroke-width="1.5"/><text class="uml-kind-badge-text" x="19" y="20.0" text-anchor="middle" font-family="Arial" font-size="12" font-weight="700" fill="black">C</text>
+<text class="uml-class-title-text" x="38" y="20" text-anchor="start" fill="black" font-family="Arial" font-size="12" font-weight="500">КонстантаПредметная</text>
+<rect class="uml-bbox" x="0" y="0" width="186.8" height="32" fill="none" stroke="none" pointer-events="all"/>
+</g>
+<g transform="translate(3665,21)" class="uml-class" data-id="Литерал" data-name="Литерал" data-type="class" data-class-kind="class" data-visibility="" data-stereotype="" data-abstract="false" data-multiplicity="" data-attributes-count="0" data-operations-count="0" data-tagged-values-count="0" data-template-parameters-count="0">
+<rect class="uml-class-title" x="0" y="0" width="120" height="32" fill="#e5e5e5"/>
+<rect class="uml-class-outline uml-class-title-outline" x="0" y="0" width="120" height="32" stroke="#999999" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+<circle class="uml-kind-badge uml-kind-badge-c" cx="19" cy="16.0" r="11" fill="#b8d9bf" stroke="#3e7d4a" stroke-width="1.5"/><text class="uml-kind-badge-text" x="19" y="20.0" text-anchor="middle" font-family="Arial" font-size="12" font-weight="700" fill="black">C</text>
+<text class="uml-class-title-text" x="38" y="20" text-anchor="start" fill="black" font-family="Arial" font-size="12" font-weight="500">Литерал</text>
+<rect class="uml-bbox" x="0" y="0" width="120" height="32" fill="none" stroke="none" pointer-events="all"/>
+</g>
+<g transform="translate(3519,118)" class="uml-class" data-id="ОбластьДействияКвантора" data-name="ОбластьДействияКвантора" data-type="class" data-class-kind="class" data-visibility="" data-stereotype="" data-abstract="false" data-multiplicity="" data-attributes-count="0" data-operations-count="0" data-tagged-values-count="0" data-template-parameters-count="0">
+<rect class="uml-class-title" x="0" y="0" width="215.6" height="32" fill="#e5e5e5"/>
+<rect class="uml-class-outline uml-class-title-outline" x="0" y="0" width="215.6" height="32" stroke="#999999" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+<circle class="uml-kind-badge uml-kind-badge-c" cx="19" cy="16.0" r="11" fill="#b8d9bf" stroke="#3e7d4a" stroke-width="1.5"/><text class="uml-kind-badge-text" x="19" y="20.0" text-anchor="middle" font-family="Arial" font-size="12" font-weight="700" fill="black">C</text>
+<text class="uml-class-title-text" x="38" y="20" text-anchor="start" fill="black" font-family="Arial" font-size="12" font-weight="500">ОбластьДействияКвантора</text>
+<rect class="uml-bbox" x="0" y="0" width="215.6" height="32" fill="none" stroke="none" pointer-events="all"/>
+</g>
+<g transform="translate(1320,700)" class="uml-class" data-id="ПеременнаяПредметная" data-name="ПеременнаяПредметная" data-type="class" data-class-kind="class" data-visibility="" data-stereotype="" data-abstract="false" data-multiplicity="" data-attributes-count="0" data-operations-count="0" data-tagged-values-count="0" data-template-parameters-count="0">
+<rect class="uml-class-title" x="0" y="0" width="194.0" height="32" fill="#e5e5e5"/>
+<rect class="uml-class-outline uml-class-title-outline" x="0" y="0" width="194.0" height="32" stroke="#999999" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+<circle class="uml-kind-badge uml-kind-badge-c" cx="19" cy="16.0" r="11" fill="#b8d9bf" stroke="#3e7d4a" stroke-width="1.5"/><text class="uml-kind-badge-text" x="19" y="20.0" text-anchor="middle" font-family="Arial" font-size="12" font-weight="700" fill="black">C</text>
+<text class="uml-class-title-text" x="38" y="20" text-anchor="start" fill="black" font-family="Arial" font-size="12" font-weight="500">ПеременнаяПредметная</text>
+<rect class="uml-bbox" x="0" y="0" width="194.0" height="32" fill="none" stroke="none" pointer-events="all"/>
+</g>
+<g transform="translate(425,215)" class="uml-class" data-id="ПеременнаяСвязанная" data-name="ПеременнаяСвязанная" data-type="class" data-class-kind="class" data-visibility="" data-stereotype="" data-abstract="false" data-multiplicity="" data-attributes-count="0" data-operations-count="0" data-tagged-values-count="0" data-template-parameters-count="0">
+<rect class="uml-class-title" x="0" y="0" width="186.8" height="32" fill="#e5e5e5"/>
+<rect class="uml-class-outline uml-class-title-outline" x="0" y="0" width="186.8" height="32" stroke="#999999" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+<circle class="uml-kind-badge uml-kind-badge-c" cx="19" cy="16.0" r="11" fill="#b8d9bf" stroke="#3e7d4a" stroke-width="1.5"/><text class="uml-kind-badge-text" x="19" y="20.0" text-anchor="middle" font-family="Arial" font-size="12" font-weight="700" fill="black">C</text>
+<text class="uml-class-title-text" x="38" y="20" text-anchor="start" fill="black" font-family="Arial" font-size="12" font-weight="500">ПеременнаяСвязанная</text>
+<rect class="uml-bbox" x="0" y="0" width="186.8" height="32" fill="none" stroke="none" pointer-events="all"/>
+</g>
+<g transform="translate(1222,797)" class="uml-class" data-id="Предикат" data-name="Предикат" data-type="class" data-class-kind="class" data-visibility="" data-stereotype="" data-abstract="false" data-multiplicity="" data-attributes-count="0" data-operations-count="0" data-tagged-values-count="0" data-template-parameters-count="0">
+<rect class="uml-class-title" x="0" y="0" width="120" height="32" fill="#e5e5e5"/>
+<rect class="uml-class-outline uml-class-title-outline" x="0" y="0" width="120" height="32" stroke="#999999" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+<circle class="uml-kind-badge uml-kind-badge-c" cx="19" cy="16.0" r="11" fill="#b8d9bf" stroke="#3e7d4a" stroke-width="1.5"/><text class="uml-kind-badge-text" x="19" y="20.0" text-anchor="middle" font-family="Arial" font-size="12" font-weight="700" fill="black">C</text>
+<text class="uml-class-title-text" x="38" y="20" text-anchor="start" fill="black" font-family="Arial" font-size="12" font-weight="500">Предикат</text>
+<rect class="uml-bbox" x="0" y="0" width="120" height="32" fill="none" stroke="none" pointer-events="all"/>
+</g>
+<g transform="translate(1769,894)" class="uml-class" data-id="ПредикатNМестный" data-name="ПредикатNМестный" data-type="class" data-class-kind="class" data-visibility="" data-stereotype="" data-abstract="false" data-multiplicity="" data-attributes-count="0" data-operations-count="0" data-tagged-values-count="0" data-template-parameters-count="0">
+<rect class="uml-class-title" x="0" y="0" width="165.2" height="32" fill="#e5e5e5"/>
+<rect class="uml-class-outline uml-class-title-outline" x="0" y="0" width="165.2" height="32" stroke="#999999" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+<circle class="uml-kind-badge uml-kind-badge-c" cx="19" cy="16.0" r="11" fill="#b8d9bf" stroke="#3e7d4a" stroke-width="1.5"/><text class="uml-kind-badge-text" x="19" y="20.0" text-anchor="middle" font-family="Arial" font-size="12" font-weight="700" fill="black">C</text>
+<text class="uml-class-title-text" x="38" y="20" text-anchor="start" fill="black" font-family="Arial" font-size="12" font-weight="500">ПредикатNМестный</text>
+<rect class="uml-bbox" x="0" y="0" width="165.2" height="32" fill="none" stroke="none" pointer-events="all"/>
+</g>
+<g transform="translate(2162,991)" class="uml-class" data-id="ПредикатNМестный2" data-name="ПредикатNМестный2" data-type="class" data-class-kind="class" data-visibility="" data-stereotype="" data-abstract="false" data-multiplicity="" data-attributes-count="0" data-operations-count="0" data-tagged-values-count="0" data-template-parameters-count="0">
+<rect class="uml-class-title" x="0" y="0" width="172.4" height="32" fill="#e5e5e5"/>
+<rect class="uml-class-outline uml-class-title-outline" x="0" y="0" width="172.4" height="32" stroke="#999999" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+<circle class="uml-kind-badge uml-kind-badge-c" cx="19" cy="16.0" r="11" fill="#b8d9bf" stroke="#3e7d4a" stroke-width="1.5"/><text class="uml-kind-badge-text" x="19" y="20.0" text-anchor="middle" font-family="Arial" font-size="12" font-weight="700" fill="black">C</text>
+<text class="uml-class-title-text" x="38" y="20" text-anchor="start" fill="black" font-family="Arial" font-size="12" font-weight="500">ПредикатNМестный2</text>
+<rect class="uml-bbox" x="0" y="0" width="172.4" height="32" fill="none" stroke="none" pointer-events="all"/>
+</g>
+<g transform="translate(21,118)" class="uml-class" data-id="Терм" data-name="Терм" data-type="class" data-class-kind="class" data-visibility="" data-stereotype="" data-abstract="false" data-multiplicity="" data-attributes-count="0" data-operations-count="0" data-tagged-values-count="0" data-template-parameters-count="0">
+<rect class="uml-class-title" x="0" y="0" width="120" height="32" fill="#e5e5e5"/>
+<rect class="uml-class-outline uml-class-title-outline" x="0" y="0" width="120" height="32" stroke="#999999" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+<circle class="uml-kind-badge uml-kind-badge-c" cx="19" cy="16.0" r="11" fill="#b8d9bf" stroke="#3e7d4a" stroke-width="1.5"/><text class="uml-kind-badge-text" x="19" y="20.0" text-anchor="middle" font-family="Arial" font-size="12" font-weight="700" fill="black">C</text>
+<text class="uml-class-title-text" x="38" y="20" text-anchor="start" fill="black" font-family="Arial" font-size="12" font-weight="500">Терм</text>
+<rect class="uml-bbox" x="0" y="0" width="120" height="32" fill="none" stroke="none" pointer-events="all"/>
+</g>
+<g transform="translate(3578,215)" class="uml-class" data-id="ТермСвободныйДляПеременнойВФормуле" data-name="ТермСвободныйДляПеременнойВФормуле" data-type="class" data-class-kind="class" data-visibility="" data-stereotype="" data-abstract="false" data-multiplicity="" data-attributes-count="0" data-operations-count="0" data-tagged-values-count="0" data-template-parameters-count="0">
+<rect class="uml-class-title" x="0" y="0" width="294.8" height="32" fill="#e5e5e5"/>
+<rect class="uml-class-outline uml-class-title-outline" x="0" y="0" width="294.8" height="32" stroke="#999999" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+<circle class="uml-kind-badge uml-kind-badge-c" cx="19" cy="16.0" r="11" fill="#b8d9bf" stroke="#3e7d4a" stroke-width="1.5"/><text class="uml-kind-badge-text" x="19" y="20.0" text-anchor="middle" font-family="Arial" font-size="12" font-weight="700" fill="black">C</text>
+<text class="uml-class-title-text" x="38" y="20" text-anchor="start" fill="black" font-family="Arial" font-size="12" font-weight="500">ТермСвободныйДляПеременнойВФормуле</text>
+<rect class="uml-bbox" x="0" y="0" width="294.8" height="32" fill="none" stroke="none" pointer-events="all"/>
+</g>
+<g transform="translate(63,215)" class="uml-class" data-id="ФормулаАтомарная" data-name="ФормулаАтомарная" data-type="class" data-class-kind="class" data-visibility="" data-stereotype="" data-abstract="false" data-multiplicity="" data-attributes-count="0" data-operations-count="0" data-tagged-values-count="0" data-template-parameters-count="0">
+<rect class="uml-class-title" x="0" y="0" width="165.2" height="32" fill="#e5e5e5"/>
+<rect class="uml-class-outline uml-class-title-outline" x="0" y="0" width="165.2" height="32" stroke="#999999" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+<circle class="uml-kind-badge uml-kind-badge-c" cx="19" cy="16.0" r="11" fill="#b8d9bf" stroke="#3e7d4a" stroke-width="1.5"/><text class="uml-kind-badge-text" x="19" y="20.0" text-anchor="middle" font-family="Arial" font-size="12" font-weight="700" fill="black">C</text>
+<text class="uml-class-title-text" x="38" y="20" text-anchor="start" fill="black" font-family="Arial" font-size="12" font-weight="500">ФормулаАтомарная</text>
+<rect class="uml-bbox" x="0" y="0" width="165.2" height="32" fill="none" stroke="none" pointer-events="all"/>
+</g>
+<g transform="translate(1946,1088)" class="uml-class" data-id="ФункциональныйСимвол" data-name="ФункциональныйСимвол" data-type="class" data-class-kind="class" data-visibility="" data-stereotype="" data-abstract="false" data-multiplicity="" data-attributes-count="0" data-operations-count="0" data-tagged-values-count="0" data-template-parameters-count="0">
+<rect class="uml-class-title" x="0" y="0" width="194.0" height="32" fill="#e5e5e5"/>
+<rect class="uml-class-outline uml-class-title-outline" x="0" y="0" width="194.0" height="32" stroke="#999999" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+<circle class="uml-kind-badge uml-kind-badge-c" cx="19" cy="16.0" r="11" fill="#b8d9bf" stroke="#3e7d4a" stroke-width="1.5"/><text class="uml-kind-badge-text" x="19" y="20.0" text-anchor="middle" font-family="Arial" font-size="12" font-weight="700" fill="black">C</text>
+<text class="uml-class-title-text" x="38" y="20" text-anchor="start" fill="black" font-family="Arial" font-size="12" font-weight="500">ФункциональныйСимвол</text>
+<rect class="uml-bbox" x="0" y="0" width="194.0" height="32" fill="none" stroke="none" pointer-events="all"/>
+</g>
+<g transform="translate(1804,1185)" class="uml-class" data-id="ФункциональныйСимволNМестный" data-name="ФункциональныйСимволNМестный" data-type="class" data-class-kind="class" data-visibility="" data-stereotype="" data-abstract="false" data-multiplicity="" data-attributes-count="0" data-operations-count="0" data-tagged-values-count="0" data-template-parameters-count="0">
+<rect class="uml-class-title" x="0" y="0" width="251.6" height="32" fill="#e5e5e5"/>
+<rect class="uml-class-outline uml-class-title-outline" x="0" y="0" width="251.6" height="32" stroke="#999999" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+<circle class="uml-kind-badge uml-kind-badge-c" cx="19" cy="16.0" r="11" fill="#b8d9bf" stroke="#3e7d4a" stroke-width="1.5"/><text class="uml-kind-badge-text" x="19" y="20.0" text-anchor="middle" font-family="Arial" font-size="12" font-weight="700" fill="black">C</text>
+<text class="uml-class-title-text" x="38" y="20" text-anchor="start" fill="black" font-family="Arial" font-size="12" font-weight="500">ФункциональныйСимволNМестный</text>
+<rect class="uml-bbox" x="0" y="0" width="251.6" height="32" fill="none" stroke="none" pointer-events="all"/>
+</g>
+</svg>

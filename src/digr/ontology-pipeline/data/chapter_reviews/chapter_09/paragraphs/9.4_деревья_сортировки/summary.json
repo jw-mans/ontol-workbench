@@ -1,0 +1,18 @@
+{
+  "paragraph_id": "9.4",
+  "paragraph_title": "9.4. Деревья сортировки",
+  "folder": "9.4_деревья_сортировки",
+  "relations_reviewed": 24,
+  "corrected_relations": 24,
+  "category_counts": {
+    "found_on_diagram_correct": 0,
+    "found_on_diagram_wrong_direction": 0,
+    "found_on_diagram_wrong_type": 0,
+    "found_on_diagram_wrong_direction_and_type": 0,
+    "found_not_on_diagram_accepted": 24,
+    "found_not_on_diagram_rejected": 0,
+    "not_found_from_diagram": 0
+  },
+  "rendered": true,
+  "render_error": null
+}

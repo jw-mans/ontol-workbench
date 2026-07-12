@@ -1,0 +1,351 @@
+{"paragraph_id": "5.1", "concept_a": "Величина случайная", "concept_b": "Вероятность", "has_relation": false}
+{"paragraph_id": "5.1", "concept_a": "Величина случайная", "concept_b": "Вероятность апостериорная", "has_relation": false}
+{"paragraph_id": "5.1", "concept_a": "Величина случайная", "concept_b": "Вероятность априорная", "has_relation": false}
+{"paragraph_id": "5.1", "concept_a": "Величина случайная", "concept_b": "Вероятность подмножества", "has_relation": false}
+{"paragraph_id": "5.1", "concept_a": "Величина случайная", "concept_b": "Вероятность распределение", "has_relation": false}
+{"paragraph_id": "5.1", "concept_a": "Величина случайная", "concept_b": "Вероятность распределение равномерное", "has_relation": false}
+{"paragraph_id": "5.1", "concept_a": "Величина случайная", "concept_b": "Вероятность условная", "has_relation": false}
+{"paragraph_id": "5.1", "concept_a": "Величина случайная", "concept_b": "Выборка", "has_relation": false}
+{"paragraph_id": "5.1", "concept_a": "Величина случайная", "concept_b": "Генеральная совокупность", "has_relation": false}
+{"paragraph_id": "5.1", "concept_a": "Величина случайная", "concept_b": "Конфигурация комбинаторная", "has_relation": false}
+{"paragraph_id": "5.1", "concept_a": "Величина случайная", "concept_b": "Массив", "has_relation": false}
+{"paragraph_id": "5.1", "concept_a": "Величина случайная", "concept_b": "Математическое ожидание", "has_relation": true}
+{"paragraph_id": "5.1", "concept_a": "Величина случайная", "concept_b": "Матрёшка", "has_relation": false}
+{"paragraph_id": "5.1", "concept_a": "Величина случайная", "concept_b": "Правило произведения", "has_relation": false}
+{"paragraph_id": "5.1", "concept_a": "Величина случайная", "concept_b": "Правило сложения", "has_relation": false}
+{"paragraph_id": "5.1", "concept_a": "Величина случайная", "concept_b": "Правило суммы", "has_relation": false}
+{"paragraph_id": "5.1", "concept_a": "Величина случайная", "concept_b": "Правило умножения", "has_relation": false}
+{"paragraph_id": "5.1", "concept_a": "Величина случайная", "concept_b": "Принцип  Дирихле", "has_relation": false}
+{"paragraph_id": "5.1", "concept_a": "Величина случайная", "concept_b": "Теория вероятности", "has_relation": false}
+{"paragraph_id": "5.1", "concept_a": "Величина случайная", "concept_b": "Цепочка множеств", "has_relation": false}
+{"paragraph_id": "5.1", "concept_a": "Величина случайная", "concept_b": "Цепочка полная", "has_relation": false}
+{"paragraph_id": "5.1", "concept_a": "Величина случайная", "concept_b": "Число перестановок", "has_relation": false}
+{"paragraph_id": "5.1", "concept_a": "Величина случайная", "concept_b": "Число размещений", "has_relation": false}
+{"paragraph_id": "5.1", "concept_a": "Величина случайная", "concept_b": "Число размещений без повторений", "has_relation": false}
+{"paragraph_id": "5.1", "concept_a": "Величина случайная", "concept_b": "Число сочетаний", "has_relation": false}
+{"paragraph_id": "5.1", "concept_a": "Величина случайная", "concept_b": "Число сочетаний с повторениями", "has_relation": false}
+{"paragraph_id": "5.1", "concept_a": "Вероятность", "concept_b": "Вероятность апостериорная", "has_relation": false}
+{"paragraph_id": "5.1", "concept_a": "Вероятность", "concept_b": "Вероятность априорная", "has_relation": false}
+{"paragraph_id": "5.1", "concept_a": "Вероятность", "concept_b": "Вероятность подмножества", "has_relation": false}
+{"paragraph_id": "5.1", "concept_a": "Вероятность", "concept_b": "Вероятность распределение", "has_relation": true}
+{"paragraph_id": "5.1", "concept_a": "Вероятность", "concept_b": "Вероятность распределение равномерное", "has_relation": true}
+{"paragraph_id": "5.1", "concept_a": "Вероятность", "concept_b": "Вероятность условная", "has_relation": false}
+{"paragraph_id": "5.1", "concept_a": "Вероятность", "concept_b": "Выборка", "has_relation": false}
+{"paragraph_id": "5.1", "concept_a": "Вероятность", "concept_b": "Генеральная совокупность", "has_relation": false}
+{"paragraph_id": "5.1", "concept_a": "Вероятность", "concept_b": "Конфигурация комбинаторная", "has_relation": false}
+{"paragraph_id": "5.1", "concept_a": "Вероятность", "concept_b": "Массив", "has_relation": false}
+{"paragraph_id": "5.1", "concept_a": "Вероятность", "concept_b": "Математическое ожидание", "has_relation": false}
+{"paragraph_id": "5.1", "concept_a": "Вероятность", "concept_b": "Матрёшка", "has_relation": false}
+{"paragraph_id": "5.1", "concept_a": "Вероятность", "concept_b": "Правило произведения", "has_relation": false}
+{"paragraph_id": "5.1", "concept_a": "Вероятность", "concept_b": "Правило сложения", "has_relation": false}
+{"paragraph_id": "5.1", "concept_a": "Вероятность", "concept_b": "Правило суммы", "has_relation": false}
+{"paragraph_id": "5.1", "concept_a": "Вероятность", "concept_b": "Правило умножения", "has_relation": false}
+{"paragraph_id": "5.1", "concept_a": "Вероятность", "concept_b": "Принцип  Дирихле", "has_relation": false}
+{"paragraph_id": "5.1", "concept_a": "Вероятность", "concept_b": "Теория вероятности", "has_relation": false}
+{"paragraph_id": "5.1", "concept_a": "Вероятность", "concept_b": "Цепочка множеств", "has_relation": false}
+{"paragraph_id": "5.1", "concept_a": "Вероятность", "concept_b": "Цепочка полная", "has_relation": false}
+{"paragraph_id": "5.1", "concept_a": "Вероятность", "concept_b": "Число перестановок", "has_relation": false}
+{"paragraph_id": "5.1", "concept_a": "Вероятность", "concept_b": "Число размещений", "has_relation": false}
+{"paragraph_id": "5.1", "concept_a": "Вероятность", "concept_b": "Число размещений без повторений", "has_relation": false}
+{"paragraph_id": "5.1", "concept_a": "Вероятность", "concept_b": "Число сочетаний", "has_relation": false}
+{"paragraph_id": "5.1", "concept_a": "Вероятность", "concept_b": "Число сочетаний с повторениями", "has_relation": false}
+{"paragraph_id": "5.1", "concept_a": "Вероятность апостериорная", "concept_b": "Вероятность априорная", "has_relation": true}
+{"paragraph_id": "5.1", "concept_a": "Вероятность апостериорная", "concept_b": "Вероятность подмножества", "has_relation": false}
+{"paragraph_id": "5.1", "concept_a": "Вероятность апостериорная", "concept_b": "Вероятность распределение", "has_relation": false}
+{"paragraph_id": "5.1", "concept_a": "Вероятность апостериорная", "concept_b": "Вероятность распределение равномерное", "has_relation": false}
+{"paragraph_id": "5.1", "concept_a": "Вероятность апостериорная", "concept_b": "Вероятность условная", "has_relation": true}
+{"paragraph_id": "5.1", "concept_a": "Вероятность апостериорная", "concept_b": "Выборка", "has_relation": false}
+{"paragraph_id": "5.1", "concept_a": "Вероятность апостериорная", "concept_b": "Генеральная совокупность", "has_relation": false}
+{"paragraph_id": "5.1", "concept_a": "Вероятность апостериорная", "concept_b": "Конфигурация комбинаторная", "has_relation": false}
+{"paragraph_id": "5.1", "concept_a": "Вероятность апостериорная", "concept_b": "Массив", "has_relation": false}
+{"paragraph_id": "5.1", "concept_a": "Вероятность апостериорная", "concept_b": "Математическое ожидание", "has_relation": false}
+{"paragraph_id": "5.1", "concept_a": "Вероятность апостериорная", "concept_b": "Матрёшка", "has_relation": false}
+{"paragraph_id": "5.1", "concept_a": "Вероятность апостериорная", "concept_b": "Правило произведения", "has_relation": false}
+{"paragraph_id": "5.1", "concept_a": "Вероятность апостериорная", "concept_b": "Правило сложения", "has_relation": false}
+{"paragraph_id": "5.1", "concept_a": "Вероятность апостериорная", "concept_b": "Правило суммы", "has_relation": false}
+{"paragraph_id": "5.1", "concept_a": "Вероятность апостериорная", "concept_b": "Правило умножения", "has_relation": false}
+{"paragraph_id": "5.1", "concept_a": "Вероятность апостериорная", "concept_b": "Принцип  Дирихле", "has_relation": false}
+{"paragraph_id": "5.1", "concept_a": "Вероятность апостериорная", "concept_b": "Теория вероятности", "has_relation": false}
+{"paragraph_id": "5.1", "concept_a": "Вероятность апостериорная", "concept_b": "Цепочка множеств", "has_relation": false}
+{"paragraph_id": "5.1", "concept_a": "Вероятность апостериорная", "concept_b": "Цепочка полная", "has_relation": false}
+{"paragraph_id": "5.1", "concept_a": "Вероятность апостериорная", "concept_b": "Число перестановок", "has_relation": false}
+{"paragraph_id": "5.1", "concept_a": "Вероятность апостериорная", "concept_b": "Число размещений", "has_relation": false}
+{"paragraph_id": "5.1", "concept_a": "Вероятность апостериорная", "concept_b": "Число размещений без повторений", "has_relation": false}
+{"paragraph_id": "5.1", "concept_a": "Вероятность апостериорная", "concept_b": "Число сочетаний", "has_relation": false}
+{"paragraph_id": "5.1", "concept_a": "Вероятность апостериорная", "concept_b": "Число сочетаний с повторениями", "has_relation": false}
+{"paragraph_id": "5.1", "concept_a": "Вероятность априорная", "concept_b": "Вероятность подмножества", "has_relation": false}
+{"paragraph_id": "5.1", "concept_a": "Вероятность априорная", "concept_b": "Вероятность распределение", "has_relation": false}
+{"paragraph_id": "5.1", "concept_a": "Вероятность априорная", "concept_b": "Вероятность распределение равномерное", "has_relation": false}
+{"paragraph_id": "5.1", "concept_a": "Вероятность априорная", "concept_b": "Вероятность условная", "has_relation": true}
+{"paragraph_id": "5.1", "concept_a": "Вероятность априорная", "concept_b": "Выборка", "has_relation": false}
+{"paragraph_id": "5.1", "concept_a": "Вероятность априорная", "concept_b": "Генеральная совокупность", "has_relation": false}
+{"paragraph_id": "5.1", "concept_a": "Вероятность априорная", "concept_b": "Конфигурация комбинаторная", "has_relation": false}
+{"paragraph_id": "5.1", "concept_a": "Вероятность априорная", "concept_b": "Массив", "has_relation": false}
+{"paragraph_id": "5.1", "concept_a": "Вероятность априорная", "concept_b": "Математическое ожидание", "has_relation": false}
+{"paragraph_id": "5.1", "concept_a": "Вероятность априорная", "concept_b": "Матрёшка", "has_relation": false}
+{"paragraph_id": "5.1", "concept_a": "Вероятность априорная", "concept_b": "Правило произведения", "has_relation": false}
+{"paragraph_id": "5.1", "concept_a": "Вероятность априорная", "concept_b": "Правило сложения", "has_relation": false}
+{"paragraph_id": "5.1", "concept_a": "Вероятность априорная", "concept_b": "Правило суммы", "has_relation": false}
+{"paragraph_id": "5.1", "concept_a": "Вероятность априорная", "concept_b": "Правило умножения", "has_relation": false}
+{"paragraph_id": "5.1", "concept_a": "Вероятность априорная", "concept_b": "Принцип  Дирихле", "has_relation": false}
+{"paragraph_id": "5.1", "concept_a": "Вероятность априорная", "concept_b": "Теория вероятности", "has_relation": false}
+{"paragraph_id": "5.1", "concept_a": "Вероятность априорная", "concept_b": "Цепочка множеств", "has_relation": false}
+{"paragraph_id": "5.1", "concept_a": "Вероятность априорная", "concept_b": "Цепочка полная", "has_relation": false}
+{"paragraph_id": "5.1", "concept_a": "Вероятность априорная", "concept_b": "Число перестановок", "has_relation": false}
+{"paragraph_id": "5.1", "concept_a": "Вероятность априорная", "concept_b": "Число размещений", "has_relation": false}
+{"paragraph_id": "5.1", "concept_a": "Вероятность априорная", "concept_b": "Число размещений без повторений", "has_relation": false}
+{"paragraph_id": "5.1", "concept_a": "Вероятность априорная", "concept_b": "Число сочетаний", "has_relation": false}
+{"paragraph_id": "5.1", "concept_a": "Вероятность априорная", "concept_b": "Число сочетаний с повторениями", "has_relation": false}
+{"paragraph_id": "5.1", "concept_a": "Вероятность подмножества", "concept_b": "Вероятность распределение", "has_relation": false}
+{"paragraph_id": "5.1", "concept_a": "Вероятность подмножества", "concept_b": "Вероятность распределение равномерное", "has_relation": false}
+{"paragraph_id": "5.1", "concept_a": "Вероятность подмножества", "concept_b": "Вероятность условная", "has_relation": false}
+{"paragraph_id": "5.1", "concept_a": "Вероятность подмножества", "concept_b": "Выборка", "has_relation": false}
+{"paragraph_id": "5.1", "concept_a": "Вероятность подмножества", "concept_b": "Генеральная совокупность", "has_relation": false}
+{"paragraph_id": "5.1", "concept_a": "Вероятность подмножества", "concept_b": "Конфигурация комбинаторная", "has_relation": false}
+{"paragraph_id": "5.1", "concept_a": "Вероятность подмножества", "concept_b": "Массив", "has_relation": false}
+{"paragraph_id": "5.1", "concept_a": "Вероятность подмножества", "concept_b": "Математическое ожидание", "has_relation": false}
+{"paragraph_id": "5.1", "concept_a": "Вероятность подмножества", "concept_b": "Матрёшка", "has_relation": false}
+{"paragraph_id": "5.1", "concept_a": "Вероятность подмножества", "concept_b": "Правило произведения", "has_relation": false}
+{"paragraph_id": "5.1", "concept_a": "Вероятность подмножества", "concept_b": "Правило сложения", "has_relation": false}
+{"paragraph_id": "5.1", "concept_a": "Вероятность подмножества", "concept_b": "Правило суммы", "has_relation": false}
+{"paragraph_id": "5.1", "concept_a": "Вероятность подмножества", "concept_b": "Правило умножения", "has_relation": false}
+{"paragraph_id": "5.1", "concept_a": "Вероятность подмножества", "concept_b": "Принцип  Дирихле", "has_relation": false}
+{"paragraph_id": "5.1", "concept_a": "Вероятность подмножества", "concept_b": "Теория вероятности", "has_relation": true}
+{"paragraph_id": "5.1", "concept_a": "Вероятность подмножества", "concept_b": "Цепочка множеств", "has_relation": false}
+{"paragraph_id": "5.1", "concept_a": "Вероятность подмножества", "concept_b": "Цепочка полная", "has_relation": false}
+{"paragraph_id": "5.1", "concept_a": "Вероятность подмножества", "concept_b": "Число перестановок", "has_relation": false}
+{"paragraph_id": "5.1", "concept_a": "Вероятность подмножества", "concept_b": "Число размещений", "has_relation": false}
+{"paragraph_id": "5.1", "concept_a": "Вероятность подмножества", "concept_b": "Число размещений без повторений", "has_relation": false}
+{"paragraph_id": "5.1", "concept_a": "Вероятность подмножества", "concept_b": "Число сочетаний", "has_relation": false}
+{"paragraph_id": "5.1", "concept_a": "Вероятность подмножества", "concept_b": "Число сочетаний с повторениями", "has_relation": false}
+{"paragraph_id": "5.1", "concept_a": "Вероятность распределение", "concept_b": "Вероятность распределение равномерное", "has_relation": true}
+{"paragraph_id": "5.1", "concept_a": "Вероятность распределение", "concept_b": "Вероятность условная", "has_relation": false}
+{"paragraph_id": "5.1", "concept_a": "Вероятность распределение", "concept_b": "Выборка", "has_relation": false}
+{"paragraph_id": "5.1", "concept_a": "Вероятность распределение", "concept_b": "Генеральная совокупность", "has_relation": false}
+{"paragraph_id": "5.1", "concept_a": "Вероятность распределение", "concept_b": "Конфигурация комбинаторная", "has_relation": false}
+{"paragraph_id": "5.1", "concept_a": "Вероятность распределение", "concept_b": "Массив", "has_relation": false}
+{"paragraph_id": "5.1", "concept_a": "Вероятность распределение", "concept_b": "Математическое ожидание", "has_relation": false}
+{"paragraph_id": "5.1", "concept_a": "Вероятность распределение", "concept_b": "Матрёшка", "has_relation": false}
+{"paragraph_id": "5.1", "concept_a": "Вероятность распределение", "concept_b": "Правило произведения", "has_relation": false}
+{"paragraph_id": "5.1", "concept_a": "Вероятность распределение", "concept_b": "Правило сложения", "has_relation": false}
+{"paragraph_id": "5.1", "concept_a": "Вероятность распределение", "concept_b": "Правило суммы", "has_relation": false}
+{"paragraph_id": "5.1", "concept_a": "Вероятность распределение", "concept_b": "Правило умножения", "has_relation": false}
+{"paragraph_id": "5.1", "concept_a": "Вероятность распределение", "concept_b": "Принцип  Дирихле", "has_relation": false}
+{"paragraph_id": "5.1", "concept_a": "Вероятность распределение", "concept_b": "Теория вероятности", "has_relation": false}
+{"paragraph_id": "5.1", "concept_a": "Вероятность распределение", "concept_b": "Цепочка множеств", "has_relation": false}
+{"paragraph_id": "5.1", "concept_a": "Вероятность распределение", "concept_b": "Цепочка полная", "has_relation": false}
+{"paragraph_id": "5.1", "concept_a": "Вероятность распределение", "concept_b": "Число перестановок", "has_relation": false}
+{"paragraph_id": "5.1", "concept_a": "Вероятность распределение", "concept_b": "Число размещений", "has_relation": false}
+{"paragraph_id": "5.1", "concept_a": "Вероятность распределение", "concept_b": "Число размещений без повторений", "has_relation": false}
+{"paragraph_id": "5.1", "concept_a": "Вероятность распределение", "concept_b": "Число сочетаний", "has_relation": false}
+{"paragraph_id": "5.1", "concept_a": "Вероятность распределение", "concept_b": "Число сочетаний с повторениями", "has_relation": false}
+{"paragraph_id": "5.1", "concept_a": "Вероятность распределение равномерное", "concept_b": "Вероятность условная", "has_relation": false}
+{"paragraph_id": "5.1", "concept_a": "Вероятность распределение равномерное", "concept_b": "Выборка", "has_relation": false}
+{"paragraph_id": "5.1", "concept_a": "Вероятность распределение равномерное", "concept_b": "Генеральная совокупность", "has_relation": false}
+{"paragraph_id": "5.1", "concept_a": "Вероятность распределение равномерное", "concept_b": "Конфигурация комбинаторная", "has_relation": false}
+{"paragraph_id": "5.1", "concept_a": "Вероятность распределение равномерное", "concept_b": "Массив", "has_relation": false}
+{"paragraph_id": "5.1", "concept_a": "Вероятность распределение равномерное", "concept_b": "Математическое ожидание", "has_relation": false}
+{"paragraph_id": "5.1", "concept_a": "Вероятность распределение равномерное", "concept_b": "Матрёшка", "has_relation": false}
+{"paragraph_id": "5.1", "concept_a": "Вероятность распределение равномерное", "concept_b": "Правило произведения", "has_relation": false}
+{"paragraph_id": "5.1", "concept_a": "Вероятность распределение равномерное", "concept_b": "Правило сложения", "has_relation": false}
+{"paragraph_id": "5.1", "concept_a": "Вероятность распределение равномерное", "concept_b": "Правило суммы", "has_relation": false}
+{"paragraph_id": "5.1", "concept_a": "Вероятность распределение равномерное", "concept_b": "Правило умножения", "has_relation": false}
+{"paragraph_id": "5.1", "concept_a": "Вероятность распределение равномерное", "concept_b": "Принцип  Дирихле", "has_relation": false}
+{"paragraph_id": "5.1", "concept_a": "Вероятность распределение равномерное", "concept_b": "Теория вероятности", "has_relation": false}
+{"paragraph_id": "5.1", "concept_a": "Вероятность распределение равномерное", "concept_b": "Цепочка множеств", "has_relation": false}
+{"paragraph_id": "5.1", "concept_a": "Вероятность распределение равномерное", "concept_b": "Цепочка полная", "has_relation": false}
+{"paragraph_id": "5.1", "concept_a": "Вероятность распределение равномерное", "concept_b": "Число перестановок", "has_relation": false}
+{"paragraph_id": "5.1", "concept_a": "Вероятность распределение равномерное", "concept_b": "Число размещений", "has_relation": false}
+{"paragraph_id": "5.1", "concept_a": "Вероятность распределение равномерное", "concept_b": "Число размещений без повторений", "has_relation": false}
+{"paragraph_id": "5.1", "concept_a": "Вероятность распределение равномерное", "concept_b": "Число сочетаний", "has_relation": false}
+{"paragraph_id": "5.1", "concept_a": "Вероятность распределение равномерное", "concept_b": "Число сочетаний с повторениями", "has_relation": false}
+{"paragraph_id": "5.1", "concept_a": "Вероятность условная", "concept_b": "Выборка", "has_relation": false}
+{"paragraph_id": "5.1", "concept_a": "Вероятность условная", "concept_b": "Генеральная совокупность", "has_relation": false}
+{"paragraph_id": "5.1", "concept_a": "Вероятность условная", "concept_b": "Конфигурация комбинаторная", "has_relation": false}
+{"paragraph_id": "5.1", "concept_a": "Вероятность условная", "concept_b": "Массив", "has_relation": false}
+{"paragraph_id": "5.1", "concept_a": "Вероятность условная", "concept_b": "Математическое ожидание", "has_relation": false}
+{"paragraph_id": "5.1", "concept_a": "Вероятность условная", "concept_b": "Матрёшка", "has_relation": false}
+{"paragraph_id": "5.1", "concept_a": "Вероятность условная", "concept_b": "Правило произведения", "has_relation": false}
+{"paragraph_id": "5.1", "concept_a": "Вероятность условная", "concept_b": "Правило сложения", "has_relation": false}
+{"paragraph_id": "5.1", "concept_a": "Вероятность условная", "concept_b": "Правило суммы", "has_relation": false}
+{"paragraph_id": "5.1", "concept_a": "Вероятность условная", "concept_b": "Правило умножения", "has_relation": false}
+{"paragraph_id": "5.1", "concept_a": "Вероятность условная", "concept_b": "Принцип  Дирихле", "has_relation": false}
+{"paragraph_id": "5.1", "concept_a": "Вероятность условная", "concept_b": "Теория вероятности", "has_relation": false}
+{"paragraph_id": "5.1", "concept_a": "Вероятность условная", "concept_b": "Цепочка множеств", "has_relation": false}
+{"paragraph_id": "5.1", "concept_a": "Вероятность условная", "concept_b": "Цепочка полная", "has_relation": false}
+{"paragraph_id": "5.1", "concept_a": "Вероятность условная", "concept_b": "Число перестановок", "has_relation": false}
+{"paragraph_id": "5.1", "concept_a": "Вероятность условная", "concept_b": "Число размещений", "has_relation": false}
+{"paragraph_id": "5.1", "concept_a": "Вероятность условная", "concept_b": "Число размещений без повторений", "has_relation": false}
+{"paragraph_id": "5.1", "concept_a": "Вероятность условная", "concept_b": "Число сочетаний", "has_relation": false}
+{"paragraph_id": "5.1", "concept_a": "Вероятность условная", "concept_b": "Число сочетаний с повторениями", "has_relation": false}
+{"paragraph_id": "5.1", "concept_a": "Выборка", "concept_b": "Генеральная совокупность", "has_relation": true}
+{"paragraph_id": "5.1", "concept_a": "Выборка", "concept_b": "Конфигурация комбинаторная", "has_relation": false}
+{"paragraph_id": "5.1", "concept_a": "Выборка", "concept_b": "Массив", "has_relation": true}
+{"paragraph_id": "5.1", "concept_a": "Выборка", "concept_b": "Математическое ожидание", "has_relation": false}
+{"paragraph_id": "5.1", "concept_a": "Выборка", "concept_b": "Матрёшка", "has_relation": false}
+{"paragraph_id": "5.1", "concept_a": "Выборка", "concept_b": "Правило произведения", "has_relation": false}
+{"paragraph_id": "5.1", "concept_a": "Выборка", "concept_b": "Правило сложения", "has_relation": false}
+{"paragraph_id": "5.1", "concept_a": "Выборка", "concept_b": "Правило суммы", "has_relation": false}
+{"paragraph_id": "5.1", "concept_a": "Выборка", "concept_b": "Правило умножения", "has_relation": false}
+{"paragraph_id": "5.1", "concept_a": "Выборка", "concept_b": "Принцип  Дирихле", "has_relation": false}
+{"paragraph_id": "5.1", "concept_a": "Выборка", "concept_b": "Теория вероятности", "has_relation": false}
+{"paragraph_id": "5.1", "concept_a": "Выборка", "concept_b": "Цепочка множеств", "has_relation": false}
+{"paragraph_id": "5.1", "concept_a": "Выборка", "concept_b": "Цепочка полная", "has_relation": false}
+{"paragraph_id": "5.1", "concept_a": "Выборка", "concept_b": "Число перестановок", "has_relation": false}
+{"paragraph_id": "5.1", "concept_a": "Выборка", "concept_b": "Число размещений", "has_relation": false}
+{"paragraph_id": "5.1", "concept_a": "Выборка", "concept_b": "Число размещений без повторений", "has_relation": false}
+{"paragraph_id": "5.1", "concept_a": "Выборка", "concept_b": "Число сочетаний", "has_relation": false}
+{"paragraph_id": "5.1", "concept_a": "Выборка", "concept_b": "Число сочетаний с повторениями", "has_relation": false}
+{"paragraph_id": "5.1", "concept_a": "Генеральная совокупность", "concept_b": "Конфигурация комбинаторная", "has_relation": false}
+{"paragraph_id": "5.1", "concept_a": "Генеральная совокупность", "concept_b": "Массив", "has_relation": true}
+{"paragraph_id": "5.1", "concept_a": "Генеральная совокупность", "concept_b": "Математическое ожидание", "has_relation": false}
+{"paragraph_id": "5.1", "concept_a": "Генеральная совокупность", "concept_b": "Матрёшка", "has_relation": false}
+{"paragraph_id": "5.1", "concept_a": "Генеральная совокупность", "concept_b": "Правило произведения", "has_relation": false}
+{"paragraph_id": "5.1", "concept_a": "Генеральная совокупность", "concept_b": "Правило сложения", "has_relation": false}
+{"paragraph_id": "5.1", "concept_a": "Генеральная совокупность", "concept_b": "Правило суммы", "has_relation": false}
+{"paragraph_id": "5.1", "concept_a": "Генеральная совокупность", "concept_b": "Правило умножения", "has_relation": false}
+{"paragraph_id": "5.1", "concept_a": "Генеральная совокупность", "concept_b": "Принцип  Дирихле", "has_relation": false}
+{"paragraph_id": "5.1", "concept_a": "Генеральная совокупность", "concept_b": "Теория вероятности", "has_relation": false}
+{"paragraph_id": "5.1", "concept_a": "Генеральная совокупность", "concept_b": "Цепочка множеств", "has_relation": false}
+{"paragraph_id": "5.1", "concept_a": "Генеральная совокупность", "concept_b": "Цепочка полная", "has_relation": false}
+{"paragraph_id": "5.1", "concept_a": "Генеральная совокупность", "concept_b": "Число перестановок", "has_relation": false}
+{"paragraph_id": "5.1", "concept_a": "Генеральная совокупность", "concept_b": "Число размещений", "has_relation": false}
+{"paragraph_id": "5.1", "concept_a": "Генеральная совокупность", "concept_b": "Число размещений без повторений", "has_relation": false}
+{"paragraph_id": "5.1", "concept_a": "Генеральная совокупность", "concept_b": "Число сочетаний", "has_relation": false}
+{"paragraph_id": "5.1", "concept_a": "Генеральная совокупность", "concept_b": "Число сочетаний с повторениями", "has_relation": false}
+{"paragraph_id": "5.1", "concept_a": "Конфигурация комбинаторная", "concept_b": "Массив", "has_relation": false}
+{"paragraph_id": "5.1", "concept_a": "Конфигурация комбинаторная", "concept_b": "Математическое ожидание", "has_relation": false}
+{"paragraph_id": "5.1", "concept_a": "Конфигурация комбинаторная", "concept_b": "Матрёшка", "has_relation": false}
+{"paragraph_id": "5.1", "concept_a": "Конфигурация комбинаторная", "concept_b": "Правило произведения", "has_relation": false}
+{"paragraph_id": "5.1", "concept_a": "Конфигурация комбинаторная", "concept_b": "Правило сложения", "has_relation": false}
+{"paragraph_id": "5.1", "concept_a": "Конфигурация комбинаторная", "concept_b": "Правило суммы", "has_relation": false}
+{"paragraph_id": "5.1", "concept_a": "Конфигурация комбинаторная", "concept_b": "Правило умножения", "has_relation": false}
+{"paragraph_id": "5.1", "concept_a": "Конфигурация комбинаторная", "concept_b": "Принцип  Дирихле", "has_relation": false}
+{"paragraph_id": "5.1", "concept_a": "Конфигурация комбинаторная", "concept_b": "Теория вероятности", "has_relation": false}
+{"paragraph_id": "5.1", "concept_a": "Конфигурация комбинаторная", "concept_b": "Цепочка множеств", "has_relation": false}
+{"paragraph_id": "5.1", "concept_a": "Конфигурация комбинаторная", "concept_b": "Цепочка полная", "has_relation": false}
+{"paragraph_id": "5.1", "concept_a": "Конфигурация комбинаторная", "concept_b": "Число перестановок", "has_relation": false}
+{"paragraph_id": "5.1", "concept_a": "Конфигурация комбинаторная", "concept_b": "Число размещений", "has_relation": false}
+{"paragraph_id": "5.1", "concept_a": "Конфигурация комбинаторная", "concept_b": "Число размещений без повторений", "has_relation": false}
+{"paragraph_id": "5.1", "concept_a": "Конфигурация комбинаторная", "concept_b": "Число сочетаний", "has_relation": false}
+{"paragraph_id": "5.1", "concept_a": "Конфигурация комбинаторная", "concept_b": "Число сочетаний с повторениями", "has_relation": false}
+{"paragraph_id": "5.1", "concept_a": "Массив", "concept_b": "Математическое ожидание", "has_relation": false}
+{"paragraph_id": "5.1", "concept_a": "Массив", "concept_b": "Матрёшка", "has_relation": false}
+{"paragraph_id": "5.1", "concept_a": "Массив", "concept_b": "Правило произведения", "has_relation": false}
+{"paragraph_id": "5.1", "concept_a": "Массив", "concept_b": "Правило сложения", "has_relation": false}
+{"paragraph_id": "5.1", "concept_a": "Массив", "concept_b": "Правило суммы", "has_relation": false}
+{"paragraph_id": "5.1", "concept_a": "Массив", "concept_b": "Правило умножения", "has_relation": false}
+{"paragraph_id": "5.1", "concept_a": "Массив", "concept_b": "Принцип  Дирихле", "has_relation": false}
+{"paragraph_id": "5.1", "concept_a": "Массив", "concept_b": "Теория вероятности", "has_relation": false}
+{"paragraph_id": "5.1", "concept_a": "Массив", "concept_b": "Цепочка множеств", "has_relation": false}
+{"paragraph_id": "5.1", "concept_a": "Массив", "concept_b": "Цепочка полная", "has_relation": false}
+{"paragraph_id": "5.1", "concept_a": "Массив", "concept_b": "Число перестановок", "has_relation": false}
+{"paragraph_id": "5.1", "concept_a": "Массив", "concept_b": "Число размещений", "has_relation": false}
+{"paragraph_id": "5.1", "concept_a": "Массив", "concept_b": "Число размещений без повторений", "has_relation": false}
+{"paragraph_id": "5.1", "concept_a": "Массив", "concept_b": "Число сочетаний", "has_relation": false}
+{"paragraph_id": "5.1", "concept_a": "Массив", "concept_b": "Число сочетаний с повторениями", "has_relation": false}
+{"paragraph_id": "5.1", "concept_a": "Математическое ожидание", "concept_b": "Матрёшка", "has_relation": false}
+{"paragraph_id": "5.1", "concept_a": "Математическое ожидание", "concept_b": "Правило произведения", "has_relation": false}
+{"paragraph_id": "5.1", "concept_a": "Математическое ожидание", "concept_b": "Правило сложения", "has_relation": false}
+{"paragraph_id": "5.1", "concept_a": "Математическое ожидание", "concept_b": "Правило суммы", "has_relation": false}
+{"paragraph_id": "5.1", "concept_a": "Математическое ожидание", "concept_b": "Правило умножения", "has_relation": false}
+{"paragraph_id": "5.1", "concept_a": "Математическое ожидание", "concept_b": "Принцип  Дирихле", "has_relation": false}
+{"paragraph_id": "5.1", "concept_a": "Математическое ожидание", "concept_b": "Теория вероятности", "has_relation": false}
+{"paragraph_id": "5.1", "concept_a": "Математическое ожидание", "concept_b": "Цепочка множеств", "has_relation": false}
+{"paragraph_id": "5.1", "concept_a": "Математическое ожидание", "concept_b": "Цепочка полная", "has_relation": false}
+{"paragraph_id": "5.1", "concept_a": "Математическое ожидание", "concept_b": "Число перестановок", "has_relation": false}
+{"paragraph_id": "5.1", "concept_a": "Математическое ожидание", "concept_b": "Число размещений", "has_relation": false}
+{"paragraph_id": "5.1", "concept_a": "Математическое ожидание", "concept_b": "Число размещений без повторений", "has_relation": false}
+{"paragraph_id": "5.1", "concept_a": "Математическое ожидание", "concept_b": "Число сочетаний", "has_relation": false}
+{"paragraph_id": "5.1", "concept_a": "Математическое ожидание", "concept_b": "Число сочетаний с повторениями", "has_relation": false}
+{"paragraph_id": "5.1", "concept_a": "Матрёшка", "concept_b": "Правило произведения", "has_relation": false}
+{"paragraph_id": "5.1", "concept_a": "Матрёшка", "concept_b": "Правило сложения", "has_relation": false}
+{"paragraph_id": "5.1", "concept_a": "Матрёшка", "concept_b": "Правило суммы", "has_relation": false}
+{"paragraph_id": "5.1", "concept_a": "Матрёшка", "concept_b": "Правило умножения", "has_relation": false}
+{"paragraph_id": "5.1", "concept_a": "Матрёшка", "concept_b": "Принцип  Дирихле", "has_relation": false}
+{"paragraph_id": "5.1", "concept_a": "Матрёшка", "concept_b": "Теория вероятности", "has_relation": false}
+{"paragraph_id": "5.1", "concept_a": "Матрёшка", "concept_b": "Цепочка множеств", "has_relation": false}
+{"paragraph_id": "5.1", "concept_a": "Матрёшка", "concept_b": "Цепочка полная", "has_relation": false}
+{"paragraph_id": "5.1", "concept_a": "Матрёшка", "concept_b": "Число перестановок", "has_relation": false}
+{"paragraph_id": "5.1", "concept_a": "Матрёшка", "concept_b": "Число размещений", "has_relation": false}
+{"paragraph_id": "5.1", "concept_a": "Матрёшка", "concept_b": "Число размещений без повторений", "has_relation": false}
+{"paragraph_id": "5.1", "concept_a": "Матрёшка", "concept_b": "Число сочетаний", "has_relation": false}
+{"paragraph_id": "5.1", "concept_a": "Матрёшка", "concept_b": "Число сочетаний с повторениями", "has_relation": false}
+{"paragraph_id": "5.1", "concept_a": "Правило произведения", "concept_b": "Правило сложения", "has_relation": false}
+{"paragraph_id": "5.1", "concept_a": "Правило произведения", "concept_b": "Правило суммы", "has_relation": false}
+{"paragraph_id": "5.1", "concept_a": "Правило произведения", "concept_b": "Правило умножения", "has_relation": true}
+{"paragraph_id": "5.1", "concept_a": "Правило произведения", "concept_b": "Принцип  Дирихле", "has_relation": false}
+{"paragraph_id": "5.1", "concept_a": "Правило произведения", "concept_b": "Теория вероятности", "has_relation": false}
+{"paragraph_id": "5.1", "concept_a": "Правило произведения", "concept_b": "Цепочка множеств", "has_relation": false}
+{"paragraph_id": "5.1", "concept_a": "Правило произведения", "concept_b": "Цепочка полная", "has_relation": false}
+{"paragraph_id": "5.1", "concept_a": "Правило произведения", "concept_b": "Число перестановок", "has_relation": false}
+{"paragraph_id": "5.1", "concept_a": "Правило произведения", "concept_b": "Число размещений", "has_relation": false}
+{"paragraph_id": "5.1", "concept_a": "Правило произведения", "concept_b": "Число размещений без повторений", "has_relation": false}
+{"paragraph_id": "5.1", "concept_a": "Правило произведения", "concept_b": "Число сочетаний", "has_relation": false}
+{"paragraph_id": "5.1", "concept_a": "Правило произведения", "concept_b": "Число сочетаний с повторениями", "has_relation": false}
+{"paragraph_id": "5.1", "concept_a": "Правило сложения", "concept_b": "Правило суммы", "has_relation": true}
+{"paragraph_id": "5.1", "concept_a": "Правило сложения", "concept_b": "Правило умножения", "has_relation": false}
+{"paragraph_id": "5.1", "concept_a": "Правило сложения", "concept_b": "Принцип  Дирихле", "has_relation": false}
+{"paragraph_id": "5.1", "concept_a": "Правило сложения", "concept_b": "Теория вероятности", "has_relation": false}
+{"paragraph_id": "5.1", "concept_a": "Правило сложения", "concept_b": "Цепочка множеств", "has_relation": false}
+{"paragraph_id": "5.1", "concept_a": "Правило сложения", "concept_b": "Цепочка полная", "has_relation": false}
+{"paragraph_id": "5.1", "concept_a": "Правило сложения", "concept_b": "Число перестановок", "has_relation": false}
+{"paragraph_id": "5.1", "concept_a": "Правило сложения", "concept_b": "Число размещений", "has_relation": false}
+{"paragraph_id": "5.1", "concept_a": "Правило сложения", "concept_b": "Число размещений без повторений", "has_relation": false}
+{"paragraph_id": "5.1", "concept_a": "Правило сложения", "concept_b": "Число сочетаний", "has_relation": false}
+{"paragraph_id": "5.1", "concept_a": "Правило сложения", "concept_b": "Число сочетаний с повторениями", "has_relation": false}
+{"paragraph_id": "5.1", "concept_a": "Правило суммы", "concept_b": "Правило умножения", "has_relation": false}
+{"paragraph_id": "5.1", "concept_a": "Правило суммы", "concept_b": "Принцип  Дирихле", "has_relation": false}
+{"paragraph_id": "5.1", "concept_a": "Правило суммы", "concept_b": "Теория вероятности", "has_relation": false}
+{"paragraph_id": "5.1", "concept_a": "Правило суммы", "concept_b": "Цепочка множеств", "has_relation": false}
+{"paragraph_id": "5.1", "concept_a": "Правило суммы", "concept_b": "Цепочка полная", "has_relation": false}
+{"paragraph_id": "5.1", "concept_a": "Правило суммы", "concept_b": "Число перестановок", "has_relation": false}
+{"paragraph_id": "5.1", "concept_a": "Правило суммы", "concept_b": "Число размещений", "has_relation": false}
+{"paragraph_id": "5.1", "concept_a": "Правило суммы", "concept_b": "Число размещений без повторений", "has_relation": false}
+{"paragraph_id": "5.1", "concept_a": "Правило суммы", "concept_b": "Число сочетаний", "has_relation": false}
+{"paragraph_id": "5.1", "concept_a": "Правило суммы", "concept_b": "Число сочетаний с повторениями", "has_relation": false}
+{"paragraph_id": "5.1", "concept_a": "Правило умножения", "concept_b": "Принцип  Дирихле", "has_relation": false}
+{"paragraph_id": "5.1", "concept_a": "Правило умножения", "concept_b": "Теория вероятности", "has_relation": false}
+{"paragraph_id": "5.1", "concept_a": "Правило умножения", "concept_b": "Цепочка множеств", "has_relation": false}
+{"paragraph_id": "5.1", "concept_a": "Правило умножения", "concept_b": "Цепочка полная", "has_relation": false}
+{"paragraph_id": "5.1", "concept_a": "Правило умножения", "concept_b": "Число перестановок", "has_relation": false}
+{"paragraph_id": "5.1", "concept_a": "Правило умножения", "concept_b": "Число размещений", "has_relation": false}
+{"paragraph_id": "5.1", "concept_a": "Правило умножения", "concept_b": "Число размещений без повторений", "has_relation": false}
+{"paragraph_id": "5.1", "concept_a": "Правило умножения", "concept_b": "Число сочетаний", "has_relation": false}
+{"paragraph_id": "5.1", "concept_a": "Правило умножения", "concept_b": "Число сочетаний с повторениями", "has_relation": false}
+{"paragraph_id": "5.1", "concept_a": "Принцип  Дирихле", "concept_b": "Теория вероятности", "has_relation": false}
+{"paragraph_id": "5.1", "concept_a": "Принцип  Дирихле", "concept_b": "Цепочка множеств", "has_relation": false}
+{"paragraph_id": "5.1", "concept_a": "Принцип  Дирихле", "concept_b": "Цепочка полная", "has_relation": false}
+{"paragraph_id": "5.1", "concept_a": "Принцип  Дирихле", "concept_b": "Число перестановок", "has_relation": false}
+{"paragraph_id": "5.1", "concept_a": "Принцип  Дирихле", "concept_b": "Число размещений", "has_relation": false}
+{"paragraph_id": "5.1", "concept_a": "Принцип  Дирихле", "concept_b": "Число размещений без повторений", "has_relation": false}
+{"paragraph_id": "5.1", "concept_a": "Принцип  Дирихле", "concept_b": "Число сочетаний", "has_relation": false}
+{"paragraph_id": "5.1", "concept_a": "Принцип  Дирихле", "concept_b": "Число сочетаний с повторениями", "has_relation": false}
+{"paragraph_id": "5.1", "concept_a": "Теория вероятности", "concept_b": "Цепочка множеств", "has_relation": false}
+{"paragraph_id": "5.1", "concept_a": "Теория вероятности", "concept_b": "Цепочка полная", "has_relation": false}
+{"paragraph_id": "5.1", "concept_a": "Теория вероятности", "concept_b": "Число перестановок", "has_relation": false}
+{"paragraph_id": "5.1", "concept_a": "Теория вероятности", "concept_b": "Число размещений", "has_relation": false}
+{"paragraph_id": "5.1", "concept_a": "Теория вероятности", "concept_b": "Число размещений без повторений", "has_relation": false}
+{"paragraph_id": "5.1", "concept_a": "Теория вероятности", "concept_b": "Число сочетаний", "has_relation": false}
+{"paragraph_id": "5.1", "concept_a": "Теория вероятности", "concept_b": "Число сочетаний с повторениями", "has_relation": false}
+{"paragraph_id": "5.1", "concept_a": "Цепочка множеств", "concept_b": "Цепочка полная", "has_relation": true}
+{"paragraph_id": "5.1", "concept_a": "Цепочка множеств", "concept_b": "Число перестановок", "has_relation": false}
+{"paragraph_id": "5.1", "concept_a": "Цепочка множеств", "concept_b": "Число размещений", "has_relation": false}
+{"paragraph_id": "5.1", "concept_a": "Цепочка множеств", "concept_b": "Число размещений без повторений", "has_relation": false}
+{"paragraph_id": "5.1", "concept_a": "Цепочка множеств", "concept_b": "Число сочетаний", "has_relation": false}
+{"paragraph_id": "5.1", "concept_a": "Цепочка множеств", "concept_b": "Число сочетаний с повторениями", "has_relation": false}
+{"paragraph_id": "5.1", "concept_a": "Цепочка полная", "concept_b": "Число перестановок", "has_relation": false}
+{"paragraph_id": "5.1", "concept_a": "Цепочка полная", "concept_b": "Число размещений", "has_relation": false}
+{"paragraph_id": "5.1", "concept_a": "Цепочка полная", "concept_b": "Число размещений без повторений", "has_relation": false}
+{"paragraph_id": "5.1", "concept_a": "Цепочка полная", "concept_b": "Число сочетаний", "has_relation": false}
+{"paragraph_id": "5.1", "concept_a": "Цепочка полная", "concept_b": "Число сочетаний с повторениями", "has_relation": false}
+{"paragraph_id": "5.1", "concept_a": "Число перестановок", "concept_b": "Число размещений", "has_relation": false}
+{"paragraph_id": "5.1", "concept_a": "Число перестановок", "concept_b": "Число размещений без повторений", "has_relation": false}
+{"paragraph_id": "5.1", "concept_a": "Число перестановок", "concept_b": "Число сочетаний", "has_relation": false}
+{"paragraph_id": "5.1", "concept_a": "Число перестановок", "concept_b": "Число сочетаний с повторениями", "has_relation": false}
+{"paragraph_id": "5.1", "concept_a": "Число размещений", "concept_b": "Число размещений без повторений", "has_relation": false}
+{"paragraph_id": "5.1", "concept_a": "Число размещений", "concept_b": "Число сочетаний", "has_relation": false}
+{"paragraph_id": "5.1", "concept_a": "Число размещений", "concept_b": "Число сочетаний с повторениями", "has_relation": false}
+{"paragraph_id": "5.1", "concept_a": "Число размещений без повторений", "concept_b": "Число сочетаний", "has_relation": false}
+{"paragraph_id": "5.1", "concept_a": "Число размещений без повторений", "concept_b": "Число сочетаний с повторениями", "has_relation": false}
+{"paragraph_id": "5.1", "concept_a": "Число сочетаний", "concept_b": "Число сочетаний с повторениями", "has_relation": false}

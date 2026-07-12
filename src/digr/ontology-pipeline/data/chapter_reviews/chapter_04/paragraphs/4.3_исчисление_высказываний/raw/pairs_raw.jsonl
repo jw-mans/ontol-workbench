@@ -1,0 +1,91 @@
+{"paragraph_id": "4.3", "concept_a": "Исчисление высказываний", "concept_b": "Переменная пропозициональная", "has_relation": true}
+{"paragraph_id": "4.3", "concept_a": "Исчисление высказываний", "concept_b": "Правило отделения", "has_relation": false}
+{"paragraph_id": "4.3", "concept_a": "Исчисление высказываний", "concept_b": "Связка логическая", "has_relation": true}
+{"paragraph_id": "4.3", "concept_a": "Исчисление высказываний", "concept_b": "Схема аксиомы", "has_relation": true}
+{"paragraph_id": "4.3", "concept_a": "Исчисление высказываний", "concept_b": "Схема правила вывода", "has_relation": true}
+{"paragraph_id": "4.3", "concept_a": "Исчисление высказываний", "concept_b": "Унификатор", "has_relation": false}
+{"paragraph_id": "4.3", "concept_a": "Исчисление высказываний", "concept_b": "Унификатор наиболее общий", "has_relation": false}
+{"paragraph_id": "4.3", "concept_a": "Исчисление высказываний", "concept_b": "Унификатор общий", "has_relation": false}
+{"paragraph_id": "4.3", "concept_a": "Исчисление высказываний", "concept_b": "Формула унифицируемая", "has_relation": false}
+{"paragraph_id": "4.3", "concept_a": "Исчисление высказываний", "concept_b": "Частный случай набора формул", "has_relation": false}
+{"paragraph_id": "4.3", "concept_a": "Исчисление высказываний", "concept_b": "Частный случай наборов формул совместный", "has_relation": false}
+{"paragraph_id": "4.3", "concept_a": "Исчисление высказываний", "concept_b": "Частный случай совместный", "has_relation": false}
+{"paragraph_id": "4.3", "concept_a": "Исчисление высказываний", "concept_b": "Частный случай формулы", "has_relation": false}
+{"paragraph_id": "4.3", "concept_a": "Переменная пропозициональная", "concept_b": "Правило отделения", "has_relation": false}
+{"paragraph_id": "4.3", "concept_a": "Переменная пропозициональная", "concept_b": "Связка логическая", "has_relation": true}
+{"paragraph_id": "4.3", "concept_a": "Переменная пропозициональная", "concept_b": "Схема аксиомы", "has_relation": true}
+{"paragraph_id": "4.3", "concept_a": "Переменная пропозициональная", "concept_b": "Схема правила вывода", "has_relation": true}
+{"paragraph_id": "4.3", "concept_a": "Переменная пропозициональная", "concept_b": "Унификатор", "has_relation": false}
+{"paragraph_id": "4.3", "concept_a": "Переменная пропозициональная", "concept_b": "Унификатор наиболее общий", "has_relation": false}
+{"paragraph_id": "4.3", "concept_a": "Переменная пропозициональная", "concept_b": "Унификатор общий", "has_relation": false}
+{"paragraph_id": "4.3", "concept_a": "Переменная пропозициональная", "concept_b": "Формула унифицируемая", "has_relation": false}
+{"paragraph_id": "4.3", "concept_a": "Переменная пропозициональная", "concept_b": "Частный случай набора формул", "has_relation": false}
+{"paragraph_id": "4.3", "concept_a": "Переменная пропозициональная", "concept_b": "Частный случай наборов формул совместный", "has_relation": false}
+{"paragraph_id": "4.3", "concept_a": "Переменная пропозициональная", "concept_b": "Частный случай совместный", "has_relation": false}
+{"paragraph_id": "4.3", "concept_a": "Переменная пропозициональная", "concept_b": "Частный случай формулы", "has_relation": false}
+{"paragraph_id": "4.3", "concept_a": "Правило отделения", "concept_b": "Связка логическая", "has_relation": false}
+{"paragraph_id": "4.3", "concept_a": "Правило отделения", "concept_b": "Схема аксиомы", "has_relation": false}
+{"paragraph_id": "4.3", "concept_a": "Правило отделения", "concept_b": "Схема правила вывода", "has_relation": false}
+{"paragraph_id": "4.3", "concept_a": "Правило отделения", "concept_b": "Унификатор", "has_relation": false}
+{"paragraph_id": "4.3", "concept_a": "Правило отделения", "concept_b": "Унификатор наиболее общий", "has_relation": false}
+{"paragraph_id": "4.3", "concept_a": "Правило отделения", "concept_b": "Унификатор общий", "has_relation": false}
+{"paragraph_id": "4.3", "concept_a": "Правило отделения", "concept_b": "Формула унифицируемая", "has_relation": false}
+{"paragraph_id": "4.3", "concept_a": "Правило отделения", "concept_b": "Частный случай набора формул", "has_relation": false}
+{"paragraph_id": "4.3", "concept_a": "Правило отделения", "concept_b": "Частный случай наборов формул совместный", "has_relation": false}
+{"paragraph_id": "4.3", "concept_a": "Правило отделения", "concept_b": "Частный случай совместный", "has_relation": false}
+{"paragraph_id": "4.3", "concept_a": "Правило отделения", "concept_b": "Частный случай формулы", "has_relation": false}
+{"paragraph_id": "4.3", "concept_a": "Связка логическая", "concept_b": "Схема аксиомы", "has_relation": true}
+{"paragraph_id": "4.3", "concept_a": "Связка логическая", "concept_b": "Схема правила вывода", "has_relation": true}
+{"paragraph_id": "4.3", "concept_a": "Связка логическая", "concept_b": "Унификатор", "has_relation": false}
+{"paragraph_id": "4.3", "concept_a": "Связка логическая", "concept_b": "Унификатор наиболее общий", "has_relation": false}
+{"paragraph_id": "4.3", "concept_a": "Связка логическая", "concept_b": "Унификатор общий", "has_relation": false}
+{"paragraph_id": "4.3", "concept_a": "Связка логическая", "concept_b": "Формула унифицируемая", "has_relation": false}
+{"paragraph_id": "4.3", "concept_a": "Связка логическая", "concept_b": "Частный случай набора формул", "has_relation": false}
+{"paragraph_id": "4.3", "concept_a": "Связка логическая", "concept_b": "Частный случай наборов формул совместный", "has_relation": false}
+{"paragraph_id": "4.3", "concept_a": "Связка логическая", "concept_b": "Частный случай совместный", "has_relation": false}
+{"paragraph_id": "4.3", "concept_a": "Связка логическая", "concept_b": "Частный случай формулы", "has_relation": false}
+{"paragraph_id": "4.3", "concept_a": "Схема аксиомы", "concept_b": "Схема правила вывода", "has_relation": true}
+{"paragraph_id": "4.3", "concept_a": "Схема аксиомы", "concept_b": "Унификатор", "has_relation": false}
+{"paragraph_id": "4.3", "concept_a": "Схема аксиомы", "concept_b": "Унификатор наиболее общий", "has_relation": false}
+{"paragraph_id": "4.3", "concept_a": "Схема аксиомы", "concept_b": "Унификатор общий", "has_relation": false}
+{"paragraph_id": "4.3", "concept_a": "Схема аксиомы", "concept_b": "Формула унифицируемая", "has_relation": false}
+{"paragraph_id": "4.3", "concept_a": "Схема аксиомы", "concept_b": "Частный случай набора формул", "has_relation": false}
+{"paragraph_id": "4.3", "concept_a": "Схема аксиомы", "concept_b": "Частный случай наборов формул совместный", "has_relation": false}
+{"paragraph_id": "4.3", "concept_a": "Схема аксиомы", "concept_b": "Частный случай совместный", "has_relation": false}
+{"paragraph_id": "4.3", "concept_a": "Схема аксиомы", "concept_b": "Частный случай формулы", "has_relation": false}
+{"paragraph_id": "4.3", "concept_a": "Схема правила вывода", "concept_b": "Унификатор", "has_relation": false}
+{"paragraph_id": "4.3", "concept_a": "Схема правила вывода", "concept_b": "Унификатор наиболее общий", "has_relation": false}
+{"paragraph_id": "4.3", "concept_a": "Схема правила вывода", "concept_b": "Унификатор общий", "has_relation": false}
+{"paragraph_id": "4.3", "concept_a": "Схема правила вывода", "concept_b": "Формула унифицируемая", "has_relation": false}
+{"paragraph_id": "4.3", "concept_a": "Схема правила вывода", "concept_b": "Частный случай набора формул", "has_relation": false}
+{"paragraph_id": "4.3", "concept_a": "Схема правила вывода", "concept_b": "Частный случай наборов формул совместный", "has_relation": false}
+{"paragraph_id": "4.3", "concept_a": "Схема правила вывода", "concept_b": "Частный случай совместный", "has_relation": false}
+{"paragraph_id": "4.3", "concept_a": "Схема правила вывода", "concept_b": "Частный случай формулы", "has_relation": false}
+{"paragraph_id": "4.3", "concept_a": "Унификатор", "concept_b": "Унификатор наиболее общий", "has_relation": true}
+{"paragraph_id": "4.3", "concept_a": "Унификатор", "concept_b": "Унификатор общий", "has_relation": true}
+{"paragraph_id": "4.3", "concept_a": "Унификатор", "concept_b": "Формула унифицируемая", "has_relation": true}
+{"paragraph_id": "4.3", "concept_a": "Унификатор", "concept_b": "Частный случай набора формул", "has_relation": false}
+{"paragraph_id": "4.3", "concept_a": "Унификатор", "concept_b": "Частный случай наборов формул совместный", "has_relation": false}
+{"paragraph_id": "4.3", "concept_a": "Унификатор", "concept_b": "Частный случай совместный", "has_relation": true}
+{"paragraph_id": "4.3", "concept_a": "Унификатор", "concept_b": "Частный случай формулы", "has_relation": true}
+{"paragraph_id": "4.3", "concept_a": "Унификатор наиболее общий", "concept_b": "Унификатор общий", "has_relation": true}
+{"paragraph_id": "4.3", "concept_a": "Унификатор наиболее общий", "concept_b": "Формула унифицируемая", "has_relation": true}
+{"paragraph_id": "4.3", "concept_a": "Унификатор наиболее общий", "concept_b": "Частный случай набора формул", "has_relation": false}
+{"paragraph_id": "4.3", "concept_a": "Унификатор наиболее общий", "concept_b": "Частный случай наборов формул совместный", "has_relation": false}
+{"paragraph_id": "4.3", "concept_a": "Унификатор наиболее общий", "concept_b": "Частный случай совместный", "has_relation": true}
+{"paragraph_id": "4.3", "concept_a": "Унификатор наиболее общий", "concept_b": "Частный случай формулы", "has_relation": true}
+{"paragraph_id": "4.3", "concept_a": "Унификатор общий", "concept_b": "Формула унифицируемая", "has_relation": true}
+{"paragraph_id": "4.3", "concept_a": "Унификатор общий", "concept_b": "Частный случай набора формул", "has_relation": false}
+{"paragraph_id": "4.3", "concept_a": "Унификатор общий", "concept_b": "Частный случай наборов формул совместный", "has_relation": false}
+{"paragraph_id": "4.3", "concept_a": "Унификатор общий", "concept_b": "Частный случай совместный", "has_relation": true}
+{"paragraph_id": "4.3", "concept_a": "Унификатор общий", "concept_b": "Частный случай формулы", "has_relation": true}
+{"paragraph_id": "4.3", "concept_a": "Формула унифицируемая", "concept_b": "Частный случай набора формул", "has_relation": false}
+{"paragraph_id": "4.3", "concept_a": "Формула унифицируемая", "concept_b": "Частный случай наборов формул совместный", "has_relation": false}
+{"paragraph_id": "4.3", "concept_a": "Формула унифицируемая", "concept_b": "Частный случай совместный", "has_relation": true}
+{"paragraph_id": "4.3", "concept_a": "Формула унифицируемая", "concept_b": "Частный случай формулы", "has_relation": true}
+{"paragraph_id": "4.3", "concept_a": "Частный случай набора формул", "concept_b": "Частный случай наборов формул совместный", "has_relation": true}
+{"paragraph_id": "4.3", "concept_a": "Частный случай набора формул", "concept_b": "Частный случай совместный", "has_relation": false}
+{"paragraph_id": "4.3", "concept_a": "Частный случай набора формул", "concept_b": "Частный случай формулы", "has_relation": false}
+{"paragraph_id": "4.3", "concept_a": "Частный случай наборов формул совместный", "concept_b": "Частный случай совместный", "has_relation": false}
+{"paragraph_id": "4.3", "concept_a": "Частный случай наборов формул совместный", "concept_b": "Частный случай формулы", "has_relation": false}
+{"paragraph_id": "4.3", "concept_a": "Частный случай совместный", "concept_b": "Частный случай формулы", "has_relation": true}

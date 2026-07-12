@@ -1,0 +1,780 @@
+{"paragraph_id": "1.8", "concept_a": "Аксиома выбора", "concept_b": "Высота множества", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Аксиома выбора", "concept_b": "Граница верхняя", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Аксиома выбора", "concept_b": "Граница нижняя", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Аксиома выбора", "concept_b": "Двойственность", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Аксиома выбора", "concept_b": "Длина последовательности", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Аксиома выбора", "concept_b": "Изоморфизм вполне упорядоченных множеств", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Аксиома выбора", "concept_b": "Изоморфизм линейно упорядоченных множеств", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Аксиома выбора", "concept_b": "Инфимум", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Аксиома выбора", "concept_b": "Корень уравнения", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Аксиома выбора", "concept_b": "Множество вполне упорядоченное", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Аксиома выбора", "concept_b": "Множество линейно полное", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Аксиома выбора", "concept_b": "Множество линейно упорядоченное", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Аксиома выбора", "concept_b": "Множество частично упорядоченное", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Аксиома выбора", "concept_b": "Неподвижная точка", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Аксиома выбора", "concept_b": "Неподвижная точка наименьшая", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Аксиома выбора", "concept_b": "Отношение квазипорядка", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Аксиома выбора", "concept_b": "Отношение порядка", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Аксиома выбора", "concept_b": "Отношение порядка линейного", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Аксиома выбора", "concept_b": "Отношение порядка нестрогого", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Аксиома выбора", "concept_b": "Отношение порядка строгого", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Аксиома выбора", "concept_b": "Отношение порядка частичного", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Аксиома выбора", "concept_b": "Отношение предпорядка", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Аксиома выбора", "concept_b": "Отношение предпорядка строгого", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Аксиома выбора", "concept_b": "Последовательность  возрастающая", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Аксиома выбора", "concept_b": "Принцип индукции", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Аксиома выбора", "concept_b": "Супремум", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Аксиома выбора", "concept_b": "Функция  непрерывная по Скотту", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Аксиома выбора", "concept_b": "Функция монотонная", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Аксиома выбора", "concept_b": "Функция монотонно возрастающая", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Аксиома выбора", "concept_b": "Функция монотонно убывающая", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Аксиома выбора", "concept_b": "Функция строго монотонная", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Аксиома выбора", "concept_b": "Функция строго монотонно возрастающая", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Аксиома выбора", "concept_b": "Функция строго монотонно убывающая", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Аксиома выбора", "concept_b": "Цепочка", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Аксиома выбора", "concept_b": "Числовая ось", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Аксиома выбора", "concept_b": "Элемент максимальный", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Аксиома выбора", "concept_b": "Элемент минимальный", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Аксиома выбора", "concept_b": "Элемент наибольший", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Аксиома выбора", "concept_b": "Элемент наименьший", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Высота множества", "concept_b": "Граница верхняя", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Высота множества", "concept_b": "Граница нижняя", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Высота множества", "concept_b": "Двойственность", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Высота множества", "concept_b": "Длина последовательности", "has_relation": true}
+{"paragraph_id": "1.8", "concept_a": "Высота множества", "concept_b": "Изоморфизм вполне упорядоченных множеств", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Высота множества", "concept_b": "Изоморфизм линейно упорядоченных множеств", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Высота множества", "concept_b": "Инфимум", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Высота множества", "concept_b": "Корень уравнения", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Высота множества", "concept_b": "Множество вполне упорядоченное", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Высота множества", "concept_b": "Множество линейно полное", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Высота множества", "concept_b": "Множество линейно упорядоченное", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Высота множества", "concept_b": "Множество частично упорядоченное", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Высота множества", "concept_b": "Неподвижная точка", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Высота множества", "concept_b": "Неподвижная точка наименьшая", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Высота множества", "concept_b": "Отношение квазипорядка", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Высота множества", "concept_b": "Отношение порядка", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Высота множества", "concept_b": "Отношение порядка линейного", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Высота множества", "concept_b": "Отношение порядка нестрогого", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Высота множества", "concept_b": "Отношение порядка строгого", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Высота множества", "concept_b": "Отношение порядка частичного", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Высота множества", "concept_b": "Отношение предпорядка", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Высота множества", "concept_b": "Отношение предпорядка строгого", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Высота множества", "concept_b": "Последовательность  возрастающая", "has_relation": true}
+{"paragraph_id": "1.8", "concept_a": "Высота множества", "concept_b": "Принцип индукции", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Высота множества", "concept_b": "Супремум", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Высота множества", "concept_b": "Функция  непрерывная по Скотту", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Высота множества", "concept_b": "Функция монотонная", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Высота множества", "concept_b": "Функция монотонно возрастающая", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Высота множества", "concept_b": "Функция монотонно убывающая", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Высота множества", "concept_b": "Функция строго монотонная", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Высота множества", "concept_b": "Функция строго монотонно возрастающая", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Высота множества", "concept_b": "Функция строго монотонно убывающая", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Высота множества", "concept_b": "Цепочка", "has_relation": true}
+{"paragraph_id": "1.8", "concept_a": "Высота множества", "concept_b": "Числовая ось", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Высота множества", "concept_b": "Элемент максимальный", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Высота множества", "concept_b": "Элемент минимальный", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Высота множества", "concept_b": "Элемент наибольший", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Высота множества", "concept_b": "Элемент наименьший", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Граница верхняя", "concept_b": "Граница нижняя", "has_relation": true}
+{"paragraph_id": "1.8", "concept_a": "Граница верхняя", "concept_b": "Двойственность", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Граница верхняя", "concept_b": "Длина последовательности", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Граница верхняя", "concept_b": "Изоморфизм вполне упорядоченных множеств", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Граница верхняя", "concept_b": "Изоморфизм линейно упорядоченных множеств", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Граница верхняя", "concept_b": "Инфимум", "has_relation": true}
+{"paragraph_id": "1.8", "concept_a": "Граница верхняя", "concept_b": "Корень уравнения", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Граница верхняя", "concept_b": "Множество вполне упорядоченное", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Граница верхняя", "concept_b": "Множество линейно полное", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Граница верхняя", "concept_b": "Множество линейно упорядоченное", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Граница верхняя", "concept_b": "Множество частично упорядоченное", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Граница верхняя", "concept_b": "Неподвижная точка", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Граница верхняя", "concept_b": "Неподвижная точка наименьшая", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Граница верхняя", "concept_b": "Отношение квазипорядка", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Граница верхняя", "concept_b": "Отношение порядка", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Граница верхняя", "concept_b": "Отношение порядка линейного", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Граница верхняя", "concept_b": "Отношение порядка нестрогого", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Граница верхняя", "concept_b": "Отношение порядка строгого", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Граница верхняя", "concept_b": "Отношение порядка частичного", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Граница верхняя", "concept_b": "Отношение предпорядка", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Граница верхняя", "concept_b": "Отношение предпорядка строгого", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Граница верхняя", "concept_b": "Последовательность  возрастающая", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Граница верхняя", "concept_b": "Принцип индукции", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Граница верхняя", "concept_b": "Супремум", "has_relation": true}
+{"paragraph_id": "1.8", "concept_a": "Граница верхняя", "concept_b": "Функция  непрерывная по Скотту", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Граница верхняя", "concept_b": "Функция монотонная", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Граница верхняя", "concept_b": "Функция монотонно возрастающая", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Граница верхняя", "concept_b": "Функция монотонно убывающая", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Граница верхняя", "concept_b": "Функция строго монотонная", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Граница верхняя", "concept_b": "Функция строго монотонно возрастающая", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Граница верхняя", "concept_b": "Функция строго монотонно убывающая", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Граница верхняя", "concept_b": "Цепочка", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Граница верхняя", "concept_b": "Числовая ось", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Граница верхняя", "concept_b": "Элемент максимальный", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Граница верхняя", "concept_b": "Элемент минимальный", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Граница верхняя", "concept_b": "Элемент наибольший", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Граница верхняя", "concept_b": "Элемент наименьший", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Граница нижняя", "concept_b": "Двойственность", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Граница нижняя", "concept_b": "Длина последовательности", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Граница нижняя", "concept_b": "Изоморфизм вполне упорядоченных множеств", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Граница нижняя", "concept_b": "Изоморфизм линейно упорядоченных множеств", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Граница нижняя", "concept_b": "Инфимум", "has_relation": true}
+{"paragraph_id": "1.8", "concept_a": "Граница нижняя", "concept_b": "Корень уравнения", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Граница нижняя", "concept_b": "Множество вполне упорядоченное", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Граница нижняя", "concept_b": "Множество линейно полное", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Граница нижняя", "concept_b": "Множество линейно упорядоченное", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Граница нижняя", "concept_b": "Множество частично упорядоченное", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Граница нижняя", "concept_b": "Неподвижная точка", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Граница нижняя", "concept_b": "Неподвижная точка наименьшая", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Граница нижняя", "concept_b": "Отношение квазипорядка", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Граница нижняя", "concept_b": "Отношение порядка", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Граница нижняя", "concept_b": "Отношение порядка линейного", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Граница нижняя", "concept_b": "Отношение порядка нестрогого", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Граница нижняя", "concept_b": "Отношение порядка строгого", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Граница нижняя", "concept_b": "Отношение порядка частичного", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Граница нижняя", "concept_b": "Отношение предпорядка", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Граница нижняя", "concept_b": "Отношение предпорядка строгого", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Граница нижняя", "concept_b": "Последовательность  возрастающая", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Граница нижняя", "concept_b": "Принцип индукции", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Граница нижняя", "concept_b": "Супремум", "has_relation": true}
+{"paragraph_id": "1.8", "concept_a": "Граница нижняя", "concept_b": "Функция  непрерывная по Скотту", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Граница нижняя", "concept_b": "Функция монотонная", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Граница нижняя", "concept_b": "Функция монотонно возрастающая", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Граница нижняя", "concept_b": "Функция монотонно убывающая", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Граница нижняя", "concept_b": "Функция строго монотонная", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Граница нижняя", "concept_b": "Функция строго монотонно возрастающая", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Граница нижняя", "concept_b": "Функция строго монотонно убывающая", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Граница нижняя", "concept_b": "Цепочка", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Граница нижняя", "concept_b": "Числовая ось", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Граница нижняя", "concept_b": "Элемент максимальный", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Граница нижняя", "concept_b": "Элемент минимальный", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Граница нижняя", "concept_b": "Элемент наибольший", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Граница нижняя", "concept_b": "Элемент наименьший", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Двойственность", "concept_b": "Длина последовательности", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Двойственность", "concept_b": "Изоморфизм вполне упорядоченных множеств", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Двойственность", "concept_b": "Изоморфизм линейно упорядоченных множеств", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Двойственность", "concept_b": "Инфимум", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Двойственность", "concept_b": "Корень уравнения", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Двойственность", "concept_b": "Множество вполне упорядоченное", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Двойственность", "concept_b": "Множество линейно полное", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Двойственность", "concept_b": "Множество линейно упорядоченное", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Двойственность", "concept_b": "Множество частично упорядоченное", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Двойственность", "concept_b": "Неподвижная точка", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Двойственность", "concept_b": "Неподвижная точка наименьшая", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Двойственность", "concept_b": "Отношение квазипорядка", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Двойственность", "concept_b": "Отношение порядка", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Двойственность", "concept_b": "Отношение порядка линейного", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Двойственность", "concept_b": "Отношение порядка нестрогого", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Двойственность", "concept_b": "Отношение порядка строгого", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Двойственность", "concept_b": "Отношение порядка частичного", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Двойственность", "concept_b": "Отношение предпорядка", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Двойственность", "concept_b": "Отношение предпорядка строгого", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Двойственность", "concept_b": "Последовательность  возрастающая", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Двойственность", "concept_b": "Принцип индукции", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Двойственность", "concept_b": "Супремум", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Двойственность", "concept_b": "Функция  непрерывная по Скотту", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Двойственность", "concept_b": "Функция монотонная", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Двойственность", "concept_b": "Функция монотонно возрастающая", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Двойственность", "concept_b": "Функция монотонно убывающая", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Двойственность", "concept_b": "Функция строго монотонная", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Двойственность", "concept_b": "Функция строго монотонно возрастающая", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Двойственность", "concept_b": "Функция строго монотонно убывающая", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Двойственность", "concept_b": "Цепочка", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Двойственность", "concept_b": "Числовая ось", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Двойственность", "concept_b": "Элемент максимальный", "has_relation": true}
+{"paragraph_id": "1.8", "concept_a": "Двойственность", "concept_b": "Элемент минимальный", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Двойственность", "concept_b": "Элемент наибольший", "has_relation": true}
+{"paragraph_id": "1.8", "concept_a": "Двойственность", "concept_b": "Элемент наименьший", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Длина последовательности", "concept_b": "Изоморфизм вполне упорядоченных множеств", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Длина последовательности", "concept_b": "Изоморфизм линейно упорядоченных множеств", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Длина последовательности", "concept_b": "Инфимум", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Длина последовательности", "concept_b": "Корень уравнения", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Длина последовательности", "concept_b": "Множество вполне упорядоченное", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Длина последовательности", "concept_b": "Множество линейно полное", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Длина последовательности", "concept_b": "Множество линейно упорядоченное", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Длина последовательности", "concept_b": "Множество частично упорядоченное", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Длина последовательности", "concept_b": "Неподвижная точка", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Длина последовательности", "concept_b": "Неподвижная точка наименьшая", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Длина последовательности", "concept_b": "Отношение квазипорядка", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Длина последовательности", "concept_b": "Отношение порядка", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Длина последовательности", "concept_b": "Отношение порядка линейного", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Длина последовательности", "concept_b": "Отношение порядка нестрогого", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Длина последовательности", "concept_b": "Отношение порядка строгого", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Длина последовательности", "concept_b": "Отношение порядка частичного", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Длина последовательности", "concept_b": "Отношение предпорядка", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Длина последовательности", "concept_b": "Отношение предпорядка строгого", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Длина последовательности", "concept_b": "Последовательность  возрастающая", "has_relation": true}
+{"paragraph_id": "1.8", "concept_a": "Длина последовательности", "concept_b": "Принцип индукции", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Длина последовательности", "concept_b": "Супремум", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Длина последовательности", "concept_b": "Функция  непрерывная по Скотту", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Длина последовательности", "concept_b": "Функция монотонная", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Длина последовательности", "concept_b": "Функция монотонно возрастающая", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Длина последовательности", "concept_b": "Функция монотонно убывающая", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Длина последовательности", "concept_b": "Функция строго монотонная", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Длина последовательности", "concept_b": "Функция строго монотонно возрастающая", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Длина последовательности", "concept_b": "Функция строго монотонно убывающая", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Длина последовательности", "concept_b": "Цепочка", "has_relation": true}
+{"paragraph_id": "1.8", "concept_a": "Длина последовательности", "concept_b": "Числовая ось", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Длина последовательности", "concept_b": "Элемент максимальный", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Длина последовательности", "concept_b": "Элемент минимальный", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Длина последовательности", "concept_b": "Элемент наибольший", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Длина последовательности", "concept_b": "Элемент наименьший", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Изоморфизм вполне упорядоченных множеств", "concept_b": "Изоморфизм линейно упорядоченных множеств", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Изоморфизм вполне упорядоченных множеств", "concept_b": "Инфимум", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Изоморфизм вполне упорядоченных множеств", "concept_b": "Корень уравнения", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Изоморфизм вполне упорядоченных множеств", "concept_b": "Множество вполне упорядоченное", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Изоморфизм вполне упорядоченных множеств", "concept_b": "Множество линейно полное", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Изоморфизм вполне упорядоченных множеств", "concept_b": "Множество линейно упорядоченное", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Изоморфизм вполне упорядоченных множеств", "concept_b": "Множество частично упорядоченное", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Изоморфизм вполне упорядоченных множеств", "concept_b": "Неподвижная точка", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Изоморфизм вполне упорядоченных множеств", "concept_b": "Неподвижная точка наименьшая", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Изоморфизм вполне упорядоченных множеств", "concept_b": "Отношение квазипорядка", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Изоморфизм вполне упорядоченных множеств", "concept_b": "Отношение порядка", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Изоморфизм вполне упорядоченных множеств", "concept_b": "Отношение порядка линейного", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Изоморфизм вполне упорядоченных множеств", "concept_b": "Отношение порядка нестрогого", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Изоморфизм вполне упорядоченных множеств", "concept_b": "Отношение порядка строгого", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Изоморфизм вполне упорядоченных множеств", "concept_b": "Отношение порядка частичного", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Изоморфизм вполне упорядоченных множеств", "concept_b": "Отношение предпорядка", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Изоморфизм вполне упорядоченных множеств", "concept_b": "Отношение предпорядка строгого", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Изоморфизм вполне упорядоченных множеств", "concept_b": "Последовательность  возрастающая", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Изоморфизм вполне упорядоченных множеств", "concept_b": "Принцип индукции", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Изоморфизм вполне упорядоченных множеств", "concept_b": "Супремум", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Изоморфизм вполне упорядоченных множеств", "concept_b": "Функция  непрерывная по Скотту", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Изоморфизм вполне упорядоченных множеств", "concept_b": "Функция монотонная", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Изоморфизм вполне упорядоченных множеств", "concept_b": "Функция монотонно возрастающая", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Изоморфизм вполне упорядоченных множеств", "concept_b": "Функция монотонно убывающая", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Изоморфизм вполне упорядоченных множеств", "concept_b": "Функция строго монотонная", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Изоморфизм вполне упорядоченных множеств", "concept_b": "Функция строго монотонно возрастающая", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Изоморфизм вполне упорядоченных множеств", "concept_b": "Функция строго монотонно убывающая", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Изоморфизм вполне упорядоченных множеств", "concept_b": "Цепочка", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Изоморфизм вполне упорядоченных множеств", "concept_b": "Числовая ось", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Изоморфизм вполне упорядоченных множеств", "concept_b": "Элемент максимальный", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Изоморфизм вполне упорядоченных множеств", "concept_b": "Элемент минимальный", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Изоморфизм вполне упорядоченных множеств", "concept_b": "Элемент наибольший", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Изоморфизм вполне упорядоченных множеств", "concept_b": "Элемент наименьший", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Изоморфизм линейно упорядоченных множеств", "concept_b": "Инфимум", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Изоморфизм линейно упорядоченных множеств", "concept_b": "Корень уравнения", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Изоморфизм линейно упорядоченных множеств", "concept_b": "Множество вполне упорядоченное", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Изоморфизм линейно упорядоченных множеств", "concept_b": "Множество линейно полное", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Изоморфизм линейно упорядоченных множеств", "concept_b": "Множество линейно упорядоченное", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Изоморфизм линейно упорядоченных множеств", "concept_b": "Множество частично упорядоченное", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Изоморфизм линейно упорядоченных множеств", "concept_b": "Неподвижная точка", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Изоморфизм линейно упорядоченных множеств", "concept_b": "Неподвижная точка наименьшая", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Изоморфизм линейно упорядоченных множеств", "concept_b": "Отношение квазипорядка", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Изоморфизм линейно упорядоченных множеств", "concept_b": "Отношение порядка", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Изоморфизм линейно упорядоченных множеств", "concept_b": "Отношение порядка линейного", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Изоморфизм линейно упорядоченных множеств", "concept_b": "Отношение порядка нестрогого", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Изоморфизм линейно упорядоченных множеств", "concept_b": "Отношение порядка строгого", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Изоморфизм линейно упорядоченных множеств", "concept_b": "Отношение порядка частичного", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Изоморфизм линейно упорядоченных множеств", "concept_b": "Отношение предпорядка", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Изоморфизм линейно упорядоченных множеств", "concept_b": "Отношение предпорядка строгого", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Изоморфизм линейно упорядоченных множеств", "concept_b": "Последовательность  возрастающая", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Изоморфизм линейно упорядоченных множеств", "concept_b": "Принцип индукции", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Изоморфизм линейно упорядоченных множеств", "concept_b": "Супремум", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Изоморфизм линейно упорядоченных множеств", "concept_b": "Функция  непрерывная по Скотту", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Изоморфизм линейно упорядоченных множеств", "concept_b": "Функция монотонная", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Изоморфизм линейно упорядоченных множеств", "concept_b": "Функция монотонно возрастающая", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Изоморфизм линейно упорядоченных множеств", "concept_b": "Функция монотонно убывающая", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Изоморфизм линейно упорядоченных множеств", "concept_b": "Функция строго монотонная", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Изоморфизм линейно упорядоченных множеств", "concept_b": "Функция строго монотонно возрастающая", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Изоморфизм линейно упорядоченных множеств", "concept_b": "Функция строго монотонно убывающая", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Изоморфизм линейно упорядоченных множеств", "concept_b": "Цепочка", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Изоморфизм линейно упорядоченных множеств", "concept_b": "Числовая ось", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Изоморфизм линейно упорядоченных множеств", "concept_b": "Элемент максимальный", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Изоморфизм линейно упорядоченных множеств", "concept_b": "Элемент минимальный", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Изоморфизм линейно упорядоченных множеств", "concept_b": "Элемент наибольший", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Изоморфизм линейно упорядоченных множеств", "concept_b": "Элемент наименьший", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Инфимум", "concept_b": "Корень уравнения", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Инфимум", "concept_b": "Множество вполне упорядоченное", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Инфимум", "concept_b": "Множество линейно полное", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Инфимум", "concept_b": "Множество линейно упорядоченное", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Инфимум", "concept_b": "Множество частично упорядоченное", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Инфимум", "concept_b": "Неподвижная точка", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Инфимум", "concept_b": "Неподвижная точка наименьшая", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Инфимум", "concept_b": "Отношение квазипорядка", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Инфимум", "concept_b": "Отношение порядка", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Инфимум", "concept_b": "Отношение порядка линейного", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Инфимум", "concept_b": "Отношение порядка нестрогого", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Инфимум", "concept_b": "Отношение порядка строгого", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Инфимум", "concept_b": "Отношение порядка частичного", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Инфимум", "concept_b": "Отношение предпорядка", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Инфимум", "concept_b": "Отношение предпорядка строгого", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Инфимум", "concept_b": "Последовательность  возрастающая", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Инфимум", "concept_b": "Принцип индукции", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Инфимум", "concept_b": "Супремум", "has_relation": true}
+{"paragraph_id": "1.8", "concept_a": "Инфимум", "concept_b": "Функция  непрерывная по Скотту", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Инфимум", "concept_b": "Функция монотонная", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Инфимум", "concept_b": "Функция монотонно возрастающая", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Инфимум", "concept_b": "Функция монотонно убывающая", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Инфимум", "concept_b": "Функция строго монотонная", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Инфимум", "concept_b": "Функция строго монотонно возрастающая", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Инфимум", "concept_b": "Функция строго монотонно убывающая", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Инфимум", "concept_b": "Цепочка", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Инфимум", "concept_b": "Числовая ось", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Инфимум", "concept_b": "Элемент максимальный", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Инфимум", "concept_b": "Элемент минимальный", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Инфимум", "concept_b": "Элемент наибольший", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Инфимум", "concept_b": "Элемент наименьший", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Корень уравнения", "concept_b": "Множество вполне упорядоченное", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Корень уравнения", "concept_b": "Множество линейно полное", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Корень уравнения", "concept_b": "Множество линейно упорядоченное", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Корень уравнения", "concept_b": "Множество частично упорядоченное", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Корень уравнения", "concept_b": "Неподвижная точка", "has_relation": true}
+{"paragraph_id": "1.8", "concept_a": "Корень уравнения", "concept_b": "Неподвижная точка наименьшая", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Корень уравнения", "concept_b": "Отношение квазипорядка", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Корень уравнения", "concept_b": "Отношение порядка", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Корень уравнения", "concept_b": "Отношение порядка линейного", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Корень уравнения", "concept_b": "Отношение порядка нестрогого", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Корень уравнения", "concept_b": "Отношение порядка строгого", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Корень уравнения", "concept_b": "Отношение порядка частичного", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Корень уравнения", "concept_b": "Отношение предпорядка", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Корень уравнения", "concept_b": "Отношение предпорядка строгого", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Корень уравнения", "concept_b": "Последовательность  возрастающая", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Корень уравнения", "concept_b": "Принцип индукции", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Корень уравнения", "concept_b": "Супремум", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Корень уравнения", "concept_b": "Функция  непрерывная по Скотту", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Корень уравнения", "concept_b": "Функция монотонная", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Корень уравнения", "concept_b": "Функция монотонно возрастающая", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Корень уравнения", "concept_b": "Функция монотонно убывающая", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Корень уравнения", "concept_b": "Функция строго монотонная", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Корень уравнения", "concept_b": "Функция строго монотонно возрастающая", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Корень уравнения", "concept_b": "Функция строго монотонно убывающая", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Корень уравнения", "concept_b": "Цепочка", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Корень уравнения", "concept_b": "Числовая ось", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Корень уравнения", "concept_b": "Элемент максимальный", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Корень уравнения", "concept_b": "Элемент минимальный", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Корень уравнения", "concept_b": "Элемент наибольший", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Корень уравнения", "concept_b": "Элемент наименьший", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Множество вполне упорядоченное", "concept_b": "Множество линейно полное", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Множество вполне упорядоченное", "concept_b": "Множество линейно упорядоченное", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Множество вполне упорядоченное", "concept_b": "Множество частично упорядоченное", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Множество вполне упорядоченное", "concept_b": "Неподвижная точка", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Множество вполне упорядоченное", "concept_b": "Неподвижная точка наименьшая", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Множество вполне упорядоченное", "concept_b": "Отношение квазипорядка", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Множество вполне упорядоченное", "concept_b": "Отношение порядка", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Множество вполне упорядоченное", "concept_b": "Отношение порядка линейного", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Множество вполне упорядоченное", "concept_b": "Отношение порядка нестрогого", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Множество вполне упорядоченное", "concept_b": "Отношение порядка строгого", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Множество вполне упорядоченное", "concept_b": "Отношение порядка частичного", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Множество вполне упорядоченное", "concept_b": "Отношение предпорядка", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Множество вполне упорядоченное", "concept_b": "Отношение предпорядка строгого", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Множество вполне упорядоченное", "concept_b": "Последовательность  возрастающая", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Множество вполне упорядоченное", "concept_b": "Принцип индукции", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Множество вполне упорядоченное", "concept_b": "Супремум", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Множество вполне упорядоченное", "concept_b": "Функция  непрерывная по Скотту", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Множество вполне упорядоченное", "concept_b": "Функция монотонная", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Множество вполне упорядоченное", "concept_b": "Функция монотонно возрастающая", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Множество вполне упорядоченное", "concept_b": "Функция монотонно убывающая", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Множество вполне упорядоченное", "concept_b": "Функция строго монотонная", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Множество вполне упорядоченное", "concept_b": "Функция строго монотонно возрастающая", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Множество вполне упорядоченное", "concept_b": "Функция строго монотонно убывающая", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Множество вполне упорядоченное", "concept_b": "Цепочка", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Множество вполне упорядоченное", "concept_b": "Числовая ось", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Множество вполне упорядоченное", "concept_b": "Элемент максимальный", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Множество вполне упорядоченное", "concept_b": "Элемент минимальный", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Множество вполне упорядоченное", "concept_b": "Элемент наибольший", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Множество вполне упорядоченное", "concept_b": "Элемент наименьший", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Множество линейно полное", "concept_b": "Множество линейно упорядоченное", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Множество линейно полное", "concept_b": "Множество частично упорядоченное", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Множество линейно полное", "concept_b": "Неподвижная точка", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Множество линейно полное", "concept_b": "Неподвижная точка наименьшая", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Множество линейно полное", "concept_b": "Отношение квазипорядка", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Множество линейно полное", "concept_b": "Отношение порядка", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Множество линейно полное", "concept_b": "Отношение порядка линейного", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Множество линейно полное", "concept_b": "Отношение порядка нестрогого", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Множество линейно полное", "concept_b": "Отношение порядка строгого", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Множество линейно полное", "concept_b": "Отношение порядка частичного", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Множество линейно полное", "concept_b": "Отношение предпорядка", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Множество линейно полное", "concept_b": "Отношение предпорядка строгого", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Множество линейно полное", "concept_b": "Последовательность  возрастающая", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Множество линейно полное", "concept_b": "Принцип индукции", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Множество линейно полное", "concept_b": "Супремум", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Множество линейно полное", "concept_b": "Функция  непрерывная по Скотту", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Множество линейно полное", "concept_b": "Функция монотонная", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Множество линейно полное", "concept_b": "Функция монотонно возрастающая", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Множество линейно полное", "concept_b": "Функция монотонно убывающая", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Множество линейно полное", "concept_b": "Функция строго монотонная", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Множество линейно полное", "concept_b": "Функция строго монотонно возрастающая", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Множество линейно полное", "concept_b": "Функция строго монотонно убывающая", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Множество линейно полное", "concept_b": "Цепочка", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Множество линейно полное", "concept_b": "Числовая ось", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Множество линейно полное", "concept_b": "Элемент максимальный", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Множество линейно полное", "concept_b": "Элемент минимальный", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Множество линейно полное", "concept_b": "Элемент наибольший", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Множество линейно полное", "concept_b": "Элемент наименьший", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Множество линейно упорядоченное", "concept_b": "Множество частично упорядоченное", "has_relation": true}
+{"paragraph_id": "1.8", "concept_a": "Множество линейно упорядоченное", "concept_b": "Неподвижная точка", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Множество линейно упорядоченное", "concept_b": "Неподвижная точка наименьшая", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Множество линейно упорядоченное", "concept_b": "Отношение квазипорядка", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Множество линейно упорядоченное", "concept_b": "Отношение порядка", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Множество линейно упорядоченное", "concept_b": "Отношение порядка линейного", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Множество линейно упорядоченное", "concept_b": "Отношение порядка нестрогого", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Множество линейно упорядоченное", "concept_b": "Отношение порядка строгого", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Множество линейно упорядоченное", "concept_b": "Отношение порядка частичного", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Множество линейно упорядоченное", "concept_b": "Отношение предпорядка", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Множество линейно упорядоченное", "concept_b": "Отношение предпорядка строгого", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Множество линейно упорядоченное", "concept_b": "Последовательность  возрастающая", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Множество линейно упорядоченное", "concept_b": "Принцип индукции", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Множество линейно упорядоченное", "concept_b": "Супремум", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Множество линейно упорядоченное", "concept_b": "Функция  непрерывная по Скотту", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Множество линейно упорядоченное", "concept_b": "Функция монотонная", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Множество линейно упорядоченное", "concept_b": "Функция монотонно возрастающая", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Множество линейно упорядоченное", "concept_b": "Функция монотонно убывающая", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Множество линейно упорядоченное", "concept_b": "Функция строго монотонная", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Множество линейно упорядоченное", "concept_b": "Функция строго монотонно возрастающая", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Множество линейно упорядоченное", "concept_b": "Функция строго монотонно убывающая", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Множество линейно упорядоченное", "concept_b": "Цепочка", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Множество линейно упорядоченное", "concept_b": "Числовая ось", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Множество линейно упорядоченное", "concept_b": "Элемент максимальный", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Множество линейно упорядоченное", "concept_b": "Элемент минимальный", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Множество линейно упорядоченное", "concept_b": "Элемент наибольший", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Множество линейно упорядоченное", "concept_b": "Элемент наименьший", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Множество частично упорядоченное", "concept_b": "Неподвижная точка", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Множество частично упорядоченное", "concept_b": "Неподвижная точка наименьшая", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Множество частично упорядоченное", "concept_b": "Отношение квазипорядка", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Множество частично упорядоченное", "concept_b": "Отношение порядка", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Множество частично упорядоченное", "concept_b": "Отношение порядка линейного", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Множество частично упорядоченное", "concept_b": "Отношение порядка нестрогого", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Множество частично упорядоченное", "concept_b": "Отношение порядка строгого", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Множество частично упорядоченное", "concept_b": "Отношение порядка частичного", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Множество частично упорядоченное", "concept_b": "Отношение предпорядка", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Множество частично упорядоченное", "concept_b": "Отношение предпорядка строгого", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Множество частично упорядоченное", "concept_b": "Последовательность  возрастающая", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Множество частично упорядоченное", "concept_b": "Принцип индукции", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Множество частично упорядоченное", "concept_b": "Супремум", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Множество частично упорядоченное", "concept_b": "Функция  непрерывная по Скотту", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Множество частично упорядоченное", "concept_b": "Функция монотонная", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Множество частично упорядоченное", "concept_b": "Функция монотонно возрастающая", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Множество частично упорядоченное", "concept_b": "Функция монотонно убывающая", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Множество частично упорядоченное", "concept_b": "Функция строго монотонная", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Множество частично упорядоченное", "concept_b": "Функция строго монотонно возрастающая", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Множество частично упорядоченное", "concept_b": "Функция строго монотонно убывающая", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Множество частично упорядоченное", "concept_b": "Цепочка", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Множество частично упорядоченное", "concept_b": "Числовая ось", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Множество частично упорядоченное", "concept_b": "Элемент максимальный", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Множество частично упорядоченное", "concept_b": "Элемент минимальный", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Множество частично упорядоченное", "concept_b": "Элемент наибольший", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Множество частично упорядоченное", "concept_b": "Элемент наименьший", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Неподвижная точка", "concept_b": "Неподвижная точка наименьшая", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Неподвижная точка", "concept_b": "Отношение квазипорядка", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Неподвижная точка", "concept_b": "Отношение порядка", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Неподвижная точка", "concept_b": "Отношение порядка линейного", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Неподвижная точка", "concept_b": "Отношение порядка нестрогого", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Неподвижная точка", "concept_b": "Отношение порядка строгого", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Неподвижная точка", "concept_b": "Отношение порядка частичного", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Неподвижная точка", "concept_b": "Отношение предпорядка", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Неподвижная точка", "concept_b": "Отношение предпорядка строгого", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Неподвижная точка", "concept_b": "Последовательность  возрастающая", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Неподвижная точка", "concept_b": "Принцип индукции", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Неподвижная точка", "concept_b": "Супремум", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Неподвижная точка", "concept_b": "Функция  непрерывная по Скотту", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Неподвижная точка", "concept_b": "Функция монотонная", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Неподвижная точка", "concept_b": "Функция монотонно возрастающая", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Неподвижная точка", "concept_b": "Функция монотонно убывающая", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Неподвижная точка", "concept_b": "Функция строго монотонная", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Неподвижная точка", "concept_b": "Функция строго монотонно возрастающая", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Неподвижная точка", "concept_b": "Функция строго монотонно убывающая", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Неподвижная точка", "concept_b": "Цепочка", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Неподвижная точка", "concept_b": "Числовая ось", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Неподвижная точка", "concept_b": "Элемент максимальный", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Неподвижная точка", "concept_b": "Элемент минимальный", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Неподвижная точка", "concept_b": "Элемент наибольший", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Неподвижная точка", "concept_b": "Элемент наименьший", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Неподвижная точка наименьшая", "concept_b": "Отношение квазипорядка", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Неподвижная точка наименьшая", "concept_b": "Отношение порядка", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Неподвижная точка наименьшая", "concept_b": "Отношение порядка линейного", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Неподвижная точка наименьшая", "concept_b": "Отношение порядка нестрогого", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Неподвижная точка наименьшая", "concept_b": "Отношение порядка строгого", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Неподвижная точка наименьшая", "concept_b": "Отношение порядка частичного", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Неподвижная точка наименьшая", "concept_b": "Отношение предпорядка", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Неподвижная точка наименьшая", "concept_b": "Отношение предпорядка строгого", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Неподвижная точка наименьшая", "concept_b": "Последовательность  возрастающая", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Неподвижная точка наименьшая", "concept_b": "Принцип индукции", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Неподвижная точка наименьшая", "concept_b": "Супремум", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Неподвижная точка наименьшая", "concept_b": "Функция  непрерывная по Скотту", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Неподвижная точка наименьшая", "concept_b": "Функция монотонная", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Неподвижная точка наименьшая", "concept_b": "Функция монотонно возрастающая", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Неподвижная точка наименьшая", "concept_b": "Функция монотонно убывающая", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Неподвижная точка наименьшая", "concept_b": "Функция строго монотонная", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Неподвижная точка наименьшая", "concept_b": "Функция строго монотонно возрастающая", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Неподвижная точка наименьшая", "concept_b": "Функция строго монотонно убывающая", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Неподвижная точка наименьшая", "concept_b": "Цепочка", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Неподвижная точка наименьшая", "concept_b": "Числовая ось", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Неподвижная точка наименьшая", "concept_b": "Элемент максимальный", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Неподвижная точка наименьшая", "concept_b": "Элемент минимальный", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Неподвижная точка наименьшая", "concept_b": "Элемент наибольший", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Неподвижная точка наименьшая", "concept_b": "Элемент наименьший", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Отношение квазипорядка", "concept_b": "Отношение порядка", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Отношение квазипорядка", "concept_b": "Отношение порядка линейного", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Отношение квазипорядка", "concept_b": "Отношение порядка нестрогого", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Отношение квазипорядка", "concept_b": "Отношение порядка строгого", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Отношение квазипорядка", "concept_b": "Отношение порядка частичного", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Отношение квазипорядка", "concept_b": "Отношение предпорядка", "has_relation": true}
+{"paragraph_id": "1.8", "concept_a": "Отношение квазипорядка", "concept_b": "Отношение предпорядка строгого", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Отношение квазипорядка", "concept_b": "Последовательность  возрастающая", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Отношение квазипорядка", "concept_b": "Принцип индукции", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Отношение квазипорядка", "concept_b": "Супремум", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Отношение квазипорядка", "concept_b": "Функция  непрерывная по Скотту", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Отношение квазипорядка", "concept_b": "Функция монотонная", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Отношение квазипорядка", "concept_b": "Функция монотонно возрастающая", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Отношение квазипорядка", "concept_b": "Функция монотонно убывающая", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Отношение квазипорядка", "concept_b": "Функция строго монотонная", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Отношение квазипорядка", "concept_b": "Функция строго монотонно возрастающая", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Отношение квазипорядка", "concept_b": "Функция строго монотонно убывающая", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Отношение квазипорядка", "concept_b": "Цепочка", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Отношение квазипорядка", "concept_b": "Числовая ось", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Отношение квазипорядка", "concept_b": "Элемент максимальный", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Отношение квазипорядка", "concept_b": "Элемент минимальный", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Отношение квазипорядка", "concept_b": "Элемент наибольший", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Отношение квазипорядка", "concept_b": "Элемент наименьший", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Отношение порядка", "concept_b": "Отношение порядка линейного", "has_relation": true}
+{"paragraph_id": "1.8", "concept_a": "Отношение порядка", "concept_b": "Отношение порядка нестрогого", "has_relation": true}
+{"paragraph_id": "1.8", "concept_a": "Отношение порядка", "concept_b": "Отношение порядка строгого", "has_relation": true}
+{"paragraph_id": "1.8", "concept_a": "Отношение порядка", "concept_b": "Отношение порядка частичного", "has_relation": true}
+{"paragraph_id": "1.8", "concept_a": "Отношение порядка", "concept_b": "Отношение предпорядка", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Отношение порядка", "concept_b": "Отношение предпорядка строгого", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Отношение порядка", "concept_b": "Последовательность  возрастающая", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Отношение порядка", "concept_b": "Принцип индукции", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Отношение порядка", "concept_b": "Супремум", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Отношение порядка", "concept_b": "Функция  непрерывная по Скотту", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Отношение порядка", "concept_b": "Функция монотонная", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Отношение порядка", "concept_b": "Функция монотонно возрастающая", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Отношение порядка", "concept_b": "Функция монотонно убывающая", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Отношение порядка", "concept_b": "Функция строго монотонная", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Отношение порядка", "concept_b": "Функция строго монотонно возрастающая", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Отношение порядка", "concept_b": "Функция строго монотонно убывающая", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Отношение порядка", "concept_b": "Цепочка", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Отношение порядка", "concept_b": "Числовая ось", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Отношение порядка", "concept_b": "Элемент максимальный", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Отношение порядка", "concept_b": "Элемент минимальный", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Отношение порядка", "concept_b": "Элемент наибольший", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Отношение порядка", "concept_b": "Элемент наименьший", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Отношение порядка линейного", "concept_b": "Отношение порядка нестрогого", "has_relation": true}
+{"paragraph_id": "1.8", "concept_a": "Отношение порядка линейного", "concept_b": "Отношение порядка строгого", "has_relation": true}
+{"paragraph_id": "1.8", "concept_a": "Отношение порядка линейного", "concept_b": "Отношение порядка частичного", "has_relation": true}
+{"paragraph_id": "1.8", "concept_a": "Отношение порядка линейного", "concept_b": "Отношение предпорядка", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Отношение порядка линейного", "concept_b": "Отношение предпорядка строгого", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Отношение порядка линейного", "concept_b": "Последовательность  возрастающая", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Отношение порядка линейного", "concept_b": "Принцип индукции", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Отношение порядка линейного", "concept_b": "Супремум", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Отношение порядка линейного", "concept_b": "Функция  непрерывная по Скотту", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Отношение порядка линейного", "concept_b": "Функция монотонная", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Отношение порядка линейного", "concept_b": "Функция монотонно возрастающая", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Отношение порядка линейного", "concept_b": "Функция монотонно убывающая", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Отношение порядка линейного", "concept_b": "Функция строго монотонная", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Отношение порядка линейного", "concept_b": "Функция строго монотонно возрастающая", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Отношение порядка линейного", "concept_b": "Функция строго монотонно убывающая", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Отношение порядка линейного", "concept_b": "Цепочка", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Отношение порядка линейного", "concept_b": "Числовая ось", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Отношение порядка линейного", "concept_b": "Элемент максимальный", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Отношение порядка линейного", "concept_b": "Элемент минимальный", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Отношение порядка линейного", "concept_b": "Элемент наибольший", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Отношение порядка линейного", "concept_b": "Элемент наименьший", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Отношение порядка нестрогого", "concept_b": "Отношение порядка строгого", "has_relation": true}
+{"paragraph_id": "1.8", "concept_a": "Отношение порядка нестрогого", "concept_b": "Отношение порядка частичного", "has_relation": true}
+{"paragraph_id": "1.8", "concept_a": "Отношение порядка нестрогого", "concept_b": "Отношение предпорядка", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Отношение порядка нестрогого", "concept_b": "Отношение предпорядка строгого", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Отношение порядка нестрогого", "concept_b": "Последовательность  возрастающая", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Отношение порядка нестрогого", "concept_b": "Принцип индукции", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Отношение порядка нестрогого", "concept_b": "Супремум", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Отношение порядка нестрогого", "concept_b": "Функция  непрерывная по Скотту", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Отношение порядка нестрогого", "concept_b": "Функция монотонная", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Отношение порядка нестрогого", "concept_b": "Функция монотонно возрастающая", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Отношение порядка нестрогого", "concept_b": "Функция монотонно убывающая", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Отношение порядка нестрогого", "concept_b": "Функция строго монотонная", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Отношение порядка нестрогого", "concept_b": "Функция строго монотонно возрастающая", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Отношение порядка нестрогого", "concept_b": "Функция строго монотонно убывающая", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Отношение порядка нестрогого", "concept_b": "Цепочка", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Отношение порядка нестрогого", "concept_b": "Числовая ось", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Отношение порядка нестрогого", "concept_b": "Элемент максимальный", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Отношение порядка нестрогого", "concept_b": "Элемент минимальный", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Отношение порядка нестрогого", "concept_b": "Элемент наибольший", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Отношение порядка нестрогого", "concept_b": "Элемент наименьший", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Отношение порядка строгого", "concept_b": "Отношение порядка частичного", "has_relation": true}
+{"paragraph_id": "1.8", "concept_a": "Отношение порядка строгого", "concept_b": "Отношение предпорядка", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Отношение порядка строгого", "concept_b": "Отношение предпорядка строгого", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Отношение порядка строгого", "concept_b": "Последовательность  возрастающая", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Отношение порядка строгого", "concept_b": "Принцип индукции", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Отношение порядка строгого", "concept_b": "Супремум", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Отношение порядка строгого", "concept_b": "Функция  непрерывная по Скотту", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Отношение порядка строгого", "concept_b": "Функция монотонная", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Отношение порядка строгого", "concept_b": "Функция монотонно возрастающая", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Отношение порядка строгого", "concept_b": "Функция монотонно убывающая", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Отношение порядка строгого", "concept_b": "Функция строго монотонная", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Отношение порядка строгого", "concept_b": "Функция строго монотонно возрастающая", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Отношение порядка строгого", "concept_b": "Функция строго монотонно убывающая", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Отношение порядка строгого", "concept_b": "Цепочка", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Отношение порядка строгого", "concept_b": "Числовая ось", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Отношение порядка строгого", "concept_b": "Элемент максимальный", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Отношение порядка строгого", "concept_b": "Элемент минимальный", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Отношение порядка строгого", "concept_b": "Элемент наибольший", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Отношение порядка строгого", "concept_b": "Элемент наименьший", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Отношение порядка частичного", "concept_b": "Отношение предпорядка", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Отношение порядка частичного", "concept_b": "Отношение предпорядка строгого", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Отношение порядка частичного", "concept_b": "Последовательность  возрастающая", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Отношение порядка частичного", "concept_b": "Принцип индукции", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Отношение порядка частичного", "concept_b": "Супремум", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Отношение порядка частичного", "concept_b": "Функция  непрерывная по Скотту", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Отношение порядка частичного", "concept_b": "Функция монотонная", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Отношение порядка частичного", "concept_b": "Функция монотонно возрастающая", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Отношение порядка частичного", "concept_b": "Функция монотонно убывающая", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Отношение порядка частичного", "concept_b": "Функция строго монотонная", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Отношение порядка частичного", "concept_b": "Функция строго монотонно возрастающая", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Отношение порядка частичного", "concept_b": "Функция строго монотонно убывающая", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Отношение порядка частичного", "concept_b": "Цепочка", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Отношение порядка частичного", "concept_b": "Числовая ось", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Отношение порядка частичного", "concept_b": "Элемент максимальный", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Отношение порядка частичного", "concept_b": "Элемент минимальный", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Отношение порядка частичного", "concept_b": "Элемент наибольший", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Отношение порядка частичного", "concept_b": "Элемент наименьший", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Отношение предпорядка", "concept_b": "Отношение предпорядка строгого", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Отношение предпорядка", "concept_b": "Последовательность  возрастающая", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Отношение предпорядка", "concept_b": "Принцип индукции", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Отношение предпорядка", "concept_b": "Супремум", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Отношение предпорядка", "concept_b": "Функция  непрерывная по Скотту", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Отношение предпорядка", "concept_b": "Функция монотонная", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Отношение предпорядка", "concept_b": "Функция монотонно возрастающая", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Отношение предпорядка", "concept_b": "Функция монотонно убывающая", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Отношение предпорядка", "concept_b": "Функция строго монотонная", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Отношение предпорядка", "concept_b": "Функция строго монотонно возрастающая", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Отношение предпорядка", "concept_b": "Функция строго монотонно убывающая", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Отношение предпорядка", "concept_b": "Цепочка", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Отношение предпорядка", "concept_b": "Числовая ось", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Отношение предпорядка", "concept_b": "Элемент максимальный", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Отношение предпорядка", "concept_b": "Элемент минимальный", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Отношение предпорядка", "concept_b": "Элемент наибольший", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Отношение предпорядка", "concept_b": "Элемент наименьший", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Отношение предпорядка строгого", "concept_b": "Последовательность  возрастающая", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Отношение предпорядка строгого", "concept_b": "Принцип индукции", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Отношение предпорядка строгого", "concept_b": "Супремум", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Отношение предпорядка строгого", "concept_b": "Функция  непрерывная по Скотту", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Отношение предпорядка строгого", "concept_b": "Функция монотонная", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Отношение предпорядка строгого", "concept_b": "Функция монотонно возрастающая", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Отношение предпорядка строгого", "concept_b": "Функция монотонно убывающая", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Отношение предпорядка строгого", "concept_b": "Функция строго монотонная", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Отношение предпорядка строгого", "concept_b": "Функция строго монотонно возрастающая", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Отношение предпорядка строгого", "concept_b": "Функция строго монотонно убывающая", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Отношение предпорядка строгого", "concept_b": "Цепочка", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Отношение предпорядка строгого", "concept_b": "Числовая ось", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Отношение предпорядка строгого", "concept_b": "Элемент максимальный", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Отношение предпорядка строгого", "concept_b": "Элемент минимальный", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Отношение предпорядка строгого", "concept_b": "Элемент наибольший", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Отношение предпорядка строгого", "concept_b": "Элемент наименьший", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Последовательность  возрастающая", "concept_b": "Принцип индукции", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Последовательность  возрастающая", "concept_b": "Супремум", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Последовательность  возрастающая", "concept_b": "Функция  непрерывная по Скотту", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Последовательность  возрастающая", "concept_b": "Функция монотонная", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Последовательность  возрастающая", "concept_b": "Функция монотонно возрастающая", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Последовательность  возрастающая", "concept_b": "Функция монотонно убывающая", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Последовательность  возрастающая", "concept_b": "Функция строго монотонная", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Последовательность  возрастающая", "concept_b": "Функция строго монотонно возрастающая", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Последовательность  возрастающая", "concept_b": "Функция строго монотонно убывающая", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Последовательность  возрастающая", "concept_b": "Цепочка", "has_relation": true}
+{"paragraph_id": "1.8", "concept_a": "Последовательность  возрастающая", "concept_b": "Числовая ось", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Последовательность  возрастающая", "concept_b": "Элемент максимальный", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Последовательность  возрастающая", "concept_b": "Элемент минимальный", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Последовательность  возрастающая", "concept_b": "Элемент наибольший", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Последовательность  возрастающая", "concept_b": "Элемент наименьший", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Принцип индукции", "concept_b": "Супремум", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Принцип индукции", "concept_b": "Функция  непрерывная по Скотту", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Принцип индукции", "concept_b": "Функция монотонная", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Принцип индукции", "concept_b": "Функция монотонно возрастающая", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Принцип индукции", "concept_b": "Функция монотонно убывающая", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Принцип индукции", "concept_b": "Функция строго монотонная", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Принцип индукции", "concept_b": "Функция строго монотонно возрастающая", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Принцип индукции", "concept_b": "Функция строго монотонно убывающая", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Принцип индукции", "concept_b": "Цепочка", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Принцип индукции", "concept_b": "Числовая ось", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Принцип индукции", "concept_b": "Элемент максимальный", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Принцип индукции", "concept_b": "Элемент минимальный", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Принцип индукции", "concept_b": "Элемент наибольший", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Принцип индукции", "concept_b": "Элемент наименьший", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Супремум", "concept_b": "Функция  непрерывная по Скотту", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Супремум", "concept_b": "Функция монотонная", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Супремум", "concept_b": "Функция монотонно возрастающая", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Супремум", "concept_b": "Функция монотонно убывающая", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Супремум", "concept_b": "Функция строго монотонная", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Супремум", "concept_b": "Функция строго монотонно возрастающая", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Супремум", "concept_b": "Функция строго монотонно убывающая", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Супремум", "concept_b": "Цепочка", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Супремум", "concept_b": "Числовая ось", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Супремум", "concept_b": "Элемент максимальный", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Супремум", "concept_b": "Элемент минимальный", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Супремум", "concept_b": "Элемент наибольший", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Супремум", "concept_b": "Элемент наименьший", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Функция  непрерывная по Скотту", "concept_b": "Функция монотонная", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Функция  непрерывная по Скотту", "concept_b": "Функция монотонно возрастающая", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Функция  непрерывная по Скотту", "concept_b": "Функция монотонно убывающая", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Функция  непрерывная по Скотту", "concept_b": "Функция строго монотонная", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Функция  непрерывная по Скотту", "concept_b": "Функция строго монотонно возрастающая", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Функция  непрерывная по Скотту", "concept_b": "Функция строго монотонно убывающая", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Функция  непрерывная по Скотту", "concept_b": "Цепочка", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Функция  непрерывная по Скотту", "concept_b": "Числовая ось", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Функция  непрерывная по Скотту", "concept_b": "Элемент максимальный", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Функция  непрерывная по Скотту", "concept_b": "Элемент минимальный", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Функция  непрерывная по Скотту", "concept_b": "Элемент наибольший", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Функция  непрерывная по Скотту", "concept_b": "Элемент наименьший", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Функция монотонная", "concept_b": "Функция монотонно возрастающая", "has_relation": true}
+{"paragraph_id": "1.8", "concept_a": "Функция монотонная", "concept_b": "Функция монотонно убывающая", "has_relation": true}
+{"paragraph_id": "1.8", "concept_a": "Функция монотонная", "concept_b": "Функция строго монотонная", "has_relation": true}
+{"paragraph_id": "1.8", "concept_a": "Функция монотонная", "concept_b": "Функция строго монотонно возрастающая", "has_relation": true}
+{"paragraph_id": "1.8", "concept_a": "Функция монотонная", "concept_b": "Функция строго монотонно убывающая", "has_relation": true}
+{"paragraph_id": "1.8", "concept_a": "Функция монотонная", "concept_b": "Цепочка", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Функция монотонная", "concept_b": "Числовая ось", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Функция монотонная", "concept_b": "Элемент максимальный", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Функция монотонная", "concept_b": "Элемент минимальный", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Функция монотонная", "concept_b": "Элемент наибольший", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Функция монотонная", "concept_b": "Элемент наименьший", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Функция монотонно возрастающая", "concept_b": "Функция монотонно убывающая", "has_relation": true}
+{"paragraph_id": "1.8", "concept_a": "Функция монотонно возрастающая", "concept_b": "Функция строго монотонная", "has_relation": true}
+{"paragraph_id": "1.8", "concept_a": "Функция монотонно возрастающая", "concept_b": "Функция строго монотонно возрастающая", "has_relation": true}
+{"paragraph_id": "1.8", "concept_a": "Функция монотонно возрастающая", "concept_b": "Функция строго монотонно убывающая", "has_relation": true}
+{"paragraph_id": "1.8", "concept_a": "Функция монотонно возрастающая", "concept_b": "Цепочка", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Функция монотонно возрастающая", "concept_b": "Числовая ось", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Функция монотонно возрастающая", "concept_b": "Элемент максимальный", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Функция монотонно возрастающая", "concept_b": "Элемент минимальный", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Функция монотонно возрастающая", "concept_b": "Элемент наибольший", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Функция монотонно возрастающая", "concept_b": "Элемент наименьший", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Функция монотонно убывающая", "concept_b": "Функция строго монотонная", "has_relation": true}
+{"paragraph_id": "1.8", "concept_a": "Функция монотонно убывающая", "concept_b": "Функция строго монотонно возрастающая", "has_relation": true}
+{"paragraph_id": "1.8", "concept_a": "Функция монотонно убывающая", "concept_b": "Функция строго монотонно убывающая", "has_relation": true}
+{"paragraph_id": "1.8", "concept_a": "Функция монотонно убывающая", "concept_b": "Цепочка", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Функция монотонно убывающая", "concept_b": "Числовая ось", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Функция монотонно убывающая", "concept_b": "Элемент максимальный", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Функция монотонно убывающая", "concept_b": "Элемент минимальный", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Функция монотонно убывающая", "concept_b": "Элемент наибольший", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Функция монотонно убывающая", "concept_b": "Элемент наименьший", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Функция строго монотонная", "concept_b": "Функция строго монотонно возрастающая", "has_relation": true}
+{"paragraph_id": "1.8", "concept_a": "Функция строго монотонная", "concept_b": "Функция строго монотонно убывающая", "has_relation": true}
+{"paragraph_id": "1.8", "concept_a": "Функция строго монотонная", "concept_b": "Цепочка", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Функция строго монотонная", "concept_b": "Числовая ось", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Функция строго монотонная", "concept_b": "Элемент максимальный", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Функция строго монотонная", "concept_b": "Элемент минимальный", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Функция строго монотонная", "concept_b": "Элемент наибольший", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Функция строго монотонная", "concept_b": "Элемент наименьший", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Функция строго монотонно возрастающая", "concept_b": "Функция строго монотонно убывающая", "has_relation": true}
+{"paragraph_id": "1.8", "concept_a": "Функция строго монотонно возрастающая", "concept_b": "Цепочка", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Функция строго монотонно возрастающая", "concept_b": "Числовая ось", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Функция строго монотонно возрастающая", "concept_b": "Элемент максимальный", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Функция строго монотонно возрастающая", "concept_b": "Элемент минимальный", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Функция строго монотонно возрастающая", "concept_b": "Элемент наибольший", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Функция строго монотонно возрастающая", "concept_b": "Элемент наименьший", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Функция строго монотонно убывающая", "concept_b": "Цепочка", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Функция строго монотонно убывающая", "concept_b": "Числовая ось", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Функция строго монотонно убывающая", "concept_b": "Элемент максимальный", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Функция строго монотонно убывающая", "concept_b": "Элемент минимальный", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Функция строго монотонно убывающая", "concept_b": "Элемент наибольший", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Функция строго монотонно убывающая", "concept_b": "Элемент наименьший", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Цепочка", "concept_b": "Числовая ось", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Цепочка", "concept_b": "Элемент максимальный", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Цепочка", "concept_b": "Элемент минимальный", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Цепочка", "concept_b": "Элемент наибольший", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Цепочка", "concept_b": "Элемент наименьший", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Числовая ось", "concept_b": "Элемент максимальный", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Числовая ось", "concept_b": "Элемент минимальный", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Числовая ось", "concept_b": "Элемент наибольший", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Числовая ось", "concept_b": "Элемент наименьший", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Элемент максимальный", "concept_b": "Элемент минимальный", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Элемент максимальный", "concept_b": "Элемент наибольший", "has_relation": true}
+{"paragraph_id": "1.8", "concept_a": "Элемент максимальный", "concept_b": "Элемент наименьший", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Элемент минимальный", "concept_b": "Элемент наибольший", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Элемент минимальный", "concept_b": "Элемент наименьший", "has_relation": false}
+{"paragraph_id": "1.8", "concept_a": "Элемент наибольший", "concept_b": "Элемент наименьший", "has_relation": false}

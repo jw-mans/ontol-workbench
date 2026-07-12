@@ -1,0 +1,147 @@
+{
+  "chapter": "8",
+  "paragraphs": [
+    "8.1",
+    "8.2",
+    "8.3",
+    "8.4",
+    "8.5",
+    "8.6"
+  ],
+  "ground_truth_source": "src/digr/ontology-pipeline/data/dm_reference_ontologies/chapter_08",
+  "ignored_concepts": [
+    "bool",
+    "Объект",
+    "Парадокс",
+    "Парадокс Рассела",
+    "Структура",
+    "Указатель",
+    "Элементами семейства являются множества"
+  ],
+  "chapter_concepts": 62,
+  "raw_unique_relations": 51,
+  "textbook_relations_in_chapter_scope": 58,
+  "textbook_unique_relation_pairs_in_chapter_scope": 50,
+  "category_counts": {
+    "found_on_diagram_correct": 0,
+    "found_on_diagram_wrong_direction": 0,
+    "found_on_diagram_wrong_type": 1,
+    "found_on_diagram_wrong_direction_and_type": 0,
+    "found_not_on_diagram_accepted": 50,
+    "found_not_on_diagram_rejected": 0,
+    "not_found_from_diagram": 57
+  },
+  "corrected_relations": 51,
+  "rendered": false,
+  "render_error": "Обнаружен циклический архитектурный антипаттерн взаимосвязи иерархий (a^+ b^+ a^+ b^+) для класса 'ГрафГерца'\nОбнаружен циклический архитектурный антипаттерн взаимосвязи иерархий (a^+ b^+ a^+ b^+) для класса 'КонденсацияОрграфа'",
+  "paragraph_reviews": [
+    {
+      "paragraph_id": "8.1",
+      "paragraph_title": "8.1. Компоненты связности",
+      "folder": "8.1_компоненты_связности",
+      "relations_reviewed": 19,
+      "corrected_relations": 7,
+      "category_counts": {
+        "found_on_diagram_correct": 0,
+        "found_on_diagram_wrong_direction": 0,
+        "found_on_diagram_wrong_type": 0,
+        "found_on_diagram_wrong_direction_and_type": 0,
+        "found_not_on_diagram_accepted": 7,
+        "found_not_on_diagram_rejected": 0,
+        "not_found_from_diagram": 12
+      },
+      "rendered": true,
+      "render_error": null
+    },
+    {
+      "paragraph_id": "8.2",
+      "paragraph_title": "8.2. Теорема Менгера",
+      "folder": "8.2_теорема_менгера",
+      "relations_reviewed": 11,
+      "corrected_relations": 1,
+      "category_counts": {
+        "found_on_diagram_correct": 0,
+        "found_on_diagram_wrong_direction": 0,
+        "found_on_diagram_wrong_type": 0,
+        "found_on_diagram_wrong_direction_and_type": 0,
+        "found_not_on_diagram_accepted": 1,
+        "found_not_on_diagram_rejected": 0,
+        "not_found_from_diagram": 10
+      },
+      "rendered": true,
+      "render_error": null
+    },
+    {
+      "paragraph_id": "8.3",
+      "paragraph_title": "8.3. Паросочетания",
+      "folder": "8.3_паросочетания",
+      "relations_reviewed": 19,
+      "corrected_relations": 10,
+      "category_counts": {
+        "found_on_diagram_correct": 0,
+        "found_on_diagram_wrong_direction": 0,
+        "found_on_diagram_wrong_type": 0,
+        "found_on_diagram_wrong_direction_and_type": 0,
+        "found_not_on_diagram_accepted": 10,
+        "found_not_on_diagram_rejected": 0,
+        "not_found_from_diagram": 9
+      },
+      "rendered": true,
+      "render_error": null
+    },
+    {
+      "paragraph_id": "8.4",
+      "paragraph_title": "8.4. Потоки в сетях",
+      "folder": "8.4_потоки_в_сетях",
+      "relations_reviewed": 1,
+      "corrected_relations": 1,
+      "category_counts": {
+        "found_on_diagram_correct": 0,
+        "found_on_diagram_wrong_direction": 0,
+        "found_on_diagram_wrong_type": 0,
+        "found_on_diagram_wrong_direction_and_type": 0,
+        "found_not_on_diagram_accepted": 1,
+        "found_not_on_diagram_rejected": 0,
+        "not_found_from_diagram": 0
+      },
+      "rendered": true,
+      "render_error": null
+    },
+    {
+      "paragraph_id": "8.5",
+      "paragraph_title": "8.5. Связность в орграфах",
+      "folder": "8.5_связность_в_орграфах",
+      "relations_reviewed": 33,
+      "corrected_relations": 22,
+      "category_counts": {
+        "found_on_diagram_correct": 0,
+        "found_on_diagram_wrong_direction": 0,
+        "found_on_diagram_wrong_type": 1,
+        "found_on_diagram_wrong_direction_and_type": 0,
+        "found_not_on_diagram_accepted": 21,
+        "found_not_on_diagram_rejected": 0,
+        "not_found_from_diagram": 11
+      },
+      "rendered": false,
+      "render_error": "Обнаружен циклический архитектурный антипаттерн взаимосвязи иерархий (a^+ b^+ a^+ b^+) для класса 'ГрафГерца'\nОбнаружен циклический архитектурный антипаттерн взаимосвязи иерархий (a^+ b^+ a^+ b^+) для класса 'КонденсацияОрграфа'"
+    },
+    {
+      "paragraph_id": "8.6",
+      "paragraph_title": "8.6. Кратчайшие пути",
+      "folder": "8.6_кратчайшие_пути",
+      "relations_reviewed": 25,
+      "corrected_relations": 10,
+      "category_counts": {
+        "found_on_diagram_correct": 0,
+        "found_on_diagram_wrong_direction": 0,
+        "found_on_diagram_wrong_type": 0,
+        "found_on_diagram_wrong_direction_and_type": 0,
+        "found_not_on_diagram_accepted": 10,
+        "found_not_on_diagram_rejected": 0,
+        "not_found_from_diagram": 15
+      },
+      "rendered": true,
+      "render_error": null
+    }
+  ]
+}

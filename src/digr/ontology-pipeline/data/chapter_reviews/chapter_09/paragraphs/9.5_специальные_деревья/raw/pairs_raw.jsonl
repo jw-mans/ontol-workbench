@@ -1,0 +1,45 @@
+{"paragraph_id": "9.5", "concept_a": "Двоичная куча", "concept_b": "Дерево АВЛ-дерево", "has_relation": false}
+{"paragraph_id": "9.5", "concept_a": "Двоичная куча", "concept_b": "Дерево бинарное полное", "has_relation": false}
+{"paragraph_id": "9.5", "concept_a": "Двоичная куча", "concept_b": "Дерево выровненное", "has_relation": false}
+{"paragraph_id": "9.5", "concept_a": "Двоичная куча", "concept_b": "Дерево заполненное", "has_relation": false}
+{"paragraph_id": "9.5", "concept_a": "Двоичная куча", "concept_b": "Дерево подровненное", "has_relation": false}
+{"paragraph_id": "9.5", "concept_a": "Двоичная куча", "concept_b": "Дерево сбалансированное по весу", "has_relation": false}
+{"paragraph_id": "9.5", "concept_a": "Двоичная куча", "concept_b": "Дерево сбалансированное по высоте", "has_relation": false}
+{"paragraph_id": "9.5", "concept_a": "Двоичная куча", "concept_b": "Правило вращения двойного", "has_relation": false}
+{"paragraph_id": "9.5", "concept_a": "Двоичная куча", "concept_b": "Правило вращения простого", "has_relation": false}
+{"paragraph_id": "9.5", "concept_a": "Дерево АВЛ-дерево", "concept_b": "Дерево бинарное полное", "has_relation": false}
+{"paragraph_id": "9.5", "concept_a": "Дерево АВЛ-дерево", "concept_b": "Дерево выровненное", "has_relation": false}
+{"paragraph_id": "9.5", "concept_a": "Дерево АВЛ-дерево", "concept_b": "Дерево заполненное", "has_relation": false}
+{"paragraph_id": "9.5", "concept_a": "Дерево АВЛ-дерево", "concept_b": "Дерево подровненное", "has_relation": true}
+{"paragraph_id": "9.5", "concept_a": "Дерево АВЛ-дерево", "concept_b": "Дерево сбалансированное по весу", "has_relation": false}
+{"paragraph_id": "9.5", "concept_a": "Дерево АВЛ-дерево", "concept_b": "Дерево сбалансированное по высоте", "has_relation": true}
+{"paragraph_id": "9.5", "concept_a": "Дерево АВЛ-дерево", "concept_b": "Правило вращения двойного", "has_relation": false}
+{"paragraph_id": "9.5", "concept_a": "Дерево АВЛ-дерево", "concept_b": "Правило вращения простого", "has_relation": false}
+{"paragraph_id": "9.5", "concept_a": "Дерево бинарное полное", "concept_b": "Дерево выровненное", "has_relation": false}
+{"paragraph_id": "9.5", "concept_a": "Дерево бинарное полное", "concept_b": "Дерево заполненное", "has_relation": false}
+{"paragraph_id": "9.5", "concept_a": "Дерево бинарное полное", "concept_b": "Дерево подровненное", "has_relation": false}
+{"paragraph_id": "9.5", "concept_a": "Дерево бинарное полное", "concept_b": "Дерево сбалансированное по весу", "has_relation": false}
+{"paragraph_id": "9.5", "concept_a": "Дерево бинарное полное", "concept_b": "Дерево сбалансированное по высоте", "has_relation": false}
+{"paragraph_id": "9.5", "concept_a": "Дерево бинарное полное", "concept_b": "Правило вращения двойного", "has_relation": false}
+{"paragraph_id": "9.5", "concept_a": "Дерево бинарное полное", "concept_b": "Правило вращения простого", "has_relation": false}
+{"paragraph_id": "9.5", "concept_a": "Дерево выровненное", "concept_b": "Дерево заполненное", "has_relation": false}
+{"paragraph_id": "9.5", "concept_a": "Дерево выровненное", "concept_b": "Дерево подровненное", "has_relation": false}
+{"paragraph_id": "9.5", "concept_a": "Дерево выровненное", "concept_b": "Дерево сбалансированное по весу", "has_relation": false}
+{"paragraph_id": "9.5", "concept_a": "Дерево выровненное", "concept_b": "Дерево сбалансированное по высоте", "has_relation": false}
+{"paragraph_id": "9.5", "concept_a": "Дерево выровненное", "concept_b": "Правило вращения двойного", "has_relation": false}
+{"paragraph_id": "9.5", "concept_a": "Дерево выровненное", "concept_b": "Правило вращения простого", "has_relation": false}
+{"paragraph_id": "9.5", "concept_a": "Дерево заполненное", "concept_b": "Дерево подровненное", "has_relation": false}
+{"paragraph_id": "9.5", "concept_a": "Дерево заполненное", "concept_b": "Дерево сбалансированное по весу", "has_relation": false}
+{"paragraph_id": "9.5", "concept_a": "Дерево заполненное", "concept_b": "Дерево сбалансированное по высоте", "has_relation": false}
+{"paragraph_id": "9.5", "concept_a": "Дерево заполненное", "concept_b": "Правило вращения двойного", "has_relation": false}
+{"paragraph_id": "9.5", "concept_a": "Дерево заполненное", "concept_b": "Правило вращения простого", "has_relation": false}
+{"paragraph_id": "9.5", "concept_a": "Дерево подровненное", "concept_b": "Дерево сбалансированное по весу", "has_relation": false}
+{"paragraph_id": "9.5", "concept_a": "Дерево подровненное", "concept_b": "Дерево сбалансированное по высоте", "has_relation": true}
+{"paragraph_id": "9.5", "concept_a": "Дерево подровненное", "concept_b": "Правило вращения двойного", "has_relation": false}
+{"paragraph_id": "9.5", "concept_a": "Дерево подровненное", "concept_b": "Правило вращения простого", "has_relation": false}
+{"paragraph_id": "9.5", "concept_a": "Дерево сбалансированное по весу", "concept_b": "Дерево сбалансированное по высоте", "has_relation": false}
+{"paragraph_id": "9.5", "concept_a": "Дерево сбалансированное по весу", "concept_b": "Правило вращения двойного", "has_relation": false}
+{"paragraph_id": "9.5", "concept_a": "Дерево сбалансированное по весу", "concept_b": "Правило вращения простого", "has_relation": false}
+{"paragraph_id": "9.5", "concept_a": "Дерево сбалансированное по высоте", "concept_b": "Правило вращения двойного", "has_relation": false}
+{"paragraph_id": "9.5", "concept_a": "Дерево сбалансированное по высоте", "concept_b": "Правило вращения простого", "has_relation": false}
+{"paragraph_id": "9.5", "concept_a": "Правило вращения двойного", "concept_b": "Правило вращения простого", "has_relation": false}

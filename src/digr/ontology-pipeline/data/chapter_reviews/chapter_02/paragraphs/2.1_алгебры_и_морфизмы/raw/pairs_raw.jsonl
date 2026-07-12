@@ -1,0 +1,1225 @@
+{"paragraph_id": "2.1", "concept_a": "\\Sigma", "concept_b": "\\Sigma_X", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "\\Sigma", "concept_b": "Автоморфизм", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "\\Sigma", "concept_b": "Алгебра", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "\\Sigma", "concept_b": "Алгебра конечно-порожденная", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "\\Sigma", "concept_b": "Алгебра многоосновная", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "\\Sigma", "concept_b": "Алгебра подмножеств", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "\\Sigma", "concept_b": "Алгебра свободная", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "\\Sigma", "concept_b": "Алгебра термов свободная", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "\\Sigma", "concept_b": "Гомоморфизм", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "\\Sigma", "concept_b": "Диаграмма коммутативная", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "\\Sigma", "concept_b": "Замыкание множества", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "\\Sigma", "concept_b": "Изоморфизм", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "\\Sigma", "concept_b": "Изоморфизм алгебр", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "\\Sigma", "concept_b": "Изоморфизм таблиц Кэли", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "\\Sigma", "concept_b": "Квадрат латинский", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "\\Sigma", "concept_b": "Кольцо целых чисел", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "\\Sigma", "concept_b": "Множество несущее", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "\\Sigma", "concept_b": "Модель", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "\\Sigma", "concept_b": "Мономорфизм", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "\\Sigma", "concept_b": "Носитель", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "\\Sigma", "concept_b": "Ограничение", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "\\Sigma", "concept_b": "Операция $n$-арная", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "\\Sigma", "concept_b": "Операция ассоциативная", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "\\Sigma", "concept_b": "Операция дистрибутивная", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "\\Sigma", "concept_b": "Операция идемпотентная", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "\\Sigma", "concept_b": "Операция коммутативная", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "\\Sigma", "concept_b": "Операция разрешимая", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "\\Sigma", "concept_b": "Операция с памятью", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "\\Sigma", "concept_b": "Операция сократимая", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "\\Sigma", "concept_b": "Основа", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "\\Sigma", "concept_b": "Поглощение", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "\\Sigma", "concept_b": "Поле веществественных чисел", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "\\Sigma", "concept_b": "Поле рациональных чисел", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "\\Sigma", "concept_b": "Ранг алгебры", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "\\Sigma", "concept_b": "Сигнатура", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "\\Sigma", "concept_b": "Соотношение определяющее", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "\\Sigma", "concept_b": "Таблица Кэли", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "\\Sigma", "concept_b": "Теория категорий", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "\\Sigma", "concept_b": "Терм", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "\\Sigma", "concept_b": "Тип", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "\\Sigma", "concept_b": "Форма записи инфиксная", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "\\Sigma", "concept_b": "Форма записи постфиксная", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "\\Sigma", "concept_b": "Форма записи префиксная", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "\\Sigma", "concept_b": "Число натуральное", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "\\Sigma", "concept_b": "Число чётное", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "\\Sigma", "concept_b": "Элемент нейтральный", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "\\Sigma", "concept_b": "Элемент нейтральный относительно операции", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "\\Sigma", "concept_b": "Элемент обратный", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "\\Sigma", "concept_b": "Эпиморфизм", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "\\Sigma_X", "concept_b": "Автоморфизм", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "\\Sigma_X", "concept_b": "Алгебра", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "\\Sigma_X", "concept_b": "Алгебра конечно-порожденная", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "\\Sigma_X", "concept_b": "Алгебра многоосновная", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "\\Sigma_X", "concept_b": "Алгебра подмножеств", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "\\Sigma_X", "concept_b": "Алгебра свободная", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "\\Sigma_X", "concept_b": "Алгебра термов свободная", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "\\Sigma_X", "concept_b": "Гомоморфизм", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "\\Sigma_X", "concept_b": "Диаграмма коммутативная", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "\\Sigma_X", "concept_b": "Замыкание множества", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "\\Sigma_X", "concept_b": "Изоморфизм", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "\\Sigma_X", "concept_b": "Изоморфизм алгебр", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "\\Sigma_X", "concept_b": "Изоморфизм таблиц Кэли", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "\\Sigma_X", "concept_b": "Квадрат латинский", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "\\Sigma_X", "concept_b": "Кольцо целых чисел", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "\\Sigma_X", "concept_b": "Множество несущее", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "\\Sigma_X", "concept_b": "Модель", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "\\Sigma_X", "concept_b": "Мономорфизм", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "\\Sigma_X", "concept_b": "Носитель", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "\\Sigma_X", "concept_b": "Ограничение", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "\\Sigma_X", "concept_b": "Операция $n$-арная", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "\\Sigma_X", "concept_b": "Операция ассоциативная", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "\\Sigma_X", "concept_b": "Операция дистрибутивная", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "\\Sigma_X", "concept_b": "Операция идемпотентная", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "\\Sigma_X", "concept_b": "Операция коммутативная", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "\\Sigma_X", "concept_b": "Операция разрешимая", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "\\Sigma_X", "concept_b": "Операция с памятью", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "\\Sigma_X", "concept_b": "Операция сократимая", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "\\Sigma_X", "concept_b": "Основа", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "\\Sigma_X", "concept_b": "Поглощение", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "\\Sigma_X", "concept_b": "Поле веществественных чисел", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "\\Sigma_X", "concept_b": "Поле рациональных чисел", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "\\Sigma_X", "concept_b": "Ранг алгебры", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "\\Sigma_X", "concept_b": "Сигнатура", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "\\Sigma_X", "concept_b": "Соотношение определяющее", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "\\Sigma_X", "concept_b": "Таблица Кэли", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "\\Sigma_X", "concept_b": "Теория категорий", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "\\Sigma_X", "concept_b": "Терм", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "\\Sigma_X", "concept_b": "Тип", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "\\Sigma_X", "concept_b": "Форма записи инфиксная", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "\\Sigma_X", "concept_b": "Форма записи постфиксная", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "\\Sigma_X", "concept_b": "Форма записи префиксная", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "\\Sigma_X", "concept_b": "Число натуральное", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "\\Sigma_X", "concept_b": "Число чётное", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "\\Sigma_X", "concept_b": "Элемент нейтральный", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "\\Sigma_X", "concept_b": "Элемент нейтральный относительно операции", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "\\Sigma_X", "concept_b": "Элемент обратный", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "\\Sigma_X", "concept_b": "Эпиморфизм", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Автоморфизм", "concept_b": "Алгебра", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Автоморфизм", "concept_b": "Алгебра конечно-порожденная", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Автоморфизм", "concept_b": "Алгебра многоосновная", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Автоморфизм", "concept_b": "Алгебра подмножеств", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Автоморфизм", "concept_b": "Алгебра свободная", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Автоморфизм", "concept_b": "Алгебра термов свободная", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Автоморфизм", "concept_b": "Гомоморфизм", "has_relation": true}
+{"paragraph_id": "2.1", "concept_a": "Автоморфизм", "concept_b": "Диаграмма коммутативная", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Автоморфизм", "concept_b": "Замыкание множества", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Автоморфизм", "concept_b": "Изоморфизм", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Автоморфизм", "concept_b": "Изоморфизм алгебр", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Автоморфизм", "concept_b": "Изоморфизм таблиц Кэли", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Автоморфизм", "concept_b": "Квадрат латинский", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Автоморфизм", "concept_b": "Кольцо целых чисел", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Автоморфизм", "concept_b": "Множество несущее", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Автоморфизм", "concept_b": "Модель", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Автоморфизм", "concept_b": "Мономорфизм", "has_relation": true}
+{"paragraph_id": "2.1", "concept_a": "Автоморфизм", "concept_b": "Носитель", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Автоморфизм", "concept_b": "Ограничение", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Автоморфизм", "concept_b": "Операция $n$-арная", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Автоморфизм", "concept_b": "Операция ассоциативная", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Автоморфизм", "concept_b": "Операция дистрибутивная", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Автоморфизм", "concept_b": "Операция идемпотентная", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Автоморфизм", "concept_b": "Операция коммутативная", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Автоморфизм", "concept_b": "Операция разрешимая", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Автоморфизм", "concept_b": "Операция с памятью", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Автоморфизм", "concept_b": "Операция сократимая", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Автоморфизм", "concept_b": "Основа", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Автоморфизм", "concept_b": "Поглощение", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Автоморфизм", "concept_b": "Поле веществественных чисел", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Автоморфизм", "concept_b": "Поле рациональных чисел", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Автоморфизм", "concept_b": "Ранг алгебры", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Автоморфизм", "concept_b": "Сигнатура", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Автоморфизм", "concept_b": "Соотношение определяющее", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Автоморфизм", "concept_b": "Таблица Кэли", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Автоморфизм", "concept_b": "Теория категорий", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Автоморфизм", "concept_b": "Терм", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Автоморфизм", "concept_b": "Тип", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Автоморфизм", "concept_b": "Форма записи инфиксная", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Автоморфизм", "concept_b": "Форма записи постфиксная", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Автоморфизм", "concept_b": "Форма записи префиксная", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Автоморфизм", "concept_b": "Число натуральное", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Автоморфизм", "concept_b": "Число чётное", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Автоморфизм", "concept_b": "Элемент нейтральный", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Автоморфизм", "concept_b": "Элемент нейтральный относительно операции", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Автоморфизм", "concept_b": "Элемент обратный", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Автоморфизм", "concept_b": "Эпиморфизм", "has_relation": true}
+{"paragraph_id": "2.1", "concept_a": "Алгебра", "concept_b": "Алгебра конечно-порожденная", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Алгебра", "concept_b": "Алгебра многоосновная", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Алгебра", "concept_b": "Алгебра подмножеств", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Алгебра", "concept_b": "Алгебра свободная", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Алгебра", "concept_b": "Алгебра термов свободная", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Алгебра", "concept_b": "Гомоморфизм", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Алгебра", "concept_b": "Диаграмма коммутативная", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Алгебра", "concept_b": "Замыкание множества", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Алгебра", "concept_b": "Изоморфизм", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Алгебра", "concept_b": "Изоморфизм алгебр", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Алгебра", "concept_b": "Изоморфизм таблиц Кэли", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Алгебра", "concept_b": "Квадрат латинский", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Алгебра", "concept_b": "Кольцо целых чисел", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Алгебра", "concept_b": "Множество несущее", "has_relation": true}
+{"paragraph_id": "2.1", "concept_a": "Алгебра", "concept_b": "Модель", "has_relation": true}
+{"paragraph_id": "2.1", "concept_a": "Алгебра", "concept_b": "Мономорфизм", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Алгебра", "concept_b": "Носитель", "has_relation": true}
+{"paragraph_id": "2.1", "concept_a": "Алгебра", "concept_b": "Ограничение", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Алгебра", "concept_b": "Операция $n$-арная", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Алгебра", "concept_b": "Операция ассоциативная", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Алгебра", "concept_b": "Операция дистрибутивная", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Алгебра", "concept_b": "Операция идемпотентная", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Алгебра", "concept_b": "Операция коммутативная", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Алгебра", "concept_b": "Операция разрешимая", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Алгебра", "concept_b": "Операция с памятью", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Алгебра", "concept_b": "Операция сократимая", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Алгебра", "concept_b": "Основа", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Алгебра", "concept_b": "Поглощение", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Алгебра", "concept_b": "Поле веществественных чисел", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Алгебра", "concept_b": "Поле рациональных чисел", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Алгебра", "concept_b": "Ранг алгебры", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Алгебра", "concept_b": "Сигнатура", "has_relation": true}
+{"paragraph_id": "2.1", "concept_a": "Алгебра", "concept_b": "Соотношение определяющее", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Алгебра", "concept_b": "Таблица Кэли", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Алгебра", "concept_b": "Теория категорий", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Алгебра", "concept_b": "Терм", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Алгебра", "concept_b": "Тип", "has_relation": true}
+{"paragraph_id": "2.1", "concept_a": "Алгебра", "concept_b": "Форма записи инфиксная", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Алгебра", "concept_b": "Форма записи постфиксная", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Алгебра", "concept_b": "Форма записи префиксная", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Алгебра", "concept_b": "Число натуральное", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Алгебра", "concept_b": "Число чётное", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Алгебра", "concept_b": "Элемент нейтральный", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Алгебра", "concept_b": "Элемент нейтральный относительно операции", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Алгебра", "concept_b": "Элемент обратный", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Алгебра", "concept_b": "Эпиморфизм", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Алгебра конечно-порожденная", "concept_b": "Алгебра многоосновная", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Алгебра конечно-порожденная", "concept_b": "Алгебра подмножеств", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Алгебра конечно-порожденная", "concept_b": "Алгебра свободная", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Алгебра конечно-порожденная", "concept_b": "Алгебра термов свободная", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Алгебра конечно-порожденная", "concept_b": "Гомоморфизм", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Алгебра конечно-порожденная", "concept_b": "Диаграмма коммутативная", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Алгебра конечно-порожденная", "concept_b": "Замыкание множества", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Алгебра конечно-порожденная", "concept_b": "Изоморфизм", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Алгебра конечно-порожденная", "concept_b": "Изоморфизм алгебр", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Алгебра конечно-порожденная", "concept_b": "Изоморфизм таблиц Кэли", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Алгебра конечно-порожденная", "concept_b": "Квадрат латинский", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Алгебра конечно-порожденная", "concept_b": "Кольцо целых чисел", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Алгебра конечно-порожденная", "concept_b": "Множество несущее", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Алгебра конечно-порожденная", "concept_b": "Модель", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Алгебра конечно-порожденная", "concept_b": "Мономорфизм", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Алгебра конечно-порожденная", "concept_b": "Носитель", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Алгебра конечно-порожденная", "concept_b": "Ограничение", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Алгебра конечно-порожденная", "concept_b": "Операция $n$-арная", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Алгебра конечно-порожденная", "concept_b": "Операция ассоциативная", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Алгебра конечно-порожденная", "concept_b": "Операция дистрибутивная", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Алгебра конечно-порожденная", "concept_b": "Операция идемпотентная", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Алгебра конечно-порожденная", "concept_b": "Операция коммутативная", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Алгебра конечно-порожденная", "concept_b": "Операция разрешимая", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Алгебра конечно-порожденная", "concept_b": "Операция с памятью", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Алгебра конечно-порожденная", "concept_b": "Операция сократимая", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Алгебра конечно-порожденная", "concept_b": "Основа", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Алгебра конечно-порожденная", "concept_b": "Поглощение", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Алгебра конечно-порожденная", "concept_b": "Поле веществественных чисел", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Алгебра конечно-порожденная", "concept_b": "Поле рациональных чисел", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Алгебра конечно-порожденная", "concept_b": "Ранг алгебры", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Алгебра конечно-порожденная", "concept_b": "Сигнатура", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Алгебра конечно-порожденная", "concept_b": "Соотношение определяющее", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Алгебра конечно-порожденная", "concept_b": "Таблица Кэли", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Алгебра конечно-порожденная", "concept_b": "Теория категорий", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Алгебра конечно-порожденная", "concept_b": "Терм", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Алгебра конечно-порожденная", "concept_b": "Тип", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Алгебра конечно-порожденная", "concept_b": "Форма записи инфиксная", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Алгебра конечно-порожденная", "concept_b": "Форма записи постфиксная", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Алгебра конечно-порожденная", "concept_b": "Форма записи префиксная", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Алгебра конечно-порожденная", "concept_b": "Число натуральное", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Алгебра конечно-порожденная", "concept_b": "Число чётное", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Алгебра конечно-порожденная", "concept_b": "Элемент нейтральный", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Алгебра конечно-порожденная", "concept_b": "Элемент нейтральный относительно операции", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Алгебра конечно-порожденная", "concept_b": "Элемент обратный", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Алгебра конечно-порожденная", "concept_b": "Эпиморфизм", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Алгебра многоосновная", "concept_b": "Алгебра подмножеств", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Алгебра многоосновная", "concept_b": "Алгебра свободная", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Алгебра многоосновная", "concept_b": "Алгебра термов свободная", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Алгебра многоосновная", "concept_b": "Гомоморфизм", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Алгебра многоосновная", "concept_b": "Диаграмма коммутативная", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Алгебра многоосновная", "concept_b": "Замыкание множества", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Алгебра многоосновная", "concept_b": "Изоморфизм", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Алгебра многоосновная", "concept_b": "Изоморфизм алгебр", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Алгебра многоосновная", "concept_b": "Изоморфизм таблиц Кэли", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Алгебра многоосновная", "concept_b": "Квадрат латинский", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Алгебра многоосновная", "concept_b": "Кольцо целых чисел", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Алгебра многоосновная", "concept_b": "Множество несущее", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Алгебра многоосновная", "concept_b": "Модель", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Алгебра многоосновная", "concept_b": "Мономорфизм", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Алгебра многоосновная", "concept_b": "Носитель", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Алгебра многоосновная", "concept_b": "Ограничение", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Алгебра многоосновная", "concept_b": "Операция $n$-арная", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Алгебра многоосновная", "concept_b": "Операция ассоциативная", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Алгебра многоосновная", "concept_b": "Операция дистрибутивная", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Алгебра многоосновная", "concept_b": "Операция идемпотентная", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Алгебра многоосновная", "concept_b": "Операция коммутативная", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Алгебра многоосновная", "concept_b": "Операция разрешимая", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Алгебра многоосновная", "concept_b": "Операция с памятью", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Алгебра многоосновная", "concept_b": "Операция сократимая", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Алгебра многоосновная", "concept_b": "Основа", "has_relation": true}
+{"paragraph_id": "2.1", "concept_a": "Алгебра многоосновная", "concept_b": "Поглощение", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Алгебра многоосновная", "concept_b": "Поле веществественных чисел", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Алгебра многоосновная", "concept_b": "Поле рациональных чисел", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Алгебра многоосновная", "concept_b": "Ранг алгебры", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Алгебра многоосновная", "concept_b": "Сигнатура", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Алгебра многоосновная", "concept_b": "Соотношение определяющее", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Алгебра многоосновная", "concept_b": "Таблица Кэли", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Алгебра многоосновная", "concept_b": "Теория категорий", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Алгебра многоосновная", "concept_b": "Терм", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Алгебра многоосновная", "concept_b": "Тип", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Алгебра многоосновная", "concept_b": "Форма записи инфиксная", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Алгебра многоосновная", "concept_b": "Форма записи постфиксная", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Алгебра многоосновная", "concept_b": "Форма записи префиксная", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Алгебра многоосновная", "concept_b": "Число натуральное", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Алгебра многоосновная", "concept_b": "Число чётное", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Алгебра многоосновная", "concept_b": "Элемент нейтральный", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Алгебра многоосновная", "concept_b": "Элемент нейтральный относительно операции", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Алгебра многоосновная", "concept_b": "Элемент обратный", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Алгебра многоосновная", "concept_b": "Эпиморфизм", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Алгебра подмножеств", "concept_b": "Алгебра свободная", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Алгебра подмножеств", "concept_b": "Алгебра термов свободная", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Алгебра подмножеств", "concept_b": "Гомоморфизм", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Алгебра подмножеств", "concept_b": "Диаграмма коммутативная", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Алгебра подмножеств", "concept_b": "Замыкание множества", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Алгебра подмножеств", "concept_b": "Изоморфизм", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Алгебра подмножеств", "concept_b": "Изоморфизм алгебр", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Алгебра подмножеств", "concept_b": "Изоморфизм таблиц Кэли", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Алгебра подмножеств", "concept_b": "Квадрат латинский", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Алгебра подмножеств", "concept_b": "Кольцо целых чисел", "has_relation": true}
+{"paragraph_id": "2.1", "concept_a": "Алгебра подмножеств", "concept_b": "Множество несущее", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Алгебра подмножеств", "concept_b": "Модель", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Алгебра подмножеств", "concept_b": "Мономорфизм", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Алгебра подмножеств", "concept_b": "Носитель", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Алгебра подмножеств", "concept_b": "Ограничение", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Алгебра подмножеств", "concept_b": "Операция $n$-арная", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Алгебра подмножеств", "concept_b": "Операция ассоциативная", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Алгебра подмножеств", "concept_b": "Операция дистрибутивная", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Алгебра подмножеств", "concept_b": "Операция идемпотентная", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Алгебра подмножеств", "concept_b": "Операция коммутативная", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Алгебра подмножеств", "concept_b": "Операция разрешимая", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Алгебра подмножеств", "concept_b": "Операция с памятью", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Алгебра подмножеств", "concept_b": "Операция сократимая", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Алгебра подмножеств", "concept_b": "Основа", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Алгебра подмножеств", "concept_b": "Поглощение", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Алгебра подмножеств", "concept_b": "Поле веществественных чисел", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Алгебра подмножеств", "concept_b": "Поле рациональных чисел", "has_relation": true}
+{"paragraph_id": "2.1", "concept_a": "Алгебра подмножеств", "concept_b": "Ранг алгебры", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Алгебра подмножеств", "concept_b": "Сигнатура", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Алгебра подмножеств", "concept_b": "Соотношение определяющее", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Алгебра подмножеств", "concept_b": "Таблица Кэли", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Алгебра подмножеств", "concept_b": "Теория категорий", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Алгебра подмножеств", "concept_b": "Терм", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Алгебра подмножеств", "concept_b": "Тип", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Алгебра подмножеств", "concept_b": "Форма записи инфиксная", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Алгебра подмножеств", "concept_b": "Форма записи постфиксная", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Алгебра подмножеств", "concept_b": "Форма записи префиксная", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Алгебра подмножеств", "concept_b": "Число натуральное", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Алгебра подмножеств", "concept_b": "Число чётное", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Алгебра подмножеств", "concept_b": "Элемент нейтральный", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Алгебра подмножеств", "concept_b": "Элемент нейтральный относительно операции", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Алгебра подмножеств", "concept_b": "Элемент обратный", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Алгебра подмножеств", "concept_b": "Эпиморфизм", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Алгебра свободная", "concept_b": "Алгебра термов свободная", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Алгебра свободная", "concept_b": "Гомоморфизм", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Алгебра свободная", "concept_b": "Диаграмма коммутативная", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Алгебра свободная", "concept_b": "Замыкание множества", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Алгебра свободная", "concept_b": "Изоморфизм", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Алгебра свободная", "concept_b": "Изоморфизм алгебр", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Алгебра свободная", "concept_b": "Изоморфизм таблиц Кэли", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Алгебра свободная", "concept_b": "Квадрат латинский", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Алгебра свободная", "concept_b": "Кольцо целых чисел", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Алгебра свободная", "concept_b": "Множество несущее", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Алгебра свободная", "concept_b": "Модель", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Алгебра свободная", "concept_b": "Мономорфизм", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Алгебра свободная", "concept_b": "Носитель", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Алгебра свободная", "concept_b": "Ограничение", "has_relation": true}
+{"paragraph_id": "2.1", "concept_a": "Алгебра свободная", "concept_b": "Операция $n$-арная", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Алгебра свободная", "concept_b": "Операция ассоциативная", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Алгебра свободная", "concept_b": "Операция дистрибутивная", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Алгебра свободная", "concept_b": "Операция идемпотентная", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Алгебра свободная", "concept_b": "Операция коммутативная", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Алгебра свободная", "concept_b": "Операция разрешимая", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Алгебра свободная", "concept_b": "Операция с памятью", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Алгебра свободная", "concept_b": "Операция сократимая", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Алгебра свободная", "concept_b": "Основа", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Алгебра свободная", "concept_b": "Поглощение", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Алгебра свободная", "concept_b": "Поле веществественных чисел", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Алгебра свободная", "concept_b": "Поле рациональных чисел", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Алгебра свободная", "concept_b": "Ранг алгебры", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Алгебра свободная", "concept_b": "Сигнатура", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Алгебра свободная", "concept_b": "Соотношение определяющее", "has_relation": true}
+{"paragraph_id": "2.1", "concept_a": "Алгебра свободная", "concept_b": "Таблица Кэли", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Алгебра свободная", "concept_b": "Теория категорий", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Алгебра свободная", "concept_b": "Терм", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Алгебра свободная", "concept_b": "Тип", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Алгебра свободная", "concept_b": "Форма записи инфиксная", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Алгебра свободная", "concept_b": "Форма записи постфиксная", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Алгебра свободная", "concept_b": "Форма записи префиксная", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Алгебра свободная", "concept_b": "Число натуральное", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Алгебра свободная", "concept_b": "Число чётное", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Алгебра свободная", "concept_b": "Элемент нейтральный", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Алгебра свободная", "concept_b": "Элемент нейтральный относительно операции", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Алгебра свободная", "concept_b": "Элемент обратный", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Алгебра свободная", "concept_b": "Эпиморфизм", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Алгебра термов свободная", "concept_b": "Гомоморфизм", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Алгебра термов свободная", "concept_b": "Диаграмма коммутативная", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Алгебра термов свободная", "concept_b": "Замыкание множества", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Алгебра термов свободная", "concept_b": "Изоморфизм", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Алгебра термов свободная", "concept_b": "Изоморфизм алгебр", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Алгебра термов свободная", "concept_b": "Изоморфизм таблиц Кэли", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Алгебра термов свободная", "concept_b": "Квадрат латинский", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Алгебра термов свободная", "concept_b": "Кольцо целых чисел", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Алгебра термов свободная", "concept_b": "Множество несущее", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Алгебра термов свободная", "concept_b": "Модель", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Алгебра термов свободная", "concept_b": "Мономорфизм", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Алгебра термов свободная", "concept_b": "Носитель", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Алгебра термов свободная", "concept_b": "Ограничение", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Алгебра термов свободная", "concept_b": "Операция $n$-арная", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Алгебра термов свободная", "concept_b": "Операция ассоциативная", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Алгебра термов свободная", "concept_b": "Операция дистрибутивная", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Алгебра термов свободная", "concept_b": "Операция идемпотентная", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Алгебра термов свободная", "concept_b": "Операция коммутативная", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Алгебра термов свободная", "concept_b": "Операция разрешимая", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Алгебра термов свободная", "concept_b": "Операция с памятью", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Алгебра термов свободная", "concept_b": "Операция сократимая", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Алгебра термов свободная", "concept_b": "Основа", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Алгебра термов свободная", "concept_b": "Поглощение", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Алгебра термов свободная", "concept_b": "Поле веществественных чисел", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Алгебра термов свободная", "concept_b": "Поле рациональных чисел", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Алгебра термов свободная", "concept_b": "Ранг алгебры", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Алгебра термов свободная", "concept_b": "Сигнатура", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Алгебра термов свободная", "concept_b": "Соотношение определяющее", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Алгебра термов свободная", "concept_b": "Таблица Кэли", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Алгебра термов свободная", "concept_b": "Теория категорий", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Алгебра термов свободная", "concept_b": "Терм", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Алгебра термов свободная", "concept_b": "Тип", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Алгебра термов свободная", "concept_b": "Форма записи инфиксная", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Алгебра термов свободная", "concept_b": "Форма записи постфиксная", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Алгебра термов свободная", "concept_b": "Форма записи префиксная", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Алгебра термов свободная", "concept_b": "Число натуральное", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Алгебра термов свободная", "concept_b": "Число чётное", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Алгебра термов свободная", "concept_b": "Элемент нейтральный", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Алгебра термов свободная", "concept_b": "Элемент нейтральный относительно операции", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Алгебра термов свободная", "concept_b": "Элемент обратный", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Алгебра термов свободная", "concept_b": "Эпиморфизм", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Гомоморфизм", "concept_b": "Диаграмма коммутативная", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Гомоморфизм", "concept_b": "Замыкание множества", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Гомоморфизм", "concept_b": "Изоморфизм", "has_relation": true}
+{"paragraph_id": "2.1", "concept_a": "Гомоморфизм", "concept_b": "Изоморфизм алгебр", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Гомоморфизм", "concept_b": "Изоморфизм таблиц Кэли", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Гомоморфизм", "concept_b": "Квадрат латинский", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Гомоморфизм", "concept_b": "Кольцо целых чисел", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Гомоморфизм", "concept_b": "Множество несущее", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Гомоморфизм", "concept_b": "Модель", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Гомоморфизм", "concept_b": "Мономорфизм", "has_relation": true}
+{"paragraph_id": "2.1", "concept_a": "Гомоморфизм", "concept_b": "Носитель", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Гомоморфизм", "concept_b": "Ограничение", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Гомоморфизм", "concept_b": "Операция $n$-арная", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Гомоморфизм", "concept_b": "Операция ассоциативная", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Гомоморфизм", "concept_b": "Операция дистрибутивная", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Гомоморфизм", "concept_b": "Операция идемпотентная", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Гомоморфизм", "concept_b": "Операция коммутативная", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Гомоморфизм", "concept_b": "Операция разрешимая", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Гомоморфизм", "concept_b": "Операция с памятью", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Гомоморфизм", "concept_b": "Операция сократимая", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Гомоморфизм", "concept_b": "Основа", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Гомоморфизм", "concept_b": "Поглощение", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Гомоморфизм", "concept_b": "Поле веществественных чисел", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Гомоморфизм", "concept_b": "Поле рациональных чисел", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Гомоморфизм", "concept_b": "Ранг алгебры", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Гомоморфизм", "concept_b": "Сигнатура", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Гомоморфизм", "concept_b": "Соотношение определяющее", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Гомоморфизм", "concept_b": "Таблица Кэли", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Гомоморфизм", "concept_b": "Теория категорий", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Гомоморфизм", "concept_b": "Терм", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Гомоморфизм", "concept_b": "Тип", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Гомоморфизм", "concept_b": "Форма записи инфиксная", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Гомоморфизм", "concept_b": "Форма записи постфиксная", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Гомоморфизм", "concept_b": "Форма записи префиксная", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Гомоморфизм", "concept_b": "Число натуральное", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Гомоморфизм", "concept_b": "Число чётное", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Гомоморфизм", "concept_b": "Элемент нейтральный", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Гомоморфизм", "concept_b": "Элемент нейтральный относительно операции", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Гомоморфизм", "concept_b": "Элемент обратный", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Гомоморфизм", "concept_b": "Эпиморфизм", "has_relation": true}
+{"paragraph_id": "2.1", "concept_a": "Диаграмма коммутативная", "concept_b": "Замыкание множества", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Диаграмма коммутативная", "concept_b": "Изоморфизм", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Диаграмма коммутативная", "concept_b": "Изоморфизм алгебр", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Диаграмма коммутативная", "concept_b": "Изоморфизм таблиц Кэли", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Диаграмма коммутативная", "concept_b": "Квадрат латинский", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Диаграмма коммутативная", "concept_b": "Кольцо целых чисел", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Диаграмма коммутативная", "concept_b": "Множество несущее", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Диаграмма коммутативная", "concept_b": "Модель", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Диаграмма коммутативная", "concept_b": "Мономорфизм", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Диаграмма коммутативная", "concept_b": "Носитель", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Диаграмма коммутативная", "concept_b": "Ограничение", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Диаграмма коммутативная", "concept_b": "Операция $n$-арная", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Диаграмма коммутативная", "concept_b": "Операция ассоциативная", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Диаграмма коммутативная", "concept_b": "Операция дистрибутивная", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Диаграмма коммутативная", "concept_b": "Операция идемпотентная", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Диаграмма коммутативная", "concept_b": "Операция коммутативная", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Диаграмма коммутативная", "concept_b": "Операция разрешимая", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Диаграмма коммутативная", "concept_b": "Операция с памятью", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Диаграмма коммутативная", "concept_b": "Операция сократимая", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Диаграмма коммутативная", "concept_b": "Основа", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Диаграмма коммутативная", "concept_b": "Поглощение", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Диаграмма коммутативная", "concept_b": "Поле веществественных чисел", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Диаграмма коммутативная", "concept_b": "Поле рациональных чисел", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Диаграмма коммутативная", "concept_b": "Ранг алгебры", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Диаграмма коммутативная", "concept_b": "Сигнатура", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Диаграмма коммутативная", "concept_b": "Соотношение определяющее", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Диаграмма коммутативная", "concept_b": "Таблица Кэли", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Диаграмма коммутативная", "concept_b": "Теория категорий", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Диаграмма коммутативная", "concept_b": "Терм", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Диаграмма коммутативная", "concept_b": "Тип", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Диаграмма коммутативная", "concept_b": "Форма записи инфиксная", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Диаграмма коммутативная", "concept_b": "Форма записи постфиксная", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Диаграмма коммутативная", "concept_b": "Форма записи префиксная", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Диаграмма коммутативная", "concept_b": "Число натуральное", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Диаграмма коммутативная", "concept_b": "Число чётное", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Диаграмма коммутативная", "concept_b": "Элемент нейтральный", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Диаграмма коммутативная", "concept_b": "Элемент нейтральный относительно операции", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Диаграмма коммутативная", "concept_b": "Элемент обратный", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Диаграмма коммутативная", "concept_b": "Эпиморфизм", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Замыкание множества", "concept_b": "Изоморфизм", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Замыкание множества", "concept_b": "Изоморфизм алгебр", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Замыкание множества", "concept_b": "Изоморфизм таблиц Кэли", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Замыкание множества", "concept_b": "Квадрат латинский", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Замыкание множества", "concept_b": "Кольцо целых чисел", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Замыкание множества", "concept_b": "Множество несущее", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Замыкание множества", "concept_b": "Модель", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Замыкание множества", "concept_b": "Мономорфизм", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Замыкание множества", "concept_b": "Носитель", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Замыкание множества", "concept_b": "Ограничение", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Замыкание множества", "concept_b": "Операция $n$-арная", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Замыкание множества", "concept_b": "Операция ассоциативная", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Замыкание множества", "concept_b": "Операция дистрибутивная", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Замыкание множества", "concept_b": "Операция идемпотентная", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Замыкание множества", "concept_b": "Операция коммутативная", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Замыкание множества", "concept_b": "Операция разрешимая", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Замыкание множества", "concept_b": "Операция с памятью", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Замыкание множества", "concept_b": "Операция сократимая", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Замыкание множества", "concept_b": "Основа", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Замыкание множества", "concept_b": "Поглощение", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Замыкание множества", "concept_b": "Поле веществественных чисел", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Замыкание множества", "concept_b": "Поле рациональных чисел", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Замыкание множества", "concept_b": "Ранг алгебры", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Замыкание множества", "concept_b": "Сигнатура", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Замыкание множества", "concept_b": "Соотношение определяющее", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Замыкание множества", "concept_b": "Таблица Кэли", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Замыкание множества", "concept_b": "Теория категорий", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Замыкание множества", "concept_b": "Терм", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Замыкание множества", "concept_b": "Тип", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Замыкание множества", "concept_b": "Форма записи инфиксная", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Замыкание множества", "concept_b": "Форма записи постфиксная", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Замыкание множества", "concept_b": "Форма записи префиксная", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Замыкание множества", "concept_b": "Число натуральное", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Замыкание множества", "concept_b": "Число чётное", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Замыкание множества", "concept_b": "Элемент нейтральный", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Замыкание множества", "concept_b": "Элемент нейтральный относительно операции", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Замыкание множества", "concept_b": "Элемент обратный", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Замыкание множества", "concept_b": "Эпиморфизм", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Изоморфизм", "concept_b": "Изоморфизм алгебр", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Изоморфизм", "concept_b": "Изоморфизм таблиц Кэли", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Изоморфизм", "concept_b": "Квадрат латинский", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Изоморфизм", "concept_b": "Кольцо целых чисел", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Изоморфизм", "concept_b": "Множество несущее", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Изоморфизм", "concept_b": "Модель", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Изоморфизм", "concept_b": "Мономорфизм", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Изоморфизм", "concept_b": "Носитель", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Изоморфизм", "concept_b": "Ограничение", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Изоморфизм", "concept_b": "Операция $n$-арная", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Изоморфизм", "concept_b": "Операция ассоциативная", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Изоморфизм", "concept_b": "Операция дистрибутивная", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Изоморфизм", "concept_b": "Операция идемпотентная", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Изоморфизм", "concept_b": "Операция коммутативная", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Изоморфизм", "concept_b": "Операция разрешимая", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Изоморфизм", "concept_b": "Операция с памятью", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Изоморфизм", "concept_b": "Операция сократимая", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Изоморфизм", "concept_b": "Основа", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Изоморфизм", "concept_b": "Поглощение", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Изоморфизм", "concept_b": "Поле веществественных чисел", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Изоморфизм", "concept_b": "Поле рациональных чисел", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Изоморфизм", "concept_b": "Ранг алгебры", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Изоморфизм", "concept_b": "Сигнатура", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Изоморфизм", "concept_b": "Соотношение определяющее", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Изоморфизм", "concept_b": "Таблица Кэли", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Изоморфизм", "concept_b": "Теория категорий", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Изоморфизм", "concept_b": "Терм", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Изоморфизм", "concept_b": "Тип", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Изоморфизм", "concept_b": "Форма записи инфиксная", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Изоморфизм", "concept_b": "Форма записи постфиксная", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Изоморфизм", "concept_b": "Форма записи префиксная", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Изоморфизм", "concept_b": "Число натуральное", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Изоморфизм", "concept_b": "Число чётное", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Изоморфизм", "concept_b": "Элемент нейтральный", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Изоморфизм", "concept_b": "Элемент нейтральный относительно операции", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Изоморфизм", "concept_b": "Элемент обратный", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Изоморфизм", "concept_b": "Эпиморфизм", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Изоморфизм алгебр", "concept_b": "Изоморфизм таблиц Кэли", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Изоморфизм алгебр", "concept_b": "Квадрат латинский", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Изоморфизм алгебр", "concept_b": "Кольцо целых чисел", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Изоморфизм алгебр", "concept_b": "Множество несущее", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Изоморфизм алгебр", "concept_b": "Модель", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Изоморфизм алгебр", "concept_b": "Мономорфизм", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Изоморфизм алгебр", "concept_b": "Носитель", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Изоморфизм алгебр", "concept_b": "Ограничение", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Изоморфизм алгебр", "concept_b": "Операция $n$-арная", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Изоморфизм алгебр", "concept_b": "Операция ассоциативная", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Изоморфизм алгебр", "concept_b": "Операция дистрибутивная", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Изоморфизм алгебр", "concept_b": "Операция идемпотентная", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Изоморфизм алгебр", "concept_b": "Операция коммутативная", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Изоморфизм алгебр", "concept_b": "Операция разрешимая", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Изоморфизм алгебр", "concept_b": "Операция с памятью", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Изоморфизм алгебр", "concept_b": "Операция сократимая", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Изоморфизм алгебр", "concept_b": "Основа", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Изоморфизм алгебр", "concept_b": "Поглощение", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Изоморфизм алгебр", "concept_b": "Поле веществественных чисел", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Изоморфизм алгебр", "concept_b": "Поле рациональных чисел", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Изоморфизм алгебр", "concept_b": "Ранг алгебры", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Изоморфизм алгебр", "concept_b": "Сигнатура", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Изоморфизм алгебр", "concept_b": "Соотношение определяющее", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Изоморфизм алгебр", "concept_b": "Таблица Кэли", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Изоморфизм алгебр", "concept_b": "Теория категорий", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Изоморфизм алгебр", "concept_b": "Терм", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Изоморфизм алгебр", "concept_b": "Тип", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Изоморфизм алгебр", "concept_b": "Форма записи инфиксная", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Изоморфизм алгебр", "concept_b": "Форма записи постфиксная", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Изоморфизм алгебр", "concept_b": "Форма записи префиксная", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Изоморфизм алгебр", "concept_b": "Число натуральное", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Изоморфизм алгебр", "concept_b": "Число чётное", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Изоморфизм алгебр", "concept_b": "Элемент нейтральный", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Изоморфизм алгебр", "concept_b": "Элемент нейтральный относительно операции", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Изоморфизм алгебр", "concept_b": "Элемент обратный", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Изоморфизм алгебр", "concept_b": "Эпиморфизм", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Изоморфизм таблиц Кэли", "concept_b": "Квадрат латинский", "has_relation": true}
+{"paragraph_id": "2.1", "concept_a": "Изоморфизм таблиц Кэли", "concept_b": "Кольцо целых чисел", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Изоморфизм таблиц Кэли", "concept_b": "Множество несущее", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Изоморфизм таблиц Кэли", "concept_b": "Модель", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Изоморфизм таблиц Кэли", "concept_b": "Мономорфизм", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Изоморфизм таблиц Кэли", "concept_b": "Носитель", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Изоморфизм таблиц Кэли", "concept_b": "Ограничение", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Изоморфизм таблиц Кэли", "concept_b": "Операция $n$-арная", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Изоморфизм таблиц Кэли", "concept_b": "Операция ассоциативная", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Изоморфизм таблиц Кэли", "concept_b": "Операция дистрибутивная", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Изоморфизм таблиц Кэли", "concept_b": "Операция идемпотентная", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Изоморфизм таблиц Кэли", "concept_b": "Операция коммутативная", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Изоморфизм таблиц Кэли", "concept_b": "Операция разрешимая", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Изоморфизм таблиц Кэли", "concept_b": "Операция с памятью", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Изоморфизм таблиц Кэли", "concept_b": "Операция сократимая", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Изоморфизм таблиц Кэли", "concept_b": "Основа", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Изоморфизм таблиц Кэли", "concept_b": "Поглощение", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Изоморфизм таблиц Кэли", "concept_b": "Поле веществественных чисел", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Изоморфизм таблиц Кэли", "concept_b": "Поле рациональных чисел", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Изоморфизм таблиц Кэли", "concept_b": "Ранг алгебры", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Изоморфизм таблиц Кэли", "concept_b": "Сигнатура", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Изоморфизм таблиц Кэли", "concept_b": "Соотношение определяющее", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Изоморфизм таблиц Кэли", "concept_b": "Таблица Кэли", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Изоморфизм таблиц Кэли", "concept_b": "Теория категорий", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Изоморфизм таблиц Кэли", "concept_b": "Терм", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Изоморфизм таблиц Кэли", "concept_b": "Тип", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Изоморфизм таблиц Кэли", "concept_b": "Форма записи инфиксная", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Изоморфизм таблиц Кэли", "concept_b": "Форма записи постфиксная", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Изоморфизм таблиц Кэли", "concept_b": "Форма записи префиксная", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Изоморфизм таблиц Кэли", "concept_b": "Число натуральное", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Изоморфизм таблиц Кэли", "concept_b": "Число чётное", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Изоморфизм таблиц Кэли", "concept_b": "Элемент нейтральный", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Изоморфизм таблиц Кэли", "concept_b": "Элемент нейтральный относительно операции", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Изоморфизм таблиц Кэли", "concept_b": "Элемент обратный", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Изоморфизм таблиц Кэли", "concept_b": "Эпиморфизм", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Квадрат латинский", "concept_b": "Кольцо целых чисел", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Квадрат латинский", "concept_b": "Множество несущее", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Квадрат латинский", "concept_b": "Модель", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Квадрат латинский", "concept_b": "Мономорфизм", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Квадрат латинский", "concept_b": "Носитель", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Квадрат латинский", "concept_b": "Ограничение", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Квадрат латинский", "concept_b": "Операция $n$-арная", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Квадрат латинский", "concept_b": "Операция ассоциативная", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Квадрат латинский", "concept_b": "Операция дистрибутивная", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Квадрат латинский", "concept_b": "Операция идемпотентная", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Квадрат латинский", "concept_b": "Операция коммутативная", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Квадрат латинский", "concept_b": "Операция разрешимая", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Квадрат латинский", "concept_b": "Операция с памятью", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Квадрат латинский", "concept_b": "Операция сократимая", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Квадрат латинский", "concept_b": "Основа", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Квадрат латинский", "concept_b": "Поглощение", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Квадрат латинский", "concept_b": "Поле веществественных чисел", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Квадрат латинский", "concept_b": "Поле рациональных чисел", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Квадрат латинский", "concept_b": "Ранг алгебры", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Квадрат латинский", "concept_b": "Сигнатура", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Квадрат латинский", "concept_b": "Соотношение определяющее", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Квадрат латинский", "concept_b": "Таблица Кэли", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Квадрат латинский", "concept_b": "Теория категорий", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Квадрат латинский", "concept_b": "Терм", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Квадрат латинский", "concept_b": "Тип", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Квадрат латинский", "concept_b": "Форма записи инфиксная", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Квадрат латинский", "concept_b": "Форма записи постфиксная", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Квадрат латинский", "concept_b": "Форма записи префиксная", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Квадрат латинский", "concept_b": "Число натуральное", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Квадрат латинский", "concept_b": "Число чётное", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Квадрат латинский", "concept_b": "Элемент нейтральный", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Квадрат латинский", "concept_b": "Элемент нейтральный относительно операции", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Квадрат латинский", "concept_b": "Элемент обратный", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Квадрат латинский", "concept_b": "Эпиморфизм", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Кольцо целых чисел", "concept_b": "Множество несущее", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Кольцо целых чисел", "concept_b": "Модель", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Кольцо целых чисел", "concept_b": "Мономорфизм", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Кольцо целых чисел", "concept_b": "Носитель", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Кольцо целых чисел", "concept_b": "Ограничение", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Кольцо целых чисел", "concept_b": "Операция $n$-арная", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Кольцо целых чисел", "concept_b": "Операция ассоциативная", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Кольцо целых чисел", "concept_b": "Операция дистрибутивная", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Кольцо целых чисел", "concept_b": "Операция идемпотентная", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Кольцо целых чисел", "concept_b": "Операция коммутативная", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Кольцо целых чисел", "concept_b": "Операция разрешимая", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Кольцо целых чисел", "concept_b": "Операция с памятью", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Кольцо целых чисел", "concept_b": "Операция сократимая", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Кольцо целых чисел", "concept_b": "Основа", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Кольцо целых чисел", "concept_b": "Поглощение", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Кольцо целых чисел", "concept_b": "Поле веществественных чисел", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Кольцо целых чисел", "concept_b": "Поле рациональных чисел", "has_relation": true}
+{"paragraph_id": "2.1", "concept_a": "Кольцо целых чисел", "concept_b": "Ранг алгебры", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Кольцо целых чисел", "concept_b": "Сигнатура", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Кольцо целых чисел", "concept_b": "Соотношение определяющее", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Кольцо целых чисел", "concept_b": "Таблица Кэли", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Кольцо целых чисел", "concept_b": "Теория категорий", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Кольцо целых чисел", "concept_b": "Терм", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Кольцо целых чисел", "concept_b": "Тип", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Кольцо целых чисел", "concept_b": "Форма записи инфиксная", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Кольцо целых чисел", "concept_b": "Форма записи постфиксная", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Кольцо целых чисел", "concept_b": "Форма записи префиксная", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Кольцо целых чисел", "concept_b": "Число натуральное", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Кольцо целых чисел", "concept_b": "Число чётное", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Кольцо целых чисел", "concept_b": "Элемент нейтральный", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Кольцо целых чисел", "concept_b": "Элемент нейтральный относительно операции", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Кольцо целых чисел", "concept_b": "Элемент обратный", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Кольцо целых чисел", "concept_b": "Эпиморфизм", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Множество несущее", "concept_b": "Модель", "has_relation": true}
+{"paragraph_id": "2.1", "concept_a": "Множество несущее", "concept_b": "Мономорфизм", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Множество несущее", "concept_b": "Носитель", "has_relation": true}
+{"paragraph_id": "2.1", "concept_a": "Множество несущее", "concept_b": "Ограничение", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Множество несущее", "concept_b": "Операция $n$-арная", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Множество несущее", "concept_b": "Операция ассоциативная", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Множество несущее", "concept_b": "Операция дистрибутивная", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Множество несущее", "concept_b": "Операция идемпотентная", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Множество несущее", "concept_b": "Операция коммутативная", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Множество несущее", "concept_b": "Операция разрешимая", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Множество несущее", "concept_b": "Операция с памятью", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Множество несущее", "concept_b": "Операция сократимая", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Множество несущее", "concept_b": "Основа", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Множество несущее", "concept_b": "Поглощение", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Множество несущее", "concept_b": "Поле веществественных чисел", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Множество несущее", "concept_b": "Поле рациональных чисел", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Множество несущее", "concept_b": "Ранг алгебры", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Множество несущее", "concept_b": "Сигнатура", "has_relation": true}
+{"paragraph_id": "2.1", "concept_a": "Множество несущее", "concept_b": "Соотношение определяющее", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Множество несущее", "concept_b": "Таблица Кэли", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Множество несущее", "concept_b": "Теория категорий", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Множество несущее", "concept_b": "Терм", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Множество несущее", "concept_b": "Тип", "has_relation": true}
+{"paragraph_id": "2.1", "concept_a": "Множество несущее", "concept_b": "Форма записи инфиксная", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Множество несущее", "concept_b": "Форма записи постфиксная", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Множество несущее", "concept_b": "Форма записи префиксная", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Множество несущее", "concept_b": "Число натуральное", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Множество несущее", "concept_b": "Число чётное", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Множество несущее", "concept_b": "Элемент нейтральный", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Множество несущее", "concept_b": "Элемент нейтральный относительно операции", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Множество несущее", "concept_b": "Элемент обратный", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Множество несущее", "concept_b": "Эпиморфизм", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Модель", "concept_b": "Мономорфизм", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Модель", "concept_b": "Носитель", "has_relation": true}
+{"paragraph_id": "2.1", "concept_a": "Модель", "concept_b": "Ограничение", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Модель", "concept_b": "Операция $n$-арная", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Модель", "concept_b": "Операция ассоциативная", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Модель", "concept_b": "Операция дистрибутивная", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Модель", "concept_b": "Операция идемпотентная", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Модель", "concept_b": "Операция коммутативная", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Модель", "concept_b": "Операция разрешимая", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Модель", "concept_b": "Операция с памятью", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Модель", "concept_b": "Операция сократимая", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Модель", "concept_b": "Основа", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Модель", "concept_b": "Поглощение", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Модель", "concept_b": "Поле веществественных чисел", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Модель", "concept_b": "Поле рациональных чисел", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Модель", "concept_b": "Ранг алгебры", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Модель", "concept_b": "Сигнатура", "has_relation": true}
+{"paragraph_id": "2.1", "concept_a": "Модель", "concept_b": "Соотношение определяющее", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Модель", "concept_b": "Таблица Кэли", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Модель", "concept_b": "Теория категорий", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Модель", "concept_b": "Терм", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Модель", "concept_b": "Тип", "has_relation": true}
+{"paragraph_id": "2.1", "concept_a": "Модель", "concept_b": "Форма записи инфиксная", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Модель", "concept_b": "Форма записи постфиксная", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Модель", "concept_b": "Форма записи префиксная", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Модель", "concept_b": "Число натуральное", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Модель", "concept_b": "Число чётное", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Модель", "concept_b": "Элемент нейтральный", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Модель", "concept_b": "Элемент нейтральный относительно операции", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Модель", "concept_b": "Элемент обратный", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Модель", "concept_b": "Эпиморфизм", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Мономорфизм", "concept_b": "Носитель", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Мономорфизм", "concept_b": "Ограничение", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Мономорфизм", "concept_b": "Операция $n$-арная", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Мономорфизм", "concept_b": "Операция ассоциативная", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Мономорфизм", "concept_b": "Операция дистрибутивная", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Мономорфизм", "concept_b": "Операция идемпотентная", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Мономорфизм", "concept_b": "Операция коммутативная", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Мономорфизм", "concept_b": "Операция разрешимая", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Мономорфизм", "concept_b": "Операция с памятью", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Мономорфизм", "concept_b": "Операция сократимая", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Мономорфизм", "concept_b": "Основа", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Мономорфизм", "concept_b": "Поглощение", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Мономорфизм", "concept_b": "Поле веществественных чисел", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Мономорфизм", "concept_b": "Поле рациональных чисел", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Мономорфизм", "concept_b": "Ранг алгебры", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Мономорфизм", "concept_b": "Сигнатура", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Мономорфизм", "concept_b": "Соотношение определяющее", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Мономорфизм", "concept_b": "Таблица Кэли", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Мономорфизм", "concept_b": "Теория категорий", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Мономорфизм", "concept_b": "Терм", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Мономорфизм", "concept_b": "Тип", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Мономорфизм", "concept_b": "Форма записи инфиксная", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Мономорфизм", "concept_b": "Форма записи постфиксная", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Мономорфизм", "concept_b": "Форма записи префиксная", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Мономорфизм", "concept_b": "Число натуральное", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Мономорфизм", "concept_b": "Число чётное", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Мономорфизм", "concept_b": "Элемент нейтральный", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Мономорфизм", "concept_b": "Элемент нейтральный относительно операции", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Мономорфизм", "concept_b": "Элемент обратный", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Мономорфизм", "concept_b": "Эпиморфизм", "has_relation": true}
+{"paragraph_id": "2.1", "concept_a": "Носитель", "concept_b": "Ограничение", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Носитель", "concept_b": "Операция $n$-арная", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Носитель", "concept_b": "Операция ассоциативная", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Носитель", "concept_b": "Операция дистрибутивная", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Носитель", "concept_b": "Операция идемпотентная", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Носитель", "concept_b": "Операция коммутативная", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Носитель", "concept_b": "Операция разрешимая", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Носитель", "concept_b": "Операция с памятью", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Носитель", "concept_b": "Операция сократимая", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Носитель", "concept_b": "Основа", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Носитель", "concept_b": "Поглощение", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Носитель", "concept_b": "Поле веществественных чисел", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Носитель", "concept_b": "Поле рациональных чисел", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Носитель", "concept_b": "Ранг алгебры", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Носитель", "concept_b": "Сигнатура", "has_relation": true}
+{"paragraph_id": "2.1", "concept_a": "Носитель", "concept_b": "Соотношение определяющее", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Носитель", "concept_b": "Таблица Кэли", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Носитель", "concept_b": "Теория категорий", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Носитель", "concept_b": "Терм", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Носитель", "concept_b": "Тип", "has_relation": true}
+{"paragraph_id": "2.1", "concept_a": "Носитель", "concept_b": "Форма записи инфиксная", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Носитель", "concept_b": "Форма записи постфиксная", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Носитель", "concept_b": "Форма записи префиксная", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Носитель", "concept_b": "Число натуральное", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Носитель", "concept_b": "Число чётное", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Носитель", "concept_b": "Элемент нейтральный", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Носитель", "concept_b": "Элемент нейтральный относительно операции", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Носитель", "concept_b": "Элемент обратный", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Носитель", "concept_b": "Эпиморфизм", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Ограничение", "concept_b": "Операция $n$-арная", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Ограничение", "concept_b": "Операция ассоциативная", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Ограничение", "concept_b": "Операция дистрибутивная", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Ограничение", "concept_b": "Операция идемпотентная", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Ограничение", "concept_b": "Операция коммутативная", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Ограничение", "concept_b": "Операция разрешимая", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Ограничение", "concept_b": "Операция с памятью", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Ограничение", "concept_b": "Операция сократимая", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Ограничение", "concept_b": "Основа", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Ограничение", "concept_b": "Поглощение", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Ограничение", "concept_b": "Поле веществественных чисел", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Ограничение", "concept_b": "Поле рациональных чисел", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Ограничение", "concept_b": "Ранг алгебры", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Ограничение", "concept_b": "Сигнатура", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Ограничение", "concept_b": "Соотношение определяющее", "has_relation": true}
+{"paragraph_id": "2.1", "concept_a": "Ограничение", "concept_b": "Таблица Кэли", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Ограничение", "concept_b": "Теория категорий", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Ограничение", "concept_b": "Терм", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Ограничение", "concept_b": "Тип", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Ограничение", "concept_b": "Форма записи инфиксная", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Ограничение", "concept_b": "Форма записи постфиксная", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Ограничение", "concept_b": "Форма записи префиксная", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Ограничение", "concept_b": "Число натуральное", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Ограничение", "concept_b": "Число чётное", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Ограничение", "concept_b": "Элемент нейтральный", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Ограничение", "concept_b": "Элемент нейтральный относительно операции", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Ограничение", "concept_b": "Элемент обратный", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Ограничение", "concept_b": "Эпиморфизм", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Операция $n$-арная", "concept_b": "Операция ассоциативная", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Операция $n$-арная", "concept_b": "Операция дистрибутивная", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Операция $n$-арная", "concept_b": "Операция идемпотентная", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Операция $n$-арная", "concept_b": "Операция коммутативная", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Операция $n$-арная", "concept_b": "Операция разрешимая", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Операция $n$-арная", "concept_b": "Операция с памятью", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Операция $n$-арная", "concept_b": "Операция сократимая", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Операция $n$-арная", "concept_b": "Основа", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Операция $n$-арная", "concept_b": "Поглощение", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Операция $n$-арная", "concept_b": "Поле веществественных чисел", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Операция $n$-арная", "concept_b": "Поле рациональных чисел", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Операция $n$-арная", "concept_b": "Ранг алгебры", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Операция $n$-арная", "concept_b": "Сигнатура", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Операция $n$-арная", "concept_b": "Соотношение определяющее", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Операция $n$-арная", "concept_b": "Таблица Кэли", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Операция $n$-арная", "concept_b": "Теория категорий", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Операция $n$-арная", "concept_b": "Терм", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Операция $n$-арная", "concept_b": "Тип", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Операция $n$-арная", "concept_b": "Форма записи инфиксная", "has_relation": true}
+{"paragraph_id": "2.1", "concept_a": "Операция $n$-арная", "concept_b": "Форма записи постфиксная", "has_relation": true}
+{"paragraph_id": "2.1", "concept_a": "Операция $n$-арная", "concept_b": "Форма записи префиксная", "has_relation": true}
+{"paragraph_id": "2.1", "concept_a": "Операция $n$-арная", "concept_b": "Число натуральное", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Операция $n$-арная", "concept_b": "Число чётное", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Операция $n$-арная", "concept_b": "Элемент нейтральный", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Операция $n$-арная", "concept_b": "Элемент нейтральный относительно операции", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Операция $n$-арная", "concept_b": "Элемент обратный", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Операция $n$-арная", "concept_b": "Эпиморфизм", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Операция ассоциативная", "concept_b": "Операция дистрибутивная", "has_relation": true}
+{"paragraph_id": "2.1", "concept_a": "Операция ассоциативная", "concept_b": "Операция идемпотентная", "has_relation": true}
+{"paragraph_id": "2.1", "concept_a": "Операция ассоциативная", "concept_b": "Операция коммутативная", "has_relation": true}
+{"paragraph_id": "2.1", "concept_a": "Операция ассоциативная", "concept_b": "Операция разрешимая", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Операция ассоциативная", "concept_b": "Операция с памятью", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Операция ассоциативная", "concept_b": "Операция сократимая", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Операция ассоциативная", "concept_b": "Основа", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Операция ассоциативная", "concept_b": "Поглощение", "has_relation": true}
+{"paragraph_id": "2.1", "concept_a": "Операция ассоциативная", "concept_b": "Поле веществественных чисел", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Операция ассоциативная", "concept_b": "Поле рациональных чисел", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Операция ассоциативная", "concept_b": "Ранг алгебры", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Операция ассоциативная", "concept_b": "Сигнатура", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Операция ассоциативная", "concept_b": "Соотношение определяющее", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Операция ассоциативная", "concept_b": "Таблица Кэли", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Операция ассоциативная", "concept_b": "Теория категорий", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Операция ассоциативная", "concept_b": "Терм", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Операция ассоциативная", "concept_b": "Тип", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Операция ассоциативная", "concept_b": "Форма записи инфиксная", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Операция ассоциативная", "concept_b": "Форма записи постфиксная", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Операция ассоциативная", "concept_b": "Форма записи префиксная", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Операция ассоциативная", "concept_b": "Число натуральное", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Операция ассоциативная", "concept_b": "Число чётное", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Операция ассоциативная", "concept_b": "Элемент нейтральный", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Операция ассоциативная", "concept_b": "Элемент нейтральный относительно операции", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Операция ассоциативная", "concept_b": "Элемент обратный", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Операция ассоциативная", "concept_b": "Эпиморфизм", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Операция дистрибутивная", "concept_b": "Операция идемпотентная", "has_relation": true}
+{"paragraph_id": "2.1", "concept_a": "Операция дистрибутивная", "concept_b": "Операция коммутативная", "has_relation": true}
+{"paragraph_id": "2.1", "concept_a": "Операция дистрибутивная", "concept_b": "Операция разрешимая", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Операция дистрибутивная", "concept_b": "Операция с памятью", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Операция дистрибутивная", "concept_b": "Операция сократимая", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Операция дистрибутивная", "concept_b": "Основа", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Операция дистрибутивная", "concept_b": "Поглощение", "has_relation": true}
+{"paragraph_id": "2.1", "concept_a": "Операция дистрибутивная", "concept_b": "Поле веществественных чисел", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Операция дистрибутивная", "concept_b": "Поле рациональных чисел", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Операция дистрибутивная", "concept_b": "Ранг алгебры", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Операция дистрибутивная", "concept_b": "Сигнатура", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Операция дистрибутивная", "concept_b": "Соотношение определяющее", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Операция дистрибутивная", "concept_b": "Таблица Кэли", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Операция дистрибутивная", "concept_b": "Теория категорий", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Операция дистрибутивная", "concept_b": "Терм", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Операция дистрибутивная", "concept_b": "Тип", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Операция дистрибутивная", "concept_b": "Форма записи инфиксная", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Операция дистрибутивная", "concept_b": "Форма записи постфиксная", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Операция дистрибутивная", "concept_b": "Форма записи префиксная", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Операция дистрибутивная", "concept_b": "Число натуральное", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Операция дистрибутивная", "concept_b": "Число чётное", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Операция дистрибутивная", "concept_b": "Элемент нейтральный", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Операция дистрибутивная", "concept_b": "Элемент нейтральный относительно операции", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Операция дистрибутивная", "concept_b": "Элемент обратный", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Операция дистрибутивная", "concept_b": "Эпиморфизм", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Операция идемпотентная", "concept_b": "Операция коммутативная", "has_relation": true}
+{"paragraph_id": "2.1", "concept_a": "Операция идемпотентная", "concept_b": "Операция разрешимая", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Операция идемпотентная", "concept_b": "Операция с памятью", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Операция идемпотентная", "concept_b": "Операция сократимая", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Операция идемпотентная", "concept_b": "Основа", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Операция идемпотентная", "concept_b": "Поглощение", "has_relation": true}
+{"paragraph_id": "2.1", "concept_a": "Операция идемпотентная", "concept_b": "Поле веществественных чисел", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Операция идемпотентная", "concept_b": "Поле рациональных чисел", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Операция идемпотентная", "concept_b": "Ранг алгебры", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Операция идемпотентная", "concept_b": "Сигнатура", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Операция идемпотентная", "concept_b": "Соотношение определяющее", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Операция идемпотентная", "concept_b": "Таблица Кэли", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Операция идемпотентная", "concept_b": "Теория категорий", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Операция идемпотентная", "concept_b": "Терм", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Операция идемпотентная", "concept_b": "Тип", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Операция идемпотентная", "concept_b": "Форма записи инфиксная", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Операция идемпотентная", "concept_b": "Форма записи постфиксная", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Операция идемпотентная", "concept_b": "Форма записи префиксная", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Операция идемпотентная", "concept_b": "Число натуральное", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Операция идемпотентная", "concept_b": "Число чётное", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Операция идемпотентная", "concept_b": "Элемент нейтральный", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Операция идемпотентная", "concept_b": "Элемент нейтральный относительно операции", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Операция идемпотентная", "concept_b": "Элемент обратный", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Операция идемпотентная", "concept_b": "Эпиморфизм", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Операция коммутативная", "concept_b": "Операция разрешимая", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Операция коммутативная", "concept_b": "Операция с памятью", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Операция коммутативная", "concept_b": "Операция сократимая", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Операция коммутативная", "concept_b": "Основа", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Операция коммутативная", "concept_b": "Поглощение", "has_relation": true}
+{"paragraph_id": "2.1", "concept_a": "Операция коммутативная", "concept_b": "Поле веществественных чисел", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Операция коммутативная", "concept_b": "Поле рациональных чисел", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Операция коммутативная", "concept_b": "Ранг алгебры", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Операция коммутативная", "concept_b": "Сигнатура", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Операция коммутативная", "concept_b": "Соотношение определяющее", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Операция коммутативная", "concept_b": "Таблица Кэли", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Операция коммутативная", "concept_b": "Теория категорий", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Операция коммутативная", "concept_b": "Терм", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Операция коммутативная", "concept_b": "Тип", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Операция коммутативная", "concept_b": "Форма записи инфиксная", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Операция коммутативная", "concept_b": "Форма записи постфиксная", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Операция коммутативная", "concept_b": "Форма записи префиксная", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Операция коммутативная", "concept_b": "Число натуральное", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Операция коммутативная", "concept_b": "Число чётное", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Операция коммутативная", "concept_b": "Элемент нейтральный", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Операция коммутативная", "concept_b": "Элемент нейтральный относительно операции", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Операция коммутативная", "concept_b": "Элемент обратный", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Операция коммутативная", "concept_b": "Эпиморфизм", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Операция разрешимая", "concept_b": "Операция с памятью", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Операция разрешимая", "concept_b": "Операция сократимая", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Операция разрешимая", "concept_b": "Основа", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Операция разрешимая", "concept_b": "Поглощение", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Операция разрешимая", "concept_b": "Поле веществественных чисел", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Операция разрешимая", "concept_b": "Поле рациональных чисел", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Операция разрешимая", "concept_b": "Ранг алгебры", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Операция разрешимая", "concept_b": "Сигнатура", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Операция разрешимая", "concept_b": "Соотношение определяющее", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Операция разрешимая", "concept_b": "Таблица Кэли", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Операция разрешимая", "concept_b": "Теория категорий", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Операция разрешимая", "concept_b": "Терм", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Операция разрешимая", "concept_b": "Тип", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Операция разрешимая", "concept_b": "Форма записи инфиксная", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Операция разрешимая", "concept_b": "Форма записи постфиксная", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Операция разрешимая", "concept_b": "Форма записи префиксная", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Операция разрешимая", "concept_b": "Число натуральное", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Операция разрешимая", "concept_b": "Число чётное", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Операция разрешимая", "concept_b": "Элемент нейтральный", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Операция разрешимая", "concept_b": "Элемент нейтральный относительно операции", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Операция разрешимая", "concept_b": "Элемент обратный", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Операция разрешимая", "concept_b": "Эпиморфизм", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Операция с памятью", "concept_b": "Операция сократимая", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Операция с памятью", "concept_b": "Основа", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Операция с памятью", "concept_b": "Поглощение", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Операция с памятью", "concept_b": "Поле веществественных чисел", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Операция с памятью", "concept_b": "Поле рациональных чисел", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Операция с памятью", "concept_b": "Ранг алгебры", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Операция с памятью", "concept_b": "Сигнатура", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Операция с памятью", "concept_b": "Соотношение определяющее", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Операция с памятью", "concept_b": "Таблица Кэли", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Операция с памятью", "concept_b": "Теория категорий", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Операция с памятью", "concept_b": "Терм", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Операция с памятью", "concept_b": "Тип", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Операция с памятью", "concept_b": "Форма записи инфиксная", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Операция с памятью", "concept_b": "Форма записи постфиксная", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Операция с памятью", "concept_b": "Форма записи префиксная", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Операция с памятью", "concept_b": "Число натуральное", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Операция с памятью", "concept_b": "Число чётное", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Операция с памятью", "concept_b": "Элемент нейтральный", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Операция с памятью", "concept_b": "Элемент нейтральный относительно операции", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Операция с памятью", "concept_b": "Элемент обратный", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Операция с памятью", "concept_b": "Эпиморфизм", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Операция сократимая", "concept_b": "Основа", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Операция сократимая", "concept_b": "Поглощение", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Операция сократимая", "concept_b": "Поле веществественных чисел", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Операция сократимая", "concept_b": "Поле рациональных чисел", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Операция сократимая", "concept_b": "Ранг алгебры", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Операция сократимая", "concept_b": "Сигнатура", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Операция сократимая", "concept_b": "Соотношение определяющее", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Операция сократимая", "concept_b": "Таблица Кэли", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Операция сократимая", "concept_b": "Теория категорий", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Операция сократимая", "concept_b": "Терм", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Операция сократимая", "concept_b": "Тип", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Операция сократимая", "concept_b": "Форма записи инфиксная", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Операция сократимая", "concept_b": "Форма записи постфиксная", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Операция сократимая", "concept_b": "Форма записи префиксная", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Операция сократимая", "concept_b": "Число натуральное", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Операция сократимая", "concept_b": "Число чётное", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Операция сократимая", "concept_b": "Элемент нейтральный", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Операция сократимая", "concept_b": "Элемент нейтральный относительно операции", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Операция сократимая", "concept_b": "Элемент обратный", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Операция сократимая", "concept_b": "Эпиморфизм", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Основа", "concept_b": "Поглощение", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Основа", "concept_b": "Поле веществественных чисел", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Основа", "concept_b": "Поле рациональных чисел", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Основа", "concept_b": "Ранг алгебры", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Основа", "concept_b": "Сигнатура", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Основа", "concept_b": "Соотношение определяющее", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Основа", "concept_b": "Таблица Кэли", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Основа", "concept_b": "Теория категорий", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Основа", "concept_b": "Терм", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Основа", "concept_b": "Тип", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Основа", "concept_b": "Форма записи инфиксная", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Основа", "concept_b": "Форма записи постфиксная", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Основа", "concept_b": "Форма записи префиксная", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Основа", "concept_b": "Число натуральное", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Основа", "concept_b": "Число чётное", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Основа", "concept_b": "Элемент нейтральный", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Основа", "concept_b": "Элемент нейтральный относительно операции", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Основа", "concept_b": "Элемент обратный", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Основа", "concept_b": "Эпиморфизм", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Поглощение", "concept_b": "Поле веществественных чисел", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Поглощение", "concept_b": "Поле рациональных чисел", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Поглощение", "concept_b": "Ранг алгебры", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Поглощение", "concept_b": "Сигнатура", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Поглощение", "concept_b": "Соотношение определяющее", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Поглощение", "concept_b": "Таблица Кэли", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Поглощение", "concept_b": "Теория категорий", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Поглощение", "concept_b": "Терм", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Поглощение", "concept_b": "Тип", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Поглощение", "concept_b": "Форма записи инфиксная", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Поглощение", "concept_b": "Форма записи постфиксная", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Поглощение", "concept_b": "Форма записи префиксная", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Поглощение", "concept_b": "Число натуральное", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Поглощение", "concept_b": "Число чётное", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Поглощение", "concept_b": "Элемент нейтральный", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Поглощение", "concept_b": "Элемент нейтральный относительно операции", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Поглощение", "concept_b": "Элемент обратный", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Поглощение", "concept_b": "Эпиморфизм", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Поле веществественных чисел", "concept_b": "Поле рациональных чисел", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Поле веществественных чисел", "concept_b": "Ранг алгебры", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Поле веществественных чисел", "concept_b": "Сигнатура", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Поле веществественных чисел", "concept_b": "Соотношение определяющее", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Поле веществественных чисел", "concept_b": "Таблица Кэли", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Поле веществественных чисел", "concept_b": "Теория категорий", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Поле веществественных чисел", "concept_b": "Терм", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Поле веществественных чисел", "concept_b": "Тип", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Поле веществественных чисел", "concept_b": "Форма записи инфиксная", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Поле веществественных чисел", "concept_b": "Форма записи постфиксная", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Поле веществественных чисел", "concept_b": "Форма записи префиксная", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Поле веществественных чисел", "concept_b": "Число натуральное", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Поле веществественных чисел", "concept_b": "Число чётное", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Поле веществественных чисел", "concept_b": "Элемент нейтральный", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Поле веществественных чисел", "concept_b": "Элемент нейтральный относительно операции", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Поле веществественных чисел", "concept_b": "Элемент обратный", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Поле веществественных чисел", "concept_b": "Эпиморфизм", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Поле рациональных чисел", "concept_b": "Ранг алгебры", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Поле рациональных чисел", "concept_b": "Сигнатура", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Поле рациональных чисел", "concept_b": "Соотношение определяющее", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Поле рациональных чисел", "concept_b": "Таблица Кэли", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Поле рациональных чисел", "concept_b": "Теория категорий", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Поле рациональных чисел", "concept_b": "Терм", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Поле рациональных чисел", "concept_b": "Тип", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Поле рациональных чисел", "concept_b": "Форма записи инфиксная", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Поле рациональных чисел", "concept_b": "Форма записи постфиксная", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Поле рациональных чисел", "concept_b": "Форма записи префиксная", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Поле рациональных чисел", "concept_b": "Число натуральное", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Поле рациональных чисел", "concept_b": "Число чётное", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Поле рациональных чисел", "concept_b": "Элемент нейтральный", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Поле рациональных чисел", "concept_b": "Элемент нейтральный относительно операции", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Поле рациональных чисел", "concept_b": "Элемент обратный", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Поле рациональных чисел", "concept_b": "Эпиморфизм", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Ранг алгебры", "concept_b": "Сигнатура", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Ранг алгебры", "concept_b": "Соотношение определяющее", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Ранг алгебры", "concept_b": "Таблица Кэли", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Ранг алгебры", "concept_b": "Теория категорий", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Ранг алгебры", "concept_b": "Терм", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Ранг алгебры", "concept_b": "Тип", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Ранг алгебры", "concept_b": "Форма записи инфиксная", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Ранг алгебры", "concept_b": "Форма записи постфиксная", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Ранг алгебры", "concept_b": "Форма записи префиксная", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Ранг алгебры", "concept_b": "Число натуральное", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Ранг алгебры", "concept_b": "Число чётное", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Ранг алгебры", "concept_b": "Элемент нейтральный", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Ранг алгебры", "concept_b": "Элемент нейтральный относительно операции", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Ранг алгебры", "concept_b": "Элемент обратный", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Ранг алгебры", "concept_b": "Эпиморфизм", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Сигнатура", "concept_b": "Соотношение определяющее", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Сигнатура", "concept_b": "Таблица Кэли", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Сигнатура", "concept_b": "Теория категорий", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Сигнатура", "concept_b": "Терм", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Сигнатура", "concept_b": "Тип", "has_relation": true}
+{"paragraph_id": "2.1", "concept_a": "Сигнатура", "concept_b": "Форма записи инфиксная", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Сигнатура", "concept_b": "Форма записи постфиксная", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Сигнатура", "concept_b": "Форма записи префиксная", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Сигнатура", "concept_b": "Число натуральное", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Сигнатура", "concept_b": "Число чётное", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Сигнатура", "concept_b": "Элемент нейтральный", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Сигнатура", "concept_b": "Элемент нейтральный относительно операции", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Сигнатура", "concept_b": "Элемент обратный", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Сигнатура", "concept_b": "Эпиморфизм", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Соотношение определяющее", "concept_b": "Таблица Кэли", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Соотношение определяющее", "concept_b": "Теория категорий", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Соотношение определяющее", "concept_b": "Терм", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Соотношение определяющее", "concept_b": "Тип", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Соотношение определяющее", "concept_b": "Форма записи инфиксная", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Соотношение определяющее", "concept_b": "Форма записи постфиксная", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Соотношение определяющее", "concept_b": "Форма записи префиксная", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Соотношение определяющее", "concept_b": "Число натуральное", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Соотношение определяющее", "concept_b": "Число чётное", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Соотношение определяющее", "concept_b": "Элемент нейтральный", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Соотношение определяющее", "concept_b": "Элемент нейтральный относительно операции", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Соотношение определяющее", "concept_b": "Элемент обратный", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Соотношение определяющее", "concept_b": "Эпиморфизм", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Таблица Кэли", "concept_b": "Теория категорий", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Таблица Кэли", "concept_b": "Терм", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Таблица Кэли", "concept_b": "Тип", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Таблица Кэли", "concept_b": "Форма записи инфиксная", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Таблица Кэли", "concept_b": "Форма записи постфиксная", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Таблица Кэли", "concept_b": "Форма записи префиксная", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Таблица Кэли", "concept_b": "Число натуральное", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Таблица Кэли", "concept_b": "Число чётное", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Таблица Кэли", "concept_b": "Элемент нейтральный", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Таблица Кэли", "concept_b": "Элемент нейтральный относительно операции", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Таблица Кэли", "concept_b": "Элемент обратный", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Таблица Кэли", "concept_b": "Эпиморфизм", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Теория категорий", "concept_b": "Терм", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Теория категорий", "concept_b": "Тип", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Теория категорий", "concept_b": "Форма записи инфиксная", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Теория категорий", "concept_b": "Форма записи постфиксная", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Теория категорий", "concept_b": "Форма записи префиксная", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Теория категорий", "concept_b": "Число натуральное", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Теория категорий", "concept_b": "Число чётное", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Теория категорий", "concept_b": "Элемент нейтральный", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Теория категорий", "concept_b": "Элемент нейтральный относительно операции", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Теория категорий", "concept_b": "Элемент обратный", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Теория категорий", "concept_b": "Эпиморфизм", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Терм", "concept_b": "Тип", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Терм", "concept_b": "Форма записи инфиксная", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Терм", "concept_b": "Форма записи постфиксная", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Терм", "concept_b": "Форма записи префиксная", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Терм", "concept_b": "Число натуральное", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Терм", "concept_b": "Число чётное", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Терм", "concept_b": "Элемент нейтральный", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Терм", "concept_b": "Элемент нейтральный относительно операции", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Терм", "concept_b": "Элемент обратный", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Терм", "concept_b": "Эпиморфизм", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Тип", "concept_b": "Форма записи инфиксная", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Тип", "concept_b": "Форма записи постфиксная", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Тип", "concept_b": "Форма записи префиксная", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Тип", "concept_b": "Число натуральное", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Тип", "concept_b": "Число чётное", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Тип", "concept_b": "Элемент нейтральный", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Тип", "concept_b": "Элемент нейтральный относительно операции", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Тип", "concept_b": "Элемент обратный", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Тип", "concept_b": "Эпиморфизм", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Форма записи инфиксная", "concept_b": "Форма записи постфиксная", "has_relation": true}
+{"paragraph_id": "2.1", "concept_a": "Форма записи инфиксная", "concept_b": "Форма записи префиксная", "has_relation": true}
+{"paragraph_id": "2.1", "concept_a": "Форма записи инфиксная", "concept_b": "Число натуральное", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Форма записи инфиксная", "concept_b": "Число чётное", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Форма записи инфиксная", "concept_b": "Элемент нейтральный", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Форма записи инфиксная", "concept_b": "Элемент нейтральный относительно операции", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Форма записи инфиксная", "concept_b": "Элемент обратный", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Форма записи инфиксная", "concept_b": "Эпиморфизм", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Форма записи постфиксная", "concept_b": "Форма записи префиксная", "has_relation": true}
+{"paragraph_id": "2.1", "concept_a": "Форма записи постфиксная", "concept_b": "Число натуральное", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Форма записи постфиксная", "concept_b": "Число чётное", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Форма записи постфиксная", "concept_b": "Элемент нейтральный", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Форма записи постфиксная", "concept_b": "Элемент нейтральный относительно операции", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Форма записи постфиксная", "concept_b": "Элемент обратный", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Форма записи постфиксная", "concept_b": "Эпиморфизм", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Форма записи префиксная", "concept_b": "Число натуральное", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Форма записи префиксная", "concept_b": "Число чётное", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Форма записи префиксная", "concept_b": "Элемент нейтральный", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Форма записи префиксная", "concept_b": "Элемент нейтральный относительно операции", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Форма записи префиксная", "concept_b": "Элемент обратный", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Форма записи префиксная", "concept_b": "Эпиморфизм", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Число натуральное", "concept_b": "Число чётное", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Число натуральное", "concept_b": "Элемент нейтральный", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Число натуральное", "concept_b": "Элемент нейтральный относительно операции", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Число натуральное", "concept_b": "Элемент обратный", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Число натуральное", "concept_b": "Эпиморфизм", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Число чётное", "concept_b": "Элемент нейтральный", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Число чётное", "concept_b": "Элемент нейтральный относительно операции", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Число чётное", "concept_b": "Элемент обратный", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Число чётное", "concept_b": "Эпиморфизм", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Элемент нейтральный", "concept_b": "Элемент нейтральный относительно операции", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Элемент нейтральный", "concept_b": "Элемент обратный", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Элемент нейтральный", "concept_b": "Эпиморфизм", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Элемент нейтральный относительно операции", "concept_b": "Элемент обратный", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Элемент нейтральный относительно операции", "concept_b": "Эпиморфизм", "has_relation": false}
+{"paragraph_id": "2.1", "concept_a": "Элемент обратный", "concept_b": "Эпиморфизм", "has_relation": false}

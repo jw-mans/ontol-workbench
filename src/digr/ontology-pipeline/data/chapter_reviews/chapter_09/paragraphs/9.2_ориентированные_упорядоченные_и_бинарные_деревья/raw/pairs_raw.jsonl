@@ -1,0 +1,253 @@
+{"paragraph_id": "9.2", "concept_a": "Брат узла", "concept_b": "Ветвь ордерева", "has_relation": true}
+{"paragraph_id": "9.2", "concept_a": "Брат узла", "concept_b": "Высота дерева", "has_relation": true}
+{"paragraph_id": "9.2", "concept_a": "Брат узла", "concept_b": "Граф генеалогический", "has_relation": false}
+{"paragraph_id": "9.2", "concept_a": "Брат узла", "concept_b": "Дерево $m$-ичное", "has_relation": false}
+{"paragraph_id": "9.2", "concept_a": "Брат узла", "concept_b": "Дерево бинарное", "has_relation": false}
+{"paragraph_id": "9.2", "concept_a": "Брат узла", "concept_b": "Дерево двоичное", "has_relation": false}
+{"paragraph_id": "9.2", "concept_a": "Брат узла", "concept_b": "Дерево корневое", "has_relation": false}
+{"paragraph_id": "9.2", "concept_a": "Брат узла", "concept_b": "Дерево ориентированное", "has_relation": false}
+{"paragraph_id": "9.2", "concept_a": "Брат узла", "concept_b": "Дерево упорядоченное", "has_relation": false}
+{"paragraph_id": "9.2", "concept_a": "Брат узла", "concept_b": "Корень ордерева", "has_relation": false}
+{"paragraph_id": "9.2", "concept_a": "Брат узла", "concept_b": "Крона ордерева", "has_relation": true}
+{"paragraph_id": "9.2", "concept_a": "Брат узла", "concept_b": "Лист ордерева", "has_relation": true}
+{"paragraph_id": "9.2", "concept_a": "Брат узла", "concept_b": "Обход дерева прямой", "has_relation": false}
+{"paragraph_id": "9.2", "concept_a": "Брат узла", "concept_b": "Ордерево", "has_relation": false}
+{"paragraph_id": "9.2", "concept_a": "Брат узла", "concept_b": "Отец узла", "has_relation": false}
+{"paragraph_id": "9.2", "concept_a": "Брат узла", "concept_b": "Поддерево", "has_relation": false}
+{"paragraph_id": "9.2", "concept_a": "Брат узла", "concept_b": "Потомок узла", "has_relation": true}
+{"paragraph_id": "9.2", "concept_a": "Брат узла", "concept_b": "Предок узла", "has_relation": true}
+{"paragraph_id": "9.2", "concept_a": "Брат узла", "concept_b": "Родитель узла", "has_relation": true}
+{"paragraph_id": "9.2", "concept_a": "Брат узла", "concept_b": "Сын узла", "has_relation": true}
+{"paragraph_id": "9.2", "concept_a": "Брат узла", "concept_b": "Уровень узла", "has_relation": true}
+{"paragraph_id": "9.2", "concept_a": "Брат узла", "concept_b": "Ярус дерева", "has_relation": true}
+{"paragraph_id": "9.2", "concept_a": "Ветвь ордерева", "concept_b": "Высота дерева", "has_relation": true}
+{"paragraph_id": "9.2", "concept_a": "Ветвь ордерева", "concept_b": "Граф генеалогический", "has_relation": false}
+{"paragraph_id": "9.2", "concept_a": "Ветвь ордерева", "concept_b": "Дерево $m$-ичное", "has_relation": false}
+{"paragraph_id": "9.2", "concept_a": "Ветвь ордерева", "concept_b": "Дерево бинарное", "has_relation": false}
+{"paragraph_id": "9.2", "concept_a": "Ветвь ордерева", "concept_b": "Дерево двоичное", "has_relation": false}
+{"paragraph_id": "9.2", "concept_a": "Ветвь ордерева", "concept_b": "Дерево корневое", "has_relation": false}
+{"paragraph_id": "9.2", "concept_a": "Ветвь ордерева", "concept_b": "Дерево ориентированное", "has_relation": false}
+{"paragraph_id": "9.2", "concept_a": "Ветвь ордерева", "concept_b": "Дерево упорядоченное", "has_relation": false}
+{"paragraph_id": "9.2", "concept_a": "Ветвь ордерева", "concept_b": "Корень ордерева", "has_relation": false}
+{"paragraph_id": "9.2", "concept_a": "Ветвь ордерева", "concept_b": "Крона ордерева", "has_relation": true}
+{"paragraph_id": "9.2", "concept_a": "Ветвь ордерева", "concept_b": "Лист ордерева", "has_relation": true}
+{"paragraph_id": "9.2", "concept_a": "Ветвь ордерева", "concept_b": "Обход дерева прямой", "has_relation": false}
+{"paragraph_id": "9.2", "concept_a": "Ветвь ордерева", "concept_b": "Ордерево", "has_relation": false}
+{"paragraph_id": "9.2", "concept_a": "Ветвь ордерева", "concept_b": "Отец узла", "has_relation": false}
+{"paragraph_id": "9.2", "concept_a": "Ветвь ордерева", "concept_b": "Поддерево", "has_relation": false}
+{"paragraph_id": "9.2", "concept_a": "Ветвь ордерева", "concept_b": "Потомок узла", "has_relation": true}
+{"paragraph_id": "9.2", "concept_a": "Ветвь ордерева", "concept_b": "Предок узла", "has_relation": true}
+{"paragraph_id": "9.2", "concept_a": "Ветвь ордерева", "concept_b": "Родитель узла", "has_relation": true}
+{"paragraph_id": "9.2", "concept_a": "Ветвь ордерева", "concept_b": "Сын узла", "has_relation": true}
+{"paragraph_id": "9.2", "concept_a": "Ветвь ордерева", "concept_b": "Уровень узла", "has_relation": true}
+{"paragraph_id": "9.2", "concept_a": "Ветвь ордерева", "concept_b": "Ярус дерева", "has_relation": true}
+{"paragraph_id": "9.2", "concept_a": "Высота дерева", "concept_b": "Граф генеалогический", "has_relation": false}
+{"paragraph_id": "9.2", "concept_a": "Высота дерева", "concept_b": "Дерево $m$-ичное", "has_relation": false}
+{"paragraph_id": "9.2", "concept_a": "Высота дерева", "concept_b": "Дерево бинарное", "has_relation": false}
+{"paragraph_id": "9.2", "concept_a": "Высота дерева", "concept_b": "Дерево двоичное", "has_relation": false}
+{"paragraph_id": "9.2", "concept_a": "Высота дерева", "concept_b": "Дерево корневое", "has_relation": false}
+{"paragraph_id": "9.2", "concept_a": "Высота дерева", "concept_b": "Дерево ориентированное", "has_relation": false}
+{"paragraph_id": "9.2", "concept_a": "Высота дерева", "concept_b": "Дерево упорядоченное", "has_relation": false}
+{"paragraph_id": "9.2", "concept_a": "Высота дерева", "concept_b": "Корень ордерева", "has_relation": false}
+{"paragraph_id": "9.2", "concept_a": "Высота дерева", "concept_b": "Крона ордерева", "has_relation": true}
+{"paragraph_id": "9.2", "concept_a": "Высота дерева", "concept_b": "Лист ордерева", "has_relation": true}
+{"paragraph_id": "9.2", "concept_a": "Высота дерева", "concept_b": "Обход дерева прямой", "has_relation": false}
+{"paragraph_id": "9.2", "concept_a": "Высота дерева", "concept_b": "Ордерево", "has_relation": false}
+{"paragraph_id": "9.2", "concept_a": "Высота дерева", "concept_b": "Отец узла", "has_relation": false}
+{"paragraph_id": "9.2", "concept_a": "Высота дерева", "concept_b": "Поддерево", "has_relation": false}
+{"paragraph_id": "9.2", "concept_a": "Высота дерева", "concept_b": "Потомок узла", "has_relation": true}
+{"paragraph_id": "9.2", "concept_a": "Высота дерева", "concept_b": "Предок узла", "has_relation": true}
+{"paragraph_id": "9.2", "concept_a": "Высота дерева", "concept_b": "Родитель узла", "has_relation": true}
+{"paragraph_id": "9.2", "concept_a": "Высота дерева", "concept_b": "Сын узла", "has_relation": true}
+{"paragraph_id": "9.2", "concept_a": "Высота дерева", "concept_b": "Уровень узла", "has_relation": true}
+{"paragraph_id": "9.2", "concept_a": "Высота дерева", "concept_b": "Ярус дерева", "has_relation": true}
+{"paragraph_id": "9.2", "concept_a": "Граф генеалогический", "concept_b": "Дерево $m$-ичное", "has_relation": false}
+{"paragraph_id": "9.2", "concept_a": "Граф генеалогический", "concept_b": "Дерево бинарное", "has_relation": false}
+{"paragraph_id": "9.2", "concept_a": "Граф генеалогический", "concept_b": "Дерево двоичное", "has_relation": false}
+{"paragraph_id": "9.2", "concept_a": "Граф генеалогический", "concept_b": "Дерево корневое", "has_relation": false}
+{"paragraph_id": "9.2", "concept_a": "Граф генеалогический", "concept_b": "Дерево ориентированное", "has_relation": false}
+{"paragraph_id": "9.2", "concept_a": "Граф генеалогический", "concept_b": "Дерево упорядоченное", "has_relation": false}
+{"paragraph_id": "9.2", "concept_a": "Граф генеалогический", "concept_b": "Корень ордерева", "has_relation": false}
+{"paragraph_id": "9.2", "concept_a": "Граф генеалогический", "concept_b": "Крона ордерева", "has_relation": false}
+{"paragraph_id": "9.2", "concept_a": "Граф генеалогический", "concept_b": "Лист ордерева", "has_relation": false}
+{"paragraph_id": "9.2", "concept_a": "Граф генеалогический", "concept_b": "Обход дерева прямой", "has_relation": false}
+{"paragraph_id": "9.2", "concept_a": "Граф генеалогический", "concept_b": "Ордерево", "has_relation": false}
+{"paragraph_id": "9.2", "concept_a": "Граф генеалогический", "concept_b": "Отец узла", "has_relation": false}
+{"paragraph_id": "9.2", "concept_a": "Граф генеалогический", "concept_b": "Поддерево", "has_relation": false}
+{"paragraph_id": "9.2", "concept_a": "Граф генеалогический", "concept_b": "Потомок узла", "has_relation": false}
+{"paragraph_id": "9.2", "concept_a": "Граф генеалогический", "concept_b": "Предок узла", "has_relation": false}
+{"paragraph_id": "9.2", "concept_a": "Граф генеалогический", "concept_b": "Родитель узла", "has_relation": false}
+{"paragraph_id": "9.2", "concept_a": "Граф генеалогический", "concept_b": "Сын узла", "has_relation": false}
+{"paragraph_id": "9.2", "concept_a": "Граф генеалогический", "concept_b": "Уровень узла", "has_relation": false}
+{"paragraph_id": "9.2", "concept_a": "Граф генеалогический", "concept_b": "Ярус дерева", "has_relation": false}
+{"paragraph_id": "9.2", "concept_a": "Дерево $m$-ичное", "concept_b": "Дерево бинарное", "has_relation": false}
+{"paragraph_id": "9.2", "concept_a": "Дерево $m$-ичное", "concept_b": "Дерево двоичное", "has_relation": false}
+{"paragraph_id": "9.2", "concept_a": "Дерево $m$-ичное", "concept_b": "Дерево корневое", "has_relation": false}
+{"paragraph_id": "9.2", "concept_a": "Дерево $m$-ичное", "concept_b": "Дерево ориентированное", "has_relation": false}
+{"paragraph_id": "9.2", "concept_a": "Дерево $m$-ичное", "concept_b": "Дерево упорядоченное", "has_relation": false}
+{"paragraph_id": "9.2", "concept_a": "Дерево $m$-ичное", "concept_b": "Корень ордерева", "has_relation": false}
+{"paragraph_id": "9.2", "concept_a": "Дерево $m$-ичное", "concept_b": "Крона ордерева", "has_relation": false}
+{"paragraph_id": "9.2", "concept_a": "Дерево $m$-ичное", "concept_b": "Лист ордерева", "has_relation": false}
+{"paragraph_id": "9.2", "concept_a": "Дерево $m$-ичное", "concept_b": "Обход дерева прямой", "has_relation": false}
+{"paragraph_id": "9.2", "concept_a": "Дерево $m$-ичное", "concept_b": "Ордерево", "has_relation": false}
+{"paragraph_id": "9.2", "concept_a": "Дерево $m$-ичное", "concept_b": "Отец узла", "has_relation": false}
+{"paragraph_id": "9.2", "concept_a": "Дерево $m$-ичное", "concept_b": "Поддерево", "has_relation": false}
+{"paragraph_id": "9.2", "concept_a": "Дерево $m$-ичное", "concept_b": "Потомок узла", "has_relation": false}
+{"paragraph_id": "9.2", "concept_a": "Дерево $m$-ичное", "concept_b": "Предок узла", "has_relation": false}
+{"paragraph_id": "9.2", "concept_a": "Дерево $m$-ичное", "concept_b": "Родитель узла", "has_relation": false}
+{"paragraph_id": "9.2", "concept_a": "Дерево $m$-ичное", "concept_b": "Сын узла", "has_relation": false}
+{"paragraph_id": "9.2", "concept_a": "Дерево $m$-ичное", "concept_b": "Уровень узла", "has_relation": false}
+{"paragraph_id": "9.2", "concept_a": "Дерево $m$-ичное", "concept_b": "Ярус дерева", "has_relation": false}
+{"paragraph_id": "9.2", "concept_a": "Дерево бинарное", "concept_b": "Дерево двоичное", "has_relation": true}
+{"paragraph_id": "9.2", "concept_a": "Дерево бинарное", "concept_b": "Дерево корневое", "has_relation": false}
+{"paragraph_id": "9.2", "concept_a": "Дерево бинарное", "concept_b": "Дерево ориентированное", "has_relation": false}
+{"paragraph_id": "9.2", "concept_a": "Дерево бинарное", "concept_b": "Дерево упорядоченное", "has_relation": false}
+{"paragraph_id": "9.2", "concept_a": "Дерево бинарное", "concept_b": "Корень ордерева", "has_relation": false}
+{"paragraph_id": "9.2", "concept_a": "Дерево бинарное", "concept_b": "Крона ордерева", "has_relation": false}
+{"paragraph_id": "9.2", "concept_a": "Дерево бинарное", "concept_b": "Лист ордерева", "has_relation": false}
+{"paragraph_id": "9.2", "concept_a": "Дерево бинарное", "concept_b": "Обход дерева прямой", "has_relation": false}
+{"paragraph_id": "9.2", "concept_a": "Дерево бинарное", "concept_b": "Ордерево", "has_relation": false}
+{"paragraph_id": "9.2", "concept_a": "Дерево бинарное", "concept_b": "Отец узла", "has_relation": false}
+{"paragraph_id": "9.2", "concept_a": "Дерево бинарное", "concept_b": "Поддерево", "has_relation": false}
+{"paragraph_id": "9.2", "concept_a": "Дерево бинарное", "concept_b": "Потомок узла", "has_relation": false}
+{"paragraph_id": "9.2", "concept_a": "Дерево бинарное", "concept_b": "Предок узла", "has_relation": false}
+{"paragraph_id": "9.2", "concept_a": "Дерево бинарное", "concept_b": "Родитель узла", "has_relation": false}
+{"paragraph_id": "9.2", "concept_a": "Дерево бинарное", "concept_b": "Сын узла", "has_relation": false}
+{"paragraph_id": "9.2", "concept_a": "Дерево бинарное", "concept_b": "Уровень узла", "has_relation": false}
+{"paragraph_id": "9.2", "concept_a": "Дерево бинарное", "concept_b": "Ярус дерева", "has_relation": false}
+{"paragraph_id": "9.2", "concept_a": "Дерево двоичное", "concept_b": "Дерево корневое", "has_relation": false}
+{"paragraph_id": "9.2", "concept_a": "Дерево двоичное", "concept_b": "Дерево ориентированное", "has_relation": false}
+{"paragraph_id": "9.2", "concept_a": "Дерево двоичное", "concept_b": "Дерево упорядоченное", "has_relation": false}
+{"paragraph_id": "9.2", "concept_a": "Дерево двоичное", "concept_b": "Корень ордерева", "has_relation": false}
+{"paragraph_id": "9.2", "concept_a": "Дерево двоичное", "concept_b": "Крона ордерева", "has_relation": false}
+{"paragraph_id": "9.2", "concept_a": "Дерево двоичное", "concept_b": "Лист ордерева", "has_relation": false}
+{"paragraph_id": "9.2", "concept_a": "Дерево двоичное", "concept_b": "Обход дерева прямой", "has_relation": false}
+{"paragraph_id": "9.2", "concept_a": "Дерево двоичное", "concept_b": "Ордерево", "has_relation": false}
+{"paragraph_id": "9.2", "concept_a": "Дерево двоичное", "concept_b": "Отец узла", "has_relation": false}
+{"paragraph_id": "9.2", "concept_a": "Дерево двоичное", "concept_b": "Поддерево", "has_relation": false}
+{"paragraph_id": "9.2", "concept_a": "Дерево двоичное", "concept_b": "Потомок узла", "has_relation": false}
+{"paragraph_id": "9.2", "concept_a": "Дерево двоичное", "concept_b": "Предок узла", "has_relation": false}
+{"paragraph_id": "9.2", "concept_a": "Дерево двоичное", "concept_b": "Родитель узла", "has_relation": false}
+{"paragraph_id": "9.2", "concept_a": "Дерево двоичное", "concept_b": "Сын узла", "has_relation": false}
+{"paragraph_id": "9.2", "concept_a": "Дерево двоичное", "concept_b": "Уровень узла", "has_relation": false}
+{"paragraph_id": "9.2", "concept_a": "Дерево двоичное", "concept_b": "Ярус дерева", "has_relation": false}
+{"paragraph_id": "9.2", "concept_a": "Дерево корневое", "concept_b": "Дерево ориентированное", "has_relation": true}
+{"paragraph_id": "9.2", "concept_a": "Дерево корневое", "concept_b": "Дерево упорядоченное", "has_relation": false}
+{"paragraph_id": "9.2", "concept_a": "Дерево корневое", "concept_b": "Корень ордерева", "has_relation": true}
+{"paragraph_id": "9.2", "concept_a": "Дерево корневое", "concept_b": "Крона ордерева", "has_relation": false}
+{"paragraph_id": "9.2", "concept_a": "Дерево корневое", "concept_b": "Лист ордерева", "has_relation": false}
+{"paragraph_id": "9.2", "concept_a": "Дерево корневое", "concept_b": "Обход дерева прямой", "has_relation": false}
+{"paragraph_id": "9.2", "concept_a": "Дерево корневое", "concept_b": "Ордерево", "has_relation": false}
+{"paragraph_id": "9.2", "concept_a": "Дерево корневое", "concept_b": "Отец узла", "has_relation": false}
+{"paragraph_id": "9.2", "concept_a": "Дерево корневое", "concept_b": "Поддерево", "has_relation": false}
+{"paragraph_id": "9.2", "concept_a": "Дерево корневое", "concept_b": "Потомок узла", "has_relation": false}
+{"paragraph_id": "9.2", "concept_a": "Дерево корневое", "concept_b": "Предок узла", "has_relation": false}
+{"paragraph_id": "9.2", "concept_a": "Дерево корневое", "concept_b": "Родитель узла", "has_relation": false}
+{"paragraph_id": "9.2", "concept_a": "Дерево корневое", "concept_b": "Сын узла", "has_relation": false}
+{"paragraph_id": "9.2", "concept_a": "Дерево корневое", "concept_b": "Уровень узла", "has_relation": false}
+{"paragraph_id": "9.2", "concept_a": "Дерево корневое", "concept_b": "Ярус дерева", "has_relation": false}
+{"paragraph_id": "9.2", "concept_a": "Дерево ориентированное", "concept_b": "Дерево упорядоченное", "has_relation": false}
+{"paragraph_id": "9.2", "concept_a": "Дерево ориентированное", "concept_b": "Корень ордерева", "has_relation": true}
+{"paragraph_id": "9.2", "concept_a": "Дерево ориентированное", "concept_b": "Крона ордерева", "has_relation": false}
+{"paragraph_id": "9.2", "concept_a": "Дерево ориентированное", "concept_b": "Лист ордерева", "has_relation": false}
+{"paragraph_id": "9.2", "concept_a": "Дерево ориентированное", "concept_b": "Обход дерева прямой", "has_relation": false}
+{"paragraph_id": "9.2", "concept_a": "Дерево ориентированное", "concept_b": "Ордерево", "has_relation": false}
+{"paragraph_id": "9.2", "concept_a": "Дерево ориентированное", "concept_b": "Отец узла", "has_relation": false}
+{"paragraph_id": "9.2", "concept_a": "Дерево ориентированное", "concept_b": "Поддерево", "has_relation": false}
+{"paragraph_id": "9.2", "concept_a": "Дерево ориентированное", "concept_b": "Потомок узла", "has_relation": false}
+{"paragraph_id": "9.2", "concept_a": "Дерево ориентированное", "concept_b": "Предок узла", "has_relation": false}
+{"paragraph_id": "9.2", "concept_a": "Дерево ориентированное", "concept_b": "Родитель узла", "has_relation": false}
+{"paragraph_id": "9.2", "concept_a": "Дерево ориентированное", "concept_b": "Сын узла", "has_relation": false}
+{"paragraph_id": "9.2", "concept_a": "Дерево ориентированное", "concept_b": "Уровень узла", "has_relation": false}
+{"paragraph_id": "9.2", "concept_a": "Дерево ориентированное", "concept_b": "Ярус дерева", "has_relation": false}
+{"paragraph_id": "9.2", "concept_a": "Дерево упорядоченное", "concept_b": "Корень ордерева", "has_relation": false}
+{"paragraph_id": "9.2", "concept_a": "Дерево упорядоченное", "concept_b": "Крона ордерева", "has_relation": false}
+{"paragraph_id": "9.2", "concept_a": "Дерево упорядоченное", "concept_b": "Лист ордерева", "has_relation": false}
+{"paragraph_id": "9.2", "concept_a": "Дерево упорядоченное", "concept_b": "Обход дерева прямой", "has_relation": false}
+{"paragraph_id": "9.2", "concept_a": "Дерево упорядоченное", "concept_b": "Ордерево", "has_relation": false}
+{"paragraph_id": "9.2", "concept_a": "Дерево упорядоченное", "concept_b": "Отец узла", "has_relation": false}
+{"paragraph_id": "9.2", "concept_a": "Дерево упорядоченное", "concept_b": "Поддерево", "has_relation": false}
+{"paragraph_id": "9.2", "concept_a": "Дерево упорядоченное", "concept_b": "Потомок узла", "has_relation": false}
+{"paragraph_id": "9.2", "concept_a": "Дерево упорядоченное", "concept_b": "Предок узла", "has_relation": false}
+{"paragraph_id": "9.2", "concept_a": "Дерево упорядоченное", "concept_b": "Родитель узла", "has_relation": false}
+{"paragraph_id": "9.2", "concept_a": "Дерево упорядоченное", "concept_b": "Сын узла", "has_relation": false}
+{"paragraph_id": "9.2", "concept_a": "Дерево упорядоченное", "concept_b": "Уровень узла", "has_relation": false}
+{"paragraph_id": "9.2", "concept_a": "Дерево упорядоченное", "concept_b": "Ярус дерева", "has_relation": false}
+{"paragraph_id": "9.2", "concept_a": "Корень ордерева", "concept_b": "Крона ордерева", "has_relation": false}
+{"paragraph_id": "9.2", "concept_a": "Корень ордерева", "concept_b": "Лист ордерева", "has_relation": false}
+{"paragraph_id": "9.2", "concept_a": "Корень ордерева", "concept_b": "Обход дерева прямой", "has_relation": false}
+{"paragraph_id": "9.2", "concept_a": "Корень ордерева", "concept_b": "Ордерево", "has_relation": true}
+{"paragraph_id": "9.2", "concept_a": "Корень ордерева", "concept_b": "Отец узла", "has_relation": false}
+{"paragraph_id": "9.2", "concept_a": "Корень ордерева", "concept_b": "Поддерево", "has_relation": false}
+{"paragraph_id": "9.2", "concept_a": "Корень ордерева", "concept_b": "Потомок узла", "has_relation": false}
+{"paragraph_id": "9.2", "concept_a": "Корень ордерева", "concept_b": "Предок узла", "has_relation": false}
+{"paragraph_id": "9.2", "concept_a": "Корень ордерева", "concept_b": "Родитель узла", "has_relation": false}
+{"paragraph_id": "9.2", "concept_a": "Корень ордерева", "concept_b": "Сын узла", "has_relation": false}
+{"paragraph_id": "9.2", "concept_a": "Корень ордерева", "concept_b": "Уровень узла", "has_relation": false}
+{"paragraph_id": "9.2", "concept_a": "Корень ордерева", "concept_b": "Ярус дерева", "has_relation": false}
+{"paragraph_id": "9.2", "concept_a": "Крона ордерева", "concept_b": "Лист ордерева", "has_relation": true}
+{"paragraph_id": "9.2", "concept_a": "Крона ордерева", "concept_b": "Обход дерева прямой", "has_relation": false}
+{"paragraph_id": "9.2", "concept_a": "Крона ордерева", "concept_b": "Ордерево", "has_relation": false}
+{"paragraph_id": "9.2", "concept_a": "Крона ордерева", "concept_b": "Отец узла", "has_relation": false}
+{"paragraph_id": "9.2", "concept_a": "Крона ордерева", "concept_b": "Поддерево", "has_relation": false}
+{"paragraph_id": "9.2", "concept_a": "Крона ордерева", "concept_b": "Потомок узла", "has_relation": true}
+{"paragraph_id": "9.2", "concept_a": "Крона ордерева", "concept_b": "Предок узла", "has_relation": true}
+{"paragraph_id": "9.2", "concept_a": "Крона ордерева", "concept_b": "Родитель узла", "has_relation": true}
+{"paragraph_id": "9.2", "concept_a": "Крона ордерева", "concept_b": "Сын узла", "has_relation": true}
+{"paragraph_id": "9.2", "concept_a": "Крона ордерева", "concept_b": "Уровень узла", "has_relation": true}
+{"paragraph_id": "9.2", "concept_a": "Крона ордерева", "concept_b": "Ярус дерева", "has_relation": true}
+{"paragraph_id": "9.2", "concept_a": "Лист ордерева", "concept_b": "Обход дерева прямой", "has_relation": false}
+{"paragraph_id": "9.2", "concept_a": "Лист ордерева", "concept_b": "Ордерево", "has_relation": false}
+{"paragraph_id": "9.2", "concept_a": "Лист ордерева", "concept_b": "Отец узла", "has_relation": false}
+{"paragraph_id": "9.2", "concept_a": "Лист ордерева", "concept_b": "Поддерево", "has_relation": false}
+{"paragraph_id": "9.2", "concept_a": "Лист ордерева", "concept_b": "Потомок узла", "has_relation": true}
+{"paragraph_id": "9.2", "concept_a": "Лист ордерева", "concept_b": "Предок узла", "has_relation": true}
+{"paragraph_id": "9.2", "concept_a": "Лист ордерева", "concept_b": "Родитель узла", "has_relation": true}
+{"paragraph_id": "9.2", "concept_a": "Лист ордерева", "concept_b": "Сын узла", "has_relation": true}
+{"paragraph_id": "9.2", "concept_a": "Лист ордерева", "concept_b": "Уровень узла", "has_relation": true}
+{"paragraph_id": "9.2", "concept_a": "Лист ордерева", "concept_b": "Ярус дерева", "has_relation": true}
+{"paragraph_id": "9.2", "concept_a": "Обход дерева прямой", "concept_b": "Ордерево", "has_relation": false}
+{"paragraph_id": "9.2", "concept_a": "Обход дерева прямой", "concept_b": "Отец узла", "has_relation": false}
+{"paragraph_id": "9.2", "concept_a": "Обход дерева прямой", "concept_b": "Поддерево", "has_relation": false}
+{"paragraph_id": "9.2", "concept_a": "Обход дерева прямой", "concept_b": "Потомок узла", "has_relation": false}
+{"paragraph_id": "9.2", "concept_a": "Обход дерева прямой", "concept_b": "Предок узла", "has_relation": false}
+{"paragraph_id": "9.2", "concept_a": "Обход дерева прямой", "concept_b": "Родитель узла", "has_relation": false}
+{"paragraph_id": "9.2", "concept_a": "Обход дерева прямой", "concept_b": "Сын узла", "has_relation": false}
+{"paragraph_id": "9.2", "concept_a": "Обход дерева прямой", "concept_b": "Уровень узла", "has_relation": false}
+{"paragraph_id": "9.2", "concept_a": "Обход дерева прямой", "concept_b": "Ярус дерева", "has_relation": false}
+{"paragraph_id": "9.2", "concept_a": "Ордерево", "concept_b": "Отец узла", "has_relation": false}
+{"paragraph_id": "9.2", "concept_a": "Ордерево", "concept_b": "Поддерево", "has_relation": false}
+{"paragraph_id": "9.2", "concept_a": "Ордерево", "concept_b": "Потомок узла", "has_relation": false}
+{"paragraph_id": "9.2", "concept_a": "Ордерево", "concept_b": "Предок узла", "has_relation": false}
+{"paragraph_id": "9.2", "concept_a": "Ордерево", "concept_b": "Родитель узла", "has_relation": false}
+{"paragraph_id": "9.2", "concept_a": "Ордерево", "concept_b": "Сын узла", "has_relation": false}
+{"paragraph_id": "9.2", "concept_a": "Ордерево", "concept_b": "Уровень узла", "has_relation": false}
+{"paragraph_id": "9.2", "concept_a": "Ордерево", "concept_b": "Ярус дерева", "has_relation": false}
+{"paragraph_id": "9.2", "concept_a": "Отец узла", "concept_b": "Поддерево", "has_relation": false}
+{"paragraph_id": "9.2", "concept_a": "Отец узла", "concept_b": "Потомок узла", "has_relation": false}
+{"paragraph_id": "9.2", "concept_a": "Отец узла", "concept_b": "Предок узла", "has_relation": false}
+{"paragraph_id": "9.2", "concept_a": "Отец узла", "concept_b": "Родитель узла", "has_relation": false}
+{"paragraph_id": "9.2", "concept_a": "Отец узла", "concept_b": "Сын узла", "has_relation": false}
+{"paragraph_id": "9.2", "concept_a": "Отец узла", "concept_b": "Уровень узла", "has_relation": false}
+{"paragraph_id": "9.2", "concept_a": "Отец узла", "concept_b": "Ярус дерева", "has_relation": false}
+{"paragraph_id": "9.2", "concept_a": "Поддерево", "concept_b": "Потомок узла", "has_relation": false}
+{"paragraph_id": "9.2", "concept_a": "Поддерево", "concept_b": "Предок узла", "has_relation": false}
+{"paragraph_id": "9.2", "concept_a": "Поддерево", "concept_b": "Родитель узла", "has_relation": false}
+{"paragraph_id": "9.2", "concept_a": "Поддерево", "concept_b": "Сын узла", "has_relation": false}
+{"paragraph_id": "9.2", "concept_a": "Поддерево", "concept_b": "Уровень узла", "has_relation": false}
+{"paragraph_id": "9.2", "concept_a": "Поддерево", "concept_b": "Ярус дерева", "has_relation": false}
+{"paragraph_id": "9.2", "concept_a": "Потомок узла", "concept_b": "Предок узла", "has_relation": true}
+{"paragraph_id": "9.2", "concept_a": "Потомок узла", "concept_b": "Родитель узла", "has_relation": true}
+{"paragraph_id": "9.2", "concept_a": "Потомок узла", "concept_b": "Сын узла", "has_relation": true}
+{"paragraph_id": "9.2", "concept_a": "Потомок узла", "concept_b": "Уровень узла", "has_relation": true}
+{"paragraph_id": "9.2", "concept_a": "Потомок узла", "concept_b": "Ярус дерева", "has_relation": true}
+{"paragraph_id": "9.2", "concept_a": "Предок узла", "concept_b": "Родитель узла", "has_relation": true}
+{"paragraph_id": "9.2", "concept_a": "Предок узла", "concept_b": "Сын узла", "has_relation": true}
+{"paragraph_id": "9.2", "concept_a": "Предок узла", "concept_b": "Уровень узла", "has_relation": true}
+{"paragraph_id": "9.2", "concept_a": "Предок узла", "concept_b": "Ярус дерева", "has_relation": true}
+{"paragraph_id": "9.2", "concept_a": "Родитель узла", "concept_b": "Сын узла", "has_relation": true}
+{"paragraph_id": "9.2", "concept_a": "Родитель узла", "concept_b": "Уровень узла", "has_relation": true}
+{"paragraph_id": "9.2", "concept_a": "Родитель узла", "concept_b": "Ярус дерева", "has_relation": true}
+{"paragraph_id": "9.2", "concept_a": "Сын узла", "concept_b": "Уровень узла", "has_relation": true}
+{"paragraph_id": "9.2", "concept_a": "Сын узла", "concept_b": "Ярус дерева", "has_relation": true}
+{"paragraph_id": "9.2", "concept_a": "Уровень узла", "concept_b": "Ярус дерева", "has_relation": true}

@@ -1,0 +1,21 @@
+{"paragraph_id": "2.6", "concept_a": "Аксиома двойственная", "concept_b": "Грань решётки нижняя", "has_relation": false}
+{"paragraph_id": "2.6", "concept_a": "Аксиома двойственная", "concept_b": "Единица решётки", "has_relation": false}
+{"paragraph_id": "2.6", "concept_a": "Аксиома двойственная", "concept_b": "Нуль решётки", "has_relation": false}
+{"paragraph_id": "2.6", "concept_a": "Аксиома двойственная", "concept_b": "Принцип двойственности", "has_relation": true}
+{"paragraph_id": "2.6", "concept_a": "Аксиома двойственная", "concept_b": "Решётка", "has_relation": false}
+{"paragraph_id": "2.6", "concept_a": "Аксиома двойственная", "concept_b": "Решётка дистрибутивная", "has_relation": false}
+{"paragraph_id": "2.6", "concept_a": "Грань решётки нижняя", "concept_b": "Единица решётки", "has_relation": true}
+{"paragraph_id": "2.6", "concept_a": "Грань решётки нижняя", "concept_b": "Нуль решётки", "has_relation": true}
+{"paragraph_id": "2.6", "concept_a": "Грань решётки нижняя", "concept_b": "Принцип двойственности", "has_relation": false}
+{"paragraph_id": "2.6", "concept_a": "Грань решётки нижняя", "concept_b": "Решётка", "has_relation": false}
+{"paragraph_id": "2.6", "concept_a": "Грань решётки нижняя", "concept_b": "Решётка дистрибутивная", "has_relation": false}
+{"paragraph_id": "2.6", "concept_a": "Единица решётки", "concept_b": "Нуль решётки", "has_relation": true}
+{"paragraph_id": "2.6", "concept_a": "Единица решётки", "concept_b": "Принцип двойственности", "has_relation": false}
+{"paragraph_id": "2.6", "concept_a": "Единица решётки", "concept_b": "Решётка", "has_relation": false}
+{"paragraph_id": "2.6", "concept_a": "Единица решётки", "concept_b": "Решётка дистрибутивная", "has_relation": false}
+{"paragraph_id": "2.6", "concept_a": "Нуль решётки", "concept_b": "Принцип двойственности", "has_relation": false}
+{"paragraph_id": "2.6", "concept_a": "Нуль решётки", "concept_b": "Решётка", "has_relation": false}
+{"paragraph_id": "2.6", "concept_a": "Нуль решётки", "concept_b": "Решётка дистрибутивная", "has_relation": false}
+{"paragraph_id": "2.6", "concept_a": "Принцип двойственности", "concept_b": "Решётка", "has_relation": false}
+{"paragraph_id": "2.6", "concept_a": "Принцип двойственности", "concept_b": "Решётка дистрибутивная", "has_relation": false}
+{"paragraph_id": "2.6", "concept_a": "Решётка", "concept_b": "Решётка дистрибутивная", "has_relation": false}

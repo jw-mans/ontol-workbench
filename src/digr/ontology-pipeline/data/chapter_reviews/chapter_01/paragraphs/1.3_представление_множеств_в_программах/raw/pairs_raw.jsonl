@@ -1,0 +1,1275 @@
+{"paragraph_id": "1.3", "concept_a": "Алгоритм вычисления пересечения слиянием", "concept_b": "Алгоритм вычитания итераторов", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Алгоритм вычисления пересечения слиянием", "concept_b": "Алгоритм генерации всех подмножеств", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Алгоритм вычисления пересечения слиянием", "concept_b": "Алгоритм объединения дизъюнктных итераторов", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Алгоритм вычисления пересечения слиянием", "concept_b": "Алгоритм построения бинарного кода Грея", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Алгоритм вычисления пересечения слиянием", "concept_b": "Алгоритм проверки включения слиянием", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Алгоритм вычисления пересечения слиянием", "concept_b": "Алгоритм слияния", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Алгоритм вычисления пересечения слиянием", "concept_b": "Бит", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Алгоритм вычисления пересечения слиянием", "concept_b": "Битовая шкала", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Алгоритм вычисления пересечения слиянием", "concept_b": "Вектор двоичный", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Алгоритм вычисления пересечения слиянием", "concept_b": "Дизъюнкция", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Алгоритм вычисления пересечения слиянием", "concept_b": "Инвертирование", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Алгоритм вычисления пересечения слиянием", "concept_b": "Исключающее ИЛИ", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Алгоритм вычисления пересечения слиянием", "concept_b": "Итератор", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Алгоритм вычисления пересечения слиянием", "concept_b": "Код Грея", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Алгоритм вычисления пересечения слиянием", "concept_b": "Код Грея левый зеркальный", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Алгоритм вычисления пересечения слиянием", "concept_b": "Код двоичный", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Алгоритм вычисления пересечения слиянием", "concept_b": "Код множества", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Алгоритм вычисления пересечения слиянием", "concept_b": "Конъюнкция", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Алгоритм вычисления пересечения слиянием", "concept_b": "Логическое отрицание", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Алгоритм вычисления пересечения слиянием", "concept_b": "Объектно-ориентированное программирование cвойство", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Алгоритм вычисления пересечения слиянием", "concept_b": "Объектно-ориентированное программирование метод", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Алгоритм вычисления пересечения слиянием", "concept_b": "Оператор структурного перехода", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Алгоритм вычисления пересечения слиянием", "concept_b": "Операция первичная", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Алгоритм вычисления пересечения слиянием", "concept_b": "Основание", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Алгоритм вычисления пересечения слиянием", "concept_b": "Представление двоичное", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Алгоритм вычисления пересечения слиянием", "concept_b": "Представление чисел", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Алгоритм вычисления пересечения слиянием", "concept_b": "Разряд", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Алгоритм вычисления пересечения слиянием", "concept_b": "Рекуррентные вычисления", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Алгоритм вычисления пересечения слиянием", "concept_b": "Система счисления", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Алгоритм вычисления пересечения слиянием", "concept_b": "Система счисления  остаточных классов", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Алгоритм вычисления пересечения слиянием", "concept_b": "Система счисления биномиальная", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Алгоритм вычисления пересечения слиянием", "concept_b": "Система счисления позиционная", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Алгоритм вычисления пересечения слиянием", "concept_b": "Система счисления смешанная", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Алгоритм вычисления пересечения слиянием", "concept_b": "Система счисления факториальная", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Алгоритм вычисления пересечения слиянием", "concept_b": "Система счисления фибоначчиева", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Алгоритм вычисления пересечения слиянием", "concept_b": "Слово машинное", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Алгоритм вычисления пересечения слиянием", "concept_b": "Сложение логическое", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Алгоритм вычисления пересечения слиянием", "concept_b": "Сложение по модулю 2", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Алгоритм вычисления пересечения слиянием", "concept_b": "Список элементов", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Алгоритм вычисления пересечения слиянием", "concept_b": "Умножение логическое", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Алгоритм вычисления пересечения слиянием", "concept_b": "Цифра", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Алгоритм вычисления пересечения слиянием", "concept_b": "Экономичность системы счисления", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Алгоритм вычисления пересечения слиянием", "concept_b": "дизъюнкция", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Алгоритм вычисления пересечения слиянием", "concept_b": "инвертирование", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Алгоритм вычисления пересечения слиянием", "concept_b": "исключающее или", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Алгоритм вычисления пересечения слиянием", "concept_b": "конъюнкция", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Алгоритм вычисления пересечения слиянием", "concept_b": "логическое отрицание", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Алгоритм вычисления пересечения слиянием", "concept_b": "логическое сложение", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Алгоритм вычисления пересечения слиянием", "concept_b": "логическое умножение", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Алгоритм вычисления пересечения слиянием", "concept_b": "сложение по модулю 2", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Алгоритм вычитания итераторов", "concept_b": "Алгоритм генерации всех подмножеств", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Алгоритм вычитания итераторов", "concept_b": "Алгоритм объединения дизъюнктных итераторов", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Алгоритм вычитания итераторов", "concept_b": "Алгоритм построения бинарного кода Грея", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Алгоритм вычитания итераторов", "concept_b": "Алгоритм проверки включения слиянием", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Алгоритм вычитания итераторов", "concept_b": "Алгоритм слияния", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Алгоритм вычитания итераторов", "concept_b": "Бит", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Алгоритм вычитания итераторов", "concept_b": "Битовая шкала", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Алгоритм вычитания итераторов", "concept_b": "Вектор двоичный", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Алгоритм вычитания итераторов", "concept_b": "Дизъюнкция", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Алгоритм вычитания итераторов", "concept_b": "Инвертирование", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Алгоритм вычитания итераторов", "concept_b": "Исключающее ИЛИ", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Алгоритм вычитания итераторов", "concept_b": "Итератор", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Алгоритм вычитания итераторов", "concept_b": "Код Грея", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Алгоритм вычитания итераторов", "concept_b": "Код Грея левый зеркальный", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Алгоритм вычитания итераторов", "concept_b": "Код двоичный", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Алгоритм вычитания итераторов", "concept_b": "Код множества", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Алгоритм вычитания итераторов", "concept_b": "Конъюнкция", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Алгоритм вычитания итераторов", "concept_b": "Логическое отрицание", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Алгоритм вычитания итераторов", "concept_b": "Объектно-ориентированное программирование cвойство", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Алгоритм вычитания итераторов", "concept_b": "Объектно-ориентированное программирование метод", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Алгоритм вычитания итераторов", "concept_b": "Оператор структурного перехода", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Алгоритм вычитания итераторов", "concept_b": "Операция первичная", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Алгоритм вычитания итераторов", "concept_b": "Основание", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Алгоритм вычитания итераторов", "concept_b": "Представление двоичное", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Алгоритм вычитания итераторов", "concept_b": "Представление чисел", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Алгоритм вычитания итераторов", "concept_b": "Разряд", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Алгоритм вычитания итераторов", "concept_b": "Рекуррентные вычисления", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Алгоритм вычитания итераторов", "concept_b": "Система счисления", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Алгоритм вычитания итераторов", "concept_b": "Система счисления  остаточных классов", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Алгоритм вычитания итераторов", "concept_b": "Система счисления биномиальная", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Алгоритм вычитания итераторов", "concept_b": "Система счисления позиционная", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Алгоритм вычитания итераторов", "concept_b": "Система счисления смешанная", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Алгоритм вычитания итераторов", "concept_b": "Система счисления факториальная", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Алгоритм вычитания итераторов", "concept_b": "Система счисления фибоначчиева", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Алгоритм вычитания итераторов", "concept_b": "Слово машинное", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Алгоритм вычитания итераторов", "concept_b": "Сложение логическое", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Алгоритм вычитания итераторов", "concept_b": "Сложение по модулю 2", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Алгоритм вычитания итераторов", "concept_b": "Список элементов", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Алгоритм вычитания итераторов", "concept_b": "Умножение логическое", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Алгоритм вычитания итераторов", "concept_b": "Цифра", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Алгоритм вычитания итераторов", "concept_b": "Экономичность системы счисления", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Алгоритм вычитания итераторов", "concept_b": "дизъюнкция", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Алгоритм вычитания итераторов", "concept_b": "инвертирование", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Алгоритм вычитания итераторов", "concept_b": "исключающее или", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Алгоритм вычитания итераторов", "concept_b": "конъюнкция", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Алгоритм вычитания итераторов", "concept_b": "логическое отрицание", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Алгоритм вычитания итераторов", "concept_b": "логическое сложение", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Алгоритм вычитания итераторов", "concept_b": "логическое умножение", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Алгоритм вычитания итераторов", "concept_b": "сложение по модулю 2", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Алгоритм генерации всех подмножеств", "concept_b": "Алгоритм объединения дизъюнктных итераторов", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Алгоритм генерации всех подмножеств", "concept_b": "Алгоритм построения бинарного кода Грея", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Алгоритм генерации всех подмножеств", "concept_b": "Алгоритм проверки включения слиянием", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Алгоритм генерации всех подмножеств", "concept_b": "Алгоритм слияния", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Алгоритм генерации всех подмножеств", "concept_b": "Бит", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Алгоритм генерации всех подмножеств", "concept_b": "Битовая шкала", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Алгоритм генерации всех подмножеств", "concept_b": "Вектор двоичный", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Алгоритм генерации всех подмножеств", "concept_b": "Дизъюнкция", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Алгоритм генерации всех подмножеств", "concept_b": "Инвертирование", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Алгоритм генерации всех подмножеств", "concept_b": "Исключающее ИЛИ", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Алгоритм генерации всех подмножеств", "concept_b": "Итератор", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Алгоритм генерации всех подмножеств", "concept_b": "Код Грея", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Алгоритм генерации всех подмножеств", "concept_b": "Код Грея левый зеркальный", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Алгоритм генерации всех подмножеств", "concept_b": "Код двоичный", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Алгоритм генерации всех подмножеств", "concept_b": "Код множества", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Алгоритм генерации всех подмножеств", "concept_b": "Конъюнкция", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Алгоритм генерации всех подмножеств", "concept_b": "Логическое отрицание", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Алгоритм генерации всех подмножеств", "concept_b": "Объектно-ориентированное программирование cвойство", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Алгоритм генерации всех подмножеств", "concept_b": "Объектно-ориентированное программирование метод", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Алгоритм генерации всех подмножеств", "concept_b": "Оператор структурного перехода", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Алгоритм генерации всех подмножеств", "concept_b": "Операция первичная", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Алгоритм генерации всех подмножеств", "concept_b": "Основание", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Алгоритм генерации всех подмножеств", "concept_b": "Представление двоичное", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Алгоритм генерации всех подмножеств", "concept_b": "Представление чисел", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Алгоритм генерации всех подмножеств", "concept_b": "Разряд", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Алгоритм генерации всех подмножеств", "concept_b": "Рекуррентные вычисления", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Алгоритм генерации всех подмножеств", "concept_b": "Система счисления", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Алгоритм генерации всех подмножеств", "concept_b": "Система счисления  остаточных классов", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Алгоритм генерации всех подмножеств", "concept_b": "Система счисления биномиальная", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Алгоритм генерации всех подмножеств", "concept_b": "Система счисления позиционная", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Алгоритм генерации всех подмножеств", "concept_b": "Система счисления смешанная", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Алгоритм генерации всех подмножеств", "concept_b": "Система счисления факториальная", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Алгоритм генерации всех подмножеств", "concept_b": "Система счисления фибоначчиева", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Алгоритм генерации всех подмножеств", "concept_b": "Слово машинное", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Алгоритм генерации всех подмножеств", "concept_b": "Сложение логическое", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Алгоритм генерации всех подмножеств", "concept_b": "Сложение по модулю 2", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Алгоритм генерации всех подмножеств", "concept_b": "Список элементов", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Алгоритм генерации всех подмножеств", "concept_b": "Умножение логическое", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Алгоритм генерации всех подмножеств", "concept_b": "Цифра", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Алгоритм генерации всех подмножеств", "concept_b": "Экономичность системы счисления", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Алгоритм генерации всех подмножеств", "concept_b": "дизъюнкция", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Алгоритм генерации всех подмножеств", "concept_b": "инвертирование", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Алгоритм генерации всех подмножеств", "concept_b": "исключающее или", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Алгоритм генерации всех подмножеств", "concept_b": "конъюнкция", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Алгоритм генерации всех подмножеств", "concept_b": "логическое отрицание", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Алгоритм генерации всех подмножеств", "concept_b": "логическое сложение", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Алгоритм генерации всех подмножеств", "concept_b": "логическое умножение", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Алгоритм генерации всех подмножеств", "concept_b": "сложение по модулю 2", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Алгоритм объединения дизъюнктных итераторов", "concept_b": "Алгоритм построения бинарного кода Грея", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Алгоритм объединения дизъюнктных итераторов", "concept_b": "Алгоритм проверки включения слиянием", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Алгоритм объединения дизъюнктных итераторов", "concept_b": "Алгоритм слияния", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Алгоритм объединения дизъюнктных итераторов", "concept_b": "Бит", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Алгоритм объединения дизъюнктных итераторов", "concept_b": "Битовая шкала", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Алгоритм объединения дизъюнктных итераторов", "concept_b": "Вектор двоичный", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Алгоритм объединения дизъюнктных итераторов", "concept_b": "Дизъюнкция", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Алгоритм объединения дизъюнктных итераторов", "concept_b": "Инвертирование", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Алгоритм объединения дизъюнктных итераторов", "concept_b": "Исключающее ИЛИ", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Алгоритм объединения дизъюнктных итераторов", "concept_b": "Итератор", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Алгоритм объединения дизъюнктных итераторов", "concept_b": "Код Грея", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Алгоритм объединения дизъюнктных итераторов", "concept_b": "Код Грея левый зеркальный", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Алгоритм объединения дизъюнктных итераторов", "concept_b": "Код двоичный", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Алгоритм объединения дизъюнктных итераторов", "concept_b": "Код множества", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Алгоритм объединения дизъюнктных итераторов", "concept_b": "Конъюнкция", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Алгоритм объединения дизъюнктных итераторов", "concept_b": "Логическое отрицание", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Алгоритм объединения дизъюнктных итераторов", "concept_b": "Объектно-ориентированное программирование cвойство", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Алгоритм объединения дизъюнктных итераторов", "concept_b": "Объектно-ориентированное программирование метод", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Алгоритм объединения дизъюнктных итераторов", "concept_b": "Оператор структурного перехода", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Алгоритм объединения дизъюнктных итераторов", "concept_b": "Операция первичная", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Алгоритм объединения дизъюнктных итераторов", "concept_b": "Основание", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Алгоритм объединения дизъюнктных итераторов", "concept_b": "Представление двоичное", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Алгоритм объединения дизъюнктных итераторов", "concept_b": "Представление чисел", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Алгоритм объединения дизъюнктных итераторов", "concept_b": "Разряд", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Алгоритм объединения дизъюнктных итераторов", "concept_b": "Рекуррентные вычисления", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Алгоритм объединения дизъюнктных итераторов", "concept_b": "Система счисления", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Алгоритм объединения дизъюнктных итераторов", "concept_b": "Система счисления  остаточных классов", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Алгоритм объединения дизъюнктных итераторов", "concept_b": "Система счисления биномиальная", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Алгоритм объединения дизъюнктных итераторов", "concept_b": "Система счисления позиционная", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Алгоритм объединения дизъюнктных итераторов", "concept_b": "Система счисления смешанная", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Алгоритм объединения дизъюнктных итераторов", "concept_b": "Система счисления факториальная", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Алгоритм объединения дизъюнктных итераторов", "concept_b": "Система счисления фибоначчиева", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Алгоритм объединения дизъюнктных итераторов", "concept_b": "Слово машинное", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Алгоритм объединения дизъюнктных итераторов", "concept_b": "Сложение логическое", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Алгоритм объединения дизъюнктных итераторов", "concept_b": "Сложение по модулю 2", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Алгоритм объединения дизъюнктных итераторов", "concept_b": "Список элементов", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Алгоритм объединения дизъюнктных итераторов", "concept_b": "Умножение логическое", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Алгоритм объединения дизъюнктных итераторов", "concept_b": "Цифра", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Алгоритм объединения дизъюнктных итераторов", "concept_b": "Экономичность системы счисления", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Алгоритм объединения дизъюнктных итераторов", "concept_b": "дизъюнкция", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Алгоритм объединения дизъюнктных итераторов", "concept_b": "инвертирование", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Алгоритм объединения дизъюнктных итераторов", "concept_b": "исключающее или", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Алгоритм объединения дизъюнктных итераторов", "concept_b": "конъюнкция", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Алгоритм объединения дизъюнктных итераторов", "concept_b": "логическое отрицание", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Алгоритм объединения дизъюнктных итераторов", "concept_b": "логическое сложение", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Алгоритм объединения дизъюнктных итераторов", "concept_b": "логическое умножение", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Алгоритм объединения дизъюнктных итераторов", "concept_b": "сложение по модулю 2", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Алгоритм построения бинарного кода Грея", "concept_b": "Алгоритм проверки включения слиянием", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Алгоритм построения бинарного кода Грея", "concept_b": "Алгоритм слияния", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Алгоритм построения бинарного кода Грея", "concept_b": "Бит", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Алгоритм построения бинарного кода Грея", "concept_b": "Битовая шкала", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Алгоритм построения бинарного кода Грея", "concept_b": "Вектор двоичный", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Алгоритм построения бинарного кода Грея", "concept_b": "Дизъюнкция", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Алгоритм построения бинарного кода Грея", "concept_b": "Инвертирование", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Алгоритм построения бинарного кода Грея", "concept_b": "Исключающее ИЛИ", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Алгоритм построения бинарного кода Грея", "concept_b": "Итератор", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Алгоритм построения бинарного кода Грея", "concept_b": "Код Грея", "has_relation": true}
+{"paragraph_id": "1.3", "concept_a": "Алгоритм построения бинарного кода Грея", "concept_b": "Код Грея левый зеркальный", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Алгоритм построения бинарного кода Грея", "concept_b": "Код двоичный", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Алгоритм построения бинарного кода Грея", "concept_b": "Код множества", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Алгоритм построения бинарного кода Грея", "concept_b": "Конъюнкция", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Алгоритм построения бинарного кода Грея", "concept_b": "Логическое отрицание", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Алгоритм построения бинарного кода Грея", "concept_b": "Объектно-ориентированное программирование cвойство", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Алгоритм построения бинарного кода Грея", "concept_b": "Объектно-ориентированное программирование метод", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Алгоритм построения бинарного кода Грея", "concept_b": "Оператор структурного перехода", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Алгоритм построения бинарного кода Грея", "concept_b": "Операция первичная", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Алгоритм построения бинарного кода Грея", "concept_b": "Основание", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Алгоритм построения бинарного кода Грея", "concept_b": "Представление двоичное", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Алгоритм построения бинарного кода Грея", "concept_b": "Представление чисел", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Алгоритм построения бинарного кода Грея", "concept_b": "Разряд", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Алгоритм построения бинарного кода Грея", "concept_b": "Рекуррентные вычисления", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Алгоритм построения бинарного кода Грея", "concept_b": "Система счисления", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Алгоритм построения бинарного кода Грея", "concept_b": "Система счисления  остаточных классов", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Алгоритм построения бинарного кода Грея", "concept_b": "Система счисления биномиальная", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Алгоритм построения бинарного кода Грея", "concept_b": "Система счисления позиционная", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Алгоритм построения бинарного кода Грея", "concept_b": "Система счисления смешанная", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Алгоритм построения бинарного кода Грея", "concept_b": "Система счисления факториальная", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Алгоритм построения бинарного кода Грея", "concept_b": "Система счисления фибоначчиева", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Алгоритм построения бинарного кода Грея", "concept_b": "Слово машинное", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Алгоритм построения бинарного кода Грея", "concept_b": "Сложение логическое", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Алгоритм построения бинарного кода Грея", "concept_b": "Сложение по модулю 2", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Алгоритм построения бинарного кода Грея", "concept_b": "Список элементов", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Алгоритм построения бинарного кода Грея", "concept_b": "Умножение логическое", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Алгоритм построения бинарного кода Грея", "concept_b": "Цифра", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Алгоритм построения бинарного кода Грея", "concept_b": "Экономичность системы счисления", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Алгоритм построения бинарного кода Грея", "concept_b": "дизъюнкция", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Алгоритм построения бинарного кода Грея", "concept_b": "инвертирование", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Алгоритм построения бинарного кода Грея", "concept_b": "исключающее или", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Алгоритм построения бинарного кода Грея", "concept_b": "конъюнкция", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Алгоритм построения бинарного кода Грея", "concept_b": "логическое отрицание", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Алгоритм построения бинарного кода Грея", "concept_b": "логическое сложение", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Алгоритм построения бинарного кода Грея", "concept_b": "логическое умножение", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Алгоритм построения бинарного кода Грея", "concept_b": "сложение по модулю 2", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Алгоритм проверки включения слиянием", "concept_b": "Алгоритм слияния", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Алгоритм проверки включения слиянием", "concept_b": "Бит", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Алгоритм проверки включения слиянием", "concept_b": "Битовая шкала", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Алгоритм проверки включения слиянием", "concept_b": "Вектор двоичный", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Алгоритм проверки включения слиянием", "concept_b": "Дизъюнкция", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Алгоритм проверки включения слиянием", "concept_b": "Инвертирование", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Алгоритм проверки включения слиянием", "concept_b": "Исключающее ИЛИ", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Алгоритм проверки включения слиянием", "concept_b": "Итератор", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Алгоритм проверки включения слиянием", "concept_b": "Код Грея", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Алгоритм проверки включения слиянием", "concept_b": "Код Грея левый зеркальный", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Алгоритм проверки включения слиянием", "concept_b": "Код двоичный", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Алгоритм проверки включения слиянием", "concept_b": "Код множества", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Алгоритм проверки включения слиянием", "concept_b": "Конъюнкция", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Алгоритм проверки включения слиянием", "concept_b": "Логическое отрицание", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Алгоритм проверки включения слиянием", "concept_b": "Объектно-ориентированное программирование cвойство", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Алгоритм проверки включения слиянием", "concept_b": "Объектно-ориентированное программирование метод", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Алгоритм проверки включения слиянием", "concept_b": "Оператор структурного перехода", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Алгоритм проверки включения слиянием", "concept_b": "Операция первичная", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Алгоритм проверки включения слиянием", "concept_b": "Основание", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Алгоритм проверки включения слиянием", "concept_b": "Представление двоичное", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Алгоритм проверки включения слиянием", "concept_b": "Представление чисел", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Алгоритм проверки включения слиянием", "concept_b": "Разряд", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Алгоритм проверки включения слиянием", "concept_b": "Рекуррентные вычисления", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Алгоритм проверки включения слиянием", "concept_b": "Система счисления", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Алгоритм проверки включения слиянием", "concept_b": "Система счисления  остаточных классов", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Алгоритм проверки включения слиянием", "concept_b": "Система счисления биномиальная", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Алгоритм проверки включения слиянием", "concept_b": "Система счисления позиционная", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Алгоритм проверки включения слиянием", "concept_b": "Система счисления смешанная", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Алгоритм проверки включения слиянием", "concept_b": "Система счисления факториальная", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Алгоритм проверки включения слиянием", "concept_b": "Система счисления фибоначчиева", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Алгоритм проверки включения слиянием", "concept_b": "Слово машинное", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Алгоритм проверки включения слиянием", "concept_b": "Сложение логическое", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Алгоритм проверки включения слиянием", "concept_b": "Сложение по модулю 2", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Алгоритм проверки включения слиянием", "concept_b": "Список элементов", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Алгоритм проверки включения слиянием", "concept_b": "Умножение логическое", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Алгоритм проверки включения слиянием", "concept_b": "Цифра", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Алгоритм проверки включения слиянием", "concept_b": "Экономичность системы счисления", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Алгоритм проверки включения слиянием", "concept_b": "дизъюнкция", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Алгоритм проверки включения слиянием", "concept_b": "инвертирование", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Алгоритм проверки включения слиянием", "concept_b": "исключающее или", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Алгоритм проверки включения слиянием", "concept_b": "конъюнкция", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Алгоритм проверки включения слиянием", "concept_b": "логическое отрицание", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Алгоритм проверки включения слиянием", "concept_b": "логическое сложение", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Алгоритм проверки включения слиянием", "concept_b": "логическое умножение", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Алгоритм проверки включения слиянием", "concept_b": "сложение по модулю 2", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Алгоритм слияния", "concept_b": "Бит", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Алгоритм слияния", "concept_b": "Битовая шкала", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Алгоритм слияния", "concept_b": "Вектор двоичный", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Алгоритм слияния", "concept_b": "Дизъюнкция", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Алгоритм слияния", "concept_b": "Инвертирование", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Алгоритм слияния", "concept_b": "Исключающее ИЛИ", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Алгоритм слияния", "concept_b": "Итератор", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Алгоритм слияния", "concept_b": "Код Грея", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Алгоритм слияния", "concept_b": "Код Грея левый зеркальный", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Алгоритм слияния", "concept_b": "Код двоичный", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Алгоритм слияния", "concept_b": "Код множества", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Алгоритм слияния", "concept_b": "Конъюнкция", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Алгоритм слияния", "concept_b": "Логическое отрицание", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Алгоритм слияния", "concept_b": "Объектно-ориентированное программирование cвойство", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Алгоритм слияния", "concept_b": "Объектно-ориентированное программирование метод", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Алгоритм слияния", "concept_b": "Оператор структурного перехода", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Алгоритм слияния", "concept_b": "Операция первичная", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Алгоритм слияния", "concept_b": "Основание", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Алгоритм слияния", "concept_b": "Представление двоичное", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Алгоритм слияния", "concept_b": "Представление чисел", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Алгоритм слияния", "concept_b": "Разряд", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Алгоритм слияния", "concept_b": "Рекуррентные вычисления", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Алгоритм слияния", "concept_b": "Система счисления", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Алгоритм слияния", "concept_b": "Система счисления  остаточных классов", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Алгоритм слияния", "concept_b": "Система счисления биномиальная", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Алгоритм слияния", "concept_b": "Система счисления позиционная", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Алгоритм слияния", "concept_b": "Система счисления смешанная", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Алгоритм слияния", "concept_b": "Система счисления факториальная", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Алгоритм слияния", "concept_b": "Система счисления фибоначчиева", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Алгоритм слияния", "concept_b": "Слово машинное", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Алгоритм слияния", "concept_b": "Сложение логическое", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Алгоритм слияния", "concept_b": "Сложение по модулю 2", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Алгоритм слияния", "concept_b": "Список элементов", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Алгоритм слияния", "concept_b": "Умножение логическое", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Алгоритм слияния", "concept_b": "Цифра", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Алгоритм слияния", "concept_b": "Экономичность системы счисления", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Алгоритм слияния", "concept_b": "дизъюнкция", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Алгоритм слияния", "concept_b": "инвертирование", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Алгоритм слияния", "concept_b": "исключающее или", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Алгоритм слияния", "concept_b": "конъюнкция", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Алгоритм слияния", "concept_b": "логическое отрицание", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Алгоритм слияния", "concept_b": "логическое сложение", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Алгоритм слияния", "concept_b": "логическое умножение", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Алгоритм слияния", "concept_b": "сложение по модулю 2", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Бит", "concept_b": "Битовая шкала", "has_relation": true}
+{"paragraph_id": "1.3", "concept_a": "Бит", "concept_b": "Вектор двоичный", "has_relation": true}
+{"paragraph_id": "1.3", "concept_a": "Бит", "concept_b": "Дизъюнкция", "has_relation": true}
+{"paragraph_id": "1.3", "concept_a": "Бит", "concept_b": "Инвертирование", "has_relation": true}
+{"paragraph_id": "1.3", "concept_a": "Бит", "concept_b": "Исключающее ИЛИ", "has_relation": true}
+{"paragraph_id": "1.3", "concept_a": "Бит", "concept_b": "Итератор", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Бит", "concept_b": "Код Грея", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Бит", "concept_b": "Код Грея левый зеркальный", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Бит", "concept_b": "Код двоичный", "has_relation": true}
+{"paragraph_id": "1.3", "concept_a": "Бит", "concept_b": "Код множества", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Бит", "concept_b": "Конъюнкция", "has_relation": true}
+{"paragraph_id": "1.3", "concept_a": "Бит", "concept_b": "Логическое отрицание", "has_relation": true}
+{"paragraph_id": "1.3", "concept_a": "Бит", "concept_b": "Объектно-ориентированное программирование cвойство", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Бит", "concept_b": "Объектно-ориентированное программирование метод", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Бит", "concept_b": "Оператор структурного перехода", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Бит", "concept_b": "Операция первичная", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Бит", "concept_b": "Основание", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Бит", "concept_b": "Представление двоичное", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Бит", "concept_b": "Представление чисел", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Бит", "concept_b": "Разряд", "has_relation": true}
+{"paragraph_id": "1.3", "concept_a": "Бит", "concept_b": "Рекуррентные вычисления", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Бит", "concept_b": "Система счисления", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Бит", "concept_b": "Система счисления  остаточных классов", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Бит", "concept_b": "Система счисления биномиальная", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Бит", "concept_b": "Система счисления позиционная", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Бит", "concept_b": "Система счисления смешанная", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Бит", "concept_b": "Система счисления факториальная", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Бит", "concept_b": "Система счисления фибоначчиева", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Бит", "concept_b": "Слово машинное", "has_relation": true}
+{"paragraph_id": "1.3", "concept_a": "Бит", "concept_b": "Сложение логическое", "has_relation": true}
+{"paragraph_id": "1.3", "concept_a": "Бит", "concept_b": "Сложение по модулю 2", "has_relation": true}
+{"paragraph_id": "1.3", "concept_a": "Бит", "concept_b": "Список элементов", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Бит", "concept_b": "Умножение логическое", "has_relation": true}
+{"paragraph_id": "1.3", "concept_a": "Бит", "concept_b": "Цифра", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Бит", "concept_b": "Экономичность системы счисления", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Бит", "concept_b": "дизъюнкция", "has_relation": true}
+{"paragraph_id": "1.3", "concept_a": "Бит", "concept_b": "инвертирование", "has_relation": true}
+{"paragraph_id": "1.3", "concept_a": "Бит", "concept_b": "исключающее или", "has_relation": true}
+{"paragraph_id": "1.3", "concept_a": "Бит", "concept_b": "конъюнкция", "has_relation": true}
+{"paragraph_id": "1.3", "concept_a": "Бит", "concept_b": "логическое отрицание", "has_relation": true}
+{"paragraph_id": "1.3", "concept_a": "Бит", "concept_b": "логическое сложение", "has_relation": true}
+{"paragraph_id": "1.3", "concept_a": "Бит", "concept_b": "логическое умножение", "has_relation": true}
+{"paragraph_id": "1.3", "concept_a": "Бит", "concept_b": "сложение по модулю 2", "has_relation": true}
+{"paragraph_id": "1.3", "concept_a": "Битовая шкала", "concept_b": "Вектор двоичный", "has_relation": true}
+{"paragraph_id": "1.3", "concept_a": "Битовая шкала", "concept_b": "Дизъюнкция", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Битовая шкала", "concept_b": "Инвертирование", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Битовая шкала", "concept_b": "Исключающее ИЛИ", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Битовая шкала", "concept_b": "Итератор", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Битовая шкала", "concept_b": "Код Грея", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Битовая шкала", "concept_b": "Код Грея левый зеркальный", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Битовая шкала", "concept_b": "Код двоичный", "has_relation": true}
+{"paragraph_id": "1.3", "concept_a": "Битовая шкала", "concept_b": "Код множества", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Битовая шкала", "concept_b": "Конъюнкция", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Битовая шкала", "concept_b": "Логическое отрицание", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Битовая шкала", "concept_b": "Объектно-ориентированное программирование cвойство", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Битовая шкала", "concept_b": "Объектно-ориентированное программирование метод", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Битовая шкала", "concept_b": "Оператор структурного перехода", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Битовая шкала", "concept_b": "Операция первичная", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Битовая шкала", "concept_b": "Основание", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Битовая шкала", "concept_b": "Представление двоичное", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Битовая шкала", "concept_b": "Представление чисел", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Битовая шкала", "concept_b": "Разряд", "has_relation": true}
+{"paragraph_id": "1.3", "concept_a": "Битовая шкала", "concept_b": "Рекуррентные вычисления", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Битовая шкала", "concept_b": "Система счисления", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Битовая шкала", "concept_b": "Система счисления  остаточных классов", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Битовая шкала", "concept_b": "Система счисления биномиальная", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Битовая шкала", "concept_b": "Система счисления позиционная", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Битовая шкала", "concept_b": "Система счисления смешанная", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Битовая шкала", "concept_b": "Система счисления факториальная", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Битовая шкала", "concept_b": "Система счисления фибоначчиева", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Битовая шкала", "concept_b": "Слово машинное", "has_relation": true}
+{"paragraph_id": "1.3", "concept_a": "Битовая шкала", "concept_b": "Сложение логическое", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Битовая шкала", "concept_b": "Сложение по модулю 2", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Битовая шкала", "concept_b": "Список элементов", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Битовая шкала", "concept_b": "Умножение логическое", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Битовая шкала", "concept_b": "Цифра", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Битовая шкала", "concept_b": "Экономичность системы счисления", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Битовая шкала", "concept_b": "дизъюнкция", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Битовая шкала", "concept_b": "инвертирование", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Битовая шкала", "concept_b": "исключающее или", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Битовая шкала", "concept_b": "конъюнкция", "has_relation": true}
+{"paragraph_id": "1.3", "concept_a": "Битовая шкала", "concept_b": "логическое отрицание", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Битовая шкала", "concept_b": "логическое сложение", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Битовая шкала", "concept_b": "логическое умножение", "has_relation": true}
+{"paragraph_id": "1.3", "concept_a": "Битовая шкала", "concept_b": "сложение по модулю 2", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Вектор двоичный", "concept_b": "Дизъюнкция", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Вектор двоичный", "concept_b": "Инвертирование", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Вектор двоичный", "concept_b": "Исключающее ИЛИ", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Вектор двоичный", "concept_b": "Итератор", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Вектор двоичный", "concept_b": "Код Грея", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Вектор двоичный", "concept_b": "Код Грея левый зеркальный", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Вектор двоичный", "concept_b": "Код двоичный", "has_relation": true}
+{"paragraph_id": "1.3", "concept_a": "Вектор двоичный", "concept_b": "Код множества", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Вектор двоичный", "concept_b": "Конъюнкция", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Вектор двоичный", "concept_b": "Логическое отрицание", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Вектор двоичный", "concept_b": "Объектно-ориентированное программирование cвойство", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Вектор двоичный", "concept_b": "Объектно-ориентированное программирование метод", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Вектор двоичный", "concept_b": "Оператор структурного перехода", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Вектор двоичный", "concept_b": "Операция первичная", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Вектор двоичный", "concept_b": "Основание", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Вектор двоичный", "concept_b": "Представление двоичное", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Вектор двоичный", "concept_b": "Представление чисел", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Вектор двоичный", "concept_b": "Разряд", "has_relation": true}
+{"paragraph_id": "1.3", "concept_a": "Вектор двоичный", "concept_b": "Рекуррентные вычисления", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Вектор двоичный", "concept_b": "Система счисления", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Вектор двоичный", "concept_b": "Система счисления  остаточных классов", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Вектор двоичный", "concept_b": "Система счисления биномиальная", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Вектор двоичный", "concept_b": "Система счисления позиционная", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Вектор двоичный", "concept_b": "Система счисления смешанная", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Вектор двоичный", "concept_b": "Система счисления факториальная", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Вектор двоичный", "concept_b": "Система счисления фибоначчиева", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Вектор двоичный", "concept_b": "Слово машинное", "has_relation": true}
+{"paragraph_id": "1.3", "concept_a": "Вектор двоичный", "concept_b": "Сложение логическое", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Вектор двоичный", "concept_b": "Сложение по модулю 2", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Вектор двоичный", "concept_b": "Список элементов", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Вектор двоичный", "concept_b": "Умножение логическое", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Вектор двоичный", "concept_b": "Цифра", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Вектор двоичный", "concept_b": "Экономичность системы счисления", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Вектор двоичный", "concept_b": "дизъюнкция", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Вектор двоичный", "concept_b": "инвертирование", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Вектор двоичный", "concept_b": "исключающее или", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Вектор двоичный", "concept_b": "конъюнкция", "has_relation": true}
+{"paragraph_id": "1.3", "concept_a": "Вектор двоичный", "concept_b": "логическое отрицание", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Вектор двоичный", "concept_b": "логическое сложение", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Вектор двоичный", "concept_b": "логическое умножение", "has_relation": true}
+{"paragraph_id": "1.3", "concept_a": "Вектор двоичный", "concept_b": "сложение по модулю 2", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Дизъюнкция", "concept_b": "Инвертирование", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Дизъюнкция", "concept_b": "Исключающее ИЛИ", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Дизъюнкция", "concept_b": "Итератор", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Дизъюнкция", "concept_b": "Код Грея", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Дизъюнкция", "concept_b": "Код Грея левый зеркальный", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Дизъюнкция", "concept_b": "Код двоичный", "has_relation": true}
+{"paragraph_id": "1.3", "concept_a": "Дизъюнкция", "concept_b": "Код множества", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Дизъюнкция", "concept_b": "Конъюнкция", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Дизъюнкция", "concept_b": "Логическое отрицание", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Дизъюнкция", "concept_b": "Объектно-ориентированное программирование cвойство", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Дизъюнкция", "concept_b": "Объектно-ориентированное программирование метод", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Дизъюнкция", "concept_b": "Оператор структурного перехода", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Дизъюнкция", "concept_b": "Операция первичная", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Дизъюнкция", "concept_b": "Основание", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Дизъюнкция", "concept_b": "Представление двоичное", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Дизъюнкция", "concept_b": "Представление чисел", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Дизъюнкция", "concept_b": "Разряд", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Дизъюнкция", "concept_b": "Рекуррентные вычисления", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Дизъюнкция", "concept_b": "Система счисления", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Дизъюнкция", "concept_b": "Система счисления  остаточных классов", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Дизъюнкция", "concept_b": "Система счисления биномиальная", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Дизъюнкция", "concept_b": "Система счисления позиционная", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Дизъюнкция", "concept_b": "Система счисления смешанная", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Дизъюнкция", "concept_b": "Система счисления факториальная", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Дизъюнкция", "concept_b": "Система счисления фибоначчиева", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Дизъюнкция", "concept_b": "Слово машинное", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Дизъюнкция", "concept_b": "Сложение логическое", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Дизъюнкция", "concept_b": "Сложение по модулю 2", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Дизъюнкция", "concept_b": "Список элементов", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Дизъюнкция", "concept_b": "Умножение логическое", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Дизъюнкция", "concept_b": "Цифра", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Дизъюнкция", "concept_b": "Экономичность системы счисления", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Дизъюнкция", "concept_b": "дизъюнкция", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Дизъюнкция", "concept_b": "инвертирование", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Дизъюнкция", "concept_b": "исключающее или", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Дизъюнкция", "concept_b": "конъюнкция", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Дизъюнкция", "concept_b": "логическое отрицание", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Дизъюнкция", "concept_b": "логическое сложение", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Дизъюнкция", "concept_b": "логическое умножение", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Дизъюнкция", "concept_b": "сложение по модулю 2", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Инвертирование", "concept_b": "Исключающее ИЛИ", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Инвертирование", "concept_b": "Итератор", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Инвертирование", "concept_b": "Код Грея", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Инвертирование", "concept_b": "Код Грея левый зеркальный", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Инвертирование", "concept_b": "Код двоичный", "has_relation": true}
+{"paragraph_id": "1.3", "concept_a": "Инвертирование", "concept_b": "Код множества", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Инвертирование", "concept_b": "Конъюнкция", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Инвертирование", "concept_b": "Логическое отрицание", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Инвертирование", "concept_b": "Объектно-ориентированное программирование cвойство", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Инвертирование", "concept_b": "Объектно-ориентированное программирование метод", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Инвертирование", "concept_b": "Оператор структурного перехода", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Инвертирование", "concept_b": "Операция первичная", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Инвертирование", "concept_b": "Основание", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Инвертирование", "concept_b": "Представление двоичное", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Инвертирование", "concept_b": "Представление чисел", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Инвертирование", "concept_b": "Разряд", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Инвертирование", "concept_b": "Рекуррентные вычисления", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Инвертирование", "concept_b": "Система счисления", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Инвертирование", "concept_b": "Система счисления  остаточных классов", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Инвертирование", "concept_b": "Система счисления биномиальная", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Инвертирование", "concept_b": "Система счисления позиционная", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Инвертирование", "concept_b": "Система счисления смешанная", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Инвертирование", "concept_b": "Система счисления факториальная", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Инвертирование", "concept_b": "Система счисления фибоначчиева", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Инвертирование", "concept_b": "Слово машинное", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Инвертирование", "concept_b": "Сложение логическое", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Инвертирование", "concept_b": "Сложение по модулю 2", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Инвертирование", "concept_b": "Список элементов", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Инвертирование", "concept_b": "Умножение логическое", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Инвертирование", "concept_b": "Цифра", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Инвертирование", "concept_b": "Экономичность системы счисления", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Инвертирование", "concept_b": "дизъюнкция", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Инвертирование", "concept_b": "инвертирование", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Инвертирование", "concept_b": "исключающее или", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Инвертирование", "concept_b": "конъюнкция", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Инвертирование", "concept_b": "логическое отрицание", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Инвертирование", "concept_b": "логическое сложение", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Инвертирование", "concept_b": "логическое умножение", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Инвертирование", "concept_b": "сложение по модулю 2", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Исключающее ИЛИ", "concept_b": "Итератор", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Исключающее ИЛИ", "concept_b": "Код Грея", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Исключающее ИЛИ", "concept_b": "Код Грея левый зеркальный", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Исключающее ИЛИ", "concept_b": "Код двоичный", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Исключающее ИЛИ", "concept_b": "Код множества", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Исключающее ИЛИ", "concept_b": "Конъюнкция", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Исключающее ИЛИ", "concept_b": "Логическое отрицание", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Исключающее ИЛИ", "concept_b": "Объектно-ориентированное программирование cвойство", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Исключающее ИЛИ", "concept_b": "Объектно-ориентированное программирование метод", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Исключающее ИЛИ", "concept_b": "Оператор структурного перехода", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Исключающее ИЛИ", "concept_b": "Операция первичная", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Исключающее ИЛИ", "concept_b": "Основание", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Исключающее ИЛИ", "concept_b": "Представление двоичное", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Исключающее ИЛИ", "concept_b": "Представление чисел", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Исключающее ИЛИ", "concept_b": "Разряд", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Исключающее ИЛИ", "concept_b": "Рекуррентные вычисления", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Исключающее ИЛИ", "concept_b": "Система счисления", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Исключающее ИЛИ", "concept_b": "Система счисления  остаточных классов", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Исключающее ИЛИ", "concept_b": "Система счисления биномиальная", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Исключающее ИЛИ", "concept_b": "Система счисления позиционная", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Исключающее ИЛИ", "concept_b": "Система счисления смешанная", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Исключающее ИЛИ", "concept_b": "Система счисления факториальная", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Исключающее ИЛИ", "concept_b": "Система счисления фибоначчиева", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Исключающее ИЛИ", "concept_b": "Слово машинное", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Исключающее ИЛИ", "concept_b": "Сложение логическое", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Исключающее ИЛИ", "concept_b": "Сложение по модулю 2", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Исключающее ИЛИ", "concept_b": "Список элементов", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Исключающее ИЛИ", "concept_b": "Умножение логическое", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Исключающее ИЛИ", "concept_b": "Цифра", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Исключающее ИЛИ", "concept_b": "Экономичность системы счисления", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Исключающее ИЛИ", "concept_b": "дизъюнкция", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Исключающее ИЛИ", "concept_b": "инвертирование", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Исключающее ИЛИ", "concept_b": "исключающее или", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Исключающее ИЛИ", "concept_b": "конъюнкция", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Исключающее ИЛИ", "concept_b": "логическое отрицание", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Исключающее ИЛИ", "concept_b": "логическое сложение", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Исключающее ИЛИ", "concept_b": "логическое умножение", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Исключающее ИЛИ", "concept_b": "сложение по модулю 2", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Итератор", "concept_b": "Код Грея", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Итератор", "concept_b": "Код Грея левый зеркальный", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Итератор", "concept_b": "Код двоичный", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Итератор", "concept_b": "Код множества", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Итератор", "concept_b": "Конъюнкция", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Итератор", "concept_b": "Логическое отрицание", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Итератор", "concept_b": "Объектно-ориентированное программирование cвойство", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Итератор", "concept_b": "Объектно-ориентированное программирование метод", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Итератор", "concept_b": "Оператор структурного перехода", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Итератор", "concept_b": "Операция первичная", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Итератор", "concept_b": "Основание", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Итератор", "concept_b": "Представление двоичное", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Итератор", "concept_b": "Представление чисел", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Итератор", "concept_b": "Разряд", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Итератор", "concept_b": "Рекуррентные вычисления", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Итератор", "concept_b": "Система счисления", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Итератор", "concept_b": "Система счисления  остаточных классов", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Итератор", "concept_b": "Система счисления биномиальная", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Итератор", "concept_b": "Система счисления позиционная", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Итератор", "concept_b": "Система счисления смешанная", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Итератор", "concept_b": "Система счисления факториальная", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Итератор", "concept_b": "Система счисления фибоначчиева", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Итератор", "concept_b": "Слово машинное", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Итератор", "concept_b": "Сложение логическое", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Итератор", "concept_b": "Сложение по модулю 2", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Итератор", "concept_b": "Список элементов", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Итератор", "concept_b": "Умножение логическое", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Итератор", "concept_b": "Цифра", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Итератор", "concept_b": "Экономичность системы счисления", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Итератор", "concept_b": "дизъюнкция", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Итератор", "concept_b": "инвертирование", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Итератор", "concept_b": "исключающее или", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Итератор", "concept_b": "конъюнкция", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Итератор", "concept_b": "логическое отрицание", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Итератор", "concept_b": "логическое сложение", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Итератор", "concept_b": "логическое умножение", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Итератор", "concept_b": "сложение по модулю 2", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Код Грея", "concept_b": "Код Грея левый зеркальный", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Код Грея", "concept_b": "Код двоичный", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Код Грея", "concept_b": "Код множества", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Код Грея", "concept_b": "Конъюнкция", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Код Грея", "concept_b": "Логическое отрицание", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Код Грея", "concept_b": "Объектно-ориентированное программирование cвойство", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Код Грея", "concept_b": "Объектно-ориентированное программирование метод", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Код Грея", "concept_b": "Оператор структурного перехода", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Код Грея", "concept_b": "Операция первичная", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Код Грея", "concept_b": "Основание", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Код Грея", "concept_b": "Представление двоичное", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Код Грея", "concept_b": "Представление чисел", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Код Грея", "concept_b": "Разряд", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Код Грея", "concept_b": "Рекуррентные вычисления", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Код Грея", "concept_b": "Система счисления", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Код Грея", "concept_b": "Система счисления  остаточных классов", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Код Грея", "concept_b": "Система счисления биномиальная", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Код Грея", "concept_b": "Система счисления позиционная", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Код Грея", "concept_b": "Система счисления смешанная", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Код Грея", "concept_b": "Система счисления факториальная", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Код Грея", "concept_b": "Система счисления фибоначчиева", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Код Грея", "concept_b": "Слово машинное", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Код Грея", "concept_b": "Сложение логическое", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Код Грея", "concept_b": "Сложение по модулю 2", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Код Грея", "concept_b": "Список элементов", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Код Грея", "concept_b": "Умножение логическое", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Код Грея", "concept_b": "Цифра", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Код Грея", "concept_b": "Экономичность системы счисления", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Код Грея", "concept_b": "дизъюнкция", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Код Грея", "concept_b": "инвертирование", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Код Грея", "concept_b": "исключающее или", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Код Грея", "concept_b": "конъюнкция", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Код Грея", "concept_b": "логическое отрицание", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Код Грея", "concept_b": "логическое сложение", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Код Грея", "concept_b": "логическое умножение", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Код Грея", "concept_b": "сложение по модулю 2", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Код Грея левый зеркальный", "concept_b": "Код двоичный", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Код Грея левый зеркальный", "concept_b": "Код множества", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Код Грея левый зеркальный", "concept_b": "Конъюнкция", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Код Грея левый зеркальный", "concept_b": "Логическое отрицание", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Код Грея левый зеркальный", "concept_b": "Объектно-ориентированное программирование cвойство", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Код Грея левый зеркальный", "concept_b": "Объектно-ориентированное программирование метод", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Код Грея левый зеркальный", "concept_b": "Оператор структурного перехода", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Код Грея левый зеркальный", "concept_b": "Операция первичная", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Код Грея левый зеркальный", "concept_b": "Основание", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Код Грея левый зеркальный", "concept_b": "Представление двоичное", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Код Грея левый зеркальный", "concept_b": "Представление чисел", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Код Грея левый зеркальный", "concept_b": "Разряд", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Код Грея левый зеркальный", "concept_b": "Рекуррентные вычисления", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Код Грея левый зеркальный", "concept_b": "Система счисления", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Код Грея левый зеркальный", "concept_b": "Система счисления  остаточных классов", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Код Грея левый зеркальный", "concept_b": "Система счисления биномиальная", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Код Грея левый зеркальный", "concept_b": "Система счисления позиционная", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Код Грея левый зеркальный", "concept_b": "Система счисления смешанная", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Код Грея левый зеркальный", "concept_b": "Система счисления факториальная", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Код Грея левый зеркальный", "concept_b": "Система счисления фибоначчиева", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Код Грея левый зеркальный", "concept_b": "Слово машинное", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Код Грея левый зеркальный", "concept_b": "Сложение логическое", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Код Грея левый зеркальный", "concept_b": "Сложение по модулю 2", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Код Грея левый зеркальный", "concept_b": "Список элементов", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Код Грея левый зеркальный", "concept_b": "Умножение логическое", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Код Грея левый зеркальный", "concept_b": "Цифра", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Код Грея левый зеркальный", "concept_b": "Экономичность системы счисления", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Код Грея левый зеркальный", "concept_b": "дизъюнкция", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Код Грея левый зеркальный", "concept_b": "инвертирование", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Код Грея левый зеркальный", "concept_b": "исключающее или", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Код Грея левый зеркальный", "concept_b": "конъюнкция", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Код Грея левый зеркальный", "concept_b": "логическое отрицание", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Код Грея левый зеркальный", "concept_b": "логическое сложение", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Код Грея левый зеркальный", "concept_b": "логическое умножение", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Код Грея левый зеркальный", "concept_b": "сложение по модулю 2", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Код двоичный", "concept_b": "Код множества", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Код двоичный", "concept_b": "Конъюнкция", "has_relation": true}
+{"paragraph_id": "1.3", "concept_a": "Код двоичный", "concept_b": "Логическое отрицание", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Код двоичный", "concept_b": "Объектно-ориентированное программирование cвойство", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Код двоичный", "concept_b": "Объектно-ориентированное программирование метод", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Код двоичный", "concept_b": "Оператор структурного перехода", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Код двоичный", "concept_b": "Операция первичная", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Код двоичный", "concept_b": "Основание", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Код двоичный", "concept_b": "Представление двоичное", "has_relation": true}
+{"paragraph_id": "1.3", "concept_a": "Код двоичный", "concept_b": "Представление чисел", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Код двоичный", "concept_b": "Разряд", "has_relation": true}
+{"paragraph_id": "1.3", "concept_a": "Код двоичный", "concept_b": "Рекуррентные вычисления", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Код двоичный", "concept_b": "Система счисления", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Код двоичный", "concept_b": "Система счисления  остаточных классов", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Код двоичный", "concept_b": "Система счисления биномиальная", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Код двоичный", "concept_b": "Система счисления позиционная", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Код двоичный", "concept_b": "Система счисления смешанная", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Код двоичный", "concept_b": "Система счисления факториальная", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Код двоичный", "concept_b": "Система счисления фибоначчиева", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Код двоичный", "concept_b": "Слово машинное", "has_relation": true}
+{"paragraph_id": "1.3", "concept_a": "Код двоичный", "concept_b": "Сложение логическое", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Код двоичный", "concept_b": "Сложение по модулю 2", "has_relation": true}
+{"paragraph_id": "1.3", "concept_a": "Код двоичный", "concept_b": "Список элементов", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Код двоичный", "concept_b": "Умножение логическое", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Код двоичный", "concept_b": "Цифра", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Код двоичный", "concept_b": "Экономичность системы счисления", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Код двоичный", "concept_b": "дизъюнкция", "has_relation": true}
+{"paragraph_id": "1.3", "concept_a": "Код двоичный", "concept_b": "инвертирование", "has_relation": true}
+{"paragraph_id": "1.3", "concept_a": "Код двоичный", "concept_b": "исключающее или", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Код двоичный", "concept_b": "конъюнкция", "has_relation": true}
+{"paragraph_id": "1.3", "concept_a": "Код двоичный", "concept_b": "логическое отрицание", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Код двоичный", "concept_b": "логическое сложение", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Код двоичный", "concept_b": "логическое умножение", "has_relation": true}
+{"paragraph_id": "1.3", "concept_a": "Код двоичный", "concept_b": "сложение по модулю 2", "has_relation": true}
+{"paragraph_id": "1.3", "concept_a": "Код множества", "concept_b": "Конъюнкция", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Код множества", "concept_b": "Логическое отрицание", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Код множества", "concept_b": "Объектно-ориентированное программирование cвойство", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Код множества", "concept_b": "Объектно-ориентированное программирование метод", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Код множества", "concept_b": "Оператор структурного перехода", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Код множества", "concept_b": "Операция первичная", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Код множества", "concept_b": "Основание", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Код множества", "concept_b": "Представление двоичное", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Код множества", "concept_b": "Представление чисел", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Код множества", "concept_b": "Разряд", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Код множества", "concept_b": "Рекуррентные вычисления", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Код множества", "concept_b": "Система счисления", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Код множества", "concept_b": "Система счисления  остаточных классов", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Код множества", "concept_b": "Система счисления биномиальная", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Код множества", "concept_b": "Система счисления позиционная", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Код множества", "concept_b": "Система счисления смешанная", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Код множества", "concept_b": "Система счисления факториальная", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Код множества", "concept_b": "Система счисления фибоначчиева", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Код множества", "concept_b": "Слово машинное", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Код множества", "concept_b": "Сложение логическое", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Код множества", "concept_b": "Сложение по модулю 2", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Код множества", "concept_b": "Список элементов", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Код множества", "concept_b": "Умножение логическое", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Код множества", "concept_b": "Цифра", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Код множества", "concept_b": "Экономичность системы счисления", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Код множества", "concept_b": "дизъюнкция", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Код множества", "concept_b": "инвертирование", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Код множества", "concept_b": "исключающее или", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Код множества", "concept_b": "конъюнкция", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Код множества", "concept_b": "логическое отрицание", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Код множества", "concept_b": "логическое сложение", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Код множества", "concept_b": "логическое умножение", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Код множества", "concept_b": "сложение по модулю 2", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Конъюнкция", "concept_b": "Логическое отрицание", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Конъюнкция", "concept_b": "Объектно-ориентированное программирование cвойство", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Конъюнкция", "concept_b": "Объектно-ориентированное программирование метод", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Конъюнкция", "concept_b": "Оператор структурного перехода", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Конъюнкция", "concept_b": "Операция первичная", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Конъюнкция", "concept_b": "Основание", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Конъюнкция", "concept_b": "Представление двоичное", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Конъюнкция", "concept_b": "Представление чисел", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Конъюнкция", "concept_b": "Разряд", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Конъюнкция", "concept_b": "Рекуррентные вычисления", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Конъюнкция", "concept_b": "Система счисления", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Конъюнкция", "concept_b": "Система счисления  остаточных классов", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Конъюнкция", "concept_b": "Система счисления биномиальная", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Конъюнкция", "concept_b": "Система счисления позиционная", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Конъюнкция", "concept_b": "Система счисления смешанная", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Конъюнкция", "concept_b": "Система счисления факториальная", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Конъюнкция", "concept_b": "Система счисления фибоначчиева", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Конъюнкция", "concept_b": "Слово машинное", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Конъюнкция", "concept_b": "Сложение логическое", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Конъюнкция", "concept_b": "Сложение по модулю 2", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Конъюнкция", "concept_b": "Список элементов", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Конъюнкция", "concept_b": "Умножение логическое", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Конъюнкция", "concept_b": "Цифра", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Конъюнкция", "concept_b": "Экономичность системы счисления", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Конъюнкция", "concept_b": "дизъюнкция", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Конъюнкция", "concept_b": "инвертирование", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Конъюнкция", "concept_b": "исключающее или", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Конъюнкция", "concept_b": "конъюнкция", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Конъюнкция", "concept_b": "логическое отрицание", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Конъюнкция", "concept_b": "логическое сложение", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Конъюнкция", "concept_b": "логическое умножение", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Конъюнкция", "concept_b": "сложение по модулю 2", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Логическое отрицание", "concept_b": "Объектно-ориентированное программирование cвойство", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Логическое отрицание", "concept_b": "Объектно-ориентированное программирование метод", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Логическое отрицание", "concept_b": "Оператор структурного перехода", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Логическое отрицание", "concept_b": "Операция первичная", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Логическое отрицание", "concept_b": "Основание", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Логическое отрицание", "concept_b": "Представление двоичное", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Логическое отрицание", "concept_b": "Представление чисел", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Логическое отрицание", "concept_b": "Разряд", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Логическое отрицание", "concept_b": "Рекуррентные вычисления", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Логическое отрицание", "concept_b": "Система счисления", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Логическое отрицание", "concept_b": "Система счисления  остаточных классов", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Логическое отрицание", "concept_b": "Система счисления биномиальная", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Логическое отрицание", "concept_b": "Система счисления позиционная", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Логическое отрицание", "concept_b": "Система счисления смешанная", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Логическое отрицание", "concept_b": "Система счисления факториальная", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Логическое отрицание", "concept_b": "Система счисления фибоначчиева", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Логическое отрицание", "concept_b": "Слово машинное", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Логическое отрицание", "concept_b": "Сложение логическое", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Логическое отрицание", "concept_b": "Сложение по модулю 2", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Логическое отрицание", "concept_b": "Список элементов", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Логическое отрицание", "concept_b": "Умножение логическое", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Логическое отрицание", "concept_b": "Цифра", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Логическое отрицание", "concept_b": "Экономичность системы счисления", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Логическое отрицание", "concept_b": "дизъюнкция", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Логическое отрицание", "concept_b": "инвертирование", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Логическое отрицание", "concept_b": "исключающее или", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Логическое отрицание", "concept_b": "конъюнкция", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Логическое отрицание", "concept_b": "логическое отрицание", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Логическое отрицание", "concept_b": "логическое сложение", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Логическое отрицание", "concept_b": "логическое умножение", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Логическое отрицание", "concept_b": "сложение по модулю 2", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Объектно-ориентированное программирование cвойство", "concept_b": "Объектно-ориентированное программирование метод", "has_relation": true}
+{"paragraph_id": "1.3", "concept_a": "Объектно-ориентированное программирование cвойство", "concept_b": "Оператор структурного перехода", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Объектно-ориентированное программирование cвойство", "concept_b": "Операция первичная", "has_relation": true}
+{"paragraph_id": "1.3", "concept_a": "Объектно-ориентированное программирование cвойство", "concept_b": "Основание", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Объектно-ориентированное программирование cвойство", "concept_b": "Представление двоичное", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Объектно-ориентированное программирование cвойство", "concept_b": "Представление чисел", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Объектно-ориентированное программирование cвойство", "concept_b": "Разряд", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Объектно-ориентированное программирование cвойство", "concept_b": "Рекуррентные вычисления", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Объектно-ориентированное программирование cвойство", "concept_b": "Система счисления", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Объектно-ориентированное программирование cвойство", "concept_b": "Система счисления  остаточных классов", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Объектно-ориентированное программирование cвойство", "concept_b": "Система счисления биномиальная", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Объектно-ориентированное программирование cвойство", "concept_b": "Система счисления позиционная", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Объектно-ориентированное программирование cвойство", "concept_b": "Система счисления смешанная", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Объектно-ориентированное программирование cвойство", "concept_b": "Система счисления факториальная", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Объектно-ориентированное программирование cвойство", "concept_b": "Система счисления фибоначчиева", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Объектно-ориентированное программирование cвойство", "concept_b": "Слово машинное", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Объектно-ориентированное программирование cвойство", "concept_b": "Сложение логическое", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Объектно-ориентированное программирование cвойство", "concept_b": "Сложение по модулю 2", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Объектно-ориентированное программирование cвойство", "concept_b": "Список элементов", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Объектно-ориентированное программирование cвойство", "concept_b": "Умножение логическое", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Объектно-ориентированное программирование cвойство", "concept_b": "Цифра", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Объектно-ориентированное программирование cвойство", "concept_b": "Экономичность системы счисления", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Объектно-ориентированное программирование cвойство", "concept_b": "дизъюнкция", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Объектно-ориентированное программирование cвойство", "concept_b": "инвертирование", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Объектно-ориентированное программирование cвойство", "concept_b": "исключающее или", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Объектно-ориентированное программирование cвойство", "concept_b": "конъюнкция", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Объектно-ориентированное программирование cвойство", "concept_b": "логическое отрицание", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Объектно-ориентированное программирование cвойство", "concept_b": "логическое сложение", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Объектно-ориентированное программирование cвойство", "concept_b": "логическое умножение", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Объектно-ориентированное программирование cвойство", "concept_b": "сложение по модулю 2", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Объектно-ориентированное программирование метод", "concept_b": "Оператор структурного перехода", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Объектно-ориентированное программирование метод", "concept_b": "Операция первичная", "has_relation": true}
+{"paragraph_id": "1.3", "concept_a": "Объектно-ориентированное программирование метод", "concept_b": "Основание", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Объектно-ориентированное программирование метод", "concept_b": "Представление двоичное", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Объектно-ориентированное программирование метод", "concept_b": "Представление чисел", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Объектно-ориентированное программирование метод", "concept_b": "Разряд", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Объектно-ориентированное программирование метод", "concept_b": "Рекуррентные вычисления", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Объектно-ориентированное программирование метод", "concept_b": "Система счисления", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Объектно-ориентированное программирование метод", "concept_b": "Система счисления  остаточных классов", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Объектно-ориентированное программирование метод", "concept_b": "Система счисления биномиальная", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Объектно-ориентированное программирование метод", "concept_b": "Система счисления позиционная", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Объектно-ориентированное программирование метод", "concept_b": "Система счисления смешанная", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Объектно-ориентированное программирование метод", "concept_b": "Система счисления факториальная", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Объектно-ориентированное программирование метод", "concept_b": "Система счисления фибоначчиева", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Объектно-ориентированное программирование метод", "concept_b": "Слово машинное", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Объектно-ориентированное программирование метод", "concept_b": "Сложение логическое", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Объектно-ориентированное программирование метод", "concept_b": "Сложение по модулю 2", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Объектно-ориентированное программирование метод", "concept_b": "Список элементов", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Объектно-ориентированное программирование метод", "concept_b": "Умножение логическое", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Объектно-ориентированное программирование метод", "concept_b": "Цифра", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Объектно-ориентированное программирование метод", "concept_b": "Экономичность системы счисления", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Объектно-ориентированное программирование метод", "concept_b": "дизъюнкция", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Объектно-ориентированное программирование метод", "concept_b": "инвертирование", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Объектно-ориентированное программирование метод", "concept_b": "исключающее или", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Объектно-ориентированное программирование метод", "concept_b": "конъюнкция", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Объектно-ориентированное программирование метод", "concept_b": "логическое отрицание", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Объектно-ориентированное программирование метод", "concept_b": "логическое сложение", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Объектно-ориентированное программирование метод", "concept_b": "логическое умножение", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Объектно-ориентированное программирование метод", "concept_b": "сложение по модулю 2", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Оператор структурного перехода", "concept_b": "Операция первичная", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Оператор структурного перехода", "concept_b": "Основание", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Оператор структурного перехода", "concept_b": "Представление двоичное", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Оператор структурного перехода", "concept_b": "Представление чисел", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Оператор структурного перехода", "concept_b": "Разряд", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Оператор структурного перехода", "concept_b": "Рекуррентные вычисления", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Оператор структурного перехода", "concept_b": "Система счисления", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Оператор структурного перехода", "concept_b": "Система счисления  остаточных классов", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Оператор структурного перехода", "concept_b": "Система счисления биномиальная", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Оператор структурного перехода", "concept_b": "Система счисления позиционная", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Оператор структурного перехода", "concept_b": "Система счисления смешанная", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Оператор структурного перехода", "concept_b": "Система счисления факториальная", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Оператор структурного перехода", "concept_b": "Система счисления фибоначчиева", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Оператор структурного перехода", "concept_b": "Слово машинное", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Оператор структурного перехода", "concept_b": "Сложение логическое", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Оператор структурного перехода", "concept_b": "Сложение по модулю 2", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Оператор структурного перехода", "concept_b": "Список элементов", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Оператор структурного перехода", "concept_b": "Умножение логическое", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Оператор структурного перехода", "concept_b": "Цифра", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Оператор структурного перехода", "concept_b": "Экономичность системы счисления", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Оператор структурного перехода", "concept_b": "дизъюнкция", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Оператор структурного перехода", "concept_b": "инвертирование", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Оператор структурного перехода", "concept_b": "исключающее или", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Оператор структурного перехода", "concept_b": "конъюнкция", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Оператор структурного перехода", "concept_b": "логическое отрицание", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Оператор структурного перехода", "concept_b": "логическое сложение", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Оператор структурного перехода", "concept_b": "логическое умножение", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Оператор структурного перехода", "concept_b": "сложение по модулю 2", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Операция первичная", "concept_b": "Основание", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Операция первичная", "concept_b": "Представление двоичное", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Операция первичная", "concept_b": "Представление чисел", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Операция первичная", "concept_b": "Разряд", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Операция первичная", "concept_b": "Рекуррентные вычисления", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Операция первичная", "concept_b": "Система счисления", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Операция первичная", "concept_b": "Система счисления  остаточных классов", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Операция первичная", "concept_b": "Система счисления биномиальная", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Операция первичная", "concept_b": "Система счисления позиционная", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Операция первичная", "concept_b": "Система счисления смешанная", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Операция первичная", "concept_b": "Система счисления факториальная", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Операция первичная", "concept_b": "Система счисления фибоначчиева", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Операция первичная", "concept_b": "Слово машинное", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Операция первичная", "concept_b": "Сложение логическое", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Операция первичная", "concept_b": "Сложение по модулю 2", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Операция первичная", "concept_b": "Список элементов", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Операция первичная", "concept_b": "Умножение логическое", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Операция первичная", "concept_b": "Цифра", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Операция первичная", "concept_b": "Экономичность системы счисления", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Операция первичная", "concept_b": "дизъюнкция", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Операция первичная", "concept_b": "инвертирование", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Операция первичная", "concept_b": "исключающее или", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Операция первичная", "concept_b": "конъюнкция", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Операция первичная", "concept_b": "логическое отрицание", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Операция первичная", "concept_b": "логическое сложение", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Операция первичная", "concept_b": "логическое умножение", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Операция первичная", "concept_b": "сложение по модулю 2", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Основание", "concept_b": "Представление двоичное", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Основание", "concept_b": "Представление чисел", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Основание", "concept_b": "Разряд", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Основание", "concept_b": "Рекуррентные вычисления", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Основание", "concept_b": "Система счисления", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Основание", "concept_b": "Система счисления  остаточных классов", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Основание", "concept_b": "Система счисления биномиальная", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Основание", "concept_b": "Система счисления позиционная", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Основание", "concept_b": "Система счисления смешанная", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Основание", "concept_b": "Система счисления факториальная", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Основание", "concept_b": "Система счисления фибоначчиева", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Основание", "concept_b": "Слово машинное", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Основание", "concept_b": "Сложение логическое", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Основание", "concept_b": "Сложение по модулю 2", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Основание", "concept_b": "Список элементов", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Основание", "concept_b": "Умножение логическое", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Основание", "concept_b": "Цифра", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Основание", "concept_b": "Экономичность системы счисления", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Основание", "concept_b": "дизъюнкция", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Основание", "concept_b": "инвертирование", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Основание", "concept_b": "исключающее или", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Основание", "concept_b": "конъюнкция", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Основание", "concept_b": "логическое отрицание", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Основание", "concept_b": "логическое сложение", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Основание", "concept_b": "логическое умножение", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Основание", "concept_b": "сложение по модулю 2", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Представление двоичное", "concept_b": "Представление чисел", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Представление двоичное", "concept_b": "Разряд", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Представление двоичное", "concept_b": "Рекуррентные вычисления", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Представление двоичное", "concept_b": "Система счисления", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Представление двоичное", "concept_b": "Система счисления  остаточных классов", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Представление двоичное", "concept_b": "Система счисления биномиальная", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Представление двоичное", "concept_b": "Система счисления позиционная", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Представление двоичное", "concept_b": "Система счисления смешанная", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Представление двоичное", "concept_b": "Система счисления факториальная", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Представление двоичное", "concept_b": "Система счисления фибоначчиева", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Представление двоичное", "concept_b": "Слово машинное", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Представление двоичное", "concept_b": "Сложение логическое", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Представление двоичное", "concept_b": "Сложение по модулю 2", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Представление двоичное", "concept_b": "Список элементов", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Представление двоичное", "concept_b": "Умножение логическое", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Представление двоичное", "concept_b": "Цифра", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Представление двоичное", "concept_b": "Экономичность системы счисления", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Представление двоичное", "concept_b": "дизъюнкция", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Представление двоичное", "concept_b": "инвертирование", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Представление двоичное", "concept_b": "исключающее или", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Представление двоичное", "concept_b": "конъюнкция", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Представление двоичное", "concept_b": "логическое отрицание", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Представление двоичное", "concept_b": "логическое сложение", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Представление двоичное", "concept_b": "логическое умножение", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Представление двоичное", "concept_b": "сложение по модулю 2", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Представление чисел", "concept_b": "Разряд", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Представление чисел", "concept_b": "Рекуррентные вычисления", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Представление чисел", "concept_b": "Система счисления", "has_relation": true}
+{"paragraph_id": "1.3", "concept_a": "Представление чисел", "concept_b": "Система счисления  остаточных классов", "has_relation": true}
+{"paragraph_id": "1.3", "concept_a": "Представление чисел", "concept_b": "Система счисления биномиальная", "has_relation": true}
+{"paragraph_id": "1.3", "concept_a": "Представление чисел", "concept_b": "Система счисления позиционная", "has_relation": true}
+{"paragraph_id": "1.3", "concept_a": "Представление чисел", "concept_b": "Система счисления смешанная", "has_relation": true}
+{"paragraph_id": "1.3", "concept_a": "Представление чисел", "concept_b": "Система счисления факториальная", "has_relation": true}
+{"paragraph_id": "1.3", "concept_a": "Представление чисел", "concept_b": "Система счисления фибоначчиева", "has_relation": true}
+{"paragraph_id": "1.3", "concept_a": "Представление чисел", "concept_b": "Слово машинное", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Представление чисел", "concept_b": "Сложение логическое", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Представление чисел", "concept_b": "Сложение по модулю 2", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Представление чисел", "concept_b": "Список элементов", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Представление чисел", "concept_b": "Умножение логическое", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Представление чисел", "concept_b": "Цифра", "has_relation": true}
+{"paragraph_id": "1.3", "concept_a": "Представление чисел", "concept_b": "Экономичность системы счисления", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Представление чисел", "concept_b": "дизъюнкция", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Представление чисел", "concept_b": "инвертирование", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Представление чисел", "concept_b": "исключающее или", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Представление чисел", "concept_b": "конъюнкция", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Представление чисел", "concept_b": "логическое отрицание", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Представление чисел", "concept_b": "логическое сложение", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Представление чисел", "concept_b": "логическое умножение", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Представление чисел", "concept_b": "сложение по модулю 2", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Разряд", "concept_b": "Рекуррентные вычисления", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Разряд", "concept_b": "Система счисления", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Разряд", "concept_b": "Система счисления  остаточных классов", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Разряд", "concept_b": "Система счисления биномиальная", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Разряд", "concept_b": "Система счисления позиционная", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Разряд", "concept_b": "Система счисления смешанная", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Разряд", "concept_b": "Система счисления факториальная", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Разряд", "concept_b": "Система счисления фибоначчиева", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Разряд", "concept_b": "Слово машинное", "has_relation": true}
+{"paragraph_id": "1.3", "concept_a": "Разряд", "concept_b": "Сложение логическое", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Разряд", "concept_b": "Сложение по модулю 2", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Разряд", "concept_b": "Список элементов", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Разряд", "concept_b": "Умножение логическое", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Разряд", "concept_b": "Цифра", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Разряд", "concept_b": "Экономичность системы счисления", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Разряд", "concept_b": "дизъюнкция", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Разряд", "concept_b": "инвертирование", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Разряд", "concept_b": "исключающее или", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Разряд", "concept_b": "конъюнкция", "has_relation": true}
+{"paragraph_id": "1.3", "concept_a": "Разряд", "concept_b": "логическое отрицание", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Разряд", "concept_b": "логическое сложение", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Разряд", "concept_b": "логическое умножение", "has_relation": true}
+{"paragraph_id": "1.3", "concept_a": "Разряд", "concept_b": "сложение по модулю 2", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Рекуррентные вычисления", "concept_b": "Система счисления", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Рекуррентные вычисления", "concept_b": "Система счисления  остаточных классов", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Рекуррентные вычисления", "concept_b": "Система счисления биномиальная", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Рекуррентные вычисления", "concept_b": "Система счисления позиционная", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Рекуррентные вычисления", "concept_b": "Система счисления смешанная", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Рекуррентные вычисления", "concept_b": "Система счисления факториальная", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Рекуррентные вычисления", "concept_b": "Система счисления фибоначчиева", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Рекуррентные вычисления", "concept_b": "Слово машинное", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Рекуррентные вычисления", "concept_b": "Сложение логическое", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Рекуррентные вычисления", "concept_b": "Сложение по модулю 2", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Рекуррентные вычисления", "concept_b": "Список элементов", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Рекуррентные вычисления", "concept_b": "Умножение логическое", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Рекуррентные вычисления", "concept_b": "Цифра", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Рекуррентные вычисления", "concept_b": "Экономичность системы счисления", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Рекуррентные вычисления", "concept_b": "дизъюнкция", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Рекуррентные вычисления", "concept_b": "инвертирование", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Рекуррентные вычисления", "concept_b": "исключающее или", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Рекуррентные вычисления", "concept_b": "конъюнкция", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Рекуррентные вычисления", "concept_b": "логическое отрицание", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Рекуррентные вычисления", "concept_b": "логическое сложение", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Рекуррентные вычисления", "concept_b": "логическое умножение", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Рекуррентные вычисления", "concept_b": "сложение по модулю 2", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Система счисления", "concept_b": "Система счисления  остаточных классов", "has_relation": true}
+{"paragraph_id": "1.3", "concept_a": "Система счисления", "concept_b": "Система счисления биномиальная", "has_relation": true}
+{"paragraph_id": "1.3", "concept_a": "Система счисления", "concept_b": "Система счисления позиционная", "has_relation": true}
+{"paragraph_id": "1.3", "concept_a": "Система счисления", "concept_b": "Система счисления смешанная", "has_relation": true}
+{"paragraph_id": "1.3", "concept_a": "Система счисления", "concept_b": "Система счисления факториальная", "has_relation": true}
+{"paragraph_id": "1.3", "concept_a": "Система счисления", "concept_b": "Система счисления фибоначчиева", "has_relation": true}
+{"paragraph_id": "1.3", "concept_a": "Система счисления", "concept_b": "Слово машинное", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Система счисления", "concept_b": "Сложение логическое", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Система счисления", "concept_b": "Сложение по модулю 2", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Система счисления", "concept_b": "Список элементов", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Система счисления", "concept_b": "Умножение логическое", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Система счисления", "concept_b": "Цифра", "has_relation": true}
+{"paragraph_id": "1.3", "concept_a": "Система счисления", "concept_b": "Экономичность системы счисления", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Система счисления", "concept_b": "дизъюнкция", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Система счисления", "concept_b": "инвертирование", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Система счисления", "concept_b": "исключающее или", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Система счисления", "concept_b": "конъюнкция", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Система счисления", "concept_b": "логическое отрицание", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Система счисления", "concept_b": "логическое сложение", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Система счисления", "concept_b": "логическое умножение", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Система счисления", "concept_b": "сложение по модулю 2", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Система счисления  остаточных классов", "concept_b": "Система счисления биномиальная", "has_relation": true}
+{"paragraph_id": "1.3", "concept_a": "Система счисления  остаточных классов", "concept_b": "Система счисления позиционная", "has_relation": true}
+{"paragraph_id": "1.3", "concept_a": "Система счисления  остаточных классов", "concept_b": "Система счисления смешанная", "has_relation": true}
+{"paragraph_id": "1.3", "concept_a": "Система счисления  остаточных классов", "concept_b": "Система счисления факториальная", "has_relation": true}
+{"paragraph_id": "1.3", "concept_a": "Система счисления  остаточных классов", "concept_b": "Система счисления фибоначчиева", "has_relation": true}
+{"paragraph_id": "1.3", "concept_a": "Система счисления  остаточных классов", "concept_b": "Слово машинное", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Система счисления  остаточных классов", "concept_b": "Сложение логическое", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Система счисления  остаточных классов", "concept_b": "Сложение по модулю 2", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Система счисления  остаточных классов", "concept_b": "Список элементов", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Система счисления  остаточных классов", "concept_b": "Умножение логическое", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Система счисления  остаточных классов", "concept_b": "Цифра", "has_relation": true}
+{"paragraph_id": "1.3", "concept_a": "Система счисления  остаточных классов", "concept_b": "Экономичность системы счисления", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Система счисления  остаточных классов", "concept_b": "дизъюнкция", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Система счисления  остаточных классов", "concept_b": "инвертирование", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Система счисления  остаточных классов", "concept_b": "исключающее или", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Система счисления  остаточных классов", "concept_b": "конъюнкция", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Система счисления  остаточных классов", "concept_b": "логическое отрицание", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Система счисления  остаточных классов", "concept_b": "логическое сложение", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Система счисления  остаточных классов", "concept_b": "логическое умножение", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Система счисления  остаточных классов", "concept_b": "сложение по модулю 2", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Система счисления биномиальная", "concept_b": "Система счисления позиционная", "has_relation": true}
+{"paragraph_id": "1.3", "concept_a": "Система счисления биномиальная", "concept_b": "Система счисления смешанная", "has_relation": true}
+{"paragraph_id": "1.3", "concept_a": "Система счисления биномиальная", "concept_b": "Система счисления факториальная", "has_relation": true}
+{"paragraph_id": "1.3", "concept_a": "Система счисления биномиальная", "concept_b": "Система счисления фибоначчиева", "has_relation": true}
+{"paragraph_id": "1.3", "concept_a": "Система счисления биномиальная", "concept_b": "Слово машинное", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Система счисления биномиальная", "concept_b": "Сложение логическое", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Система счисления биномиальная", "concept_b": "Сложение по модулю 2", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Система счисления биномиальная", "concept_b": "Список элементов", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Система счисления биномиальная", "concept_b": "Умножение логическое", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Система счисления биномиальная", "concept_b": "Цифра", "has_relation": true}
+{"paragraph_id": "1.3", "concept_a": "Система счисления биномиальная", "concept_b": "Экономичность системы счисления", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Система счисления биномиальная", "concept_b": "дизъюнкция", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Система счисления биномиальная", "concept_b": "инвертирование", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Система счисления биномиальная", "concept_b": "исключающее или", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Система счисления биномиальная", "concept_b": "конъюнкция", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Система счисления биномиальная", "concept_b": "логическое отрицание", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Система счисления биномиальная", "concept_b": "логическое сложение", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Система счисления биномиальная", "concept_b": "логическое умножение", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Система счисления биномиальная", "concept_b": "сложение по модулю 2", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Система счисления позиционная", "concept_b": "Система счисления смешанная", "has_relation": true}
+{"paragraph_id": "1.3", "concept_a": "Система счисления позиционная", "concept_b": "Система счисления факториальная", "has_relation": true}
+{"paragraph_id": "1.3", "concept_a": "Система счисления позиционная", "concept_b": "Система счисления фибоначчиева", "has_relation": true}
+{"paragraph_id": "1.3", "concept_a": "Система счисления позиционная", "concept_b": "Слово машинное", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Система счисления позиционная", "concept_b": "Сложение логическое", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Система счисления позиционная", "concept_b": "Сложение по модулю 2", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Система счисления позиционная", "concept_b": "Список элементов", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Система счисления позиционная", "concept_b": "Умножение логическое", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Система счисления позиционная", "concept_b": "Цифра", "has_relation": true}
+{"paragraph_id": "1.3", "concept_a": "Система счисления позиционная", "concept_b": "Экономичность системы счисления", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Система счисления позиционная", "concept_b": "дизъюнкция", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Система счисления позиционная", "concept_b": "инвертирование", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Система счисления позиционная", "concept_b": "исключающее или", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Система счисления позиционная", "concept_b": "конъюнкция", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Система счисления позиционная", "concept_b": "логическое отрицание", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Система счисления позиционная", "concept_b": "логическое сложение", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Система счисления позиционная", "concept_b": "логическое умножение", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Система счисления позиционная", "concept_b": "сложение по модулю 2", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Система счисления смешанная", "concept_b": "Система счисления факториальная", "has_relation": true}
+{"paragraph_id": "1.3", "concept_a": "Система счисления смешанная", "concept_b": "Система счисления фибоначчиева", "has_relation": true}
+{"paragraph_id": "1.3", "concept_a": "Система счисления смешанная", "concept_b": "Слово машинное", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Система счисления смешанная", "concept_b": "Сложение логическое", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Система счисления смешанная", "concept_b": "Сложение по модулю 2", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Система счисления смешанная", "concept_b": "Список элементов", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Система счисления смешанная", "concept_b": "Умножение логическое", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Система счисления смешанная", "concept_b": "Цифра", "has_relation": true}
+{"paragraph_id": "1.3", "concept_a": "Система счисления смешанная", "concept_b": "Экономичность системы счисления", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Система счисления смешанная", "concept_b": "дизъюнкция", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Система счисления смешанная", "concept_b": "инвертирование", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Система счисления смешанная", "concept_b": "исключающее или", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Система счисления смешанная", "concept_b": "конъюнкция", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Система счисления смешанная", "concept_b": "логическое отрицание", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Система счисления смешанная", "concept_b": "логическое сложение", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Система счисления смешанная", "concept_b": "логическое умножение", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Система счисления смешанная", "concept_b": "сложение по модулю 2", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Система счисления факториальная", "concept_b": "Система счисления фибоначчиева", "has_relation": true}
+{"paragraph_id": "1.3", "concept_a": "Система счисления факториальная", "concept_b": "Слово машинное", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Система счисления факториальная", "concept_b": "Сложение логическое", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Система счисления факториальная", "concept_b": "Сложение по модулю 2", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Система счисления факториальная", "concept_b": "Список элементов", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Система счисления факториальная", "concept_b": "Умножение логическое", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Система счисления факториальная", "concept_b": "Цифра", "has_relation": true}
+{"paragraph_id": "1.3", "concept_a": "Система счисления факториальная", "concept_b": "Экономичность системы счисления", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Система счисления факториальная", "concept_b": "дизъюнкция", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Система счисления факториальная", "concept_b": "инвертирование", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Система счисления факториальная", "concept_b": "исключающее или", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Система счисления факториальная", "concept_b": "конъюнкция", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Система счисления факториальная", "concept_b": "логическое отрицание", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Система счисления факториальная", "concept_b": "логическое сложение", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Система счисления факториальная", "concept_b": "логическое умножение", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Система счисления факториальная", "concept_b": "сложение по модулю 2", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Система счисления фибоначчиева", "concept_b": "Слово машинное", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Система счисления фибоначчиева", "concept_b": "Сложение логическое", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Система счисления фибоначчиева", "concept_b": "Сложение по модулю 2", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Система счисления фибоначчиева", "concept_b": "Список элементов", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Система счисления фибоначчиева", "concept_b": "Умножение логическое", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Система счисления фибоначчиева", "concept_b": "Цифра", "has_relation": true}
+{"paragraph_id": "1.3", "concept_a": "Система счисления фибоначчиева", "concept_b": "Экономичность системы счисления", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Система счисления фибоначчиева", "concept_b": "дизъюнкция", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Система счисления фибоначчиева", "concept_b": "инвертирование", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Система счисления фибоначчиева", "concept_b": "исключающее или", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Система счисления фибоначчиева", "concept_b": "конъюнкция", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Система счисления фибоначчиева", "concept_b": "логическое отрицание", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Система счисления фибоначчиева", "concept_b": "логическое сложение", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Система счисления фибоначчиева", "concept_b": "логическое умножение", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Система счисления фибоначчиева", "concept_b": "сложение по модулю 2", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Слово машинное", "concept_b": "Сложение логическое", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Слово машинное", "concept_b": "Сложение по модулю 2", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Слово машинное", "concept_b": "Список элементов", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Слово машинное", "concept_b": "Умножение логическое", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Слово машинное", "concept_b": "Цифра", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Слово машинное", "concept_b": "Экономичность системы счисления", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Слово машинное", "concept_b": "дизъюнкция", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Слово машинное", "concept_b": "инвертирование", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Слово машинное", "concept_b": "исключающее или", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Слово машинное", "concept_b": "конъюнкция", "has_relation": true}
+{"paragraph_id": "1.3", "concept_a": "Слово машинное", "concept_b": "логическое отрицание", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Слово машинное", "concept_b": "логическое сложение", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Слово машинное", "concept_b": "логическое умножение", "has_relation": true}
+{"paragraph_id": "1.3", "concept_a": "Слово машинное", "concept_b": "сложение по модулю 2", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Сложение логическое", "concept_b": "Сложение по модулю 2", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Сложение логическое", "concept_b": "Список элементов", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Сложение логическое", "concept_b": "Умножение логическое", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Сложение логическое", "concept_b": "Цифра", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Сложение логическое", "concept_b": "Экономичность системы счисления", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Сложение логическое", "concept_b": "дизъюнкция", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Сложение логическое", "concept_b": "инвертирование", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Сложение логическое", "concept_b": "исключающее или", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Сложение логическое", "concept_b": "конъюнкция", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Сложение логическое", "concept_b": "логическое отрицание", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Сложение логическое", "concept_b": "логическое сложение", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Сложение логическое", "concept_b": "логическое умножение", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Сложение логическое", "concept_b": "сложение по модулю 2", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Сложение по модулю 2", "concept_b": "Список элементов", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Сложение по модулю 2", "concept_b": "Умножение логическое", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Сложение по модулю 2", "concept_b": "Цифра", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Сложение по модулю 2", "concept_b": "Экономичность системы счисления", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Сложение по модулю 2", "concept_b": "дизъюнкция", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Сложение по модулю 2", "concept_b": "инвертирование", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Сложение по модулю 2", "concept_b": "исключающее или", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Сложение по модулю 2", "concept_b": "конъюнкция", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Сложение по модулю 2", "concept_b": "логическое отрицание", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Сложение по модулю 2", "concept_b": "логическое сложение", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Сложение по модулю 2", "concept_b": "логическое умножение", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Сложение по модулю 2", "concept_b": "сложение по модулю 2", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Список элементов", "concept_b": "Умножение логическое", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Список элементов", "concept_b": "Цифра", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Список элементов", "concept_b": "Экономичность системы счисления", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Список элементов", "concept_b": "дизъюнкция", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Список элементов", "concept_b": "инвертирование", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Список элементов", "concept_b": "исключающее или", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Список элементов", "concept_b": "конъюнкция", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Список элементов", "concept_b": "логическое отрицание", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Список элементов", "concept_b": "логическое сложение", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Список элементов", "concept_b": "логическое умножение", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Список элементов", "concept_b": "сложение по модулю 2", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Умножение логическое", "concept_b": "Цифра", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Умножение логическое", "concept_b": "Экономичность системы счисления", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Умножение логическое", "concept_b": "дизъюнкция", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Умножение логическое", "concept_b": "инвертирование", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Умножение логическое", "concept_b": "исключающее или", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Умножение логическое", "concept_b": "конъюнкция", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Умножение логическое", "concept_b": "логическое отрицание", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Умножение логическое", "concept_b": "логическое сложение", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Умножение логическое", "concept_b": "логическое умножение", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Умножение логическое", "concept_b": "сложение по модулю 2", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Цифра", "concept_b": "Экономичность системы счисления", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Цифра", "concept_b": "дизъюнкция", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Цифра", "concept_b": "инвертирование", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Цифра", "concept_b": "исключающее или", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Цифра", "concept_b": "конъюнкция", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Цифра", "concept_b": "логическое отрицание", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Цифра", "concept_b": "логическое сложение", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Цифра", "concept_b": "логическое умножение", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Цифра", "concept_b": "сложение по модулю 2", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Экономичность системы счисления", "concept_b": "дизъюнкция", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Экономичность системы счисления", "concept_b": "инвертирование", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Экономичность системы счисления", "concept_b": "исключающее или", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Экономичность системы счисления", "concept_b": "конъюнкция", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Экономичность системы счисления", "concept_b": "логическое отрицание", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Экономичность системы счисления", "concept_b": "логическое сложение", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Экономичность системы счисления", "concept_b": "логическое умножение", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "Экономичность системы счисления", "concept_b": "сложение по модулю 2", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "дизъюнкция", "concept_b": "инвертирование", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "дизъюнкция", "concept_b": "исключающее или", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "дизъюнкция", "concept_b": "конъюнкция", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "дизъюнкция", "concept_b": "логическое отрицание", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "дизъюнкция", "concept_b": "логическое сложение", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "дизъюнкция", "concept_b": "логическое умножение", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "дизъюнкция", "concept_b": "сложение по модулю 2", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "инвертирование", "concept_b": "исключающее или", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "инвертирование", "concept_b": "конъюнкция", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "инвертирование", "concept_b": "логическое отрицание", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "инвертирование", "concept_b": "логическое сложение", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "инвертирование", "concept_b": "логическое умножение", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "инвертирование", "concept_b": "сложение по модулю 2", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "исключающее или", "concept_b": "конъюнкция", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "исключающее или", "concept_b": "логическое отрицание", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "исключающее или", "concept_b": "логическое сложение", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "исключающее или", "concept_b": "логическое умножение", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "исключающее или", "concept_b": "сложение по модулю 2", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "конъюнкция", "concept_b": "логическое отрицание", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "конъюнкция", "concept_b": "логическое сложение", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "конъюнкция", "concept_b": "логическое умножение", "has_relation": true}
+{"paragraph_id": "1.3", "concept_a": "конъюнкция", "concept_b": "сложение по модулю 2", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "логическое отрицание", "concept_b": "логическое сложение", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "логическое отрицание", "concept_b": "логическое умножение", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "логическое отрицание", "concept_b": "сложение по модулю 2", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "логическое сложение", "concept_b": "логическое умножение", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "логическое сложение", "concept_b": "сложение по модулю 2", "has_relation": false}
+{"paragraph_id": "1.3", "concept_a": "логическое умножение", "concept_b": "сложение по модулю 2", "has_relation": false}

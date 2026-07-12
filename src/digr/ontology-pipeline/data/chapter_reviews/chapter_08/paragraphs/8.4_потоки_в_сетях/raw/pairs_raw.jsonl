@@ -1,0 +1,15 @@
+{"paragraph_id": "8.4", "concept_a": "t", "concept_b": "Величина потока", "has_relation": false}
+{"paragraph_id": "8.4", "concept_a": "t", "concept_b": "Дивергенция", "has_relation": false}
+{"paragraph_id": "8.4", "concept_a": "t", "concept_b": "Дуга насыщенная", "has_relation": false}
+{"paragraph_id": "8.4", "concept_a": "t", "concept_b": "Поток", "has_relation": false}
+{"paragraph_id": "8.4", "concept_a": "t", "concept_b": "Пропускная способность разреза", "has_relation": false}
+{"paragraph_id": "8.4", "concept_a": "Величина потока", "concept_b": "Дивергенция", "has_relation": false}
+{"paragraph_id": "8.4", "concept_a": "Величина потока", "concept_b": "Дуга насыщенная", "has_relation": true}
+{"paragraph_id": "8.4", "concept_a": "Величина потока", "concept_b": "Поток", "has_relation": false}
+{"paragraph_id": "8.4", "concept_a": "Величина потока", "concept_b": "Пропускная способность разреза", "has_relation": false}
+{"paragraph_id": "8.4", "concept_a": "Дивергенция", "concept_b": "Дуга насыщенная", "has_relation": false}
+{"paragraph_id": "8.4", "concept_a": "Дивергенция", "concept_b": "Поток", "has_relation": false}
+{"paragraph_id": "8.4", "concept_a": "Дивергенция", "concept_b": "Пропускная способность разреза", "has_relation": false}
+{"paragraph_id": "8.4", "concept_a": "Дуга насыщенная", "concept_b": "Поток", "has_relation": false}
+{"paragraph_id": "8.4", "concept_a": "Дуга насыщенная", "concept_b": "Пропускная способность разреза", "has_relation": false}
+{"paragraph_id": "8.4", "concept_a": "Поток", "concept_b": "Пропускная способность разреза", "has_relation": false}

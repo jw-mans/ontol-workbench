@@ -1,0 +1,45 @@
+{"paragraph_id": "9.6", "concept_a": "Алгоритм Краскала", "concept_b": "Алгоритм Прима", "has_relation": false}
+{"paragraph_id": "9.6", "concept_a": "Алгоритм Краскала", "concept_b": "Дерево стягивающее", "has_relation": false}
+{"paragraph_id": "9.6", "concept_a": "Алгоритм Краскала", "concept_b": "Задача Штейнера", "has_relation": false}
+{"paragraph_id": "9.6", "concept_a": "Алгоритм Краскала", "concept_b": "Каркас", "has_relation": false}
+{"paragraph_id": "9.6", "concept_a": "Алгоритм Краскала", "concept_b": "Лес остовный", "has_relation": false}
+{"paragraph_id": "9.6", "concept_a": "Алгоритм Краскала", "concept_b": "Остов", "has_relation": false}
+{"paragraph_id": "9.6", "concept_a": "Алгоритм Краскала", "concept_b": "Остов кратчайший", "has_relation": false}
+{"paragraph_id": "9.6", "concept_a": "Алгоритм Краскала", "concept_b": "Подграф остовный", "has_relation": false}
+{"paragraph_id": "9.6", "concept_a": "Алгоритм Краскала", "concept_b": "Точка Штейнера", "has_relation": false}
+{"paragraph_id": "9.6", "concept_a": "Алгоритм Прима", "concept_b": "Дерево стягивающее", "has_relation": false}
+{"paragraph_id": "9.6", "concept_a": "Алгоритм Прима", "concept_b": "Задача Штейнера", "has_relation": false}
+{"paragraph_id": "9.6", "concept_a": "Алгоритм Прима", "concept_b": "Каркас", "has_relation": false}
+{"paragraph_id": "9.6", "concept_a": "Алгоритм Прима", "concept_b": "Лес остовный", "has_relation": false}
+{"paragraph_id": "9.6", "concept_a": "Алгоритм Прима", "concept_b": "Остов", "has_relation": false}
+{"paragraph_id": "9.6", "concept_a": "Алгоритм Прима", "concept_b": "Остов кратчайший", "has_relation": false}
+{"paragraph_id": "9.6", "concept_a": "Алгоритм Прима", "concept_b": "Подграф остовный", "has_relation": false}
+{"paragraph_id": "9.6", "concept_a": "Алгоритм Прима", "concept_b": "Точка Штейнера", "has_relation": false}
+{"paragraph_id": "9.6", "concept_a": "Дерево стягивающее", "concept_b": "Задача Штейнера", "has_relation": false}
+{"paragraph_id": "9.6", "concept_a": "Дерево стягивающее", "concept_b": "Каркас", "has_relation": true}
+{"paragraph_id": "9.6", "concept_a": "Дерево стягивающее", "concept_b": "Лес остовный", "has_relation": false}
+{"paragraph_id": "9.6", "concept_a": "Дерево стягивающее", "concept_b": "Остов", "has_relation": true}
+{"paragraph_id": "9.6", "concept_a": "Дерево стягивающее", "concept_b": "Остов кратчайший", "has_relation": false}
+{"paragraph_id": "9.6", "concept_a": "Дерево стягивающее", "concept_b": "Подграф остовный", "has_relation": true}
+{"paragraph_id": "9.6", "concept_a": "Дерево стягивающее", "concept_b": "Точка Штейнера", "has_relation": false}
+{"paragraph_id": "9.6", "concept_a": "Задача Штейнера", "concept_b": "Каркас", "has_relation": false}
+{"paragraph_id": "9.6", "concept_a": "Задача Штейнера", "concept_b": "Лес остовный", "has_relation": false}
+{"paragraph_id": "9.6", "concept_a": "Задача Штейнера", "concept_b": "Остов", "has_relation": false}
+{"paragraph_id": "9.6", "concept_a": "Задача Штейнера", "concept_b": "Остов кратчайший", "has_relation": false}
+{"paragraph_id": "9.6", "concept_a": "Задача Штейнера", "concept_b": "Подграф остовный", "has_relation": false}
+{"paragraph_id": "9.6", "concept_a": "Задача Штейнера", "concept_b": "Точка Штейнера", "has_relation": true}
+{"paragraph_id": "9.6", "concept_a": "Каркас", "concept_b": "Лес остовный", "has_relation": false}
+{"paragraph_id": "9.6", "concept_a": "Каркас", "concept_b": "Остов", "has_relation": true}
+{"paragraph_id": "9.6", "concept_a": "Каркас", "concept_b": "Остов кратчайший", "has_relation": false}
+{"paragraph_id": "9.6", "concept_a": "Каркас", "concept_b": "Подграф остовный", "has_relation": true}
+{"paragraph_id": "9.6", "concept_a": "Каркас", "concept_b": "Точка Штейнера", "has_relation": false}
+{"paragraph_id": "9.6", "concept_a": "Лес остовный", "concept_b": "Остов", "has_relation": false}
+{"paragraph_id": "9.6", "concept_a": "Лес остовный", "concept_b": "Остов кратчайший", "has_relation": true}
+{"paragraph_id": "9.6", "concept_a": "Лес остовный", "concept_b": "Подграф остовный", "has_relation": false}
+{"paragraph_id": "9.6", "concept_a": "Лес остовный", "concept_b": "Точка Штейнера", "has_relation": false}
+{"paragraph_id": "9.6", "concept_a": "Остов", "concept_b": "Остов кратчайший", "has_relation": false}
+{"paragraph_id": "9.6", "concept_a": "Остов", "concept_b": "Подграф остовный", "has_relation": true}
+{"paragraph_id": "9.6", "concept_a": "Остов", "concept_b": "Точка Штейнера", "has_relation": false}
+{"paragraph_id": "9.6", "concept_a": "Остов кратчайший", "concept_b": "Подграф остовный", "has_relation": false}
+{"paragraph_id": "9.6", "concept_a": "Остов кратчайший", "concept_b": "Точка Штейнера", "has_relation": false}
+{"paragraph_id": "9.6", "concept_a": "Подграф остовный", "concept_b": "Точка Штейнера", "has_relation": false}

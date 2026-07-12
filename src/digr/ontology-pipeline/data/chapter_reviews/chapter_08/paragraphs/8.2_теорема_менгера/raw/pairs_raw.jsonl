@@ -1,0 +1,10 @@
+{"paragraph_id": "8.2", "concept_a": "Множество вершин разделяющее", "concept_b": "Разрез", "has_relation": true}
+{"paragraph_id": "8.2", "concept_a": "Множество вершин разделяющее", "concept_b": "Теорема Менгера", "has_relation": false}
+{"paragraph_id": "8.2", "concept_a": "Множество вершин разделяющее", "concept_b": "Цепь вершинно-непересекающаяся", "has_relation": false}
+{"paragraph_id": "8.2", "concept_a": "Множество вершин разделяющее", "concept_b": "Цепь рёберно-непересекающаяся", "has_relation": false}
+{"paragraph_id": "8.2", "concept_a": "Разрез", "concept_b": "Теорема Менгера", "has_relation": false}
+{"paragraph_id": "8.2", "concept_a": "Разрез", "concept_b": "Цепь вершинно-непересекающаяся", "has_relation": false}
+{"paragraph_id": "8.2", "concept_a": "Разрез", "concept_b": "Цепь рёберно-непересекающаяся", "has_relation": false}
+{"paragraph_id": "8.2", "concept_a": "Теорема Менгера", "concept_b": "Цепь вершинно-непересекающаяся", "has_relation": false}
+{"paragraph_id": "8.2", "concept_a": "Теорема Менгера", "concept_b": "Цепь рёберно-непересекающаяся", "has_relation": false}
+{"paragraph_id": "8.2", "concept_a": "Цепь вершинно-непересекающаяся", "concept_b": "Цепь рёберно-непересекающаяся", "has_relation": false}
