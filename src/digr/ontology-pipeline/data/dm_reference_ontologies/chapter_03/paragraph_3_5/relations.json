@@ -1,0 +1,79 @@
+[
+  {
+    "type": "Association",
+    "name1": "Арифметический полином",
+    "name2": "Булева функция",
+    "paragraph": "3.5",
+    "page": 634,
+    "diagram": "ODM3_2",
+    "source": "manual",
+    "predicate": "представляет",
+    "predicateInv": "представляется"
+  },
+  {
+    "type": "Association",
+    "name1": "Двоичное дерево",
+    "name2": "Булева функция",
+    "paragraph": "3.5",
+    "page": 634,
+    "diagram": "ODM3_2",
+    "source": "manual",
+    "predicate": "представляет",
+    "predicateInv": "представляется"
+  },
+  {
+    "type": "Association",
+    "name1": "Диаграмма решений",
+    "name2": "Булева функция",
+    "paragraph": "3.5",
+    "page": 634,
+    "diagram": "ODM3_2",
+    "source": "manual",
+    "predicate": "представляет",
+    "predicateInv": "представляется"
+  },
+  {
+    "type": "Association",
+    "name1": "Единичный гиперкуб",
+    "name2": "Булева функция",
+    "paragraph": "3.5",
+    "page": 634,
+    "diagram": "ODM3_2",
+    "source": "manual",
+    "predicate": "представляет",
+    "predicateInv": "представляется"
+  },
+  {
+    "type": "Association",
+    "name1": "Карта Карно",
+    "name2": "Булева функция",
+    "paragraph": "3.5",
+    "page": 634,
+    "diagram": "ODM3_2",
+    "source": "manual",
+    "predicate": "представляет",
+    "predicateInv": "представляется"
+  },
+  {
+    "type": "Association",
+    "name1": "Таблица истинности",
+    "name2": "Булева функция",
+    "paragraph": "3.5",
+    "page": 634,
+    "diagram": "ODM3_2",
+    "source": "manual",
+    "predicate": "представляет",
+    "predicateInv": "представляется"
+  },
+  {
+    "type": "Association",
+    "name1": "Формула",
+    "name2": "Булева функция",
+    "paragraph": "3.5",
+    "page": 634,
+    "diagram": "ODM3_2",
+    "source": "manual",
+    "predicate": "реализует",
+    "predicateInv": "реализуется"
+  }
+]

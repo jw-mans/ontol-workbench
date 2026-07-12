@@ -1,0 +1,152 @@
+[
+  {
+    "type": "Aggregation",
+    "name1": "Кортеж",
+    "name2": "Отношение",
+    "page": 187,
+    "diagram": "structure",
+    "paragraph": "1.4",
+    "source": "manual"
+  },
+  {
+    "type": "Aggregation",
+    "name1": "Множество",
+    "name2": "Отношение бинарное",
+    "pole1": {
+      "name": "Im"
+    },
+    "page": 187,
+    "diagram": "structure",
+    "paragraph": "1.4",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Отношение антирефлексивное",
+    "name2": "Отношение бинарное",
+    "page": 187,
+    "diagram": "structure",
+    "paragraph": "1.4",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Отношение антисимметричное",
+    "name2": "Отношение бинарное",
+    "page": 187,
+    "diagram": "structure",
+    "paragraph": "1.4",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Отношение бинарное",
+    "name2": "Множество",
+    "page": 187,
+    "diagram": "structure",
+    "paragraph": "1.4",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Отношение бинарное",
+    "name2": "Отношение",
+    "page": 187,
+    "diagram": "structure",
+    "paragraph": "1.4",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Отношение линейное",
+    "name2": "Отношение бинарное",
+    "page": 187,
+    "diagram": "structure",
+    "paragraph": "1.4",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Отношение на множестве",
+    "name2": "Отношение бинарное",
+    "page": 187,
+    "diagram": "structure",
+    "paragraph": "1.4",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Отношение рефлексивное",
+    "name2": "Отношение бинарное",
+    "page": 187,
+    "diagram": "structure",
+    "paragraph": "1.4",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Отношение симметричное",
+    "name2": "Отношение бинарное",
+    "page": 187,
+    "diagram": "structure",
+    "paragraph": "1.4",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Отношение тождественное",
+    "name2": "Отношение на множестве",
+    "page": 187,
+    "diagram": "structure",
+    "paragraph": "1.4",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Отношение транзитивное",
+    "name2": "Отношение бинарное",
+    "page": 187,
+    "diagram": "structure",
+    "paragraph": "1.4",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Упорядоченная пара",
+    "name2": "Кортеж",
+    "page": 187,
+    "diagram": "structure",
+    "paragraph": "1.4",
+    "source": "manual"
+  },
+  {
+    "type": "Aggregation",
+    "name1": "Упорядоченная пара",
+    "name2": "Отношение бинарное",
+    "page": 187,
+    "diagram": "structure",
+    "paragraph": "1.4",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Упорядоченная пара",
+    "name2": "Элемент множества",
+    "page": 187,
+    "diagram": "structure",
+    "paragraph": "1.4",
+    "source": "manual"
+  },
+  {
+    "type": "Aggregation",
+    "name1": "Элемент множества",
+    "name2": "Упорядоченная пара",
+    "pole1": {
+      "multiplicity": "2"
+    },
+    "page": 187,
+    "diagram": "structure",
+    "paragraph": "1.4",
+    "source": "manual"
+  }
+]

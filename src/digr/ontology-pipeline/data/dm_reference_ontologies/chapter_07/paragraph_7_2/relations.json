@@ -1,0 +1,191 @@
+[
+  {
+    "type": "Composition",
+    "name1": "Вершина",
+    "name2": "Граф",
+    "paragraph": "7.2",
+    "page": 1207,
+    "diagram": "ODM7_2",
+    "source": "manual"
+  },
+  {
+    "type": "Aggregation",
+    "name1": "Вершина",
+    "name2": "Маршрут",
+    "paragraph": "7.2",
+    "page": 1207,
+    "diagram": "ODM7_2",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Висячая",
+    "name2": "Вершина",
+    "paragraph": "7.2",
+    "page": 1207,
+    "diagram": "ODM7_2",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Геодезическая",
+    "name2": "Простая цепь",
+    "paragraph": "7.2",
+    "page": 1207,
+    "diagram": "ODM7_2",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Диаметр",
+    "name2": "Геодезическая",
+    "paragraph": "7.2",
+    "page": 1207,
+    "diagram": "ODM7_2",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Изолированная",
+    "name2": "Вершина",
+    "paragraph": "7.2",
+    "page": 1207,
+    "diagram": "ODM7_2",
+    "source": "manual"
+  },
+  {
+    "type": "Aggregation",
+    "name1": "Инварианты",
+    "name2": "Граф",
+    "paragraph": "7.2",
+    "page": 1207,
+    "diagram": "ODM7_2",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Компонента связности",
+    "name2": "Связный",
+    "paragraph": "7.2",
+    "page": 1207,
+    "diagram": "ODM7_2",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Остовный",
+    "name2": "Подграф",
+    "paragraph": "7.2",
+    "page": 1207,
+    "diagram": "ODM7_2",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Подграф",
+    "name2": "Граф",
+    "paragraph": "7.2",
+    "page": 1207,
+    "diagram": "ODM7_2",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Правильный разрез",
+    "name2": "Подграф",
+    "paragraph": "7.2",
+    "page": 1207,
+    "diagram": "ODM7_2",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Простая цепь",
+    "name2": "Цепь",
+    "paragraph": "7.2",
+    "page": 1207,
+    "diagram": "ODM7_2",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Простой цикл",
+    "name2": "Цикл",
+    "paragraph": "7.2",
+    "page": 1207,
+    "diagram": "ODM7_2",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Радиус",
+    "name2": "Геодезическая",
+    "paragraph": "7.2",
+    "page": 1207,
+    "diagram": "ODM7_2",
+    "source": "manual"
+  },
+  {
+    "type": "Composition",
+    "name1": "Ребро",
+    "name2": "Граф",
+    "paragraph": "7.2",
+    "page": 1207,
+    "diagram": "ODM7_2",
+    "source": "manual"
+  },
+  {
+    "type": "Aggregation",
+    "name1": "Ребро",
+    "name2": "Маршрут",
+    "paragraph": "7.2",
+    "page": 1207,
+    "diagram": "ODM7_2",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Регулярный",
+    "name2": "Граф",
+    "paragraph": "7.2",
+    "page": 1207,
+    "diagram": "ODM7_2",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Связный",
+    "name2": "Граф",
+    "paragraph": "7.2",
+    "page": 1207,
+    "diagram": "ODM7_2",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Собственный",
+    "name2": "Подграф",
+    "paragraph": "7.2",
+    "page": 1207,
+    "diagram": "ODM7_2",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Цепь",
+    "name2": "Маршрут",
+    "paragraph": "7.2",
+    "page": 1207,
+    "diagram": "ODM7_2",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Цикл",
+    "name2": "Маршрут",
+    "paragraph": "7.2",
+    "page": 1207,
+    "diagram": "ODM7_2",
+    "source": "manual"
+  }
+]

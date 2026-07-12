@@ -1,0 +1,79 @@
+[
+  {
+    "type": "Association",
+    "name1": "Бинарное дерево",
+    "name2": "Упорядоченный лес",
+    "paragraph": "9.1_2",
+    "page": 1437,
+    "diagram": "ODM_9_1_2",
+    "source": "manual",
+    "predicate": "представляет"
+  },
+  {
+    "type": "Dependency",
+    "name1": "Забыть ориентацию",
+    "name2": "Ориентированное дерево",
+    "paragraph": "9.1_2",
+    "page": 1437,
+    "diagram": "ODM_9_1_2",
+    "source": "manual",
+    "predicate": "flow"
+  },
+  {
+    "type": "Aggregation",
+    "name1": "Ориентированное дерево",
+    "name2": "Упорядоченный лес",
+    "paragraph": "9.1_2",
+    "page": 1437,
+    "diagram": "ODM_9_1_2",
+    "source": "manual"
+  },
+  {
+    "type": "Dependency",
+    "name1": "Представление левый = сын правый = брат",
+    "name2": "Бинарное дерево",
+    "paragraph": "9.1_2",
+    "page": 1437,
+    "diagram": "ODM_9_1_2",
+    "source": "manual",
+    "predicate": "flow"
+  },
+  {
+    "type": "Dependency",
+    "name1": "Свободное дерево",
+    "name2": "Забыть ориентацию",
+    "paragraph": "9.1_2",
+    "page": 1437,
+    "diagram": "ODM_9_1_2",
+    "source": "manual",
+    "predicate": "flow"
+  },
+  {
+    "type": "Aggregation",
+    "name1": "Свободное дерево",
+    "name2": "Лес",
+    "paragraph": "9.1_2",
+    "page": 1437,
+    "diagram": "ODM_9_1_2",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Упорядоченное дерево",
+    "name2": "Ориентированное дерево",
+    "paragraph": "9.1_2",
+    "page": 1437,
+    "diagram": "ODM_9_1_2",
+    "source": "manual"
+  },
+  {
+    "type": "Dependency",
+    "name1": "Упорядоченное дерево",
+    "name2": "Представление левый = сын правый = брат",
+    "paragraph": "9.1_2",
+    "page": 1437,
+    "diagram": "ODM_9_1_2",
+    "source": "manual",
+    "predicate": "flow"
+  }
+]

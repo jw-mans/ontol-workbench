@@ -1,0 +1,113 @@
+[
+  {
+    "type": "Inheritance",
+    "name1": "Базис",
+    "name2": "Линейно независимое",
+    "paragraph": "2.5",
+    "page": 477,
+    "diagram": "ODM2_5",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Базис",
+    "name2": "Порождающее",
+    "paragraph": "2.5",
+    "page": 477,
+    "diagram": "ODM2_5",
+    "source": "manual"
+  },
+  {
+    "type": "Composition",
+    "name1": "Вектор",
+    "name2": "Группа",
+    "paragraph": "2.5",
+    "page": 477,
+    "diagram": "ODM2_5",
+    "source": "manual"
+  },
+  {
+    "type": "Aggregation",
+    "name1": "Вектор",
+    "name2": "Линейная комбинация",
+    "paragraph": "2.5",
+    "page": 477,
+    "diagram": "ODM2_5",
+    "source": "manual"
+  },
+  {
+    "type": "Association",
+    "name1": "Вектор",
+    "name2": "Линейно независимое",
+    "paragraph": "2.5",
+    "page": 477,
+    "diagram": "ODM2_5",
+    "source": "manual",
+    "predicate": "множество"
+  },
+  {
+    "type": "Association",
+    "name1": "Вектор",
+    "name2": "Порождающее",
+    "paragraph": "2.5",
+    "page": 477,
+    "diagram": "ODM2_5",
+    "source": "manual",
+    "predicate": "множество"
+  },
+  {
+    "type": "Association",
+    "name1": "Векторное пространство",
+    "name2": "Базис",
+    "paragraph": "2.5",
+    "page": 477,
+    "diagram": "ODM2_5",
+    "source": "manual",
+    "predicate": "имеет"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Векторное пространство",
+    "name2": "Группа",
+    "paragraph": "2.5",
+    "page": 477,
+    "diagram": "ODM2_5",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Векторное пространство",
+    "name2": "Поле",
+    "paragraph": "2.5",
+    "page": 477,
+    "diagram": "ODM2_5",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Поле Галуа",
+    "name2": "Поле",
+    "paragraph": "2.5",
+    "page": 477,
+    "diagram": "ODM2_5",
+    "source": "manual"
+  },
+  {
+    "type": "Aggregation",
+    "name1": "Скаляр",
+    "name2": "Линейная комбинация",
+    "paragraph": "2.5",
+    "page": 477,
+    "diagram": "ODM2_5",
+    "source": "manual"
+  },
+  {
+    "type": "Composition",
+    "name1": "Скаляр",
+    "name2": "Поле",
+    "paragraph": "2.5",
+    "page": 477,
+    "diagram": "ODM2_5",
+    "source": "manual"
+  }
+]

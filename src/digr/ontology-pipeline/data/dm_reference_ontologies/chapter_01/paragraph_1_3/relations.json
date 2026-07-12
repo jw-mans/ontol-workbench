@@ -1,0 +1,47 @@
+[
+  {
+    "type": "Aggregation",
+    "name1": "Бит",
+    "name2": "Битовая шкала",
+    "page": 154,
+    "diagram": "definition_dependencies",
+    "paragraph": "1.3",
+    "source": "manual"
+  },
+  {
+    "type": "Manifest",
+    "name1": "Битовая шкала",
+    "name2": "Множество",
+    "page": 154,
+    "diagram": "definition_dependencies",
+    "paragraph": "1.3",
+    "source": "manual"
+  },
+  {
+    "type": "Manifest",
+    "name1": "Итератор",
+    "name2": "Множество",
+    "page": 154,
+    "diagram": "definition_dependencies",
+    "paragraph": "1.3",
+    "source": "manual"
+  },
+  {
+    "type": "Manifest",
+    "name1": "Односвязный список",
+    "name2": "Множество",
+    "page": 154,
+    "diagram": "definition_dependencies",
+    "paragraph": "1.3",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Упорядоченный список",
+    "name2": "Односвязный список",
+    "page": 154,
+    "diagram": "definition_dependencies",
+    "paragraph": "1.3",
+    "source": "manual"
+  }
+]

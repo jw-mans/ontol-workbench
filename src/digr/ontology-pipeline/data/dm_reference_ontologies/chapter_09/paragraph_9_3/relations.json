@@ -1,0 +1,108 @@
+[
+  {
+    "type": "Dependency",
+    "name1": "Бинарное дерево",
+    "name2": "Обход дерева",
+    "paragraph": "9.3",
+    "page": 1466,
+    "diagram": "ODM_9_1_3",
+    "source": "manual",
+    "predicate": "flow"
+  },
+  {
+    "type": "Dependency",
+    "name1": "Кодирование Прюфера",
+    "name2": "Массив целых",
+    "paragraph": "9.3",
+    "page": 1466,
+    "diagram": "ODM_9_1_3",
+    "source": "manual",
+    "predicate": "flow"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Левый обход",
+    "name2": "Обход дерева",
+    "paragraph": "9.3",
+    "page": 1466,
+    "diagram": "ODM_9_1_3",
+    "source": "manual"
+  },
+  {
+    "type": "Dependency",
+    "name1": "Обход дерева",
+    "name2": "Список списков",
+    "paragraph": "9.3",
+    "page": 1466,
+    "diagram": "ODM_9_1_3",
+    "source": "manual",
+    "predicate": "flow"
+  },
+  {
+    "type": "Dependency",
+    "name1": "Обход дерева",
+    "name2": "Строка символов",
+    "paragraph": "9.3",
+    "page": 1466,
+    "diagram": "ODM_9_1_3",
+    "source": "manual",
+    "predicate": "flow"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Обход по уровням",
+    "name2": "Обход дерева",
+    "paragraph": "9.3",
+    "page": 1466,
+    "diagram": "ODM_9_1_3",
+    "source": "manual"
+  },
+  {
+    "type": "Dependency",
+    "name1": "Поиск в глубину",
+    "name2": "Битовая шкала",
+    "paragraph": "9.3",
+    "page": 1466,
+    "diagram": "ODM_9_1_3",
+    "source": "manual",
+    "predicate": "flow"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Правый обход",
+    "name2": "Обход дерева",
+    "paragraph": "9.3",
+    "page": 1466,
+    "diagram": "ODM_9_1_3",
+    "source": "manual"
+  },
+  {
+    "type": "Dependency",
+    "name1": "Свободное дерево",
+    "name2": "Кодирование Прюфера",
+    "paragraph": "9.3",
+    "page": 1466,
+    "diagram": "ODM_9_1_3",
+    "source": "manual",
+    "predicate": "flow"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Симметричный обход",
+    "name2": "Обход дерева",
+    "paragraph": "9.3",
+    "page": 1466,
+    "diagram": "ODM_9_1_3",
+    "source": "manual"
+  },
+  {
+    "type": "Dependency",
+    "name1": "Упорядоченное дерево",
+    "name2": "Поиск в глубину",
+    "paragraph": "9.3",
+    "page": 1466,
+    "diagram": "ODM_9_1_3",
+    "source": "manual",
+    "predicate": "flow"
+  }
+]

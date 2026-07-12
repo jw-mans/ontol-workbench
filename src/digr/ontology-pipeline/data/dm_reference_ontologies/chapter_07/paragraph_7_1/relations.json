@@ -1,0 +1,204 @@
+[
+  {
+    "type": "Aggregation",
+    "name1": "Булеан",
+    "name2": "Подмножество",
+    "paragraph": "7.1",
+    "page": 1180,
+    "diagram": "ODM7_1",
+    "source": "manual"
+  },
+  {
+    "type": "Association",
+    "name1": "Вершина",
+    "name2": "Вершина",
+    "paragraph": "7.1",
+    "page": 1180,
+    "diagram": "ODM7_1",
+    "source": "manual",
+    "predicate": "смежна с"
+  },
+  {
+    "type": "Composition",
+    "name1": "Вершина",
+    "name2": "Граф",
+    "paragraph": "7.1",
+    "page": 1180,
+    "diagram": "ODM7_1",
+    "source": "manual"
+  },
+  {
+    "type": "Association",
+    "name1": "Вершина",
+    "name2": "Ребро",
+    "paragraph": "7.1",
+    "page": 1180,
+    "diagram": "ODM7_1",
+    "source": "manual",
+    "predicate": "инцидентна"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Гиперграф",
+    "name2": "Граф",
+    "paragraph": "7.1",
+    "page": 1180,
+    "diagram": "ODM7_1",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Гипердуга",
+    "name2": "Дуга",
+    "paragraph": "7.1",
+    "page": 1180,
+    "diagram": "ODM7_1",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Гиперорграф",
+    "name2": "Орграф",
+    "paragraph": "7.1",
+    "page": 1180,
+    "diagram": "ODM7_1",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Гиперребро",
+    "name2": "Ребро",
+    "paragraph": "7.1",
+    "page": 1180,
+    "diagram": "ODM7_1",
+    "source": "manual"
+  },
+  {
+    "type": "Aggregation",
+    "name1": "Двухэлементное множество",
+    "name2": "Ребро",
+    "paragraph": "7.1",
+    "page": 1180,
+    "diagram": "ODM7_1",
+    "source": "manual"
+  },
+  {
+    "type": "Composition",
+    "name1": "Дуга",
+    "name2": "Орграф",
+    "paragraph": "7.1",
+    "page": 1180,
+    "diagram": "ODM7_1",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Кратное ребро",
+    "name2": "Ребро",
+    "paragraph": "7.1",
+    "page": 1180,
+    "diagram": "ODM7_1",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Мультиграф",
+    "name2": "Граф",
+    "paragraph": "7.1",
+    "page": 1180,
+    "diagram": "ODM7_1",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Орграф",
+    "name2": "Граф",
+    "paragraph": "7.1",
+    "page": 1180,
+    "diagram": "ODM7_1",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Петля",
+    "name2": "Ребро",
+    "paragraph": "7.1",
+    "page": 1180,
+    "diagram": "ODM7_1",
+    "source": "manual"
+  },
+  {
+    "type": "Aggregation",
+    "name1": "Подмножество",
+    "name2": "Гиперребро",
+    "paragraph": "7.1",
+    "page": 1180,
+    "diagram": "ODM7_1",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Псевдограф",
+    "name2": "Граф",
+    "paragraph": "7.1",
+    "page": 1180,
+    "diagram": "ODM7_1",
+    "source": "manual"
+  },
+  {
+    "type": "Composition",
+    "name1": "Ребро",
+    "name2": "Граф",
+    "paragraph": "7.1",
+    "page": 1180,
+    "diagram": "ODM7_1",
+    "source": "manual"
+  },
+  {
+    "type": "Association",
+    "name1": "Узел",
+    "name2": "Дуга",
+    "paragraph": "7.1",
+    "page": 1180,
+    "diagram": "ODM7_1",
+    "source": "manual",
+    "predicate": "входящая в"
+  },
+  {
+    "type": "Association",
+    "name1": "Узел",
+    "name2": "Дуга",
+    "paragraph": "7.1",
+    "page": 1180,
+    "diagram": "ODM7_1",
+    "source": "manual",
+    "predicate": "исходящая из"
+  },
+  {
+    "type": "Composition",
+    "name1": "Узел",
+    "name2": "Орграф",
+    "paragraph": "7.1",
+    "page": 1180,
+    "diagram": "ODM7_1",
+    "source": "manual"
+  },
+  {
+    "type": "Aggregation",
+    "name1": "Упорядоченная пара",
+    "name2": "Дуга",
+    "paragraph": "7.1",
+    "page": 1180,
+    "diagram": "ODM7_1",
+    "source": "manual"
+  },
+  {
+    "type": "Aggregation",
+    "name1": "Элемент",
+    "name2": "Вершина",
+    "paragraph": "7.1",
+    "page": 1180,
+    "diagram": "ODM7_1",
+    "source": "manual"
+  }
+]

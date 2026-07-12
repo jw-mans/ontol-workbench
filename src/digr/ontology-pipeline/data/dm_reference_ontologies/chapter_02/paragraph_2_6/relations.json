@@ -1,0 +1,119 @@
+[
+  {
+    "type": "Inheritance",
+    "name1": "Булева алгебра",
+    "name2": "Дистрибутивная",
+    "paragraph": "2.6",
+    "page": 495,
+    "diagram": "ODM2_6",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Булева алгебра",
+    "name2": "Решётка",
+    "paragraph": "2.6",
+    "page": 495,
+    "diagram": "ODM2_6",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Булева алгебра",
+    "name2": "С дополнением",
+    "paragraph": "2.6",
+    "page": 495,
+    "diagram": "ODM2_6",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Дистрибутивная",
+    "name2": "Решётка",
+    "paragraph": "2.6",
+    "page": 495,
+    "diagram": "ODM2_6",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Ограниченная",
+    "name2": "Ограниченная сверху",
+    "paragraph": "2.6",
+    "page": 495,
+    "diagram": "ODM2_6",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Ограниченная",
+    "name2": "Ограниченная снизу",
+    "paragraph": "2.6",
+    "page": 495,
+    "diagram": "ODM2_6",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Ограниченная",
+    "name2": "Решётка",
+    "paragraph": "2.6",
+    "page": 495,
+    "diagram": "ODM2_6",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Ограниченная сверху",
+    "name2": "Решётка",
+    "paragraph": "2.6",
+    "page": 495,
+    "diagram": "ODM2_6",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Ограниченная снизу",
+    "name2": "Решётка",
+    "paragraph": "2.6",
+    "page": 495,
+    "diagram": "ODM2_6",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Полная решётка",
+    "name2": "Решётка",
+    "paragraph": "2.6",
+    "page": 495,
+    "diagram": "ODM2_6",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Полурешётка",
+    "name2": "Решётка",
+    "paragraph": "2.6",
+    "page": 495,
+    "diagram": "ODM2_6",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Полурешётка",
+    "name2": "Частичный порядок",
+    "paragraph": "2.6",
+    "page": 495,
+    "diagram": "ODM2_6",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "С дополнением",
+    "name2": "Решётка",
+    "paragraph": "2.6",
+    "page": 495,
+    "diagram": "ODM2_6",
+    "source": "manual"
+  }
+]

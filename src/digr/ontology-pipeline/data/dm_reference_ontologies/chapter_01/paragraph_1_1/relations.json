@@ -1,0 +1,149 @@
+[
+  {
+    "type": "Inheritance",
+    "name1": "Алфавит",
+    "name2": "Множество конечное",
+    "page": 71,
+    "diagram": "structure",
+    "paragraph": "1.1",
+    "source": "manual"
+  },
+  {
+    "type": "Aggregation",
+    "name1": "Буква",
+    "name2": "Алфавит",
+    "page": 71,
+    "diagram": "structure",
+    "paragraph": "1.1",
+    "source": "manual"
+  },
+  {
+    "type": "Aggregation",
+    "name1": "Буква",
+    "name2": "Слово",
+    "page": 71,
+    "diagram": "structure",
+    "paragraph": "1.1",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Множество",
+    "name2": "Мультимножество",
+    "page": 71,
+    "diagram": "structure",
+    "paragraph": "1.1",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Множество",
+    "name2": "Элемент множества",
+    "page": 71,
+    "diagram": "structure",
+    "paragraph": "1.1",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Множество бесконечное",
+    "name2": "Множество",
+    "page": 71,
+    "diagram": "structure",
+    "paragraph": "1.1",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Множество конечное",
+    "name2": "Множество",
+    "page": 71,
+    "diagram": "structure",
+    "paragraph": "1.1",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Множество несчётное",
+    "name2": "Множество бесконечное",
+    "page": 71,
+    "diagram": "structure",
+    "paragraph": "1.1",
+    "source": "manual"
+  },
+  {
+    "type": "Instance",
+    "name1": "Множество пустое",
+    "name2": "Множество конечное",
+    "page": 71,
+    "diagram": "structure",
+    "paragraph": "1.1",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Мультимножество",
+    "name2": "Последовательность",
+    "page": 71,
+    "diagram": "structure",
+    "paragraph": "1.1",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Последовательность",
+    "name2": "Упорядоченность",
+    "page": 71,
+    "diagram": "structure",
+    "paragraph": "1.1",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Семейство множеств",
+    "name2": "Множество",
+    "page": 71,
+    "diagram": "structure",
+    "paragraph": "1.1",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Слово",
+    "name2": "Последовательность",
+    "page": 71,
+    "diagram": "structure",
+    "paragraph": "1.1",
+    "source": "manual"
+  },
+  {
+    "type": "Aggregation",
+    "name1": "Слово",
+    "name2": "Язык",
+    "page": 71,
+    "diagram": "structure",
+    "paragraph": "1.1",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Счётное множество",
+    "name2": "Множество бесконечное",
+    "page": 71,
+    "diagram": "structure",
+    "paragraph": "1.1",
+    "source": "manual"
+  },
+  {
+    "type": "Aggregation",
+    "name1": "Элемент множества",
+    "name2": "Множество",
+    "pole1": {
+      "multiplicity": "*"
+    },
+    "page": 71,
+    "diagram": "structure",
+    "paragraph": "1.1",
+    "source": "manual"
+  }
+]

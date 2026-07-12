@@ -1,0 +1,95 @@
+[
+  {
+    "type": "Association",
+    "name1": "Комбинаторная конфигурация",
+    "name2": "Комбинаторное число",
+    "paragraph": "5.1",
+    "page": 847,
+    "diagram": "ODM5_1_1",
+    "source": "manual",
+    "predicate": "представляет число элементов"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Комбинаторное число",
+    "name2": "Ряд чисел",
+    "paragraph": "5.1",
+    "page": 847,
+    "diagram": "ODM5_1_1",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Комбинаторное число",
+    "name2": "Функция",
+    "paragraph": "5.1",
+    "page": 847,
+    "diagram": "ODM5_1_1",
+    "source": "manual"
+  },
+  {
+    "type": "Dependency",
+    "name1": "Правило произведения",
+    "name2": "Комбинаторное число",
+    "paragraph": "5.1",
+    "page": 847,
+    "diagram": "ODM5_1_1",
+    "source": "manual",
+    "predicate": "flow"
+  },
+  {
+    "type": "Dependency",
+    "name1": "Правило суммы",
+    "name2": "Комбинаторное число",
+    "paragraph": "5.1",
+    "page": 847,
+    "diagram": "ODM5_1_1",
+    "source": "manual",
+    "predicate": "flow"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Число перестановок P(n)",
+    "name2": "Комбинаторное число",
+    "paragraph": "5.1",
+    "page": 847,
+    "diagram": "ODM5_1_1",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Число размещений U(m,n)",
+    "name2": "Комбинаторное число",
+    "paragraph": "5.1",
+    "page": 847,
+    "diagram": "ODM5_1_1",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Число размещений без повторений A(m,n)",
+    "name2": "Комбинаторное число",
+    "paragraph": "5.1",
+    "page": 847,
+    "diagram": "ODM5_1_1",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Число сочетаний C(m,n)",
+    "name2": "Комбинаторное число",
+    "paragraph": "5.1",
+    "page": 847,
+    "diagram": "ODM5_1_1",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Число сочетаний с повторениями V(m,n)",
+    "name2": "Комбинаторное число",
+    "paragraph": "5.1",
+    "page": 847,
+    "diagram": "ODM5_1_1",
+    "source": "manual"
+  }
+]

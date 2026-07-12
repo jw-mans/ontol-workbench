@@ -1,0 +1,109 @@
+[
+  {
+    "type": "Dependency",
+    "name1": "Включения и исключения",
+    "name2": "Комбинаторное число",
+    "paragraph": "5.5_7",
+    "page": 1015,
+    "diagram": "ODM5_4",
+    "source": "manual",
+    "predicate": "flow"
+  },
+  {
+    "type": "Dependency",
+    "name1": "Комбинаторная конфигурация",
+    "name2": "Включения и исключения",
+    "paragraph": "5.5_7",
+    "page": 1015,
+    "diagram": "ODM5_4",
+    "source": "manual",
+    "predicate": "flow"
+  },
+  {
+    "type": "Dependency",
+    "name1": "Комбинаторное уравнение",
+    "name2": "Формулы обращения",
+    "paragraph": "5.5_7",
+    "page": 1015,
+    "diagram": "ODM5_4",
+    "source": "manual",
+    "predicate": "flow"
+  },
+  {
+    "type": "Dependency",
+    "name1": "Комбинации свойств",
+    "name2": "Комбинаторное число",
+    "paragraph": "5.5_7",
+    "page": 1015,
+    "diagram": "ODM5_4",
+    "source": "manual",
+    "predicate": "flow"
+  },
+  {
+    "type": "Dependency",
+    "name1": "Одноместные предикаты",
+    "name2": "Комбинации свойств",
+    "paragraph": "5.5_7",
+    "page": 1015,
+    "diagram": "ODM5_4",
+    "source": "manual",
+    "predicate": "flow"
+  },
+  {
+    "type": "Dependency",
+    "name1": "Производящие функции",
+    "name2": "Комбинаторное число",
+    "paragraph": "5.5_7",
+    "page": 1015,
+    "diagram": "ODM5_4",
+    "source": "manual",
+    "predicate": "flow"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Субфакториал",
+    "name2": "Комбинаторное число",
+    "paragraph": "5.5_7",
+    "page": 1015,
+    "diagram": "ODM5_4",
+    "source": "manual"
+  },
+  {
+    "type": "Dependency",
+    "name1": "Формальный ряд",
+    "name2": "Производящие функции",
+    "paragraph": "5.5_7",
+    "page": 1015,
+    "diagram": "ODM5_4",
+    "source": "manual",
+    "predicate": "flow"
+  },
+  {
+    "type": "Dependency",
+    "name1": "Формулы обращения",
+    "name2": "Комбинаторное число",
+    "paragraph": "5.5_7",
+    "page": 1015,
+    "diagram": "ODM5_4",
+    "source": "manual",
+    "predicate": "flow"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Число Каталана",
+    "name2": "Комбинаторное число",
+    "paragraph": "5.5_7",
+    "page": 1015,
+    "diagram": "ODM5_4",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Число Фибоначчи",
+    "name2": "Комбинаторное число",
+    "paragraph": "5.5_7",
+    "page": 1015,
+    "diagram": "ODM5_4",
+    "source": "manual"
+  }
+]

@@ -1,0 +1,213 @@
+[
+  {
+    "type": "Inheritance",
+    "name1": "Автоморфизм",
+    "name2": "Гомоморфизм",
+    "paragraph": "2.1",
+    "page": 351,
+    "diagram": "ODM2_1",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Алгебра",
+    "name2": "Модель",
+    "paragraph": "2.1",
+    "page": 351,
+    "diagram": "ODM2_1",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Ассоциативная",
+    "name2": "Операция",
+    "paragraph": "2.1",
+    "page": 351,
+    "diagram": "ODM2_1",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Гомоморфизм",
+    "name2": "Функция",
+    "paragraph": "2.1",
+    "page": 351,
+    "diagram": "ODM2_1",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Дистрибутивная",
+    "name2": "Операция",
+    "paragraph": "2.1",
+    "page": 351,
+    "diagram": "ODM2_1",
+    "source": "manual"
+  },
+  {
+    "type": "Dependency",
+    "name1": "Замыкание",
+    "name2": "Алгебра",
+    "paragraph": "2.1",
+    "page": 351,
+    "diagram": "ODM2_1",
+    "source": "manual",
+    "predicate": "flow"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Идемпотентная",
+    "name2": "Операция",
+    "paragraph": "2.1",
+    "page": 351,
+    "diagram": "ODM2_1",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Изоморфизм",
+    "name2": "Гомоморфизм",
+    "paragraph": "2.1",
+    "page": 351,
+    "diagram": "ODM2_1",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Коммутативная",
+    "name2": "Операция",
+    "paragraph": "2.1",
+    "page": 351,
+    "diagram": "ODM2_1",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Конечно порождённая",
+    "name2": "Алгебра",
+    "paragraph": "2.1",
+    "page": 351,
+    "diagram": "ODM2_1",
+    "source": "manual"
+  },
+  {
+    "type": "Aggregation",
+    "name1": "Множество",
+    "name2": "Алгебра",
+    "paragraph": "2.1",
+    "page": 351,
+    "diagram": "ODM2_1",
+    "source": "manual",
+    "pole1": {
+      "name": "носитель"
+    }
+  },
+  {
+    "type": "Dependency",
+    "name1": "Множество",
+    "name2": "Замыкание",
+    "paragraph": "2.1",
+    "page": 351,
+    "diagram": "ODM2_1",
+    "source": "manual",
+    "predicate": "flow"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Мономорфизм",
+    "name2": "Гомоморфизм",
+    "paragraph": "2.1",
+    "page": 351,
+    "diagram": "ODM2_1",
+    "source": "manual"
+  },
+  {
+    "type": "Aggregation",
+    "name1": "Операция",
+    "name2": "Алгебра",
+    "paragraph": "2.1",
+    "page": 351,
+    "diagram": "ODM2_1",
+    "source": "manual",
+    "pole1": {
+      "name": "сигнатура",
+      "multiplicity": "1..*"
+    }
+  },
+  {
+    "type": "Dependency",
+    "name1": "Операция",
+    "name2": "Замыкание",
+    "paragraph": "2.1",
+    "page": 351,
+    "diagram": "ODM2_1",
+    "source": "manual",
+    "predicate": "flow"
+  },
+  {
+    "type": "Association",
+    "name1": "Операция",
+    "name2": "Множество",
+    "paragraph": "2.1",
+    "page": 351,
+    "diagram": "ODM2_1",
+    "source": "manual",
+    "predicate": "из"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Операция",
+    "name2": "Функция",
+    "paragraph": "2.1",
+    "page": 351,
+    "diagram": "ODM2_1",
+    "source": "manual"
+  },
+  {
+    "type": "Aggregation",
+    "name1": "Отношение",
+    "name2": "Модель",
+    "paragraph": "2.1",
+    "page": 351,
+    "diagram": "ODM2_1",
+    "source": "manual",
+    "predicate": "c"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Поглощающая",
+    "name2": "Операция",
+    "paragraph": "2.1",
+    "page": 351,
+    "diagram": "ODM2_1",
+    "source": "manual"
+  },
+  {
+    "type": "Association",
+    "name1": "Функция",
+    "name2": "Множество",
+    "paragraph": "2.1",
+    "page": 351,
+    "diagram": "ODM2_1",
+    "source": "manual",
+    "predicate": "из"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Эндоморфизм",
+    "name2": "Гомоморфизм",
+    "paragraph": "2.1",
+    "page": 351,
+    "diagram": "ODM2_1",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Эпиморфизм",
+    "name2": "Гомоморфизм",
+    "paragraph": "2.1",
+    "page": 351,
+    "diagram": "ODM2_1",
+    "source": "manual"
+  }
+]

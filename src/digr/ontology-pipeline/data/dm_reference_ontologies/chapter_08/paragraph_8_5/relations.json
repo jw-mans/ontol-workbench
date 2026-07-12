@@ -1,0 +1,116 @@
+[
+  {
+    "type": "Inheritance",
+    "name1": "Базис",
+    "name2": "Порождающее множество узлов",
+    "paragraph": "8.5",
+    "page": 1364,
+    "diagram": "ODM_8_5",
+    "source": "manual"
+  },
+  {
+    "type": "Dependency",
+    "name1": "Выделение компонент сильной связности",
+    "name2": "Конденсация",
+    "paragraph": "8.5",
+    "page": 1364,
+    "diagram": "ODM_8_5",
+    "source": "manual",
+    "predicate": "flow"
+  },
+  {
+    "type": "Composition",
+    "name1": "Дуга",
+    "name2": "Орграф",
+    "paragraph": "8.5",
+    "page": 1364,
+    "diagram": "ODM_8_5",
+    "source": "manual"
+  },
+  {
+    "type": "Composition",
+    "name1": "Компонента сильной связности",
+    "name2": "Конденсация",
+    "paragraph": "8.5",
+    "page": 1364,
+    "diagram": "ODM_8_5",
+    "source": "manual"
+  },
+  {
+    "type": "Composition",
+    "name1": "Компонента сильной связности",
+    "name2": "Орграф",
+    "paragraph": "8.5",
+    "page": 1364,
+    "diagram": "ODM_8_5",
+    "source": "manual"
+  },
+  {
+    "type": "Association",
+    "name1": "Орграф",
+    "name2": "Базис",
+    "paragraph": "8.5",
+    "page": 1364,
+    "diagram": "ODM_8_5",
+    "source": "manual",
+    "predicate": "имеет"
+  },
+  {
+    "type": "Dependency",
+    "name1": "Орграф",
+    "name2": "Выделение компонент сильной связности",
+    "paragraph": "8.5",
+    "page": 1364,
+    "diagram": "ODM_8_5",
+    "source": "manual",
+    "predicate": "flow"
+  },
+  {
+    "type": "Composition",
+    "name1": "Узел",
+    "name2": "Орграф",
+    "paragraph": "8.5",
+    "page": 1364,
+    "diagram": "ODM_8_5",
+    "source": "manual"
+  },
+  {
+    "type": "Aggregation",
+    "name1": "Узел",
+    "name2": "Порождающее множество узлов",
+    "paragraph": "8.5",
+    "page": 1364,
+    "diagram": "ODM_8_5",
+    "source": "manual"
+  },
+  {
+    "type": "Association",
+    "name1": "Узел",
+    "name2": "Узел",
+    "paragraph": "8.5",
+    "page": 1364,
+    "diagram": "ODM_8_5",
+    "source": "manual",
+    "predicate": "односторонне связан"
+  },
+  {
+    "type": "Association",
+    "name1": "Узел",
+    "name2": "Узел",
+    "paragraph": "8.5",
+    "page": 1364,
+    "diagram": "ODM_8_5",
+    "source": "manual",
+    "predicate": "сильно связан"
+  },
+  {
+    "type": "Association",
+    "name1": "Узел",
+    "name2": "Узел",
+    "paragraph": "8.5",
+    "page": 1364,
+    "diagram": "ODM_8_5",
+    "source": "manual",
+    "predicate": "слабо связан"
+  }
+]

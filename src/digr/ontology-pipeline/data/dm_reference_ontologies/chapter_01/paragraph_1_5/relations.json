@@ -1,0 +1,56 @@
+[
+  {
+    "type": "Inheritance",
+    "name1": "Алгоритм Уоршалла",
+    "name2": "Замыкание отношения",
+    "page": 209,
+    "diagram": "closure_reduction",
+    "paragraph": "1.5",
+    "source": "manual"
+  },
+  {
+    "type": "Dependency",
+    "name1": "Диаграмма Хассе",
+    "name2": "Отношение бинарное",
+    "page": 209,
+    "diagram": "closure_reduction",
+    "paragraph": "1.5",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Замыкание отношения",
+    "name2": "Замыкание",
+    "page": 209,
+    "diagram": "closure_reduction",
+    "paragraph": "1.5",
+    "source": "manual"
+  },
+  {
+    "type": "Dependency",
+    "name1": "Замыкание отношения",
+    "name2": "Отношение бинарное",
+    "page": 209,
+    "diagram": "closure_reduction",
+    "paragraph": "1.5",
+    "source": "manual"
+  },
+  {
+    "type": "Dependency",
+    "name1": "Сокращение отношения транзитивное",
+    "name2": "Отношение бинарное",
+    "page": 209,
+    "diagram": "closure_reduction",
+    "paragraph": "1.5",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Сокращение отношения транзитивное",
+    "name2": "Редукция отношения",
+    "page": 209,
+    "diagram": "closure_reduction",
+    "paragraph": "1.5",
+    "source": "manual"
+  }
+]

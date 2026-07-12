@@ -1,0 +1,164 @@
+[
+  {
+    "type": "Inheritance",
+    "name1": "Нестрогий линейный порядок",
+    "name2": "Отношение порядка линейного",
+    "page": 263,
+    "diagram": "order_relations",
+    "paragraph": "1.8",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Нестрогий линейный порядок",
+    "name2": "Отношение рефлексивное",
+    "page": 263,
+    "diagram": "order_relations",
+    "paragraph": "1.8",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Нестрогий частичный порядок",
+    "name2": "Отношение порядка частичного",
+    "page": 263,
+    "diagram": "order_relations",
+    "paragraph": "1.8",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Нестрогий частичный порядок",
+    "name2": "Отношение рефлексивное",
+    "page": 263,
+    "diagram": "order_relations",
+    "paragraph": "1.8",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Отношение порядка",
+    "name2": "Отношение антисимметричное",
+    "page": 263,
+    "diagram": "order_relations",
+    "paragraph": "1.8",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Отношение порядка",
+    "name2": "Отношение транзитивное",
+    "page": 263,
+    "diagram": "order_relations",
+    "paragraph": "1.8",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Отношение порядка линейного",
+    "name2": "Отношение линейное",
+    "page": 263,
+    "diagram": "order_relations",
+    "paragraph": "1.8",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Отношение порядка линейного",
+    "name2": "Отношение порядка",
+    "page": 263,
+    "diagram": "order_relations",
+    "paragraph": "1.8",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Отношение порядка строгого",
+    "name2": "Отношение антирефлексивное",
+    "page": 263,
+    "diagram": "order_relations",
+    "paragraph": "1.8",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Отношение порядка строгого",
+    "name2": "Отношение транзитивное",
+    "page": 263,
+    "diagram": "order_relations",
+    "paragraph": "1.8",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Отношение порядка частичного",
+    "name2": "Отношение порядка",
+    "page": 263,
+    "diagram": "order_relations",
+    "paragraph": "1.8",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Отношение порядка частичного",
+    "name2": "Отношение частичное",
+    "page": 263,
+    "diagram": "order_relations",
+    "paragraph": "1.8",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Отношение предпорядка",
+    "name2": "Отношение рефлексивное",
+    "page": 263,
+    "diagram": "order_relations",
+    "paragraph": "1.8",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Отношение предпорядка",
+    "name2": "Отношение транзитивное",
+    "page": 263,
+    "diagram": "order_relations",
+    "paragraph": "1.8",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Отношение эквивалентности",
+    "name2": "Отношение предпорядка",
+    "page": 263,
+    "diagram": "order_relations",
+    "paragraph": "1.8",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Полный порядок",
+    "name2": "Отношение порядка линейного",
+    "page": 263,
+    "diagram": "order_relations",
+    "paragraph": "1.8",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Строгий линейный порядок",
+    "name2": "Отношение антирефлексивное",
+    "page": 263,
+    "diagram": "order_relations",
+    "paragraph": "1.8",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Строгий частичный порядок",
+    "name2": "Отношение антирефлексивное",
+    "page": 263,
+    "diagram": "order_relations",
+    "paragraph": "1.8",
+    "source": "manual"
+  }
+]

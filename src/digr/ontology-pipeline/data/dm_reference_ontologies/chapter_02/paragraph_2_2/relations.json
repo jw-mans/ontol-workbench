@@ -1,0 +1,47 @@
+[
+  {
+    "type": "Inheritance",
+    "name1": "Абелева",
+    "name2": "Группа",
+    "paragraph": "2.2",
+    "page": 390,
+    "diagram": "ODM2_2",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Группа",
+    "name2": "Моноид",
+    "paragraph": "2.2",
+    "page": 390,
+    "diagram": "ODM2_2",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Конечно порождённая",
+    "name2": "Полугруппа",
+    "paragraph": "2.2",
+    "page": 390,
+    "diagram": "ODM2_2",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Моноид",
+    "name2": "Полугруппа",
+    "paragraph": "2.2",
+    "page": 390,
+    "diagram": "ODM2_2",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Циклическая",
+    "name2": "Конечно порождённая",
+    "paragraph": "2.2",
+    "page": 390,
+    "diagram": "ODM2_2",
+    "source": "manual"
+  }
+]

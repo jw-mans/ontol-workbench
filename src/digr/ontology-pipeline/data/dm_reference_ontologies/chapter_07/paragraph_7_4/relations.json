@@ -1,0 +1,86 @@
+[
+  {
+    "type": "Association",
+    "name1": "Граф",
+    "name2": "Представление графа",
+    "paragraph": "7.4",
+    "page": 1251,
+    "diagram": "ODM7_4",
+    "source": "manual",
+    "predicate": "имеет"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Массив дуг",
+    "name2": "Представление графа",
+    "paragraph": "7.4",
+    "page": 1251,
+    "diagram": "ODM7_4",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Матрица инцидентности",
+    "name2": "Представление графа",
+    "paragraph": "7.4",
+    "page": 1251,
+    "diagram": "ODM7_4",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Матрица смежности",
+    "name2": "Представление графа",
+    "paragraph": "7.4",
+    "page": 1251,
+    "diagram": "ODM7_4",
+    "source": "manual"
+  },
+  {
+    "type": "Dependency",
+    "name1": "Обход графа",
+    "name2": "Перестановка",
+    "paragraph": "7.4",
+    "page": 1251,
+    "diagram": "ODM7_4",
+    "source": "manual",
+    "predicate": "flow"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Поиск в глубину",
+    "name2": "Обход графа",
+    "paragraph": "7.4",
+    "page": 1251,
+    "diagram": "ODM7_4",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Поиск в ширину",
+    "name2": "Обход графа",
+    "paragraph": "7.4",
+    "page": 1251,
+    "diagram": "ODM7_4",
+    "source": "manual"
+  },
+  {
+    "type": "Dependency",
+    "name1": "Представление графа",
+    "name2": "Обход графа",
+    "paragraph": "7.4",
+    "page": 1251,
+    "diagram": "ODM7_4",
+    "source": "manual",
+    "predicate": "flow"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Списки смежности",
+    "name2": "Представление графа",
+    "paragraph": "7.4",
+    "page": 1251,
+    "diagram": "ODM7_4",
+    "source": "manual"
+  }
+]

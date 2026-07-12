@@ -1,0 +1,4431 @@
+[
+  {
+    "type": "Inheritance",
+    "name1": "Автоморфизм",
+    "name2": "Гомоморфизм",
+    "paragraph": "2.1",
+    "page": 351,
+    "diagram": "ODM2_1",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Алгебра",
+    "name2": "Модель",
+    "paragraph": "2.1",
+    "page": 351,
+    "diagram": "ODM2_1",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Ассоциативная",
+    "name2": "Операция",
+    "paragraph": "2.1",
+    "page": 351,
+    "diagram": "ODM2_1",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Гомоморфизм",
+    "name2": "Функция",
+    "paragraph": "2.1",
+    "page": 351,
+    "diagram": "ODM2_1",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Дистрибутивная",
+    "name2": "Операция",
+    "paragraph": "2.1",
+    "page": 351,
+    "diagram": "ODM2_1",
+    "source": "manual"
+  },
+  {
+    "type": "Dependency",
+    "name1": "Замыкание",
+    "name2": "Алгебра",
+    "paragraph": "2.1",
+    "page": 351,
+    "diagram": "ODM2_1",
+    "source": "manual",
+    "predicate": "flow"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Идемпотентная",
+    "name2": "Операция",
+    "paragraph": "2.1",
+    "page": 351,
+    "diagram": "ODM2_1",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Изоморфизм",
+    "name2": "Гомоморфизм",
+    "paragraph": "2.1",
+    "page": 351,
+    "diagram": "ODM2_1",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Коммутативная",
+    "name2": "Операция",
+    "paragraph": "2.1",
+    "page": 351,
+    "diagram": "ODM2_1",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Конечно порождённая",
+    "name2": "Алгебра",
+    "paragraph": "2.1",
+    "page": 351,
+    "diagram": "ODM2_1",
+    "source": "manual"
+  },
+  {
+    "type": "Aggregation",
+    "name1": "Множество",
+    "name2": "Алгебра",
+    "paragraph": "2.1",
+    "page": 351,
+    "diagram": "ODM2_1",
+    "source": "manual",
+    "pole1": {
+      "name": "носитель"
+    }
+  },
+  {
+    "type": "Dependency",
+    "name1": "Множество",
+    "name2": "Замыкание",
+    "paragraph": "2.1",
+    "page": 351,
+    "diagram": "ODM2_1",
+    "source": "manual",
+    "predicate": "flow"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Мономорфизм",
+    "name2": "Гомоморфизм",
+    "paragraph": "2.1",
+    "page": 351,
+    "diagram": "ODM2_1",
+    "source": "manual"
+  },
+  {
+    "type": "Aggregation",
+    "name1": "Операция",
+    "name2": "Алгебра",
+    "paragraph": "2.1",
+    "page": 351,
+    "diagram": "ODM2_1",
+    "source": "manual",
+    "pole1": {
+      "name": "сигнатура",
+      "multiplicity": "1..*"
+    }
+  },
+  {
+    "type": "Dependency",
+    "name1": "Операция",
+    "name2": "Замыкание",
+    "paragraph": "2.1",
+    "page": 351,
+    "diagram": "ODM2_1",
+    "source": "manual",
+    "predicate": "flow"
+  },
+  {
+    "type": "Association",
+    "name1": "Операция",
+    "name2": "Множество",
+    "paragraph": "2.1",
+    "page": 351,
+    "diagram": "ODM2_1",
+    "source": "manual",
+    "predicate": "из"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Операция",
+    "name2": "Функция",
+    "paragraph": "2.1",
+    "page": 351,
+    "diagram": "ODM2_1",
+    "source": "manual"
+  },
+  {
+    "type": "Aggregation",
+    "name1": "Отношение",
+    "name2": "Модель",
+    "paragraph": "2.1",
+    "page": 351,
+    "diagram": "ODM2_1",
+    "source": "manual",
+    "predicate": "c"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Поглощающая",
+    "name2": "Операция",
+    "paragraph": "2.1",
+    "page": 351,
+    "diagram": "ODM2_1",
+    "source": "manual"
+  },
+  {
+    "type": "Association",
+    "name1": "Функция",
+    "name2": "Множество",
+    "paragraph": "2.1",
+    "page": 351,
+    "diagram": "ODM2_1",
+    "source": "manual",
+    "predicate": "из"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Эндоморфизм",
+    "name2": "Гомоморфизм",
+    "paragraph": "2.1",
+    "page": 351,
+    "diagram": "ODM2_1",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Эпиморфизм",
+    "name2": "Гомоморфизм",
+    "paragraph": "2.1",
+    "page": 351,
+    "diagram": "ODM2_1",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Абелева",
+    "name2": "Группа",
+    "paragraph": "2.2",
+    "page": 390,
+    "diagram": "ODM2_2",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Группа",
+    "name2": "Моноид",
+    "paragraph": "2.2",
+    "page": 390,
+    "diagram": "ODM2_2",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Конечно порождённая",
+    "name2": "Полугруппа",
+    "paragraph": "2.2",
+    "page": 390,
+    "diagram": "ODM2_2",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Моноид",
+    "name2": "Полугруппа",
+    "paragraph": "2.2",
+    "page": 390,
+    "diagram": "ODM2_2",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Циклическая",
+    "name2": "Конечно порождённая",
+    "paragraph": "2.2",
+    "page": 390,
+    "diagram": "ODM2_2",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Коммутативное",
+    "name2": "Кольцо",
+    "paragraph": "2.3",
+    "page": 405,
+    "diagram": "ODM2_3",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Область целостности",
+    "name2": "Кольцо",
+    "paragraph": "2.3",
+    "page": 405,
+    "diagram": "ODM2_3",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Поле",
+    "name2": "Область целостности",
+    "paragraph": "2.3",
+    "page": 405,
+    "diagram": "ODM2_3",
+    "source": "manual"
+  },
+  {
+    "type": "Instance",
+    "name1": "1",
+    "name2": "Натуральное число",
+    "paragraph": "2.4",
+    "page": 449,
+    "diagram": "ODM2_4",
+    "source": "manual"
+  },
+  {
+    "type": "Dependency",
+    "name1": "Алгоритм Евклида",
+    "name2": "Наибольший общий делитель",
+    "paragraph": "2.4",
+    "page": 449,
+    "diagram": "ODM2_4",
+    "source": "manual",
+    "predicate": "flow"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Взаимная простота",
+    "name2": "Строгая толерантность",
+    "paragraph": "2.4",
+    "page": 449,
+    "diagram": "ODM2_4",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Вычет",
+    "name2": "Сравнение",
+    "paragraph": "2.4",
+    "page": 449,
+    "diagram": "ODM2_4",
+    "source": "manual"
+  },
+  {
+    "type": "Dependency",
+    "name1": "Вычисления в остаточных классах",
+    "name2": "Отношение эквивалентности",
+    "paragraph": "2.4",
+    "page": 449,
+    "diagram": "ODM2_4",
+    "source": "manual",
+    "predicate": "flow"
+  },
+  {
+    "type": "Dependency",
+    "name1": "Деление вычитанием",
+    "name2": "Деление с остатком",
+    "paragraph": "2.4",
+    "page": 449,
+    "diagram": "ODM2_4",
+    "source": "manual",
+    "predicate": "flow"
+  },
+  {
+    "type": "Dependency",
+    "name1": "Деление с остатком",
+    "name2": "Натуральное число",
+    "paragraph": "2.4",
+    "page": 449,
+    "diagram": "ODM2_4",
+    "source": "manual",
+    "predicate": "flow"
+  },
+  {
+    "type": "Dependency",
+    "name1": "Наибольший общий делитель",
+    "name2": "Натуральное число",
+    "paragraph": "2.4",
+    "page": 449,
+    "diagram": "ODM2_4",
+    "source": "manual",
+    "predicate": "flow"
+  },
+  {
+    "type": "Dependency",
+    "name1": "Наименьшее общее кратное",
+    "name2": "Натуральное число",
+    "paragraph": "2.4",
+    "page": 449,
+    "diagram": "ODM2_4",
+    "source": "manual",
+    "predicate": "flow"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Простое число",
+    "name2": "Натуральное число",
+    "paragraph": "2.4",
+    "page": 449,
+    "diagram": "ODM2_4",
+    "source": "manual"
+  },
+  {
+    "type": "Dependency",
+    "name1": "Разложение на множители",
+    "name2": "Составное число",
+    "paragraph": "2.4",
+    "page": 449,
+    "diagram": "ODM2_4",
+    "source": "manual",
+    "predicate": "flow"
+  },
+  {
+    "type": "Dependency",
+    "name1": "Решето Эратосфена",
+    "name2": "Простое число",
+    "paragraph": "2.4",
+    "page": 449,
+    "diagram": "ODM2_4",
+    "source": "manual",
+    "predicate": "flow"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Составное число",
+    "name2": "Натуральное число",
+    "paragraph": "2.4",
+    "page": 449,
+    "diagram": "ODM2_4",
+    "source": "manual"
+  },
+  {
+    "type": "Association",
+    "name1": "Сравнение",
+    "name2": "Натуральное число",
+    "paragraph": "2.4",
+    "page": 449,
+    "diagram": "ODM2_4",
+    "source": "manual",
+    "predicate": "a = b mod m"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Сравнение",
+    "name2": "Отношение эквивалентности",
+    "paragraph": "2.4",
+    "page": 449,
+    "diagram": "ODM2_4",
+    "source": "manual"
+  },
+  {
+    "type": "Dependency",
+    "name1": "Функция Эйлера",
+    "name2": "Натуральное число",
+    "paragraph": "2.4",
+    "page": 449,
+    "diagram": "ODM2_4",
+    "source": "manual",
+    "predicate": "flow"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Базис",
+    "name2": "Линейно независимое",
+    "paragraph": "2.5",
+    "page": 477,
+    "diagram": "ODM2_5",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Базис",
+    "name2": "Порождающее",
+    "paragraph": "2.5",
+    "page": 477,
+    "diagram": "ODM2_5",
+    "source": "manual"
+  },
+  {
+    "type": "Composition",
+    "name1": "Вектор",
+    "name2": "Группа",
+    "paragraph": "2.5",
+    "page": 477,
+    "diagram": "ODM2_5",
+    "source": "manual"
+  },
+  {
+    "type": "Aggregation",
+    "name1": "Вектор",
+    "name2": "Линейная комбинация",
+    "paragraph": "2.5",
+    "page": 477,
+    "diagram": "ODM2_5",
+    "source": "manual"
+  },
+  {
+    "type": "Association",
+    "name1": "Вектор",
+    "name2": "Линейно независимое",
+    "paragraph": "2.5",
+    "page": 477,
+    "diagram": "ODM2_5",
+    "source": "manual",
+    "predicate": "множество"
+  },
+  {
+    "type": "Association",
+    "name1": "Вектор",
+    "name2": "Порождающее",
+    "paragraph": "2.5",
+    "page": 477,
+    "diagram": "ODM2_5",
+    "source": "manual",
+    "predicate": "множество"
+  },
+  {
+    "type": "Association",
+    "name1": "Векторное пространство",
+    "name2": "Базис",
+    "paragraph": "2.5",
+    "page": 477,
+    "diagram": "ODM2_5",
+    "source": "manual",
+    "predicate": "имеет"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Векторное пространство",
+    "name2": "Группа",
+    "paragraph": "2.5",
+    "page": 477,
+    "diagram": "ODM2_5",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Векторное пространство",
+    "name2": "Поле",
+    "paragraph": "2.5",
+    "page": 477,
+    "diagram": "ODM2_5",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Поле Галуа",
+    "name2": "Поле",
+    "paragraph": "2.5",
+    "page": 477,
+    "diagram": "ODM2_5",
+    "source": "manual"
+  },
+  {
+    "type": "Aggregation",
+    "name1": "Скаляр",
+    "name2": "Линейная комбинация",
+    "paragraph": "2.5",
+    "page": 477,
+    "diagram": "ODM2_5",
+    "source": "manual"
+  },
+  {
+    "type": "Composition",
+    "name1": "Скаляр",
+    "name2": "Поле",
+    "paragraph": "2.5",
+    "page": 477,
+    "diagram": "ODM2_5",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Булева алгебра",
+    "name2": "Дистрибутивная",
+    "paragraph": "2.6",
+    "page": 495,
+    "diagram": "ODM2_6",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Булева алгебра",
+    "name2": "Решётка",
+    "paragraph": "2.6",
+    "page": 495,
+    "diagram": "ODM2_6",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Булева алгебра",
+    "name2": "С дополнением",
+    "paragraph": "2.6",
+    "page": 495,
+    "diagram": "ODM2_6",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Дистрибутивная",
+    "name2": "Решётка",
+    "paragraph": "2.6",
+    "page": 495,
+    "diagram": "ODM2_6",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Ограниченная сверху",
+    "name2": "Решётка",
+    "paragraph": "2.6",
+    "page": 495,
+    "diagram": "ODM2_6",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Ограниченная снизу",
+    "name2": "Решётка",
+    "paragraph": "2.6",
+    "page": 495,
+    "diagram": "ODM2_6",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Ограниченная",
+    "name2": "Ограниченная сверху",
+    "paragraph": "2.6",
+    "page": 495,
+    "diagram": "ODM2_6",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Ограниченная",
+    "name2": "Ограниченная снизу",
+    "paragraph": "2.6",
+    "page": 495,
+    "diagram": "ODM2_6",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Ограниченная",
+    "name2": "Решётка",
+    "paragraph": "2.6",
+    "page": 495,
+    "diagram": "ODM2_6",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Полная решётка",
+    "name2": "Решётка",
+    "paragraph": "2.6",
+    "page": 495,
+    "diagram": "ODM2_6",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Полурешётка",
+    "name2": "Решётка",
+    "paragraph": "2.6",
+    "page": 495,
+    "diagram": "ODM2_6",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Полурешётка",
+    "name2": "Частичный порядок",
+    "paragraph": "2.6",
+    "page": 495,
+    "diagram": "ODM2_6",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "С дополнением",
+    "name2": "Решётка",
+    "paragraph": "2.6",
+    "page": 495,
+    "diagram": "ODM2_6",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Булева функция",
+    "name2": "Функция",
+    "paragraph": "3.1_4",
+    "page": 588,
+    "diagram": "ODM3_1",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Дизъюнктивная форма",
+    "name2": "Формула",
+    "paragraph": "3.1_4",
+    "page": 588,
+    "diagram": "ODM3_1",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Конъюнктивная форма",
+    "name2": "Формула",
+    "paragraph": "3.1_4",
+    "page": 588,
+    "diagram": "ODM3_1",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Минимальная",
+    "name2": "Сокращенная",
+    "paragraph": "3.1_4",
+    "page": 588,
+    "diagram": "ODM3_1",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Минимальный терм",
+    "name2": "Формула",
+    "paragraph": "3.1_4",
+    "page": 588,
+    "diagram": "ODM3_1",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "СДНФ",
+    "name2": "Дизъюнктивная форма",
+    "paragraph": "3.1_4",
+    "page": 588,
+    "diagram": "ODM3_1",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "СКНФ",
+    "name2": "Конъюнктивная форма",
+    "paragraph": "3.1_4",
+    "page": 588,
+    "diagram": "ODM3_1",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Самодвойственная",
+    "name2": "Булева функция",
+    "paragraph": "3.1_4",
+    "page": 588,
+    "diagram": "ODM3_1",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Симметрическая",
+    "name2": "Булева функция",
+    "paragraph": "3.1_4",
+    "page": 588,
+    "diagram": "ODM3_1",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Сокращенная",
+    "name2": "Дизъюнктивная форма",
+    "paragraph": "3.1_4",
+    "page": 588,
+    "diagram": "ODM3_1",
+    "source": "manual"
+  },
+  {
+    "type": "Association",
+    "name1": "Формула",
+    "name2": "Булева функция",
+    "paragraph": "3.1_4",
+    "page": 588,
+    "diagram": "ODM3_1",
+    "source": "manual",
+    "predicate": "реализует",
+    "predicateInv": "реализуется"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Функция k-значной логики",
+    "name2": "Функция",
+    "paragraph": "3.1_4",
+    "page": 588,
+    "diagram": "ODM3_1",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Элементарная",
+    "name2": "Булева функция",
+    "paragraph": "3.1_4",
+    "page": 588,
+    "diagram": "ODM3_1",
+    "source": "manual"
+  },
+  {
+    "type": "Association",
+    "name1": "Арифметический полином",
+    "name2": "Булева функция",
+    "paragraph": "3.5",
+    "page": 634,
+    "diagram": "ODM3_2",
+    "source": "manual",
+    "predicate": "представляет",
+    "predicateInv": "представляется"
+  },
+  {
+    "type": "Association",
+    "name1": "Двоичное дерево",
+    "name2": "Булева функция",
+    "paragraph": "3.5",
+    "page": 634,
+    "diagram": "ODM3_2",
+    "source": "manual",
+    "predicate": "представляет",
+    "predicateInv": "представляется"
+  },
+  {
+    "type": "Association",
+    "name1": "Диаграмма решений",
+    "name2": "Булева функция",
+    "paragraph": "3.5",
+    "page": 634,
+    "diagram": "ODM3_2",
+    "source": "manual",
+    "predicate": "представляет",
+    "predicateInv": "представляется"
+  },
+  {
+    "type": "Association",
+    "name1": "Единичный гиперкуб",
+    "name2": "Булева функция",
+    "paragraph": "3.5",
+    "page": 634,
+    "diagram": "ODM3_2",
+    "source": "manual",
+    "predicate": "представляет",
+    "predicateInv": "представляется"
+  },
+  {
+    "type": "Association",
+    "name1": "Карта Карно",
+    "name2": "Булева функция",
+    "paragraph": "3.5",
+    "page": 634,
+    "diagram": "ODM3_2",
+    "source": "manual",
+    "predicate": "представляет",
+    "predicateInv": "представляется"
+  },
+  {
+    "type": "Association",
+    "name1": "Таблица истинности",
+    "name2": "Булева функция",
+    "paragraph": "3.5",
+    "page": 634,
+    "diagram": "ODM3_2",
+    "source": "manual",
+    "predicate": "представляет",
+    "predicateInv": "представляется"
+  },
+  {
+    "type": "Association",
+    "name1": "Формула",
+    "name2": "Булева функция",
+    "paragraph": "3.5",
+    "page": 634,
+    "diagram": "ODM3_2",
+    "source": "manual",
+    "predicate": "реализует",
+    "predicateInv": "реализуется"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Всеобщности",
+    "name2": "Квантор",
+    "paragraph": "4.1",
+    "page": 675,
+    "diagram": "ODM4_1",
+    "source": "manual"
+  },
+  {
+    "type": "Dependency",
+    "name1": "Высказывание",
+    "name2": "Формализация",
+    "paragraph": "4.1",
+    "page": 675,
+    "diagram": "ODM4_1",
+    "source": "manual",
+    "predicate": "flow"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Дизъюнкция",
+    "name2": "Связка",
+    "paragraph": "4.1",
+    "page": 675,
+    "diagram": "ODM4_1",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Импликация",
+    "name2": "Связка",
+    "paragraph": "4.1",
+    "page": 675,
+    "diagram": "ODM4_1",
+    "source": "manual"
+  },
+  {
+    "type": "Dependency",
+    "name1": "Интерпретация",
+    "name2": "Константа",
+    "paragraph": "4.1",
+    "page": 675,
+    "diagram": "ODM4_1",
+    "source": "manual",
+    "predicate": "flow"
+  },
+  {
+    "type": "Aggregation",
+    "name1": "Квантор",
+    "name2": "Формула",
+    "paragraph": "4.1",
+    "page": 675,
+    "diagram": "ODM4_1",
+    "source": "manual"
+  },
+  {
+    "type": "Aggregation",
+    "name1": "Константа",
+    "name2": "Формула",
+    "paragraph": "4.1",
+    "page": 675,
+    "diagram": "ODM4_1",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Конъюнкция",
+    "name2": "Связка",
+    "paragraph": "4.1",
+    "page": 675,
+    "diagram": "ODM4_1",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Отрицание",
+    "name2": "Связка",
+    "paragraph": "4.1",
+    "page": 675,
+    "diagram": "ODM4_1",
+    "source": "manual"
+  },
+  {
+    "type": "Association",
+    "name1": "Переменная",
+    "name2": "Квантор",
+    "paragraph": "4.1",
+    "page": 675,
+    "diagram": "ODM4_1",
+    "source": "manual",
+    "predicate": "связана"
+  },
+  {
+    "type": "Aggregation",
+    "name1": "Переменная",
+    "name2": "Формула",
+    "paragraph": "4.1",
+    "page": 675,
+    "diagram": "ODM4_1",
+    "source": "manual"
+  },
+  {
+    "type": "Aggregation",
+    "name1": "Предикат",
+    "name2": "Формула",
+    "paragraph": "4.1",
+    "page": 675,
+    "diagram": "ODM4_1",
+    "source": "manual"
+  },
+  {
+    "type": "Aggregation",
+    "name1": "Связка",
+    "name2": "Формула",
+    "paragraph": "4.1",
+    "page": 675,
+    "diagram": "ODM4_1",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Существования",
+    "name2": "Квантор",
+    "paragraph": "4.1",
+    "page": 675,
+    "diagram": "ODM4_1",
+    "source": "manual"
+  },
+  {
+    "type": "Dependency",
+    "name1": "Формализация",
+    "name2": "Формула",
+    "paragraph": "4.1",
+    "page": 675,
+    "diagram": "ODM4_1",
+    "source": "manual",
+    "predicate": "flow"
+  },
+  {
+    "type": "Dependency",
+    "name1": "Формула",
+    "name2": "Интерпретация",
+    "paragraph": "4.1",
+    "page": 675,
+    "diagram": "ODM4_1",
+    "source": "manual",
+    "predicate": "flow"
+  },
+  {
+    "type": "Dependency",
+    "name1": "Аксиома",
+    "name2": "Логический вывод",
+    "paragraph": "4.2",
+    "page": 684,
+    "diagram": "ODM4_2",
+    "source": "manual",
+    "predicate": "flow"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Аксиома",
+    "name2": "Теорема",
+    "paragraph": "4.2",
+    "page": 684,
+    "diagram": "ODM4_2",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Аксиоматизируемая",
+    "name2": "Формальная теория",
+    "paragraph": "4.2",
+    "page": 684,
+    "diagram": "ODM4_2",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Алфавит",
+    "name2": "Множество",
+    "paragraph": "4.2",
+    "page": 684,
+    "diagram": "ODM4_2",
+    "source": "manual"
+  },
+  {
+    "type": "Aggregation",
+    "name1": "Алфавит",
+    "name2": "Формальная теория",
+    "paragraph": "4.2",
+    "page": 684,
+    "diagram": "ODM4_2",
+    "source": "manual"
+  },
+  {
+    "type": "Dependency",
+    "name1": "Интерпретация",
+    "name2": "Константа",
+    "paragraph": "4.2",
+    "page": 684,
+    "diagram": "ODM4_2",
+    "source": "manual",
+    "predicate": "flow"
+  },
+  {
+    "type": "Dependency",
+    "name1": "Логический вывод",
+    "name2": "Теорема",
+    "paragraph": "4.2",
+    "page": 684,
+    "diagram": "ODM4_2",
+    "source": "manual",
+    "predicate": "flow"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Непротиворечивая",
+    "name2": "Формальная теория",
+    "paragraph": "4.2",
+    "page": 684,
+    "diagram": "ODM4_2",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Полная",
+    "name2": "Формальная теория",
+    "paragraph": "4.2",
+    "page": 684,
+    "diagram": "ODM4_2",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Правило вывода",
+    "name2": "Отношение",
+    "paragraph": "4.2",
+    "page": 684,
+    "diagram": "ODM4_2",
+    "source": "manual"
+  },
+  {
+    "type": "Aggregation",
+    "name1": "Правило вывода",
+    "name2": "Формальная теория",
+    "paragraph": "4.2",
+    "page": 684,
+    "diagram": "ODM4_2",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Разрешимая",
+    "name2": "Формальная теория",
+    "paragraph": "4.2",
+    "page": 684,
+    "diagram": "ODM4_2",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Теорема",
+    "name2": "Формула",
+    "paragraph": "4.2",
+    "page": 684,
+    "diagram": "ODM4_2",
+    "source": "manual"
+  },
+  {
+    "type": "Dependency",
+    "name1": "Формула",
+    "name2": "Интерпретация",
+    "paragraph": "4.2",
+    "page": 684,
+    "diagram": "ODM4_2",
+    "source": "manual",
+    "predicate": "flow"
+  },
+  {
+    "type": "Dependency",
+    "name1": "Формула",
+    "name2": "Логический вывод",
+    "paragraph": "4.2",
+    "page": 684,
+    "diagram": "ODM4_2",
+    "source": "manual",
+    "predicate": "flow"
+  },
+  {
+    "type": "Aggregation",
+    "name1": "Формула",
+    "name2": "Формальная теория",
+    "paragraph": "4.2",
+    "page": 684,
+    "diagram": "ODM4_2",
+    "source": "manual"
+  },
+  {
+    "type": "Instance",
+    "name1": "Исчисление высказываний",
+    "name2": "Формальная теория",
+    "paragraph": "4.3_4",
+    "page": 745,
+    "diagram": "ODM4_34",
+    "source": "manual"
+  },
+  {
+    "type": "Association",
+    "name1": "Исчисление предикатов",
+    "name2": "Исчисление высказываний",
+    "paragraph": "4.3_4",
+    "page": 745,
+    "diagram": "ODM4_34",
+    "source": "manual",
+    "predicate": "h"
+  },
+  {
+    "type": "Instance",
+    "name1": "Исчисление предикатов",
+    "name2": "Формальная теория",
+    "paragraph": "4.3_4",
+    "page": 745,
+    "diagram": "ODM4_34",
+    "source": "manual"
+  },
+  {
+    "type": "Instance",
+    "name1": "Классическое",
+    "name2": "Исчисление высказываний",
+    "paragraph": "4.3_4",
+    "page": 745,
+    "diagram": "ODM4_34",
+    "source": "manual"
+  },
+  {
+    "type": "Instance",
+    "name1": "Конструктивное",
+    "name2": "Исчисление высказываний",
+    "paragraph": "4.3_4",
+    "page": 745,
+    "diagram": "ODM4_34",
+    "source": "manual"
+  },
+  {
+    "type": "Instance",
+    "name1": "Теория групп",
+    "name2": "Исчисление предикатов",
+    "paragraph": "4.3_4",
+    "page": 745,
+    "diagram": "ODM4_34",
+    "source": "manual"
+  },
+  {
+    "type": "Instance",
+    "name1": "Теория равенства",
+    "name2": "Исчисление предикатов",
+    "paragraph": "4.3_4",
+    "page": 745,
+    "diagram": "ODM4_34",
+    "source": "manual"
+  },
+  {
+    "type": "Dependency",
+    "name1": "Унификация",
+    "name2": "Унификатор",
+    "paragraph": "4.3_4",
+    "page": 745,
+    "diagram": "ODM4_34",
+    "source": "manual",
+    "predicate": "flow"
+  },
+  {
+    "type": "Instance",
+    "name1": "Формальная арифметика",
+    "name2": "Исчисление предикатов",
+    "paragraph": "4.3_4",
+    "page": 745,
+    "diagram": "ODM4_34",
+    "source": "manual"
+  },
+  {
+    "type": "Dependency",
+    "name1": "Формула",
+    "name2": "Унификация",
+    "paragraph": "4.3_4",
+    "page": 745,
+    "diagram": "ODM4_34",
+    "source": "manual",
+    "predicate": "flow"
+  },
+  {
+    "type": "Aggregation",
+    "name1": "Формула",
+    "name2": "Формальная теория",
+    "paragraph": "4.3_4",
+    "page": 745,
+    "diagram": "ODM4_34",
+    "source": "manual"
+  },
+  {
+    "type": "Association",
+    "name1": "Алгоритм",
+    "name2": "Модель вычислимости",
+    "paragraph": "4.5",
+    "page": 797,
+    "diagram": "ODM4_5",
+    "source": "manual",
+    "predicate": "представляет",
+    "predicateInv": "представляется"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Вычислимая функция",
+    "name2": "Функция",
+    "paragraph": "4.5",
+    "page": 797,
+    "diagram": "ODM4_5",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Машина Тьюринга",
+    "name2": "Модель вычислимости",
+    "paragraph": "4.5",
+    "page": 797,
+    "diagram": "ODM4_5",
+    "source": "manual"
+  },
+  {
+    "type": "Composition",
+    "name1": "Множество доказательств",
+    "name2": "Дедуктика",
+    "paragraph": "4.5",
+    "page": 797,
+    "diagram": "ODM4_5",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Множество доказательств",
+    "name2": "Множество",
+    "paragraph": "4.5",
+    "page": 797,
+    "diagram": "ODM4_5",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Множество истин арифметики",
+    "name2": "Множество истин",
+    "paragraph": "4.5",
+    "page": 797,
+    "diagram": "ODM4_5",
+    "source": "manual"
+  },
+  {
+    "type": "Composition",
+    "name1": "Множество истин",
+    "name2": "Дедуктика",
+    "paragraph": "4.5",
+    "page": 797,
+    "diagram": "ODM4_5",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Множество истин",
+    "name2": "Множество",
+    "paragraph": "4.5",
+    "page": 797,
+    "diagram": "ODM4_5",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Невычислимая функция",
+    "name2": "Функция",
+    "paragraph": "4.5",
+    "page": 797,
+    "diagram": "ODM4_5",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Неперечислимое множество",
+    "name2": "Множество",
+    "paragraph": "4.5",
+    "page": 797,
+    "diagram": "ODM4_5",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Нормальный алгоритм Маркова",
+    "name2": "Модель вычислимости",
+    "paragraph": "4.5",
+    "page": 797,
+    "diagram": "ODM4_5",
+    "source": "manual"
+  },
+  {
+    "type": "Association",
+    "name1": "Перечислимое множество",
+    "name2": "Алгоритм",
+    "paragraph": "4.5",
+    "page": 797,
+    "diagram": "ODM4_5",
+    "source": "manual",
+    "predicate": "относительно"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Перечислимое множество",
+    "name2": "Множество",
+    "paragraph": "4.5",
+    "page": 797,
+    "diagram": "ODM4_5",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Программа",
+    "name2": "Алгоритм",
+    "paragraph": "4.5",
+    "page": 797,
+    "diagram": "ODM4_5",
+    "source": "manual"
+  },
+  {
+    "type": "Dependency",
+    "name1": "Протокол выполнения",
+    "name2": "Программа",
+    "paragraph": "4.5",
+    "page": 797,
+    "diagram": "ODM4_5",
+    "source": "manual",
+    "predicate": "flow"
+  },
+  {
+    "type": "Association",
+    "name1": "Разрешимое множество",
+    "name2": "Алгоритм",
+    "paragraph": "4.5",
+    "page": 797,
+    "diagram": "ODM4_5",
+    "source": "manual",
+    "predicate": "относительно"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Разрешимое множество",
+    "name2": "Множество",
+    "paragraph": "4.5",
+    "page": 797,
+    "diagram": "ODM4_5",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Система Поста",
+    "name2": "Модель вычислимости",
+    "paragraph": "4.5",
+    "page": 797,
+    "diagram": "ODM4_5",
+    "source": "manual"
+  },
+  {
+    "type": "Association",
+    "name1": "Комбинаторная конфигурация",
+    "name2": "Комбинаторное число",
+    "paragraph": "5.1",
+    "page": 847,
+    "diagram": "ODM5_1_1",
+    "source": "manual",
+    "predicate": "представляет число элементов"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Комбинаторное число",
+    "name2": "Ряд чисел",
+    "paragraph": "5.1",
+    "page": 847,
+    "diagram": "ODM5_1_1",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Комбинаторное число",
+    "name2": "Функция",
+    "paragraph": "5.1",
+    "page": 847,
+    "diagram": "ODM5_1_1",
+    "source": "manual"
+  },
+  {
+    "type": "Dependency",
+    "name1": "Правило произведения",
+    "name2": "Комбинаторное число",
+    "paragraph": "5.1",
+    "page": 847,
+    "diagram": "ODM5_1_1",
+    "source": "manual",
+    "predicate": "flow"
+  },
+  {
+    "type": "Dependency",
+    "name1": "Правило суммы",
+    "name2": "Комбинаторное число",
+    "paragraph": "5.1",
+    "page": 847,
+    "diagram": "ODM5_1_1",
+    "source": "manual",
+    "predicate": "flow"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Число перестановок P(n)",
+    "name2": "Комбинаторное число",
+    "paragraph": "5.1",
+    "page": 847,
+    "diagram": "ODM5_1_1",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Число размещений U(m,n)",
+    "name2": "Комбинаторное число",
+    "paragraph": "5.1",
+    "page": 847,
+    "diagram": "ODM5_1_1",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Число размещений без повторений A(m,n)",
+    "name2": "Комбинаторное число",
+    "paragraph": "5.1",
+    "page": 847,
+    "diagram": "ODM5_1_1",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Число сочетаний C(m,n)",
+    "name2": "Комбинаторное число",
+    "paragraph": "5.1",
+    "page": 847,
+    "diagram": "ODM5_1_1",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Число сочетаний с повторениями V(m,n)",
+    "name2": "Комбинаторное число",
+    "paragraph": "5.1",
+    "page": 847,
+    "diagram": "ODM5_1_1",
+    "source": "manual"
+  },
+  {
+    "type": "Dependency",
+    "name1": "Быстрая сортировка",
+    "name2": "Сортировка",
+    "paragraph": "5.2",
+    "page": 884,
+    "diagram": "ODM5_1_2",
+    "source": "manual",
+    "predicate": "flow"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Гармоническое число H(n)",
+    "name2": "Комбинаторное число",
+    "paragraph": "5.2",
+    "page": 884,
+    "diagram": "ODM5_1_2",
+    "source": "manual"
+  },
+  {
+    "type": "Association",
+    "name1": "Двойной факториал D(n)",
+    "name2": "Число перестановок P(n)",
+    "paragraph": "5.2",
+    "page": 884,
+    "diagram": "ODM5_1_2",
+    "source": "manual",
+    "predicate": "выражается"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Перестановка",
+    "name2": "Биекция",
+    "paragraph": "5.2",
+    "page": 884,
+    "diagram": "ODM5_1_2",
+    "source": "manual"
+  },
+  {
+    "type": "Dependency",
+    "name1": "Сортировка пузырьком",
+    "name2": "Сортировка",
+    "paragraph": "5.2",
+    "page": 884,
+    "diagram": "ODM5_1_2",
+    "source": "manual",
+    "predicate": "flow"
+  },
+  {
+    "type": "Dependency",
+    "name1": "Сортировка",
+    "name2": "Упорядоченный массив",
+    "paragraph": "5.2",
+    "page": 884,
+    "diagram": "ODM5_1_2",
+    "source": "manual",
+    "predicate": "flow"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Транспозиция",
+    "name2": "Цикл",
+    "paragraph": "5.2",
+    "page": 884,
+    "diagram": "ODM5_1_2",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Упорядоченный массив",
+    "name2": "Массив",
+    "paragraph": "5.2",
+    "page": 884,
+    "diagram": "ODM5_1_2",
+    "source": "manual"
+  },
+  {
+    "type": "Association",
+    "name1": "Цикл",
+    "name2": "Орбита",
+    "paragraph": "5.2",
+    "page": 884,
+    "diagram": "ODM5_1_2",
+    "source": "manual",
+    "predicate": "определяет"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Число перестановок P(n)",
+    "name2": "Комбинаторное число",
+    "paragraph": "5.2",
+    "page": 884,
+    "diagram": "ODM5_1_2",
+    "source": "manual"
+  },
+  {
+    "type": "Association",
+    "name1": "Число перестановок P(n)",
+    "name2": "Перестановка",
+    "paragraph": "5.2",
+    "page": 884,
+    "diagram": "ODM5_1_2",
+    "source": "manual",
+    "predicate": "подсчитывает число"
+  },
+  {
+    "type": "Dependency",
+    "name1": "Бином Ньютона",
+    "name2": "Биномиальные коэффициенты",
+    "paragraph": "5.3",
+    "page": 921,
+    "diagram": "ODM5_2",
+    "source": "manual",
+    "predicate": "flow"
+  },
+  {
+    "type": "Dependency",
+    "name1": "Биномиальная система счисления",
+    "name2": "Биномиальные коэффициенты",
+    "paragraph": "5.3",
+    "page": 921,
+    "diagram": "ODM5_2",
+    "source": "manual",
+    "predicate": "flow"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Биномиальные коэффициенты",
+    "name2": "Комбинаторное число",
+    "paragraph": "5.3",
+    "page": 921,
+    "diagram": "ODM5_2",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Биномиальные коэффициенты",
+    "name2": "Мультиномиальные коэффициенты",
+    "paragraph": "5.3",
+    "page": 921,
+    "diagram": "ODM5_2",
+    "source": "manual"
+  },
+  {
+    "type": "Association",
+    "name1": "Биномиальные коэффициенты",
+    "name2": "Число сочетаний C(m,n)",
+    "paragraph": "5.3",
+    "page": 921,
+    "diagram": "ODM5_2",
+    "source": "manual",
+    "predicate": "соответствует"
+  },
+  {
+    "type": "Dependency",
+    "name1": "Итератор подмножеств",
+    "name2": "Биномиальные коэффициенты",
+    "paragraph": "5.3",
+    "page": 921,
+    "diagram": "ODM5_2",
+    "source": "manual",
+    "predicate": "flow"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Расширенные биномиальные коэффициенты",
+    "name2": "Комбинаторное число",
+    "paragraph": "5.3",
+    "page": 921,
+    "diagram": "ODM5_2",
+    "source": "manual"
+  },
+  {
+    "type": "Dependency",
+    "name1": "Треугольник Паскаля",
+    "name2": "Биномиальные коэффициенты",
+    "paragraph": "5.3",
+    "page": 921,
+    "diagram": "ODM5_2",
+    "source": "manual",
+    "predicate": "flow"
+  },
+  {
+    "type": "Composition",
+    "name1": "Блок разбиения",
+    "name2": "Множество",
+    "paragraph": "5.4",
+    "page": 937,
+    "diagram": "ODM5_3",
+    "source": "manual",
+    "predicate": "разбито на"
+  },
+  {
+    "type": "Dependency",
+    "name1": "Треугольник Белла",
+    "name2": "Число Белла B(m)",
+    "paragraph": "5.4",
+    "page": 937,
+    "diagram": "ODM5_3",
+    "source": "manual",
+    "predicate": "flow"
+  },
+  {
+    "type": "Dependency",
+    "name1": "Треугольник Стирлинга",
+    "name2": "Число Стирлинга S(m,n)",
+    "paragraph": "5.4",
+    "page": 937,
+    "diagram": "ODM5_3",
+    "source": "manual",
+    "predicate": "flow"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Число Белла B(m)",
+    "name2": "Комбинаторное число",
+    "paragraph": "5.4",
+    "page": 937,
+    "diagram": "ODM5_3",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Число Моргана M(m,n)",
+    "name2": "Комбинаторное число",
+    "paragraph": "5.4",
+    "page": 937,
+    "diagram": "ODM5_3",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Число Стирлинга S(m,n)",
+    "name2": "Комбинаторное число",
+    "paragraph": "5.4",
+    "page": 937,
+    "diagram": "ODM5_3",
+    "source": "manual"
+  },
+  {
+    "type": "Aggregation",
+    "name1": "Элемент",
+    "name2": "Блок разбиения",
+    "paragraph": "5.4",
+    "page": 937,
+    "diagram": "ODM5_3",
+    "source": "manual",
+    "predicate": "содержит"
+  },
+  {
+    "type": "Association",
+    "name1": "Элемент",
+    "name2": "Множество",
+    "paragraph": "5.4",
+    "page": 937,
+    "diagram": "ODM5_3",
+    "source": "manual",
+    "predicate": "содержит"
+  },
+  {
+    "type": "Dependency",
+    "name1": "Включения и исключения",
+    "name2": "Комбинаторное число",
+    "paragraph": "5.5_7",
+    "page": 1015,
+    "diagram": "ODM5_4",
+    "source": "manual",
+    "predicate": "flow"
+  },
+  {
+    "type": "Dependency",
+    "name1": "Комбинаторная конфигурация",
+    "name2": "Включения и исключения",
+    "paragraph": "5.5_7",
+    "page": 1015,
+    "diagram": "ODM5_4",
+    "source": "manual",
+    "predicate": "flow"
+  },
+  {
+    "type": "Dependency",
+    "name1": "Комбинаторное уравнение",
+    "name2": "Формулы обращения",
+    "paragraph": "5.5_7",
+    "page": 1015,
+    "diagram": "ODM5_4",
+    "source": "manual",
+    "predicate": "flow"
+  },
+  {
+    "type": "Dependency",
+    "name1": "Комбинации свойств",
+    "name2": "Комбинаторное число",
+    "paragraph": "5.5_7",
+    "page": 1015,
+    "diagram": "ODM5_4",
+    "source": "manual",
+    "predicate": "flow"
+  },
+  {
+    "type": "Dependency",
+    "name1": "Одноместные предикаты",
+    "name2": "Комбинации свойств",
+    "paragraph": "5.5_7",
+    "page": 1015,
+    "diagram": "ODM5_4",
+    "source": "manual",
+    "predicate": "flow"
+  },
+  {
+    "type": "Dependency",
+    "name1": "Производящие функции",
+    "name2": "Комбинаторное число",
+    "paragraph": "5.5_7",
+    "page": 1015,
+    "diagram": "ODM5_4",
+    "source": "manual",
+    "predicate": "flow"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Субфакториал",
+    "name2": "Комбинаторное число",
+    "paragraph": "5.5_7",
+    "page": 1015,
+    "diagram": "ODM5_4",
+    "source": "manual"
+  },
+  {
+    "type": "Dependency",
+    "name1": "Формальный ряд",
+    "name2": "Производящие функции",
+    "paragraph": "5.5_7",
+    "page": 1015,
+    "diagram": "ODM5_4",
+    "source": "manual",
+    "predicate": "flow"
+  },
+  {
+    "type": "Dependency",
+    "name1": "Формулы обращения",
+    "name2": "Комбинаторное число",
+    "paragraph": "5.5_7",
+    "page": 1015,
+    "diagram": "ODM5_4",
+    "source": "manual",
+    "predicate": "flow"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Число Каталана",
+    "name2": "Комбинаторное число",
+    "paragraph": "5.5_7",
+    "page": 1015,
+    "diagram": "ODM5_4",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Число Фибоначчи",
+    "name2": "Комбинаторное число",
+    "paragraph": "5.5_7",
+    "page": 1015,
+    "diagram": "ODM5_4",
+    "source": "manual"
+  },
+  {
+    "type": "Aggregation",
+    "name1": "Булеан",
+    "name2": "Подмножество",
+    "paragraph": "7.1",
+    "page": 1180,
+    "diagram": "ODM7_1",
+    "source": "manual"
+  },
+  {
+    "type": "Association",
+    "name1": "Вершина",
+    "name2": "Вершина",
+    "paragraph": "7.1",
+    "page": 1180,
+    "diagram": "ODM7_1",
+    "source": "manual",
+    "predicate": "смежна с"
+  },
+  {
+    "type": "Composition",
+    "name1": "Вершина",
+    "name2": "Граф",
+    "paragraph": "7.1",
+    "page": 1180,
+    "diagram": "ODM7_1",
+    "source": "manual"
+  },
+  {
+    "type": "Association",
+    "name1": "Вершина",
+    "name2": "Ребро",
+    "paragraph": "7.1",
+    "page": 1180,
+    "diagram": "ODM7_1",
+    "source": "manual",
+    "predicate": "инцидентна"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Гиперграф",
+    "name2": "Граф",
+    "paragraph": "7.1",
+    "page": 1180,
+    "diagram": "ODM7_1",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Гипердуга",
+    "name2": "Дуга",
+    "paragraph": "7.1",
+    "page": 1180,
+    "diagram": "ODM7_1",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Гиперорграф",
+    "name2": "Орграф",
+    "paragraph": "7.1",
+    "page": 1180,
+    "diagram": "ODM7_1",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Гиперребро",
+    "name2": "Ребро",
+    "paragraph": "7.1",
+    "page": 1180,
+    "diagram": "ODM7_1",
+    "source": "manual"
+  },
+  {
+    "type": "Aggregation",
+    "name1": "Двухэлементное множество",
+    "name2": "Ребро",
+    "paragraph": "7.1",
+    "page": 1180,
+    "diagram": "ODM7_1",
+    "source": "manual"
+  },
+  {
+    "type": "Composition",
+    "name1": "Дуга",
+    "name2": "Орграф",
+    "paragraph": "7.1",
+    "page": 1180,
+    "diagram": "ODM7_1",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Кратное ребро",
+    "name2": "Ребро",
+    "paragraph": "7.1",
+    "page": 1180,
+    "diagram": "ODM7_1",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Мультиграф",
+    "name2": "Граф",
+    "paragraph": "7.1",
+    "page": 1180,
+    "diagram": "ODM7_1",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Орграф",
+    "name2": "Граф",
+    "paragraph": "7.1",
+    "page": 1180,
+    "diagram": "ODM7_1",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Петля",
+    "name2": "Ребро",
+    "paragraph": "7.1",
+    "page": 1180,
+    "diagram": "ODM7_1",
+    "source": "manual"
+  },
+  {
+    "type": "Aggregation",
+    "name1": "Подмножество",
+    "name2": "Гиперребро",
+    "paragraph": "7.1",
+    "page": 1180,
+    "diagram": "ODM7_1",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Псевдограф",
+    "name2": "Граф",
+    "paragraph": "7.1",
+    "page": 1180,
+    "diagram": "ODM7_1",
+    "source": "manual"
+  },
+  {
+    "type": "Composition",
+    "name1": "Ребро",
+    "name2": "Граф",
+    "paragraph": "7.1",
+    "page": 1180,
+    "diagram": "ODM7_1",
+    "source": "manual"
+  },
+  {
+    "type": "Association",
+    "name1": "Узел",
+    "name2": "Дуга",
+    "paragraph": "7.1",
+    "page": 1180,
+    "diagram": "ODM7_1",
+    "source": "manual",
+    "predicate": "входящая в"
+  },
+  {
+    "type": "Association",
+    "name1": "Узел",
+    "name2": "Дуга",
+    "paragraph": "7.1",
+    "page": 1180,
+    "diagram": "ODM7_1",
+    "source": "manual",
+    "predicate": "исходящая из"
+  },
+  {
+    "type": "Composition",
+    "name1": "Узел",
+    "name2": "Орграф",
+    "paragraph": "7.1",
+    "page": 1180,
+    "diagram": "ODM7_1",
+    "source": "manual"
+  },
+  {
+    "type": "Aggregation",
+    "name1": "Упорядоченная пара",
+    "name2": "Дуга",
+    "paragraph": "7.1",
+    "page": 1180,
+    "diagram": "ODM7_1",
+    "source": "manual"
+  },
+  {
+    "type": "Aggregation",
+    "name1": "Элемент",
+    "name2": "Вершина",
+    "paragraph": "7.1",
+    "page": 1180,
+    "diagram": "ODM7_1",
+    "source": "manual"
+  },
+  {
+    "type": "Composition",
+    "name1": "Вершина",
+    "name2": "Граф",
+    "paragraph": "7.2",
+    "page": 1207,
+    "diagram": "ODM7_2",
+    "source": "manual"
+  },
+  {
+    "type": "Aggregation",
+    "name1": "Вершина",
+    "name2": "Маршрут",
+    "paragraph": "7.2",
+    "page": 1207,
+    "diagram": "ODM7_2",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Висячая",
+    "name2": "Вершина",
+    "paragraph": "7.2",
+    "page": 1207,
+    "diagram": "ODM7_2",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Геодезическая",
+    "name2": "Простая цепь",
+    "paragraph": "7.2",
+    "page": 1207,
+    "diagram": "ODM7_2",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Диаметр",
+    "name2": "Геодезическая",
+    "paragraph": "7.2",
+    "page": 1207,
+    "diagram": "ODM7_2",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Изолированная",
+    "name2": "Вершина",
+    "paragraph": "7.2",
+    "page": 1207,
+    "diagram": "ODM7_2",
+    "source": "manual"
+  },
+  {
+    "type": "Aggregation",
+    "name1": "Инварианты",
+    "name2": "Граф",
+    "paragraph": "7.2",
+    "page": 1207,
+    "diagram": "ODM7_2",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Компонента связности",
+    "name2": "Связный",
+    "paragraph": "7.2",
+    "page": 1207,
+    "diagram": "ODM7_2",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Остовный",
+    "name2": "Подграф",
+    "paragraph": "7.2",
+    "page": 1207,
+    "diagram": "ODM7_2",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Подграф",
+    "name2": "Граф",
+    "paragraph": "7.2",
+    "page": 1207,
+    "diagram": "ODM7_2",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Правильный разрез",
+    "name2": "Подграф",
+    "paragraph": "7.2",
+    "page": 1207,
+    "diagram": "ODM7_2",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Простая цепь",
+    "name2": "Цепь",
+    "paragraph": "7.2",
+    "page": 1207,
+    "diagram": "ODM7_2",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Простой цикл",
+    "name2": "Цикл",
+    "paragraph": "7.2",
+    "page": 1207,
+    "diagram": "ODM7_2",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Радиус",
+    "name2": "Геодезическая",
+    "paragraph": "7.2",
+    "page": 1207,
+    "diagram": "ODM7_2",
+    "source": "manual"
+  },
+  {
+    "type": "Composition",
+    "name1": "Ребро",
+    "name2": "Граф",
+    "paragraph": "7.2",
+    "page": 1207,
+    "diagram": "ODM7_2",
+    "source": "manual"
+  },
+  {
+    "type": "Aggregation",
+    "name1": "Ребро",
+    "name2": "Маршрут",
+    "paragraph": "7.2",
+    "page": 1207,
+    "diagram": "ODM7_2",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Регулярный",
+    "name2": "Граф",
+    "paragraph": "7.2",
+    "page": 1207,
+    "diagram": "ODM7_2",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Связный",
+    "name2": "Граф",
+    "paragraph": "7.2",
+    "page": 1207,
+    "diagram": "ODM7_2",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Собственный",
+    "name2": "Подграф",
+    "paragraph": "7.2",
+    "page": 1207,
+    "diagram": "ODM7_2",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Цепь",
+    "name2": "Маршрут",
+    "paragraph": "7.2",
+    "page": 1207,
+    "diagram": "ODM7_2",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Цикл",
+    "name2": "Маршрут",
+    "paragraph": "7.2",
+    "page": 1207,
+    "diagram": "ODM7_2",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Двудольный",
+    "name2": "Граф",
+    "paragraph": "7.3",
+    "page": 1234,
+    "diagram": "ODM7_3",
+    "source": "manual"
+  },
+  {
+    "type": "Dependency",
+    "name1": "Добавление вершины",
+    "name2": "Граф",
+    "paragraph": "7.3",
+    "page": 1234,
+    "diagram": "ODM7_3",
+    "source": "manual",
+    "predicate": "flow"
+  },
+  {
+    "type": "Dependency",
+    "name1": "Добавление ребра",
+    "name2": "Граф",
+    "paragraph": "7.3",
+    "page": 1234,
+    "diagram": "ODM7_3",
+    "source": "manual",
+    "predicate": "flow"
+  },
+  {
+    "type": "Dependency",
+    "name1": "Дополнение",
+    "name2": "Граф",
+    "paragraph": "7.3",
+    "page": 1234,
+    "diagram": "ODM7_3",
+    "source": "manual",
+    "predicate": "flow"
+  },
+  {
+    "type": "Association",
+    "name1": "Клика",
+    "name2": "Подграф",
+    "paragraph": "7.3",
+    "page": 1234,
+    "diagram": "ODM7_3",
+    "source": "manual",
+    "predicate": "задает"
+  },
+  {
+    "type": "Association",
+    "name1": "Клика",
+    "name2": "Полный",
+    "paragraph": "7.3",
+    "page": 1234,
+    "diagram": "ODM7_3",
+    "source": "manual",
+    "predicate": "задает"
+  },
+  {
+    "type": "Association",
+    "name1": "Независимое множество вершин",
+    "name2": "Подграф",
+    "paragraph": "7.3",
+    "page": 1234,
+    "diagram": "ODM7_3",
+    "source": "manual",
+    "predicate": "задает"
+  },
+  {
+    "type": "Association",
+    "name1": "Независимое множество вершин",
+    "name2": "Пустой",
+    "paragraph": "7.3",
+    "page": 1234,
+    "diagram": "ODM7_3",
+    "source": "manual",
+    "predicate": "задает"
+  },
+  {
+    "type": "Dependency",
+    "name1": "Объединение",
+    "name2": "Граф",
+    "paragraph": "7.3",
+    "page": 1234,
+    "diagram": "ODM7_3",
+    "source": "manual",
+    "predicate": "flow"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Подграф",
+    "name2": "Граф",
+    "paragraph": "7.3",
+    "page": 1234,
+    "diagram": "ODM7_3",
+    "source": "manual"
+  },
+  {
+    "type": "Dependency",
+    "name1": "Подразбиение ребра",
+    "name2": "Граф",
+    "paragraph": "7.3",
+    "page": 1234,
+    "diagram": "ODM7_3",
+    "source": "manual",
+    "predicate": "flow"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Полный",
+    "name2": "Граф",
+    "paragraph": "7.3",
+    "page": 1234,
+    "diagram": "ODM7_3",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Пустой",
+    "name2": "Граф",
+    "paragraph": "7.3",
+    "page": 1234,
+    "diagram": "ODM7_3",
+    "source": "manual"
+  },
+  {
+    "type": "Dependency",
+    "name1": "Размножение вершины",
+    "name2": "Граф",
+    "paragraph": "7.3",
+    "page": 1234,
+    "diagram": "ODM7_3",
+    "source": "manual",
+    "predicate": "flow"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Рёберный",
+    "name2": "Граф",
+    "paragraph": "7.3",
+    "page": 1234,
+    "diagram": "ODM7_3",
+    "source": "manual"
+  },
+  {
+    "type": "Dependency",
+    "name1": "Соединение",
+    "name2": "Граф",
+    "paragraph": "7.3",
+    "page": 1234,
+    "diagram": "ODM7_3",
+    "source": "manual",
+    "predicate": "flow"
+  },
+  {
+    "type": "Dependency",
+    "name1": "Стягивание подграфа",
+    "name2": "Граф",
+    "paragraph": "7.3",
+    "page": 1234,
+    "diagram": "ODM7_3",
+    "source": "manual",
+    "predicate": "flow"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Тривиальный",
+    "name2": "Полный",
+    "paragraph": "7.3",
+    "page": 1234,
+    "diagram": "ODM7_3",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Тривиальный",
+    "name2": "Пустой",
+    "paragraph": "7.3",
+    "page": 1234,
+    "diagram": "ODM7_3",
+    "source": "manual"
+  },
+  {
+    "type": "Dependency",
+    "name1": "Удаление вершины",
+    "name2": "Граф",
+    "paragraph": "7.3",
+    "page": 1234,
+    "diagram": "ODM7_3",
+    "source": "manual",
+    "predicate": "flow"
+  },
+  {
+    "type": "Dependency",
+    "name1": "Удаление ребра",
+    "name2": "Граф",
+    "paragraph": "7.3",
+    "page": 1234,
+    "diagram": "ODM7_3",
+    "source": "manual",
+    "predicate": "flow"
+  },
+  {
+    "type": "Association",
+    "name1": "Граф",
+    "name2": "Представление графа",
+    "paragraph": "7.4",
+    "page": 1251,
+    "diagram": "ODM7_4",
+    "source": "manual",
+    "predicate": "имеет"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Массив дуг",
+    "name2": "Представление графа",
+    "paragraph": "7.4",
+    "page": 1251,
+    "diagram": "ODM7_4",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Матрица инцидентности",
+    "name2": "Представление графа",
+    "paragraph": "7.4",
+    "page": 1251,
+    "diagram": "ODM7_4",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Матрица смежности",
+    "name2": "Представление графа",
+    "paragraph": "7.4",
+    "page": 1251,
+    "diagram": "ODM7_4",
+    "source": "manual"
+  },
+  {
+    "type": "Dependency",
+    "name1": "Обход графа",
+    "name2": "Перестановка",
+    "paragraph": "7.4",
+    "page": 1251,
+    "diagram": "ODM7_4",
+    "source": "manual",
+    "predicate": "flow"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Поиск в глубину",
+    "name2": "Обход графа",
+    "paragraph": "7.4",
+    "page": 1251,
+    "diagram": "ODM7_4",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Поиск в ширину",
+    "name2": "Обход графа",
+    "paragraph": "7.4",
+    "page": 1251,
+    "diagram": "ODM7_4",
+    "source": "manual"
+  },
+  {
+    "type": "Dependency",
+    "name1": "Представление графа",
+    "name2": "Обход графа",
+    "paragraph": "7.4",
+    "page": 1251,
+    "diagram": "ODM7_4",
+    "source": "manual",
+    "predicate": "flow"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Списки смежности",
+    "name2": "Представление графа",
+    "paragraph": "7.4",
+    "page": 1251,
+    "diagram": "ODM7_4",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Правильный разрез",
+    "name2": "Разрез",
+    "paragraph": "10.1",
+    "page": 1568,
+    "diagram": "ODM_10_1",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Простой разрез",
+    "name2": "Правильный разрез",
+    "paragraph": "10.1",
+    "page": 1568,
+    "diagram": "ODM_10_1",
+    "source": "manual"
+  },
+  {
+    "type": "Aggregation",
+    "name1": "Простой разрез",
+    "name2": "Фундаментальная система разрезов",
+    "paragraph": "10.1",
+    "page": 1568,
+    "diagram": "ODM_10_1",
+    "source": "manual"
+  },
+  {
+    "type": "Aggregation",
+    "name1": "Простой цикл",
+    "name2": "Фундаментальная система циклов",
+    "paragraph": "10.1",
+    "page": 1568,
+    "diagram": "ODM_10_1",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Простой цикл",
+    "name2": "Цикл",
+    "paragraph": "10.1",
+    "page": 1568,
+    "diagram": "ODM_10_1",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Цикл",
+    "name2": "Циклический вектор",
+    "paragraph": "10.1",
+    "page": 1568,
+    "diagram": "ODM_10_1",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Гамильтонов цикл",
+    "name2": "Простой цикл",
+    "paragraph": "10.2_3",
+    "page": 1589,
+    "diagram": "ODM_10_3",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Гамильтонов цикл",
+    "name2": "Цикл",
+    "paragraph": "10.2_3",
+    "page": 1589,
+    "diagram": "ODM_10_3",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Простой цикл",
+    "name2": "Цикл",
+    "paragraph": "10.2_3",
+    "page": 1589,
+    "diagram": "ODM_10_3",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Эйлеров цикл",
+    "name2": "Цикл",
+    "paragraph": "10.2_3",
+    "page": 1589,
+    "diagram": "ODM_10_3",
+    "source": "manual"
+  },
+  {
+    "type": "Composition",
+    "name1": "Вершина",
+    "name2": "Граф",
+    "paragraph": "10.4_6",
+    "page": 1634,
+    "diagram": "ODM_10_6",
+    "source": "manual"
+  },
+  {
+    "type": "Aggregation",
+    "name1": "Вершина",
+    "name2": "Наибольшее независимое множество",
+    "paragraph": "10.4_6",
+    "page": 1634,
+    "diagram": "ODM_10_6",
+    "source": "manual"
+  },
+  {
+    "type": "Aggregation",
+    "name1": "Вершина",
+    "name2": "Наименьшее вершинное покрытие",
+    "paragraph": "10.4_6",
+    "page": 1634,
+    "diagram": "ODM_10_6",
+    "source": "manual"
+  },
+  {
+    "type": "Aggregation",
+    "name1": "Вершина",
+    "name2": "Наименьшее доминирующее множество",
+    "paragraph": "10.4_6",
+    "page": 1634,
+    "diagram": "ODM_10_6",
+    "source": "manual"
+  },
+  {
+    "type": "Aggregation",
+    "name1": "Вершина",
+    "name2": "Ядро",
+    "paragraph": "10.4_6",
+    "page": 1634,
+    "diagram": "ODM_10_6",
+    "source": "manual"
+  },
+  {
+    "type": "Dependency",
+    "name1": "Граф",
+    "name2": "Задача о наименьшем покрытии",
+    "paragraph": "10.4_6",
+    "page": 1634,
+    "diagram": "ODM_10_6",
+    "source": "manual",
+    "predicate": "flow"
+  },
+  {
+    "type": "Dependency",
+    "name1": "Граф",
+    "name2": "Поиск с возвратами",
+    "paragraph": "10.4_6",
+    "page": 1634,
+    "diagram": "ODM_10_6",
+    "source": "manual",
+    "predicate": "flow"
+  },
+  {
+    "type": "Dependency",
+    "name1": "Задача о наименьшем покрытии",
+    "name2": "Наименьшее вершинное покрытие",
+    "paragraph": "10.4_6",
+    "page": 1634,
+    "diagram": "ODM_10_6",
+    "source": "manual",
+    "predicate": "flow"
+  },
+  {
+    "type": "Dependency",
+    "name1": "Поиск с возвратами",
+    "name2": "Наибольшее независимое множество",
+    "paragraph": "10.4_6",
+    "page": 1634,
+    "diagram": "ODM_10_6",
+    "source": "manual",
+    "predicate": "flow"
+  },
+  {
+    "type": "Composition",
+    "name1": "Ребро",
+    "name2": "Граф",
+    "paragraph": "10.4_6",
+    "page": 1634,
+    "diagram": "ODM_10_6",
+    "source": "manual"
+  },
+  {
+    "type": "Aggregation",
+    "name1": "Ребро",
+    "name2": "Наибольшее паросочетание",
+    "paragraph": "10.4_6",
+    "page": 1634,
+    "diagram": "ODM_10_6",
+    "source": "manual"
+  },
+  {
+    "type": "Aggregation",
+    "name1": "Ребро",
+    "name2": "Наименьшее доминирующее множество",
+    "paragraph": "10.4_6",
+    "page": 1634,
+    "diagram": "ODM_10_6",
+    "source": "manual"
+  },
+  {
+    "type": "Aggregation",
+    "name1": "Ребро",
+    "name2": "Наименьшее рёберное покрытие",
+    "paragraph": "10.4_6",
+    "page": 1634,
+    "diagram": "ODM_10_6",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Блок",
+    "name2": "Связный",
+    "paragraph": "8.1",
+    "page": 1290,
+    "diagram": "ODM_8_1",
+    "source": "manual"
+  },
+  {
+    "type": "Composition",
+    "name1": "Вершина",
+    "name2": "Граф",
+    "paragraph": "8.1",
+    "page": 1290,
+    "diagram": "ODM_8_1",
+    "source": "manual"
+  },
+  {
+    "type": "Association",
+    "name1": "Вершина",
+    "name2": "Ребро",
+    "paragraph": "8.1",
+    "page": 1290,
+    "diagram": "ODM_8_1",
+    "source": "manual",
+    "predicate": "инцидентно"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Двусвязный",
+    "name2": "Блок",
+    "paragraph": "8.1",
+    "page": 1290,
+    "diagram": "ODM_8_1",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Двусвязный",
+    "name2": "Граф",
+    "paragraph": "8.1",
+    "page": 1290,
+    "diagram": "ODM_8_1",
+    "source": "manual"
+  },
+  {
+    "type": "Composition",
+    "name1": "Компонента связности",
+    "name2": "Граф",
+    "paragraph": "8.1",
+    "page": 1290,
+    "diagram": "ODM_8_1",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Компонента связности",
+    "name2": "Связный",
+    "paragraph": "8.1",
+    "page": 1290,
+    "diagram": "ODM_8_1",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Мост",
+    "name2": "Ребро",
+    "paragraph": "8.1",
+    "page": 1290,
+    "diagram": "ODM_8_1",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Разделяющая",
+    "name2": "Вершина",
+    "paragraph": "8.1",
+    "page": 1290,
+    "diagram": "ODM_8_1",
+    "source": "manual"
+  },
+  {
+    "type": "Composition",
+    "name1": "Ребро",
+    "name2": "Граф",
+    "paragraph": "8.1",
+    "page": 1290,
+    "diagram": "ODM_8_1",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Связный",
+    "name2": "Граф",
+    "paragraph": "8.1",
+    "page": 1290,
+    "diagram": "ODM_8_1",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Тривиальный",
+    "name2": "Блок",
+    "paragraph": "8.1",
+    "page": 1290,
+    "diagram": "ODM_8_1",
+    "source": "manual"
+  },
+  {
+    "type": "Composition",
+    "name1": "Вершина",
+    "name2": "Граф",
+    "paragraph": "8.2",
+    "page": 1299,
+    "diagram": "ODM_8_2",
+    "source": "manual"
+  },
+  {
+    "type": "Aggregation",
+    "name1": "Вершина",
+    "name2": "Множество вершин, разделяющих вершины u, v",
+    "paragraph": "8.2",
+    "page": 1299,
+    "diagram": "ODM_8_2",
+    "source": "manual"
+  },
+  {
+    "type": "Association",
+    "name1": "Вершина",
+    "name2": "Ребро",
+    "paragraph": "8.2",
+    "page": 1299,
+    "diagram": "ODM_8_2",
+    "source": "manual",
+    "predicate": "инцидентно"
+  },
+  {
+    "type": "Aggregation",
+    "name1": "Вершина",
+    "name2": "Цепь",
+    "paragraph": "8.2",
+    "page": 1299,
+    "diagram": "ODM_8_2",
+    "source": "manual"
+  },
+  {
+    "type": "Composition",
+    "name1": "Ребро",
+    "name2": "Граф",
+    "paragraph": "8.2",
+    "page": 1299,
+    "diagram": "ODM_8_2",
+    "source": "manual"
+  },
+  {
+    "type": "Aggregation",
+    "name1": "Ребро",
+    "name2": "Множество рёбер, разделяющих вершины u, v",
+    "paragraph": "8.2",
+    "page": 1299,
+    "diagram": "ODM_8_2",
+    "source": "manual"
+  },
+  {
+    "type": "Aggregation",
+    "name1": "Ребро",
+    "name2": "Цепь",
+    "paragraph": "8.2",
+    "page": 1299,
+    "diagram": "ODM_8_2",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Связный",
+    "name2": "Граф",
+    "paragraph": "8.2",
+    "page": 1299,
+    "diagram": "ODM_8_2",
+    "source": "manual"
+  },
+  {
+    "type": "Aggregation",
+    "name1": "Цепь",
+    "name2": "Множество вершинно-непересекающихся <u, v>-цепей",
+    "paragraph": "8.2",
+    "page": 1299,
+    "diagram": "ODM_8_2",
+    "source": "manual"
+  },
+  {
+    "type": "Aggregation",
+    "name1": "Цепь",
+    "name2": "Множество рёберно-непересекающихся <u, v>-цепей",
+    "paragraph": "8.2",
+    "page": 1299,
+    "diagram": "ODM_8_2",
+    "source": "manual"
+  },
+  {
+    "type": "Dependency",
+    "name1": "Алгоритм отложенного согласия",
+    "name2": "Устойчивое",
+    "paragraph": "8.3",
+    "page": 1325,
+    "diagram": "ODM_8_3",
+    "source": "manual",
+    "predicate": "flow"
+  },
+  {
+    "type": "Composition",
+    "name1": "Вершина",
+    "name2": "Граф",
+    "paragraph": "8.3",
+    "page": 1325,
+    "diagram": "ODM_8_3",
+    "source": "manual"
+  },
+  {
+    "type": "Dependency",
+    "name1": "Граф",
+    "name2": "Исключение аугментальной цепи",
+    "paragraph": "8.3",
+    "page": 1325,
+    "diagram": "ODM_8_3",
+    "source": "manual",
+    "predicate": "flow"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Максимальное",
+    "name2": "Паросочетание",
+    "paragraph": "8.3",
+    "page": 1325,
+    "diagram": "ODM_8_3",
+    "source": "manual"
+  },
+  {
+    "type": "Dependency",
+    "name1": "Матрицы предпочтений",
+    "name2": "Алгоритм отложенного согласия",
+    "paragraph": "8.3",
+    "page": 1325,
+    "diagram": "ODM_8_3",
+    "source": "manual",
+    "predicate": "flow"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Наибольшее",
+    "name2": "Максимальное",
+    "paragraph": "8.3",
+    "page": 1325,
+    "diagram": "ODM_8_3",
+    "source": "manual"
+  },
+  {
+    "type": "Composition",
+    "name1": "Ребро",
+    "name2": "Граф",
+    "paragraph": "8.3",
+    "page": 1325,
+    "diagram": "ODM_8_3",
+    "source": "manual"
+  },
+  {
+    "type": "Aggregation",
+    "name1": "Ребро",
+    "name2": "Паросочетание",
+    "paragraph": "8.3",
+    "page": 1325,
+    "diagram": "ODM_8_3",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Устойчивое",
+    "name2": "Паросочетание",
+    "paragraph": "8.3",
+    "page": 1325,
+    "diagram": "ODM_8_3",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Базис",
+    "name2": "Порождающее множество узлов",
+    "paragraph": "8.5",
+    "page": 1364,
+    "diagram": "ODM_8_5",
+    "source": "manual"
+  },
+  {
+    "type": "Dependency",
+    "name1": "Выделение компонент сильной связности",
+    "name2": "Конденсация",
+    "paragraph": "8.5",
+    "page": 1364,
+    "diagram": "ODM_8_5",
+    "source": "manual",
+    "predicate": "flow"
+  },
+  {
+    "type": "Composition",
+    "name1": "Дуга",
+    "name2": "Орграф",
+    "paragraph": "8.5",
+    "page": 1364,
+    "diagram": "ODM_8_5",
+    "source": "manual"
+  },
+  {
+    "type": "Composition",
+    "name1": "Компонента сильной связности",
+    "name2": "Конденсация",
+    "paragraph": "8.5",
+    "page": 1364,
+    "diagram": "ODM_8_5",
+    "source": "manual"
+  },
+  {
+    "type": "Composition",
+    "name1": "Компонента сильной связности",
+    "name2": "Орграф",
+    "paragraph": "8.5",
+    "page": 1364,
+    "diagram": "ODM_8_5",
+    "source": "manual"
+  },
+  {
+    "type": "Association",
+    "name1": "Орграф",
+    "name2": "Базис",
+    "paragraph": "8.5",
+    "page": 1364,
+    "diagram": "ODM_8_5",
+    "source": "manual",
+    "predicate": "имеет"
+  },
+  {
+    "type": "Dependency",
+    "name1": "Орграф",
+    "name2": "Выделение компонент сильной связности",
+    "paragraph": "8.5",
+    "page": 1364,
+    "diagram": "ODM_8_5",
+    "source": "manual",
+    "predicate": "flow"
+  },
+  {
+    "type": "Composition",
+    "name1": "Узел",
+    "name2": "Орграф",
+    "paragraph": "8.5",
+    "page": 1364,
+    "diagram": "ODM_8_5",
+    "source": "manual"
+  },
+  {
+    "type": "Aggregation",
+    "name1": "Узел",
+    "name2": "Порождающее множество узлов",
+    "paragraph": "8.5",
+    "page": 1364,
+    "diagram": "ODM_8_5",
+    "source": "manual"
+  },
+  {
+    "type": "Association",
+    "name1": "Узел",
+    "name2": "Узел",
+    "paragraph": "8.5",
+    "page": 1364,
+    "diagram": "ODM_8_5",
+    "source": "manual",
+    "predicate": "односторонне связан"
+  },
+  {
+    "type": "Association",
+    "name1": "Узел",
+    "name2": "Узел",
+    "paragraph": "8.5",
+    "page": 1364,
+    "diagram": "ODM_8_5",
+    "source": "manual",
+    "predicate": "сильно связан"
+  },
+  {
+    "type": "Association",
+    "name1": "Узел",
+    "name2": "Узел",
+    "paragraph": "8.5",
+    "page": 1364,
+    "diagram": "ODM_8_5",
+    "source": "manual",
+    "predicate": "слабо связан"
+  },
+  {
+    "type": "Dependency",
+    "name1": "Алгоритм Беллмана-Форда",
+    "name2": "Дерево кратчайших путей из узла s",
+    "paragraph": "8.6",
+    "page": 1409,
+    "diagram": "ODM_8_6",
+    "source": "manual",
+    "predicate": "flow"
+  },
+  {
+    "type": "Dependency",
+    "name1": "Алгоритм Дейкстры",
+    "name2": "Кратчайший путь из узла s в узел t",
+    "paragraph": "8.6",
+    "page": 1409,
+    "diagram": "ODM_8_6",
+    "source": "manual",
+    "predicate": "flow"
+  },
+  {
+    "type": "Dependency",
+    "name1": "Алгоритм Флойда-Уоршалла",
+    "name2": "Матрица всех кратчайших путей",
+    "paragraph": "8.6",
+    "page": 1409,
+    "diagram": "ODM_8_6",
+    "source": "manual",
+    "predicate": "flow"
+  },
+  {
+    "type": "Dependency",
+    "name1": "Алгоритм в бесконтурном орграфе",
+    "name2": "Дерево кратчайших путей из узла s",
+    "paragraph": "8.6",
+    "page": 1409,
+    "diagram": "ODM_8_6",
+    "source": "manual",
+    "predicate": "flow"
+  },
+  {
+    "type": "Dependency",
+    "name1": "Алгоритм с предварительной обработкой",
+    "name2": "Матрица всех кратчайших путей",
+    "paragraph": "8.6",
+    "page": 1409,
+    "diagram": "ODM_8_6",
+    "source": "manual",
+    "predicate": "flow"
+  },
+  {
+    "type": "Composition",
+    "name1": "Взвешенное ребро",
+    "name2": "Взвешенный орграф",
+    "paragraph": "8.6",
+    "page": 1409,
+    "diagram": "ODM_8_6",
+    "source": "manual"
+  },
+  {
+    "type": "Aggregation",
+    "name1": "Взвешенное ребро",
+    "name2": "Взвешенный путь",
+    "paragraph": "8.6",
+    "page": 1409,
+    "diagram": "ODM_8_6",
+    "source": "manual"
+  },
+  {
+    "type": "Dependency",
+    "name1": "Взвешенный орграф",
+    "name2": "Алгоритм Беллмана-Форда",
+    "paragraph": "8.6",
+    "page": 1409,
+    "diagram": "ODM_8_6",
+    "source": "manual",
+    "predicate": "flow"
+  },
+  {
+    "type": "Dependency",
+    "name1": "Взвешенный орграф",
+    "name2": "Алгоритм Дейкстры",
+    "paragraph": "8.6",
+    "page": 1409,
+    "diagram": "ODM_8_6",
+    "source": "manual",
+    "predicate": "flow"
+  },
+  {
+    "type": "Dependency",
+    "name1": "Взвешенный орграф",
+    "name2": "Алгоритм Флойда-Уоршалла",
+    "paragraph": "8.6",
+    "page": 1409,
+    "diagram": "ODM_8_6",
+    "source": "manual",
+    "predicate": "flow"
+  },
+  {
+    "type": "Dependency",
+    "name1": "Взвешенный орграф",
+    "name2": "Алгоритм в бесконтурном орграфе",
+    "paragraph": "8.6",
+    "page": 1409,
+    "diagram": "ODM_8_6",
+    "source": "manual",
+    "predicate": "flow"
+  },
+  {
+    "type": "Dependency",
+    "name1": "Взвешенный орграф",
+    "name2": "Алгоритм с предварительной обработкой",
+    "paragraph": "8.6",
+    "page": 1409,
+    "diagram": "ODM_8_6",
+    "source": "manual",
+    "predicate": "flow"
+  },
+  {
+    "type": "Aggregation",
+    "name1": "Взвешенный путь",
+    "name2": "Взвешенный орграф",
+    "paragraph": "8.6",
+    "page": 1409,
+    "diagram": "ODM_8_6",
+    "source": "manual"
+  },
+  {
+    "type": "Composition",
+    "name1": "Взвешенный узел",
+    "name2": "Взвешенный орграф",
+    "paragraph": "8.6",
+    "page": 1409,
+    "diagram": "ODM_8_6",
+    "source": "manual"
+  },
+  {
+    "type": "Aggregation",
+    "name1": "Взвешенный узел",
+    "name2": "Взвешенный путь",
+    "paragraph": "8.6",
+    "page": 1409,
+    "diagram": "ODM_8_6",
+    "source": "manual"
+  },
+  {
+    "type": "Association",
+    "name1": "Бинарное дерево",
+    "name2": "Упорядоченный лес",
+    "paragraph": "9.1_2",
+    "page": 1437,
+    "diagram": "ODM_9_1_2",
+    "source": "manual",
+    "predicate": "представляет"
+  },
+  {
+    "type": "Dependency",
+    "name1": "Забыть ориентацию",
+    "name2": "Ориентированное дерево",
+    "paragraph": "9.1_2",
+    "page": 1437,
+    "diagram": "ODM_9_1_2",
+    "source": "manual",
+    "predicate": "flow"
+  },
+  {
+    "type": "Aggregation",
+    "name1": "Ориентированное дерево",
+    "name2": "Упорядоченный лес",
+    "paragraph": "9.1_2",
+    "page": 1437,
+    "diagram": "ODM_9_1_2",
+    "source": "manual"
+  },
+  {
+    "type": "Dependency",
+    "name1": "Представление левый = сын правый = брат",
+    "name2": "Бинарное дерево",
+    "paragraph": "9.1_2",
+    "page": 1437,
+    "diagram": "ODM_9_1_2",
+    "source": "manual",
+    "predicate": "flow"
+  },
+  {
+    "type": "Dependency",
+    "name1": "Свободное дерево",
+    "name2": "Забыть ориентацию",
+    "paragraph": "9.1_2",
+    "page": 1437,
+    "diagram": "ODM_9_1_2",
+    "source": "manual",
+    "predicate": "flow"
+  },
+  {
+    "type": "Aggregation",
+    "name1": "Свободное дерево",
+    "name2": "Лес",
+    "paragraph": "9.1_2",
+    "page": 1437,
+    "diagram": "ODM_9_1_2",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Упорядоченное дерево",
+    "name2": "Ориентированное дерево",
+    "paragraph": "9.1_2",
+    "page": 1437,
+    "diagram": "ODM_9_1_2",
+    "source": "manual"
+  },
+  {
+    "type": "Dependency",
+    "name1": "Упорядоченное дерево",
+    "name2": "Представление левый = сын правый = брат",
+    "paragraph": "9.1_2",
+    "page": 1437,
+    "diagram": "ODM_9_1_2",
+    "source": "manual",
+    "predicate": "flow"
+  },
+  {
+    "type": "Dependency",
+    "name1": "Бинарное дерево",
+    "name2": "Обход дерева",
+    "paragraph": "9.3",
+    "page": 1466,
+    "diagram": "ODM_9_1_3",
+    "source": "manual",
+    "predicate": "flow"
+  },
+  {
+    "type": "Dependency",
+    "name1": "Кодирование Прюфера",
+    "name2": "Массив целых",
+    "paragraph": "9.3",
+    "page": 1466,
+    "diagram": "ODM_9_1_3",
+    "source": "manual",
+    "predicate": "flow"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Левый обход",
+    "name2": "Обход дерева",
+    "paragraph": "9.3",
+    "page": 1466,
+    "diagram": "ODM_9_1_3",
+    "source": "manual"
+  },
+  {
+    "type": "Dependency",
+    "name1": "Обход дерева",
+    "name2": "Список списков",
+    "paragraph": "9.3",
+    "page": 1466,
+    "diagram": "ODM_9_1_3",
+    "source": "manual",
+    "predicate": "flow"
+  },
+  {
+    "type": "Dependency",
+    "name1": "Обход дерева",
+    "name2": "Строка символов",
+    "paragraph": "9.3",
+    "page": 1466,
+    "diagram": "ODM_9_1_3",
+    "source": "manual",
+    "predicate": "flow"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Обход по уровням",
+    "name2": "Обход дерева",
+    "paragraph": "9.3",
+    "page": 1466,
+    "diagram": "ODM_9_1_3",
+    "source": "manual"
+  },
+  {
+    "type": "Dependency",
+    "name1": "Поиск в глубину",
+    "name2": "Битовая шкала",
+    "paragraph": "9.3",
+    "page": 1466,
+    "diagram": "ODM_9_1_3",
+    "source": "manual",
+    "predicate": "flow"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Правый обход",
+    "name2": "Обход дерева",
+    "paragraph": "9.3",
+    "page": 1466,
+    "diagram": "ODM_9_1_3",
+    "source": "manual"
+  },
+  {
+    "type": "Dependency",
+    "name1": "Свободное дерево",
+    "name2": "Кодирование Прюфера",
+    "paragraph": "9.3",
+    "page": 1466,
+    "diagram": "ODM_9_1_3",
+    "source": "manual",
+    "predicate": "flow"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Симметричный обход",
+    "name2": "Обход дерева",
+    "paragraph": "9.3",
+    "page": 1466,
+    "diagram": "ODM_9_1_3",
+    "source": "manual"
+  },
+  {
+    "type": "Dependency",
+    "name1": "Упорядоченное дерево",
+    "name2": "Поиск в глубину",
+    "paragraph": "9.3",
+    "page": 1466,
+    "diagram": "ODM_9_1_3",
+    "source": "manual",
+    "predicate": "flow"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Классификатор иерархический",
+    "name2": "Классификатор",
+    "page": 316,
+    "diagram": "characteristic_functions",
+    "paragraph": "1.9",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Классификатор фасетный",
+    "name2": "Классификатор",
+    "page": 316,
+    "diagram": "characteristic_functions",
+    "paragraph": "1.9",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Классификатор",
+    "name2": "Характеристическая функция",
+    "page": 316,
+    "diagram": "characteristic_functions",
+    "paragraph": "1.9",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Характеристическая функция бинарная",
+    "name2": "Характеристическая функция",
+    "page": 316,
+    "diagram": "characteristic_functions",
+    "paragraph": "1.9",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Характеристическая функция множества",
+    "name2": "Характеристическая функция бинарная",
+    "page": 316,
+    "diagram": "characteristic_functions",
+    "paragraph": "1.9",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Характеристическая функция мультимножества",
+    "name2": "Характеристическая функция неотрицательно целочисленная \\\\",
+    "page": 316,
+    "diagram": "characteristic_functions",
+    "paragraph": "1.9",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Характеристическая функция неотрицательно целочисленная \\\\",
+    "name2": "Характеристическая функция",
+    "page": 316,
+    "diagram": "characteristic_functions",
+    "paragraph": "1.9",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Характеристическая функция нечёткая",
+    "name2": "Характеристическая функция",
+    "page": 316,
+    "diagram": "characteristic_functions",
+    "paragraph": "1.9",
+    "source": "manual"
+  },
+  {
+    "type": "Association",
+    "name1": "Характеристическая функция отношения",
+    "name2": "Предикат",
+    "predicate": "это",
+    "page": 316,
+    "diagram": "characteristic_functions",
+    "paragraph": "1.9",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Характеристическая функция отношения",
+    "name2": "Характеристическая функция бинарная",
+    "page": 316,
+    "diagram": "characteristic_functions",
+    "paragraph": "1.9",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Характеристическая функция",
+    "name2": "Функция",
+    "page": 316,
+    "diagram": "characteristic_functions",
+    "paragraph": "1.9",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Алгоритм Уоршалла",
+    "name2": "Замыкание отношения",
+    "page": 209,
+    "diagram": "closure_reduction",
+    "paragraph": "1.5",
+    "source": "manual"
+  },
+  {
+    "type": "Dependency",
+    "name1": "Диаграмма Хассе",
+    "name2": "Отношение бинарное",
+    "page": 209,
+    "diagram": "closure_reduction",
+    "paragraph": "1.5",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Замыкание отношения",
+    "name2": "Замыкание",
+    "page": 209,
+    "diagram": "closure_reduction",
+    "paragraph": "1.5",
+    "source": "manual"
+  },
+  {
+    "type": "Dependency",
+    "name1": "Замыкание отношения",
+    "name2": "Отношение бинарное",
+    "page": 209,
+    "diagram": "closure_reduction",
+    "paragraph": "1.5",
+    "source": "manual"
+  },
+  {
+    "type": "Dependency",
+    "name1": "Сокращение отношения транзитивное",
+    "name2": "Отношение бинарное",
+    "page": 209,
+    "diagram": "closure_reduction",
+    "paragraph": "1.5",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Сокращение отношения транзитивное",
+    "name2": "Редукция отношения",
+    "page": 209,
+    "diagram": "closure_reduction",
+    "paragraph": "1.5",
+    "source": "manual"
+  },
+  {
+    "type": "Aggregation",
+    "name1": "Бит",
+    "name2": "Битовая шкала",
+    "page": 154,
+    "diagram": "definition_dependencies",
+    "paragraph": "1.3",
+    "source": "manual"
+  },
+  {
+    "type": "Manifest",
+    "name1": "Битовая шкала",
+    "name2": "Множество",
+    "page": 154,
+    "diagram": "definition_dependencies",
+    "paragraph": "1.3",
+    "source": "manual"
+  },
+  {
+    "type": "Manifest",
+    "name1": "Итератор",
+    "name2": "Множество",
+    "page": 154,
+    "diagram": "definition_dependencies",
+    "paragraph": "1.3",
+    "source": "manual"
+  },
+  {
+    "type": "Manifest",
+    "name1": "Односвязный список",
+    "name2": "Множество",
+    "page": 154,
+    "diagram": "definition_dependencies",
+    "paragraph": "1.3",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Упорядоченный список",
+    "name2": "Односвязный список",
+    "page": 154,
+    "diagram": "definition_dependencies",
+    "paragraph": "1.3",
+    "source": "manual"
+  },
+  {
+    "type": "Association",
+    "name1": "Класс эквивалентности",
+    "name2": "Множество",
+    "predicate": "является подмножеством",
+    "predicateInv": "содержит",
+    "page": 245,
+    "diagram": "equivalence",
+    "paragraph": "1.7",
+    "source": "manual"
+  },
+  {
+    "type": "Composition",
+    "name1": "Класс эквивалентности",
+    "name2": "Фактормножество",
+    "page": 245,
+    "diagram": "equivalence",
+    "paragraph": "1.7",
+    "source": "manual"
+  },
+  {
+    "type": "Association",
+    "name1": "Множество",
+    "name2": "Фактормножество",
+    "predicate": "индуцированная функция",
+    "page": 245,
+    "diagram": "equivalence",
+    "paragraph": "1.7",
+    "source": "manual"
+  },
+  {
+    "type": "Association",
+    "name1": "Множество",
+    "name2": "Фактормножество",
+    "predicate": "отождествление",
+    "page": 245,
+    "diagram": "equivalence",
+    "paragraph": "1.7",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Отношение толерантности",
+    "name2": "Отношение рефлексивное",
+    "page": 245,
+    "diagram": "equivalence",
+    "paragraph": "1.7",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Отношение толерантности",
+    "name2": "Отношение симметричное",
+    "page": 245,
+    "diagram": "equivalence",
+    "paragraph": "1.7",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Отношение эквивалентности",
+    "name2": "Отношение рефлексивное",
+    "page": 245,
+    "diagram": "equivalence",
+    "paragraph": "1.7",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Отношение эквивалентности",
+    "name2": "Отношение симметричное",
+    "page": 245,
+    "diagram": "equivalence",
+    "paragraph": "1.7",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Отношение эквивалентности",
+    "name2": "Отношение транзитивное",
+    "page": 245,
+    "diagram": "equivalence",
+    "paragraph": "1.7",
+    "source": "manual"
+  },
+  {
+    "type": "Dependency",
+    "name1": "Произведение прямое",
+    "name2": "Отношение эквивалентности",
+    "page": 245,
+    "diagram": "equivalence",
+    "paragraph": "1.7",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Отношение функциональное",
+    "name2": "Отношение",
+    "page": 228,
+    "diagram": "functions",
+    "paragraph": "1.6",
+    "source": "manual"
+  },
+  {
+    "type": "Dependency",
+    "name1": "Продолжение функции",
+    "name2": "Функция",
+    "page": 228,
+    "diagram": "functions",
+    "paragraph": "1.6",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Степень функции",
+    "name2": "Суперпозиция",
+    "page": 228,
+    "diagram": "functions",
+    "paragraph": "1.6",
+    "source": "manual"
+  },
+  {
+    "type": "Dependency",
+    "name1": "Степень функции",
+    "name2": "Функция",
+    "page": 228,
+    "diagram": "functions",
+    "paragraph": "1.6",
+    "source": "manual"
+  },
+  {
+    "type": "Dependency",
+    "name1": "Сужение функции",
+    "name2": "Функция",
+    "page": 228,
+    "diagram": "functions",
+    "paragraph": "1.6",
+    "source": "manual"
+  },
+  {
+    "type": "Dependency",
+    "name1": "Суперпозиция",
+    "name2": "Функция",
+    "page": 228,
+    "diagram": "functions",
+    "paragraph": "1.6",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Функция инъективная",
+    "name2": "Отношение",
+    "page": 228,
+    "diagram": "functions",
+    "paragraph": "1.6",
+    "source": "manual"
+  },
+  {
+    "type": "Dependency",
+    "name1": "Функция перехода к образам",
+    "name2": "Функция",
+    "page": 228,
+    "diagram": "functions",
+    "paragraph": "1.6",
+    "source": "manual"
+  },
+  {
+    "type": "Dependency",
+    "name1": "Функция перехода к прообразам",
+    "name2": "Функция",
+    "page": 228,
+    "diagram": "functions",
+    "paragraph": "1.6",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Функция сюръективная",
+    "name2": "Отношение",
+    "page": 228,
+    "diagram": "functions",
+    "paragraph": "1.6",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Функция тотальная",
+    "name2": "Отношение",
+    "page": 228,
+    "diagram": "functions",
+    "paragraph": "1.6",
+    "source": "manual"
+  },
+  {
+    "type": "Association",
+    "name1": "Функция",
+    "name2": "Отношение функциональное",
+    "predicate": "синонимично",
+    "predicateInv": "синонимично",
+    "page": 228,
+    "diagram": "functions",
+    "paragraph": "1.6",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Нестрогий линейный порядок",
+    "name2": "Отношение порядка линейного",
+    "page": 263,
+    "diagram": "order_relations",
+    "paragraph": "1.8",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Нестрогий линейный порядок",
+    "name2": "Отношение рефлексивное",
+    "page": 263,
+    "diagram": "order_relations",
+    "paragraph": "1.8",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Нестрогий частичный порядок",
+    "name2": "Отношение порядка частичного",
+    "page": 263,
+    "diagram": "order_relations",
+    "paragraph": "1.8",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Нестрогий частичный порядок",
+    "name2": "Отношение рефлексивное",
+    "page": 263,
+    "diagram": "order_relations",
+    "paragraph": "1.8",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Отношение порядка линейного",
+    "name2": "Отношение линейное",
+    "page": 263,
+    "diagram": "order_relations",
+    "paragraph": "1.8",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Отношение порядка линейного",
+    "name2": "Отношение порядка",
+    "page": 263,
+    "diagram": "order_relations",
+    "paragraph": "1.8",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Отношение порядка строгого",
+    "name2": "Отношение антирефлексивное",
+    "page": 263,
+    "diagram": "order_relations",
+    "paragraph": "1.8",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Отношение порядка строгого",
+    "name2": "Отношение транзитивное",
+    "page": 263,
+    "diagram": "order_relations",
+    "paragraph": "1.8",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Отношение порядка частичного",
+    "name2": "Отношение порядка",
+    "page": 263,
+    "diagram": "order_relations",
+    "paragraph": "1.8",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Отношение порядка частичного",
+    "name2": "Отношение частичное",
+    "page": 263,
+    "diagram": "order_relations",
+    "paragraph": "1.8",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Отношение порядка",
+    "name2": "Отношение антисимметричное",
+    "page": 263,
+    "diagram": "order_relations",
+    "paragraph": "1.8",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Отношение порядка",
+    "name2": "Отношение транзитивное",
+    "page": 263,
+    "diagram": "order_relations",
+    "paragraph": "1.8",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Отношение предпорядка",
+    "name2": "Отношение рефлексивное",
+    "page": 263,
+    "diagram": "order_relations",
+    "paragraph": "1.8",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Отношение предпорядка",
+    "name2": "Отношение транзитивное",
+    "page": 263,
+    "diagram": "order_relations",
+    "paragraph": "1.8",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Отношение эквивалентности",
+    "name2": "Отношение предпорядка",
+    "page": 263,
+    "diagram": "order_relations",
+    "paragraph": "1.8",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Полный порядок",
+    "name2": "Отношение порядка линейного",
+    "page": 263,
+    "diagram": "order_relations",
+    "paragraph": "1.8",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Строгий линейный порядок",
+    "name2": "Отношение антирефлексивное",
+    "page": 263,
+    "diagram": "order_relations",
+    "paragraph": "1.8",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Строгий частичный порядок",
+    "name2": "Отношение антирефлексивное",
+    "page": 263,
+    "diagram": "order_relations",
+    "paragraph": "1.8",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Алфавит",
+    "name2": "Множество конечное",
+    "page": 71,
+    "diagram": "structure",
+    "paragraph": "1.1",
+    "source": "manual"
+  },
+  {
+    "type": "Aggregation",
+    "name1": "Буква",
+    "name2": "Алфавит",
+    "page": 71,
+    "diagram": "structure",
+    "paragraph": "1.1",
+    "source": "manual"
+  },
+  {
+    "type": "Aggregation",
+    "name1": "Буква",
+    "name2": "Слово",
+    "page": 71,
+    "diagram": "structure",
+    "paragraph": "1.1",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Булеан",
+    "name2": "Покрытие",
+    "page": 111,
+    "diagram": "structure",
+    "paragraph": "1.2",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Булеан",
+    "name2": "Семейство множеств",
+    "page": 111,
+    "diagram": "structure",
+    "paragraph": "1.2",
+    "source": "manual"
+  },
+  {
+    "type": "Aggregation",
+    "name1": "Кортеж",
+    "name2": "Отношение",
+    "page": 187,
+    "diagram": "structure",
+    "paragraph": "1.4",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Множество бесконечное",
+    "name2": "Множество",
+    "page": 71,
+    "diagram": "structure",
+    "paragraph": "1.1",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Множество конечное",
+    "name2": "Множество",
+    "page": 71,
+    "diagram": "structure",
+    "paragraph": "1.1",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Множество несчётное",
+    "name2": "Множество бесконечное",
+    "page": 71,
+    "diagram": "structure",
+    "paragraph": "1.1",
+    "source": "manual"
+  },
+  {
+    "type": "Instance",
+    "name1": "Множество пустое",
+    "name2": "Множество конечное",
+    "page": 71,
+    "diagram": "structure",
+    "paragraph": "1.1",
+    "source": "manual"
+  },
+  {
+    "type": "Composition",
+    "name1": "Множество",
+    "name2": "Булеан",
+    "page": 111,
+    "diagram": "structure",
+    "paragraph": "1.2",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Множество",
+    "name2": "Мультимножество",
+    "page": 71,
+    "diagram": "structure",
+    "paragraph": "1.1",
+    "source": "manual"
+  },
+  {
+    "type": "Aggregation",
+    "name1": "Множество",
+    "name2": "Отношение бинарное",
+    "pole1": {
+      "name": "Im"
+    },
+    "page": 187,
+    "diagram": "structure",
+    "paragraph": "1.4",
+    "source": "manual"
+  },
+  {
+    "type": "Association",
+    "name1": "Множество",
+    "name2": "Подмножество",
+    "predicate": "включает",
+    "predicateInv": "является частью",
+    "page": 111,
+    "diagram": "structure",
+    "paragraph": "1.2",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Множество",
+    "name2": "Элемент множества",
+    "page": 71,
+    "diagram": "structure",
+    "paragraph": "1.1",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Мультимножество",
+    "name2": "Последовательность",
+    "page": 71,
+    "diagram": "structure",
+    "paragraph": "1.1",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Отношение антирефлексивное",
+    "name2": "Отношение бинарное",
+    "page": 187,
+    "diagram": "structure",
+    "paragraph": "1.4",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Отношение антисимметричное",
+    "name2": "Отношение бинарное",
+    "page": 187,
+    "diagram": "structure",
+    "paragraph": "1.4",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Отношение бинарное",
+    "name2": "Множество",
+    "page": 187,
+    "diagram": "structure",
+    "paragraph": "1.4",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Отношение бинарное",
+    "name2": "Отношение",
+    "page": 187,
+    "diagram": "structure",
+    "paragraph": "1.4",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Отношение линейное",
+    "name2": "Отношение бинарное",
+    "page": 187,
+    "diagram": "structure",
+    "paragraph": "1.4",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Отношение на множестве",
+    "name2": "Отношение бинарное",
+    "page": 187,
+    "diagram": "structure",
+    "paragraph": "1.4",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Отношение рефлексивное",
+    "name2": "Отношение бинарное",
+    "page": 187,
+    "diagram": "structure",
+    "paragraph": "1.4",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Отношение симметричное",
+    "name2": "Отношение бинарное",
+    "page": 187,
+    "diagram": "structure",
+    "paragraph": "1.4",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Отношение тождественное",
+    "name2": "Отношение на множестве",
+    "page": 187,
+    "diagram": "structure",
+    "paragraph": "1.4",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Отношение транзитивное",
+    "name2": "Отношение бинарное",
+    "page": 187,
+    "diagram": "structure",
+    "paragraph": "1.4",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Подмножество",
+    "name2": "Множество",
+    "page": 111,
+    "diagram": "structure",
+    "paragraph": "1.2",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Покрытие",
+    "name2": "Семейство множеств",
+    "page": 111,
+    "diagram": "structure",
+    "paragraph": "1.2",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Последовательность",
+    "name2": "Упорядоченность",
+    "page": 71,
+    "diagram": "structure",
+    "paragraph": "1.1",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Разбиение",
+    "name2": "Покрытие",
+    "page": 111,
+    "diagram": "structure",
+    "paragraph": "1.2",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Семейство множеств",
+    "name2": "Множество",
+    "page": 71,
+    "diagram": "structure",
+    "paragraph": "1.1",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Слово",
+    "name2": "Последовательность",
+    "page": 71,
+    "diagram": "structure",
+    "paragraph": "1.1",
+    "source": "manual"
+  },
+  {
+    "type": "Aggregation",
+    "name1": "Слово",
+    "name2": "Язык",
+    "page": 71,
+    "diagram": "structure",
+    "paragraph": "1.1",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Счётное множество",
+    "name2": "Множество бесконечное",
+    "page": 71,
+    "diagram": "structure",
+    "paragraph": "1.1",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Упорядоченная пара",
+    "name2": "Кортеж",
+    "page": 187,
+    "diagram": "structure",
+    "paragraph": "1.4",
+    "source": "manual"
+  },
+  {
+    "type": "Aggregation",
+    "name1": "Упорядоченная пара",
+    "name2": "Отношение бинарное",
+    "page": 187,
+    "diagram": "structure",
+    "paragraph": "1.4",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Упорядоченная пара",
+    "name2": "Элемент множества",
+    "page": 187,
+    "diagram": "structure",
+    "paragraph": "1.4",
+    "source": "manual"
+  },
+  {
+    "type": "Aggregation",
+    "name1": "Элемент множества",
+    "name2": "Множество",
+    "pole1": {
+      "multiplicity": "*"
+    },
+    "page": 71,
+    "diagram": "structure",
+    "paragraph": "1.1",
+    "source": "manual"
+  },
+  {
+    "type": "Aggregation",
+    "name1": "Элемент множества",
+    "name2": "Упорядоченная пара",
+    "pole1": {
+      "multiplicity": "2"
+    },
+    "page": 187,
+    "diagram": "structure",
+    "paragraph": "1.4",
+    "source": "manual"
+  }
+]

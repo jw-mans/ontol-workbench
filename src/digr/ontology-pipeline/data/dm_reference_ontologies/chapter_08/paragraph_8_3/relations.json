@@ -1,0 +1,86 @@
+[
+  {
+    "type": "Dependency",
+    "name1": "Алгоритм отложенного согласия",
+    "name2": "Устойчивое",
+    "paragraph": "8.3",
+    "page": 1325,
+    "diagram": "ODM_8_3",
+    "source": "manual",
+    "predicate": "flow"
+  },
+  {
+    "type": "Composition",
+    "name1": "Вершина",
+    "name2": "Граф",
+    "paragraph": "8.3",
+    "page": 1325,
+    "diagram": "ODM_8_3",
+    "source": "manual"
+  },
+  {
+    "type": "Dependency",
+    "name1": "Граф",
+    "name2": "Исключение аугментальной цепи",
+    "paragraph": "8.3",
+    "page": 1325,
+    "diagram": "ODM_8_3",
+    "source": "manual",
+    "predicate": "flow"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Максимальное",
+    "name2": "Паросочетание",
+    "paragraph": "8.3",
+    "page": 1325,
+    "diagram": "ODM_8_3",
+    "source": "manual"
+  },
+  {
+    "type": "Dependency",
+    "name1": "Матрицы предпочтений",
+    "name2": "Алгоритм отложенного согласия",
+    "paragraph": "8.3",
+    "page": 1325,
+    "diagram": "ODM_8_3",
+    "source": "manual",
+    "predicate": "flow"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Наибольшее",
+    "name2": "Максимальное",
+    "paragraph": "8.3",
+    "page": 1325,
+    "diagram": "ODM_8_3",
+    "source": "manual"
+  },
+  {
+    "type": "Composition",
+    "name1": "Ребро",
+    "name2": "Граф",
+    "paragraph": "8.3",
+    "page": 1325,
+    "diagram": "ODM_8_3",
+    "source": "manual"
+  },
+  {
+    "type": "Aggregation",
+    "name1": "Ребро",
+    "name2": "Паросочетание",
+    "paragraph": "8.3",
+    "page": 1325,
+    "diagram": "ODM_8_3",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Устойчивое",
+    "name2": "Паросочетание",
+    "paragraph": "8.3",
+    "page": 1325,
+    "diagram": "ODM_8_3",
+    "source": "manual"
+  }
+]

@@ -1,0 +1,111 @@
+[
+  {
+    "type": "Inheritance",
+    "name1": "Блок",
+    "name2": "Связный",
+    "paragraph": "8.1",
+    "page": 1290,
+    "diagram": "ODM_8_1",
+    "source": "manual"
+  },
+  {
+    "type": "Composition",
+    "name1": "Вершина",
+    "name2": "Граф",
+    "paragraph": "8.1",
+    "page": 1290,
+    "diagram": "ODM_8_1",
+    "source": "manual"
+  },
+  {
+    "type": "Association",
+    "name1": "Вершина",
+    "name2": "Ребро",
+    "paragraph": "8.1",
+    "page": 1290,
+    "diagram": "ODM_8_1",
+    "source": "manual",
+    "predicate": "инцидентно"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Двусвязный",
+    "name2": "Блок",
+    "paragraph": "8.1",
+    "page": 1290,
+    "diagram": "ODM_8_1",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Двусвязный",
+    "name2": "Граф",
+    "paragraph": "8.1",
+    "page": 1290,
+    "diagram": "ODM_8_1",
+    "source": "manual"
+  },
+  {
+    "type": "Composition",
+    "name1": "Компонента связности",
+    "name2": "Граф",
+    "paragraph": "8.1",
+    "page": 1290,
+    "diagram": "ODM_8_1",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Компонента связности",
+    "name2": "Связный",
+    "paragraph": "8.1",
+    "page": 1290,
+    "diagram": "ODM_8_1",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Мост",
+    "name2": "Ребро",
+    "paragraph": "8.1",
+    "page": 1290,
+    "diagram": "ODM_8_1",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Разделяющая",
+    "name2": "Вершина",
+    "paragraph": "8.1",
+    "page": 1290,
+    "diagram": "ODM_8_1",
+    "source": "manual"
+  },
+  {
+    "type": "Composition",
+    "name1": "Ребро",
+    "name2": "Граф",
+    "paragraph": "8.1",
+    "page": 1290,
+    "diagram": "ODM_8_1",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Связный",
+    "name2": "Граф",
+    "paragraph": "8.1",
+    "page": 1290,
+    "diagram": "ODM_8_1",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Тривиальный",
+    "name2": "Блок",
+    "paragraph": "8.1",
+    "page": 1290,
+    "diagram": "ODM_8_1",
+    "source": "manual"
+  }
+]

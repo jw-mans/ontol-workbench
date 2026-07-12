@@ -1,0 +1,79 @@
+[
+  {
+    "type": "Dependency",
+    "name1": "Бином Ньютона",
+    "name2": "Биномиальные коэффициенты",
+    "paragraph": "5.3",
+    "page": 921,
+    "diagram": "ODM5_2",
+    "source": "manual",
+    "predicate": "flow"
+  },
+  {
+    "type": "Dependency",
+    "name1": "Биномиальная система счисления",
+    "name2": "Биномиальные коэффициенты",
+    "paragraph": "5.3",
+    "page": 921,
+    "diagram": "ODM5_2",
+    "source": "manual",
+    "predicate": "flow"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Биномиальные коэффициенты",
+    "name2": "Комбинаторное число",
+    "paragraph": "5.3",
+    "page": 921,
+    "diagram": "ODM5_2",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Биномиальные коэффициенты",
+    "name2": "Мультиномиальные коэффициенты",
+    "paragraph": "5.3",
+    "page": 921,
+    "diagram": "ODM5_2",
+    "source": "manual"
+  },
+  {
+    "type": "Association",
+    "name1": "Биномиальные коэффициенты",
+    "name2": "Число сочетаний C(m,n)",
+    "paragraph": "5.3",
+    "page": 921,
+    "diagram": "ODM5_2",
+    "source": "manual",
+    "predicate": "соответствует"
+  },
+  {
+    "type": "Dependency",
+    "name1": "Итератор подмножеств",
+    "name2": "Биномиальные коэффициенты",
+    "paragraph": "5.3",
+    "page": 921,
+    "diagram": "ODM5_2",
+    "source": "manual",
+    "predicate": "flow"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Расширенные биномиальные коэффициенты",
+    "name2": "Комбинаторное число",
+    "paragraph": "5.3",
+    "page": 921,
+    "diagram": "ODM5_2",
+    "source": "manual"
+  },
+  {
+    "type": "Dependency",
+    "name1": "Треугольник Паскаля",
+    "name2": "Биномиальные коэффициенты",
+    "paragraph": "5.3",
+    "page": 921,
+    "diagram": "ODM5_2",
+    "source": "manual",
+    "predicate": "flow"
+  }
+]

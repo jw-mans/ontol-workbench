@@ -1,0 +1,121 @@
+[
+  {
+    "type": "Inheritance",
+    "name1": "Булева функция",
+    "name2": "Функция",
+    "paragraph": "3.1_4",
+    "page": 588,
+    "diagram": "ODM3_1",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Дизъюнктивная форма",
+    "name2": "Формула",
+    "paragraph": "3.1_4",
+    "page": 588,
+    "diagram": "ODM3_1",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Конъюнктивная форма",
+    "name2": "Формула",
+    "paragraph": "3.1_4",
+    "page": 588,
+    "diagram": "ODM3_1",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Минимальная",
+    "name2": "Сокращенная",
+    "paragraph": "3.1_4",
+    "page": 588,
+    "diagram": "ODM3_1",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Минимальный терм",
+    "name2": "Формула",
+    "paragraph": "3.1_4",
+    "page": 588,
+    "diagram": "ODM3_1",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "СДНФ",
+    "name2": "Дизъюнктивная форма",
+    "paragraph": "3.1_4",
+    "page": 588,
+    "diagram": "ODM3_1",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "СКНФ",
+    "name2": "Конъюнктивная форма",
+    "paragraph": "3.1_4",
+    "page": 588,
+    "diagram": "ODM3_1",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Самодвойственная",
+    "name2": "Булева функция",
+    "paragraph": "3.1_4",
+    "page": 588,
+    "diagram": "ODM3_1",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Симметрическая",
+    "name2": "Булева функция",
+    "paragraph": "3.1_4",
+    "page": 588,
+    "diagram": "ODM3_1",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Сокращенная",
+    "name2": "Дизъюнктивная форма",
+    "paragraph": "3.1_4",
+    "page": 588,
+    "diagram": "ODM3_1",
+    "source": "manual"
+  },
+  {
+    "type": "Association",
+    "name1": "Формула",
+    "name2": "Булева функция",
+    "paragraph": "3.1_4",
+    "page": 588,
+    "diagram": "ODM3_1",
+    "source": "manual",
+    "predicate": "реализует",
+    "predicateInv": "реализуется"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Функция k-значной логики",
+    "name2": "Функция",
+    "paragraph": "3.1_4",
+    "page": 588,
+    "diagram": "ODM3_1",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Элементарная",
+    "name2": "Булева функция",
+    "paragraph": "3.1_4",
+    "page": 588,
+    "diagram": "ODM3_1",
+    "source": "manual"
+  }
+]

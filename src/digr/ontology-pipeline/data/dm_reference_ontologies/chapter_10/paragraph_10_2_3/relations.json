@@ -1,0 +1,38 @@
+[
+  {
+    "type": "Inheritance",
+    "name1": "Гамильтонов цикл",
+    "name2": "Простой цикл",
+    "paragraph": "10.2_3",
+    "page": 1589,
+    "diagram": "ODM_10_3",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Гамильтонов цикл",
+    "name2": "Цикл",
+    "paragraph": "10.2_3",
+    "page": 1589,
+    "diagram": "ODM_10_3",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Простой цикл",
+    "name2": "Цикл",
+    "paragraph": "10.2_3",
+    "page": 1589,
+    "diagram": "ODM_10_3",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Эйлеров цикл",
+    "name2": "Цикл",
+    "paragraph": "10.2_3",
+    "page": 1589,
+    "diagram": "ODM_10_3",
+    "source": "manual"
+  }
+]

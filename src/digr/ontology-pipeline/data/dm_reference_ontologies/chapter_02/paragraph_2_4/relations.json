@@ -1,0 +1,156 @@
+[
+  {
+    "type": "Instance",
+    "name1": "1",
+    "name2": "Натуральное число",
+    "paragraph": "2.4",
+    "page": 449,
+    "diagram": "ODM2_4",
+    "source": "manual"
+  },
+  {
+    "type": "Dependency",
+    "name1": "Алгоритм Евклида",
+    "name2": "Наибольший общий делитель",
+    "paragraph": "2.4",
+    "page": 449,
+    "diagram": "ODM2_4",
+    "source": "manual",
+    "predicate": "flow"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Взаимная простота",
+    "name2": "Строгая толерантность",
+    "paragraph": "2.4",
+    "page": 449,
+    "diagram": "ODM2_4",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Вычет",
+    "name2": "Сравнение",
+    "paragraph": "2.4",
+    "page": 449,
+    "diagram": "ODM2_4",
+    "source": "manual"
+  },
+  {
+    "type": "Dependency",
+    "name1": "Вычисления в остаточных классах",
+    "name2": "Отношение эквивалентности",
+    "paragraph": "2.4",
+    "page": 449,
+    "diagram": "ODM2_4",
+    "source": "manual",
+    "predicate": "flow"
+  },
+  {
+    "type": "Dependency",
+    "name1": "Деление вычитанием",
+    "name2": "Деление с остатком",
+    "paragraph": "2.4",
+    "page": 449,
+    "diagram": "ODM2_4",
+    "source": "manual",
+    "predicate": "flow"
+  },
+  {
+    "type": "Dependency",
+    "name1": "Деление с остатком",
+    "name2": "Натуральное число",
+    "paragraph": "2.4",
+    "page": 449,
+    "diagram": "ODM2_4",
+    "source": "manual",
+    "predicate": "flow"
+  },
+  {
+    "type": "Dependency",
+    "name1": "Наибольший общий делитель",
+    "name2": "Натуральное число",
+    "paragraph": "2.4",
+    "page": 449,
+    "diagram": "ODM2_4",
+    "source": "manual",
+    "predicate": "flow"
+  },
+  {
+    "type": "Dependency",
+    "name1": "Наименьшее общее кратное",
+    "name2": "Натуральное число",
+    "paragraph": "2.4",
+    "page": 449,
+    "diagram": "ODM2_4",
+    "source": "manual",
+    "predicate": "flow"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Простое число",
+    "name2": "Натуральное число",
+    "paragraph": "2.4",
+    "page": 449,
+    "diagram": "ODM2_4",
+    "source": "manual"
+  },
+  {
+    "type": "Dependency",
+    "name1": "Разложение на множители",
+    "name2": "Составное число",
+    "paragraph": "2.4",
+    "page": 449,
+    "diagram": "ODM2_4",
+    "source": "manual",
+    "predicate": "flow"
+  },
+  {
+    "type": "Dependency",
+    "name1": "Решето Эратосфена",
+    "name2": "Простое число",
+    "paragraph": "2.4",
+    "page": 449,
+    "diagram": "ODM2_4",
+    "source": "manual",
+    "predicate": "flow"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Составное число",
+    "name2": "Натуральное число",
+    "paragraph": "2.4",
+    "page": 449,
+    "diagram": "ODM2_4",
+    "source": "manual"
+  },
+  {
+    "type": "Association",
+    "name1": "Сравнение",
+    "name2": "Натуральное число",
+    "paragraph": "2.4",
+    "page": 449,
+    "diagram": "ODM2_4",
+    "source": "manual",
+    "predicate": "a = b mod m"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Сравнение",
+    "name2": "Отношение эквивалентности",
+    "paragraph": "2.4",
+    "page": 449,
+    "diagram": "ODM2_4",
+    "source": "manual"
+  },
+  {
+    "type": "Dependency",
+    "name1": "Функция Эйлера",
+    "name2": "Натуральное число",
+    "paragraph": "2.4",
+    "page": 449,
+    "diagram": "ODM2_4",
+    "source": "manual",
+    "predicate": "flow"
+  }
+]

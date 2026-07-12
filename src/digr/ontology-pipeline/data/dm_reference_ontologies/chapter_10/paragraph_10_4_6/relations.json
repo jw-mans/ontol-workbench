@@ -1,0 +1,123 @@
+[
+  {
+    "type": "Composition",
+    "name1": "Вершина",
+    "name2": "Граф",
+    "paragraph": "10.4_6",
+    "page": 1634,
+    "diagram": "ODM_10_6",
+    "source": "manual"
+  },
+  {
+    "type": "Aggregation",
+    "name1": "Вершина",
+    "name2": "Наибольшее независимое множество",
+    "paragraph": "10.4_6",
+    "page": 1634,
+    "diagram": "ODM_10_6",
+    "source": "manual"
+  },
+  {
+    "type": "Aggregation",
+    "name1": "Вершина",
+    "name2": "Наименьшее вершинное покрытие",
+    "paragraph": "10.4_6",
+    "page": 1634,
+    "diagram": "ODM_10_6",
+    "source": "manual"
+  },
+  {
+    "type": "Aggregation",
+    "name1": "Вершина",
+    "name2": "Наименьшее доминирующее множество",
+    "paragraph": "10.4_6",
+    "page": 1634,
+    "diagram": "ODM_10_6",
+    "source": "manual"
+  },
+  {
+    "type": "Aggregation",
+    "name1": "Вершина",
+    "name2": "Ядро",
+    "paragraph": "10.4_6",
+    "page": 1634,
+    "diagram": "ODM_10_6",
+    "source": "manual"
+  },
+  {
+    "type": "Dependency",
+    "name1": "Граф",
+    "name2": "Задача о наименьшем покрытии",
+    "paragraph": "10.4_6",
+    "page": 1634,
+    "diagram": "ODM_10_6",
+    "source": "manual",
+    "predicate": "flow"
+  },
+  {
+    "type": "Dependency",
+    "name1": "Граф",
+    "name2": "Поиск с возвратами",
+    "paragraph": "10.4_6",
+    "page": 1634,
+    "diagram": "ODM_10_6",
+    "source": "manual",
+    "predicate": "flow"
+  },
+  {
+    "type": "Dependency",
+    "name1": "Задача о наименьшем покрытии",
+    "name2": "Наименьшее вершинное покрытие",
+    "paragraph": "10.4_6",
+    "page": 1634,
+    "diagram": "ODM_10_6",
+    "source": "manual",
+    "predicate": "flow"
+  },
+  {
+    "type": "Dependency",
+    "name1": "Поиск с возвратами",
+    "name2": "Наибольшее независимое множество",
+    "paragraph": "10.4_6",
+    "page": 1634,
+    "diagram": "ODM_10_6",
+    "source": "manual",
+    "predicate": "flow"
+  },
+  {
+    "type": "Composition",
+    "name1": "Ребро",
+    "name2": "Граф",
+    "paragraph": "10.4_6",
+    "page": 1634,
+    "diagram": "ODM_10_6",
+    "source": "manual"
+  },
+  {
+    "type": "Aggregation",
+    "name1": "Ребро",
+    "name2": "Наибольшее паросочетание",
+    "paragraph": "10.4_6",
+    "page": 1634,
+    "diagram": "ODM_10_6",
+    "source": "manual"
+  },
+  {
+    "type": "Aggregation",
+    "name1": "Ребро",
+    "name2": "Наименьшее доминирующее множество",
+    "paragraph": "10.4_6",
+    "page": 1634,
+    "diagram": "ODM_10_6",
+    "source": "manual"
+  },
+  {
+    "type": "Aggregation",
+    "name1": "Ребро",
+    "name2": "Наименьшее рёберное покрытие",
+    "paragraph": "10.4_6",
+    "page": 1634,
+    "diagram": "ODM_10_6",
+    "source": "manual"
+  }
+]

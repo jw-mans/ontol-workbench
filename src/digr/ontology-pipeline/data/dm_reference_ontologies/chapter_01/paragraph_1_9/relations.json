@@ -1,0 +1,102 @@
+[
+  {
+    "type": "Inheritance",
+    "name1": "Классификатор",
+    "name2": "Характеристическая функция",
+    "page": 316,
+    "diagram": "characteristic_functions",
+    "paragraph": "1.9",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Классификатор иерархический",
+    "name2": "Классификатор",
+    "page": 316,
+    "diagram": "characteristic_functions",
+    "paragraph": "1.9",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Классификатор фасетный",
+    "name2": "Классификатор",
+    "page": 316,
+    "diagram": "characteristic_functions",
+    "paragraph": "1.9",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Характеристическая функция",
+    "name2": "Функция",
+    "page": 316,
+    "diagram": "characteristic_functions",
+    "paragraph": "1.9",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Характеристическая функция бинарная",
+    "name2": "Характеристическая функция",
+    "page": 316,
+    "diagram": "characteristic_functions",
+    "paragraph": "1.9",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Характеристическая функция множества",
+    "name2": "Характеристическая функция бинарная",
+    "page": 316,
+    "diagram": "characteristic_functions",
+    "paragraph": "1.9",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Характеристическая функция мультимножества",
+    "name2": "Характеристическая функция неотрицательно целочисленная \\\\",
+    "page": 316,
+    "diagram": "characteristic_functions",
+    "paragraph": "1.9",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Характеристическая функция неотрицательно целочисленная \\\\",
+    "name2": "Характеристическая функция",
+    "page": 316,
+    "diagram": "characteristic_functions",
+    "paragraph": "1.9",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Характеристическая функция нечёткая",
+    "name2": "Характеристическая функция",
+    "page": 316,
+    "diagram": "characteristic_functions",
+    "paragraph": "1.9",
+    "source": "manual"
+  },
+  {
+    "type": "Association",
+    "name1": "Характеристическая функция отношения",
+    "name2": "Предикат",
+    "predicate": "это",
+    "page": 316,
+    "diagram": "characteristic_functions",
+    "paragraph": "1.9",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Характеристическая функция отношения",
+    "name2": "Характеристическая функция бинарная",
+    "page": 316,
+    "diagram": "characteristic_functions",
+    "paragraph": "1.9",
+    "source": "manual"
+  }
+]

@@ -1,0 +1,169 @@
+[
+  {
+    "type": "Association",
+    "name1": "Алгоритм",
+    "name2": "Модель вычислимости",
+    "paragraph": "4.5",
+    "page": 797,
+    "diagram": "ODM4_5",
+    "source": "manual",
+    "predicate": "представляет",
+    "predicateInv": "представляется"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Вычислимая функция",
+    "name2": "Функция",
+    "paragraph": "4.5",
+    "page": 797,
+    "diagram": "ODM4_5",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Машина Тьюринга",
+    "name2": "Модель вычислимости",
+    "paragraph": "4.5",
+    "page": 797,
+    "diagram": "ODM4_5",
+    "source": "manual"
+  },
+  {
+    "type": "Composition",
+    "name1": "Множество доказательств",
+    "name2": "Дедуктика",
+    "paragraph": "4.5",
+    "page": 797,
+    "diagram": "ODM4_5",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Множество доказательств",
+    "name2": "Множество",
+    "paragraph": "4.5",
+    "page": 797,
+    "diagram": "ODM4_5",
+    "source": "manual"
+  },
+  {
+    "type": "Composition",
+    "name1": "Множество истин",
+    "name2": "Дедуктика",
+    "paragraph": "4.5",
+    "page": 797,
+    "diagram": "ODM4_5",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Множество истин",
+    "name2": "Множество",
+    "paragraph": "4.5",
+    "page": 797,
+    "diagram": "ODM4_5",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Множество истин арифметики",
+    "name2": "Множество истин",
+    "paragraph": "4.5",
+    "page": 797,
+    "diagram": "ODM4_5",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Невычислимая функция",
+    "name2": "Функция",
+    "paragraph": "4.5",
+    "page": 797,
+    "diagram": "ODM4_5",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Неперечислимое множество",
+    "name2": "Множество",
+    "paragraph": "4.5",
+    "page": 797,
+    "diagram": "ODM4_5",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Нормальный алгоритм Маркова",
+    "name2": "Модель вычислимости",
+    "paragraph": "4.5",
+    "page": 797,
+    "diagram": "ODM4_5",
+    "source": "manual"
+  },
+  {
+    "type": "Association",
+    "name1": "Перечислимое множество",
+    "name2": "Алгоритм",
+    "paragraph": "4.5",
+    "page": 797,
+    "diagram": "ODM4_5",
+    "source": "manual",
+    "predicate": "относительно"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Перечислимое множество",
+    "name2": "Множество",
+    "paragraph": "4.5",
+    "page": 797,
+    "diagram": "ODM4_5",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Программа",
+    "name2": "Алгоритм",
+    "paragraph": "4.5",
+    "page": 797,
+    "diagram": "ODM4_5",
+    "source": "manual"
+  },
+  {
+    "type": "Dependency",
+    "name1": "Протокол выполнения",
+    "name2": "Программа",
+    "paragraph": "4.5",
+    "page": 797,
+    "diagram": "ODM4_5",
+    "source": "manual",
+    "predicate": "flow"
+  },
+  {
+    "type": "Association",
+    "name1": "Разрешимое множество",
+    "name2": "Алгоритм",
+    "paragraph": "4.5",
+    "page": 797,
+    "diagram": "ODM4_5",
+    "source": "manual",
+    "predicate": "относительно"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Разрешимое множество",
+    "name2": "Множество",
+    "paragraph": "4.5",
+    "page": 797,
+    "diagram": "ODM4_5",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Система Поста",
+    "name2": "Модель вычислимости",
+    "paragraph": "4.5",
+    "page": 797,
+    "diagram": "ODM4_5",
+    "source": "manual"
+  }
+]

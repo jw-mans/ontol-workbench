@@ -1,0 +1,96 @@
+[
+  {
+    "type": "Association",
+    "name1": "Класс эквивалентности",
+    "name2": "Множество",
+    "predicate": "является подмножеством",
+    "predicateInv": "содержит",
+    "page": 245,
+    "diagram": "equivalence",
+    "paragraph": "1.7",
+    "source": "manual"
+  },
+  {
+    "type": "Composition",
+    "name1": "Класс эквивалентности",
+    "name2": "Фактормножество",
+    "page": 245,
+    "diagram": "equivalence",
+    "paragraph": "1.7",
+    "source": "manual"
+  },
+  {
+    "type": "Association",
+    "name1": "Множество",
+    "name2": "Фактормножество",
+    "predicate": "индуцированная функция",
+    "page": 245,
+    "diagram": "equivalence",
+    "paragraph": "1.7",
+    "source": "manual"
+  },
+  {
+    "type": "Association",
+    "name1": "Множество",
+    "name2": "Фактормножество",
+    "predicate": "отождествление",
+    "page": 245,
+    "diagram": "equivalence",
+    "paragraph": "1.7",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Отношение толерантности",
+    "name2": "Отношение рефлексивное",
+    "page": 245,
+    "diagram": "equivalence",
+    "paragraph": "1.7",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Отношение толерантности",
+    "name2": "Отношение симметричное",
+    "page": 245,
+    "diagram": "equivalence",
+    "paragraph": "1.7",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Отношение эквивалентности",
+    "name2": "Отношение рефлексивное",
+    "page": 245,
+    "diagram": "equivalence",
+    "paragraph": "1.7",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Отношение эквивалентности",
+    "name2": "Отношение симметричное",
+    "page": 245,
+    "diagram": "equivalence",
+    "paragraph": "1.7",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Отношение эквивалентности",
+    "name2": "Отношение транзитивное",
+    "page": 245,
+    "diagram": "equivalence",
+    "paragraph": "1.7",
+    "source": "manual"
+  },
+  {
+    "type": "Dependency",
+    "name1": "Произведение прямое",
+    "name2": "Отношение эквивалентности",
+    "page": 245,
+    "diagram": "equivalence",
+    "paragraph": "1.7",
+    "source": "manual"
+  }
+]

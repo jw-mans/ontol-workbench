@@ -1,0 +1,147 @@
+[
+  {
+    "type": "Dependency",
+    "name1": "Алгоритм Беллмана-Форда",
+    "name2": "Дерево кратчайших путей из узла s",
+    "paragraph": "8.6",
+    "page": 1409,
+    "diagram": "ODM_8_6",
+    "source": "manual",
+    "predicate": "flow"
+  },
+  {
+    "type": "Dependency",
+    "name1": "Алгоритм Дейкстры",
+    "name2": "Кратчайший путь из узла s в узел t",
+    "paragraph": "8.6",
+    "page": 1409,
+    "diagram": "ODM_8_6",
+    "source": "manual",
+    "predicate": "flow"
+  },
+  {
+    "type": "Dependency",
+    "name1": "Алгоритм Флойда-Уоршалла",
+    "name2": "Матрица всех кратчайших путей",
+    "paragraph": "8.6",
+    "page": 1409,
+    "diagram": "ODM_8_6",
+    "source": "manual",
+    "predicate": "flow"
+  },
+  {
+    "type": "Dependency",
+    "name1": "Алгоритм в бесконтурном орграфе",
+    "name2": "Дерево кратчайших путей из узла s",
+    "paragraph": "8.6",
+    "page": 1409,
+    "diagram": "ODM_8_6",
+    "source": "manual",
+    "predicate": "flow"
+  },
+  {
+    "type": "Dependency",
+    "name1": "Алгоритм с предварительной обработкой",
+    "name2": "Матрица всех кратчайших путей",
+    "paragraph": "8.6",
+    "page": 1409,
+    "diagram": "ODM_8_6",
+    "source": "manual",
+    "predicate": "flow"
+  },
+  {
+    "type": "Composition",
+    "name1": "Взвешенное ребро",
+    "name2": "Взвешенный орграф",
+    "paragraph": "8.6",
+    "page": 1409,
+    "diagram": "ODM_8_6",
+    "source": "manual"
+  },
+  {
+    "type": "Aggregation",
+    "name1": "Взвешенное ребро",
+    "name2": "Взвешенный путь",
+    "paragraph": "8.6",
+    "page": 1409,
+    "diagram": "ODM_8_6",
+    "source": "manual"
+  },
+  {
+    "type": "Dependency",
+    "name1": "Взвешенный орграф",
+    "name2": "Алгоритм Беллмана-Форда",
+    "paragraph": "8.6",
+    "page": 1409,
+    "diagram": "ODM_8_6",
+    "source": "manual",
+    "predicate": "flow"
+  },
+  {
+    "type": "Dependency",
+    "name1": "Взвешенный орграф",
+    "name2": "Алгоритм Дейкстры",
+    "paragraph": "8.6",
+    "page": 1409,
+    "diagram": "ODM_8_6",
+    "source": "manual",
+    "predicate": "flow"
+  },
+  {
+    "type": "Dependency",
+    "name1": "Взвешенный орграф",
+    "name2": "Алгоритм Флойда-Уоршалла",
+    "paragraph": "8.6",
+    "page": 1409,
+    "diagram": "ODM_8_6",
+    "source": "manual",
+    "predicate": "flow"
+  },
+  {
+    "type": "Dependency",
+    "name1": "Взвешенный орграф",
+    "name2": "Алгоритм в бесконтурном орграфе",
+    "paragraph": "8.6",
+    "page": 1409,
+    "diagram": "ODM_8_6",
+    "source": "manual",
+    "predicate": "flow"
+  },
+  {
+    "type": "Dependency",
+    "name1": "Взвешенный орграф",
+    "name2": "Алгоритм с предварительной обработкой",
+    "paragraph": "8.6",
+    "page": 1409,
+    "diagram": "ODM_8_6",
+    "source": "manual",
+    "predicate": "flow"
+  },
+  {
+    "type": "Aggregation",
+    "name1": "Взвешенный путь",
+    "name2": "Взвешенный орграф",
+    "paragraph": "8.6",
+    "page": 1409,
+    "diagram": "ODM_8_6",
+    "source": "manual"
+  },
+  {
+    "type": "Composition",
+    "name1": "Взвешенный узел",
+    "name2": "Взвешенный орграф",
+    "paragraph": "8.6",
+    "page": 1409,
+    "diagram": "ODM_8_6",
+    "source": "manual"
+  },
+  {
+    "type": "Aggregation",
+    "name1": "Взвешенный узел",
+    "name2": "Взвешенный путь",
+    "paragraph": "8.6",
+    "page": 1409,
+    "diagram": "ODM_8_6",
+    "source": "manual"
+  }
+]

@@ -1,0 +1,107 @@
+[
+  {
+    "type": "Dependency",
+    "name1": "Быстрая сортировка",
+    "name2": "Сортировка",
+    "paragraph": "5.2",
+    "page": 884,
+    "diagram": "ODM5_1_2",
+    "source": "manual",
+    "predicate": "flow"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Гармоническое число H(n)",
+    "name2": "Комбинаторное число",
+    "paragraph": "5.2",
+    "page": 884,
+    "diagram": "ODM5_1_2",
+    "source": "manual"
+  },
+  {
+    "type": "Association",
+    "name1": "Двойной факториал D(n)",
+    "name2": "Число перестановок P(n)",
+    "paragraph": "5.2",
+    "page": 884,
+    "diagram": "ODM5_1_2",
+    "source": "manual",
+    "predicate": "выражается"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Перестановка",
+    "name2": "Биекция",
+    "paragraph": "5.2",
+    "page": 884,
+    "diagram": "ODM5_1_2",
+    "source": "manual"
+  },
+  {
+    "type": "Dependency",
+    "name1": "Сортировка",
+    "name2": "Упорядоченный массив",
+    "paragraph": "5.2",
+    "page": 884,
+    "diagram": "ODM5_1_2",
+    "source": "manual",
+    "predicate": "flow"
+  },
+  {
+    "type": "Dependency",
+    "name1": "Сортировка пузырьком",
+    "name2": "Сортировка",
+    "paragraph": "5.2",
+    "page": 884,
+    "diagram": "ODM5_1_2",
+    "source": "manual",
+    "predicate": "flow"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Транспозиция",
+    "name2": "Цикл",
+    "paragraph": "5.2",
+    "page": 884,
+    "diagram": "ODM5_1_2",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Упорядоченный массив",
+    "name2": "Массив",
+    "paragraph": "5.2",
+    "page": 884,
+    "diagram": "ODM5_1_2",
+    "source": "manual"
+  },
+  {
+    "type": "Association",
+    "name1": "Цикл",
+    "name2": "Орбита",
+    "paragraph": "5.2",
+    "page": 884,
+    "diagram": "ODM5_1_2",
+    "source": "manual",
+    "predicate": "определяет"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Число перестановок P(n)",
+    "name2": "Комбинаторное число",
+    "paragraph": "5.2",
+    "page": 884,
+    "diagram": "ODM5_1_2",
+    "source": "manual"
+  },
+  {
+    "type": "Association",
+    "name1": "Число перестановок P(n)",
+    "name2": "Перестановка",
+    "paragraph": "5.2",
+    "page": 884,
+    "diagram": "ODM5_1_2",
+    "source": "manual",
+    "predicate": "подсчитывает число"
+  }
+]

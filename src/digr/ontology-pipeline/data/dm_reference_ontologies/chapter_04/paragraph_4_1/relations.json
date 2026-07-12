@@ -1,0 +1,151 @@
+[
+  {
+    "type": "Inheritance",
+    "name1": "Всеобщности",
+    "name2": "Квантор",
+    "paragraph": "4.1",
+    "page": 675,
+    "diagram": "ODM4_1",
+    "source": "manual"
+  },
+  {
+    "type": "Dependency",
+    "name1": "Высказывание",
+    "name2": "Формализация",
+    "paragraph": "4.1",
+    "page": 675,
+    "diagram": "ODM4_1",
+    "source": "manual",
+    "predicate": "flow"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Дизъюнкция",
+    "name2": "Связка",
+    "paragraph": "4.1",
+    "page": 675,
+    "diagram": "ODM4_1",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Импликация",
+    "name2": "Связка",
+    "paragraph": "4.1",
+    "page": 675,
+    "diagram": "ODM4_1",
+    "source": "manual"
+  },
+  {
+    "type": "Dependency",
+    "name1": "Интерпретация",
+    "name2": "Константа",
+    "paragraph": "4.1",
+    "page": 675,
+    "diagram": "ODM4_1",
+    "source": "manual",
+    "predicate": "flow"
+  },
+  {
+    "type": "Aggregation",
+    "name1": "Квантор",
+    "name2": "Формула",
+    "paragraph": "4.1",
+    "page": 675,
+    "diagram": "ODM4_1",
+    "source": "manual"
+  },
+  {
+    "type": "Aggregation",
+    "name1": "Константа",
+    "name2": "Формула",
+    "paragraph": "4.1",
+    "page": 675,
+    "diagram": "ODM4_1",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Конъюнкция",
+    "name2": "Связка",
+    "paragraph": "4.1",
+    "page": 675,
+    "diagram": "ODM4_1",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Отрицание",
+    "name2": "Связка",
+    "paragraph": "4.1",
+    "page": 675,
+    "diagram": "ODM4_1",
+    "source": "manual"
+  },
+  {
+    "type": "Association",
+    "name1": "Переменная",
+    "name2": "Квантор",
+    "paragraph": "4.1",
+    "page": 675,
+    "diagram": "ODM4_1",
+    "source": "manual",
+    "predicate": "связана"
+  },
+  {
+    "type": "Aggregation",
+    "name1": "Переменная",
+    "name2": "Формула",
+    "paragraph": "4.1",
+    "page": 675,
+    "diagram": "ODM4_1",
+    "source": "manual"
+  },
+  {
+    "type": "Aggregation",
+    "name1": "Предикат",
+    "name2": "Формула",
+    "paragraph": "4.1",
+    "page": 675,
+    "diagram": "ODM4_1",
+    "source": "manual"
+  },
+  {
+    "type": "Aggregation",
+    "name1": "Связка",
+    "name2": "Формула",
+    "paragraph": "4.1",
+    "page": 675,
+    "diagram": "ODM4_1",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Существования",
+    "name2": "Квантор",
+    "paragraph": "4.1",
+    "page": 675,
+    "diagram": "ODM4_1",
+    "source": "manual"
+  },
+  {
+    "type": "Dependency",
+    "name1": "Формализация",
+    "name2": "Формула",
+    "paragraph": "4.1",
+    "page": 675,
+    "diagram": "ODM4_1",
+    "source": "manual",
+    "predicate": "flow"
+  },
+  {
+    "type": "Dependency",
+    "name1": "Формула",
+    "name2": "Интерпретация",
+    "paragraph": "4.1",
+    "page": 675,
+    "diagram": "ODM4_1",
+    "source": "manual",
+    "predicate": "flow"
+  }
+]

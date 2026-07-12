@@ -1,0 +1,104 @@
+[
+  {
+    "type": "Instance",
+    "name1": "Исчисление высказываний",
+    "name2": "Формальная теория",
+    "paragraph": "4.3_4",
+    "page": 745,
+    "diagram": "ODM4_34",
+    "source": "manual"
+  },
+  {
+    "type": "Association",
+    "name1": "Исчисление предикатов",
+    "name2": "Исчисление высказываний",
+    "paragraph": "4.3_4",
+    "page": 745,
+    "diagram": "ODM4_34",
+    "source": "manual",
+    "predicate": "h"
+  },
+  {
+    "type": "Instance",
+    "name1": "Исчисление предикатов",
+    "name2": "Формальная теория",
+    "paragraph": "4.3_4",
+    "page": 745,
+    "diagram": "ODM4_34",
+    "source": "manual"
+  },
+  {
+    "type": "Instance",
+    "name1": "Классическое",
+    "name2": "Исчисление высказываний",
+    "paragraph": "4.3_4",
+    "page": 745,
+    "diagram": "ODM4_34",
+    "source": "manual"
+  },
+  {
+    "type": "Instance",
+    "name1": "Конструктивное",
+    "name2": "Исчисление высказываний",
+    "paragraph": "4.3_4",
+    "page": 745,
+    "diagram": "ODM4_34",
+    "source": "manual"
+  },
+  {
+    "type": "Instance",
+    "name1": "Теория групп",
+    "name2": "Исчисление предикатов",
+    "paragraph": "4.3_4",
+    "page": 745,
+    "diagram": "ODM4_34",
+    "source": "manual"
+  },
+  {
+    "type": "Instance",
+    "name1": "Теория равенства",
+    "name2": "Исчисление предикатов",
+    "paragraph": "4.3_4",
+    "page": 745,
+    "diagram": "ODM4_34",
+    "source": "manual"
+  },
+  {
+    "type": "Dependency",
+    "name1": "Унификация",
+    "name2": "Унификатор",
+    "paragraph": "4.3_4",
+    "page": 745,
+    "diagram": "ODM4_34",
+    "source": "manual",
+    "predicate": "flow"
+  },
+  {
+    "type": "Instance",
+    "name1": "Формальная арифметика",
+    "name2": "Исчисление предикатов",
+    "paragraph": "4.3_4",
+    "page": 745,
+    "diagram": "ODM4_34",
+    "source": "manual"
+  },
+  {
+    "type": "Dependency",
+    "name1": "Формула",
+    "name2": "Унификация",
+    "paragraph": "4.3_4",
+    "page": 745,
+    "diagram": "ODM4_34",
+    "source": "manual",
+    "predicate": "flow"
+  },
+  {
+    "type": "Aggregation",
+    "name1": "Формула",
+    "name2": "Формальная теория",
+    "paragraph": "4.3_4",
+    "page": 745,
+    "diagram": "ODM4_34",
+    "source": "manual"
+  }
+]

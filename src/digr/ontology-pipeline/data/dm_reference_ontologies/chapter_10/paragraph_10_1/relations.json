@@ -1,0 +1,56 @@
+[
+  {
+    "type": "Inheritance",
+    "name1": "Правильный разрез",
+    "name2": "Разрез",
+    "paragraph": "10.1",
+    "page": 1568,
+    "diagram": "ODM_10_1",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Простой разрез",
+    "name2": "Правильный разрез",
+    "paragraph": "10.1",
+    "page": 1568,
+    "diagram": "ODM_10_1",
+    "source": "manual"
+  },
+  {
+    "type": "Aggregation",
+    "name1": "Простой разрез",
+    "name2": "Фундаментальная система разрезов",
+    "paragraph": "10.1",
+    "page": 1568,
+    "diagram": "ODM_10_1",
+    "source": "manual"
+  },
+  {
+    "type": "Aggregation",
+    "name1": "Простой цикл",
+    "name2": "Фундаментальная система циклов",
+    "paragraph": "10.1",
+    "page": 1568,
+    "diagram": "ODM_10_1",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Простой цикл",
+    "name2": "Цикл",
+    "paragraph": "10.1",
+    "page": 1568,
+    "diagram": "ODM_10_1",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Цикл",
+    "name2": "Циклический вектор",
+    "paragraph": "10.1",
+    "page": 1568,
+    "diagram": "ODM_10_1",
+    "source": "manual"
+  }
+]

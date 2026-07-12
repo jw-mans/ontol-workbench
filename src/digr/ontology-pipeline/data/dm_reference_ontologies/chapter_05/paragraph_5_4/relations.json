@@ -1,0 +1,79 @@
+[
+  {
+    "type": "Composition",
+    "name1": "Блок разбиения",
+    "name2": "Множество",
+    "paragraph": "5.4",
+    "page": 937,
+    "diagram": "ODM5_3",
+    "source": "manual",
+    "predicate": "разбито на"
+  },
+  {
+    "type": "Dependency",
+    "name1": "Треугольник Белла",
+    "name2": "Число Белла B(m)",
+    "paragraph": "5.4",
+    "page": 937,
+    "diagram": "ODM5_3",
+    "source": "manual",
+    "predicate": "flow"
+  },
+  {
+    "type": "Dependency",
+    "name1": "Треугольник Стирлинга",
+    "name2": "Число Стирлинга S(m,n)",
+    "paragraph": "5.4",
+    "page": 937,
+    "diagram": "ODM5_3",
+    "source": "manual",
+    "predicate": "flow"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Число Белла B(m)",
+    "name2": "Комбинаторное число",
+    "paragraph": "5.4",
+    "page": 937,
+    "diagram": "ODM5_3",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Число Моргана M(m,n)",
+    "name2": "Комбинаторное число",
+    "paragraph": "5.4",
+    "page": 937,
+    "diagram": "ODM5_3",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Число Стирлинга S(m,n)",
+    "name2": "Комбинаторное число",
+    "paragraph": "5.4",
+    "page": 937,
+    "diagram": "ODM5_3",
+    "source": "manual"
+  },
+  {
+    "type": "Aggregation",
+    "name1": "Элемент",
+    "name2": "Блок разбиения",
+    "paragraph": "5.4",
+    "page": 937,
+    "diagram": "ODM5_3",
+    "source": "manual",
+    "predicate": "содержит"
+  },
+  {
+    "type": "Association",
+    "name1": "Элемент",
+    "name2": "Множество",
+    "paragraph": "5.4",
+    "page": 937,
+    "diagram": "ODM5_3",
+    "source": "manual",
+    "predicate": "содержит"
+  }
+]

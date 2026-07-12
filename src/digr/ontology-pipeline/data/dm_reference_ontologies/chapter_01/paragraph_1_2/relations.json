@@ -1,0 +1,67 @@
+[
+  {
+    "type": "Inheritance",
+    "name1": "Булеан",
+    "name2": "Покрытие",
+    "page": 111,
+    "diagram": "structure",
+    "paragraph": "1.2",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Булеан",
+    "name2": "Семейство множеств",
+    "page": 111,
+    "diagram": "structure",
+    "paragraph": "1.2",
+    "source": "manual"
+  },
+  {
+    "type": "Composition",
+    "name1": "Множество",
+    "name2": "Булеан",
+    "page": 111,
+    "diagram": "structure",
+    "paragraph": "1.2",
+    "source": "manual"
+  },
+  {
+    "type": "Association",
+    "name1": "Множество",
+    "name2": "Подмножество",
+    "predicate": "включает",
+    "predicateInv": "является частью",
+    "page": 111,
+    "diagram": "structure",
+    "paragraph": "1.2",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Подмножество",
+    "name2": "Множество",
+    "page": 111,
+    "diagram": "structure",
+    "paragraph": "1.2",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Покрытие",
+    "name2": "Семейство множеств",
+    "page": 111,
+    "diagram": "structure",
+    "paragraph": "1.2",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Разбиение",
+    "name2": "Покрытие",
+    "page": 111,
+    "diagram": "structure",
+    "paragraph": "1.2",
+    "source": "manual"
+  }
+]

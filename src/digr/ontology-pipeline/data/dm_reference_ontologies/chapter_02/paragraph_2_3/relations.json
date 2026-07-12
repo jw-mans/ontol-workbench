@@ -1,0 +1,29 @@
+[
+  {
+    "type": "Inheritance",
+    "name1": "Коммутативное",
+    "name2": "Кольцо",
+    "paragraph": "2.3",
+    "page": 405,
+    "diagram": "ODM2_3",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Область целостности",
+    "name2": "Кольцо",
+    "paragraph": "2.3",
+    "page": 405,
+    "diagram": "ODM2_3",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Поле",
+    "name2": "Область целостности",
+    "paragraph": "2.3",
+    "page": 405,
+    "diagram": "ODM2_3",
+    "source": "manual"
+  }
+]

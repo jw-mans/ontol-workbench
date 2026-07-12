@@ -1,0 +1,112 @@
+[
+  {
+    "type": "Inheritance",
+    "name1": "Отношение функциональное",
+    "name2": "Отношение",
+    "page": 228,
+    "diagram": "functions",
+    "paragraph": "1.6",
+    "source": "manual"
+  },
+  {
+    "type": "Dependency",
+    "name1": "Продолжение функции",
+    "name2": "Функция",
+    "page": 228,
+    "diagram": "functions",
+    "paragraph": "1.6",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Степень функции",
+    "name2": "Суперпозиция",
+    "page": 228,
+    "diagram": "functions",
+    "paragraph": "1.6",
+    "source": "manual"
+  },
+  {
+    "type": "Dependency",
+    "name1": "Степень функции",
+    "name2": "Функция",
+    "page": 228,
+    "diagram": "functions",
+    "paragraph": "1.6",
+    "source": "manual"
+  },
+  {
+    "type": "Dependency",
+    "name1": "Сужение функции",
+    "name2": "Функция",
+    "page": 228,
+    "diagram": "functions",
+    "paragraph": "1.6",
+    "source": "manual"
+  },
+  {
+    "type": "Dependency",
+    "name1": "Суперпозиция",
+    "name2": "Функция",
+    "page": 228,
+    "diagram": "functions",
+    "paragraph": "1.6",
+    "source": "manual"
+  },
+  {
+    "type": "Association",
+    "name1": "Функция",
+    "name2": "Отношение функциональное",
+    "predicate": "синонимично",
+    "predicateInv": "синонимично",
+    "page": 228,
+    "diagram": "functions",
+    "paragraph": "1.6",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Функция инъективная",
+    "name2": "Отношение",
+    "page": 228,
+    "diagram": "functions",
+    "paragraph": "1.6",
+    "source": "manual"
+  },
+  {
+    "type": "Dependency",
+    "name1": "Функция перехода к образам",
+    "name2": "Функция",
+    "page": 228,
+    "diagram": "functions",
+    "paragraph": "1.6",
+    "source": "manual"
+  },
+  {
+    "type": "Dependency",
+    "name1": "Функция перехода к прообразам",
+    "name2": "Функция",
+    "page": 228,
+    "diagram": "functions",
+    "paragraph": "1.6",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Функция сюръективная",
+    "name2": "Отношение",
+    "page": 228,
+    "diagram": "functions",
+    "paragraph": "1.6",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Функция тотальная",
+    "name2": "Отношение",
+    "page": 228,
+    "diagram": "functions",
+    "paragraph": "1.6",
+    "source": "manual"
+  }
+]

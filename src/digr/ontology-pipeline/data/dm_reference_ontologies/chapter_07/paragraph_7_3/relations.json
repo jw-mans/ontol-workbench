@@ -1,0 +1,205 @@
+[
+  {
+    "type": "Inheritance",
+    "name1": "Двудольный",
+    "name2": "Граф",
+    "paragraph": "7.3",
+    "page": 1234,
+    "diagram": "ODM7_3",
+    "source": "manual"
+  },
+  {
+    "type": "Dependency",
+    "name1": "Добавление вершины",
+    "name2": "Граф",
+    "paragraph": "7.3",
+    "page": 1234,
+    "diagram": "ODM7_3",
+    "source": "manual",
+    "predicate": "flow"
+  },
+  {
+    "type": "Dependency",
+    "name1": "Добавление ребра",
+    "name2": "Граф",
+    "paragraph": "7.3",
+    "page": 1234,
+    "diagram": "ODM7_3",
+    "source": "manual",
+    "predicate": "flow"
+  },
+  {
+    "type": "Dependency",
+    "name1": "Дополнение",
+    "name2": "Граф",
+    "paragraph": "7.3",
+    "page": 1234,
+    "diagram": "ODM7_3",
+    "source": "manual",
+    "predicate": "flow"
+  },
+  {
+    "type": "Association",
+    "name1": "Клика",
+    "name2": "Подграф",
+    "paragraph": "7.3",
+    "page": 1234,
+    "diagram": "ODM7_3",
+    "source": "manual",
+    "predicate": "задает"
+  },
+  {
+    "type": "Association",
+    "name1": "Клика",
+    "name2": "Полный",
+    "paragraph": "7.3",
+    "page": 1234,
+    "diagram": "ODM7_3",
+    "source": "manual",
+    "predicate": "задает"
+  },
+  {
+    "type": "Association",
+    "name1": "Независимое множество вершин",
+    "name2": "Подграф",
+    "paragraph": "7.3",
+    "page": 1234,
+    "diagram": "ODM7_3",
+    "source": "manual",
+    "predicate": "задает"
+  },
+  {
+    "type": "Association",
+    "name1": "Независимое множество вершин",
+    "name2": "Пустой",
+    "paragraph": "7.3",
+    "page": 1234,
+    "diagram": "ODM7_3",
+    "source": "manual",
+    "predicate": "задает"
+  },
+  {
+    "type": "Dependency",
+    "name1": "Объединение",
+    "name2": "Граф",
+    "paragraph": "7.3",
+    "page": 1234,
+    "diagram": "ODM7_3",
+    "source": "manual",
+    "predicate": "flow"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Подграф",
+    "name2": "Граф",
+    "paragraph": "7.3",
+    "page": 1234,
+    "diagram": "ODM7_3",
+    "source": "manual"
+  },
+  {
+    "type": "Dependency",
+    "name1": "Подразбиение ребра",
+    "name2": "Граф",
+    "paragraph": "7.3",
+    "page": 1234,
+    "diagram": "ODM7_3",
+    "source": "manual",
+    "predicate": "flow"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Полный",
+    "name2": "Граф",
+    "paragraph": "7.3",
+    "page": 1234,
+    "diagram": "ODM7_3",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Пустой",
+    "name2": "Граф",
+    "paragraph": "7.3",
+    "page": 1234,
+    "diagram": "ODM7_3",
+    "source": "manual"
+  },
+  {
+    "type": "Dependency",
+    "name1": "Размножение вершины",
+    "name2": "Граф",
+    "paragraph": "7.3",
+    "page": 1234,
+    "diagram": "ODM7_3",
+    "source": "manual",
+    "predicate": "flow"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Рёберный",
+    "name2": "Граф",
+    "paragraph": "7.3",
+    "page": 1234,
+    "diagram": "ODM7_3",
+    "source": "manual"
+  },
+  {
+    "type": "Dependency",
+    "name1": "Соединение",
+    "name2": "Граф",
+    "paragraph": "7.3",
+    "page": 1234,
+    "diagram": "ODM7_3",
+    "source": "manual",
+    "predicate": "flow"
+  },
+  {
+    "type": "Dependency",
+    "name1": "Стягивание подграфа",
+    "name2": "Граф",
+    "paragraph": "7.3",
+    "page": 1234,
+    "diagram": "ODM7_3",
+    "source": "manual",
+    "predicate": "flow"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Тривиальный",
+    "name2": "Полный",
+    "paragraph": "7.3",
+    "page": 1234,
+    "diagram": "ODM7_3",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Тривиальный",
+    "name2": "Пустой",
+    "paragraph": "7.3",
+    "page": 1234,
+    "diagram": "ODM7_3",
+    "source": "manual"
+  },
+  {
+    "type": "Dependency",
+    "name1": "Удаление вершины",
+    "name2": "Граф",
+    "paragraph": "7.3",
+    "page": 1234,
+    "diagram": "ODM7_3",
+    "source": "manual",
+    "predicate": "flow"
+  },
+  {
+    "type": "Dependency",
+    "name1": "Удаление ребра",
+    "name2": "Граф",
+    "paragraph": "7.3",
+    "page": 1234,
+    "diagram": "ODM7_3",
+    "source": "manual",
+    "predicate": "flow"
+  }
+]

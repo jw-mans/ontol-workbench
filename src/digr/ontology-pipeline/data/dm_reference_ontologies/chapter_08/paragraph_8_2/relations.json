@@ -1,0 +1,93 @@
+[
+  {
+    "type": "Composition",
+    "name1": "Вершина",
+    "name2": "Граф",
+    "paragraph": "8.2",
+    "page": 1299,
+    "diagram": "ODM_8_2",
+    "source": "manual"
+  },
+  {
+    "type": "Aggregation",
+    "name1": "Вершина",
+    "name2": "Множество вершин, разделяющих вершины u, v",
+    "paragraph": "8.2",
+    "page": 1299,
+    "diagram": "ODM_8_2",
+    "source": "manual"
+  },
+  {
+    "type": "Association",
+    "name1": "Вершина",
+    "name2": "Ребро",
+    "paragraph": "8.2",
+    "page": 1299,
+    "diagram": "ODM_8_2",
+    "source": "manual",
+    "predicate": "инцидентно"
+  },
+  {
+    "type": "Aggregation",
+    "name1": "Вершина",
+    "name2": "Цепь",
+    "paragraph": "8.2",
+    "page": 1299,
+    "diagram": "ODM_8_2",
+    "source": "manual"
+  },
+  {
+    "type": "Composition",
+    "name1": "Ребро",
+    "name2": "Граф",
+    "paragraph": "8.2",
+    "page": 1299,
+    "diagram": "ODM_8_2",
+    "source": "manual"
+  },
+  {
+    "type": "Aggregation",
+    "name1": "Ребро",
+    "name2": "Множество рёбер, разделяющих вершины u, v",
+    "paragraph": "8.2",
+    "page": 1299,
+    "diagram": "ODM_8_2",
+    "source": "manual"
+  },
+  {
+    "type": "Aggregation",
+    "name1": "Ребро",
+    "name2": "Цепь",
+    "paragraph": "8.2",
+    "page": 1299,
+    "diagram": "ODM_8_2",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Связный",
+    "name2": "Граф",
+    "paragraph": "8.2",
+    "page": 1299,
+    "diagram": "ODM_8_2",
+    "source": "manual"
+  },
+  {
+    "type": "Aggregation",
+    "name1": "Цепь",
+    "name2": "Множество вершинно-непересекающихся <u, v>-цепей",
+    "paragraph": "8.2",
+    "page": 1299,
+    "diagram": "ODM_8_2",
+    "source": "manual"
+  },
+  {
+    "type": "Aggregation",
+    "name1": "Цепь",
+    "name2": "Множество рёберно-непересекающихся <u, v>-цепей",
+    "paragraph": "8.2",
+    "page": 1299,
+    "diagram": "ODM_8_2",
+    "source": "manual"
+  }
+]

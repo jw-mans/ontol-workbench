@@ -1,0 +1,151 @@
+[
+  {
+    "type": "Dependency",
+    "name1": "Аксиома",
+    "name2": "Логический вывод",
+    "paragraph": "4.2",
+    "page": 684,
+    "diagram": "ODM4_2",
+    "source": "manual",
+    "predicate": "flow"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Аксиома",
+    "name2": "Теорема",
+    "paragraph": "4.2",
+    "page": 684,
+    "diagram": "ODM4_2",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Аксиоматизируемая",
+    "name2": "Формальная теория",
+    "paragraph": "4.2",
+    "page": 684,
+    "diagram": "ODM4_2",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Алфавит",
+    "name2": "Множество",
+    "paragraph": "4.2",
+    "page": 684,
+    "diagram": "ODM4_2",
+    "source": "manual"
+  },
+  {
+    "type": "Aggregation",
+    "name1": "Алфавит",
+    "name2": "Формальная теория",
+    "paragraph": "4.2",
+    "page": 684,
+    "diagram": "ODM4_2",
+    "source": "manual"
+  },
+  {
+    "type": "Dependency",
+    "name1": "Интерпретация",
+    "name2": "Константа",
+    "paragraph": "4.2",
+    "page": 684,
+    "diagram": "ODM4_2",
+    "source": "manual",
+    "predicate": "flow"
+  },
+  {
+    "type": "Dependency",
+    "name1": "Логический вывод",
+    "name2": "Теорема",
+    "paragraph": "4.2",
+    "page": 684,
+    "diagram": "ODM4_2",
+    "source": "manual",
+    "predicate": "flow"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Непротиворечивая",
+    "name2": "Формальная теория",
+    "paragraph": "4.2",
+    "page": 684,
+    "diagram": "ODM4_2",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Полная",
+    "name2": "Формальная теория",
+    "paragraph": "4.2",
+    "page": 684,
+    "diagram": "ODM4_2",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Правило вывода",
+    "name2": "Отношение",
+    "paragraph": "4.2",
+    "page": 684,
+    "diagram": "ODM4_2",
+    "source": "manual"
+  },
+  {
+    "type": "Aggregation",
+    "name1": "Правило вывода",
+    "name2": "Формальная теория",
+    "paragraph": "4.2",
+    "page": 684,
+    "diagram": "ODM4_2",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Разрешимая",
+    "name2": "Формальная теория",
+    "paragraph": "4.2",
+    "page": 684,
+    "diagram": "ODM4_2",
+    "source": "manual"
+  },
+  {
+    "type": "Inheritance",
+    "name1": "Теорема",
+    "name2": "Формула",
+    "paragraph": "4.2",
+    "page": 684,
+    "diagram": "ODM4_2",
+    "source": "manual"
+  },
+  {
+    "type": "Dependency",
+    "name1": "Формула",
+    "name2": "Интерпретация",
+    "paragraph": "4.2",
+    "page": 684,
+    "diagram": "ODM4_2",
+    "source": "manual",
+    "predicate": "flow"
+  },
+  {
+    "type": "Dependency",
+    "name1": "Формула",
+    "name2": "Логический вывод",
+    "paragraph": "4.2",
+    "page": 684,
+    "diagram": "ODM4_2",
+    "source": "manual",
+    "predicate": "flow"
+  },
+  {
+    "type": "Aggregation",
+    "name1": "Формула",
+    "name2": "Формальная теория",
+    "paragraph": "4.2",
+    "page": 684,
+    "diagram": "ODM4_2",
+    "source": "manual"
+  }
+]
