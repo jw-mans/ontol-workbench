@@ -1,10 +1,3 @@
-"""Окружение миграций Alembic (async).
-
-URL и метаданные берём из приложения: ``settings.database_url`` и
-``Base.metadata``. Модели импортируются ниже (``import app.models``), чтобы
-автогенерация их видела.
-"""
-
 import asyncio
 import os
 import sys

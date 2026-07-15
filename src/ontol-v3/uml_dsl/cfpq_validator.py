@@ -11,25 +11,31 @@ from .rpq_cycles import (
 )
 
 
-def validate_uml_cycles(diagram) -> list[str]:
-    """Список ошибок по циклам зависимостей; пустой — если их нет."""
+def validate_uml_cycles(diagram) -> tuple[list[str], list[str]]:
+    """Вернуть (ошибки, предупреждения) по циклам зависимостей.
+
+    Цикл наследования — жёсткая ошибка (логически невозможен). Антипаттерн
+    a^+ b^+ a^+ b^+ — предупреждение: это архитектурный smell, а не ошибка, и
+    он естественно возникает, например, из пары ассоциация+обобщение.
+    """
     errors: list[str] = []
+    warnings: list[str] = []
 
     class_names, edges = diagram_to_labeled_graph(diagram)
     n = len(class_names)
     if n == 0:
-        return errors
+        return errors, warnings
 
     for i in sorted(inheritance_cycle_vertices(n, edges)):
         errors.append(f"Обнаружен цикл наследования для класса '{class_names[i]}'")
 
     for i in sorted(abab_cycle_vertices(n, edges)):
-        errors.append(
+        warnings.append(
             f"Обнаружен циклический архитектурный антипаттерн взаимосвязи иерархий (a^+ b^+ a^+ b^+) "
             f"для класса '{class_names[i]}'"
         )
 
-    return errors
+    return errors, warnings
 
 
 if __name__ == "__main__":
@@ -43,15 +49,15 @@ if __name__ == "__main__":
     d_correct.add_classifier(Class(name="Animal"))
     d_correct.add_classifier(Class(name="Dog"))
     d_correct.add_generalization(specific="Dog", general="Animal")
-    print("чистая:", validate_uml_cycles(d_correct) or "ок")
+    print("чистая:", validate_uml_cycles(d_correct))  # ([], [])
 
-    # 2) цикл наследования ClassA <-> ClassB
+    # 2) цикл наследования ClassA <-> ClassB (ошибка)
     d_cycle = ClassDiagram()
     d_cycle.add_classifier(Class(name="ClassA"))
     d_cycle.add_classifier(Class(name="ClassB"))
     d_cycle.add_generalization(specific="ClassA", general="ClassB")
     d_cycle.add_generalization(specific="ClassB", general="ClassA")
-    print("цикл наследования:", validate_uml_cycles(d_cycle))
+    print("цикл наследования (ошибки, предупр.):", validate_uml_cycles(d_cycle))
 
     # 3) антипаттерн: A -a-> B -b-> C -a-> D -b-> A
     d_abab = ClassDiagram()
@@ -61,4 +67,4 @@ if __name__ == "__main__":
     d_abab.add_generalization(specific="C", general="D")
     d_abab.add_dependency(client="B", supplier="C", stereotype=DependencyStereotype.USE)
     d_abab.add_dependency(client="D", supplier="A", stereotype=DependencyStereotype.USE)
-    print("антипаттерн:", validate_uml_cycles(d_abab))
+    print("антипаттерн (ошибки, предупр.):", validate_uml_cycles(d_abab))

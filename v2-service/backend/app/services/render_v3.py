@@ -1,10 +1,10 @@
 """
-Сборка TDL-файла (ontol-v3) в SVG через пакет ``uml_dsl`` (Graphviz).
+Сборка онтологии на TDL (ontol-v3) в SVG через пакет ``uml_dsl`` (Graphviz).
 
 Отдельный движок от v1: свой язык TDL, рендер через бинарь ``dot``. Пакет
 ``uml_dsl`` ставится в образ (``pip install -e src/ontol-v3``), сам ``dot``
-ставится apt-пакетом ``graphviz``. Файл однофайловый — импортов между файлами в
-TDL нет, поэтому материализация каталога не нужна.
+ставится apt-пакетом ``graphviz``. Все ``.tdl``-файлы проекта (и подпроектов)
+сливаются в одну онтологию: одноимённые классы дедуплятся, связи объединяются.
 """
 
 from __future__ import annotations
@@ -13,33 +13,25 @@ from app.services.render import BuildResult
 
 
 def _render(
-    text: str, *, analyzed: bool, strict: bool = False
+    texts: list[str], *, strict: bool = False
 ) -> tuple[str | None, list[str], dict | None, str | None]:
     """
-    Отрендерить TDL -> ``(svg, warnings, planarity, error)``.
+    Слить набор TDL-текстов в одну онтологию и отрендерить.
 
-    :param text: текст TDL
-    :param analyzed: True = анализ планарности, False = только рендер
-    :param strict: True = строгая семантика, False = lenient (только предупреждения)
+    :param texts: тексты ``.tdl`` (несколько файлов проекта)
+    :param strict: True = строгая семантика, False = мягко (только предупреждения)
 
-    :return: svg (или None), список предупреждений, планарность (или None), ошибка (или None)
+    :return: svg (или None), предупреждения, планарность (или None), ошибка (или None)
     """
     try:
         from uml_dsl.tdl_lexer import LexerError
         from uml_dsl.tdl_parser import ParseError
-
-        if analyzed:
-            from uml_dsl.tdl_run import tdl_to_svg_analyzed
-        else:
-            from uml_dsl.tdl_run import tdl_to_svg
+        from uml_dsl.tdl_run import tdl_merged_to_svg_analyzed
     except ImportError as error:  # пакет uml_dsl не установлен в образе
         return None, [], None, f'Движок ontol-v3 (uml_dsl) недоступен: {error}'
 
     try:
-        if analyzed:
-            svg, warnings, planarity = tdl_to_svg_analyzed(text, strict=strict)
-        else:
-            svg, warnings, planarity = tdl_to_svg(text, strict=strict), [], None
+        svg, warnings, planarity = tdl_merged_to_svg_analyzed(texts, strict=strict)
     except LexerError as error:
         return None, [], None, f'Ошибка лексера: {error}'
     except ParseError as error:
@@ -52,16 +44,22 @@ def _render(
     return svg, warnings, planarity, None
 
 
+def _tdl_texts(files: dict[str, str]) -> list[str]:
+    """Тексты всех ``.tdl``-файлов набора, по имени (детерминированный порядок)."""
+    return [content for name, content in sorted(files.items()) if name.endswith('.tdl')]
+
+
 def build_tdl(files: dict[str, str], entry: str) -> BuildResult:
     """
-    Собрать ``.tdl`` в ``BuildResult`` (аналог v1 ``build_ontol``), мягко.
+    Собрать онтологию из всех ``.tdl`` набора в ``BuildResult`` (мягкий режим).
 
-    :param files: словарь имя -> текст TDL
-    :param entry: имя файла, с которого начинать сборку
+    :param files: словарь имя -> текст (файлы проекта и подпроектов)
+    :param entry: точка входа (используется лишь для выбора движка выше)
 
     :return: BuildResult
     """
-    svg, warnings, planarity, error = _render(files[entry], analyzed=True, strict=False)
+    texts = _tdl_texts(files) or [files[entry]]
+    svg, warnings, planarity, error = _render(texts, strict=False)
     if error:
         return BuildResult(ok=False, error=error)
     return BuildResult(ok=True, svg=svg, warnings=warnings, planarity=planarity)
@@ -69,12 +67,12 @@ def build_tdl(files: dict[str, str], entry: str) -> BuildResult:
 
 def build_tdl_svg(text: str, strict: bool = True) -> tuple[str | None, str | None]:
     """
-    TDL -> SVG без анализа планарности. Для юнит-тестов; strict по умолчанию.
+    TDL -> SVG (одна онтология из одного текста). Для юнит-тестов; strict по умолчанию.
 
     :param text: текст TDL
-    :param strict: True = строгая семантика, False = lenient (только предупреждения)
-    
+    :param strict: True = строгая семантика, False = мягко (только предупреждения)
+
     :return: svg (или None), ошибка (или None)
     """
-    svg, _warnings, _planarity, error = _render(text, analyzed=False, strict=strict)
+    svg, _warnings, _planarity, error = _render([text], strict=strict)
     return svg, error

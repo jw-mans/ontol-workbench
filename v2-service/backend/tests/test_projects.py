@@ -28,6 +28,35 @@ async def test_projects_crud(auth_client):
     assert (await auth_client.get(f'/projects/{pid}')).status_code == 404
 
 
+async def test_subprojects(auth_client):
+    root = (await auth_client.post('/projects', json={'name': 'root'})).json()
+    assert root['parent_id'] is None
+
+    # подпроект под root
+    r = await auth_client.post(
+        '/projects', json={'name': 'sub', 'parent_id': root['id']}
+    )
+    assert r.status_code == 201, r.text
+    assert r.json()['parent_id'] == root['id']
+
+    # одноимённый подпроект под тем же родителем — конфликт
+    r = await auth_client.post(
+        '/projects', json={'name': 'sub', 'parent_id': root['id']}
+    )
+    assert r.status_code == 409
+
+    # то же имя, но в корне — можно (другой родитель)
+    r = await auth_client.post('/projects', json={'name': 'sub'})
+    assert r.status_code == 201
+
+    # чужой/несуществующий родитель — 404
+    import uuid as _uuid
+    r = await auth_client.post(
+        '/projects', json={'name': 'x', 'parent_id': str(_uuid.uuid4())}
+    )
+    assert r.status_code == 404
+
+
 async def test_unauth_projects(client):
     assert (await client.get('/projects')).status_code == 401
 

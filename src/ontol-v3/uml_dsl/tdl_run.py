@@ -47,13 +47,19 @@ def tdl_to_svg_analyzed(
     (для красной подсветки), ``subgraphs`` — разбивка по каждому подграфу
     (``{kind, labels}``), ``count`` — их число.
     """
-    from uml_dsl.planarity import analyze
-
     tokens = lex(tdl_text)
     doc = parse_tdl(tokens)
     diagram = build_diagram(doc)
     # при strict=False нарушения вернутся списком, а не бросят исключение
-    validation_warnings = diagram.validate_all(strict=strict)
+    warnings = diagram.validate_all(strict=strict)
+    return _analyzed_from_diagram(diagram, warnings)
+
+
+def _analyzed_from_diagram(
+    diagram, warnings: list[str]
+) -> tuple[str, list[str], dict | None]:
+    """Планарная раскладка (если возможна) и рендер готовой диаграммы в SVG."""
+    from uml_dsl.planarity import analyze
 
     result = analyze(diagram)
     planarity: dict | None = None
@@ -70,8 +76,65 @@ def tdl_to_svg_analyzed(
             ],
             'count': len(result.obstructions),
         }
+    return diagram_to_graphviz_svg(diagram), warnings, planarity
 
-    return diagram_to_graphviz_svg(diagram), validation_warnings, planarity
+
+def merge_tdl_documents(texts):
+    """Слить несколько TDL-текстов в один документ.
+
+    Типы (классы, интерфейсы, типы данных, перечисления, шаблоны, классы
+    ассоциаций) дедуплятся по имени — одноимённый считается тем же понятием,
+    берётся первое объявление. Связи и команды размещения объединяются, точные
+    дубли отбрасываются.
+    """
+    from uml_dsl.tdl_ast import (
+        AssociationClassDecl,
+        ClassDecl,
+        DataTypeDecl,
+        Document,
+        EnumDecl,
+        InterfaceDecl,
+        LayoutBlock,
+        TemplateDecl,
+    )
+
+    named = (
+        ClassDecl, InterfaceDecl, DataTypeDecl,
+        EnumDecl, TemplateDecl, AssociationClassDecl,
+    )
+    declarations: list = []
+    seen_named: set[tuple[str, str]] = set()
+    seen_other: list = []
+    layout_commands: list = []
+
+    for text in texts:
+        doc = parse_tdl(lex(text))
+        for decl in doc.declarations:
+            if isinstance(decl, named):
+                key = (type(decl).__name__, decl.name)
+                if key in seen_named:
+                    continue
+                seen_named.add(key)
+                declarations.append(decl)
+            else:
+                if decl in seen_other:
+                    continue
+                seen_other.append(decl)
+                declarations.append(decl)
+        if doc.layout is not None:
+            layout_commands.extend(doc.layout.commands)
+
+    layout = LayoutBlock(commands=layout_commands) if layout_commands else None
+    return Document(declarations=declarations, layout=layout)
+
+
+def tdl_merged_to_svg_analyzed(
+    texts, strict: bool = True
+) -> tuple[str, list[str], dict | None]:
+    """Слить набор TDL-текстов в одну онтологию и отрендерить (с планарностью)."""
+    diagram = build_diagram(merge_tdl_documents(texts))
+    warnings = diagram.validate_all(strict=strict)
+    return _analyzed_from_diagram(diagram, warnings)
 
 
 def main() -> int:

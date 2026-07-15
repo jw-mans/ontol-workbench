@@ -6,8 +6,14 @@ export async function listProjects(): Promise<Project[]> {
   return data
 }
 
-export async function createProject(name: string): Promise<Project> {
-  const { data } = await api.post<Project>('/projects', { name })
+export async function createProject(
+  name: string,
+  parentId: string | null = null,
+): Promise<Project> {
+  const { data } = await api.post<Project>('/projects', {
+    name,
+    parent_id: parentId,
+  })
   return data
 }
 

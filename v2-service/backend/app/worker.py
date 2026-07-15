@@ -20,6 +20,7 @@ from sqlalchemy import select
 from app.config import settings
 from app.db import async_session_maker
 from app.models.file import File
+from app.models.project import Project
 from app.queue import AI_HIERARCHY, RENDER_BUILD, redis_settings
 from app.services.ai import AIHierarchyResult, generate_hierarchy
 from app.services.render import BuildResult, build_project
@@ -35,21 +36,52 @@ async def _load_files(project_id: str) -> dict[str, str]:
         return {f.name: f.content for f in result.scalars().all()}
 
 
+async def _load_subtree_tdl(root_id: str) -> dict[str, str]:
+    """Собрать ``.tdl``-файлы проекта и всех его подпроектов.
+
+    Ключи — ``<project_id>/<имя>`` (уникальны между подпроектами, чтобы
+    одноимённые файлы не затирали друг друга; сборка v3 сливает по именам
+    классов, а не файлов).
+    """
+    collected: dict[str, str] = {}
+    async with async_session_maker() as session:
+        pending = [uuid.UUID(root_id)]
+        seen: set[uuid.UUID] = set()
+        while pending:
+            pid = pending.pop()
+            if pid in seen:
+                continue
+            seen.add(pid)
+            files = await session.execute(select(File).where(File.project_id == pid))
+            for f in files.scalars().all():
+                if f.name.endswith('.tdl'):
+                    collected[f'{pid}/{f.name}'] = f.content
+            children = await session.execute(
+                select(Project.id).where(Project.parent_id == pid)
+            )
+            pending.extend(children.scalars().all())
+    return collected
+
+
 def _choose_entry(entry: str | None, files: dict[str, str]) -> str:
     return entry or (DEFAULT_ENTRY if DEFAULT_ENTRY in files else sorted(files)[0])
 
 
 async def render_build(ctx: dict, project_id: str, entry: str | None) -> dict:
-    """Собрать проект: прочитать его файлы из БД и отрендерить.
+    """Собрать проект: прочитать файлы из БД и отрендерить.
 
     Возвращает dict из ``BuildResult`` (ok/json/puml/png_url/warnings/error) —
-    arq сохранит его как результат задачи в Redis.
+    arq сохранит его как результат задачи в Redis. Для TDL (v3) сливаются
+    ``.tdl`` всего поддерева проекта в одну онтологию; для v1 — файлы проекта.
     """
     files = await _load_files(project_id)
     if not files:
         return asdict(BuildResult(ok=False, error='Project has no files'))
 
     chosen = _choose_entry(entry, files)
+    if chosen.endswith('.tdl'):
+        files = await _load_subtree_tdl(project_id)
+        chosen = next(iter(files))  # для v3 сливается всё поддерево, точка входа любая
     # build_project блокирующий — в отдельный поток.
     build_result = await asyncio.to_thread(
         build_project, files, chosen, settings.plantuml_url

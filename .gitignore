@@ -44,3 +44,6 @@ v2-service/frontend/README.md
 
 # Alembic migrations
 alembic/versions/
+
+# Extra docs
+practice-report/

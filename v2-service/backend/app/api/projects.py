@@ -43,15 +43,34 @@ async def create_project(
     session: AsyncSession = Depends(get_async_session),
 ) -> Project:
     """
-    Создать новый проект. Имя обязано быть уникальным для пользователя.
+    Создать проект или подпроект. Имя уникально среди соседей (одного родителя).
 
-    :param data: параметры запроса (имя проекта)
+    :param data: параметры запроса (имя, опционально parent_id)
     :param user: текущий пользователь
     :param session: асинхронная сессия SQLAlchemy
 
     :return: созданный проект
     """
-    project = Project(owner_id=user.id, name=data.name)
+    if data.parent_id is not None:
+        parent = await session.get(Project, data.parent_id)
+        if parent is None or parent.owner_id != user.id:
+            raise HTTPException(status.HTTP_404_NOT_FOUND, 'Parent project not found')
+
+    # Уникальность среди соседей: у корней parent_id = NULL, а NULL в
+    # unique-констрейнте БД считается различным, поэтому проверяем явно.
+    dup = await session.execute(
+        select(Project.id).where(
+            Project.owner_id == user.id,
+            Project.parent_id == data.parent_id,
+            Project.name == data.name,
+        )
+    )
+    if dup.first() is not None:
+        raise HTTPException(
+            status.HTTP_409_CONFLICT, 'Project with this name already exists'
+        )
+
+    project = Project(owner_id=user.id, name=data.name, parent_id=data.parent_id)
     session.add(project)
     try:
         await session.commit()

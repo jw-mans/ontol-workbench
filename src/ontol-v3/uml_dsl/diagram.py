@@ -350,28 +350,34 @@ class ClassDiagram(BaseModel):
     def validate_all(self, *, strict: bool = True) -> list[str]:
         """Прогнать все глобальные проверки.
 
-        При strict первое же нарушение бросает ValueError. Иначе проверки не
-        прерывают друг друга, а их сообщения возвращаются списком — тогда
-        диаграмму можно отрисовать как есть, с пометкой о проблемах.
+        При strict первое же нарушение-ошибка бросает ValueError. Иначе ошибки
+        не прерывают друг друга, а их сообщения собираются. В любом режиме
+        возвращается список предупреждений (в т.ч. мягких, которые проверки
+        отдают возвратом, а не исключением) — чтобы отрисовать диаграмму как
+        есть, с пометкой о проблемах.
         """
         warnings: list[str] = []
         for name in self._GLOBAL_VALIDATORS:
             try:
-                getattr(self, name)()
+                result = getattr(self, name)()
+                if result:  # мягкие предупреждения (напр., от validate_cfpq_cycles)
+                    warnings.extend(result)
             except ValueError as error:
                 if strict:
                     raise
                 warnings.append(str(error))
         return warnings
 
-    def validate_cfpq_cycles(self) -> None:
-        """Циклы наследования и антипаттерн a+ b+ a+ b+. Импорт ленивый:
-        cfpq_validator сам тянет этот модуль."""
+    def validate_cfpq_cycles(self) -> list[str]:
+        """Цикл наследования — ошибка (ValueError). Антипаттерн a+ b+ a+ b+ —
+        мягкое предупреждение (возвращается). Импорт ленивый: cfpq_validator
+        сам тянет этот модуль."""
         from .cfpq_validator import validate_uml_cycles
 
-        errors = validate_uml_cycles(self)
+        errors, warnings = validate_uml_cycles(self)
         if errors:
             raise ValueError('; '.join(errors))
+        return warnings
 
     def validate_redefines_references(self) -> None:
         """Проверяем, что каждое `redefines` ссылается на реально существующее

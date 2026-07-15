@@ -19,21 +19,20 @@ def test_cfpq_clean_diagram_passes():
     d.validate_all()
 
 
-def test_cfpq_abab_antipattern_fails():
-    """Тест: Сложный цикл ABAB должен приводить к ошибке ValueError."""
+def test_cfpq_abab_antipattern_warns():
+    """Антипаттерн ABAB — предупреждение (не ошибка): validate_all не бросает,
+    а возвращает его в списке предупреждений даже в строгом режиме."""
     d = ClassDiagram()
     d.add_classifier(Class(name="ServiceAbstract"))
     d.add_classifier(Class(name="ServiceConcrete"))
     d.add_classifier(Class(name="RepositoryAbstract"))
     d.add_classifier(Class(name="RepositoryConcrete"))
-    
+
     d.add_generalization(specific="ServiceConcrete", general="ServiceAbstract")
     d.add_generalization(specific="RepositoryConcrete", general="RepositoryAbstract")
-    
+
     d.add_dependency(client="ServiceAbstract", supplier="RepositoryConcrete", stereotype=DependencyStereotype.USE)
     d.add_dependency(client="RepositoryAbstract", supplier="ServiceConcrete", stereotype=DependencyStereotype.USE)
-    
-    with pytest.raises(ValueError) as exc_info:
-        d.validate_all()
-    
-    assert "антипаттерн" in str(exc_info.value).lower() or "цикл" in str(exc_info.value).lower()
+
+    warnings = d.validate_all()
+    assert any("антипаттерн" in w.lower() for w in warnings)
