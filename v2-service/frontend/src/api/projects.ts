@@ -9,10 +9,12 @@ export async function listProjects(): Promise<Project[]> {
 export async function createProject(
   name: string,
   parentId: string | null = null,
+  engine: 'v1' | 'v3' = 'v1',
 ): Promise<Project> {
   const { data } = await api.post<Project>('/projects', {
     name,
     parent_id: parentId,
+    engine,
   })
   return data
 }

@@ -36,12 +36,17 @@ async def _load_files(project_id: str) -> dict[str, str]:
         return {f.name: f.content for f in result.scalars().all()}
 
 
-async def _load_subtree_tdl(root_id: str) -> dict[str, str]:
-    """Собрать ``.tdl``-файлы проекта и всех его подпроектов.
+async def _load_engine(project_id: str) -> str | None:
+    async with async_session_maker() as session:
+        project = await session.get(Project, uuid.UUID(project_id))
+        return project.engine if project else None
 
-    Ключи — ``<project_id>/<имя>`` (уникальны между подпроектами, чтобы
-    одноимённые файлы не затирали друг друга; сборка v3 сливает по именам
-    классов, а не файлов).
+
+async def _load_subtree_tdl(root_id: str) -> dict[str, str]:
+    """Собрать ``.tdl``-файлы проекта и всех подпроектов (v3).
+
+    Ключи — ``<project_id>/<имя>`` (уникальны между подпроектами; сборка v3
+    сливает по именам классов, а не файлов).
     """
     collected: dict[str, str] = {}
     async with async_session_maker() as session:
@@ -63,25 +68,59 @@ async def _load_subtree_tdl(root_id: str) -> dict[str, str]:
     return collected
 
 
+async def _load_subtree_ontol(root_id: str) -> dict[str, str]:
+    """Собрать ``.ontol``-файлы дерева с относительными путями (v1).
+
+    Подпроект материализуется как подкаталог (имя каталога = имя подпроекта),
+    поэтому ``import ... from "Подпроект/файл.ontol"`` резолвится по пути.
+    Файлы корня лежат на верхнем уровне (без префикса).
+    """
+    collected: dict[str, str] = {}
+    async with async_session_maker() as session:
+        pending = [(uuid.UUID(root_id), '')]
+        seen: set[uuid.UUID] = set()
+        while pending:
+            pid, prefix = pending.pop()
+            if pid in seen:
+                continue
+            seen.add(pid)
+            files = await session.execute(select(File).where(File.project_id == pid))
+            for f in files.scalars().all():
+                if f.name.endswith('.ontol'):
+                    collected[f'{prefix}{f.name}'] = f.content
+            children = await session.execute(
+                select(Project.id, Project.name).where(Project.parent_id == pid)
+            )
+            for cid, cname in children.all():
+                pending.append((cid, f'{prefix}{cname}/'))
+    return collected
+
+
 def _choose_entry(entry: str | None, files: dict[str, str]) -> str:
     return entry or (DEFAULT_ENTRY if DEFAULT_ENTRY in files else sorted(files)[0])
 
 
 async def render_build(ctx: dict, project_id: str, entry: str | None) -> dict:
-    """Собрать проект: прочитать файлы из БД и отрендерить.
+    """Собрать проект: прочитать файлы дерева из БД и отрендерить.
 
-    Возвращает dict из ``BuildResult`` (ok/json/puml/png_url/warnings/error) —
-    arq сохранит его как результат задачи в Redis. Для TDL (v3) сливаются
-    ``.tdl`` всего поддерева проекта в одну онтологию; для v1 — файлы проекта.
+    Возвращает dict из ``BuildResult``. Язык берётся из проекта: v3 сливает
+    ``.tdl`` всего поддерева в одну онтологию; v1 материализует дерево как
+    подкаталоги (импорты между подпроектами резолвятся по пути).
     """
-    files = await _load_files(project_id)
-    if not files:
-        return asdict(BuildResult(ok=False, error='Project has no files'))
+    engine = await _load_engine(project_id)
 
-    chosen = _choose_entry(entry, files)
-    if chosen.endswith('.tdl'):
+    if engine == 'v3':
         files = await _load_subtree_tdl(project_id)
-        chosen = next(iter(files))  # для v3 сливается всё поддерево, точка входа любая
+        if not files:
+            return asdict(BuildResult(ok=False, error='Project has no files'))
+        chosen = next(iter(files))  # v3 сливает всё поддерево, точка входа любая
+    else:
+        own = await _load_files(project_id)
+        if not own:
+            return asdict(BuildResult(ok=False, error='Project has no files'))
+        chosen = _choose_entry(entry, own)  # точка входа — файл корня
+        files = await _load_subtree_ontol(project_id)
+
     # build_project блокирующий — в отдельный поток.
     build_result = await asyncio.to_thread(
         build_project, files, chosen, settings.plantuml_url

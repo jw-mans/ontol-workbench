@@ -59,9 +59,10 @@ async def test_render_build_tdl_merges_subtree(session_maker, monkeypatch):
     # проект с .tdl + подпроект с .tdl → сборка v3 собирает всё поддерево
     async with session_maker() as session:
         owner = uuid.uuid4()
-        root = Project(id=uuid.uuid4(), owner_id=owner, name='root')
+        root = Project(id=uuid.uuid4(), owner_id=owner, name='root', engine='v3')
         child = Project(
-            id=uuid.uuid4(), owner_id=owner, parent_id=root.id, name='sub'
+            id=uuid.uuid4(), owner_id=owner, parent_id=root.id, name='sub',
+            engine='v3',
         )
         session.add_all([root, child])
         session.add(File(project_id=root.id, name='a.tdl', content='КЛАСС A\nКОНЕЦ КЛАСС'))

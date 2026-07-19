@@ -2,25 +2,24 @@ import { useState, type SyntheticEvent } from 'react'
 
 import { Modal } from './Modal'
 
-const EXTS = ['.ontol', '.tdl'] as const
-type Ext = (typeof EXTS)[number]
-
-const LABEL: Record<Ext, string> = {
-  '.ontol': 'Ontol v1 (.ontol)',
-  '.tdl': 'TDL v3 (.tdl)',
+const ENGINE_EXT: Record<'v1' | 'v3', string> = {
+  v1: '.ontol',
+  v3: '.tdl',
 }
 
-/** Создание файла с выбором движка по расширению: .ontol (v1) или .tdl (v3). */
+/** Создание файла. Расширение задаётся языком проекта: v1 → .ontol, v3 → .tdl. */
 export function CreateFileDialog({
+  engine,
   onSubmit,
   onCancel,
 }: {
+  engine: 'v1' | 'v3'
   onSubmit: (fullName: string) => void
   onCancel: () => void
 }) {
   const [name, setName] = useState('')
-  const [ext, setExt] = useState<Ext>('.ontol')
-  // Убираем расширение, если пользователь ввёл его сам — добавим выбранное.
+  const ext = ENGINE_EXT[engine]
+  // Убираем расширение, если пользователь ввёл его сам — добавим нужное.
   const base = name.trim().replace(/\.(ontol|tdl)$/i, '')
 
   function submit(e: SyntheticEvent) {
@@ -40,18 +39,9 @@ export function CreateFileDialog({
           maxLength={255}
           autoFocus
         />
-        <div className="row seg-control">
-          {EXTS.map((x) => (
-            <button
-              key={x}
-              type="button"
-              className={`btn ${x === ext ? 'btn-primary' : ''}`}
-              onClick={() => setExt(x)}
-            >
-              {LABEL[x]}
-            </button>
-          ))}
-        </div>
+        <span className="muted">
+          Расширение <code>{ext}</code> — по языку проекта
+        </span>
         <div className="row modal-actions">
           <div className="spacer" />
           <button type="button" className="btn" onClick={onCancel}>

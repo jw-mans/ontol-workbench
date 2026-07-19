@@ -21,6 +21,7 @@ class Project(Base):
     :param id: UUID проекта
     :param owner_id: UUID владельца проекта (пользователя)
     :param parent_id: UUID родительского проекта или None (корень)
+    :param engine: движок/язык проекта ('v1' — ONTOL, 'v3' — TDL)
     :param name: имя проекта
     :param created_at: время создания проекта
     :param updated_at: время последнего обновления проекта
@@ -29,7 +30,7 @@ class Project(Base):
     """
 
     __tablename__ = 'project'
-    # Имя уникально среди соседей (одного родителя) у одного владельца.
+    
     __table_args__ = (
         UniqueConstraint(
             'owner_id', 'parent_id', 'name', name='uq_project_owner_parent_name'
@@ -46,6 +47,8 @@ class Project(Base):
         nullable=True,
         index=True,
     )
+    
+    engine: Mapped[str] = mapped_column(String(2), nullable=False, default='v1')
     name: Mapped[str] = mapped_column(String(100), nullable=False)
     created_at: Mapped[datetime] = mapped_column(
         DateTime(timezone=True), server_default=func.now(), nullable=False

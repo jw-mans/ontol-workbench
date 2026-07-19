@@ -28,20 +28,29 @@ def build_ontol(
     files: dict[str, str], entry: str, plantuml_url: str
 ) -> BuildResult:
     """
-    Собрать ``.ontol``-проект.
-    
-    :param files: словарь имя -> текст Ontol DSL
-    :param entry: имя файла, с которого начинать сборку
+    Собрать ``.ontol``-проект (с подпроектами).
+
+    Ключи ``files`` — относительные пути (подпроект = подкаталог), поэтому
+    записываем их напрямую с созданием каталогов: так ``import ... from
+    "Подпроект/файл.ontol"`` резолвится парсером по относительному пути.
+
+    :param files: словарь относительный_путь -> текст Ontol DSL
+    :param entry: файл-точка входа (в корне проекта)
     :param plantuml_url: URL сервиса PlantUML (для рендера PNG)
 
     :return: BuildResult
     """
     tmp_dir = tempfile.mkdtemp(prefix='ontol_build_')
     try:
-        project = Project(tmp_dir)
-        for name, content in files.items():
-            project.write_file(name, content)
-        return _render(project, entry, plantuml_url)
+        root = os.path.abspath(tmp_dir)
+        for relpath, content in files.items():
+            dest = os.path.abspath(os.path.join(root, relpath))
+            if os.path.commonpath([root, dest]) != root:
+                continue
+            os.makedirs(os.path.dirname(dest), exist_ok=True)
+            with open(dest, 'w', encoding='utf-8') as f:
+                f.write(content)
+        return _render(Project(tmp_dir), entry, plantuml_url)
     finally:
         shutil.rmtree(tmp_dir, ignore_errors=True)
 

@@ -19,18 +19,21 @@ from app.schemas.file import (
     FileUpdate,
 )
 
-ONTOL_EXT = '.ontol'
-# Расширения известных движков: 
-#   .ontol -> v1 (PlantUML), 
-#   .tdl -> v3 (Graphviz).
-KNOWN_EXTS = (ONTOL_EXT, '.tdl')
+# Расширение файла определяется языком проекта: v1 -> .ontol, v3 -> .tdl.
+_ENGINE_EXT = {'v1': '.ontol', 'v3': '.tdl'}
+KNOWN_EXTS = tuple(_ENGINE_EXT.values())
 
 router = APIRouter(prefix='/projects/{project_id}/files', tags=['files'])
 
 
-def _with_ext(name: str) -> str:
-    """Гарантировать расширение движка: .tdl оставляем, иначе по умолчанию .ontol."""
-    return name if name.endswith(KNOWN_EXTS) else name + ONTOL_EXT
+def _with_ext(name: str, engine: str) -> str:
+    """Привести имя к расширению языка проекта (чтобы не смешивать .ontol/.tdl)."""
+    ext = _ENGINE_EXT.get(engine, '.ontol')
+    for known in KNOWN_EXTS:
+        if name.endswith(known):
+            name = name[: -len(known)]
+            break
+    return name + ext
 
 
 async def _get_file(
@@ -79,7 +82,9 @@ async def create_file(
     :return: созданный файл
     """
     file = File(
-        project_id=project.id, name=_with_ext(data.name), content=data.content
+        project_id=project.id,
+        name=_with_ext(data.name, project.engine),
+        content=data.content,
     )
     session.add(file)
     try:
@@ -153,7 +158,7 @@ async def rename_file(
     :return: обновленный файл
     """
     file = await _get_file(file_id, project, session)
-    file.name = _with_ext(data.name)
+    file.name = _with_ext(data.name, project.engine)
     try:
         await session.commit()
     except IntegrityError:

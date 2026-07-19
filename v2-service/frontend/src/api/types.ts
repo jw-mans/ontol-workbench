@@ -10,6 +10,7 @@ export interface User {
 export interface Project {
   id: string
   parent_id: string | null
+  engine: 'v1' | 'v3'
   name: string
   created_at: string
   updated_at: string

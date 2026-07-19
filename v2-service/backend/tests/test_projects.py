@@ -29,15 +29,19 @@ async def test_projects_crud(auth_client):
 
 
 async def test_subprojects(auth_client):
-    root = (await auth_client.post('/projects', json={'name': 'root'})).json()
+    root = (
+        await auth_client.post('/projects', json={'name': 'root', 'engine': 'v3'})
+    ).json()
     assert root['parent_id'] is None
+    assert root['engine'] == 'v3'
 
-    # подпроект под root
+    # подпроект под root — наследует язык родителя
     r = await auth_client.post(
-        '/projects', json={'name': 'sub', 'parent_id': root['id']}
+        '/projects', json={'name': 'sub', 'parent_id': root['id'], 'engine': 'v1'}
     )
     assert r.status_code == 201, r.text
     assert r.json()['parent_id'] == root['id']
+    assert r.json()['engine'] == 'v3'  # engine из тела проигнорирован, взят родителя
 
     # одноимённый подпроект под тем же родителем — конфликт
     r = await auth_client.post(

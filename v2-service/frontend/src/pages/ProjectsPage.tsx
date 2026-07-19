@@ -7,82 +7,16 @@ import { errorMessage } from '../api/errors'
 import type { Project } from '../api/types'
 import { ConfirmDialog, PromptDialog } from '../components/Modal'
 
-/** Проект с уже разложенными детьми — узел дерева. */
-interface TreeNode extends Project {
-  children: TreeNode[]
-}
-
-/** Плоский список проектов -> дерево по parent_id (дети отсортированы по имени). */
-function buildTree(projects: Project[]): TreeNode[] {
-  const byId = new Map<string, TreeNode>()
-  projects.forEach((p) => byId.set(p.id, { ...p, children: [] }))
-
-  const roots: TreeNode[] = []
-  byId.forEach((node) => {
-    const parent = node.parent_id ? byId.get(node.parent_id) : undefined
-    if (parent) parent.children.push(node)
-    else roots.push(node)
-  })
-
-  const sortRec = (nodes: TreeNode[]) => {
-    nodes.sort((a, b) => a.name.localeCompare(b.name))
-    nodes.forEach((n) => sortRec(n.children))
-  }
-  sortRec(roots)
-  return roots
-}
-
-interface NodeProps {
-  node: TreeNode
-  onAddChild: (p: Project) => void
-  onRename: (p: Project) => void
-  onDelete: (p: Project) => void
-}
-
-function ProjectNode({ node, onAddChild, onRename, onDelete }: NodeProps) {
-  return (
-    <li className="project-node">
-      <div className="card project-item">
-        <Link to={`/projects/${node.id}`} className="project-link">
-          {node.name}
-        </Link>
-        <div className="spacer" />
-        <button type="button" className="btn" onClick={() => onAddChild(node)}>
-          + Подпроект
-        </button>
-        <button type="button" className="btn" onClick={() => onRename(node)}>
-          Переименовать
-        </button>
-        <button
-          type="button"
-          className="btn btn-danger"
-          onClick={() => onDelete(node)}
-        >
-          Удалить
-        </button>
-      </div>
-      {node.children.length > 0 && (
-        <ul className="project-list subtree" style={{ marginLeft: '1.5rem' }}>
-          {node.children.map((child) => (
-            <ProjectNode
-              key={child.id}
-              node={child}
-              onAddChild={onAddChild}
-              onRename={onRename}
-              onDelete={onDelete}
-            />
-          ))}
-        </ul>
-      )}
-    </li>
-  )
+const ENGINE_LABEL: Record<string, string> = {
+  v1: 'Ontol v1',
+  v3: 'TDL v3',
 }
 
 export default function ProjectsPage() {
   const queryClient = useQueryClient()
   const [name, setName] = useState('')
+  const [engine, setEngine] = useState<'v1' | 'v3'>('v1')
   const [error, setError] = useState<string | null>(null)
-  const [addingChildTo, setAddingChildTo] = useState<Project | null>(null)
   const [renaming, setRenaming] = useState<Project | null>(null)
   const [deleting, setDeleting] = useState<Project | null>(null)
 
@@ -91,8 +25,8 @@ export default function ProjectsPage() {
     queryFn: projectsApi.listProjects,
   })
 
-  const tree = useMemo(
-    () => buildTree(projectsQuery.data ?? []),
+  const roots = useMemo(
+    () => (projectsQuery.data ?? []).filter((p) => p.parent_id === null),
     [projectsQuery.data],
   )
 
@@ -100,8 +34,8 @@ export default function ProjectsPage() {
     queryClient.invalidateQueries({ queryKey: ['projects'] })
 
   const createMutation = useMutation({
-    mutationFn: ({ n, parentId }: { n: string; parentId: string | null }) =>
-      projectsApi.createProject(n, parentId),
+    mutationFn: ({ n, eng }: { n: string; eng: 'v1' | 'v3' }) =>
+      projectsApi.createProject(n, null, eng),
     onSuccess: () => {
       setName('')
       setError(null)
@@ -123,17 +57,17 @@ export default function ProjectsPage() {
     onError: (err) => setError(errorMessage(err)),
   })
 
-  function onCreateRoot(e: SyntheticEvent) {
+  function onCreate(e: SyntheticEvent) {
     e.preventDefault()
     const trimmed = name.trim()
-    if (trimmed) createMutation.mutate({ n: trimmed, parentId: null })
+    if (trimmed) createMutation.mutate({ n: trimmed, eng: engine })
   }
 
   return (
     <div className="page projects-page">
       <h1>Мои проекты</h1>
 
-      <form className="row create-row" onSubmit={onCreateRoot}>
+      <form className="row create-row" onSubmit={onCreate}>
         <input
           type="text"
           placeholder="Название нового проекта"
@@ -141,6 +75,18 @@ export default function ProjectsPage() {
           onChange={(e) => setName(e.target.value)}
           maxLength={100}
         />
+        <div className="row seg-control">
+          {(['v1', 'v3'] as const).map((e) => (
+            <button
+              key={e}
+              type="button"
+              className={`btn ${e === engine ? 'btn-primary' : ''}`}
+              onClick={() => setEngine(e)}
+            >
+              {ENGINE_LABEL[e]}
+            </button>
+          ))}
+        </div>
         <button
           type="submit"
           className="btn btn-primary"
@@ -157,39 +103,39 @@ export default function ProjectsPage() {
         <p className="error">{errorMessage(projectsQuery.error)}</p>
       )}
 
-      {projectsQuery.data && projectsQuery.data.length === 0 && (
+      {projectsQuery.data && roots.length === 0 && (
         <p className="muted empty">
           Пока нет ни одного проекта. Создайте первый выше.
         </p>
       )}
 
       <ul className="project-list">
-        {tree.map((node) => (
-          <ProjectNode
-            key={node.id}
-            node={node}
-            onAddChild={setAddingChildTo}
-            onRename={setRenaming}
-            onDelete={setDeleting}
-          />
+        {roots.map((p) => (
+          <li key={p.id} className="card project-item">
+            <Link to={`/projects/${p.id}`} className="project-link">
+              {p.name}
+            </Link>
+            <span className="badge engine-badge">
+              {ENGINE_LABEL[p.engine] ?? p.engine}
+            </span>
+            <div className="spacer" />
+            <button
+              type="button"
+              className="btn"
+              onClick={() => setRenaming(p)}
+            >
+              Переименовать
+            </button>
+            <button
+              type="button"
+              className="btn btn-danger"
+              onClick={() => setDeleting(p)}
+            >
+              Удалить
+            </button>
+          </li>
         ))}
       </ul>
-
-      {addingChildTo && (
-        <PromptDialog
-          title={`Новый подпроект в «${addingChildTo.name}»`}
-          initialValue=""
-          confirmLabel="Создать"
-          onCancel={() => setAddingChildTo(null)}
-          onSubmit={(childName) => {
-            const trimmed = childName.trim()
-            if (trimmed) {
-              createMutation.mutate({ n: trimmed, parentId: addingChildTo.id })
-            }
-            setAddingChildTo(null)
-          }}
-        />
-      )}
 
       {renaming && (
         <PromptDialog

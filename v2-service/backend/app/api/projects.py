@@ -51,10 +51,13 @@ async def create_project(
 
     :return: созданный проект
     """
+    # Подпроект наследует язык родителя; корень задаёт его сам.
+    engine = data.engine
     if data.parent_id is not None:
         parent = await session.get(Project, data.parent_id)
         if parent is None or parent.owner_id != user.id:
             raise HTTPException(status.HTTP_404_NOT_FOUND, 'Parent project not found')
+        engine = parent.engine
 
     # Уникальность среди соседей: у корней parent_id = NULL, а NULL в
     # unique-констрейнте БД считается различным, поэтому проверяем явно.
@@ -70,7 +73,9 @@ async def create_project(
             status.HTTP_409_CONFLICT, 'Project with this name already exists'
         )
 
-    project = Project(owner_id=user.id, name=data.name, parent_id=data.parent_id)
+    project = Project(
+        owner_id=user.id, name=data.name, parent_id=data.parent_id, engine=engine
+    )
     session.add(project)
     try:
         await session.commit()

@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react'
+import { useEffect, useMemo, useState } from 'react'
 import { Link, useParams } from 'react-router-dom'
 import { useMutation, useQuery, useQueryClient } from '@tanstack/react-query'
 
@@ -8,7 +8,7 @@ import * as buildApi from '../api/build'
 import type { BuildResult } from '../api/build'
 import * as aiApi from '../api/ai'
 import type { AIHierarchyResult } from '../api/ai'
-import type { FileListItem } from '../api/types'
+import type { FileListItem, Project } from '../api/types'
 import { errorMessage } from '../api/errors'
 import { downloadDataUrl, downloadText } from '../utils/download'
 import OntolEditor from '../components/OntolEditor'
@@ -28,6 +28,7 @@ export default function ProjectPage() {
   const [openIds, setOpenIds] = useState<string[]>([])
   const [activeId, setActiveId] = useState<string | null>(null)
   const [creatingFile, setCreatingFile] = useState(false)
+  const [creatingSub, setCreatingSub] = useState(false)
   const [renamingFile, setRenamingFile] = useState<FileListItem | null>(null)
   const [deletingFile, setDeletingFile] = useState<{
     id: string
@@ -56,9 +57,39 @@ export default function ProjectPage() {
     queryFn: () => filesApi.listFiles(projectId),
   })
 
+  // Весь список проектов — чтобы показать подпроекты и путь до корня.
+  const allProjectsQuery = useQuery({
+    queryKey: ['projects'],
+    queryFn: projectsApi.listProjects,
+  })
+  const projectList = useMemo(
+    () => allProjectsQuery.data ?? [],
+    [allProjectsQuery.data],
+  )
+  const byId = useMemo(
+    () => new Map(projectList.map((p) => [p.id, p])),
+    [projectList],
+  )
+  const children = useMemo(
+    () => projectList.filter((p) => p.parent_id === projectId),
+    [projectList, projectId],
+  )
+  const ancestors = useMemo(() => {
+    const chain: Project[] = []
+    const guard = new Set<string>()
+    let cur = byId.get(projectId)?.parent_id ?? null
+    while (cur && byId.has(cur) && !guard.has(cur)) {
+      guard.add(cur)
+      const p = byId.get(cur) as Project
+      chain.unshift(p)
+      cur = p.parent_id
+    }
+    return chain
+  }, [byId, projectId])
+  const engine = projectQuery.data?.engine ?? 'v1'
+
   const files = filesQuery.data
   const activeName = files?.find((f) => f.id === activeId)?.name ?? null
-  // Движок активного файла: .tdl → v3 (Graphviz/SVG), иначе v1 (Ontol/PlantUML).
   const activeIsTdl = activeName?.endsWith('.tdl') ?? false
 
   if (files) {
@@ -120,6 +151,16 @@ export default function ProjectPage() {
       setError(null)
       queryClient.invalidateQueries({ queryKey: ['files', projectId] })
       openFile(created.id)
+    },
+    onError: (err) => setError(errorMessage(err)),
+  })
+
+  const createSubMutation = useMutation({
+    mutationFn: (subName: string) =>
+      projectsApi.createProject(subName, projectId, engine),
+    onSuccess: () => {
+      setError(null)
+      queryClient.invalidateQueries({ queryKey: ['projects'] })
     },
     onError: (err) => setError(errorMessage(err)),
   })
@@ -215,7 +256,17 @@ export default function ProjectPage() {
         <Link to="/projects" className="muted">
           ← Проекты
         </Link>
+        {ancestors.map((a) => (
+          <span key={a.id} className="muted">
+            {' / '}
+            <Link to={`/projects/${a.id}`} className="muted">
+              {a.name}
+            </Link>
+          </span>
+        ))}
+        <span className="muted">{' / '}</span>
         <h1>{projectQuery.data?.name ?? '…'}</h1>
+        <span className="badge engine-badge">{engine}</span>
       </div>
 
       {error && <p className="error">{error}</p>}
@@ -255,6 +306,30 @@ export default function ProjectPage() {
                   >
                     ⋮
                   </button>
+                </li>
+              ))}
+            </ul>
+          )}
+
+          <div className="explorer-head subprojects-head">
+            <span className="explorer-title">Подпроекты</span>
+            <button
+              type="button"
+              className="btn tab-add"
+              onClick={() => setCreatingSub(true)}
+            >
+              + подпроект
+            </button>
+          </div>
+          {children.length === 0 ? (
+            <p className="muted empty-explorer">Подпроектов нет</p>
+          ) : (
+            <ul className="file-list-nav">
+              {children.map((c) => (
+                <li key={c.id} className="file-row">
+                  <Link to={`/projects/${c.id}`} className="file-row-name">
+                    📁 {c.name}
+                  </Link>
                 </li>
               ))}
             </ul>
@@ -353,10 +428,25 @@ export default function ProjectPage() {
 
       {creatingFile && (
         <CreateFileDialog
+          engine={engine}
           onCancel={() => setCreatingFile(false)}
           onSubmit={(name) => {
             createMutation.mutate(name)
             setCreatingFile(false)
+          }}
+        />
+      )}
+
+      {creatingSub && (
+        <PromptDialog
+          title="Новый подпроект"
+          initialValue=""
+          confirmLabel="Создать"
+          onCancel={() => setCreatingSub(false)}
+          onSubmit={(subName) => {
+            const trimmed = subName.trim()
+            if (trimmed) createSubMutation.mutate(trimmed)
+            setCreatingSub(false)
           }}
         />
       )}
@@ -517,9 +607,7 @@ function BuildPanel({
           ))}
         </ul>
       )}
-
-      {/* ontol-v3: SVG-диаграмма (Graphviz). Рендерим инлайн — SVG отдаёт наш
-          backend из dot, без скриптов. */}
+      
       {build.svg && (
         <div className="diagram">
           {build.planarity && !ackPlanarity && (

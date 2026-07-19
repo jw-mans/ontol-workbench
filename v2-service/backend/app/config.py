@@ -25,8 +25,8 @@ class Settings(BaseSettings):
 
     # База URL своего PlantUML-сервера (PNG-эндпоинт), для рендера диаграмм.
     plantuml_url: str = 'http://localhost:8080/png/'
-    # Таймаут HTTP-запроса к PlantUML: падаем быстро, а не съедаем весь build_timeout,
-    # если сервер завис/недоступен.
+
+    # Таймаут HTTP-запроса к PlantUML
     plantuml_timeout_seconds: int = 20
 
     # Redis для очереди фоновых задач (arq).
@@ -39,15 +39,18 @@ class Settings(BaseSettings):
     # Выключена по умолчанию. Включается AI_ENABLED=true; требует образ с экстрой
     # [ai] и доступный Ollama (см. docker-compose.ai.yml).
     ai_enabled: bool = False
+
     # База URL Ollama-сервера (LLM).
     ollama_url: str = 'http://ollama:11434'
+
     # Модель Ollama по умолчанию (должна быть заранее `ollama pull`-нута).
     ai_model: str = 'llama3'
+
     # AI-запрос к LLM дольше сборки — отдельный таймаут ожидания результата.
     ai_timeout_seconds: int = 120
 
     # Секрет для подписи cookie-сессий и токенов (fastapi-users).
-    # В проде ОБЯЗАТЕЛЬНО переопределить; ≥32 байт (для HMAC-SHA256).
+    # В проде ОБЯЗАТЕЛЬНО переопределить; >=32 байт (для HMAC-SHA256).
     secret: str = 'dev-secret-change-me-in-production-0000'
 
     # Время жизни токена/cookie авторизации, секунды (по умолчанию 7 дней —

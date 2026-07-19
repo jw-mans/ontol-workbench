@@ -63,6 +63,23 @@ async def test_files_rename(auth_client, project_id):
     assert r.status_code == 422
 
 
+async def test_files_extension_follows_engine(auth_client):
+    # v3-проект -> файлы получают .tdl, а не .ontol
+    pid = (
+        await auth_client.post('/projects', json={'name': 'V3', 'engine': 'v3'})
+    ).json()['id']
+    base = f'/projects/{pid}/files'
+
+    r = await auth_client.post(base, json={'name': 'main', 'content': ''})
+    assert r.status_code == 201, r.text
+    assert r.json()['name'] == 'main.tdl'
+
+    # чужое расширение приводится к языку проекта
+    r = await auth_client.post(base, json={'name': 'other.ontol'})
+    assert r.status_code == 201, r.text
+    assert r.json()['name'] == 'other.tdl'
+
+
 async def test_files_cross_user(auth_client, other_client, project_id):
     fid = (
         await auth_client.post(
