@@ -39,12 +39,14 @@ export async function createFile(
   content = '',
   directoryId?: string | null,
 ): Promise<FileDetail> {
+  console.log('API: Creating file', { projectId, name, directoryId })
   const { data } = await api.post<FileDetail>(`/projects/${projectId}/files`, {
     name,
     content,
   }, {
     params: { directory_id: directoryId || undefined },
   })
+  console.log('API: File created', { name, id: data.id })
   return data
 }
 

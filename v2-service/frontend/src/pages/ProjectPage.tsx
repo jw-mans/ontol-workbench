@@ -47,6 +47,7 @@ export default function ProjectPage() {
   >(null)
   const [menuJustOpened, setMenuJustOpened] = useState(false)
 
+  // Проверяем параметр ?import=true из URL
   // Какие опциональные фичи включены на бэкенде (напр. AI-генерация связей).
   const configQuery = useQuery({
     queryKey: ['config'],
@@ -189,7 +190,10 @@ export default function ProjectPage() {
       queryClient.invalidateQueries({ queryKey: ['files', projectId] })
       openFile(created.id)
     },
-    onError: (err) => setError(errorMessage(err)),
+    onError: (err) => {
+      console.error('Mutation onError for createFile:', err)
+      setError(errorMessage(err))
+    },
   })
 
   const renameMutation = useMutation({

@@ -1,11 +1,13 @@
-import { useState, type SyntheticEvent } from 'react'
+import { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
 import { useMutation, useQuery, useQueryClient } from '@tanstack/react-query'
 
 import * as projectsApi from '../api/projects'
+import * as filesApi from '../api/files'
 import { errorMessage } from '../api/errors'
 import type { Project } from '../api/types'
 import { ConfirmDialog, PromptDialog } from '../components/Modal'
+import { ImportFileDialog } from '../components/ImportFileDialog'
 
 const ENGINE_LABEL: Record<string, string> = {
   v1: 'Ontol v1',
@@ -19,14 +21,22 @@ export default function ProjectsPage() {
   const [error, setError] = useState<string | null>(null)
   const [renaming, setRenaming] = useState<Project | null>(null)
   const [deleting, setDeleting] = useState<Project | null>(null)
+  const [importingProject, setImportingProject] = useState<Project | null>(null)
+  const [importingFiles, setImportingFiles] = useState<{ name: string; content: string }[]>([])
+  const [importingSuccess, setImportingSuccess] = useState<string | null>(null)
 
   const projectsQuery = useQuery({
     queryKey: ['projects'],
     queryFn: projectsApi.listProjects,
   })
 
-  const invalidate = () =>
+  const invalidateProjects = () =>
     queryClient.invalidateQueries({ queryKey: ['projects'] })
+
+  const invalidateFiles = (projectId: string) => {
+    queryClient.invalidateQueries({ queryKey: ['files', projectId] })
+    queryClient.invalidateQueries({ queryKey: ['directories', projectId] })
+  }
 
   const createMutation = useMutation({
     mutationFn: ({ n, eng }: { n: string; eng: 'v1' | 'v3' }) =>
@@ -34,7 +44,7 @@ export default function ProjectsPage() {
     onSuccess: () => {
       setName('')
       setError(null)
-      invalidate()
+      invalidateProjects()
     },
     onError: (err) => setError(errorMessage(err)),
   })
@@ -42,17 +52,62 @@ export default function ProjectsPage() {
   const renameMutation = useMutation({
     mutationFn: ({ id, n }: { id: string; n: string }) =>
       projectsApi.renameProject(id, n),
-    onSuccess: invalidate,
+    onSuccess: invalidateProjects,
     onError: (err) => setError(errorMessage(err)),
   })
 
   const deleteMutation = useMutation({
     mutationFn: (id: string) => projectsApi.deleteProject(id),
-    onSuccess: invalidate,
+    onSuccess: invalidateProjects,
     onError: (err) => setError(errorMessage(err)),
   })
 
-  function onCreate(e: SyntheticEvent) {
+  // Мутация для импорта файлов
+  const importMutation = useMutation({
+    mutationFn: async ({ projectId, files }: { projectId: string; files: { name: string; content: string }[] }) => {
+      const results = []
+      for (const file of files) {
+        try {
+          const result = await filesApi.createFile(projectId, file.name, file.content)
+          results.push(result)
+        } catch (err) {
+          console.error(`Ошибка при импорте ${file.name}:`, err)
+          results.push({ error: err })
+        }
+      }
+      return results
+    },
+    onSuccess: (_, variables) => {
+      invalidateFiles(variables.projectId)
+    },
+    onError: (err) => setError(errorMessage(err)),
+  })
+
+  // Запуск импорта при изменении состояния
+  useEffect(() => {
+    if (importingFiles.length > 0 && importingProject) {
+      importMutation.mutate({
+        projectId: importingProject.id,
+        files: importingFiles,
+      }, {
+        onSuccess: () => {
+          // Показать сообщение об успехе
+          const successCount = importMutation.data?.filter(r => !('error' in r)).length || 0
+          const totalCount = importingFiles.length
+          setImportingSuccess(`Импортировано ${successCount} файлов из ${totalCount}`)
+          
+          // Очистить состояние через 3 секунды
+          setTimeout(() => {
+            setImportingFiles([])
+            setImportingProject(null)
+            setImportingSuccess(null)
+          }, 3000)
+        },
+      })
+    }
+  }, [importingFiles.length > 0 && importingProject])
+
+  function onCreate(e: React.FormEvent) {
     e.preventDefault()
     const trimmed = name.trim()
     if (trimmed) createMutation.mutate({ n: trimmed, eng: engine })
@@ -92,6 +147,7 @@ export default function ProjectsPage() {
       </form>
 
       {error && <p className="error">{error}</p>}
+      {importingSuccess && <p className="success">{importingSuccess}</p>}
 
       {projectsQuery.isLoading && <p className="muted">Загрузка…</p>}
       {projectsQuery.isError && (
@@ -112,17 +168,38 @@ export default function ProjectsPage() {
                 {project.name}
               </Link>
               <span className="badge engine-badge">{ENGINE_LABEL[project.engine] ?? project.engine}</span>
-              <div className="spacer" />
-              <button
-                type="button"
-                className="btn btn-danger"
-                onClick={() => setDeleting(project)}
-              >
-                Удалить
-              </button>
+              <div className="row">
+                <button
+                  type="button"
+                  className="btn"
+                  onClick={() => setImportingProject(project)}
+                >
+                  Импорт
+                </button>
+                <button
+                  type="button"
+                  className="btn btn-danger"
+                  onClick={() => setDeleting(project)}
+                >
+                  Удалить
+                </button>
+              </div>
             </div>
           ))}
         </div>
+      )}
+
+      {importingProject && !importMutation.data && (
+        <ImportFileDialog
+          engine={importingProject.engine}
+          onCancel={() => {
+            setImportingProject(null)
+            setImportingFiles([])
+          }}
+          onSubmit={(files) => {
+            setImportingFiles(files)
+          }}
+        />
       )}
 
       {renaming && (

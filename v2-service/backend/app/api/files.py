@@ -1,6 +1,7 @@
 """CRUD файлов внутри проекта. Доступ — только владельцу проекта."""
 
 import uuid
+import logging
 
 from fastapi import APIRouter, Depends, HTTPException, status
 from sqlalchemy import select
@@ -28,6 +29,9 @@ _ENGINE_EXT = {'v1': '.ontol', 'v3': '.tdl'}
 KNOWN_EXTS = tuple(_ENGINE_EXT.values())
 
 router = APIRouter(prefix='/projects/{project_id}/files', tags=['files'])
+
+# Логгер для отслеживания операций с файлами
+logger = logging.getLogger(__name__)
 
 
 def _with_ext(name: str, engine: str) -> str:
@@ -200,6 +204,18 @@ async def create_file(
             status.HTTP_409_CONFLICT, 'File with this name already exists'
         )
     await session.refresh(file)
+    
+    # Логируем создание файла
+    logger.info(
+        "File created",
+        extra={
+            "project_id": str(project.id),
+            "file_id": str(file.id),
+            "file_name": file.name,
+            "file_path": data.name,
+        },
+    )
+    
     return file
 
 
