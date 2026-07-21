@@ -428,6 +428,7 @@ textarea:focus {
   position: sticky;
   top: 16px;
   max-height: calc(100vh - 32px);
+  overflow: hidden;
 }
 .explorer-head {
   display: flex;
@@ -529,4 +530,77 @@ textarea:focus {
 }
 .context-item.danger {
   color: #e5484d;
+}
+
+/* Tree view for projects/subprojects */
+.tree-view {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  overflow-y: auto;
+  overflow-x: auto;
+  min-height: 0;
+  max-height: 500px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.tree-node {
+  display: flex;
+  flex-direction: column;
+  min-width: 100%;
+}
+
+.tree-node-content {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  padding: 6px 8px;
+  border-radius: 6px;
+  cursor: pointer;
+  color: var(--text-h);
+  flex: 0 0 auto;
+  min-width: 100%;
+  white-space: nowrap;
+}
+
+.tree-node-content:hover {
+  background: var(--bg);
+}
+
+.tree-node.active .tree-node-content {
+  background: var(--bg);
+  box-shadow: inset 2px 0 0 var(--accent);
+}
+
+.tree-toggle {
+  border: none;
+  background: none;
+  color: var(--text);
+  font-size: 10px;
+  line-height: 1;
+  padding: 2px 4px;
+  cursor: pointer;
+  min-width: 16px;
+  text-align: center;
+}
+
+.tree-toggle:hover {
+  color: var(--text-h);
+}
+
+.tree-children {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  padding-left: 16px;
+  min-width: 100%;
+}
+
+.tree-row-name {
+  flex: 0 0 auto;
+  font-size: 14px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }

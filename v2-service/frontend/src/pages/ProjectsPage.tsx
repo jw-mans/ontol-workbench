@@ -1,4 +1,4 @@
-import { useMemo, useState, type SyntheticEvent } from 'react'
+import { useEffect, useMemo, useState, type SyntheticEvent } from 'react'
 import { Link } from 'react-router-dom'
 import { useMutation, useQuery, useQueryClient } from '@tanstack/react-query'
 
@@ -6,6 +6,8 @@ import * as projectsApi from '../api/projects'
 import { errorMessage } from '../api/errors'
 import type { Project } from '../api/types'
 import { ConfirmDialog, PromptDialog } from '../components/Modal'
+import { ProjectTree } from '../components/ProjectTree'
+import { ContextMenu } from '../components/ContextMenu'
 
 const ENGINE_LABEL: Record<string, string> = {
   v1: 'Ontol v1',
@@ -19,6 +21,7 @@ export default function ProjectsPage() {
   const [error, setError] = useState<string | null>(null)
   const [renaming, setRenaming] = useState<Project | null>(null)
   const [deleting, setDeleting] = useState<Project | null>(null)
+  const [menu, setMenu] = useState<{ x: number; y: number; project: Project } | null>(null)
 
   const projectsQuery = useQuery({
     queryKey: ['projects'],
@@ -62,6 +65,50 @@ export default function ProjectsPage() {
     const trimmed = name.trim()
     if (trimmed) createMutation.mutate({ n: trimmed, eng: engine })
   }
+
+  const handleProjectContextMenu = (project: Project, e: React.MouseEvent) => {
+    e.preventDefault()
+    setMenu({ x: e.clientX, y: e.clientY, project })
+  }
+
+  const menuItems = useMemo(() => {
+    if (!menu) return []
+    
+    return [
+      {
+        label: 'Создать подпроект',
+        onClick: () => {
+          setName('')
+          setEngine('v1')
+          setMenu(null)
+        },
+      },
+      {
+        label: 'Переименовать',
+        onClick: () => {
+          setRenaming(menu.project)
+          setMenu(null)
+        },
+      },
+      {
+        label: 'Удалить',
+        danger: true,
+        onClick: () => {
+          setDeleting(menu.project)
+          setMenu(null)
+        },
+      },
+    ]
+  }, [menu])
+
+  // Скрыть контекстное меню при клике вне его
+  useEffect(() => {
+    if (menu) {
+      const closeMenu = () => setMenu(null)
+      document.addEventListener('click', closeMenu)
+      return () => document.removeEventListener('click', closeMenu)
+    }
+  }, [menu])
 
   return (
     <div className="page projects-page">
@@ -109,33 +156,44 @@ export default function ProjectsPage() {
         </p>
       )}
 
-      <ul className="project-list">
-        {roots.map((p) => (
-          <li key={p.id} className="card project-item">
-            <Link to={`/projects/${p.id}`} className="project-link">
+      <ProjectTree
+        items={roots}
+        getKey={(p) => p.id}
+        getChildren={(p) =>
+          (projectsQuery.data ?? []).filter((child) => child.parent_id === p.id)
+        }
+        renderRow={(p, isExpanded, toggle) => (
+          <Link to={`/projects/${p.id}`} className="project-link">
+            <button
+              type="button"
+              className="tree-toggle"
+              onClick={(e) => {
+                e.stopPropagation()
+                toggle()
+              }}
+              style={{ visibility: isExpanded || (projectsQuery.data ?? []).some(c => c.parent_id === p.id) ? 'visible' : 'hidden' }}
+            >
+              {isExpanded ? '▼' : '▶'}
+            </button>
+            <span className="tree-row-name">
               {p.name}
-            </Link>
+            </span>
             <span className="badge engine-badge">
               {ENGINE_LABEL[p.engine] ?? p.engine}
             </span>
-            <div className="spacer" />
-            <button
-              type="button"
-              className="btn"
-              onClick={() => setRenaming(p)}
-            >
-              Переименовать
-            </button>
-            <button
-              type="button"
-              className="btn btn-danger"
-              onClick={() => setDeleting(p)}
-            >
-              Удалить
-            </button>
-          </li>
-        ))}
-      </ul>
+          </Link>
+        )}
+        onContextMenu={handleProjectContextMenu}
+      />
+
+      {menu && (
+        <ContextMenu
+          x={menu.x}
+          y={menu.y}
+          onClose={() => setMenu(null)}
+          items={menuItems}
+        />
+      )}
 
       {renaming && (
         <PromptDialog

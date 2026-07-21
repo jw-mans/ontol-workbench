@@ -8,13 +8,15 @@ import * as buildApi from '../api/build'
 import type { BuildResult } from '../api/build'
 import * as aiApi from '../api/ai'
 import type { AIHierarchyResult } from '../api/ai'
-import type { FileListItem, Project } from '../api/types'
 import { errorMessage } from '../api/errors'
 import { downloadDataUrl, downloadText } from '../utils/download'
 import OntolEditor from '../components/OntolEditor'
 import { ConfirmDialog, PromptDialog } from '../components/Modal'
 import { CreateFileDialog } from '../components/CreateFileDialog'
+import { CreateDirectoryDialog } from '../components/CreateDirectoryDialog'
 import { ContextMenu } from '../components/ContextMenu'
+import { FileTree } from '../components/FileTree'
+import { buildFileTree } from '../utils/fileTree'
 
 const AUTOSAVE_DEBOUNCE_MS = 800
 
@@ -27,18 +29,22 @@ export default function ProjectPage() {
   
   const [openIds, setOpenIds] = useState<string[]>([])
   const [activeId, setActiveId] = useState<string | null>(null)
-  const [creatingFile, setCreatingFile] = useState(false)
-  const [creatingSub, setCreatingSub] = useState(false)
-  const [renamingFile, setRenamingFile] = useState<FileListItem | null>(null)
-  const [deletingFile, setDeletingFile] = useState<{
-    id: string
-    name: string
-  } | null>(null)
   const [menu, setMenu] = useState<{
     x: number
     y: number
-    file: FileListItem
+    item: { type: 'file'; id: string; name: string } | { type: 'folder'; id?: string; name: string }
   } | null>(null)
+  
+  const [creatingFile, setCreatingFile] = useState(false)
+  const [creatingFolder, setCreatingFolder] = useState(false)
+  const [creatingFolderParentId, setCreatingFolderParentId] = useState<string | null>(null)
+  const [renamingItem, setRenamingItem] = useState<{ type: 'file' | 'folder'; id: string; name: string } | null>(null)
+  const [deletingItem, setDeletingItem] = useState<
+    | { type: 'file'; id: string; name: string }
+    | { type: 'folder'; id: string; name: string }
+    | null
+  >(null)
+  const [menuJustOpened, setMenuJustOpened] = useState(false)
 
   // Какие опциональные фичи включены на бэкенде (напр. AI-генерация связей).
   const configQuery = useQuery({
@@ -57,35 +63,6 @@ export default function ProjectPage() {
     queryFn: () => filesApi.listFiles(projectId),
   })
 
-  // Весь список проектов — чтобы показать подпроекты и путь до корня.
-  const allProjectsQuery = useQuery({
-    queryKey: ['projects'],
-    queryFn: projectsApi.listProjects,
-  })
-  const projectList = useMemo(
-    () => allProjectsQuery.data ?? [],
-    [allProjectsQuery.data],
-  )
-  const byId = useMemo(
-    () => new Map(projectList.map((p) => [p.id, p])),
-    [projectList],
-  )
-  const children = useMemo(
-    () => projectList.filter((p) => p.parent_id === projectId),
-    [projectList, projectId],
-  )
-  const ancestors = useMemo(() => {
-    const chain: Project[] = []
-    const guard = new Set<string>()
-    let cur = byId.get(projectId)?.parent_id ?? null
-    while (cur && byId.has(cur) && !guard.has(cur)) {
-      guard.add(cur)
-      const p = byId.get(cur) as Project
-      chain.unshift(p)
-      cur = p.parent_id
-    }
-    return chain
-  }, [byId, projectId])
   const engine = projectQuery.data?.engine ?? 'v1'
 
   const files = filesQuery.data
@@ -120,6 +97,20 @@ export default function ProjectPage() {
     if (activeId === id) setActiveId(next[idx] ?? next[idx - 1] ?? null)
   }
 
+  // Загрузка директорий
+  const projectDirectories = useQuery({
+    queryKey: ['directories', projectId],
+    queryFn: () => filesApi.listAllDirectories(projectId),
+    enabled: !!projectId,
+  })
+
+  // Построить дерево файлов из плоского списка
+  const fileTree = useMemo(() => {
+    if (!files) return null
+    const tree = buildFileTree(files, projectQuery.data?.name ?? 'Проект', projectDirectories.data)
+    return tree
+  }, [files, projectQuery.data?.name, projectDirectories.data])
+
   const fileQuery = useQuery({
     queryKey: ['file', projectId, activeId],
     queryFn: () => filesApi.getFile(projectId, activeId as string),
@@ -146,21 +137,12 @@ export default function ProjectPage() {
   const { mutate: saveFile, mutateAsync: saveFileAsync } = saveMutation
 
   const createMutation = useMutation({
-    mutationFn: (name: string) => filesApi.createFile(projectId, name),
+    mutationFn: ({ name, directoryId }: { name: string; directoryId?: string | null }) =>
+      filesApi.createFile(projectId, name, '', directoryId),
     onSuccess: (created) => {
       setError(null)
       queryClient.invalidateQueries({ queryKey: ['files', projectId] })
       openFile(created.id)
-    },
-    onError: (err) => setError(errorMessage(err)),
-  })
-
-  const createSubMutation = useMutation({
-    mutationFn: (subName: string) =>
-      projectsApi.createProject(subName, projectId, engine),
-    onSuccess: () => {
-      setError(null)
-      queryClient.invalidateQueries({ queryKey: ['projects'] })
     },
     onError: (err) => setError(errorMessage(err)),
   })
@@ -180,6 +162,26 @@ export default function ProjectPage() {
     onSuccess: () => {
       setError(null)
       queryClient.invalidateQueries({ queryKey: ['files', projectId] })
+    },
+    onError: (err) => setError(errorMessage(err)),
+  })
+
+  const deleteFolderMutation = useMutation({
+    mutationFn: (id: string) => filesApi.deleteDirectory(projectId, id),
+    onSuccess: () => {
+      setError(null)
+      queryClient.invalidateQueries({ queryKey: ['files', projectId] })
+      queryClient.invalidateQueries({ queryKey: ['directories', projectId] })
+    },
+    onError: (err) => setError(errorMessage(err)),
+  })
+
+  const renameDirectoryMutation = useMutation({
+    mutationFn: ({ id, name }: { id: string; name: string }) =>
+      filesApi.renameDirectory(projectId, id, name),
+    onSuccess: () => {
+      setError(null)
+      queryClient.invalidateQueries({ queryKey: ['directories', projectId] })
     },
     onError: (err) => setError(errorMessage(err)),
   })
@@ -205,8 +207,6 @@ export default function ProjectPage() {
   })
 
   // Debounced-автосейв: PUT контента через паузу после остановки ввода.
-  // Это синхронизация внешней системы (сервера) с состоянием — корректный
-  // случай useEffect; setTimeout снимается при каждом изменении.
   useEffect(() => {
     if (!activeId || fileQuery.data === undefined) return
     if (draft === fileQuery.data.content) return
@@ -215,7 +215,6 @@ export default function ProjectPage() {
   }, [draft, activeId, fileQuery.data, saveFile])
 
   async function onBuild() {
-    // Собираем сохранённую версию — сначала дожимаем pending-черновик.
     if (activeId && fileQuery.data && draft !== fileQuery.data.content) {
       try {
         await saveFileAsync(draft)
@@ -224,10 +223,6 @@ export default function ProjectPage() {
       }
     }
     buildMutation.mutate()
-  }
-
-  function onCreateFile() {
-    setCreatingFile(true)
   }
 
   if (projectQuery.isError) {
@@ -250,21 +245,152 @@ export default function ProjectPage() {
         ? 'Сохранено'
         : ''
 
+  // Обработчик клика для открытия файла при двойном клике
+  const handleFileDoubleClick = (id: string) => {
+    openFile(id)
+  }
+
+  // Обработчик клика для открытия контекстного меню на пустом месте
+  const handleEmptySpaceContextMenu = (e: React.MouseEvent) => {
+    e.preventDefault()
+    e.stopPropagation()
+    // Для корневой папки id будет undefined
+    setMenu({ x: e.clientX, y: e.clientY, item: { type: 'folder', name: '' } })
+  }
+
+  // Показать контекстное меню
+  const showMenu = (
+    e: React.MouseEvent,
+    item: { type: 'file'; id: string; name: string } | { type: 'folder'; id?: string; name: string },
+  ) => {
+    e.preventDefault()
+    e.stopPropagation()
+    setMenuJustOpened(true)
+    setMenu({ x: e.clientX, y: e.clientY, item })
+    // Если кликнули на папку, запоминаем её id как родителя для новых элементов
+    if (item.type === 'folder' && item.id) {
+      setCreatingFolderParentId(item.id)
+    } else {
+      setCreatingFolderParentId(null)
+    }
+  }
+
+  // Скрыть контекстное меню при клике вне его
+  useEffect(() => {
+    if (menu) {
+      const closeMenu = (e: MouseEvent) => {
+        // Игнорировать клик, который открыл меню
+        if (menuJustOpened) {
+          setMenuJustOpened(false)
+          return
+        }
+        // Закрыть меню, если клик был вне контекстного меню
+        if (!e.target || !(e.target as Element).closest('.context-menu')) {
+          setMenu(null)
+        }
+      }
+      document.addEventListener('mousedown', closeMenu)
+      return () => document.removeEventListener('mousedown', closeMenu)
+    } else {
+      // Сбросить флаг, когда меню закрыто
+      setMenuJustOpened(false)
+    }
+  }, [menu, menuJustOpened])
+
+  const menuItems = useMemo(() => {
+    if (!menu) return []
+    
+    const item = menu.item
+    
+    switch (item.type) {
+      case 'file':
+        const fileItem = item as { type: 'file'; id: string; name: string }
+        return [
+          { 
+            label: 'Переименовать', 
+            onClick: () => {
+              setRenamingItem({ type: 'file', id: fileItem.id, name: fileItem.name })
+              setMenu(null)
+            }
+          },
+          { 
+            label: 'Удалить', 
+            danger: true,
+            onClick: () => {
+              setDeletingItem({ type: 'file', id: fileItem.id, name: fileItem.name })
+              setMenu(null)
+            }
+          },
+        ]
+      case 'folder':
+        const folderItem = item as { type: 'folder'; id?: string; name: string }
+        // Если name пустой - кликнули на пустое место (корень)
+        if (!folderItem.name || folderItem.name === '') {
+          return [
+            { 
+              label: 'Создать файл', 
+              onClick: () => {
+                setCreatingFile(true)
+                setMenu(null)
+              }
+            },
+            { 
+              label: 'Создать папку', 
+              onClick: () => {
+                setCreatingFolder(true)
+                setMenu(null)
+              }
+            },
+          ]
+        }
+        return [
+          { 
+            label: 'Переименовать', 
+            onClick: () => {
+              if (folderItem.id) {
+                setRenamingItem({ type: 'folder', id: folderItem.id, name: folderItem.name })
+              }
+              setMenu(null)
+            }
+          },
+          { 
+            label: 'Создать файл', 
+            onClick: () => {
+              setCreatingFile(true)
+              setMenu(null)
+            }
+          },
+          { 
+            label: 'Создать папку', 
+            onClick: () => {
+              setCreatingFolder(true)
+              setMenu(null)
+            }
+          },
+            { 
+              label: 'Удалить', 
+              danger: true,
+              onClick: () => {
+                if (folderItem.id) {
+                  setDeletingItem({ type: 'folder', id: folderItem.id, name: folderItem.name })
+                } else {
+                  // Корневая папка не может быть удалена
+                }
+                setMenu(null)
+              }
+            },
+        ]
+      default:
+        return []
+    }
+  }, [menu])
+
   return (
     <div className="page project-page">
       <div className="row project-head">
         <Link to="/projects" className="muted">
           ← Проекты
         </Link>
-        {ancestors.map((a) => (
-          <span key={a.id} className="muted">
-            {' / '}
-            <Link to={`/projects/${a.id}`} className="muted">
-              {a.name}
-            </Link>
-          </span>
-        ))}
-        <span className="muted">{' / '}</span>
         <h1>{projectQuery.data?.name ?? '…'}</h1>
         <span className="badge engine-badge">{engine}</span>
       </div>
@@ -272,68 +398,21 @@ export default function ProjectPage() {
       {error && <p className="error">{error}</p>}
 
       <div className="workspace">
-        <aside className="file-explorer">
+        <aside className="file-explorer" onContextMenu={handleEmptySpaceContextMenu}>
           <div className="explorer-head">
             <span className="explorer-title">Файлы</span>
-            <button type="button" className="btn tab-add" onClick={onCreateFile}>
-              + файл
-            </button>
           </div>
           {files && files.length === 0 ? (
-            <p className="muted empty-explorer">Файлов пока нет</p>
-          ) : (
-            <ul className="file-list-nav">
-              {files?.map((f) => (
-                <li
-                  key={f.id}
-                  className={`file-row ${f.id === activeId ? 'active' : ''}`}
-                  onClick={() => openFile(f.id)}
-                  onContextMenu={(e) => {
-                    e.preventDefault()
-                    setMenu({ x: e.clientX, y: e.clientY, file: f })
-                  }}
-                >
-                  <span className="file-row-name">{f.name}</span>
-                  <button
-                    type="button"
-                    className="file-row-menu"
-                    title="Действия"
-                    onClick={(e) => {
-                      e.stopPropagation()
-                      const r = e.currentTarget.getBoundingClientRect()
-                      setMenu({ x: r.left, y: r.bottom, file: f })
-                    }}
-                  >
-                    ⋮
-                  </button>
-                </li>
-              ))}
-            </ul>
-          )}
-
-          <div className="explorer-head subprojects-head">
-            <span className="explorer-title">Подпроекты</span>
-            <button
-              type="button"
-              className="btn tab-add"
-              onClick={() => setCreatingSub(true)}
-            >
-              + подпроект
-            </button>
-          </div>
-          {children.length === 0 ? (
-            <p className="muted empty-explorer">Подпроектов нет</p>
-          ) : (
-            <ul className="file-list-nav">
-              {children.map((c) => (
-                <li key={c.id} className="file-row">
-                  <Link to={`/projects/${c.id}`} className="file-row-name">
-                    📁 {c.name}
-                  </Link>
-                </li>
-              ))}
-            </ul>
-          )}
+            <p className="muted empty-explorer">Файлов пока нет. Кликните правой кнопкой мыши, чтобы создать первый файл.</p>
+          ) : fileTree ? (
+            <FileTree
+              tree={fileTree}
+              activeId={activeId}
+              onOpenFile={openFile}
+              onDoubleClick={handleFileDoubleClick}
+              onContextMenu={showMenu}
+            />
+          ) : null}
         </aside>
 
         <div className="editor-area">
@@ -403,7 +482,7 @@ export default function ProjectPage() {
           ) : (
             <p className="muted empty">
               {files && files.length === 0
-                ? 'В проекте пока нет файлов. Создайте первый.'
+                ? 'В проекте пока нет файлов. Создайте первый через контекстное меню.'
                 : 'Выберите файл слева, чтобы открыть.'}
             </p>
           )}
@@ -426,75 +505,110 @@ export default function ProjectPage() {
         />
       )}
 
-      {creatingFile && (
-        <CreateFileDialog
-          engine={engine}
-          onCancel={() => setCreatingFile(false)}
-          onSubmit={(name) => {
-            createMutation.mutate(name)
-            setCreatingFile(false)
-          }}
-        />
-      )}
-
-      {creatingSub && (
-        <PromptDialog
-          title="Новый подпроект"
-          initialValue=""
-          confirmLabel="Создать"
-          onCancel={() => setCreatingSub(false)}
-          onSubmit={(subName) => {
-            const trimmed = subName.trim()
-            if (trimmed) createSubMutation.mutate(trimmed)
-            setCreatingSub(false)
-          }}
-        />
-      )}
-
-      {renamingFile && (
-        <PromptDialog
-          title="Переименовать файл"
-          initialValue={renamingFile.name}
-          confirmLabel="Сохранить"
-          onCancel={() => setRenamingFile(null)}
-          onSubmit={(name) => {
-            if (name !== renamingFile.name) {
-              renameMutation.mutate({ id: renamingFile.id, name })
-            }
-            setRenamingFile(null)
-          }}
-        />
-      )}
-
-      {deletingFile && (
-        <ConfirmDialog
-          title="Удалить файл?"
-          message={`Файл «${deletingFile.name}» будет удалён.`}
-          onCancel={() => setDeletingFile(null)}
-          onConfirm={() => {
-            deleteMutation.mutate(deletingFile.id)
-            setDeletingFile(null)
-          }}
-        />
-      )}
-
       {menu && (
         <ContextMenu
           x={menu.x}
           y={menu.y}
           onClose={() => setMenu(null)}
-          items={[
-            {
-              label: 'Переименовать',
-              onClick: () => setRenamingFile(menu.file),
-            },
-            {
-              label: 'Удалить',
-              danger: true,
-              onClick: () =>
-                setDeletingFile({ id: menu.file.id, name: menu.file.name }),
-            },
-          ]}
+          items={menuItems}
+          skipCloseOnNextClick={menuJustOpened}
+        />
+      )}
+
+      {creatingFile && (
+        <CreateFileDialog
+          engine={engine}
+          parentId={creatingFolderParentId ?? undefined}
+          onCancel={() => setCreatingFile(false)}
+          onSubmit={(name) => {
+            // Если есть parentId, передаём его в createFile
+            const directoryId = creatingFolderParentId ?? undefined
+            createMutation.mutate({ name, directoryId })
+            setCreatingFile(false)
+          }}
+        />
+      )}
+
+      {creatingFolder && (
+        <CreateDirectoryDialog
+          parentId={creatingFolderParentId ?? undefined}
+          onCancel={() => {
+            setCreatingFolder(false)
+            setCreatingFolderParentId(null)
+          }}
+          onSubmit={(name, parentId) => {
+            // Создать папку через API
+            filesApi.createDirectory(projectId, name, parentId ?? null)
+              .then(() => {
+                setError(null)
+                // Инвалидировать как файлы, так и директории
+                queryClient.invalidateQueries({ queryKey: ['files', projectId] })
+                queryClient.invalidateQueries({ queryKey: ['directories', projectId] })
+              })
+              .catch((err) => {
+                setError(errorMessage(err))
+              })
+            setCreatingFolder(false)
+            setCreatingFolderParentId(null)
+          }}
+        />
+      )}
+
+      {renamingItem && renamingItem.type === 'file' && (
+        <PromptDialog
+          title="Переименовать файл"
+          initialValue={renamingItem.name}
+          confirmLabel="Сохранить"
+          onCancel={() => setRenamingItem(null)}
+          onSubmit={(name) => {
+            if (name !== renamingItem.name) {
+              renameMutation.mutate({ id: renamingItem.id, name })
+            }
+            setRenamingItem(null)
+          }}
+        />
+      )}
+
+      {renamingItem && renamingItem.type === 'folder' && (
+        <PromptDialog
+          title="Переименовать папку"
+          initialValue={renamingItem.name}
+          confirmLabel="Сохранить"
+          onCancel={() => setRenamingItem(null)}
+          onSubmit={(name) => {
+            if (name !== renamingItem.name) {
+              renameDirectoryMutation.mutate({ id: renamingItem.id, name })
+            }
+            setRenamingItem(null)
+          }}
+        />
+      )}
+
+      {deletingItem && deletingItem.type === 'file' && (
+        <ConfirmDialog
+          title="Удалить файл?"
+          message={`Файл «${deletingItem.name}» будет удалён.`}
+          onCancel={() => setDeletingItem(null)}
+          onConfirm={() => {
+            if (deletingItem.id) {
+              deleteMutation.mutate(deletingItem.id)
+            }
+            setDeletingItem(null)
+          }}
+        />
+      )}
+
+      {deletingItem && deletingItem.type === 'folder' && (
+        <ConfirmDialog
+          title="Удалить папку?"
+          message={`Папка «${deletingItem.name}» будет удалена (только если пустая).`}
+          onCancel={() => setDeletingItem(null)}
+          onConfirm={() => {
+            if (deletingItem.id) {
+              deleteFolderMutation.mutate(deletingItem.id)
+            }
+            setDeletingItem(null)
+          }}
         />
       )}
     </div>
@@ -557,15 +671,6 @@ function AIPanel({
   )
 }
 
-/** CSS: красная рамка вокруг классов-нарушителей планарности (по data-name). */
-function planarityHighlightCss(labels: string[]): string {
-  if (labels.length === 0) return ''
-  const selectors = labels
-    .map((n) => `.svg-diagram .uml-class[data-name="${n.replace(/"/g, '\\"')}"] rect`)
-    .join(',\n')
-  return `${selectors} { stroke: #e5484d !important; stroke-width: 3 !important; }`
-}
-
 function BuildPanel({
   build,
   baseName,
@@ -575,16 +680,12 @@ function BuildPanel({
   baseName: string
   onClose: () => void
 }) {
-  // Подсветка непланарных классов: показываем красную рамку + «Продолжить
-  // рисование», пока пользователь не подтвердит. Сброс при новой сборке —
-  // корректировкой состояния в рендере (не в эффекте), сверяясь с прошлым build.
   const [ackPlanarity, setAckPlanarity] = useState(false)
   const [ackedBuild, setAckedBuild] = useState<BuildResult | null>(null)
   if (ackedBuild !== build) {
     setAckedBuild(build)
     setAckPlanarity(false)
   }
-  const highlight = build.planarity && !ackPlanarity
 
   return (
     <section className="build-panel card">
@@ -616,13 +717,13 @@ function BuildPanel({
                 {build.planarity.subgraphs.length > 1 ? (
                   <>
                     <span>
-                      ⚠ Граф не планарен: найдено подграфов-нарушителей —{' '}
+                      ⚠ Граф не планарен: найдено подграфов-нарушителей — 
                       {build.planarity.count}
                     </span>
                     <ul className="planarity-list">
                       {build.planarity.subgraphs.map((s, i) => (
                         <li key={i}>
-                          <strong>{s.kind ?? 'подграф Куратовского'}</strong>:{' '}
+                          <strong>{s.kind ?? 'подграф Куратовского'}</strong>: 
                           {s.labels.join(', ')}
                         </li>
                       ))}
@@ -640,9 +741,6 @@ function BuildPanel({
                 Продолжить рисование
               </button>
             </div>
-          )}
-          {highlight && build.planarity && (
-            <style>{planarityHighlightCss(build.planarity.labels)}</style>
           )}
           <div
             className="svg-diagram"
@@ -716,3 +814,4 @@ function BuildPanel({
     </section>
   )
 }
+

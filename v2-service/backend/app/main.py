@@ -62,11 +62,14 @@ app.include_router(
 )
 
 """
-CRUD проектов и файлов
+CRUD проектов, файлов и директорий
 """
+
+from app.api import directories
 
 app.include_router(projects.router)
 app.include_router(files.router)
+app.include_router(directories.router)
 
 
 """

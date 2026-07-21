@@ -23,13 +23,14 @@ class File(Base):
     
     :param id: UUID файла
     :param project_id: UUID проекта
+    :param directory_id: UUID директории или None (корневая директория)
     :param name: имя файла
     :param content: контент файла (текст)
     :param updated_at: время последнего обновления
     """
     __tablename__ = 'file'
     __table_args__ = (
-        UniqueConstraint('project_id', 'name', name='uq_file_project_name'),
+        UniqueConstraint('project_id', 'directory_id', 'name', name='uq_file_project_directory_name'),
     )
 
     id: Mapped[uuid.UUID] = mapped_column(GUID, primary_key=True, default=uuid.uuid4)
@@ -37,6 +38,12 @@ class File(Base):
         GUID,
         ForeignKey('project.id', ondelete='CASCADE'),
         nullable=False,
+        index=True,
+    )
+    directory_id: Mapped[uuid.UUID | None] = mapped_column(
+        GUID,
+        ForeignKey('directory.id', ondelete='CASCADE'),
+        nullable=True,
         index=True,
     )
     name: Mapped[str] = mapped_column(String(255), nullable=False)
@@ -49,5 +56,8 @@ class File(Base):
     )
 
     project: Mapped['Project'] = relationship(  # noqa: F821
+        back_populates='files'
+    )
+    directory: Mapped['Directory | None'] = relationship(  # noqa: F821
         back_populates='files'
     )

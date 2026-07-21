@@ -10,11 +10,13 @@ const ENGINE_EXT: Record<'v1' | 'v3', string> = {
 /** Создание файла. Расширение задаётся языком проекта: v1 → .ontol, v3 → .tdl. */
 export function CreateFileDialog({
   engine,
+  parentId,
   onSubmit,
   onCancel,
 }: {
   engine: 'v1' | 'v3'
-  onSubmit: (fullName: string) => void
+  parentId?: string
+  onSubmit: (fullName: string, parentId?: string) => void
   onCancel: () => void
 }) {
   const [name, setName] = useState('')
@@ -24,7 +26,7 @@ export function CreateFileDialog({
 
   function submit(e: SyntheticEvent) {
     e.preventDefault()
-    if (base) onSubmit(base + ext)
+    if (base) onSubmit(base + ext, parentId)
   }
 
   return (
