@@ -185,6 +185,54 @@ textarea:focus {
   margin-top: 24px;
 }
 
+/* Таблица проектов */
+.projects-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 16px;
+}
+.projects-table th,
+.projects-table td {
+  padding: 12px 14px;
+  text-align: left;
+  border-bottom: 1px solid var(--border);
+}
+.projects-table th {
+  background: var(--code-bg);
+  font-size: 13px;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--text);
+  font-weight: 600;
+}
+.projects-table tr:hover {
+  background: rgba(0, 0, 0, 0.02);
+}
+.projects-table .project-link {
+  font-size: 16px;
+  font-weight: 500;
+}
+.projects-table .actions {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+.projects-table .btn-secondary {
+  background: var(--bg);
+  color: var(--text-h);
+  border-color: var(--border);
+}
+.projects-table .btn-secondary:hover {
+  border-color: var(--accent-border);
+}
+.projects-table .actions .btn {
+  padding: 6px 12px;
+  font-size: 14px;
+}
+.empty {
+  margin-top: 24px;
+}
+
 /* Страница проекта */
 .project-head {
   margin-bottom: 12px;
@@ -407,6 +455,45 @@ textarea:focus {
 }
 .seg-control .btn {
   flex: 1;
+}
+
+/* Диалог импорта */
+.import-dialog {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.import-actions {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.file-input {
+  display: none;
+}
+.drop-zone {
+  border: 2px dashed var(--border);
+  border-radius: 8px;
+  padding: 24px;
+  text-align: center;
+  cursor: pointer;
+  transition: border-color 0.2s, background 0.2s;
+}
+.drop-zone:hover {
+  border-color: var(--accent);
+  background: rgba(0, 0, 0, 0.02);
+}
+.drop-zone-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+}
+.import-actions .btn {
+  flex: 1;
+}
+.small {
+  font-size: 13px;
 }
 
 /* Рабочая область: список всех файлов слева + редактор справа */

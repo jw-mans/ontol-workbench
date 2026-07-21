@@ -2,6 +2,7 @@
 
 import uuid
 from datetime import datetime
+from typing import TYPE_CHECKING
 
 from fastapi_users_db_sqlalchemy.generics import GUID
 from sqlalchemy import (
@@ -16,18 +17,14 @@ from sqlalchemy.orm import Mapped, mapped_column, relationship
 
 from app.db import Base
 
+if TYPE_CHECKING:
+    from app.models.directory import Directory
+    from app.models.project import Project
+
 
 class File(Base):
-    """
-    ORM-модель файла проекта.
+    """ORM-модель файла проекта. Контент `.ontol` хранится прямо в БД (TEXT)."""
     
-    :param id: UUID файла
-    :param project_id: UUID проекта
-    :param directory_id: UUID директории или None (корневая директория)
-    :param name: имя файла
-    :param content: контент файла (текст)
-    :param updated_at: время последнего обновления
-    """
     __tablename__ = 'file'
     __table_args__ = (
         UniqueConstraint('project_id', 'directory_id', 'name', name='uq_file_project_directory_name'),
@@ -55,9 +52,9 @@ class File(Base):
         nullable=False,
     )
 
-    project: Mapped['Project'] = relationship(  # noqa: F821
+    project: Mapped["Project"] = relationship(  # noqa: F821
         back_populates='files'
     )
-    directory: Mapped['Directory | None'] = relationship(  # noqa: F821
+    directory: Mapped["Directory"] = relationship(  # noqa: F821
         back_populates='files'
     )
