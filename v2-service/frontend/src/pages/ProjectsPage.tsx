@@ -90,9 +90,9 @@ export default function ProjectsPage() {
         projectId: importingProject.id,
         files: importingFiles,
       }, {
-        onSuccess: () => {
+        onSuccess: (results) => {
           // Показать сообщение об успехе
-          const successCount = importMutation.data?.filter(r => !('error' in r)).length || 0
+          const successCount = results?.filter(r => !('error' in r)).length || 0
           const totalCount = importingFiles.length
           setImportingSuccess(`Импортировано ${successCount} файлов из ${totalCount}`)
           
