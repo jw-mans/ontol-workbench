@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useState, type SyntheticEvent } from 'react'
+import { useState, type SyntheticEvent } from 'react'
 import { Link } from 'react-router-dom'
 import { useMutation, useQuery, useQueryClient } from '@tanstack/react-query'
 
@@ -6,8 +6,6 @@ import * as projectsApi from '../api/projects'
 import { errorMessage } from '../api/errors'
 import type { Project } from '../api/types'
 import { ConfirmDialog, PromptDialog } from '../components/Modal'
-import { ProjectTree } from '../components/ProjectTree'
-import { ContextMenu } from '../components/ContextMenu'
 
 const ENGINE_LABEL: Record<string, string> = {
   v1: 'Ontol v1',
@@ -21,17 +19,11 @@ export default function ProjectsPage() {
   const [error, setError] = useState<string | null>(null)
   const [renaming, setRenaming] = useState<Project | null>(null)
   const [deleting, setDeleting] = useState<Project | null>(null)
-  const [menu, setMenu] = useState<{ x: number; y: number; project: Project } | null>(null)
 
   const projectsQuery = useQuery({
     queryKey: ['projects'],
     queryFn: projectsApi.listProjects,
   })
-
-  const roots = useMemo(
-    () => (projectsQuery.data ?? []).filter((p) => p.parent_id === null),
-    [projectsQuery.data],
-  )
 
   const invalidate = () =>
     queryClient.invalidateQueries({ queryKey: ['projects'] })
@@ -65,50 +57,6 @@ export default function ProjectsPage() {
     const trimmed = name.trim()
     if (trimmed) createMutation.mutate({ n: trimmed, eng: engine })
   }
-
-  const handleProjectContextMenu = (project: Project, e: React.MouseEvent) => {
-    e.preventDefault()
-    setMenu({ x: e.clientX, y: e.clientY, project })
-  }
-
-  const menuItems = useMemo(() => {
-    if (!menu) return []
-    
-    return [
-      {
-        label: 'Создать подпроект',
-        onClick: () => {
-          setName('')
-          setEngine('v1')
-          setMenu(null)
-        },
-      },
-      {
-        label: 'Переименовать',
-        onClick: () => {
-          setRenaming(menu.project)
-          setMenu(null)
-        },
-      },
-      {
-        label: 'Удалить',
-        danger: true,
-        onClick: () => {
-          setDeleting(menu.project)
-          setMenu(null)
-        },
-      },
-    ]
-  }, [menu])
-
-  // Скрыть контекстное меню при клике вне его
-  useEffect(() => {
-    if (menu) {
-      const closeMenu = () => setMenu(null)
-      document.addEventListener('click', closeMenu)
-      return () => document.removeEventListener('click', closeMenu)
-    }
-  }, [menu])
 
   return (
     <div className="page projects-page">
@@ -150,49 +98,31 @@ export default function ProjectsPage() {
         <p className="error">{errorMessage(projectsQuery.error)}</p>
       )}
 
-      {projectsQuery.data && roots.length === 0 && (
+      {projectsQuery.data && projectsQuery.data.length === 0 && (
         <p className="muted empty">
           Пока нет ни одного проекта. Создайте первый выше.
         </p>
       )}
 
-      <ProjectTree
-        items={roots}
-        getKey={(p) => p.id}
-        getChildren={(p) =>
-          (projectsQuery.data ?? []).filter((child) => child.parent_id === p.id)
-        }
-        renderRow={(p, isExpanded, toggle) => (
-          <Link to={`/projects/${p.id}`} className="project-link">
-            <button
-              type="button"
-              className="tree-toggle"
-              onClick={(e) => {
-                e.stopPropagation()
-                toggle()
-              }}
-              style={{ visibility: isExpanded || (projectsQuery.data ?? []).some(c => c.parent_id === p.id) ? 'visible' : 'hidden' }}
-            >
-              {isExpanded ? '▼' : '▶'}
-            </button>
-            <span className="tree-row-name">
-              {p.name}
-            </span>
-            <span className="badge engine-badge">
-              {ENGINE_LABEL[p.engine] ?? p.engine}
-            </span>
-          </Link>
-        )}
-        onContextMenu={handleProjectContextMenu}
-      />
-
-      {menu && (
-        <ContextMenu
-          x={menu.x}
-          y={menu.y}
-          onClose={() => setMenu(null)}
-          items={menuItems}
-        />
+      {projectsQuery.data && projectsQuery.data.length > 0 && (
+        <div className="project-list">
+          {projectsQuery.data.map((project) => (
+            <div key={project.id} className="project-item">
+              <Link to={`/projects/${project.id}`} className="project-link">
+                {project.name}
+              </Link>
+              <span className="badge engine-badge">{ENGINE_LABEL[project.engine] ?? project.engine}</span>
+              <div className="spacer" />
+              <button
+                type="button"
+                className="btn btn-danger"
+                onClick={() => setDeleting(project)}
+              >
+                Удалить
+              </button>
+            </div>
+          ))}
+        </div>
       )}
 
       {renaming && (
@@ -213,7 +143,7 @@ export default function ProjectsPage() {
       {deleting && (
         <ConfirmDialog
           title="Удалить проект?"
-          message={`Проект «${deleting.name}» будет удалён со всеми файлами и подпроектами. Действие необратимо.`}
+          message={`Проект «${deleting.name}» будет удалён со всеми файлами. Действие необратимо.`}
           onCancel={() => setDeleting(null)}
           onConfirm={() => {
             deleteMutation.mutate(deleting.id)

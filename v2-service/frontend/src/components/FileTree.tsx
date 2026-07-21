@@ -21,7 +21,10 @@ export function FileTree({
   const [expanded, setExpanded] = useState<Set<string>>(new Set())
 
   useEffect(() => {
-    setExpanded(new Set([tree.name]))
+    // При изменении дерева сбрасываем раскрытие (но оставляем активные узлы)
+    const newExpanded = new Set<string>()
+    // Можно добавить логику для восстановления раскрытия по activeId
+    setExpanded(newExpanded)
   }, [tree.name])
 
   const toggle = (key: string) => {
@@ -45,9 +48,17 @@ export function FileTree({
     const isDirectory = !isEmptyRoot && node.id === null && node.directoryId !== undefined
     const hasChildren = node.children.length > 0
     const isExpanded = expanded.has(currentPath)
-    const isActive = node.id === activeId
+    const isActive = node.id === activeId && !isDirectory
 
-    const handleClick = () => {
+    const handleClick = (e: React.MouseEvent) => {
+      // Предотвращаем стандартное поведение для правой кнопки мыши
+      // В Safari на macOS правый клик может сначала вызывать onClick
+      const isRightClick = e.button === 2 || (e.ctrlKey && navigator.platform === 'MacIntel')
+      if (isRightClick) {
+        e.preventDefault()
+        return
+      }
+      
       if (isActive) return
       if (isDirectory && hasChildren) {
         toggle(currentPath)
@@ -64,6 +75,7 @@ export function FileTree({
 
     const handleContextMenu = (e: React.MouseEvent) => {
       e.preventDefault()
+      e.stopPropagation()
       if (onContextMenu) {
         const item = isDirectory
           ? { type: 'folder' as const, id: node.directoryId || node.id, name: node.name }

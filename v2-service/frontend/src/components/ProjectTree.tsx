@@ -53,8 +53,9 @@ export function ProjectTree<T>({
             }
           }}
           onContextMenu={(e) => {
+            e.preventDefault()
+            e.stopPropagation()
             if (onContextMenu) {
-              e.preventDefault()
               onContextMenu(item, e)
             }
           }}

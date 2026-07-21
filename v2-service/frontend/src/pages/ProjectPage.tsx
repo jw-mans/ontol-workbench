@@ -8,6 +8,7 @@ import * as buildApi from '../api/build'
 import type { BuildResult } from '../api/build'
 import * as aiApi from '../api/ai'
 import type { AIHierarchyResult } from '../api/ai'
+import type { Directory, FileListItem } from '../api/types'
 import { errorMessage } from '../api/errors'
 import { downloadDataUrl, downloadText } from '../utils/download'
 import OntolEditor from '../components/OntolEditor'
@@ -74,8 +75,6 @@ export default function ProjectPage() {
     const pruned = openIds.filter((id) => ids.has(id))
     if (pruned.length !== openIds.length) {
       setOpenIds(pruned)
-    } else if (openIds.length === 0 && files.length > 0) {
-      setOpenIds([files[0].id])
     }
   }
   
@@ -94,7 +93,53 @@ export default function ProjectPage() {
     const idx = openIds.indexOf(id)
     const next = openIds.filter((x) => x !== id)
     setOpenIds(next)
-    if (activeId === id) setActiveId(next[idx] ?? next[idx - 1] ?? null)
+    // Сбросить activeId, если закрыт текущий файл
+    if (activeId === id) {
+      // Если остались другие файлы, выбрать последний, иначе сбросить
+      setActiveId(next.length > 0 ? next[idx] ?? next[idx - 1] ?? null : null)
+    }
+  }
+
+  // Получить уникальное имя файла с путём, если есть дубликаты во вкладках
+  const getUniqueFileName = (fileId: string, fileName: string): string => {
+    const file = files?.find((f) => f.id === fileId)
+    if (!file) return fileName
+    
+    // Если нет directory_id, возвращаем только имя
+    if (!file.directory_id) return fileName
+    
+    // Ищем другие ОТКРЫТЫЕ файлы с таким же именем
+    const otherOpenFilesWithSameName = openIds
+      .filter((id) => id !== fileId)
+      .map((id) => files?.find((f) => f.id === id))
+      .filter((f): f is FileListItem => !!f && f.name === fileName)
+    
+    const hasOpenDuplicates = otherOpenFilesWithSameName.length > 0
+    
+    // Если есть дубликаты во вкладках, показываем полный путь
+    if (hasOpenDuplicates) {
+      // Найти путь к директории
+      const rootDir = projectDirectories.data?.find((d) => d.id === file.directory_id)
+      if (rootDir) {
+        // Построить путь от корня к директории
+        const pathParts: string[] = []
+        let currentDir: Directory | undefined = rootDir
+        while (currentDir !== undefined) {
+          pathParts.unshift(currentDir!.name)
+          if (currentDir!.parent_directory_id) {
+            currentDir = projectDirectories.data?.find((d) => d.id === currentDir!.parent_directory_id)
+          } else {
+            currentDir = undefined
+          }
+        }
+        if (pathParts.length > 0) {
+          return `${pathParts.join('/')}/${fileName}`
+        }
+      }
+    }
+    
+    // Возвращаем только имя файла (короткое)
+    return fileName
   }
 
   // Загрузка директорий
@@ -255,6 +300,7 @@ export default function ProjectPage() {
     e.preventDefault()
     e.stopPropagation()
     // Для корневой папки id будет undefined
+    setCreatingFolderParentId(null)
     setMenu({ x: e.clientX, y: e.clientY, item: { type: 'folder', name: '' } })
   }
 
@@ -287,6 +333,8 @@ export default function ProjectPage() {
         // Закрыть меню, если клик был вне контекстного меню
         if (!e.target || !(e.target as Element).closest('.context-menu')) {
           setMenu(null)
+          // Сбросить parentId при закрытии меню
+          setCreatingFolderParentId(null)
         }
       }
       document.addEventListener('mousedown', closeMenu)
@@ -402,9 +450,7 @@ export default function ProjectPage() {
           <div className="explorer-head">
             <span className="explorer-title">Файлы</span>
           </div>
-          {files && files.length === 0 ? (
-            <p className="muted empty-explorer">Файлов пока нет. Кликните правой кнопкой мыши, чтобы создать первый файл.</p>
-          ) : fileTree ? (
+          {fileTree && fileTree.children.length > 0 ? (
             <FileTree
               tree={fileTree}
               activeId={activeId}
@@ -412,7 +458,9 @@ export default function ProjectPage() {
               onDoubleClick={handleFileDoubleClick}
               onContextMenu={showMenu}
             />
-          ) : null}
+          ) : (
+            <p className="muted empty-explorer">Файлов и папок пока нет. Кликните правой кнопкой мыши, чтобы создать первую папку или файл.</p>
+          )}
         </aside>
 
         <div className="editor-area">
@@ -421,6 +469,7 @@ export default function ProjectPage() {
               {openIds.map((id) => {
                 const f = files?.find((x) => x.id === id)
                 if (!f) return null
+                const isTdl = f.name.endsWith('.tdl')
                 return (
                   <div
                     key={id}
@@ -431,16 +480,18 @@ export default function ProjectPage() {
                       className="tab-name"
                       onClick={() => setActiveId(id)}
                     >
-                      {f.name}
+                      {getUniqueFileName(id, f.name)}
                     </button>
-                    <button
-                      type="button"
-                      className="tab-close"
-                      title="Закрыть вкладку"
-                      onClick={() => closeTab(id)}
-                    >
-                      ×
-                    </button>
+                    {!isTdl && (
+                      <button
+                        type="button"
+                        className="tab-close"
+                        title="Закрыть вкладку"
+                        onClick={() => closeTab(id)}
+                      >
+                        ×
+                      </button>
+                    )}
                   </div>
                 )
               })}
@@ -481,9 +532,9 @@ export default function ProjectPage() {
             </div>
           ) : (
             <p className="muted empty">
-              {files && files.length === 0
-                ? 'В проекте пока нет файлов. Создайте первый через контекстное меню.'
-                : 'Выберите файл слева, чтобы открыть.'}
+              {fileTree && fileTree.children.length === 0
+                ? 'В проекте пока нет файлов и папок. Создайте первую через контекстное меню.'
+                : 'Откройте любой файл слева, чтобы редактировать.'}
             </p>
           )}
         </div>
@@ -525,6 +576,8 @@ export default function ProjectPage() {
             const directoryId = creatingFolderParentId ?? undefined
             createMutation.mutate({ name, directoryId })
             setCreatingFile(false)
+            // Сбросить parentId после успешного создания
+            setCreatingFolderParentId(null)
           }}
         />
       )}
@@ -544,6 +597,8 @@ export default function ProjectPage() {
                 // Инвалидировать как файлы, так и директории
                 queryClient.invalidateQueries({ queryKey: ['files', projectId] })
                 queryClient.invalidateQueries({ queryKey: ['directories', projectId] })
+                // Сбросить parentId после успешного создания
+                setCreatingFolderParentId(null)
               })
               .catch((err) => {
                 setError(errorMessage(err))
