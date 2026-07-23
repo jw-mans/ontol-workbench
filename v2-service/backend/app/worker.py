@@ -19,6 +19,7 @@ from sqlalchemy import select
 
 from app.config import settings
 from app.db import async_session_maker
+from app.models.directory import Directory
 from app.models.file import File
 from app.models.project import Project
 from app.queue import AI_HIERARCHY, RENDER_BUILD, redis_settings
@@ -28,12 +29,69 @@ from app.services.render import BuildResult, build_project
 DEFAULT_ENTRY = 'main.ontol'
 
 
-async def _load_files(project_id: str) -> dict[str, str]:
-    async with async_session_maker() as session:
-        result = await session.execute(
-            select(File).where(File.project_id == uuid.UUID(project_id))
+async def _collect_files_with_dirs(
+    session,
+    project_id: uuid.UUID,
+    prefix: str,
+    dir_id: uuid.UUID | None = None,
+) -> dict[str, str]:
+    """Собрать .ontol/.tdl файлы из директории и всех поддиректорий.
+    
+    Возвращает словарь {относительный_путь: содержимое}.
+    Используется как в _load_files, так и в _load_subtree_ontol.
+    """
+    collected: dict[str, str] = {}
+    
+    async def _collect_recursive(dir_id_internal: uuid.UUID | None, prefix_internal: str) -> None:
+        files_result = await session.execute(
+            select(File).where(
+                File.project_id == project_id,
+                File.directory_id == dir_id_internal
+            )
         )
-        return {f.name: f.content for f in result.scalars().all()}
+        files_list = files_result.scalars().all()
+        
+        # Отладка: выводим собраны ли файлы
+        if not collected and not files_list and dir_id_internal is None:
+            # Это первый вызов (корневая директория), проверим, есть ли файлы вообще
+            all_files = await session.execute(select(File).where(File.project_id == project_id))
+            all_list = all_files.scalars().all()
+            print(f"DEBUG _collect_files_with_dirs: project_id={project_id}, total files={len(all_list)}")
+            for f in all_list:
+                print(f"  - file: name='{f.name}', directory_id={f.directory_id}")
+        
+        for f in files_list:
+            if f.name.endswith(('.ontol', '.tdl')):
+                collected[f'{prefix_internal}{f.name}'] = f.content
+        
+        dirs_result = await session.execute(
+            select(Directory).where(
+                Directory.project_id == project_id,
+                Directory.parent_directory_id == dir_id_internal
+            )
+        )
+        dirs_list = dirs_result.scalars().all()
+        if dirs_list:
+            print(f"DEBUG _collect_recursive: dir_id={dir_id_internal}, found {len(dirs_list)} directories")
+        
+        for dir_obj in dirs_list:
+            await _collect_recursive(dir_obj.id, f'{prefix_internal}{dir_obj.name}/')
+    
+    await _collect_recursive(dir_id, prefix)
+    print(f"DEBUG _collect_files_with_dirs: collected {len(collected)} files: {list(collected.keys())}")
+    return collected
+
+
+async def _load_files(project_id: str) -> dict[str, str]:
+    """Собрать все .ontol-файлы проекта с относительными путями.
+    
+    Возвращает словарь {относительный_путь: содержимое}, где относительный путь
+    учитывает директорию, в которой лежит файл (если файл в корне - путь пустой).
+    """
+    async with async_session_maker() as session:
+        return await _collect_files_with_dirs(
+            session, uuid.UUID(project_id), ''
+        )
 
 
 async def _load_engine(project_id: str) -> str | None:
@@ -74,8 +132,12 @@ async def _load_subtree_ontol(root_id: str) -> dict[str, str]:
     Подпроект материализуется как подкаталог (имя каталога = имя подпроекта),
     поэтому ``import ... from "Подпроект/файл.ontol"`` резолвится по пути.
     Файлы корня лежат на верхнем уровне (без префикса).
+    
+    Файлы внутри проекта могут быть в директориях (через directory_id),
+    они собираются с относительными путями от проекта.
     """
     collected: dict[str, str] = {}
+    
     async with async_session_maker() as session:
         pending = [(uuid.UUID(root_id), '')]
         seen: set[uuid.UUID] = set()
@@ -84,10 +146,15 @@ async def _load_subtree_ontol(root_id: str) -> dict[str, str]:
             if pid in seen:
                 continue
             seen.add(pid)
-            files = await session.execute(select(File).where(File.project_id == pid))
-            for f in files.scalars().all():
-                if f.name.endswith('.ontol'):
-                    collected[f'{prefix}{f.name}'] = f.content
+            
+            # Собираем файлы этого проекта (включая все его директории)
+            files = await _collect_files_with_dirs(session, pid, prefix)
+            # Фильтруем только .ontol файлы (для v3 используется другая функция)
+            for path, content in files.items():
+                if path.endswith('.ontol'):
+                    collected[path] = content
+            
+            # Добавляем подпроекты в очередь
             children = await session.execute(
                 select(Project.id, Project.name).where(Project.parent_id == pid)
             )
@@ -97,7 +164,39 @@ async def _load_subtree_ontol(root_id: str) -> dict[str, str]:
 
 
 def _choose_entry(entry: str | None, files: dict[str, str]) -> str:
-    return entry or (DEFAULT_ENTRY if DEFAULT_ENTRY in files else sorted(files)[0])
+    """Выбрать точку входа.
+    
+    Если entry указан явно - используем его.
+    Иначе ищем main.ontol, если нет - берем первую доступную точку входа.
+    
+    Важно: entry может быть указана как имя файла (для обратной совместимости)
+    или как полный путь (для файлов в поддиректориях).
+    """
+    if entry:
+        # Проверяем, есть ли entry в files как есть
+        if entry in files:
+            return entry
+        # Если нет, пробуем добавить .ontol (если его нет)
+        if not entry.endswith('.ontol') and f'{entry}.ontol' in files:
+            return f'{entry}.ontol'
+        # Если файл в поддиректории, entry может быть просто именем
+        # Ищем файл с таким именем в любом пути
+        basename = entry if entry.endswith('.ontol') else f'{entry}.ontol'
+        for path in files:
+            if path.endswith(basename):
+                return path
+    
+    # Дефолт: ищем main.ontol
+    if DEFAULT_ENTRY in files:
+        return DEFAULT_ENTRY
+    
+    # Если main.ontol нет, ищем его с расширением
+    for path in files:
+        if path.endswith('.ontol'):
+            return path
+    
+    # Если ничего не найдено, возвращаем первую доступную точку входа
+    return sorted(files.keys())[0] if files else ''
 
 
 async def render_build(ctx: dict, project_id: str, entry: str | None) -> dict:

@@ -11,6 +11,7 @@
 Блокирующая функция: вызывать из async-кода через ``run_in_threadpool``/``to_thread``.
 """
 
+import os
 import shutil
 import tempfile
 from dataclasses import dataclass, field
@@ -69,9 +70,11 @@ def generate_hierarchy(
 def _run(
     project: Project, entry: str, model: str, base_url: str, temperature: float
 ) -> AIHierarchyResult:
-    entry_path = project.file_path(entry)
+    entry_path = os.path.join(project.root, entry)
     try:
-        content = project.read_file(entry)
+        # Читаем файл напрямую, минуя project.read_file(), так как entry может быть полным путем
+        with open(entry_path, 'r', encoding='utf-8') as f:
+            content = f.read()
         ontology, _ = Parser().parse(content, entry_path)
     except Exception as error:  # noqa: BLE001 — ошибка парсинга/импорта
         return AIHierarchyResult(ok=False, error=str(error))

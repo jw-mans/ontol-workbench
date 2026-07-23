@@ -17,7 +17,7 @@ from ontol import JSONSerializer, Parser, PlantUML, Project
 from app.config import settings
 from app.services.render import BuildResult
 
-_ANSI_RE = re.compile(r'\x1b\[[0-9;]*m')
+_ANSI_RE = re.compile(r'\x1b[[0-9;]*m')
 
 
 def _clean(warnings: list[str]) -> list[str]:
@@ -40,25 +40,53 @@ def build_ontol(
 
     :return: BuildResult
     """
+    print(f"DEBUG build_ontol: entry='{entry}'")
+    print(f"DEBUG build_ontol: files={list(files.keys())}")
+    
     tmp_dir = tempfile.mkdtemp(prefix='ontol_build_')
     try:
         root = os.path.abspath(tmp_dir)
         for relpath, content in files.items():
             dest = os.path.abspath(os.path.join(root, relpath))
+            
+            # Проверка path traversal
             if os.path.commonpath([root, dest]) != root:
+                print(f"DEBUG build_ontol: SKIPPED (path traversal): {relpath}")
                 continue
+            
             os.makedirs(os.path.dirname(dest), exist_ok=True)
+            
+            # Записываем файл как есть - парсер сам разрешит импорты относительно
+            # текущего файла (как при локальной сборке через CLI).
             with open(dest, 'w', encoding='utf-8') as f:
                 f.write(content)
+            print(f"DEBUG build_ontol: written: {relpath} -> {dest}")
+        
+        print(f"DEBUG build_ontol: all files in tmp_dir:")
+        for r, d, fs in os.walk(root):
+            for f in fs:
+                print(f"  - {os.path.relpath(os.path.join(r, f), root)}")
+        
         return _render(Project(tmp_dir), entry, plantuml_url)
     finally:
         shutil.rmtree(tmp_dir, ignore_errors=True)
 
 
 def _render(project: Project, entry: str, plantuml_url: str) -> BuildResult:
-    entry_path = project.file_path(entry)
+    entry_path = os.path.join(project.root, entry)
+    print(f"DEBUG _render: entry='{entry}', entry_path='{entry_path}'")
+    print(f"DEBUG _render: project.root='{project.root}'")
+    # Выводим все файлы в проекте
+    for root, dirs, files in os.walk(project.root):
+        for f in files:
+            full_path = os.path.join(root, f)
+            rel_path = os.path.relpath(full_path, project.root)
+            print(f"DEBUG _render: found file: '{rel_path}'")
+    
     try:
-        content = project.read_file(entry)
+        # Читаем файл напрямую, минуя project.read_file(), так как entry может быть полным путем
+        with open(entry_path, 'r', encoding='utf-8') as f:
+            content = f.read()
         ontology, warnings = Parser().parse(content, entry_path)
     except Exception as error:  # noqa: BLE001
         return BuildResult(ok=False, error=str(error))
