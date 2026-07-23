@@ -37,8 +37,8 @@ async def _collect_files_with_dirs(
 ) -> dict[str, str]:
     """Собрать .ontol/.tdl файлы из директории и всех поддиректорий.
     
+    Если dir_id=None, собирает файлы из корня проекта (без директорий) и всех её поддиректорий.
     Возвращает словарь {относительный_путь: содержимое}.
-    Используется как в _load_files, так и в _load_subtree_ontol.
     """
     collected: dict[str, str] = {}
     
@@ -51,15 +51,6 @@ async def _collect_files_with_dirs(
         )
         files_list = files_result.scalars().all()
         
-        # Отладка: выводим собраны ли файлы
-        if not collected and not files_list and dir_id_internal is None:
-            # Это первый вызов (корневая директория), проверим, есть ли файлы вообще
-            all_files = await session.execute(select(File).where(File.project_id == project_id))
-            all_list = all_files.scalars().all()
-            print(f"DEBUG _collect_files_with_dirs: project_id={project_id}, total files={len(all_list)}")
-            for f in all_list:
-                print(f"  - file: name='{f.name}', directory_id={f.directory_id}")
-        
         for f in files_list:
             if f.name.endswith(('.ontol', '.tdl')):
                 collected[f'{prefix_internal}{f.name}'] = f.content
@@ -71,14 +62,14 @@ async def _collect_files_with_dirs(
             )
         )
         dirs_list = dirs_result.scalars().all()
-        if dirs_list:
-            print(f"DEBUG _collect_recursive: dir_id={dir_id_internal}, found {len(dirs_list)} directories")
         
         for dir_obj in dirs_list:
             await _collect_recursive(dir_obj.id, f'{prefix_internal}{dir_obj.name}/')
     
+    # Собираем файлы из указанной директории и всех поддиректорий
+    # Если dir_id=None, это означает, что мы хотим собрать файлы из корня (directory_id IS NULL)
+    # и всех поддиректорий
     await _collect_recursive(dir_id, prefix)
-    print(f"DEBUG _collect_files_with_dirs: collected {len(collected)} files: {list(collected.keys())}")
     return collected
 
 
@@ -100,11 +91,147 @@ async def _load_engine(project_id: str) -> str | None:
         return project.engine if project else None
 
 
+async def _load_project_files(project_id: uuid.UUID) -> dict[str, str]:
+    """Собрать все .ontol-файлы проекта и всех его подпроектов.
+    
+    Подпроекты materialize как подкаталоги (имя каталога = имя подпроекта).
+    Возвращает словарь {относительный_путь: содержимое} для всех файлов дерева проектов.
+    """
+    collected: dict[str, str] = {}
+    
+    async with async_session_maker() as session:
+        # Сначала собираем все директории проекта, чтобы понять структуру
+        # Затем собираем файлы с учетом их местоположения в директориях
+        
+        # Собираем файлы из корня проекта (directory_id IS NULL)
+        root_files = await session.execute(
+            select(File).where(
+                File.project_id == project_id,
+                File.directory_id == None  # noqa: E711
+            )
+        )
+        for f in root_files.scalars().all():
+            if f.name.endswith('.ontol'):
+                collected[f.name] = f.content
+        
+        # Собираем все директории проекта
+        dirs_result = await session.execute(
+            select(Directory).where(
+                Directory.project_id == project_id
+            )
+        )
+        directories = dirs_result.scalars().all()
+        
+        # Для каждой директории собираем файлы с правильным префиксом
+        for dir_obj in directories:
+            # Находим путь к директории
+            dir_path = _get_directory_path(session, dir_obj)
+            
+            # Собираем файлы из этой директории
+            dir_files = await session.execute(
+                select(File).where(
+                    File.project_id == project_id,
+                    File.directory_id == dir_obj.id
+                )
+            )
+            for f in dir_files.scalars().all():
+                if f.name.endswith('.ontol'):
+                    collected[f"{dir_path}/{f.name}"] = f.content
+        
+        # Добавляем подпроекты
+        children = await session.execute(
+            select(Project.id, Project.name).where(Project.parent_id == project_id)
+        )
+        for cid, cname in children.all():
+            # Собираем файлы подпроекта с префиксом
+            subproject_files = await _load_project_files_recursive(session, cid, cname)
+            for path, content in subproject_files.items():
+                if path.endswith('.ontol'):
+                    collected[path] = content
+    
+    return collected
+
+
+async def _load_project_files_recursive(session, project_id: uuid.UUID, prefix: str) -> dict[str, str]:
+    """Рекурсивно собрать все .ontol-файлы проекта и подпроектов с префиксом."""
+    collected: dict[str, str] = {}
+    
+    # Собираем файлы из корня подпроекта
+    root_files = await session.execute(
+        select(File).where(
+            File.project_id == project_id,
+            File.directory_id == None  # noqa: E711
+        )
+    )
+    for f in root_files.scalars().all():
+        if f.name.endswith('.ontol'):
+            collected[f"{prefix}/{f.name}"] = f.content
+    
+    # Собираем файлы из директорий подпроекта
+    dirs_result = await session.execute(
+        select(Directory).where(
+            Directory.project_id == project_id
+        )
+    )
+    directories = dirs_result.scalars().all()
+    
+    for dir_obj in directories:
+        dir_path = _get_directory_path_recursive(session, dir_obj, prefix)
+        
+        dir_files = await session.execute(
+            select(File).where(
+                File.project_id == project_id,
+                File.directory_id == dir_obj.id
+            )
+        )
+        for f in dir_files.scalars().all():
+            if f.name.endswith('.ontol'):
+                collected[f"{dir_path}/{f.name}"] = f.content
+    
+    # Рекурсивно добавляем подпроекты
+    children = await session.execute(
+        select(Project.id, Project.name).where(Project.parent_id == project_id)
+    )
+    for cid, cname in children.all():
+        subproject_files = await _load_project_files_recursive(session, cid, f"{prefix}/{cname}")
+        for path, content in subproject_files.items():
+            if path.endswith('.ontol'):
+                collected[path] = content
+    
+    return collected
+
+
+def _get_directory_path(session, dir_obj: 'Directory') -> str:
+    """Построить путь к директории от корня проекта."""
+    path_parts = []
+    current = dir_obj
+    
+    while current.parent_directory is not None:
+        path_parts.append(current.name)
+        current = current.parent_directory
+    
+    path_parts.append(current.name)
+    return '/'.join(reversed(path_parts))
+
+
+def _get_directory_path_recursive(session, dir_obj: 'Directory', prefix: str) -> str:
+    """Построить путь к директории с учетом префикса."""
+    path_parts = [prefix]
+    current = dir_obj
+    
+    while current.parent_directory is not None:
+        path_parts.append(current.name)
+        current = current.parent_directory
+    
+    path_parts.append(current.name)
+    return '/'.join(reversed(path_parts))
+
+
 async def _load_subtree_tdl(root_id: str) -> dict[str, str]:
     """Собрать ``.tdl``-файлы проекта и всех подпроектов (v3).
 
     Ключи — ``<project_id>/<имя>`` (уникальны между подпроектами; сборка v3
-    сливает по именам классов, а не файлов).
+    сливает по именам классов, не файлов).
     """
     collected: dict[str, str] = {}
     async with async_session_maker() as session:
@@ -123,43 +250,6 @@ async def _load_subtree_tdl(root_id: str) -> dict[str, str]:
                 select(Project.id).where(Project.parent_id == pid)
             )
             pending.extend(children.scalars().all())
-    return collected
-
-
-async def _load_subtree_ontol(root_id: str) -> dict[str, str]:
-    """Собрать ``.ontol``-файлы дерева с относительными путями (v1).
-
-    Подпроект материализуется как подкаталог (имя каталога = имя подпроекта),
-    поэтому ``import ... from "Подпроект/файл.ontol"`` резолвится по пути.
-    Файлы корня лежат на верхнем уровне (без префикса).
-    
-    Файлы внутри проекта могут быть в директориях (через directory_id),
-    они собираются с относительными путями от проекта.
-    """
-    collected: dict[str, str] = {}
-    
-    async with async_session_maker() as session:
-        pending = [(uuid.UUID(root_id), '')]
-        seen: set[uuid.UUID] = set()
-        while pending:
-            pid, prefix = pending.pop()
-            if pid in seen:
-                continue
-            seen.add(pid)
-            
-            # Собираем файлы этого проекта (включая все его директории)
-            files = await _collect_files_with_dirs(session, pid, prefix)
-            # Фильтруем только .ontol файлы (для v3 используется другая функция)
-            for path, content in files.items():
-                if path.endswith('.ontol'):
-                    collected[path] = content
-            
-            # Добавляем подпроекты в очередь
-            children = await session.execute(
-                select(Project.id, Project.name).where(Project.parent_id == pid)
-            )
-            for cid, cname in children.all():
-                pending.append((cid, f'{prefix}{cname}/'))
     return collected
 
 
@@ -200,11 +290,11 @@ def _choose_entry(entry: str | None, files: dict[str, str]) -> str:
 
 
 async def render_build(ctx: dict, project_id: str, entry: str | None) -> dict:
-    """Собрать проект: прочитать файлы дерева из БД и отрендерить.
+    """Собрать проект: прочитать файлы из БД и отрендерить.
 
     Возвращает dict из ``BuildResult``. Язык берётся из проекта: v3 сливает
-    ``.tdl`` всего поддерева в одну онтологию; v1 материализует дерево как
-    подкаталоги (импорты между подпроектами резолвятся по пути).
+    ``.tdl`` всего поддерева в одну онтологию; v1 материализует только файлы
+    текущего проекта (включая подпроекты как подкаталоги).
     """
     engine = await _load_engine(project_id)
 
@@ -214,11 +304,10 @@ async def render_build(ctx: dict, project_id: str, entry: str | None) -> dict:
             return asdict(BuildResult(ok=False, error='Project has no files'))
         chosen = next(iter(files))  # v3 сливает всё поддерево, точка входа любая
     else:
-        own = await _load_files(project_id)
-        if not own:
+        files = await _load_project_files(uuid.UUID(project_id))
+        if not files:
             return asdict(BuildResult(ok=False, error='Project has no files'))
-        chosen = _choose_entry(entry, own)  # точка входа — файл корня
-        files = await _load_subtree_ontol(project_id)
+        chosen = _choose_entry(entry, files)
 
     # build_project блокирующий — в отдельный поток.
     build_result = await asyncio.to_thread(

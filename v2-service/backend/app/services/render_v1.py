@@ -40,9 +40,6 @@ def build_ontol(
 
     :return: BuildResult
     """
-    print(f"DEBUG build_ontol: entry='{entry}'")
-    print(f"DEBUG build_ontol: files={list(files.keys())}")
-    
     tmp_dir = tempfile.mkdtemp(prefix='ontol_build_')
     try:
         root = os.path.abspath(tmp_dir)
@@ -51,7 +48,6 @@ def build_ontol(
             
             # Проверка path traversal
             if os.path.commonpath([root, dest]) != root:
-                print(f"DEBUG build_ontol: SKIPPED (path traversal): {relpath}")
                 continue
             
             os.makedirs(os.path.dirname(dest), exist_ok=True)
@@ -60,12 +56,6 @@ def build_ontol(
             # текущего файла (как при локальной сборке через CLI).
             with open(dest, 'w', encoding='utf-8') as f:
                 f.write(content)
-            print(f"DEBUG build_ontol: written: {relpath} -> {dest}")
-        
-        print(f"DEBUG build_ontol: all files in tmp_dir:")
-        for r, d, fs in os.walk(root):
-            for f in fs:
-                print(f"  - {os.path.relpath(os.path.join(r, f), root)}")
         
         return _render(Project(tmp_dir), entry, plantuml_url)
     finally:
@@ -74,14 +64,6 @@ def build_ontol(
 
 def _render(project: Project, entry: str, plantuml_url: str) -> BuildResult:
     entry_path = os.path.join(project.root, entry)
-    print(f"DEBUG _render: entry='{entry}', entry_path='{entry_path}'")
-    print(f"DEBUG _render: project.root='{project.root}'")
-    # Выводим все файлы в проекте
-    for root, dirs, files in os.walk(project.root):
-        for f in files:
-            full_path = os.path.join(root, f)
-            rel_path = os.path.relpath(full_path, project.root)
-            print(f"DEBUG _render: found file: '{rel_path}'")
     
     try:
         # Читаем файл напрямую, минуя project.read_file(), так как entry может быть полным путем

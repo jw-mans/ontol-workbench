@@ -47,3 +47,4 @@ class Directory(Base):
     parent: Mapped["Directory"] = relationship(  # noqa: F821
         back_populates='children', remote_side=[id]
     )
+    parent_directory = parent  # Алиас для удобства
