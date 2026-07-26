@@ -135,19 +135,6 @@ code {
   cursor: not-allowed;
 }
 
-.page-size-selector label {
-  font-size: 14px;
-}
-
-.page-size-selector select {
-  padding: 3px 6px;
-  border: 1px solid var(--border);
-  border-radius: 4px;
-  background: var(--bg);
-  color: var(--text);
-  font: inherit;
-}
-
 /* Пагинация в модалке */
 .modal.large .pagination {
   margin: 0 0 10px;

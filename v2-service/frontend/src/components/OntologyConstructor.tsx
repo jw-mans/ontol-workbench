@@ -7,30 +7,15 @@ function ConceptPagination({
   currentPage,
   totalPages,
   onPageChange,
-  itemsPerPage,
-  onItemsPerPageChange,
   totalCount
 }: {
   currentPage: number
   totalPages: number
   onPageChange: (page: number) => void
-  itemsPerPage: number
-  onItemsPerPageChange: (count: number) => void
   totalCount: number
 }) {
   return (
     <div className="pagination">
-      <div className="page-size-selector">
-        <label>На странице:</label>
-        <select
-          value={itemsPerPage}
-          onChange={(e) => onItemsPerPageChange(Number(e.target.value))}
-        >
-          <option value={10}>10</option>
-          <option value={20}>20</option>
-          <option value={50}>50</option>
-        </select>
-      </div>
       <button
         type="button"
         className="btn"
@@ -62,30 +47,15 @@ function RelationPagination({
   currentPage,
   totalPages,
   onPageChange,
-  itemsPerPage,
-  onItemsPerPageChange,
   totalCount
 }: {
   currentPage: number
   totalPages: number
   onPageChange: (page: number) => void
-  itemsPerPage: number
-  onItemsPerPageChange: (count: number) => void
   totalCount: number
 }) {
   return (
     <div className="pagination">
-      <div className="page-size-selector">
-        <label>На странице:</label>
-        <select
-          value={itemsPerPage}
-          onChange={(e) => onItemsPerPageChange(Number(e.target.value))}
-        >
-          <option value={10}>10</option>
-          <option value={20}>20</option>
-          <option value={50}>50</option>
-        </select>
-      </div>
       <button
         type="button"
         className="btn"
@@ -173,12 +143,6 @@ function ConceptSelector({
         <h3>Доступные понятия</h3>
       </div>
       
-      {showPagination && paginationProps && (
-        <div className="card">
-          <ConceptPagination {...paginationProps} />
-        </div>
-      )}
-      
       <div className="concept-list">
         {availableConcepts.map(concept => {
           const isSelected = selectedConcepts.includes(concept.name)
@@ -198,6 +162,12 @@ function ConceptSelector({
           <p className="muted">Нет доступных понятий</p>
         )}
       </div>
+      
+      {showPagination && paginationProps && (
+        <div className="card">
+          <ConceptPagination {...paginationProps} />
+        </div>
+      )}
     </div>
   )
 }
@@ -207,11 +177,12 @@ interface SelectedConceptsListProps {
   onDelete: (conceptName: string) => void
 }
 
-function SelectedConceptsList({ selectedConcepts, onDelete }: SelectedConceptsListProps) {
+function SelectedConceptsList({ selectedConcepts, onDelete, totalCount }: SelectedConceptsListProps & { totalCount?: number }) {
   return (
     <div className="selected-concepts-list card">
       <div className="row">
         <h3>Выбранные понятия ({selectedConcepts.length})</h3>
+        {totalCount !== undefined && <span className="muted">из {totalCount} понятий</span>}
       </div>
       
       {selectedConcepts.map((concept) => (
@@ -273,12 +244,6 @@ function RelationSelector({
         <h3>Доступные связи</h3>
       </div>
       
-      {showPagination && paginationProps && (
-        <div className="card">
-          <RelationPagination {...paginationProps} />
-        </div>
-      )}
-      
       <div className="relation-list">
         {filteredRelations.map(relation => {
           const key = relationKey(relation)
@@ -304,6 +269,12 @@ function RelationSelector({
           <p className="muted">Нет доступных связей между выбранными понятиями</p>
         )}
       </div>
+      
+      {showPagination && paginationProps && (
+        <div className="card">
+          <RelationPagination {...paginationProps} />
+        </div>
+      )}
     </div>
   )
 }
@@ -313,11 +284,12 @@ interface SelectedRelationsListProps {
   onDelete: (relation: ontologiesApi.OntologyRelation) => void
 }
 
-function SelectedRelationsList({ selectedRelations, onDelete }: SelectedRelationsListProps) {
+function SelectedRelationsList({ selectedRelations, onDelete, totalCount }: SelectedRelationsListProps & { totalCount?: number }) {
   return (
     <div className="selected-relations-list card">
       <div className="row">
         <h3>Выбранные связи ({selectedRelations.length})</h3>
+        {totalCount !== undefined && <span className="muted">из {totalCount} связей</span>}
       </div>
       
       {selectedRelations.map((relation) => {
@@ -370,7 +342,7 @@ export function OntologyConstructor({ projectId, directoryId, onCancel, onSubmit
   const [phase, setPhase] = useState<1 | 2>(1) // Текущая фаза: 1 - понятия, 2 - отношения
   const [conceptPage, setConceptPage] = useState(0) // Текущая страница понятий
   const [relationPage, setRelationPage] = useState(0) // Текущая страница отношений
-  const [itemsPerPage, setItemsPerPage] = useState(10) // Элементов на страницу
+  const itemsPerPage = 10 // Элементов на страницу (фиксировано)
   
   const [fileName, setFileName] = useState('ontology.tdl')
   const [showPreview, setShowPreview] = useState(false)
@@ -432,8 +404,6 @@ export function OntologyConstructor({ projectId, directoryId, onCancel, onSubmit
   // Обработчики выбора понятий
   function handleSelectConcept(conceptName: string) {
     setSelectedConceptNames(prev => [...prev, conceptName])
-    // Сбросить на первую страницу при выборе понятия
-    setConceptPage(0)
   }
 
   function handleDeselectConcept(conceptName: string) {
@@ -443,8 +413,6 @@ export function OntologyConstructor({ projectId, directoryId, onCancel, onSubmit
       const [from, to] = key.split('->')
       return from !== conceptName && to !== conceptName
     }))
-    // Сбросить на первую страницу при удалении понятия
-    setConceptPage(0)
   }
 
   // Обработчики выбора связей
@@ -453,15 +421,11 @@ export function OntologyConstructor({ projectId, directoryId, onCancel, onSubmit
     if (!selectedRelations.includes(key)) {
       setSelectedRelations(prev => [...prev, key])
     }
-    // Сбросить на первую страницу при выборе связи
-    setRelationPage(0)
   }
 
   function handleDeselectRelation(relation: ontologiesApi.OntologyRelation) {
     const key = `${relation.from_concept}->${relation.to_concept}`
     setSelectedRelations(prev => prev.filter(k => k !== key))
-    // Сбросить на первую страницу при удалении связи
-    setRelationPage(0)
   }
 
   // Обновить selectedRelations при изменении selectedConceptNames
@@ -501,15 +465,6 @@ export function OntologyConstructor({ projectId, directoryId, onCancel, onSubmit
         })
     }
   }, [selectedConcepts, selectedRelations, showPreview, directoryId, fileName, availableRelations])
-
-  // Сбросить страницу при переключении фаз
-  useEffect(() => {
-    if (phase === 1) {
-      setConceptPage(0)
-    } else {
-      setRelationPage(0)
-    }
-  }, [phase])
 
   async function handleGenerate() {
     setShowPreview(true)
@@ -604,8 +559,6 @@ export function OntologyConstructor({ projectId, directoryId, onCancel, onSubmit
                     currentPage: conceptPage,
                     totalPages: totalConceptPages,
                     onPageChange: setConceptPage,
-                    itemsPerPage,
-                    onItemsPerPageChange: setItemsPerPage,
                     totalCount: availableConcepts.length
                   }}
                 />
@@ -615,6 +568,7 @@ export function OntologyConstructor({ projectId, directoryId, onCancel, onSubmit
                 <SelectedConceptsList
                   selectedConcepts={selectedConcepts}
                   onDelete={handleDeselectConcept}
+                  totalCount={availableConcepts.length}
                 />
               </div>
             </div>
@@ -637,8 +591,6 @@ export function OntologyConstructor({ projectId, directoryId, onCancel, onSubmit
                     currentPage: relationPage,
                     totalPages: totalRelationPages,
                     onPageChange: setRelationPage,
-                    itemsPerPage,
-                    onItemsPerPageChange: setItemsPerPage,
                     totalCount: relationsBetweenSelected.length
                   }}
                 />
@@ -655,6 +607,7 @@ export function OntologyConstructor({ projectId, directoryId, onCancel, onSubmit
                     }
                   })}
                   onDelete={handleDeselectRelation}
+                  totalCount={relationsBetweenSelected.length}
                 />
               </div>
             </div>
