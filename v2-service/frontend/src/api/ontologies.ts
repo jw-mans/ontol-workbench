@@ -19,6 +19,7 @@ export interface OntologyRelation {
 }
 
 export interface SemanticCheckResult {
+  is_valid: boolean
   warnings: string[]
   planarity: {
     kind: string | null
@@ -63,15 +64,30 @@ export async function generateTDL(request: TDLFileCreateRequest): Promise<string
 }
 
 // Проверка семантической целостности TDL-контента
-export async function checkTDLContent(tdl_content: string): Promise<SemanticCheckResult> {
-  const { data } = await api.post<SemanticCheckResult>('/ontologies/check', { tdl_content })
+export async function checkTDLContent(projectId: string, tdl_content: string): Promise<SemanticCheckResult> {
+  const { data } = await api.post<SemanticCheckResult>(`/projects/${projectId}/ontologies/check`, { tdl_content })
   return data
 }
 
 // Проверка семантической целостности директории
-export async function checkDirectorySemantics(directory_id?: string | null): Promise<SemanticCheckResult> {
-  console.log('API: checkDirectorySemantics', { directory_id })
-  const { data } = await api.post<SemanticCheckResult>('/ontologies/check_directory', directory_id ? { directory_id } : {})
+export async function checkDirectorySemantics(projectId: string, directory_id?: string | null): Promise<SemanticCheckResult> {
+  console.log('API: checkDirectorySemantics', { projectId, directory_id })
+  const { data } = await api.post<SemanticCheckResult>(`/projects/${projectId}/ontologies/check_directory`, directory_id ? { directory_id } : {})
+  return data
+}
+
+// Получить все понятия и связи из директории
+export async function getAllConcepts(projectId: string, directory_id?: string | null): Promise<{
+  concepts: OntologyConcept[]
+  relations: OntologyRelation[]
+  error: string | null
+}> {
+  console.log('API: getAllConcepts', { projectId, directory_id })
+  const { data } = await api.post<{
+    concepts: OntologyConcept[]
+    relations: OntologyRelation[]
+    error: string | null
+  }>(`/projects/${projectId}/ontologies/get_all_concepts`, directory_id ? { directory_id } : {})
   return data
 }
 
@@ -86,7 +102,7 @@ export async function analyzeDiagramInDirectory(projectId: string, directory_id?
 }
 
 // Создание онтологии (с генерацией TDL и рендером)
-export async function buildOntology(request: OntologyBuildRequest): Promise<OntologyBuildResponse> {
-  const { data } = await api.post<OntologyBuildResponse>('/ontologies/build', request)
+export async function buildOntology(projectId: string, request: OntologyBuildRequest): Promise<SemanticCheckResult> {
+  const { data } = await api.post<SemanticCheckResult>(`/projects/${projectId}/ontologies/build`, request)
   return data
 }

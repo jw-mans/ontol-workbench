@@ -1,140 +1,261 @@
 import { useState, useEffect } from 'react'
 import { Modal } from './Modal'
 import * as ontologiesApi from '../api/ontologies'
-import type { OntologyRelation } from '../api/ontologies'
 
-interface ConceptEditorProps {
-  concept: ontologiesApi.OntologyConcept
-  onChange: (concept: ontologiesApi.OntologyConcept) => void
-  onDelete: () => void
+interface ConceptSelectorProps {
+  availableConcepts: ontologiesApi.OntologyConcept[]
+  selectedConcepts: string[] // имена выбранных понятий
+  onSelect: (conceptName: string) => void
+  onDeselect: (conceptName: string) => void
 }
 
-function ConceptEditor({ concept, onChange, onDelete }: ConceptEditorProps) {
+function ConceptSelector({ availableConcepts, selectedConcepts, onSelect, onDeselect }: ConceptSelectorProps) {
   return (
-    <div className="concept-editor card">
+    <div className="concept-selector card">
       <div className="row">
-        <h3>Концепт: {concept.name}</h3>
-        <button type="button" className="btn btn-danger" onClick={onDelete}>
-          Удалить
-        </button>
+        <h3>Доступные понятия</h3>
       </div>
       
-      <div className="form-group">
-        <label>Тип</label>
-        <select
-          value={concept.type}
-          onChange={(e) => onChange({ ...concept, type: e.target.value as 'class' | 'interface' })}
-        >
-          <option value="class">Класс</option>
-          <option value="interface">Интерфейс</option>
-        </select>
-      </div>
-      
-      <div className="form-group">
-        <label>Абстрактный</label>
-        <input
-          type="checkbox"
-          checked={concept.is_abstract || false}
-          onChange={(e) => onChange({ ...concept, is_abstract: e.target.checked })}
-        />
-      </div>
-      
-      <div className="form-group">
-        <label>Атрибуты (по строке)</label>
-        <textarea
-          value={concept.attributes?.join('\n') || ''}
-          onChange={(e) => onChange({ ...concept, attributes: e.target.value.split('\n').filter(line => line.trim()) })}
-          rows={3}
-        />
-      </div>
-      
-      <div className="form-group">
-        <label>Операции (по строке)</label>
-        <textarea
-          value={concept.operations?.join('\n') || ''}
-          onChange={(e) => onChange({ ...concept, operations: e.target.value.split('\n').filter(line => line.trim()) })}
-          rows={3}
-        />
+      <div className="concept-list">
+        {availableConcepts.map(concept => {
+          const isSelected = selectedConcepts.includes(concept.name)
+          return (
+            <div 
+              key={concept.name} 
+              className={`concept-item ${isSelected ? 'selected' : ''}`}
+              onClick={() => isSelected ? onDeselect(concept.name) : onSelect(concept.name)}
+            >
+              <div className="concept-name">{concept.name}</div>
+              <div className="concept-type">{concept.type}</div>
+            </div>
+          )
+        })}
+        
+        {availableConcepts.length === 0 && (
+          <p className="muted">Нет доступных понятий</p>
+        )}
       </div>
     </div>
   )
 }
 
-interface RelationEditorProps {
-  relation: ontologiesApi.OntologyRelation
-  allConcepts: ontologiesApi.OntologyConcept[]
-  onChange: (relation: ontologiesApi.OntologyRelation) => void
-  onDelete: () => void
+interface SelectedConceptsListProps {
+  selectedConcepts: ontologiesApi.OntologyConcept[]
+  onDelete: (conceptName: string) => void
 }
 
-function RelationEditor({ relation, allConcepts, onChange, onDelete }: RelationEditorProps) {
+function SelectedConceptsList({ selectedConcepts, onDelete }: SelectedConceptsListProps) {
   return (
-    <div className="relation-editor card">
+    <div className="selected-concepts-list card">
       <div className="row">
-        <h3>Связь</h3>
-        <button type="button" className="btn btn-danger" onClick={onDelete}>
-          Удалить
-        </button>
+        <h3>Выбранные понятия ({selectedConcepts.length})</h3>
       </div>
       
-      <div className="form-group">
-        <label>Тип связи</label>
-        <select
-          value={relation.relation_type}
-          onChange={(e) => onChange({ ...relation, relation_type: e.target.value as OntologyRelation['relation_type'] })}
-        >
-          <option value="generalization">Обобщение (наследование)</option>
-          <option value="association">Ассоциация</option>
-          <option value="aggregation">Агрегация</option>
-          <option value="composition">Композиция</option>
-        </select>
-      </div>
-      
-      <div className="form-row">
-        <div className="form-group">
-          <label>От</label>
-          <select
-            value={relation.from_concept}
-            onChange={(e) => onChange({ ...relation, from_concept: e.target.value })}
-          >
-            {allConcepts.map(c => (
-              <option key={c.name} value={c.name}>{c.name}</option>
-            ))}
-          </select>
+      {selectedConcepts.map((concept) => (
+        <div key={concept.name} className="selected-concept-item">
+          <div className="concept-info">
+            <span className="concept-name">{concept.name}</span>
+            <span className="concept-type">{concept.type}</span>
+          </div>
+          <div className="concept-controls">
+            <button 
+              type="button" 
+              className="btn btn-small"
+              onClick={() => onDelete(concept.name)}
+            >
+              Удалить
+            </button>
+          </div>
         </div>
+      ))}
+      
+      {selectedConcepts.length === 0 && (
+        <p className="muted">Нет выбранных понятий. Выберите понятия слева.</p>
+      )}
+    </div>
+  )
+}
+
+interface RelationSelectorProps {
+  availableRelations: ontologiesApi.OntologyRelation[]
+  selectedConceptNames: string[]
+  selectedRelations: string[] // строки "from_concept->to_concept"
+  onSelect: (relation: ontologiesApi.OntologyRelation) => void
+  onDeselect: (relation: ontologiesApi.OntologyRelation) => void
+}
+
+function RelationSelector({ availableRelations, selectedConceptNames, selectedRelations, onSelect, onDeselect }: RelationSelectorProps) {
+  // Фильтруем связи, которые связывают только выбранные понятия
+  const filteredRelations = availableRelations.filter(rel => 
+    selectedConceptNames.includes(rel.from_concept) && 
+    selectedConceptNames.includes(rel.to_concept)
+  )
+
+  const relationKey = (rel: ontologiesApi.OntologyRelation) => `${rel.from_concept}->${rel.to_concept}`
+
+  return (
+    <div className="relation-selector card">
+      <div className="row">
+        <h3>Доступные связи</h3>
+      </div>
+      
+      <div className="relation-list">
+        {filteredRelations.map(relation => {
+          const key = relationKey(relation)
+          const isSelected = selectedRelations.includes(key)
+          
+          return (
+            <div 
+              key={key}
+              className={`relation-item ${isSelected ? 'selected' : ''}`}
+              onClick={() => isSelected ? onDeselect(relation) : onSelect(relation)}
+            >
+              <div className="relation-arrow">
+                <span>{relation.from_concept}</span>
+                <span className="arrow">→</span>
+                <span>{relation.to_concept}</span>
+              </div>
+              <div className="relation-type">{relation.relation_type}</div>
+            </div>
+          )
+        })}
         
-        <div className="form-group">
-          <label>К</label>
-          <select
-            value={relation.to_concept}
-            onChange={(e) => onChange({ ...relation, to_concept: e.target.value })}
-          >
-            {allConcepts.map(c => (
-              <option key={c.name} value={c.name}>{c.name}</option>
-            ))}
-          </select>
-        </div>
+        {filteredRelations.length === 0 && (
+          <p className="muted">Нет доступных связей между выбранными понятиями</p>
+        )}
       </div>
+    </div>
+  )
+}
+
+interface SelectedRelationsListProps {
+  selectedRelations: ontologiesApi.OntologyRelation[]
+  onDelete: (relation: ontologiesApi.OntologyRelation) => void
+}
+
+function SelectedRelationsList({ selectedRelations, onDelete }: SelectedRelationsListProps) {
+  return (
+    <div className="selected-relations-list card">
+      <div className="row">
+        <h3>Выбранные связи ({selectedRelations.length})</h3>
+      </div>
+      
+      {selectedRelations.map((relation) => {
+        const key = `${relation.from_concept}->${relation.to_concept}`
+        return (
+          <div key={key} className="selected-relation-item">
+            <div className="relation-info">
+              <span className="relation-from">{relation.from_concept}</span>
+              <span className="relation-arrow">→</span>
+              <span className="relation-to">{relation.to_concept}</span>
+              <span className="relation-type">{relation.relation_type}</span>
+            </div>
+            <div className="relation-controls">
+              <button 
+                type="button" 
+                className="btn btn-small"
+                onClick={() => onDelete(relation)}
+              >
+                Удалить
+              </button>
+            </div>
+          </div>
+        )
+      })}
+      
+      {selectedRelations.length === 0 && (
+        <p className="muted">Нет выбранных связей.</p>
+      )}
     </div>
   )
 }
 
 interface OntologyConstructorProps {
+  projectId: string
   directoryId: string
   onCancel: () => void
   onSubmit: (fileName: string) => void
 }
 
-export function OntologyConstructor({ directoryId, onCancel, onSubmit }: OntologyConstructorProps) {
-  const [concepts, setConcepts] = useState<ontologiesApi.OntologyConcept[]>([
-    { name: 'Класс1', type: 'class' },
-    { name: 'Класс2', type: 'class' },
-  ])
-  const [relations, setRelations] = useState<ontologiesApi.OntologyRelation[]>([])
+export function OntologyConstructor({ projectId, directoryId, onCancel, onSubmit }: OntologyConstructorProps) {
+  // Данные из директории
+  const [availableConcepts, setAvailableConcepts] = useState<ontologiesApi.OntologyConcept[]>([])
+  const [availableRelations, setAvailableRelations] = useState<ontologiesApi.OntologyRelation[]>([])
+  
+  // Выбранные данные
+  const [selectedConceptNames, setSelectedConceptNames] = useState<string[]>([])
+  const [selectedRelations, setSelectedRelations] = useState<string[]>([])
+  
   const [fileName, setFileName] = useState('ontology.tdl')
   const [showPreview, setShowPreview] = useState(false)
   const [tdlPreview, setTdlPreview] = useState('')
   const [error, setError] = useState<string | null>(null)
+  const [loading, setLoading] = useState(false)
+
+  // Загрузить понятия и связи из директории при открытии
+  useEffect(() => {
+    const loadConcepts = async () => {
+      setLoading(true)
+      try {
+        const data = await ontologiesApi.getAllConcepts(projectId, directoryId)
+        if (data.error) {
+          setError(data.error)
+        } else {
+          setAvailableConcepts(data.concepts)
+          setAvailableRelations(data.relations)
+        }
+      } catch (err: unknown) {
+        const message = err instanceof Error ? err.message : String(err)
+        setError(`Ошибка загрузки данных: ${message}`)
+      } finally {
+        setLoading(false)
+      }
+    }
+    
+    loadConcepts()
+  }, [projectId, directoryId])
+
+  // Получить объекты выбранных понятий
+  const selectedConcepts = availableConcepts.filter(c => selectedConceptNames.includes(c.name))
+
+  // Обработчики выбора понятий
+  function handleSelectConcept(conceptName: string) {
+    setSelectedConceptNames(prev => [...prev, conceptName])
+  }
+
+  function handleDeselectConcept(conceptName: string) {
+    // Удалить понятие и все связи с ним
+    setSelectedConceptNames(prev => prev.filter(name => name !== conceptName))
+    setSelectedRelations(prev => prev.filter(key => {
+      const [from, to] = key.split('->')
+      return from !== conceptName && to !== conceptName
+    }))
+  }
+
+  // Обработчики выбора связей
+  function handleSelectRelation(relation: ontologiesApi.OntologyRelation) {
+    const key = `${relation.from_concept}->${relation.to_concept}`
+    if (!selectedRelations.includes(key)) {
+      setSelectedRelations(prev => [...prev, key])
+    }
+  }
+
+  function handleDeselectRelation(relation: ontologiesApi.OntologyRelation) {
+    const key = `${relation.from_concept}->${relation.to_concept}`
+    setSelectedRelations(prev => prev.filter(k => k !== key))
+  }
+
+  // Обновить selectedRelations при изменении selectedConceptNames
+  useEffect(() => {
+    const validRelations = availableRelations.filter(rel => 
+      selectedConceptNames.includes(rel.from_concept) && 
+      selectedConceptNames.includes(rel.to_concept)
+    )
+    const validKeys = validRelations.map(r => `${r.from_concept}->${r.to_concept}`)
+    
+    // Удаляем связи, которые больше не валидны
+    setSelectedRelations(prev => prev.filter(key => validKeys.includes(key)))
+  }, [selectedConceptNames, availableRelations])
 
   // Показать превью при изменении
   useEffect(() => {
@@ -142,8 +263,16 @@ export function OntologyConstructor({ directoryId, onCancel, onSubmit }: Ontolog
       ontologiesApi
         .generateTDL({
           directory_id: directoryId,
-          concepts,
-          relations,
+          concepts: selectedConcepts,
+          relations: selectedRelations.map(key => {
+            const [from, to] = key.split('->')
+            const rel = availableRelations.find(r => `${r.from_concept}->${r.to_concept}` === key)
+            return rel || {
+              relation_type: 'association',
+              from_concept: from,
+              to_concept: to,
+            }
+          }),
           file_name: fileName,
         })
         .then(tdl => setTdlPreview(tdl))
@@ -152,45 +281,7 @@ export function OntologyConstructor({ directoryId, onCancel, onSubmit }: Ontolog
           setError(message)
         })
     }
-  }, [concepts, relations, showPreview, directoryId, fileName])
-
-  function addConcept() {
-    const name = `Класс${concepts.length + 1}`
-    setConcepts([...concepts, { name, type: 'class' }])
-  }
-
-  function updateConcept(index: number, concept: ontologiesApi.OntologyConcept) {
-    const newConcepts = [...concepts]
-    newConcepts[index] = concept
-    setConcepts(newConcepts)
-  }
-
-  function deleteConcept(index: number) {
-    setConcepts(concepts.filter((_, i) => i !== index))
-  }
-
-  function addRelation() {
-    if (concepts.length >= 2) {
-      setRelations([
-        ...relations,
-        {
-          relation_type: 'generalization',
-          from_concept: concepts[1].name,
-          to_concept: concepts[0].name,
-        },
-      ])
-    }
-  }
-
-  function updateRelation(index: number, relation: ontologiesApi.OntologyRelation) {
-    const newRelations = [...relations]
-    newRelations[index] = relation
-    setRelations(newRelations)
-  }
-
-  function deleteRelation(index: number) {
-    setRelations(relations.filter((_, i) => i !== index))
-  }
+  }, [selectedConcepts, selectedRelations, showPreview, directoryId, fileName, availableRelations])
 
   async function handleGenerate() {
     setShowPreview(true)
@@ -198,18 +289,50 @@ export function OntologyConstructor({ directoryId, onCancel, onSubmit }: Ontolog
 
   async function handleSave() {
     try {
-      if (!showPreview || !tdlPreview) {
-        await ontologiesApi.generateTDL({
+      // Генерируем TDL и создаём файл через API
+      await ontologiesApi.generateTDL({
+        directory_id: directoryId,
+        concepts: selectedConcepts,
+        relations: selectedRelations.map(key => {
+          const [from, to] = key.split('->')
+          const rel = availableRelations.find(r => `${r.from_concept}->${r.to_concept}` === key)
+          return rel || {
+            relation_type: 'association',
+            from_concept: from,
+            to_concept: to,
+          }
+        }),
+        file_name: fileName,
+      })
+      
+      // Создаём файл с сгенерированным TDL-контентом
+      let is_valid = false
+      let error_message: string | null = null
+      if (directoryId) {
+        const result = await ontologiesApi.buildOntology(projectId, {
           directory_id: directoryId,
-          concepts,
-          relations,
+          concepts: selectedConcepts,
+          relations: selectedRelations.map(key => {
+            const [from, to] = key.split('->')
+            const rel = availableRelations.find(r => `${r.from_concept}->${r.to_concept}` === key)
+            return rel || {
+              relation_type: 'association',
+              from_concept: from,
+              to_concept: to,
+            }
+          }),
           file_name: fileName,
+          template: 'from_relations',
         })
+        is_valid = result.is_valid
+        error_message = result.error
       }
       
-      onSubmit(fileName)
-      // В реальном приложении здесь можно сохранить TDL в файл
-      // через filesApi.createFile(projectId, fileName, tdl, directoryId)
+      if (is_valid) {
+        onSubmit(fileName)
+      } else {
+        setError(error_message || 'Failed to create ontology')
+      }
     } catch (err: unknown) {
       const message = err instanceof Error ? err.message : String(err)
       setError(message)
@@ -221,51 +344,63 @@ export function OntologyConstructor({ directoryId, onCancel, onSubmit }: Ontolog
       {error && <p className="error">{error}</p>}
       
       <div className="ontology-constructor">
-        {/* Секция понятий */}
-        <div className="concepts-section">
-          <div className="row">
-            <h3>Понятия</h3>
-            <button type="button" className="btn" onClick={addConcept}>
-              + Добавить понятие
-            </button>
+        {/* Загрузка данных */}
+        {loading && (
+          <div className="loading-overlay">
+            <p>Загрузка понятий и связей из директории...</p>
+          </div>
+        )}
+        
+        <div className="selector-layout">
+          {/* Секция доступных понятий */}
+          <div className="concepts-selector-section">
+            <h3>Доступные понятия</h3>
+            <ConceptSelector
+              availableConcepts={availableConcepts}
+              selectedConcepts={selectedConceptNames}
+              onSelect={handleSelectConcept}
+              onDeselect={handleDeselectConcept}
+            />
           </div>
           
-          {concepts.map((concept, index) => (
-            <ConceptEditor
-              key={index}
-              concept={concept}
-              onChange={(c) => updateConcept(index, c)}
-              onDelete={() => deleteConcept(index)}
+          {/* Секция выбранных понятий */}
+          <div className="concepts-list-section">
+            <h3>Выбранные понятия</h3>
+            <SelectedConceptsList
+              selectedConcepts={selectedConcepts}
+              onDelete={handleDeselectConcept}
             />
-          ))}
-          
-          {concepts.length === 0 && (
-            <p className="muted">Понятий пока нет. Добавьте первое понятие.</p>
-          )}
+          </div>
         </div>
         
-        {/* Секция связей */}
-        <div className="relations-section">
-          <div className="row">
-            <h3>Связи</h3>
-            <button type="button" className="btn" onClick={addRelation} disabled={concepts.length < 2}>
-              + Добавить связь
-            </button>
+        <div className="selector-layout">
+          {/* Секция доступных связей */}
+          <div className="relations-selector-section">
+            <h3>Доступные связи</h3>
+            <RelationSelector
+              availableRelations={availableRelations}
+              selectedConceptNames={selectedConceptNames}
+              selectedRelations={selectedRelations}
+              onSelect={handleSelectRelation}
+              onDeselect={handleDeselectRelation}
+            />
           </div>
           
-          {relations.map((relation, index) => (
-            <RelationEditor
-              key={index}
-              relation={relation}
-              allConcepts={concepts}
-              onChange={(r) => updateRelation(index, r)}
-              onDelete={() => deleteRelation(index)}
+          {/* Секция выбранных связей */}
+          <div className="relations-list-section">
+            <h3>Выбранные связи</h3>
+            <SelectedRelationsList
+              selectedRelations={selectedRelations.map(key => {
+                const [from, to] = key.split('->')
+                return availableRelations.find(r => `${r.from_concept}->${r.to_concept}` === key) || {
+                  relation_type: 'association',
+                  from_concept: from,
+                  to_concept: to,
+                }
+              })}
+              onDelete={handleDeselectRelation}
             />
-          ))}
-          
-          {relations.length === 0 && (
-            <p className="muted">Связей пока нет.</p>
-          )}
+          </div>
         </div>
         
         {/* Поля ввода */}

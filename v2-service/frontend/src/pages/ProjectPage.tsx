@@ -20,6 +20,7 @@ import { CreateDirectoryDialog } from '../components/CreateDirectoryDialog'
 import { ContextMenu } from '../components/ContextMenu'
 import { FileTree } from '../components/FileTree'
 import { buildFileTree } from '../utils/fileTree'
+import { OntologyConstructor } from '../components/OntologyConstructor'
 
 const AUTOSAVE_DEBOUNCE_MS = 800
 
@@ -49,6 +50,8 @@ export default function ProjectPage() {
     | null
   >(null)
   const [menuJustOpened, setMenuJustOpened] = useState(false)
+  const [ontologyConstructorOpen, setOntologyConstructorOpen] = useState(false)
+  const [ontologyConstructorDirectoryId, setOntologyConstructorDirectoryId] = useState<string | null>(null)
   
   // Список закрытых вкладок (не отображаем их, даже если файл существует)
   const [closedIds, setClosedIds] = useState<Set<string>>(new Set())
@@ -460,6 +463,16 @@ export default function ProjectPage() {
               setMenu(null)
             }
           },
+          { 
+            label: 'Конструктор онтологий', 
+            onClick: () => {
+              if (folderItem.id) {
+                setOntologyConstructorDirectoryId(folderItem.id)
+                setOntologyConstructorOpen(true)
+              }
+              setMenu(null)
+            }
+          },
             { 
               label: 'Удалить', 
               danger: true,
@@ -616,6 +629,21 @@ export default function ProjectPage() {
         />
       )}
 
+      {ontologyConstructorOpen && (
+        <OntologyConstructorWrapper
+          projectId={projectId}
+          directoryId={ontologyConstructorDirectoryId}
+          onClose={() => setOntologyConstructorOpen(false)}
+          onSubmit={(fileName) => {
+            setOntologyConstructorOpen(false)
+            // Создать файл через API
+            if (ontologyConstructorDirectoryId) {
+              createMutation.mutate({ name: fileName, directoryId: ontologyConstructorDirectoryId })
+            }
+          }}
+        />
+      )}
+
       {menu && (
         <ContextMenu
           x={menu.x}
@@ -629,11 +657,12 @@ export default function ProjectPage() {
       {creatingFile && (
         <CreateFileDialog
           engine={engine}
+          projectId={projectId}
           parentId={creatingFolderParentId ?? undefined}
           onCancel={() => setCreatingFile(false)}
-          onSubmit={(name) => {
+          onSubmit={(name, parentId) => {
             // Если есть parentId, передаём его в createFile
-            const directoryId = creatingFolderParentId ?? undefined
+            const directoryId = parentId ?? undefined
             createMutation.mutate({ name, directoryId })
             setCreatingFile(false)
             // Сбросить parentId после успешного создания
@@ -727,6 +756,30 @@ export default function ProjectPage() {
         />
       )}
     </div>
+  )
+}
+
+function OntologyConstructorWrapper({
+  projectId,
+  directoryId,
+  onClose,
+  onSubmit,
+}: {
+  projectId: string
+  directoryId: string | null
+  onClose: () => void
+  onSubmit: (fileName: string) => void
+}) {
+  if (!directoryId) {
+    return null
+  }
+  return (
+    <OntologyConstructor
+      projectId={projectId}
+      directoryId={directoryId}
+      onCancel={onClose}
+      onSubmit={onSubmit}
+    />
   )
 }
 

@@ -11,11 +11,13 @@ const ENGINE_EXT: Record<'v1' | 'v3', string> = {
 /** Создание файла. Расширение задаётся языком проекта: v1 → .ontol, v3 → .tdl. */
 export function CreateFileDialog({
   engine,
+  projectId,
   parentId,
   onSubmit,
   onCancel,
 }: {
   engine: 'v1' | 'v3'
+  projectId: string
   parentId?: string
   onSubmit: (fullName: string, parentId?: string) => void
   onCancel: () => void
@@ -35,6 +37,7 @@ export function CreateFileDialog({
   if (engine === 'v3' && showConstructor) {
     return (
       <OntologyConstructor
+        projectId={projectId}
         directoryId={parentId ?? ''}
         onCancel={() => setShowConstructor(false)}
         onSubmit={(fileName) => {

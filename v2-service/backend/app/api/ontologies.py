@@ -251,6 +251,28 @@ async def check_directory_semantics(
     )
 
 
+@router.post('/generate_tdl', response_model=str)
+async def generate_tdl_from_ontology(
+    data: TDLFileCreateRequest,
+) -> str:
+    """
+    Сгенерировать TDL-код из выбранных понятий и связей.
+    
+    Не создаёт файл, только генерирует TDL-код для превью.
+    
+    :param data: параметры генерации TDL
+    
+    :return: TDL-код в виде строки
+    """
+    return _generate_tdl_from_ontology(
+        OntologyBuildRequest(
+            directory_id=data.directory_id,
+            concepts=data.concepts,
+            relations=data.relations,
+        )
+    )
+
+
 @router.post('/analyze_directory', response_model=SemanticCheckResult)
 async def analyze_diagram_in_directory(
     request: dict = Body(...),
@@ -331,6 +353,78 @@ async def analyze_diagram_in_directory(
         planarity=planarity,
         error=error
     )
+
+
+@router.post('/get_all_concepts')
+async def get_all_concepts_from_directory(
+    request: dict = Body(...),
+    project: Project = Depends(get_owned_project),
+    session: AsyncSession = Depends(get_async_session),
+) -> dict:
+    """
+    Получить все понятия из всех TDL-файлов в директории.
+    
+    Используется для конструктора онтологий - показывает список
+    существующих понятий, которые можно выбрать для построения новой онтологии.
+    
+    :param request: тело запроса с directory_id
+    :param project: проект, к которому принадлежит пользователь
+    :param session: асинхронная сессия SQLAlchemy
+    
+    :return: список понятий
+    """
+    directory_id = request.get('directory_id')
+    
+    # Для корневых файлов directory_id может быть None
+    if not directory_id:
+        logger.info(f"Getting concepts from root directory (directory_id is None) for project {project.id}")
+        # Собираем все .tdl файлы из корня (directory_id IS NULL)
+        result = await session.execute(
+            select(File).where(
+                File.project_id == project.id,
+                File.directory_id == None,  # noqa: E711
+                File.name.endswith('.tdl'),
+            )
+        )
+    else:
+        logger.info(f"Getting concepts from directory {directory_id} for project {project.id}")
+        directory = await _get_directory(directory_id, project, session)
+        
+        # Собираем все .tdl файлы в директории
+        result = await session.execute(
+            select(File).where(
+                File.project_id == project.id,
+                File.directory_id == directory.id,
+                File.name.endswith('.tdl'),
+            )
+        )
+    
+    tdl_files = result.scalars().all()
+    logger.info(f"Found {len(tdl_files)} .tdl files in directory {directory_id or 'root'}")
+    
+    if not tdl_files:
+        return {
+            'concepts': [],
+            'relations': [],
+            'error': 'No .tdl files in directory',
+        }
+    
+    # Собираем контент всех файлов
+    files_dict = {f.name: f.content for f in tdl_files}
+    
+    # Извлекаем понятия и связи
+    from app.services.render_v3 import get_all_concepts_from_directory, get_all_relations_from_directory
+    
+    concepts = get_all_concepts_from_directory(files_dict)
+    relations = get_all_relations_from_directory(files_dict)
+    
+    logger.info(f"Extracted {len(concepts)} concepts and {len(relations)} relations")
+    
+    return {
+        'concepts': concepts,
+        'relations': relations,
+        'error': None,
+    }
 
 
 def _generate_tdl_from_ontology(data: OntologyBuildRequest) -> str:

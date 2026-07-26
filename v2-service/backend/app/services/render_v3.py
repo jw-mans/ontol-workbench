@@ -281,3 +281,147 @@ def _format_operation(op) -> str | None:
         parts.append(f': {op.return_type}')
 
     return ''.join(parts)
+
+
+def get_all_concepts_from_directory(files: dict[str, str]) -> list[dict]:
+    """
+    Извлечь все понятия из всех TDL-файлов в директории.
+
+    :param files: словарь имя_файла -> текст_файла
+    :return: список всех понятий с уникальными именами
+    """
+    all_concepts = []
+    seen_names = set()
+
+    tdl_contents = [content for name, content in files.items() if name.endswith('.tdl')]
+    
+    for content in tdl_contents:
+        concepts = get_concepts_from_tdl(content)
+        for concept in concepts:
+            if concept['name'] not in seen_names:
+                seen_names.add(concept['name'])
+                all_concepts.append(concept)
+
+    return all_concepts
+
+
+def get_all_relations_from_directory(files: dict[str, str]) -> list[dict]:
+    """
+    Извлечь все связи из всех TDL-файлов в директории.
+
+    :param files: словарь имя_файла -> текст_файла
+    :return: список всех связей
+    """
+    try:
+        from uml_dsl.tdl_lexer import lex
+        from uml_dsl.tdl_parser import parse_tdl
+        from uml_dsl.tdl_run import merge_tdl_documents, build_diagram
+    except ImportError:
+        return []
+
+    tdl_contents = [content for name, content in files.items() if name.endswith('.tdl')]
+    
+    if not tdl_contents:
+        return []
+
+    try:
+        # Сливаем все тексты в один документ
+        doc = merge_tdl_documents(tdl_contents)
+        # Строим диаграмму
+        diagram = build_diagram(doc)
+
+        relations = []
+
+        # Обобщения
+        for gen in diagram.generalizations:
+            relations.append({
+                'relation_type': 'generalization',
+                'from_concept': gen.specific.name if isinstance(gen.specific, dict) else gen.specific.name,
+                'to_concept': gen.general.name if isinstance(gen.general, dict) else gen.general.name,
+            })
+
+        # Ассоциации
+        for assoc in diagram.associations:
+            # Для простых ассоциаций с двумя полюсами
+            if len(assoc.ends) >= 2:
+                end1 = assoc.ends[0]
+                end2 = assoc.ends[1]
+                
+                # Определяем тип ассоциации по агрегации
+                # Проверяем по enum значениям
+                from uml_dsl.enums import AggregationKind
+                is_composition = (
+                    getattr(end1, 'aggregation', AggregationKind.NONE) == AggregationKind.COMPOSITION or
+                    getattr(end2, 'aggregation', AggregationKind.NONE) == AggregationKind.COMPOSITION
+                )
+                is_aggregation = (
+                    getattr(end1, 'aggregation', AggregationKind.NONE) == AggregationKind.AGGREGATION or
+                    getattr(end2, 'aggregation', AggregationKind.NONE) == AggregationKind.AGGREGATION
+                )
+                
+                if is_composition:
+                    rel_type = 'composition'
+                elif is_aggregation:
+                    rel_type = 'aggregation'
+                else:
+                    rel_type = 'association'
+
+                # Определяем участников
+                from_concept = end1.participant.name if isinstance(end1.participant, dict) else end1.participant.name
+                to_concept = end2.participant.name if isinstance(end2.participant, dict) else end2.participant.name
+
+                # Собираем кратность
+                multiplicity_from = None
+                multiplicity_to = None
+                
+                if hasattr(end1, 'multiplicity') and end1.multiplicity:
+                    mult = end1.multiplicity
+                    if mult.lower == mult.upper:
+                        multiplicity_from = f'[{mult.lower}]'
+                    elif mult.upper is None:
+                        multiplicity_from = '[0..*]'
+                    else:
+                        multiplicity_from = f'[{mult.lower}..{mult.upper}]'
+
+                if hasattr(end2, 'multiplicity') and end2.multiplicity:
+                    mult = end2.multiplicity
+                    if mult.lower == mult.upper:
+                        multiplicity_to = f'[{mult.lower}]'
+                    elif mult.upper is None:
+                        multiplicity_to = '[0..*]'
+                    else:
+                        multiplicity_to = f'[{mult.lower}..{mult.upper}]'
+
+                relations.append({
+                    'relation_type': rel_type,
+                    'from_concept': from_concept,
+                    'to_concept': to_concept,
+                    'multiplicity_from': multiplicity_from,
+                    'multiplicity_to': multiplicity_to,
+                })
+
+        # Зависимости
+        for dep in diagram.dependencies:
+            client_name = dep.client.name if isinstance(dep.client, dict) else dep.client.name
+            supplier_name = dep.supplier.name if isinstance(dep.supplier, dict) else dep.supplier.name
+            
+            relations.append({
+                'relation_type': 'dependency',
+                'from_concept': client_name,
+                'to_concept': supplier_name,
+            })
+
+        # Реализации
+        for real in diagram.realizations:
+            implementer_name = real.implementer.name if isinstance(real.implementer, dict) else real.implementer.name
+            interface_name = real.interface.name if isinstance(real.interface, dict) else real.interface.name
+            
+            relations.append({
+                'relation_type': 'realization',
+                'from_concept': implementer_name,
+                'to_concept': interface_name,
+            })
+
+        return relations
+    except Exception:
+        return []
