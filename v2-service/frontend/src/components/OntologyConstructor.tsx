@@ -579,22 +579,6 @@ export function OntologyConstructor({ projectId, directoryId, onCancel, onSubmit
 
   async function handleSave() {
     try {
-      // Генерируем TDL и создаём файл через API
-      await ontologiesApi.generateTDL(projectId, {
-        directory_id: directoryId,
-        concepts: selectedConcepts,
-        relations: selectedRelations.map(key => {
-          const [from, to] = key.split('->')
-          const rel = availableRelations.find(r => `${r.from_concept}->${r.to_concept}` === key)
-          return rel || {
-            relation_type: 'association',
-            from_concept: from,
-            to_concept: to,
-          }
-        }),
-        file_name: fileName,
-      })
-      
       // Создаём файл с сгенерированным TDL-контентом
       let is_valid = false
       let error_message: string | null = null
