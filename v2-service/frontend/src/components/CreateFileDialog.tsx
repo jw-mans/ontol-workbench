@@ -15,12 +15,14 @@ export function CreateFileDialog({
   parentId,
   onSubmit,
   onCancel,
+  queryClient,
 }: {
   engine: 'v1' | 'v3'
   projectId: string
   parentId?: string
-  onSubmit: (fullName: string, parentId?: string) => void
+  onSubmit: (fullName: string, parentId?: string, fileId?: string) => void
   onCancel: () => void
+  queryClient?: any
 }) {
   const [name, setName] = useState('')
   const [showConstructor, setShowConstructor] = useState(false)
@@ -30,7 +32,7 @@ export function CreateFileDialog({
 
   function submit(e: SyntheticEvent) {
     e.preventDefault()
-    if (base) onSubmit(base + ext, parentId)
+    if (base) onSubmit(base + ext, parentId, undefined)
   }
 
   // Если выбран конструктор онтологий для v3
@@ -40,10 +42,16 @@ export function CreateFileDialog({
         projectId={projectId}
         directoryId={parentId ?? ''}
         onCancel={() => setShowConstructor(false)}
-        onSubmit={(fileName) => {
-          onSubmit(fileName, parentId)
+        onSubmit={async (fileName, fileId) => {
           setShowConstructor(false)
+          // Передать результат родителю
+          onSubmit(fileName, parentId, fileId)
+          // Инвалидировать кэш файлов для обновления списка
+          if (queryClient && fileId) {
+            await queryClient.invalidateQueries({ queryKey: ['files', projectId] })
+          }
         }}
+        queryClient={queryClient}
       />
     )
   }

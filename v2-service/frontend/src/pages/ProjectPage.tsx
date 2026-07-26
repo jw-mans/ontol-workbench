@@ -11,16 +11,15 @@ import type { AIHierarchyResult } from '../api/ai'
 import * as ontologiesApi from '../api/ontologies'
 import type { SemanticCheckResult } from '../api/ontologies'
 import type { Directory, FileListItem } from '../api/types'
-import { errorMessage } from '../api/errors'
 import { downloadDataUrl, downloadText } from '../utils/download'
 import OntolEditor from '../components/OntolEditor'
+import { errorMessage } from '../api/errors'
 import { ConfirmDialog, PromptDialog } from '../components/Modal'
 import { CreateFileDialog } from '../components/CreateFileDialog'
 import { CreateDirectoryDialog } from '../components/CreateDirectoryDialog'
 import { ContextMenu } from '../components/ContextMenu'
 import { FileTree } from '../components/FileTree'
 import { buildFileTree } from '../utils/fileTree'
-import { OntologyConstructor } from '../components/OntologyConstructor'
 
 const AUTOSAVE_DEBOUNCE_MS = 800
 
@@ -49,9 +48,6 @@ export default function ProjectPage() {
     | { type: 'folder'; id: string; name: string }
     | null
   >(null)
-  const [menuJustOpened, setMenuJustOpened] = useState(false)
-  const [ontologyConstructorOpen, setOntologyConstructorOpen] = useState(false)
-  const [ontologyConstructorDirectoryId, setOntologyConstructorDirectoryId] = useState<string | null>(null)
   
   // Список закрытых вкладок (не отображаем их, даже если файл существует)
   const [closedIds, setClosedIds] = useState<Set<string>>(new Set())
@@ -359,7 +355,6 @@ export default function ProjectPage() {
   ) => {
     e.preventDefault()
     e.stopPropagation()
-    setMenuJustOpened(true)
     setMenu({ x: e.clientX, y: e.clientY, item })
     // Если кликнули на папку, запоминаем её id как родителя для новых элементов
     if (item.type === 'folder' && item.id) {
@@ -373,11 +368,6 @@ export default function ProjectPage() {
   useEffect(() => {
     if (menu) {
       const closeMenu = (e: MouseEvent) => {
-        // Игнорировать клик, который открыл меню
-        if (menuJustOpened) {
-          setMenuJustOpened(false)
-          return
-        }
         // Закрыть меню, если клик был вне контекстного меню
         if (!e.target || !(e.target as Element).closest('.context-menu')) {
           setMenu(null)
@@ -389,9 +379,8 @@ export default function ProjectPage() {
       return () => document.removeEventListener('mousedown', closeMenu)
     } else {
       // Сбросить флаг, когда меню закрыто
-      setMenuJustOpened(false)
     }
-  }, [menu, menuJustOpened])
+  }, [menu])
 
   const menuItems = useMemo(() => {
     if (!menu) return []
@@ -464,20 +453,10 @@ export default function ProjectPage() {
             }
           },
           { 
-            label: 'Конструктор онтологий', 
+            label: 'Удалить', 
+            danger: true,
             onClick: () => {
               if (folderItem.id) {
-                setOntologyConstructorDirectoryId(folderItem.id)
-                setOntologyConstructorOpen(true)
-              }
-              setMenu(null)
-            }
-          },
-            { 
-              label: 'Удалить', 
-              danger: true,
-              onClick: () => {
-                if (folderItem.id) {
                   setDeletingItem({ type: 'folder', id: folderItem.id, name: folderItem.name })
                 } else {
                   // Корневая папка не может быть удалена
@@ -629,41 +608,13 @@ export default function ProjectPage() {
         />
       )}
 
-      {ontologyConstructorOpen && (
-        <OntologyConstructorWrapper
-          projectId={projectId}
-          directoryId={ontologyConstructorDirectoryId}
-          onClose={() => {
-            setOntologyConstructorOpen(false)
-            // Файл уже создан через buildOntology в конструкторе
-            // Инвалидировать кэш файлов для обновления списка
-            console.log('Closing constructor, invalidating queries...')
-            queryClient.invalidateQueries({ queryKey: ['files', projectId] })
-          }}
-          onSubmit={(_, fileId) => {
-            console.log('File created in constructor:', { fileId })
-            setOntologyConstructorOpen(false)
-            // Файл уже создан через buildOntology в конструкторе
-            // Инвалидировать кэш файлов для обновления списка
-            queryClient.invalidateQueries({ queryKey: ['files', projectId] })
-            // Открыть его для редактирования
-            if (fileId) {
-              console.log('Opening file:', fileId)
-              openFile(fileId)
-            } else {
-              console.warn('No fileId returned from buildOntology')
-            }
-          }}
-        />
-      )}
-
       {menu && (
         <ContextMenu
           x={menu.x}
           y={menu.y}
           onClose={() => setMenu(null)}
           items={menuItems}
-          skipCloseOnNextClick={menuJustOpened}
+          skipCloseOnNextClick={false}
         />
       )}
 
@@ -673,14 +624,22 @@ export default function ProjectPage() {
           projectId={projectId}
           parentId={creatingFolderParentId ?? undefined}
           onCancel={() => setCreatingFile(false)}
-          onSubmit={(name, parentId) => {
-            // Если есть parentId, передаём его в createFile
-            const directoryId = parentId ?? undefined
-            createMutation.mutate({ name, directoryId })
+          onSubmit={async (name, parentId, fileId) => {
             setCreatingFile(false)
             // Сбросить parentId после успешного создания
             setCreatingFolderParentId(null)
+            
+            // Если файл был создан через конструктор (с fileId), он уже инвалидирован в конструкторе
+            // Просто открыть его
+            if (fileId) {
+              openFile(fileId)
+            } else {
+              // Обычное создание файла через API
+              const directoryId = parentId ?? undefined
+              await createMutation.mutateAsync({ name, directoryId })
+            }
           }}
+          queryClient={queryClient}
         />
       )}
 
@@ -769,30 +728,6 @@ export default function ProjectPage() {
         />
       )}
     </div>
-  )
-}
-
-function OntologyConstructorWrapper({
-  projectId,
-  directoryId,
-  onClose,
-  onSubmit,
-}: {
-  projectId: string
-  directoryId: string | null
-  onClose: () => void
-  onSubmit: (fileName: string, fileId?: string) => void
-}) {
-  if (!directoryId) {
-    return null
-  }
-  return (
-    <OntologyConstructor
-      projectId={projectId}
-      directoryId={directoryId}
-      onCancel={onClose}
-      onSubmit={onSubmit}
-    />
   )
 }
 

@@ -350,9 +350,10 @@ interface OntologyConstructorProps {
   directoryId: string
   onCancel: () => void
   onSubmit: (fileName: string, fileId?: string) => void
+  queryClient?: any
 }
 
-export function OntologyConstructor({ projectId, directoryId, onCancel, onSubmit }: OntologyConstructorProps) {
+export function OntologyConstructor({ projectId, directoryId, onCancel, onSubmit, queryClient }: OntologyConstructorProps) {
   // Данные из директории
   const [availableConcepts, setAvailableConcepts] = useState<ontologiesApi.OntologyConcept[]>([])
   const [availableRelations, setAvailableRelations] = useState<ontologiesApi.OntologyRelation[]>([])
@@ -609,6 +610,8 @@ export function OntologyConstructor({ projectId, directoryId, onCancel, onSubmit
       
       if (is_valid) {
         console.log('File created:', { fileName, fileId: created_file_id, createdFileName: created_file_name })
+        // Инвалидировать кэш файлов для обновления списка
+        queryClient.invalidateQueries({ queryKey: ['files', projectId] })
         // Передать ID созданного файла для открытия
         onSubmit(fileName, created_file_id)
       } else {
