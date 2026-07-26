@@ -10,10 +10,12 @@ export function Modal({
   title,
   onClose,
   children,
+  className,
 }: {
   title: string
   onClose: () => void
   children: ReactNode
+  className?: string
 }) {
   useEffect(() => {
     function onKey(e: KeyboardEvent) {
@@ -24,9 +26,9 @@ export function Modal({
   }, [onClose])
 
   return (
-    <div className="modal-overlay" onClick={onClose}>
+    <div className={`modal-overlay ${className || ''}`.trim()} onClick={onClose}>
       <div
-        className="modal card"
+        className={`modal card ${className || ''}`.trim()}
         role="dialog"
         aria-modal="true"
         onClick={(e) => e.stopPropagation()}

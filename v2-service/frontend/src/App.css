@@ -457,6 +457,305 @@ textarea:focus {
   flex: 1;
 }
 
+/* Большая модалка для конструктора онтологий - на весь экран */
+.modal.large {
+  max-width: none;
+  width: 100vw;
+  max-height: 100vh;
+  height: 100vh;
+  padding: 0;
+  border-radius: 0;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.modal-overlay.large {
+  padding: 0;
+}
+
+.modal.large .modal-title {
+  font-size: 22px;
+  flex-shrink: 0;
+  padding: 16px 24px;
+  border-bottom: 1px solid var(--border);
+}
+
+.modal-content-scroll {
+  flex: 1;
+  overflow-y: auto;
+  overflow-x: hidden;
+  padding: 24px;
+  min-height: 0;
+}
+
+/* Конструктор онтологий внутри модалки */
+.modal.large .ontology-constructor {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  min-height: 0;
+  flex: 1;
+  overflow-y: auto;
+}
+
+.modal.large .ontology-constructor > * {
+  min-width: 0;
+}
+
+/* Selector layout - две колонки для понятий и связей */
+.modal.large .selector-layout {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 15px;
+  min-height: 0;
+  flex-shrink: 1;
+}
+
+/* Фаза 1 - выбор понятий */
+.modal.large .phase1-container {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  flex-shrink: 1;
+}
+
+.modal.large .phase1-container .row {
+  min-height: 0;
+}
+
+.modal.large .phase1-container .concepts-selector-section,
+.modal.large .phase1-container .concepts-list-section {
+  min-height: 0;
+  flex: 1;
+}
+
+.modal.large .phase1-container .concept-selector {
+  max-height: 400px;
+  overflow-y: auto;
+}
+
+.modal.large .phase1-container .concept-selector .concept-list {
+  max-height: 300px;
+  overflow-y: auto;
+}
+
+.modal.large .phase1-container .selected-concepts-list {
+  max-height: 400px;
+  overflow-y: auto;
+}
+
+/* Фаза 2 - выбор отношений */
+.modal.large .phase2-container {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  flex-shrink: 1;
+}
+
+.modal.large .phase2-container .row {
+  min-height: 0;
+}
+
+.modal.large .phase2-container .relations-selector-section,
+.modal.large .phase2-container .relations-list-section {
+  min-height: 0;
+  flex: 1;
+}
+
+.modal.large .phase2-container .relation-selector {
+  max-height: 400px;
+  overflow-y: auto;
+}
+
+.modal.large .phase2-container .relation-selector .relation-list {
+  max-height: 300px;
+  overflow-y: auto;
+}
+
+.modal.large .phase2-container .selected-relations-list {
+  max-height: 400px;
+  overflow-y: auto;
+}
+
+/* Панель управления фазами */
+.modal.large .phase-controls {
+  display: flex;
+  gap: 10px;
+  padding: 10px 16px;
+  background: var(--code-bg);
+  border-radius: 6px;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+.modal.large .phase-indicator {
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  padding: 6px 12px;
+  border-radius: 4px;
+}
+
+.modal.large .phase-indicator.active {
+  background: var(--accent-bg);
+  color: var(--accent);
+  border: 1px solid var(--accent-border);
+}
+
+.modal.large .phase-indicator:hover:not(.active) {
+  background: rgba(0, 0, 0, 0.05);
+}
+
+.modal.large .phase-separator {
+  color: var(--border);
+  font-size: 18px;
+}
+
+.modal.large .phase-description {
+  font-size: 13px;
+  color: var(--text);
+  margin-left: auto;
+  flex-shrink: 0;
+}
+
+/* Элементы списка понятий и связей */
+.modal.large .concept-list,
+.modal.large .relation-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.modal.large .concept-item {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  padding: 8px 10px;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  cursor: pointer;
+  transition: border-color 0.1s, background 0.1s;
+}
+
+.modal.large .concept-item:hover {
+  border-color: var(--accent-border);
+}
+
+.modal.large .concept-item.selected {
+  background: var(--accent-bg);
+  border-color: var(--accent-border);
+}
+
+.modal.large .concept-name {
+  font-size: 14px;
+  color: var(--text-h);
+  font-weight: 500;
+}
+
+.modal.large .concept-type {
+  font-size: 12px;
+  color: var(--text);
+  text-transform: uppercase;
+  letter-spacing: 0.02em;
+}
+
+.modal.large .relation-list .relation-item {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  padding: 8px 10px;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  cursor: pointer;
+  transition: border-color 0.1s, background 0.1s;
+}
+
+.modal.large .relation-list .relation-item:hover {
+  border-color: var(--accent-border);
+}
+
+.modal.large .relation-list .relation-item.selected {
+  background: var(--accent-bg);
+  border-color: var(--accent-border);
+}
+
+.modal.large .relation-arrow {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 14px;
+  color: var(--text-h);
+}
+
+.modal.large .relation-arrow .arrow {
+  color: var(--accent);
+}
+
+.modal.large .relation-type {
+  font-size: 12px;
+  color: var(--text);
+  text-transform: uppercase;
+  letter-spacing: 0.02em;
+}
+
+.modal.large .selected-concepts-list .selected-concept-item,
+.modal.large .selected-relations-list .selected-relation-item {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  padding: 10px 12px;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  background: var(--code-bg);
+}
+
+.modal.large .selected-concepts-list .concept-info {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.modal.large .selected-concepts-list .concept-name {
+  font-size: 14px;
+  color: var(--text-h);
+  font-weight: 500;
+}
+
+.modal.large .selected-concepts-list .concept-type {
+  font-size: 12px;
+  color: var(--text);
+  text-transform: uppercase;
+  letter-spacing: 0.02em;
+}
+
+.modal.large .selected-relations-list .relation-info {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 14px;
+  color: var(--text-h);
+}
+
+.modal.large .selected-relations-list .relation-arrow {
+  color: var(--accent);
+}
+
+.modal.large .selected-relations-list .relation-type {
+  font-size: 12px;
+  color: var(--text);
+  text-transform: uppercase;
+  letter-spacing: 0.02em;
+}
+
+.modal.large .selected-relations-list .btn-small {
+  padding: 4px 8px;
+  font-size: 12px;
+}
+
 /* Диалог импорта */
 .import-dialog {
   display: flex;
@@ -494,6 +793,44 @@ textarea:focus {
 }
 .small {
   font-size: 13px;
+}
+
+/* Дополнительные стили для конструктора онтологий */
+.modal.large .form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.modal.large .form-group label {
+  font-size: 14px;
+  color: var(--text-h);
+}
+
+.modal.large .form-group input {
+  width: 100%;
+  padding: 8px 10px;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  background: var(--bg);
+  color: var(--text-h);
+  font-size: 14px;
+  box-sizing: border-box;
+}
+
+.modal.large .form-group input:focus {
+  outline: none;
+  border-color: var(--accent);
+}
+
+.modal.large .tdl-preview {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.modal.large .tdl-preview .row {
+  margin: 0;
 }
 
 /* Рабочая область: список всех файлов слева + редактор справа */

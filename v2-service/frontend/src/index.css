@@ -104,3 +104,92 @@ code {
   padding: 4px 8px;
   background: var(--code-bg);
 }
+
+/* Пагинация и поиск для конструктора онтологий */
+.search-box {
+  width: 100%;
+}
+
+.search-box input {
+  width: 100%;
+  padding: 6px 10px;
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  background: var(--bg);
+  color: var(--text);
+  font: inherit;
+  box-sizing: border-box;
+}
+
+.search-box input:focus {
+  outline: none;
+  border-color: var(--accent);
+}
+
+.pagination {
+  font-size: 14px;
+}
+
+.pagination button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.page-size-selector label {
+  font-size: 14px;
+}
+
+.page-size-selector select {
+  padding: 3px 6px;
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  background: var(--bg);
+  color: var(--text);
+  font: inherit;
+}
+
+/* Пагинация в модалке */
+.modal.large .pagination {
+  margin: 0 0 10px;
+}
+
+/* Навигация по фазам */
+.phase-controls {
+  display: flex;
+  gap: 10px;
+  padding: 10px 16px;
+  background: var(--code-bg);
+  border-radius: 6px;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+.phase-indicator {
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  padding: 6px 12px;
+  border-radius: 4px;
+}
+
+.phase-indicator.active {
+  background: var(--accent-bg);
+  color: var(--accent);
+  border: 1px solid var(--accent-border);
+}
+
+.phase-indicator:hover:not(.active) {
+  background: rgba(0, 0, 0, 0.05);
+}
+
+.phase-separator {
+  color: var(--border);
+  font-size: 18px;
+}
+
+.phase-description {
+  font-size: 13px;
+  color: var(--text);
+  margin-left: auto;
+  flex-shrink: 0;
+}

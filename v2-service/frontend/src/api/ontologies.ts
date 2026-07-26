@@ -91,6 +91,42 @@ export async function getAllConcepts(projectId: string, directory_id?: string | 
   return data
 }
 
+// Получить понятия с пагинацией и поиском
+export async function getConceptsPaginated(
+  projectId: string,
+  request: {
+    directory_id?: string | null
+    search?: string
+    page?: number
+    page_size?: number
+  }
+): Promise<{
+  concepts: OntologyConcept[]
+  relations: OntologyRelation[]
+  total: number
+  page: number
+  page_size: number
+  total_pages: number
+  error: string | null
+}> {
+  console.log('API: getConceptsPaginated', { projectId, request })
+  const { data } = await api.post<{
+    concepts: OntologyConcept[]
+    relations: OntologyRelation[]
+    total: number
+    page: number
+    page_size: number
+    total_pages: number
+    error: string | null
+  }>(`/projects/${projectId}/ontologies/concepts`, {
+    directory_id: request.directory_id ?? null,
+    search: request.search ?? '',
+    page: request.page ?? 1,
+    page_size: request.page_size ?? 10,
+  })
+  return data
+}
+
 // Анализ диаграммы относительно корневой директории (для TDL файлов)
 export async function analyzeDiagramInDirectory(projectId: string, directory_id?: string | null): Promise<SemanticCheckResult> {
   console.log('API: analyzeDiagramInDirectory', { projectId, directory_id })

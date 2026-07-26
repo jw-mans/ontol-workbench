@@ -2,9 +2,11 @@
 
 import uuid
 import logging
+from typing import Any, Dict, Optional
 
 from fastapi import APIRouter, Depends, HTTPException, status, Query, Body
 from fastapi.responses import JSONResponse
+from pydantic import BaseModel, Field
 from sqlalchemy import select
 from sqlalchemy.ext.asyncio import AsyncSession
 
@@ -423,6 +425,108 @@ async def get_all_concepts_from_directory(
     return {
         'concepts': concepts,
         'relations': relations,
+        'error': None,
+    }
+
+
+class ConceptListRequest(BaseModel):
+    directory_id: Optional[str] = None
+    search: Optional[str] = None
+    page: int = Field(default=1, ge=1)
+    page_size: int = Field(default=10, ge=1, le=100)
+
+
+@router.post('/concepts', response_model=Dict[str, Any])
+async def get_concepts_with_pagination(
+    request: ConceptListRequest,
+    project: Project = Depends(get_owned_project),
+    session: AsyncSession = Depends(get_async_session),
+) -> dict:
+    """
+    Получить понятия с пагинацией и поиском.
+    
+    Используется для конструктора онтологий - показывает список
+    существующих понятий с пагинацией (10 на страницу) и поиском.
+    
+    :param request: параметры пагинации и поиска
+    :param project: проект, к которому принадлежит пользователь
+    :param session: асинхронная сессия SQLAlchemy
+    
+    :return: словарь с понятиями, общим количеством и пагинацией
+    """
+    directory_id = request.directory_id
+    
+    # Для корневых файлов directory_id может быть None
+    if not directory_id:
+        logger.info(f"Getting concepts from root directory (directory_id is None) for project {project.id}")
+        result = await session.execute(
+            select(File).where(
+                File.project_id == project.id,
+                File.directory_id == None,  # noqa: E711
+                File.name.endswith('.tdl'),
+            )
+        )
+    else:
+        logger.info(f"Getting concepts from directory {directory_id} for project {project.id}")
+        directory = await _get_directory(directory_id, project, session)
+        
+        result = await session.execute(
+            select(File).where(
+                File.project_id == project.id,
+                File.directory_id == directory.id,
+                File.name.endswith('.tdl'),
+            )
+        )
+    
+    tdl_files = result.scalars().all()
+    logger.info(f"Found {len(tdl_files)} .tdl files in directory {directory_id or 'root'}")
+    
+    if not tdl_files:
+        return {
+            'concepts': [],
+            'relations': [],
+            'total': 0,
+            'page': request.page,
+            'page_size': request.page_size,
+            'total_pages': 0,
+            'error': 'No .tdl files in directory',
+        }
+    
+    # Собираем контент всех файлов
+    files_dict = {f.name: f.content for f in tdl_files}
+    
+    # Извлекаем понятия и связи
+    from app.services.render_v3 import get_all_concepts_from_directory, get_all_relations_from_directory
+    
+    concepts = get_all_concepts_from_directory(files_dict)
+    relations = get_all_relations_from_directory(files_dict)
+    
+    logger.info(f"Extracted {len(concepts)} concepts and {len(relations)} relations")
+    
+    # Поиск по понятиям
+    if request.search:
+        search_lower = request.search.lower()
+        concepts = [
+            c for c in concepts
+            if search_lower in c['name'].lower() or search_lower in c.get('type', '').lower()
+        ]
+    
+    # Пагинация
+    total = len(concepts)
+    total_pages = (total + request.page_size - 1) // request.page_size if total > 0 else 0
+    start = (request.page - 1) * request.page_size
+    end = start + request.page_size
+    paginated_concepts = concepts[start:end]
+    
+    logger.info(f"Pagination: page={request.page}, page_size={request.page_size}, total={total}, total_pages={total_pages}")
+    
+    return {
+        'concepts': paginated_concepts,
+        'relations': relations,
+        'total': total,
+        'page': request.page,
+        'page_size': request.page_size,
+        'total_pages': total_pages,
         'error': None,
     }
 
