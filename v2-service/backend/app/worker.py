@@ -227,11 +227,31 @@ def _get_directory_path_recursive(session, dir_obj: 'Directory', prefix: str) ->
     return '/'.join(reversed(path_parts))
 
 
+async def _load_tdl_in_directory(project_id: uuid.UUID, directory_id: uuid.UUID | None) -> dict[str, str]:
+    """Собрать ``.tdl``-файлы из конкретной директории (без поддиректорий).
+    
+    Для v3: каждая директория — отдельная онтология. Собираем только файлы из одной директории.
+    """
+    collected: dict[str, str] = {}
+    async with async_session_maker() as session:
+        files = await session.execute(
+            select(File).where(
+                File.project_id == project_id,
+                File.directory_id == directory_id,
+                File.name.endswith('.tdl'),
+            )
+        )
+        for f in files.scalars().all():
+            collected[f.name] = f.content
+    return collected
+
+
 async def _load_subtree_tdl(root_id: str) -> dict[str, str]:
     """Собрать ``.tdl``-файлы проекта и всех подпроектов (v3).
 
-    Ключи — ``<project_id>/<имя>`` (уникальны между подпроектами; сборка v3
-    сливает по именам классов, не файлов).
+    Для v3: каждый файл рендерится отдельно, но проверка семантической целостности
+    собирает все .tdl файлы в директории entry-файла. Возвращаем просто имена файлов,
+    без project_id/ префиксов (как в _load_files для v1).
     """
     collected: dict[str, str] = {}
     async with async_session_maker() as session:
@@ -245,7 +265,7 @@ async def _load_subtree_tdl(root_id: str) -> dict[str, str]:
             files = await session.execute(select(File).where(File.project_id == pid))
             for f in files.scalars().all():
                 if f.name.endswith('.tdl'):
-                    collected[f'{pid}/{f.name}'] = f.content
+                    collected[f'{f.name}'] = f.content
             children = await session.execute(
                 select(Project.id).where(Project.parent_id == pid)
             )
@@ -292,17 +312,55 @@ def _choose_entry(entry: str | None, files: dict[str, str]) -> str:
 async def render_build(ctx: dict, project_id: str, entry: str | None) -> dict:
     """Собрать проект: прочитать файлы из БД и отрендерить.
 
-    Возвращает dict из ``BuildResult``. Язык берётся из проекта: v3 сливает
-    ``.tdl`` всего поддерева в одну онтологию; v1 материализует только файлы
-    текущего проекта (включая подпроекты как подкаталоги).
+    Возвращает dict из ``BuildResult``. Язык берётся из проекта:
+    - v3: рендерит entry-файл и проверяет семантическую целостность всех .tdl в его директории
+    - v1: материализует только файлы текущего проекта (включая подпроекты как подкаталоги)
     """
     engine = await _load_engine(project_id)
 
     if engine == 'v3':
-        files = await _load_subtree_tdl(project_id)
+        # Для v3: загружаем только entry-файл из его директории
+        # (каждый файл рендерится отдельно, без слияния)
+        files = await _load_subtree_tdl(project_id)  # Сначала соберём всё поддерево
         if not files:
             return asdict(BuildResult(ok=False, error='Project has no files'))
-        chosen = next(iter(files))  # v3 сливает всё поддерево, точка входа любая
+        
+        # Извлекаем имя файла из entry (если entry в формате project_id/filename)
+        entry_name = None
+        if entry:
+            # Убираем project_id/ префикс, если он есть
+            if '/' in entry:
+                entry_name = entry.split('/')[-1]
+            else:
+                entry_name = entry
+        
+        # Выбираем entry-файл
+        chosen = _choose_entry(entry_name, files)
+        
+        # Получаем директорию entry-файла (если есть)
+        entry_dir_id = None
+        async with async_session_maker() as session:
+            result = await session.execute(
+                select(File).where(
+                    File.project_id == uuid.UUID(project_id),
+                    File.name == chosen.split('/')[-1],  # Имя файла без пути
+                )
+            )
+            entry_file = result.scalars().first()
+            if entry_file:
+                entry_dir_id = entry_file.directory_id
+        
+        # Собираем только entry-файл из этой директории (без слияния)
+        dir_files = await _load_tdl_in_directory(uuid.UUID(project_id), entry_dir_id)
+        if not dir_files:
+            return asdict(BuildResult(ok=False, error='No .tdl files in directory'))
+        
+        # Оставляем только entry-файл, так как мы не хотим слияния
+        if chosen in dir_files:
+            files = {chosen: dir_files[chosen]}
+        else:
+            # Если entry-файл не найден в директории, используем всё что есть
+            files = dir_files
     else:
         files = await _load_project_files(uuid.UUID(project_id))
         if not files:

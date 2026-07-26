@@ -1,6 +1,7 @@
 import { useState, type SyntheticEvent } from 'react'
 
 import { Modal } from './Modal'
+import { OntologyConstructor } from './OntologyConstructor'
 
 const ENGINE_EXT: Record<'v1' | 'v3', string> = {
   v1: '.ontol',
@@ -20,6 +21,7 @@ export function CreateFileDialog({
   onCancel: () => void
 }) {
   const [name, setName] = useState('')
+  const [showConstructor, setShowConstructor] = useState(false)
   const ext = ENGINE_EXT[engine]
   // Убираем расширение, если пользователь ввёл его сам — добавим нужное.
   const base = name.trim().replace(/\.(ontol|tdl)$/i, '')
@@ -27,6 +29,20 @@ export function CreateFileDialog({
   function submit(e: SyntheticEvent) {
     e.preventDefault()
     if (base) onSubmit(base + ext, parentId)
+  }
+
+  // Если выбран конструктор онтологий для v3
+  if (engine === 'v3' && showConstructor) {
+    return (
+      <OntologyConstructor
+        directoryId={parentId ?? ''}
+        onCancel={() => setShowConstructor(false)}
+        onSubmit={(fileName) => {
+          onSubmit(fileName, parentId)
+          setShowConstructor(false)
+        }}
+      />
+    )
   }
 
   return (
@@ -44,6 +60,16 @@ export function CreateFileDialog({
         <span className="muted">
           Расширение <code>{ext}</code> — по языку проекта
         </span>
+        {engine === 'v3' && (
+          <button
+            type="button"
+            className="btn"
+            onClick={() => setShowConstructor(true)}
+            style={{ marginTop: '10px' }}
+          >
+            🏗 Конструктор онтологий
+          </button>
+        )}
         <div className="row modal-actions">
           <div className="spacer" />
           <button type="button" className="btn" onClick={onCancel}>

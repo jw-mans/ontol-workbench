@@ -12,7 +12,7 @@ from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from sqlalchemy import text
 
-from app.api import ai, build, files, projects
+from app.api import ai, build, directories, files, ontologies, projects
 from app.auth.backend import auth_backend, fastapi_users
 from app.config import settings
 from app.db import engine
@@ -65,11 +65,10 @@ app.include_router(
 CRUD проектов, файлов и директорий
 """
 
-from app.api import directories
-
 app.include_router(projects.router)
 app.include_router(files.router)
 app.include_router(directories.router)
+app.include_router(ontologies.router)
 
 
 """
