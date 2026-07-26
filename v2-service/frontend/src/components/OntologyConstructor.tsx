@@ -599,6 +599,7 @@ export function OntologyConstructor({ projectId, directoryId, onCancel, onSubmit
       let is_valid = false
       let error_message: string | null = null
       let created_file_id: string | undefined
+      let created_file_name: string | undefined
       if (directoryId) {
         const result = await ontologiesApi.buildOntology(projectId, {
           directory_id: directoryId,
@@ -615,12 +616,15 @@ export function OntologyConstructor({ projectId, directoryId, onCancel, onSubmit
           file_name: fileName,
           template: 'from_relations',
         })
+        console.log('buildOntology result:', result)
         is_valid = result.is_valid
         error_message = result.error
         created_file_id = result.file_id
+        created_file_name = result.file_name
       }
       
       if (is_valid) {
+        console.log('File created:', { fileName, fileId: created_file_id, createdFileName: created_file_name })
         // Передать ID созданного файла для открытия
         onSubmit(fileName, created_file_id)
       } else {

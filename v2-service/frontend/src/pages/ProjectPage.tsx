@@ -633,13 +633,25 @@ export default function ProjectPage() {
         <OntologyConstructorWrapper
           projectId={projectId}
           directoryId={ontologyConstructorDirectoryId}
-          onClose={() => setOntologyConstructorOpen(false)}
-          onSubmit={(_, fileId) => {
+          onClose={() => {
             setOntologyConstructorOpen(false)
             // Файл уже создан через buildOntology в конструкторе
+            // Инвалидировать кэш файлов для обновления списка
+            console.log('Closing constructor, invalidating queries...')
+            queryClient.invalidateQueries({ queryKey: ['files', projectId] })
+          }}
+          onSubmit={(_, fileId) => {
+            console.log('File created in constructor:', { fileId })
+            setOntologyConstructorOpen(false)
+            // Файл уже создан через buildOntology в конструкторе
+            // Инвалидировать кэш файлов для обновления списка
+            queryClient.invalidateQueries({ queryKey: ['files', projectId] })
             // Открыть его для редактирования
             if (fileId) {
+              console.log('Opening file:', fileId)
               openFile(fileId)
+            } else {
+              console.warn('No fileId returned from buildOntology')
             }
           }}
         />
