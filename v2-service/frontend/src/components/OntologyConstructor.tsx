@@ -349,7 +349,7 @@ interface OntologyConstructorProps {
   projectId: string
   directoryId: string
   onCancel: () => void
-  onSubmit: (fileName: string) => void
+  onSubmit: (fileName: string, fileId?: string) => void
 }
 
 export function OntologyConstructor({ projectId, directoryId, onCancel, onSubmit }: OntologyConstructorProps) {
@@ -539,7 +539,7 @@ export function OntologyConstructor({ projectId, directoryId, onCancel, onSubmit
   useEffect(() => {
     if (showPreview) {
       ontologiesApi
-        .generateTDL({
+        .generateTDL(projectId, {
           directory_id: directoryId,
           concepts: selectedConcepts,
           relations: selectedRelations.map(key => {
@@ -559,7 +559,7 @@ export function OntologyConstructor({ projectId, directoryId, onCancel, onSubmit
           setError(message)
         })
     }
-  }, [selectedConcepts, selectedRelations, showPreview, directoryId, fileName, availableRelations])
+  }, [selectedConcepts, selectedRelations, showPreview, directoryId, fileName, availableRelations, projectId])
 
   // Сбросить состояние поиска и страницы при переключении фаз
   useEffect(() => {
@@ -580,7 +580,7 @@ export function OntologyConstructor({ projectId, directoryId, onCancel, onSubmit
   async function handleSave() {
     try {
       // Генерируем TDL и создаём файл через API
-      await ontologiesApi.generateTDL({
+      await ontologiesApi.generateTDL(projectId, {
         directory_id: directoryId,
         concepts: selectedConcepts,
         relations: selectedRelations.map(key => {
@@ -598,6 +598,7 @@ export function OntologyConstructor({ projectId, directoryId, onCancel, onSubmit
       // Создаём файл с сгенерированным TDL-контентом
       let is_valid = false
       let error_message: string | null = null
+      let created_file_id: string | undefined
       if (directoryId) {
         const result = await ontologiesApi.buildOntology(projectId, {
           directory_id: directoryId,
@@ -616,10 +617,12 @@ export function OntologyConstructor({ projectId, directoryId, onCancel, onSubmit
         })
         is_valid = result.is_valid
         error_message = result.error
+        created_file_id = result.file_id
       }
       
       if (is_valid) {
-        onSubmit(fileName)
+        // Передать ID созданного файла для открытия
+        onSubmit(fileName, created_file_id)
       } else {
         setError(error_message || 'Failed to create ontology')
       }

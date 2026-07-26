@@ -634,11 +634,12 @@ export default function ProjectPage() {
           projectId={projectId}
           directoryId={ontologyConstructorDirectoryId}
           onClose={() => setOntologyConstructorOpen(false)}
-          onSubmit={(fileName) => {
+          onSubmit={(_, fileId) => {
             setOntologyConstructorOpen(false)
-            // Создать файл через API
-            if (ontologyConstructorDirectoryId) {
-              createMutation.mutate({ name: fileName, directoryId: ontologyConstructorDirectoryId })
+            // Файл уже создан через buildOntology в конструкторе
+            // Открыть его для редактирования
+            if (fileId) {
+              openFile(fileId)
             }
           }}
         />
@@ -768,7 +769,7 @@ function OntologyConstructorWrapper({
   projectId: string
   directoryId: string | null
   onClose: () => void
-  onSubmit: (fileName: string) => void
+  onSubmit: (fileName: string, fileId?: string) => void
 }) {
   if (!directoryId) {
     return null

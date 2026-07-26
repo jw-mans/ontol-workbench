@@ -58,8 +58,13 @@ export interface OntologyBuildResponse {
 }
 
 // Генерация TDL из понятий и связей
-export async function generateTDL(request: TDLFileCreateRequest): Promise<string> {
-  const { data } = await api.post<string>('/ontologies/generate_tdl', request)
+export async function generateTDL(projectId: string, request: {
+  directory_id: string
+  concepts: OntologyConcept[]
+  relations: OntologyRelation[]
+  file_name?: string
+}): Promise<string> {
+  const { data } = await api.post<string>(`/projects/${projectId}/ontologies/generate_tdl`, request)
   return data
 }
 
@@ -160,7 +165,7 @@ export async function analyzeDiagramInDirectory(projectId: string, directory_id?
 }
 
 // Создание онтологии (с генерацией TDL и рендером)
-export async function buildOntology(projectId: string, request: OntologyBuildRequest): Promise<SemanticCheckResult> {
+export async function buildOntology(projectId: string, request: OntologyBuildRequest): Promise<SemanticCheckResult & { file_id?: string; file_name?: string }> {
   const { data } = await api.post<SemanticCheckResult>(`/projects/${projectId}/ontologies/build`, request)
   return data
 }

@@ -21,6 +21,7 @@ from app.schemas.ontology import (
     OntologyRelation,
     SemanticCheckResult,
     TDLFileCreateRequest,
+    TDLGenerateRequest,
 )
 from app.services.render_v3 import check_semantics, build_tdl_svg
 
@@ -122,7 +123,9 @@ async def build_ontology(
             is_valid=True,
             warnings=warnings if warnings else [],
             planarity=planarity,
-            error=None
+            error=None,
+            file_id=str(file.id),
+            file_name=file.name
         )
     except Exception as e:
         await session.rollback()
@@ -255,7 +258,9 @@ async def check_directory_semantics(
 
 @router.post('/generate_tdl', response_model=str)
 async def generate_tdl_from_ontology(
-    data: TDLFileCreateRequest,
+    data: TDLGenerateRequest,
+    project: Project = Depends(get_owned_project),
+    session: AsyncSession = Depends(get_async_session),
 ) -> str:
     """
     Сгенерировать TDL-код из выбранных понятий и связей.
@@ -263,6 +268,8 @@ async def generate_tdl_from_ontology(
     Не создаёт файл, только генерирует TDL-код для превью.
     
     :param data: параметры генерации TDL
+    :param project: проект, к которому принадлежит пользователь
+    :param session: асинхронная сессия SQLAlchemy
     
     :return: TDL-код в виде строки
     """

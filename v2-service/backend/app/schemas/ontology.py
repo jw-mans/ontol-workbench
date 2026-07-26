@@ -89,11 +89,15 @@ class SemanticCheckResult(BaseModel):
     :param warnings: список предупреждений
     :param planarity: диагностика планарности (если есть проблемы)
     :param error: текст ошибки (если есть)
+    :param file_id: ID созданного файла (если был создан)
+    :param file_name: имя созданного файла (если был создан)
     """
     is_valid: bool = Field(..., description="Валидна ли онтология")
     warnings: list[str] = Field(default_factory=list, description="Список предупреждений")
     planarity: dict | None = Field(default=None, description="Диагностика планарности")
     error: str | None = Field(default=None, description="Текст ошибки")
+    file_id: str | None = Field(default=None, description="ID созданного файла")
+    file_name: str | None = Field(default=None, description="Имя созданного файла")
 
 
 class TDLFileCreateRequest(BaseModel):
@@ -107,6 +111,23 @@ class TDLFileCreateRequest(BaseModel):
     directory_id: str = Field(..., description="UUID директории")
     file_name: str = Field(..., description="Имя TDL-файла")
     content: str = Field(..., description="Содержимое TDL-файла")
+
+
+class TDLGenerateRequest(BaseModel):
+    """
+    Запрос на генерацию TDL-кода из понятий и связей.
+    
+    Не создаёт файл, только генерирует TDL-код для превью.
+    
+    :param directory_id: UUID директории
+    :param concepts: список понятий для генерации
+    :param relations: список связей для генерации
+    :param file_name: имя файла (опционально для информации)
+    """
+    directory_id: str = Field(..., description="UUID директории")
+    concepts: list[OntologyConcept] = Field(default_factory=list, description="Список понятий")
+    relations: list[OntologyRelation] = Field(default_factory=list, description="Список связей")
+    file_name: str = Field(default="ontology.tdl", description="Имя файла (для справки)")
 
 
 class DirectoryIdRequest(BaseModel):
