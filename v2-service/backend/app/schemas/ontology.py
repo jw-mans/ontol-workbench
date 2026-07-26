@@ -107,3 +107,12 @@ class TDLFileCreateRequest(BaseModel):
     directory_id: str = Field(..., description="UUID директории")
     file_name: str = Field(..., description="Имя TDL-файла")
     content: str = Field(..., description="Содержимое TDL-файла")
+
+
+class DirectoryIdRequest(BaseModel):
+    """
+    Запрос с указанием директории.
+    
+    :param directory_id: UUID директории (или null для корня)
+    """
+    directory_id: str | None = Field(default=None, description="UUID директории (или null для корня)")

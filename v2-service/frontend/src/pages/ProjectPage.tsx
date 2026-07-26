@@ -8,6 +8,8 @@ import * as buildApi from '../api/build'
 import type { BuildResult } from '../api/build'
 import * as aiApi from '../api/ai'
 import type { AIHierarchyResult } from '../api/ai'
+import * as ontologiesApi from '../api/ontologies'
+import type { SemanticCheckResult } from '../api/ontologies'
 import type { Directory, FileListItem } from '../api/types'
 import { errorMessage } from '../api/errors'
 import { downloadDataUrl, downloadText } from '../utils/download'
@@ -27,6 +29,7 @@ export default function ProjectPage() {
   const [error, setError] = useState<string | null>(null)
   const [build, setBuild] = useState<BuildResult | null>(null)
   const [ai, setAi] = useState<AIHierarchyResult | null>(null)
+  const [analysis, setAnalysis] = useState<SemanticCheckResult | null>(null)
   
   const [openIds, setOpenIds] = useState<string[]>([])
   const [activeId, setActiveId] = useState<string | null>(null)
@@ -46,6 +49,9 @@ export default function ProjectPage() {
     | null
   >(null)
   const [menuJustOpened, setMenuJustOpened] = useState(false)
+  
+  // Список закрытых вкладок (не отображаем их, даже если файл существует)
+  const [closedIds, setClosedIds] = useState<Set<string>>(new Set())
 
   // Проверяем параметр ?import=true из URL
   // Какие опциональные фичи включены на бэкенде (напр. AI-генерация связей).
@@ -71,33 +77,48 @@ export default function ProjectPage() {
   const activeName = files?.find((f) => f.id === activeId)?.name ?? null
   const activeIsTdl = activeName?.endsWith('.tdl') ?? false
 
-  if (files) {
-    const ids = new Set(files.map((f) => f.id))
-    const pruned = openIds.filter((id) => ids.has(id))
-    if (pruned.length !== openIds.length) {
-      setOpenIds(pruned)
-    }
+  // Фильтруем openIds, исключая закрытые вкладки
+  const effectiveOpenIds = useMemo(() => {
+    return openIds.filter(id => !closedIds.has(id))
+  }, [openIds, closedIds])
+  
+  // Если активная вкладка была закрыта, сбросить её
+  if (activeId && closedIds.has(activeId)) {
+    setActiveId(null)
   }
   
-  if (activeId !== null && !openIds.includes(activeId)) {
-    setActiveId(openIds.length > 0 ? openIds[openIds.length - 1] : null)
-  } else if (activeId === null && openIds.length > 0) {
-    setActiveId(openIds[openIds.length - 1])
+  // Проверяем, какие файлы остались в проекте
+  if (files) {
+    const fileIds = new Set(files.map((f) => f.id))
+    // Очищаем closedIds от файлов, которых больше нет в проекте
+    const validClosedIds = new Set(closedIds)
+    fileIds.forEach(id => validClosedIds.delete(id))
+    if (validClosedIds.size !== closedIds.size) {
+      setClosedIds(validClosedIds)
+    }
   }
 
   function openFile(id: string) {
+    // Удаляем из закрытых, если был закрыт
+    if (closedIds.has(id)) {
+      const newClosed = new Set(closedIds)
+      newClosed.delete(id)
+      setClosedIds(newClosed)
+    }
     setOpenIds((prev) => (prev.includes(id) ? prev : [...prev, id]))
     setActiveId(id)
   }
 
   function closeTab(id: string) {
-    const idx = openIds.indexOf(id)
-    const next = openIds.filter((x) => x !== id)
-    setOpenIds(next)
+    // Добавляем в закрытые
+    setClosedIds(prev => new Set(prev).add(id))
+    // Удаляем из openIds
+    const newOpenIds = openIds.filter(x => x !== id)
+    setOpenIds(newOpenIds)
     // Сбросить activeId, если закрыт текущий файл
     if (activeId === id) {
       // Если остались другие файлы, выбрать последний, иначе сбросить
-      setActiveId(next.length > 0 ? next[idx] ?? next[idx - 1] ?? null : null)
+      setActiveId(newOpenIds.length > 0 ? newOpenIds[newOpenIds.length - 1] : null)
     }
   }
 
@@ -109,8 +130,8 @@ export default function ProjectPage() {
     // Если нет directory_id, возвращаем только имя
     if (!file.directory_id) return fileName
     
-    // Ищем другие ОТКРЫТЫЕ файлы с таким же именем
-    const otherOpenFilesWithSameName = openIds
+    // Ищем другие ОТКРЫТЫЕ файлы с таким же именем (используем effectiveOpenIds)
+    const otherOpenFilesWithSameName = effectiveOpenIds
       .filter((id) => id !== fileId)
       .map((id) => files?.find((f) => f.id === id))
       .filter((f): f is FileListItem => !!f && f.name === fileName)
@@ -251,6 +272,26 @@ export default function ProjectPage() {
     onSuccess: (res) => {
       setError(null)
       setAi(res)
+    },
+    onError: (err) => setError(errorMessage(err)),
+  })
+
+  // Анализ диаграммы относительно корневой директории (для TDL файлов)
+  const analysisMutation = useMutation({
+    mutationFn: async () => {
+      // Получаем directory_id для активного файла
+      const file = files?.find((f) => f.id === activeId)
+      if (!file) {
+        throw new Error('Файл не найден')
+      }
+      console.log('Analysis: Active file', { fileId: activeId, fileName: file.name, directoryId: file.directory_id })
+      // Для корневых файлов (directory_id === null) не передаем его
+      // Backend обработает это как "корневая директория"
+      return ontologiesApi.analyzeDiagramInDirectory(projectId, file.directory_id || null)
+    },
+    onSuccess: (res) => {
+      setError(null)
+      setAnalysis(res)
     },
     onError: (err) => setError(errorMessage(err)),
   })
@@ -468,12 +509,11 @@ export default function ProjectPage() {
         </aside>
 
         <div className="editor-area">
-          {openIds.length > 0 && (
+          {effectiveOpenIds.length > 0 && (
             <div className="tabs">
-              {openIds.map((id) => {
+              {effectiveOpenIds.map((id) => {
                 const f = files?.find((x) => x.id === id)
                 if (!f) return null
-                const isTdl = f.name.endsWith('.tdl')
                 return (
                   <div
                     key={id}
@@ -486,16 +526,14 @@ export default function ProjectPage() {
                     >
                       {getUniqueFileName(id, f.name)}
                     </button>
-                    {!isTdl && (
-                      <button
-                        type="button"
-                        className="tab-close"
-                        title="Закрыть вкладку"
-                        onClick={() => closeTab(id)}
-                      >
-                        ×
-                      </button>
-                    )}
+                    <button
+                      type="button"
+                      className="tab-close"
+                      title="Закрыть вкладку"
+                      onClick={() => closeTab(id)}
+                    >
+                      ×
+                    </button>
                   </div>
                 )
               })}
@@ -531,6 +569,17 @@ export default function ProjectPage() {
                     {aiMutation.isPending ? 'Генерация…' : 'Связи (AI)'}
                   </button>
                 )}
+                {activeIsTdl && (
+                  <button
+                    type="button"
+                    className="btn"
+                    disabled={analysisMutation.isPending}
+                    onClick={() => analysisMutation.mutate()}
+                    title="Анализировать диаграмму относительно корневой директории"
+                  >
+                    {analysisMutation.isPending ? 'Анализ…' : 'Анализ (директория)'}
+                  </button>
+                )}
                 <span className="muted save-status">{saveStatus}</span>
               </div>
             </div>
@@ -557,6 +606,13 @@ export default function ProjectPage() {
           ai={ai}
           baseName={(activeName ?? 'hierarchy').replace(/\.ontol$/, '')}
           onClose={() => setAi(null)}
+        />
+      )}
+
+      {analysis && (
+        <AnalysisPanel
+          analysis={analysis}
+          onClose={() => setAnalysis(null)}
         />
       )}
 
@@ -869,6 +925,69 @@ function BuildPanel({
             Скачать .puml
           </button>
         </details>
+      )}
+    </section>
+  )
+}
+
+function AnalysisPanel({
+  analysis,
+  onClose,
+}: {
+  analysis: ontologiesApi.SemanticCheckResult
+  onClose: () => void
+}) {
+  return (
+    <section className="build-panel card">
+      <div className="row build-head">
+        <h2>Анализ диаграммы (директория)</h2>
+        <div className="spacer" />
+        <button type="button" className="btn" onClick={onClose}>
+          Скрыть
+        </button>
+      </div>
+
+      {analysis.error && <p className="error">{analysis.error}</p>}
+
+      {analysis.warnings.length > 0 && (
+        <ul className="warnings">
+          {analysis.warnings.map((w, i) => (
+            <li key={i} className="muted">
+              ⚠ {w}
+            </li>
+          ))}
+        </ul>
+      )}
+      
+      {analysis.planarity && (
+        <div className="planarity-info">
+          <h3>Планарность</h3>
+          {analysis.planarity.kind ? (
+            <p className="muted">
+              Тип нарушения: <strong>{analysis.planarity.kind}</strong>
+            </p>
+          ) : (
+            <p className="muted">Граф планарен</p>
+          )}
+          
+          {analysis.planarity.labels && analysis.planarity.labels.length > 0 && (
+            <div className="row">
+              <strong>Затронутые классы:</strong>
+              <span>{analysis.planarity.labels.join(', ')}</span>
+            </div>
+          )}
+          
+          {analysis.planarity.subgraphs && analysis.planarity.subgraphs.length > 0 && (
+            <div className="planarity-list">
+              <strong>Подграфы-нарушители:</strong>
+              {analysis.planarity.subgraphs.map((s, i) => (
+                <div key={i} className="planarity-subgraph">
+                  <span>{s.kind ?? 'подграф'}: {s.labels?.join(', ')}</span>
+                </div>
+              ))}
+            </div>
+          )}
+        </div>
       )}
     </section>
   )

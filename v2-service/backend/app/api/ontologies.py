@@ -3,7 +3,8 @@
 import uuid
 import logging
 
-from fastapi import APIRouter, Depends, HTTPException, status
+from fastapi import APIRouter, Depends, HTTPException, status, Query, Body
+from fastapi.responses import JSONResponse
 from sqlalchemy import select
 from sqlalchemy.ext.asyncio import AsyncSession
 
@@ -35,6 +36,7 @@ async def _get_directory(
     except ValueError:
         raise HTTPException(status.HTTP_400_BAD_REQUEST, 'Invalid directory ID format')
     
+    logger.info(f"Looking for directory {dir_uuid} in project {project.id}")
     result = await session.execute(
         select(Directory).where(
             Directory.id == dir_uuid,
@@ -43,7 +45,9 @@ async def _get_directory(
     )
     directory = result.scalars().first()
     if directory is None:
+        logger.error(f"Directory {dir_uuid} not found in project {project.id}")
         raise HTTPException(status.HTTP_404_NOT_FOUND, 'Directory not found')
+    logger.info(f"Found directory {directory.id} with name '{directory.name}'")
     return directory
 
 
@@ -167,7 +171,7 @@ async def check_ontology_semantics(
 
 @router.post('/check_directory', response_model=SemanticCheckResult)
 async def check_directory_semantics(
-    directory_id: str,
+    request: dict = Body(...),
     project: Project = Depends(get_owned_project),
     session: AsyncSession = Depends(get_async_session),
 ) -> SemanticCheckResult:
@@ -177,23 +181,135 @@ async def check_directory_semantics(
     Объединяет все .tdl файлы в директории и проверяет целостность.
     Не рендерит SVG, только проверяет модель.
     
-    :param directory_id: UUID директории
+    :param request: тело запроса с directory_id
     :param project: проект, к которому принадлежит пользователь
     :param session: асинхронная сессия SQLAlchemy
     
     :return: SemanticCheckResult с результатами проверки
     """
-    directory = await _get_directory(directory_id, project, session)
+    import pprint
     
-    # Собираем все .tdl файлы в директории
-    result = await session.execute(
-        select(File).where(
-            File.project_id == project.id,
-            File.directory_id == directory.id,
-            File.name.endswith('.tdl'),
+    directory_id = request.get('directory_id')
+    
+    # Для корневых файлов directory_id может быть None
+    if not directory_id:
+        logger.info(f"Checking root directory (directory_id is None) for project {project.id}")
+        # Собираем все .tdl файлы из корня (directory_id IS NULL)
+        result = await session.execute(
+            select(File).where(
+                File.project_id == project.id,
+                File.directory_id == None,  # noqa: E711
+                File.name.endswith('.tdl'),
+            )
         )
-    )
+    else:
+        logger.info(f"Checking directory {directory_id} for project {project.id}")
+        directory = await _get_directory(directory_id, project, session)
+        
+        # Собираем все .tdl файлы в директории
+        result = await session.execute(
+            select(File).where(
+                File.project_id == project.id,
+                File.directory_id == directory.id,
+                File.name.endswith('.tdl'),
+            )
+        )
+    
     tdl_files = result.scalars().all()
+    logger.info(f"Found {len(tdl_files)} .tdl files in directory {directory_id or 'root'}")
+    for f in tdl_files:
+        logger.info(f"  - File: {f.name}, directory_id: {f.directory_id}, content length: {len(f.content)}")
+    
+    # Debug: print ALL files in project for diagnosis
+    all_files_result = await session.execute(
+        select(File).where(File.project_id == project.id)
+    )
+    all_files = all_files_result.scalars().all()
+    logger.info(f"Total files in project {project.id}: {len(all_files)}")
+    for f in all_files:
+        logger.info(f"  - ALL File: {f.name}, directory_id: {f.directory_id}")
+    
+    if not tdl_files:
+        return SemanticCheckResult(
+            is_valid=True,
+            warnings=["No .tdl files in directory"],
+            planarity=None,
+            error=None
+        )
+    
+    # Собираем контент всех файлов
+    tdl_contents = [f.content for f in tdl_files]
+    
+    # Проверяем семантическую целостность
+    warnings, planarity, error = check_semantics(tdl_contents, strict=False)
+    
+    return SemanticCheckResult(
+        is_valid=error is None,
+        warnings=warnings if warnings else [],
+        planarity=planarity,
+        error=error
+    )
+
+
+@router.post('/analyze_directory', response_model=SemanticCheckResult)
+async def analyze_diagram_in_directory(
+    request: dict = Body(...),
+    project: Project = Depends(get_owned_project),
+    session: AsyncSession = Depends(get_async_session),
+) -> SemanticCheckResult:
+    """
+    Анализировать диаграмму относительно корневой директории (для TDL файлов).
+    
+    Рендерит каждый .tdl файл отдельно и проверяет семантическую целостность
+    всей директории. Предоставляет детальную информацию о планарности графа.
+    
+    :param request: тело запроса с directory_id
+    :param project: проект, к которому принадлежит пользователь
+    :param session: асинхронная сессия SQLAlchemy
+    
+    :return: SemanticCheckResult с результатами анализа
+    """
+    import pprint
+    
+    directory_id = request.get('directory_id')
+    
+    # Для корневых файлов directory_id может быть None
+    if not directory_id:
+        logger.info(f"Checking root directory (directory_id is None) for project {project.id}")
+        # Собираем все .tdl файлы из корня (directory_id IS NULL)
+        result = await session.execute(
+            select(File).where(
+                File.project_id == project.id,
+                File.directory_id == None,  # noqa: E711
+                File.name.endswith('.tdl'),
+            )
+        )
+    else:
+        logger.info(f"Checking directory {directory_id} for project {project.id}")
+        directory = await _get_directory(directory_id, project, session)
+        
+        # Собираем все .tdl файлы в директории
+        result = await session.execute(
+            select(File).where(
+                File.project_id == project.id,
+                File.directory_id == directory.id,
+                File.name.endswith('.tdl'),
+            )
+        )
+    
+    tdl_files = result.scalars().all()
+    logger.info(f"Found {len(tdl_files)} .tdl files in directory {directory_id or 'root'}")
+    for f in tdl_files:
+        logger.info(f"  - File: {f.name}, directory_id: {f.directory_id}, content length: {len(f.content)}")
+    
+    # Debug: print ALL files in project for diagnosis
+    all_files_result = await session.execute(
+        select(File).where(File.project_id == project.id)
+    )
+    all_files = all_files_result.scalars().all()
+    logger.info(f"Total files in project {project.id}: {len(all_files)}")
+    for f in all_files:
+        logger.info(f"  - ALL File: {f.name}, directory_id: {f.directory_id}")
     
     if not tdl_files:
         return SemanticCheckResult(

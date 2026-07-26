@@ -69,8 +69,19 @@ export async function checkTDLContent(tdl_content: string): Promise<SemanticChec
 }
 
 // Проверка семантической целостности директории
-export async function checkDirectorySemantics(directory_id: string): Promise<SemanticCheckResult> {
-  const { data } = await api.post<SemanticCheckResult>('/ontologies/check_directory', { directory_id })
+export async function checkDirectorySemantics(directory_id?: string | null): Promise<SemanticCheckResult> {
+  console.log('API: checkDirectorySemantics', { directory_id })
+  const { data } = await api.post<SemanticCheckResult>('/ontologies/check_directory', directory_id ? { directory_id } : {})
+  return data
+}
+
+// Анализ диаграммы относительно корневой директории (для TDL файлов)
+export async function analyzeDiagramInDirectory(projectId: string, directory_id?: string | null): Promise<SemanticCheckResult> {
+  console.log('API: analyzeDiagramInDirectory', { projectId, directory_id })
+  const { data } = await api.post<SemanticCheckResult>(
+    `/projects/${projectId}/ontologies/analyze_directory`,
+    directory_id ? { directory_id } : {}
+  )
   return data
 }
 
