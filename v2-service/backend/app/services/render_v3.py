@@ -331,15 +331,15 @@ def get_all_relations_from_directory(files: dict[str, str]) -> list[dict]:
         diagram = build_diagram(doc)
 
         relations = []
-
+        print('До обобщений')
         # Обобщения
         for gen in diagram.generalizations:
             relations.append({
                 'relation_type': 'generalization',
-                'from_concept': gen.specific.name if isinstance(gen.specific, dict) else gen.specific.name,
-                'to_concept': gen.general.name if isinstance(gen.general, dict) else gen.general.name,
+                'from_concept': gen.specific.name,
+                'to_concept': gen.general.name,
             })
-
+        print('До ассоциаций')
         # Ассоциации
         for assoc in diagram.associations:
             # Для простых ассоциаций с двумя полюсами
@@ -367,8 +367,8 @@ def get_all_relations_from_directory(files: dict[str, str]) -> list[dict]:
                     rel_type = 'association'
 
                 # Определяем участников
-                from_concept = end1.participant.name if isinstance(end1.participant, dict) else end1.participant.name
-                to_concept = end2.participant.name if isinstance(end2.participant, dict) else end2.participant.name
+                from_concept = end1.participant.name
+                to_concept = end2.participant.name
 
                 # Собираем кратность
                 multiplicity_from = None
@@ -399,22 +399,22 @@ def get_all_relations_from_directory(files: dict[str, str]) -> list[dict]:
                     'multiplicity_from': multiplicity_from,
                     'multiplicity_to': multiplicity_to,
                 })
-
+        print('До зависимостей')
         # Зависимости
         for dep in diagram.dependencies:
-            client_name = dep.client.name if isinstance(dep.client, dict) else dep.client.name
-            supplier_name = dep.supplier.name if isinstance(dep.supplier, dict) else dep.supplier.name
+            client_name = dep.client.name
+            supplier_name = dep.supplier.name
             
             relations.append({
                 'relation_type': 'dependency',
                 'from_concept': client_name,
                 'to_concept': supplier_name,
             })
-
+        print('До реализаций')
         # Реализации
         for real in diagram.realizations:
-            implementer_name = real.implementer.name if isinstance(real.implementer, dict) else real.implementer.name
-            interface_name = real.interface.name if isinstance(real.interface, dict) else real.interface.name
+            implementer_name = real.implementer.name
+            interface_name = real.interface_.name
             
             relations.append({
                 'relation_type': 'realization',
@@ -423,5 +423,6 @@ def get_all_relations_from_directory(files: dict[str, str]) -> list[dict]:
             })
 
         return relations
-    except Exception:
+    except Exception as e:
+        print(f"Error in get_all_relations_from_directory: {e}")
         return []

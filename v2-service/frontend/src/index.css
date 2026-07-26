@@ -126,6 +126,15 @@ code {
   border-color: var(--accent);
 }
 
+/* Поиск внутри модалки */
+.modal.large .search-box {
+  margin: 0 0 10px;
+}
+
+.modal.large .search-box input {
+  font-size: 14px;
+}
+
 .pagination {
   font-size: 14px;
 }

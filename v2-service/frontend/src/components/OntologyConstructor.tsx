@@ -87,18 +87,22 @@ function PhaseSelector({
   currentPhase,
   onPhaseChange,
   selectedConceptsCount,
-  availableConceptsCount
+  availableConceptsCount,
+  hasSelectedConcepts
 }: {
   currentPhase: 1 | 2
   onPhaseChange: (phase: 1 | 2) => void
   selectedConceptsCount: number
   availableConceptsCount: number
+  hasSelectedConcepts: boolean
 }) {
+  console.log('PhaseSelector:', { currentPhase, selectedConceptsCount, availableConceptsCount, hasSelectedConcepts })
   return (
     <div className="phase-controls">
       <span
         className={`phase-indicator ${currentPhase === 1 ? 'active' : ''}`}
-        onClick={() => onPhaseChange(1)}
+        onClick={hasSelectedConcepts ? undefined : () => onPhaseChange(1)}
+        style={{ cursor: hasSelectedConcepts ? 'not-allowed' : 'pointer', opacity: hasSelectedConcepts ? 0.5 : 1 }}
       >
         Фаза 1: Понятия
       </span>
@@ -132,15 +136,28 @@ function ConceptSelector({
   onSelect,
   onDeselect,
   showPagination,
-  paginationProps
+  paginationProps,
+  searchQuery,
+  onSearchChange
 }: ConceptSelectorProps & {
   showPagination?: boolean
   paginationProps?: Parameters<typeof ConceptPagination>[0]
+  searchQuery: string
+  onSearchChange: (query: string) => void
 }) {
   return (
     <div className="concept-selector card">
       <div className="row">
         <h3>Доступные понятия</h3>
+      </div>
+      
+      <div className="search-box">
+        <input
+          type="text"
+          placeholder="Поиск понятий..."
+          value={searchQuery}
+          onChange={(e) => onSearchChange(e.target.value)}
+        />
       </div>
       
       <div className="concept-list">
@@ -220,32 +237,38 @@ interface RelationSelectorProps {
 
 function RelationSelector({
   availableRelations,
-  selectedConceptNames,
   selectedRelations,
   onSelect,
   onDeselect,
   showPagination,
-  paginationProps
+  paginationProps,
+  searchQuery,
+  onSearchChange
 }: RelationSelectorProps & {
   showPagination?: boolean
   paginationProps?: Parameters<typeof RelationPagination>[0]
+  searchQuery: string
+  onSearchChange: (query: string) => void
 }) {
-  // Фильтруем связи, которые связывают только выбранные понятия
-  const filteredRelations = useMemo(() => availableRelations.filter(rel => 
-    selectedConceptNames.includes(rel.from_concept) && 
-    selectedConceptNames.includes(rel.to_concept)
-  ), [availableRelations, selectedConceptNames])
-
   const relationKey = (rel: ontologiesApi.OntologyRelation) => `${rel.from_concept}->${rel.to_concept}`
 
   return (
     <div className="relation-selector card">
       <div className="row">
-        <h3>Доступные связи</h3>
+        <h3>Доступные связи ({availableRelations.length})</h3>
+      </div>
+      
+      <div className="search-box">
+        <input
+          type="text"
+          placeholder="Поиск связей..."
+          value={searchQuery}
+          onChange={(e) => onSearchChange(e.target.value)}
+        />
       </div>
       
       <div className="relation-list">
-        {filteredRelations.map(relation => {
+        {availableRelations.map(relation => {
           const key = relationKey(relation)
           const isSelected = selectedRelations.includes(key)
           
@@ -265,7 +288,7 @@ function RelationSelector({
           )
         })}
         
-        {filteredRelations.length === 0 && (
+        {availableRelations.length === 0 && (
           <p className="muted">Нет доступных связей между выбранными понятиями</p>
         )}
       </div>
@@ -334,12 +357,16 @@ export function OntologyConstructor({ projectId, directoryId, onCancel, onSubmit
   const [availableConcepts, setAvailableConcepts] = useState<ontologiesApi.OntologyConcept[]>([])
   const [availableRelations, setAvailableRelations] = useState<ontologiesApi.OntologyRelation[]>([])
   
+  // Связи для фазы 2 (загружаются отдельно)
+  const [phase2Relations, setPhase2Relations] = useState<ontologiesApi.OntologyRelation[]>([])
+  
   // Выбранные данные
   const [selectedConceptNames, setSelectedConceptNames] = useState<string[]>([])
   const [selectedRelations, setSelectedRelations] = useState<string[]>([])
   
   // Состояние модалки
   const [phase, setPhase] = useState<1 | 2>(1) // Текущая фаза: 1 - понятия, 2 - отношения
+  const [hasSelectedConcepts, setHasSelectedConcepts] = useState(false) // Флаг, что была выбрана фаза 2
   const [conceptPage, setConceptPage] = useState(0) // Текущая страница понятий
   const [relationPage, setRelationPage] = useState(0) // Текущая страница отношений
   const itemsPerPage = 10 // Элементов на страницу (фиксировано)
@@ -355,10 +382,14 @@ export function OntologyConstructor({ projectId, directoryId, onCancel, onSubmit
     const loadConcepts = async () => {
       setLoading(true)
       try {
+        console.log('Loading concepts and relations from API...')
         const data = await ontologiesApi.getAllConcepts(projectId, directoryId)
+        console.log('API response:', data)
         if (data.error) {
           setError(data.error)
         } else {
+          console.log('Setting concepts:', data.concepts.length)
+          console.log('Setting relations:', data.relations.length)
           setAvailableConcepts(data.concepts)
           setAvailableRelations(data.relations)
         }
@@ -373,51 +404,114 @@ export function OntologyConstructor({ projectId, directoryId, onCancel, onSubmit
     loadConcepts()
   }, [projectId, directoryId])
 
+  // Загрузить связи между выбранными понятиями при переключении на фазу 2
+  useEffect(() => {
+    const loadRelations = async () => {
+      if (phase === 2 && selectedConceptNames.length > 0) {
+        console.log('Loading relations for selected concepts...', selectedConceptNames)
+        setLoading(true)
+        try {
+          const data = await ontologiesApi.getRelationsForConcepts(projectId, {
+            directory_id: directoryId,
+            concept_names: selectedConceptNames,
+          })
+          console.log('Relations loaded:', data)
+          if (data.error) {
+            console.error('Error loading relations:', data.error)
+            setPhase2Relations([])
+          } else {
+            console.log('Setting phase2 relations:', data.relations.length)
+            setPhase2Relations(data.relations)
+          }
+        } catch (err: unknown) {
+          const message = err instanceof Error ? err.message : String(err)
+          console.error('Failed to load relations:', message)
+          setPhase2Relations([])
+        } finally {
+          setLoading(false)
+        }
+      } else if (phase === 2 && selectedConceptNames.length === 0) {
+        // Если понятий не выбрано, сбрасываем связи
+        setPhase2Relations([])
+      }
+    }
+    
+    loadRelations()
+  }, [phase, selectedConceptNames, projectId, directoryId])
+
   // Получить объекты выбранных понятий
   const selectedConcepts = availableConcepts.filter(c => selectedConceptNames.includes(c.name))
 
-  // Пагинация понятий
+  console.log('=== OntologyConstructor Debug ===')
+  console.log('Available concepts:', availableConcepts.length)
+  console.log('Available relations:', availableRelations.length)
+  console.log('Selected concept names:', selectedConceptNames)
+  console.log('Selected concepts:', selectedConcepts)
+
+  // Поиск понятий
+  const [conceptSearchQuery, setConceptSearchQuery] = useState('')
+
+  // Фильтрация понятий по поисковому запросу
+  const filteredConcepts = useMemo(() => {
+    const query = conceptSearchQuery.toLowerCase().trim()
+    if (!query) return availableConcepts
+    return availableConcepts.filter(c => 
+      c.name.toLowerCase().includes(query) || 
+      c.type.toLowerCase().includes(query)
+    )
+  }, [availableConcepts, conceptSearchQuery])
+
   const paginatedConcepts = useMemo(() => {
     const startIndex = conceptPage * itemsPerPage
     const endIndex = startIndex + itemsPerPage
-    return availableConcepts.slice(startIndex, endIndex)
-  }, [availableConcepts, conceptPage, itemsPerPage])
+    return filteredConcepts.slice(startIndex, endIndex)
+  }, [filteredConcepts, conceptPage, itemsPerPage])
 
-  const totalConceptPages = Math.ceil(availableConcepts.length / itemsPerPage)
+  const totalConceptPages = Math.ceil(filteredConcepts.length / itemsPerPage)
 
-  // Пагинация отношений (только между выбранными понятиями)
-  const relationsBetweenSelected = useMemo(() => {
-    return availableRelations.filter(rel => 
-      selectedConceptNames.includes(rel.from_concept) && 
-      selectedConceptNames.includes(rel.to_concept)
+  // Поиск отношений
+  const [relationSearchQuery, setRelationSearchQuery] = useState('')
+
+  // Фильтрация отношений по поисковому запросу (используем phase2Relations)
+  const filteredRelations = useMemo(() => {
+    const query = relationSearchQuery.toLowerCase().trim()
+    if (!query) return phase2Relations
+    return phase2Relations.filter(r => 
+      r.from_concept.toLowerCase().includes(query) || 
+      r.to_concept.toLowerCase().includes(query) ||
+      r.relation_type.toLowerCase().includes(query)
     )
-  }, [availableRelations, selectedConceptNames])
+  }, [phase2Relations, relationSearchQuery])
 
-  const paginatedRelations = useMemo(() => {
-    const startIndex = relationPage * itemsPerPage
-    const endIndex = startIndex + itemsPerPage
-    return relationsBetweenSelected.slice(startIndex, endIndex)
-  }, [relationsBetweenSelected, relationPage, itemsPerPage])
-
-  const totalRelationPages = Math.ceil(relationsBetweenSelected.length / itemsPerPage)
+  const totalRelationPages = Math.ceil(filteredRelations.length / itemsPerPage)
 
   // Обработчики выбора понятий
   function handleSelectConcept(conceptName: string) {
+    console.log('handleSelectConcept:', conceptName)
     setSelectedConceptNames(prev => [...prev, conceptName])
+    // Установить флаг, что переход на фазу 2 уже был возможен
+    setHasSelectedConcepts(true)
+    // Сбросить состояние поиска при выборе понятия
+    setConceptSearchQuery('')
   }
 
   function handleDeselectConcept(conceptName: string) {
-    // Удалить понятие и все связи с ним
+    console.log('handleDeselectConcept:', conceptName)
     setSelectedConceptNames(prev => prev.filter(name => name !== conceptName))
+    // Удаляем связи, связанные с удаленным понятием
     setSelectedRelations(prev => prev.filter(key => {
       const [from, to] = key.split('->')
       return from !== conceptName && to !== conceptName
     }))
+    // Если нет выбранных понятий, сбросить флаг
+    if (selectedConceptNames.length > 1) return
+    setHasSelectedConcepts(false)
   }
 
   // Обработчики выбора связей
   function handleSelectRelation(relation: ontologiesApi.OntologyRelation) {
     const key = `${relation.from_concept}->${relation.to_concept}`
+    console.log('handleSelectRelation:', key)
     if (!selectedRelations.includes(key)) {
       setSelectedRelations(prev => [...prev, key])
     }
@@ -425,6 +519,7 @@ export function OntologyConstructor({ projectId, directoryId, onCancel, onSubmit
 
   function handleDeselectRelation(relation: ontologiesApi.OntologyRelation) {
     const key = `${relation.from_concept}->${relation.to_concept}`
+    console.log('handleDeselectRelation:', key)
     setSelectedRelations(prev => prev.filter(k => k !== key))
   }
 
@@ -465,6 +560,18 @@ export function OntologyConstructor({ projectId, directoryId, onCancel, onSubmit
         })
     }
   }, [selectedConcepts, selectedRelations, showPreview, directoryId, fileName, availableRelations])
+
+  // Сбросить состояние поиска и страницы при переключении фаз
+  useEffect(() => {
+    console.log('Phase changed:', phase)
+    if (phase === 1) {
+      setConceptSearchQuery('')
+      setConceptPage(0)
+    } else {
+      setRelationSearchQuery('')
+      setRelationPage(0)
+    }
+  }, [phase])
 
   async function handleGenerate() {
     setShowPreview(true)
@@ -541,6 +648,7 @@ export function OntologyConstructor({ projectId, directoryId, onCancel, onSubmit
             onPhaseChange={setPhase}
             selectedConceptsCount={selectedConceptNames.length}
             availableConceptsCount={availableConcepts.length}
+            hasSelectedConcepts={hasSelectedConcepts}
           />
         )}
         
@@ -561,6 +669,8 @@ export function OntologyConstructor({ projectId, directoryId, onCancel, onSubmit
                     onPageChange: setConceptPage,
                     totalCount: availableConcepts.length
                   }}
+                  searchQuery={conceptSearchQuery}
+                  onSearchChange={setConceptSearchQuery}
                 />
               </div>
               
@@ -581,7 +691,7 @@ export function OntologyConstructor({ projectId, directoryId, onCancel, onSubmit
             <div className="row">
               <div className="relations-selector-section" style={{ flex: 1 }}>
                 <RelationSelector
-                  availableRelations={paginatedRelations}
+                  availableRelations={filteredRelations}
                   selectedConceptNames={selectedConceptNames}
                   selectedRelations={selectedRelations}
                   onSelect={handleSelectRelation}
@@ -591,8 +701,10 @@ export function OntologyConstructor({ projectId, directoryId, onCancel, onSubmit
                     currentPage: relationPage,
                     totalPages: totalRelationPages,
                     onPageChange: setRelationPage,
-                    totalCount: relationsBetweenSelected.length
+                    totalCount: phase2Relations.length
                   }}
+                  searchQuery={relationSearchQuery}
+                  onSearchChange={setRelationSearchQuery}
                 />
               </div>
               
@@ -600,14 +712,14 @@ export function OntologyConstructor({ projectId, directoryId, onCancel, onSubmit
                 <SelectedRelationsList
                   selectedRelations={selectedRelations.map(key => {
                     const [from, to] = key.split('->')
-                    return availableRelations.find(r => `${r.from_concept}->${r.to_concept}` === key) || {
+                    return phase2Relations.find(r => `${r.from_concept}->${r.to_concept}` === key) || {
                       relation_type: 'association',
                       from_concept: from,
                       to_concept: to,
                     }
                   })}
                   onDelete={handleDeselectRelation}
-                  totalCount={relationsBetweenSelected.length}
+                  totalCount={phase2Relations.length}
                 />
               </div>
             </div>

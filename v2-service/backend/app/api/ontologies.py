@@ -2,7 +2,7 @@
 
 import uuid
 import logging
-from typing import Any, Dict, Optional
+from typing import Any, Dict, Optional, List
 
 from fastapi import APIRouter, Depends, HTTPException, status, Query, Body
 from fastapi.responses import JSONResponse
@@ -421,6 +421,10 @@ async def get_all_concepts_from_directory(
     relations = get_all_relations_from_directory(files_dict)
     
     logger.info(f"Extracted {len(concepts)} concepts and {len(relations)} relations")
+    for c in concepts:
+        logger.info(f"  - Concept: {c['name']} ({c['type']})")
+    for r in relations:
+        logger.info(f"  - Relation: {r['from_concept']} -> {r['to_concept']} ({r['relation_type']})")
     
     return {
         'concepts': concepts,
@@ -434,6 +438,11 @@ class ConceptListRequest(BaseModel):
     search: Optional[str] = None
     page: int = Field(default=1, ge=1)
     page_size: int = Field(default=10, ge=1, le=100)
+
+
+class RelationsForConceptsRequest(BaseModel):
+    directory_id: Optional[str] = None
+    concept_names: List[str] = Field(default_factory=list)
 
 
 @router.post('/concepts', response_model=Dict[str, Any])
@@ -527,6 +536,105 @@ async def get_concepts_with_pagination(
         'page': request.page,
         'page_size': request.page_size,
         'total_pages': total_pages,
+        'error': None,
+    }
+
+
+class RelationsForConceptsRequest(BaseModel):
+    directory_id: Optional[str] = None
+    concept_names: List[str] = Field(default_factory=list)
+
+
+@router.post('/relations_for_concepts', response_model=Dict[str, Any])
+async def get_relations_for_selected_concepts(
+    request: RelationsForConceptsRequest,
+    project: Project = Depends(get_owned_project),
+    session: AsyncSession = Depends(get_async_session),
+) -> dict:
+    """
+    Получить связи между выбранными понятиями.
+    
+    Используется для фазы 2 конструктора онтологий - показывает
+    связи только между уже выбранными понятиями.
+    
+    :param request: параметры с именами понятий
+    :param project: проект, к которому принадлежит пользователь
+    :param session: асинхронная сессия SQLAlchemy
+    
+    :return: список связей между выбранными понятиями
+    """
+    print(f"\n===relations_for_concepts called===")
+    print(f"directory_id: {request.directory_id}")
+    print(f"concept_names: {request.concept_names}")
+    
+    directory_id = request.directory_id
+    concept_names = request.concept_names
+    
+    logger.info(f"Getting relations for concepts {concept_names} in directory {directory_id} for project {project.id}")
+    
+    # Для корневых файлов directory_id может быть None
+    if not directory_id:
+        logger.info(f"Getting relations from root directory (directory_id is None) for project {project.id}")
+        result = await session.execute(
+            select(File).where(
+                File.project_id == project.id,
+                File.directory_id == None,  # noqa: E711
+                File.name.endswith('.tdl'),
+            )
+        )
+    else:
+        logger.info(f"Getting relations from directory {directory_id} for project {project.id}")
+        directory = await _get_directory(directory_id, project, session)
+        
+        result = await session.execute(
+            select(File).where(
+                File.project_id == project.id,
+                File.directory_id == directory.id,
+                File.name.endswith('.tdl'),
+            )
+        )
+    
+    tdl_files = result.scalars().all()
+    logger.info(f"Found {len(tdl_files)} .tdl files in directory {directory_id or 'root'}")
+    
+    if not tdl_files:
+        return {
+            'relations': [],
+            'error': 'No .tdl files in directory',
+        }
+    
+    # Собираем контент всех файлов
+    files_dict = {f.name: f.content for f in tdl_files}
+    
+    # Извлекаем все связи
+    from app.services.render_v3 import get_all_relations_from_directory
+    all_relations = get_all_relations_from_directory(files_dict)
+    
+    logger.info(f"Extracted {len(all_relations)} total relations from directory")
+    
+    # Добавим логирование каждой связи
+    for i, r in enumerate(all_relations):
+        if i < 10:  # Покажем первые 10
+            logger.info(f"  - Relation {i+1}: {r['from_concept']} -> {r['to_concept']} ({r['relation_type']})")
+        elif i == 10:
+            logger.info(f"  ... and {len(all_relations) - 10} more")
+    
+    # Фильтруем связи только между выбранными понятиями
+    selected_names_set = set(concept_names)
+    logger.info(f"Selected concepts: {concept_names}")
+    filtered_relations = [
+        r for r in all_relations
+        if r['from_concept'] in selected_names_set and r['to_concept'] in selected_names_set
+    ]
+    
+    logger.info(f"Filtered to {len(filtered_relations)} relations between selected concepts")
+    for r in filtered_relations:
+        logger.info(f"  - Filtered: {r['from_concept']} -> {r['to_concept']} ({r['relation_type']})")
+    
+    logger.info(f"Extracted {len(filtered_relations)} relations between {len(concept_names)} selected concepts")
+    
+    return {
+        'relations': filtered_relations,
         'error': None,
     }
 

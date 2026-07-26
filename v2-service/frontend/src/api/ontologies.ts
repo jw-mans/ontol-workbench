@@ -127,6 +127,28 @@ export async function getConceptsPaginated(
   return data
 }
 
+// Получить связи между выбранными понятиями
+export async function getRelationsForConcepts(
+  projectId: string,
+  request: {
+    directory_id?: string | null
+    concept_names: string[]
+  }
+): Promise<{
+  relations: OntologyRelation[]
+  error: string | null
+}> {
+  console.log('API: getRelationsForConcepts', { projectId, request })
+  const { data } = await api.post<{
+    relations: OntologyRelation[]
+    error: string | null
+  }>(`/projects/${projectId}/ontologies/relations_for_concepts`, {
+    directory_id: request.directory_id ?? null,
+    concept_names: request.concept_names ?? [],
+  })
+  return data
+}
+
 // Анализ диаграммы относительно корневой директории (для TDL файлов)
 export async function analyzeDiagramInDirectory(projectId: string, directory_id?: string | null): Promise<SemanticCheckResult> {
   console.log('API: analyzeDiagramInDirectory', { projectId, directory_id })
