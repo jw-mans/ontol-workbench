@@ -808,6 +808,24 @@ def render_association_svg(
     if data_type != "association":
         edge_class += f" uml-{data_type}"
 
+    # Имя ассоциации по центру линии, в SVG рисуется ПОСЛЕ кратностей,
+    # поэтому белый фон перекроет линии под текстом
+    assoc_label = ""
+    if assoc.name:
+        assoc_label = assoc.name
+
+    if assoc_label:
+        if path_d:
+            mid_x, mid_y = _path_label_pos(path_d)
+        else:
+            mid_idx = len(points) // 2
+            mid_x = (points[mid_idx - 1][0] + points[mid_idx][0]) / 2
+            mid_y = (points[mid_idx - 1][1] + points[mid_idx][1]) / 2
+        mid_x = mid_x - _label_text_width(assoc_label) / 2
+        assoc_label_svg = _render_label(assoc_label, mid_x, mid_y, "uml-edge-label", background=True)
+    else:
+        assoc_label_svg = ""
+
     return f"""
 <g class="{edge_class}"
    data-type="{_esc(data_type)}"
@@ -847,6 +865,7 @@ def render_association_svg(
   {_render_qualifier_metadata(e2, 2)}
   {_render_label(mult1 if show_src_mult else "", src_mult_x, src_mult_y, "uml-multiplicity")}
   {_render_label(mult2 if show_tgt_mult else "", tgt_mult_x, tgt_mult_y, "uml-multiplicity")}
+  {assoc_label_svg}
   {extra_content}
 </g>
 """
