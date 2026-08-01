@@ -82,6 +82,8 @@ def _dep_stereotype(s: Optional[str]):
         "подстановка": DependencyStereotype.BIND,
         "use": DependencyStereotype.USE,
         "использование": DependencyStereotype.USE,
+        "manifest": DependencyStereotype.MANIFEST,
+        "манифест": DependencyStereotype.MANIFEST,
         "call": DependencyStereotype.CALL,
         "вызов": DependencyStereotype.CALL,
         "instanceof": DependencyStereotype.INSTANCE_OF,

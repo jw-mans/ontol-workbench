@@ -128,6 +128,7 @@ class DependencyStereotype(str, Enum):
     POWERTYPE = "powertype"
     REFINE = "refine"       # уточнение
     USE = "use"             # общая зависимость
+    MANIFEST = "manifest"   # манифестная зависимость (рендерится как «use»)
 
 
 class AggregationKind(str, Enum):

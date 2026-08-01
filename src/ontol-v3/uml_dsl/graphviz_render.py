@@ -1300,6 +1300,10 @@ def render_dependency_svg(
         mid_x = (points[mid_idx - 1][0] + points[mid_idx][0]) / 2
         mid_y = (points[mid_idx - 1][1] + points[mid_idx][1]) / 2
 
+    # SVG <text> леворыльно выровнен по умолчанию, смещаем x влево
+    # на половину ширины текста для центрирования
+    mid_x = mid_x - _label_text_width(label) / 2
+
     edge_shape = _edge_shape_svg(
         points,
         path_d,
@@ -1316,7 +1320,7 @@ def render_dependency_svg(
    data-tgt="{_esc(tgt)}"
    data-stereotype="{_esc(stereo)}">
   {edge_shape}
-  {_render_label(label, mid_x + 6, mid_y - 6, "uml-edge-label")}
+  {_render_label(label, mid_x, mid_y, "uml-edge-label", background=True)}
 </g>
 """
 
