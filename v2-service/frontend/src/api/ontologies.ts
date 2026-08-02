@@ -33,7 +33,7 @@ export interface SemanticCheckResult {
 
 // Создание TDL файла из понятий и связей
 export interface TDLFileCreateRequest {
-  directory_id: string
+  directory_id?: string
   concepts: OntologyConcept[]
   relations: OntologyRelation[]
   file_name: string
@@ -42,7 +42,7 @@ export interface TDLFileCreateRequest {
 
 // Создание онтологии (директории с файлами)
 export interface OntologyBuildRequest {
-  directory_id: string
+  directory_id?: string
   concepts: OntologyConcept[]
   relations: OntologyRelation[]
   file_name?: string
@@ -59,7 +59,7 @@ export interface OntologyBuildResponse {
 
 // Генерация TDL из понятий и связей
 export async function generateTDL(projectId: string, request: {
-  directory_id: string
+  directory_id?: string
   concepts: OntologyConcept[]
   relations: OntologyRelation[]
   file_name?: string

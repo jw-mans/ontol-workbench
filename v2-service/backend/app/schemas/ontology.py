@@ -62,7 +62,7 @@ class OntologyBuildRequest(BaseModel):
     :param file_name: имя создаваемого TDL-файла (по умолчанию "ontology.tdl")
     :param template: тип шаблона ("empty" или "from_relations")
     """
-    directory_id: str = Field(..., description="UUID директории для создания файла")
+    directory_id: str | None = Field(default=None, description="UUID директории (или null для корня)")
     concepts: list[OntologyConcept] = Field(
         default_factory=list, 
         description="Список выбранных понятий"

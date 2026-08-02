@@ -40,7 +40,7 @@ export function CreateFileDialog({
     return (
       <OntologyConstructor
         projectId={projectId}
-        directoryId={parentId ?? ''}
+        directoryId={parentId}
         onCancel={() => setShowConstructor(false)}
         onSubmit={async (fileName, fileId) => {
           setShowConstructor(false)

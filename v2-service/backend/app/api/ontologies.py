@@ -72,8 +72,11 @@ async def build_ontology(
     
     :return: SemanticCheckResult с результатами проверки
     """
-    # Получаем директорию
-    directory = await _get_directory(data.directory_id, project, session)
+    # Получаем директорию (None для корневых файлов)
+    directory_id_uuid = None
+    if data.directory_id:
+        directory = await _get_directory(data.directory_id, project, session)
+        directory_id_uuid = directory.id  # type: ignore[possibly-undefined]
     
     # Генерируем TDL-код из выбранных понятий и связей
     tdl_content = _generate_tdl_from_ontology(data)
@@ -101,7 +104,7 @@ async def build_ontology(
     try:
         file = File(
             project_id=project.id,
-            directory_id=directory.id,
+            directory_id=directory_id_uuid,
             name=data.file_name if data.file_name.endswith('.tdl') else f"{data.file_name}.tdl",
             content=tdl_content,
         )

@@ -347,7 +347,7 @@ function SelectedRelationsList({ selectedRelations, onDelete, totalCount }: Sele
 
 interface OntologyConstructorProps {
   projectId: string
-  directoryId: string
+  directoryId?: string
   onCancel: () => void
   onSubmit: (fileName: string, fileId?: string) => void
   queryClient?: any
@@ -585,9 +585,8 @@ export function OntologyConstructor({ projectId, directoryId, onCancel, onSubmit
       let error_message: string | null = null
       let created_file_id: string | undefined
       let created_file_name: string | undefined
-      if (directoryId) {
-        const result = await ontologiesApi.buildOntology(projectId, {
-          directory_id: directoryId,
+      const result = await ontologiesApi.buildOntology(projectId, {
+        directory_id: directoryId,
           concepts: selectedConcepts,
           relations: selectedRelations.map(key => {
             const [from, to] = key.split('->')
@@ -606,8 +605,7 @@ export function OntologyConstructor({ projectId, directoryId, onCancel, onSubmit
         error_message = result.error
         created_file_id = result.file_id
         created_file_name = result.file_name
-      }
-      
+
       if (is_valid) {
         console.log('File created:', { fileName, fileId: created_file_id, createdFileName: created_file_name })
         // Инвалидировать кэш файлов для обновления списка
