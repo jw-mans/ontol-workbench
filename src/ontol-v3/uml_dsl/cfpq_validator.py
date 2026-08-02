@@ -6,17 +6,20 @@ from __future__ import annotations
 
 from .rpq_cycles import (
     abab_cycle_vertices,
+    association_cycle_vertices,
+    dependency_cycle_vertices,
     diagram_to_labeled_graph,
     inheritance_cycle_vertices,
+    realization_cycle_vertices,
 )
 
 
 def validate_uml_cycles(diagram) -> tuple[list[str], list[str]]:
     """Вернуть (ошибки, предупреждения) по циклам зависимостей.
 
-    Цикл наследования — жёсткая ошибка (логически невозможен). Антипаттерн
-    a^+ b^+ a^+ b^+ — предупреждение: это архитектурный smell, а не ошибка, и
-    он естественно возникает, например, из пары ассоциация+обобщение.
+    Циклы наследования, зависимостей, ассоциаций и реализаций — жёсткие ошибки.
+    Антипаттерн a^+ c^+ a^+ c^+ — предупреждение: это архитектурный smell, а не
+    ошибка, и он естественно возникает, например, из пары обобщение+ассоциация.
     """
     errors: list[str] = []
     warnings: list[str] = []
@@ -29,9 +32,18 @@ def validate_uml_cycles(diagram) -> tuple[list[str], list[str]]:
     for i in sorted(inheritance_cycle_vertices(n, edges)):
         errors.append(f"Обнаружен цикл наследования для класса '{class_names[i]}'")
 
+    for i in sorted(dependency_cycle_vertices(n, edges)):
+        errors.append(f"Обнаружен цикл зависимостей для класса '{class_names[i]}'")
+
+    for i in sorted(association_cycle_vertices(n, edges)):
+        errors.append(f"Обнаружен цикл ассоциаций для класса '{class_names[i]}'")
+
+    for i in sorted(realization_cycle_vertices(n, edges)):
+        errors.append(f"Обнаружен цикл реализаций для класса '{class_names[i]}'")
+
     for i in sorted(abab_cycle_vertices(n, edges)):
         warnings.append(
-            f"Обнаружен циклический архитектурный антипаттерн взаимосвязи иерархий (a^+ b^+ a^+ b^+) "
+            f"Обнаружен циклический архитектурный антипаттерн взаимосвязи иерархий (a^+ c^+ a^+ c^+) "
             f"для класса '{class_names[i]}'"
         )
 

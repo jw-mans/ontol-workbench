@@ -3,11 +3,14 @@
 Оба шаблона, которые проверяет cfpq_validator, регулярны, так что достаточно
 обычного RPQ вместо КС-запроса:
 
-    цикл наследования   a+           — нетривиальные SCC по рёбрам 'a';
-    антипаттерн         a+ b+ a+ b+  — путь (v, q0) ->* (v, q_f) в G x НКА.
+    цикл наследования         a+  — нетривиальные SCC по рёбрам 'a';
+    антипаттерн               a+ c+ a+ c+  — путь (v, q0) ->* (v, q_f) в G x НКА.
 
-Метки рёбер те же, что в cfpq_validator: 'a' — обобщение, 'b' — зависимость,
-реализация или ассоциация.
+Метки рёбер:
+    'a' — обобщение (generalization)
+    'b' — зависимость (dependency)
+    'c' — ассоциация (association, aggregation, composition, assoc. class)
+    'r' — реализация (realization)
 """
 
 from __future__ import annotations
@@ -52,26 +55,26 @@ def diagram_to_labeled_graph(diagram) -> Tuple[List[str], List[Edge]]:
     for d in dependencies:
         edges.append((idx[d.client.name], 'b', idx[d.supplier.name]))
     for r in realizations:
-        edges.append((idx[r.implementer.name], 'b', idx[r.interface_.name]))
+        edges.append((idx[r.implementer.name], 'r', idx[r.interface_.name]))
     for a in associations:
         ends = getattr(a, 'ends', [])
         for i in range(len(ends)):
             for j in range(len(ends)):
                 if i != j:
                     edges.append(
-                        (idx[ends[i].participant.name], 'b',
+                        (idx[ends[i].participant.name], 'c',
                          idx[ends[j].participant.name])
                     )
     return ordered, edges
 
 
-# Косарайю по подграфу рёбер 'a': вершина в цикле, если её SCC нетривиальна.
-def inheritance_cycle_vertices(n: int, edges: Sequence[Edge]) -> Set[int]:
+def cycle_vertices(n: int, edges: Sequence[Edge], label: str) -> Set[int]:
+    """Возвращает вершины, участвующие в нетривиальных SCC подграфа с меткой label."""
     adj: List[List[int]] = [[] for _ in range(n)]
     radj: List[List[int]] = [[] for _ in range(n)]
     self_loops: Set[int] = set()
-    for u, label, v in edges:
-        if label != 'a':
+    for u, edge_label, v in edges:
+        if edge_label != label:
             continue
         if u == v:
             self_loops.add(u)
@@ -122,15 +125,35 @@ def inheritance_cycle_vertices(n: int, edges: Sequence[Edge]) -> Set[int]:
     return on_cycle | self_loops
 
 
-# НКА для a+ b+ a+ b+: старт 0, приём 4.
-#   0 -a-> 1 -a-> 1 -b-> 2 -b-> 2 -a-> 3 -a-> 3 -b-> 4 -b-> 4
+def inheritance_cycle_vertices(n: int, edges: Sequence[Edge]) -> Set[int]:
+    """Вершины, участвующие в циклах обобщения (a+)."""
+    return cycle_vertices(n, edges, 'a')
+
+
+def dependency_cycle_vertices(n: int, edges: Sequence[Edge]) -> Set[int]:
+    """Вершины, участвующие в циклах зависимостей (b+)."""
+    return cycle_vertices(n, edges, 'b')
+
+
+def association_cycle_vertices(n: int, edges: Sequence[Edge]) -> Set[int]:
+    """Вершины, участвующие в циклах ассоциаций/агрегаций/композиций (c+)."""
+    return cycle_vertices(n, edges, 'c')
+
+
+def realization_cycle_vertices(n: int, edges: Sequence[Edge]) -> Set[int]:
+    """Вершины, участвующие в циклах реализаций (r+)."""
+    return cycle_vertices(n, edges, 'r')
+
+
+# НКА для a+ c+ a+ c+: старт 0, приём 4.
+#   0 -a-> 1 -a-> 1 -c-> 2 -c-> 2 -a-> 3 -a-> 3 -c-> 4 -c-> 4
 # Вершина v нарушает, если (v,0) достижимо до (v,4) в произведении с графом.
 ABAB_NFA: Dict[int, Dict[str, Tuple[int, ...]]] = {
     0: {'a': (1,)},
-    1: {'a': (1,), 'b': (2,)},
-    2: {'b': (2,), 'a': (3,)},
-    3: {'a': (3,), 'b': (4,)},
-    4: {'b': (4,)},
+    1: {'a': (1,), 'c': (2,)},
+    2: {'c': (2,), 'a': (3,)},
+    3: {'a': (3,), 'c': (4,)},
+    4: {'c': (4,)},
 }
 ABAB_START = 0
 ABAB_ACCEPT = frozenset({4})
