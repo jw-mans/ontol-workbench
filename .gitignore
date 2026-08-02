@@ -47,3 +47,5 @@ alembic/versions/
 
 # Extra docs
 practice-report/
+
+src/digr/test
