@@ -4,13 +4,16 @@
 обычного RPQ вместо КС-запроса:
 
     цикл наследования         a+  — нетривиальные SCC по рёбрам 'a';
-    антипаттерн               a+ c+ a+ c+  — путь (v, q0) ->* (v, q_f) в G x НКА.
+    антипаттерн               a+ g+ a+ g+  — путь (v, q0) ->* (v, q_f) в G x НКА.
 
 Метки рёбер:
     'a' — обобщение (generalization)
     'b' — зависимость (dependency)
-    'c' — ассоциация (association, aggregation, composition, assoc. class)
+    'g' — агрегация/композиция (aggregation/composition, один конец имеет
+         aggregation=AGGREGATION или COMPOSITION, ребро от части к целому)
     'r' — реализация (realization)
+
+Обычные ассоциации (aggregation=NONE) в граф не попадают.
 """
 
 from __future__ import annotations
@@ -58,13 +61,23 @@ def diagram_to_labeled_graph(diagram) -> Tuple[List[str], List[Edge]]:
         edges.append((idx[r.implementer.name], 'r', idx[r.interface_.name]))
     for a in associations:
         ends = getattr(a, 'ends', [])
-        for i in range(len(ends)):
-            for j in range(len(ends)):
-                if i != j:
-                    edges.append(
-                        (idx[ends[i].participant.name], 'c',
-                         idx[ends[j].participant.name])
-                    )
+        # Ищем полюса с агрегацией/композицией — они определяют «целое».
+        agg_end = None
+        part_end = None
+        for end in ends:
+            agg_kind = getattr(end, 'aggregation', None)
+            if agg_kind in ('aggregation', 'composition'):
+                agg_end = end
+            else:
+                part_end = end
+        # Если есть хотя бы один полюс с агрегацией/композицией — это
+        # агрегационная связь. Для бинарной (единственно возможный случай)
+        # добавляем одно ребро от части к целому.
+        if agg_end is not None and part_end is not None:
+            edges.append(
+                (idx[part_end.participant.name], 'g',
+                 idx[agg_end.participant.name])
+            )
     return ordered, edges
 
 
@@ -135,9 +148,9 @@ def dependency_cycle_vertices(n: int, edges: Sequence[Edge]) -> Set[int]:
     return cycle_vertices(n, edges, 'b')
 
 
-def association_cycle_vertices(n: int, edges: Sequence[Edge]) -> Set[int]:
-    """Вершины, участвующие в циклах ассоциаций/агрегаций/композиций (c+)."""
-    return cycle_vertices(n, edges, 'c')
+def aggregation_cycle_vertices(n: int, edges: Sequence[Edge]) -> Set[int]:
+    """Вершины, участвующие в циклах агрегаций/композиций (g+)."""
+    return cycle_vertices(n, edges, 'g')
 
 
 def realization_cycle_vertices(n: int, edges: Sequence[Edge]) -> Set[int]:
@@ -145,15 +158,15 @@ def realization_cycle_vertices(n: int, edges: Sequence[Edge]) -> Set[int]:
     return cycle_vertices(n, edges, 'r')
 
 
-# НКА для a+ c+ a+ c+: старт 0, приём 4.
-#   0 -a-> 1 -a-> 1 -c-> 2 -c-> 2 -a-> 3 -a-> 3 -c-> 4 -c-> 4
+# НКА для a+ g+ a+ g+: старт 0, приём 4.
+#   0 -a-> 1 -a-> 1 -g-> 2 -g-> 2 -a-> 3 -a-> 3 -g-> 4 -g-> 4
 # Вершина v нарушает, если (v,0) достижимо до (v,4) в произведении с графом.
 ABAB_NFA: Dict[int, Dict[str, Tuple[int, ...]]] = {
     0: {'a': (1,)},
-    1: {'a': (1,), 'c': (2,)},
-    2: {'c': (2,), 'a': (3,)},
-    3: {'a': (3,), 'c': (4,)},
-    4: {'c': (4,)},
+    1: {'a': (1,), 'g': (2,)},
+    2: {'g': (2,), 'a': (3,)},
+    3: {'a': (3,), 'g': (4,)},
+    4: {'g': (4,)},
 }
 ABAB_START = 0
 ABAB_ACCEPT = frozenset({4})

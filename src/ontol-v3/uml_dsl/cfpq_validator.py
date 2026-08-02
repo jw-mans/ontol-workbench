@@ -6,7 +6,7 @@ from __future__ import annotations
 
 from .rpq_cycles import (
     abab_cycle_vertices,
-    association_cycle_vertices,
+    aggregation_cycle_vertices,
     dependency_cycle_vertices,
     diagram_to_labeled_graph,
     inheritance_cycle_vertices,
@@ -35,8 +35,8 @@ def validate_uml_cycles(diagram) -> tuple[list[str], list[str]]:
     for i in sorted(dependency_cycle_vertices(n, edges)):
         errors.append(f"Обнаружен цикл зависимостей для класса '{class_names[i]}'")
 
-    for i in sorted(association_cycle_vertices(n, edges)):
-        errors.append(f"Обнаружен цикл ассоциаций для класса '{class_names[i]}'")
+    for i in sorted(aggregation_cycle_vertices(n, edges)):
+        errors.append(f"Обнаружен цикл агрегаций для класса '{class_names[i]}'")
 
     for i in sorted(realization_cycle_vertices(n, edges)):
         errors.append(f"Обнаружен цикл реализаций для класса '{class_names[i]}'")
