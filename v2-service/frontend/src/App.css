@@ -41,6 +41,7 @@ a:hover {
   border: 1px solid var(--border);
   background: var(--bg);
   color: var(--text-h);
+  white-space: nowrap;
   transition: border-color 0.15s, background 0.15s;
 }
 .btn:hover:not(:disabled) {
@@ -185,13 +186,34 @@ textarea:focus {
   margin-top: 24px;
 }
 
-/* Страница проекта */
+/* Пилюля-бейдж языка проекта (v1/v3) */
+.badge {
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  padding: 2px 8px;
+  border-radius: 999px;
+  border: 1px solid var(--accent-border);
+  background: var(--accent-bg);
+  color: var(--accent);
+  white-space: nowrap;
+}
+
+/* Страница проекта — широкая рабочая область (IDE-вид) */
+.page.project-page {
+  max-width: 1500px;
+}
 .project-head {
-  margin-bottom: 12px;
+  margin-bottom: 16px;
+  flex-wrap: wrap;
+  gap: 8px;
 }
 .project-head h1 {
   margin: 0;
   font-size: 26px;
+}
+.project-head .badge {
+  align-self: center;
 }
 .tabs {
   display: flex;
@@ -245,13 +267,16 @@ textarea:focus {
 }
 
 .editor-pane {
-  margin-top: 16px;
+  margin-top: 12px;
+  flex: 1;
+  min-height: 0;
   display: flex;
   flex-direction: column;
   gap: 10px;
 }
 .editor-host {
-  height: 460px;
+  flex: 1;
+  min-height: 320px;
   border: 1px solid var(--border);
   border-radius: 8px;
   overflow: hidden;
@@ -409,37 +434,58 @@ textarea:focus {
   flex: 1;
 }
 
-/* Рабочая область: список всех файлов слева + редактор справа */
+/* Рабочая область: эксплорер слева + редактор справа, во всю высоту (IDE) */
 .workspace {
   display: flex;
-  gap: 16px;
-  align-items: flex-start;
+  gap: 0;
+  align-items: stretch;
+  height: calc(100vh - 210px);
+  min-height: 520px;
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  overflow: hidden;
+  background: var(--bg);
 }
 .file-explorer {
-  flex: 0 0 200px;
+  flex: 0 0 260px;
   display: flex;
   flex-direction: column;
-  gap: 8px;
-  border: 1px solid var(--border);
-  border-radius: 8px;
-  padding: 10px;
+  gap: 6px;
+  padding: 12px 10px;
   background: var(--code-bg);
-  /* Прилипает к верху и не выше экрана — список внутри скроллится сам. */
-  position: sticky;
-  top: 16px;
-  max-height: calc(100vh - 32px);
+  border-right: 1px solid var(--border);
+  overflow-y: auto;
 }
 .explorer-head {
   display: flex;
   align-items: center;
   justify-content: space-between;
   gap: 8px;
+  min-height: 30px;
+  /* Заголовок секции и кнопка «＋» липнут к верху при прокрутке списка. */
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  background: var(--code-bg);
+  padding-bottom: 4px;
+}
+.subprojects-head {
+  margin-top: 14px;
+  padding-top: 12px;
+  border-top: 1px solid var(--border);
 }
 .explorer-title {
-  font-size: 13px;
+  font-size: 12px;
+  font-weight: 600;
   text-transform: uppercase;
-  letter-spacing: 0.04em;
+  letter-spacing: 0.05em;
   color: var(--text);
+}
+/* Компактная «＋»-кнопка секции, как экшены панелей в VSCode */
+.tab-add {
+  padding: 4px 9px;
+  font-size: 13px;
+  line-height: 1.2;
 }
 .empty-explorer {
   font-size: 14px;
@@ -452,9 +498,8 @@ textarea:focus {
   display: flex;
   flex-direction: column;
   gap: 2px;
-  /* Длинный список прокручивается внутри панели, а не растягивает страницу. */
-  overflow-y: auto;
-  min-height: 0;
+  /* Скроллится вся панель (.file-explorer) целиком, а не список отдельно —
+     иначе получаются вложенные скроллбары. Заголовки секций липкие. */
 }
 .file-row {
   display: flex;
@@ -499,6 +544,12 @@ textarea:focus {
 .editor-area {
   flex: 1;
   min-width: 0;
+  display: flex;
+  flex-direction: column;
+  padding: 12px 14px 14px;
+}
+.editor-area .tabs {
+  flex: 0 0 auto;
 }
 
 /* Контекстное меню файла */
