@@ -462,7 +462,6 @@ textarea:focus {
   justify-content: space-between;
   gap: 8px;
   min-height: 30px;
-  /* Заголовок секции и кнопка «＋» липнут к верху при прокрутке списка. */
   position: sticky;
   top: 0;
   z-index: 1;
@@ -498,8 +497,6 @@ textarea:focus {
   display: flex;
   flex-direction: column;
   gap: 2px;
-  /* Скроллится вся панель (.file-explorer) целиком, а не список отдельно —
-     иначе получаются вложенные скроллбары. Заголовки секций липкие. */
 }
 .file-row {
   display: flex;

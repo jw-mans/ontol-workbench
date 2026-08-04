@@ -26,7 +26,7 @@ for p in (str(_ONTOL_V3), str(_HERE)):
 
 _TDL_DIR = _REPO / 'src' / 'digr' / 'ontology-pipeline' / 'data' / 'tdl'
 _SIZES = (1200, 5000, 20000)
-_PY_BASELINE_MAX_N = 20000  # дальше квадратичный чистый Python не ждём
+_PY_BASELINE_MAX_N = 20000
 _SEED = 42
 _REPEATS = 3
 
