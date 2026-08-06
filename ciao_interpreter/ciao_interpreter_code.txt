@@ -1,0 +1,64 @@
+Listing 3. Event queue methods
+initQ () ; \\ queue setup
+isReadyQ () : bool ; \\ the queue has items
+putQ (Event) ; \\ put event in the queue
+moveQ () ; \\ advance queue
+getQ () : Event ; \\ retrieve next event
+
+Listing 4. Internal representation access methods
+getArgsNum (e : Event) : nat ; \\ number of event arguments
+getNewS (e : Event) : name ; \\ direct transition target state name
+getEffect (e : Event) : Effect ; \\ direct transition effect
+getNewS1 (e : Event) : name ; \\ then transition target state name
+getEffect1 (e : Event) : Effect ; \\ then transition effect
+getNewS0 (e : Event) : name ; \\ else transition target state name
+getEffect0 (e : Event) : Effect ; \\ else transition effect
+getActsNum (f : Effect) : nat ; \\ number of actions in the effect
+getTrTag (e : Event) : enum (loop, direct, choice) ; \\ transition tag
+getActTag (a : Action) : enum (call, assign) ; \\ action tag
+getAct (f : Effect, i : nat) : Action ; \\ i-th action of the effect
+getGuard (e : Event) : bool ; \\ guard condition on the transition
+setArgVal2Var (e : Event, i : nat) ; \\ assignment of the i-th event
+\\ argument value to the i-th variable
+\\ in the trigger parameter list
+setExprVal2Var (a : Action) ; \\ assignment of expression value
+\\ to a variable in the assignment action
+setS (a : name, s : name) ; newEvent (а : Action) : Event ; \\ transition of object a to state s
+\\ event creation by call action
+
+Listing 5. Description of the CIAO v.3 language interpreter using the stepwise refinement method
+<CIAO Language Interpreter> (e : Event) ::=
+initQ () ; putQ (e) ; while isReadyQ () do moveQ () ; e = getQ () ; <Process event> (e) ; \\ queue setup
+\\ put start event in the queue
+\\ the queue has items
+\\ advance queue
+\\ retrieve next event
+\\ pass event to automaton object
+<Process event> (e : Event) ::=
+for i in 1..getArgsNum (e) do \\ assign event arguments to variables
+setArgVal2Var (e, i) ; \\ variable assignment
+switch getTrTag (e) \\ 3 tag transition cases
+case direct : \\ direct transition
+<Unconditional transition> (e) ; \\ event transition
+case choice : \\ guard condition transition
+<Conditional transition> (e) ; \\ event transition
+case loop : skip ; \\ error ignored for now
+<Unconditional transition> (e : Event) ::=
+<Execute Effect> (getEffect (e)) ; \\ effect execution
+setS (e.a, getNewS (e)) ; \\ state change
+<Conditional transition> (e : Event) ::=
+if getGuard (e) then \\ guard condition is satisfied
+<Execute Effect> (getEffect1 (e)) ; \\ effect execution
+setS (e.a, getNewS1 (e)) ; \\ state change
+else \\ guard condition is not satisfied
+<Execute Effect> (getEffect0 (e)) ; \\ effect execution
+setS (e.a, getNewS0 (e)) \\ state change
+<Execute Effect> (f : Effect) ::=
+for i in 1..getActsNum (f) do act = getAct (f, i) ; switch getActTag (act) case call : e = newEvent (act) ; putQ (e) ; case assign : setExprVal2Var (act) ; \\ sequence of actions
+\\ next action
+\\ 2 action cases
+\\ create an event
+\\ event constructor
+\\ put event in the queue
+\\ execute the assignment
+\\ variable assignment

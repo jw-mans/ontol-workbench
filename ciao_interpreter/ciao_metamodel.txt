@@ -1,0 +1,46 @@
+CIAO_Prog = array [ name ] of Auto_Obj ; \\ automaton objects
+Auto_Obj = struct { s : name , \\ current state
+V : array [ name ] of Var , \\ variables
+P : array [ name ] of Interface ,\\ interfaces
+S : array [ name ] of State } ; \\ states
+Var = struct { v : Value , \\ current value
+t : Type , \\ variable type
+r : bool } ; \\ is initialized
+I_Kind I_Sort = enum (event, action, condition, assertion) ; \\ interface kind
+= enum (linked, private, public) ; \\ interface sort
+Interface = struct { kind : I_Kind , \\ interface kind
+sort : I_Sort , \\ interface sort
+link : struct { a : name , \\ linked Auto_Obj name
+p : name } } ; \\ linked interface name
+State = array [ name ] of Transition ; \\ outgoing transitions
+Transition = struct { t : Trigger , \\ transition event
+m : union tag : enum (loop, direct, choice) of { \\ cases
+l : Loop , \\ loop transition
+d : Direct , \\ direct transition
+c : Choice } } ; \\ choice transition
+Loop Direct = struct { b : BoolExpr } ; \\ assertion body
+= struct { f : Effect , \\ transition effect
+s : name } ; \\ target state
+Choice = struct { c : BoolExpr , \\ guard condition
+f1 : Effect , \\ then effect
+s1 : name , \\ then target state
+f0 : Effect , \\ else effect
+s0 : name } ; \\ else target state
+Trigger = struct { i : name , \\ interface name
+n : nat , \\ arity
+X : array [1..n] of name } ; \\ variable names
+Effect = struct { n : nat , \\ number of actions
+A : array [1..n] of Action } ; \\ sequence of actions
+Action = union tag : enum (call, assign) of { \\ action
+d : Call , \\ call provided effect
+m : Assign } ; \\ variable assignment
+Call = struct { i : name , \\ interface name
+n : nat , \\ arity
+X : array [1..n] of Expr } ; \\ parameters
+Assign = struct { v : name , \\ LHS variable name
+x : Expr } ; \\ RHS expression
+
+Event = struct { e : name , \\ event name
+a : name , \\ automaton object name
+n : nat , \\ arity
+X : array [1..n] of Value } ; \\ arguments

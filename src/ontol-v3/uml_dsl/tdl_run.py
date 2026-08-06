@@ -20,6 +20,18 @@ from uml_dsl.tdl_parser import parse_tdl, ParseError
 from uml_dsl.tdl_build import build_diagram
 from uml_dsl.graphviz_render import diagram_to_graphviz_svg
 
+def tdl_to_diagram(
+    tdl_text: str,
+    width: int = 900,
+    height: int = 500,
+    theme: str = "light",
+    strict: bool = True,
+):
+    tokens = lex(tdl_text)
+    doc = parse_tdl(tokens)
+    diagram = build_diagram(doc)
+    return diagram
+
 
 def tdl_to_svg(
     tdl_text: str,

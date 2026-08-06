@@ -1,0 +1,481 @@
+КЛАСС CIAO_Prog_Sample1
+АТРИБУТЫ
+  + автоматы [0..*] : Auto_Obj = [Auto_Obj_Producer, Auto_Obj_Consumer]
+  + стартовое_событие : Event = Event_Need_Start
+КОНЕЦ КЛАСС
+
+КЛАСС Event_Need_Start
+АТРИБУТЫ
+  + e : name = "need"
+  + a : name = "Consumer"
+  + n : nat = 1
+  + X [1..*] : Value = ["s"]
+КОНЕЦ КЛАСС
+
+КЛАСС Auto_Obj_Producer
+АТРИБУТЫ
+  + s : name = "ready"
+  + V [0..*] : Var = [Var_s, Var_g]
+  + P [0..*] : Interface = [Interface_Order_Producer, Interface_Done_Producer, Interface_Reclaim_Producer, Interface_Produce_Producer, Interface_Deliver_Producer, Interface_Refuse_Producer, Interface_Acceptable_Producer, Interface_Success_Producer]
+  + S [0..*] : State = [State_Ready_Producer, State_Busy_Producer, State_Error_Producer]
+КОНЕЦ КЛАСС
+
+КЛАСС Var_s
+АТРИБУТЫ
+  + v : Value = null
+  + t : Type = "Specs"
+  + r : bool = false
+КОНЕЦ КЛАСС
+
+КЛАСС Var_g
+АТРИБУТЫ
+  + v : Value = null
+  + t : Type = "Goods"
+  + r : bool = false
+КОНЕЦ КЛАСС
+
+КЛАСС Interface_Order_Producer
+АТРИБУТЫ
+  + kind : I_Kind = event
+  + sort : I_Sort = public
+  + link : struct = { a : "Consumer", p : "order" }
+КОНЕЦ КЛАСС
+
+КЛАСС Interface_Done_Producer
+АТРИБУТЫ
+  + kind : I_Kind = event
+  + sort : I_Sort = private
+  + link : struct = null
+КОНЕЦ КЛАСС
+
+КЛАСС Interface_Reclaim_Producer
+АТРИБУТЫ
+  + kind : I_Kind = event
+  + sort : I_Sort = public
+  + link : struct = { a : "Consumer", p : "reclaim" }
+КОНЕЦ КЛАСС
+
+КЛАСС Interface_Produce_Producer
+АТРИБУТЫ
+  + kind : I_Kind = action
+  + sort : I_Sort = private
+  + link : struct = null
+КОНЕЦ КЛАСС
+
+КЛАСС Interface_Deliver_Producer
+АТРИБУТЫ
+  + kind : I_Kind = action
+  + sort : I_Sort = public
+  + link : struct = { a : "Consumer", p : "deliver" }
+КОНЕЦ КЛАСС
+
+КЛАСС Interface_Refuse_Producer
+АТРИБУТЫ
+  + kind : I_Kind = action
+  + sort : I_Sort = public
+  + link : struct = { a : "Consumer", p : "refuse" }
+КОНЕЦ КЛАСС
+
+КЛАСС Interface_Acceptable_Producer
+АТРИБУТЫ
+  + kind : I_Kind = condition
+  + sort : I_Sort = private
+  + link : struct = null
+КОНЕЦ КЛАСС
+
+КЛАСС Interface_Success_Producer
+АТРИБУТЫ
+  + kind : I_Kind = condition
+  + sort : I_Sort = private
+  + link : struct = null
+КОНЕЦ КЛАСС
+
+КЛАСС State_Ready_Producer
+АТРИБУТЫ
+  + исходящие [0..*] : Transition = [Transition_Order_Ready_Producer, Transition_Reclaim_Ready_Producer]
+КОНЕЦ КЛАСС
+
+КЛАСС State_Busy_Producer
+АТРИБУТЫ
+  + исходящие [0..*] : Transition = [Transition_Done_Busy_Producer]
+КОНЕЦ КЛАСС
+
+КЛАСС State_Error_Producer
+АТРИБУТЫ
+  + исходящие [0..*] : Transition = []
+КОНЕЦ КЛАСС
+
+КЛАСС Transition_Order_Ready_Producer
+АТРИБУТЫ
+  + t : Trigger = Trigger_Order_Producer
+  + m : union = Choice_Order_Ready_Producer
+КОНЕЦ КЛАСС
+
+КЛАСС Choice_Order_Ready_Producer
+АТРИБУТЫ
+  + c : BoolExpr = "acceptable(s)"
+  + f1 : Effect = Effect_Acceptable_Order_Ready
+  + s1 : name = "busy"
+  + f0 : Effect = Effect_Else_Order_Ready
+  + s0 : name = "error"
+КОНЕЦ КЛАСС
+
+КЛАСС Effect_Acceptable_Order_Ready
+АТРИБУТЫ
+  + n : nat = 1
+  + A [1..*] : Action = [Action_Produce_Acceptable]
+КОНЕЦ КЛАСС
+
+КЛАСС Action_Produce_Acceptable
+АТРИБУТЫ
+  + d : Call = Call_Produce_Action
+КОНЕЦ КЛАСС
+
+КЛАСС Call_Produce_Action
+АТРИБУТЫ
+  + i : name = "produce"
+  + n : nat = 1
+  + X [1..*] : Expr = ["s"]
+КОНЕЦ КЛАСС
+
+КЛАСС Effect_Else_Order_Ready
+АТРИБУТЫ
+  + n : nat = 1
+  + A [1..*] : Action = [Action_Refuse_Else_Order]
+КОНЕЦ КЛАСС
+
+КЛАСС Action_Refuse_Else_Order
+АТРИБУТЫ
+  + d : Call = Call_Refuse_Specs
+КОНЕЦ КЛАСС
+
+КЛАСС Call_Refuse_Specs
+АТРИБУТЫ
+  + i : name = "refuse"
+  + n : nat = 1
+  + X [1..*] : Expr = ["s"]
+КОНЕЦ КЛАСС
+
+КЛАСС Transition_Reclaim_Ready_Producer
+АТРИБУТЫ
+  + t : Trigger = Trigger_Reclaim_Producer
+  + m : union = Direct_Reclaim_Ready_Producer
+КОНЕЦ КЛАСС
+
+КЛАСС Direct_Reclaim_Ready_Producer
+АТРИБУТЫ
+  + f : Effect = Effect_Reclaim_Ready_Producer
+  + s : name = "error"
+КОНЕЦ КЛАСС
+
+КЛАСС Effect_Reclaim_Ready_Producer
+АТРИБУТЫ
+  + n : nat = 0
+  + A [1..*] : Action = []
+КОНЕЦ КЛАСС
+
+КЛАСС Transition_Done_Busy_Producer
+АТРИБУТЫ
+  + t : Trigger = Trigger_Done_Producer
+  + m : union = Choice_Done_Busy_Producer
+КОНЕЦ КЛАСС
+
+КЛАСС Choice_Done_Busy_Producer
+АТРИБУТЫ
+  + c : BoolExpr = "success(g)"
+  + f1 : Effect = Effect_Success_Done_Busy
+  + s1 : name = "ready"
+  + f0 : Effect = Effect_Else_Done_Busy
+  + s0 : name = "error"
+КОНЕЦ КЛАСС
+
+КЛАСС Effect_Success_Done_Busy
+АТРИБУТЫ
+  + n : nat = 1
+  + A [1..*] : Action = [Action_Deliver_Success]
+КОНЕЦ КЛАСС
+
+КЛАСС Action_Deliver_Success
+АТРИБУТЫ
+  + d : Call = Call_Deliver_Goods
+КОНЕЦ КЛАСС
+
+КЛАСС Call_Deliver_Goods
+АТРИБУТЫ
+  + i : name = "deliver"
+  + n : nat = 1
+  + X [1..*] : Expr = ["g"]
+КОНЕЦ КЛАСС
+
+КЛАСС Effect_Else_Done_Busy
+АТРИБУТЫ
+  + n : nat = 1
+  + A [1..*] : Action = [Action_Refuse_Else_Done]
+КОНЕЦ КЛАСС
+
+КЛАСС Action_Refuse_Else_Done
+АТРИБУТЫ
+  + d : Call = Call_Refuse_Specs_Done
+КОНЕЦ КЛАСС
+
+КЛАСС Call_Refuse_Specs_Done
+АТРИБУТЫ
+  + i : name = "refuse"
+  + n : nat = 1
+  + X [1..*] : Expr = ["s"]
+КОНЕЦ КЛАСС
+
+КЛАСС Trigger_Order_Producer
+АТРИБУТЫ
+  + i : name = "order"
+  + n : nat = 1
+  + X [1..*] : name = ["s"]
+КОНЕЦ КЛАСС
+
+КЛАСС Trigger_Done_Producer
+АТРИБУТЫ
+  + i : name = "done"
+  + n : nat = 1
+  + X [1..*] : name = ["g"]
+КОНЕЦ КЛАСС
+
+КЛАСС Trigger_Reclaim_Producer
+АТРИБУТЫ
+  + i : name = "reclaim"
+  + n : nat = 1
+  + X [1..*] : name = ["g"]
+КОНЕЦ КЛАСС
+
+КЛАСС Auto_Obj_Consumer
+АТРИБУТЫ
+  + s : name = "normal"
+  + V [0..*] : Var = [Var_s_Consumer, Var_g_Consumer]
+  + P [0..*] : Interface = [Interface_Need_Consumer, Interface_Deliver_Consumer, Interface_Refuse_Consumer, Interface_Order_Consumer, Interface_Consume_Consumer, Interface_Reclaim_Consumer, Interface_Allowed_Consumer, Interface_Valid_Consumer]
+  + S [0..*] : State = [State_Normal_Consumer, State_Waiting_Consumer, State_Error_Consumer]
+КОНЕЦ КЛАСС
+
+КЛАСС Var_s_Consumer
+АТРИБУТЫ
+  + v : Value = null
+  + t : Type = "Specs"
+  + r : bool = false
+КОНЕЦ КЛАСС
+
+КЛАСС Var_g_Consumer
+АТРИБУТЫ
+  + v : Value = null
+  + t : Type = "Goods"
+  + r : bool = false
+КОНЕЦ КЛАСС
+
+КЛАСС Interface_Need_Consumer
+АТРИБУТЫ
+  + kind : I_Kind = event
+  + sort : I_Sort = public
+  + link : struct = null
+КОНЕЦ КЛАСС
+
+КЛАСС Interface_Deliver_Consumer
+АТРИБУТЫ
+  + kind : I_Kind = event
+  + sort : I_Sort = public
+  + link : struct = { a : "Producer", p : "done" }
+КОНЕЦ КЛАСС
+
+КЛАСС Interface_Refuse_Consumer
+АТРИБУТЫ
+  + kind : I_Kind = event
+  + sort : I_Sort = public
+  + link : struct = { a : "Producer", p : "reclaim" }
+КОНЕЦ КЛАСС
+
+КЛАСС Interface_Order_Consumer
+АТРИБУТЫ
+  + kind : I_Kind = action
+  + sort : I_Sort = private
+  + link : struct = null
+КОНЕЦ КЛАСС
+
+КЛАСС Interface_Consume_Consumer
+АТРИБУТЫ
+  + kind : I_Kind = action
+  + sort : I_Sort = private
+  + link : struct = null
+КОНЕЦ КЛАСС
+
+КЛАСС Interface_Reclaim_Consumer
+АТРИБУТЫ
+  + kind : I_Kind = action
+  + sort : I_Sort = private
+  + link : struct = { a : "Producer", p : "reclaim" }
+КОНЕЦ КЛАСС
+
+КЛАСС Interface_Allowed_Consumer
+АТРИБУТЫ
+  + kind : I_Kind = condition
+  + sort : I_Sort = private
+  + link : struct = null
+КОНЕЦ КЛАСС
+
+КЛАСС Interface_Valid_Consumer
+АТРИБУТЫ
+  + kind : I_Kind = condition
+  + sort : I_Sort = private
+  + link : struct = null
+КОНЕЦ КЛАСС
+
+КЛАСС State_Normal_Consumer
+АТРИБУТЫ
+  + исходящие [0..*] : Transition = [Transition_Need_Normal_Consumer]
+КОНЕЦ КЛАСС
+
+КЛАСС State_Waiting_Consumer
+АТРИБУТЫ
+  + исходящие [0..*] : Transition = [Transition_Deliver_Waiting_Consumer, Transition_Refuse_Waiting_Consumer]
+КОНЕЦ КЛАСС
+
+КЛАСС State_Error_Consumer
+АТРИБУТЫ
+  + исходящие [0..*] : Transition = []
+КОНЕЦ КЛАСС
+
+КЛАСС Transition_Need_Normal_Consumer
+АТРИБУТЫ
+  + t : Trigger = Trigger_Need_Consumer
+  + m : union = Choice_Need_Normal_Consumer
+КОНЕЦ КЛАСС
+
+КЛАСС Choice_Need_Normal_Consumer
+АТРИБУТЫ
+  + c : BoolExpr = "allowed(s)"
+  + f1 : Effect = Effect_Allowed_Need_Normal
+  + s1 : name = "waiting"
+  + f0 : Effect = Effect_Else_Need_Normal
+  + s0 : name = "error"
+КОНЕЦ КЛАСС
+
+КЛАСС Effect_Allowed_Need_Normal
+АТРИБУТЫ
+  + n : nat = 1
+  + A [1..*] : Action = [Action_Order_Allowed]
+КОНЕЦ КЛАСС
+
+КЛАСС Action_Order_Allowed
+АТРИБУТЫ
+  + d : Call = Call_Order_Specs
+КОНЕЦ КЛАСС
+
+КЛАСС Call_Order_Specs
+АТРИБУТЫ
+  + i : name = "order"
+  + n : nat = 1
+  + X [1..*] : Expr = ["s"]
+КОНЕЦ КЛАСС
+
+КЛАСС Effect_Else_Need_Normal
+АТРИБУТЫ
+  + n : nat = 1
+  + A [1..*] : Action = [Action_Reclaim_Else_Need]
+КОНЕЦ КЛАСС
+
+КЛАСС Action_Reclaim_Else_Need
+АТРИБУТЫ
+  + d : Call = Call_Reclaim_Goods
+КОНЕЦ КЛАСС
+
+КЛАСС Call_Reclaim_Goods
+АТРИБУТЫ
+  + i : name = "reclaim"
+  + n : nat = 1
+  + X [1..*] : Expr = ["g"]
+КОНЕЦ КЛАСС
+
+КЛАСС Transition_Deliver_Waiting_Consumer
+АТРИБУТЫ
+  + t : Trigger = Trigger_Deliver_Consumer
+  + m : union = Choice_Deliver_Waiting_Consumer
+КОНЕЦ КЛАСС
+
+КЛАСС Choice_Deliver_Waiting_Consumer
+АТРИБУТЫ
+  + c : BoolExpr = "valid(g)"
+  + f1 : Effect = Effect_Valid_Deliver_Waiting
+  + s1 : name = "normal"
+  + f0 : Effect = Effect_Else_Deliver_Waiting
+  + s0 : name = "error"
+КОНЕЦ КЛАСС
+
+КЛАСС Effect_Valid_Deliver_Waiting
+АТРИБУТЫ
+  + n : nat = 1
+  + A [1..*] : Action = [Action_Consume_Valid]
+КОНЕЦ КЛАСС
+
+КЛАСС Action_Consume_Valid
+АТРИБУТЫ
+  + d : Call = Call_Consume_Goods
+КОНЕЦ КЛАСС
+
+КЛАСС Call_Consume_Goods
+АТРИБУТЫ
+  + i : name = "consume"
+  + n : nat = 1
+  + X [1..*] : Expr = ["g"]
+КОНЕЦ КЛАСС
+
+КЛАСС Effect_Else_Deliver_Waiting
+АТРИБУТЫ
+  + n : nat = 1
+  + A [1..*] : Action = [Action_Reclaim_Else_Deliver]
+КОНЕЦ КЛАСС
+
+КЛАСС Action_Reclaim_Else_Deliver
+АТРИБУТЫ
+  + d : Call = Call_Reclaim_Goods_Deliver
+КОНЕЦ КЛАСС
+
+КЛАСС Call_Reclaim_Goods_Deliver
+АТРИБУТЫ
+  + i : name = "reclaim"
+  + n : nat = 1
+  + X [1..*] : Expr = ["g"]
+КОНЕЦ КЛАСС
+
+КЛАСС Transition_Refuse_Waiting_Consumer
+АТРИБУТЫ
+  + t : Trigger = Trigger_Refuse_Consumer
+  + m : union = Direct_Refuse_Waiting_Consumer
+КОНЕЦ КЛАСС
+
+КЛАСС Direct_Refuse_Waiting_Consumer
+АТРИБУТЫ
+  + f : Effect = Effect_Refuse_Waiting_Consumer
+  + s : name = "error"
+КОНЕЦ КЛАСС
+
+КЛАСС Effect_Refuse_Waiting_Consumer
+АТРИБУТЫ
+  + n : nat = 0
+  + A [1..*] : Action = []
+КОНЕЦ КЛАСС
+
+КЛАСС Trigger_Need_Consumer
+АТРИБУТЫ
+  + i : name = "need"
+  + n : nat = 1
+  + X [1..*] : name = ["s"]
+КОНЕЦ КЛАСС
+
+КЛАСС Trigger_Deliver_Consumer
+АТРИБУТЫ
+  + i : name = "deliver"
+  + n : nat = 1
+  + X [1..*] : name = ["g"]
+КОНЕЦ КЛАСС
+
+КЛАСС Trigger_Refuse_Consumer
+АТРИБУТЫ
+  + i : name = "refuse"
+  + n : nat = 1
+  + X [1..*] : name = ["s"]
+КОНЕЦ КЛАСС
