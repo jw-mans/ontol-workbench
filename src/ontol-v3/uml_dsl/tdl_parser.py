@@ -1,6 +1,7 @@
 # Парсер TDL → AST
 from __future__ import annotations
 
+import json
 from typing import List, Optional
 
 from .tdl_ast import (
@@ -95,6 +96,80 @@ class Parser:
             return "~"
         return None
 
+    def _parse_default_value(self) -> Optional[str]:
+        """Парсит значение по умолчанию: JSON (объект/массив), число, строка или идентификатор."""
+        self.expect(TokenKind.EQUALS)
+
+        if self.at(TokenKind.LBRACE):
+            # JSON-объект
+            self.advance()
+            depth = 1
+            buf = ["{"]
+            while depth > 0 and not self.at(TokenKind.EOF):
+                t = self.advance()
+
+                # Сохраняем исходный текст токена
+                if t.kind == TokenKind.LBRACE:
+                    depth += 1
+                    buf.append("{")
+                elif t.kind == TokenKind.RBRACE:
+                    depth -= 1
+                    buf.append("}")
+                elif t.kind == TokenKind.STRING:
+                    # Строка должна быть с кавычками
+                    buf.append(f'"{t.value}"')
+                elif t.kind == TokenKind.NUMBER:
+                    buf.append(str(t.value))
+                elif t.kind == TokenKind.IDENT:
+                    buf.append(t.value)
+                else:
+                    # Для других токенов (COLON, COMMA и т.д.)
+                    buf.append(t.kind.name)  # или t.value если есть
+
+            try:
+                return json.loads("".join(buf))
+            except json.JSONDecodeError as e:
+                raise ParseError(f"Невалидный JSON: {e} в строке {''.join(buf)}")
+
+        if self.at(TokenKind.LBRACKET):
+            # JSON-массив
+            self.advance()
+            depth = 1
+            buf = ["["]
+            while depth > 0 and not self.at(TokenKind.EOF):
+                t = self.advance()
+
+                if t.kind == TokenKind.LBRACKET:
+                    depth += 1
+                    buf.append("[")
+                elif t.kind == TokenKind.RBRACKET:
+                    depth -= 1
+                    buf.append("]")
+                elif t.kind == TokenKind.STRING:
+                    buf.append(f'"{t.value}"')
+                elif t.kind == TokenKind.NUMBER:
+                    buf.append(str(t.value))
+                elif t.kind == TokenKind.IDENT:
+                    buf.append(t.value)
+                else:
+                    buf.append(t.kind.name)
+
+            try:
+                return json.loads("".join(buf))
+            except json.JSONDecodeError as e:
+                raise ParseError(f"Невалидный JSON: {e} в строке {''.join(buf)}")
+
+        if self.at(TokenKind.NUMBER):
+            return self.advance().value
+        if self.at(TokenKind.STRING):
+            return self.advance().value
+        if self.at(TokenKind.IDENT) or self.peek().kind in (TokenKind.ИМЯ, TokenKind.В, TokenKind.КАК):
+            return self._ident_or_keyword()
+        if self.at(TokenKind.EOF):
+            return None
+
+        raise ParseError(f"Ожидалось значение после =, получен {self.peek().kind.name}", self.peek())
+
     def _multiplicity_str(self) -> Optional[str]:
         if self.at(TokenKind.LBRACKET):
             self.advance()
@@ -133,13 +208,7 @@ class Parser:
             self.advance()
             type_ = self.expect_ident()
         if self.at(TokenKind.EQUALS):
-            self.advance()
-            if self.at(TokenKind.NUMBER):
-                default = self.advance().value
-            elif self.at(TokenKind.STRING):
-                default = self.advance().value
-            else:
-                default = self.expect_ident()
+            default = self._parse_default_value()
         if self.at(TokenKind.LBRACE):
             self.advance()
             if self.at(TokenKind.ТОЛЬКО_ЧТЕНИЕ):
@@ -171,13 +240,7 @@ class Parser:
             type_ = self.expect_ident()
 
         if self.at(TokenKind.EQUALS):
-            self.advance()
-            if self.at(TokenKind.NUMBER):
-                default = self.advance().value
-            elif self.at(TokenKind.STRING):
-                default = self.advance().value
-            else:
-                default = self.expect_ident()
+            default = self._parse_default_value()
 
         return ParameterLine(name=name, type_=type_, default=default)
 

@@ -22,6 +22,7 @@ RUN pip install --no-cache-dir -r backend-requirements.txt
 # (см. docker-compose.ai.yml).
 ARG INSTALL_AI=false
 COPY src ./src
+RUN pip config set global.index-url https://mirrors.aliyun.com/pypi/simple/
 RUN if [ "$INSTALL_AI" = "true" ]; then \
         pip install --no-cache-dir -e "./src/ontol-v1[ai]"; \
     else \
