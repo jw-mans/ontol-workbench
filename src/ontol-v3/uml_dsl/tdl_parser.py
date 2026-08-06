@@ -100,15 +100,25 @@ class Parser:
         """Парсит значение по умолчанию: JSON (объект/массив), число, строка или идентификатор."""
         self.expect(TokenKind.EQUALS)
 
+        # Словарь для преобразования токенов в символы
+        token_to_char = {
+            TokenKind.LBRACE: '{',
+            TokenKind.RBRACE: '}',
+            TokenKind.LBRACKET: '[',
+            TokenKind.RBRACKET: ']',
+            TokenKind.COLON: ':',
+            TokenKind.COMMA: ',',
+            TokenKind.SEMICOLON: ';',
+            # добавьте другие токены по необходимости
+        }
+
         if self.at(TokenKind.LBRACE):
-            # JSON-объект
             self.advance()
             depth = 1
             buf = ["{"]
             while depth > 0 and not self.at(TokenKind.EOF):
                 t = self.advance()
 
-                # Сохраняем исходный текст токена
                 if t.kind == TokenKind.LBRACE:
                     depth += 1
                     buf.append("{")
@@ -116,23 +126,31 @@ class Parser:
                     depth -= 1
                     buf.append("}")
                 elif t.kind == TokenKind.STRING:
-                    # Строка должна быть с кавычками
                     buf.append(f'"{t.value}"')
                 elif t.kind == TokenKind.NUMBER:
                     buf.append(str(t.value))
                 elif t.kind == TokenKind.IDENT:
-                    buf.append(t.value)
+                    # Для true/false/null
+                    if t.value.lower() in ('true', 'false', 'null'):
+                        buf.append(t.value.lower())
+                    else:
+                        # Если это просто идентификатор, возможно, это ошибка
+                        buf.append(f'"{t.value}"')
+                elif t.kind in token_to_char:
+                    # Символьные токены (:, ,, {, }, [, ])
+                    buf.append(token_to_char[t.kind])
                 else:
-                    # Для других токенов (COLON, COMMA и т.д.)
-                    buf.append(t.kind.name)  # или t.value если есть
+                    # Неизвестный токен - ошибка или логирование
+                    raise ParseError(f"Неожиданный токен в JSON: {t.kind.name}")
 
+            json_str = "".join(buf)
             try:
-                return json.loads("".join(buf))
+                return json.loads(json_str)
             except json.JSONDecodeError as e:
-                raise ParseError(f"Невалидный JSON: {e} в строке {''.join(buf)}")
+                raise ParseError(f"Невалидный JSON: {e} в строке {json_str}")
 
+        # Аналогично для массива
         if self.at(TokenKind.LBRACKET):
-            # JSON-массив
             self.advance()
             depth = 1
             buf = ["["]
@@ -150,14 +168,20 @@ class Parser:
                 elif t.kind == TokenKind.NUMBER:
                     buf.append(str(t.value))
                 elif t.kind == TokenKind.IDENT:
-                    buf.append(t.value)
+                    if t.value.lower() in ('true', 'false', 'null'):
+                        buf.append(t.value.lower())
+                    else:
+                        buf.append(f'"{t.value}"')
+                elif t.kind in token_to_char:
+                    buf.append(token_to_char[t.kind])
                 else:
-                    buf.append(t.kind.name)
+                    raise ParseError(f"Неожиданный токен в JSON: {t.kind.name}")
 
+            json_str = "".join(buf)
             try:
-                return json.loads("".join(buf))
+                return json.loads(json_str)
             except json.JSONDecodeError as e:
-                raise ParseError(f"Невалидный JSON: {e} в строке {''.join(buf)}")
+                raise ParseError(f"Невалидный JSON: {e} в строке {json_str}")
 
         if self.at(TokenKind.NUMBER):
             return self.advance().value
